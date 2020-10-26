@@ -1,0 +1,12 @@
+{
+    "name": "supportpal/satis",
+    "require": {
+        "composer/satis": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Kieran Brahney",
+            "email": "kieran@supportpal.com"
+        }
+    ]
+}

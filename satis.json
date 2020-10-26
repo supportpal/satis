@@ -1,0 +1,8 @@
+{
+  "name": "SupportPal Repository",
+  "homepage": "https://supportpal.gitlab.io/satis/",
+  "repositories": [
+    {"type": "pear", "url": "https://pear.horde.org"}
+  ],
+  "require-all": true
+}
