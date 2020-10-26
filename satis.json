@@ -1,6 +1,6 @@
 {
   "name": "SupportPal Repository",
-  "homepage": "https://supportpal.gitlab.io/satis/",
+  "homepage": "https://supportpal.github.io/satis/",
   "repositories": [
     {"type": "pear", "url": "https://pear.horde.org"}
   ],
