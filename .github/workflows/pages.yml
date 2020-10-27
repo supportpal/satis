@@ -30,6 +30,7 @@ jobs:
 
       - name: Build satis
         run: |
+          mkdir -p public/dist
           ./vendor/bin/satis build ./satis.json ./public
           sed -i -e 's/\(pear-pear\.horde\.org\/.*\)/\L\1/' public/all.json
 
