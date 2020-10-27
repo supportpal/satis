@@ -5,5 +5,11 @@
   "repositories": [
     {"type": "pear", "url": "https://pear.horde.org"}
   ],
-  "require-all": true
+  "require-all": true,
+  "archive": {
+    "directory": "dist",
+    "format": "tar",
+    "prefix-url": "https://supportpal.github.io/satis/",
+    "skip-dev": true
+  }
 }
