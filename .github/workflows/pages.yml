@@ -29,7 +29,9 @@ jobs:
         run: composer install --prefer-dist --no-interaction --no-progress
 
       - name: Build satis
-        run: ./vendor/bin/satis build ./satis.json ./public
+        run: |
+          ./vendor/bin/satis build ./satis.json ./public
+          sed -i -e 's/\(pear-pear\.horde\.org\/.*\)/\L\1/' public/all.json
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.7.1
