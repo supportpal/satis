@@ -1,7 +1,7 @@
 {
     "name": "supportpal/satis",
     "require": {
-        "composer/satis": "^1.0"
+        "composer/satis": "dev-master"
     },
     "authors": [
         {
