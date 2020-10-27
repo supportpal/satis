@@ -1,6 +1,6 @@
 {
   "name": "SupportPal Repository",
-  "homepage": "https://supportpal.github.io/satis/",
+  "homepage": "https://supportpal.github.io/satis",
   "include-filename": "all.json",
   "repositories": [
     {"type": "pear", "url": "https://pear.horde.org"}
@@ -9,9 +9,6 @@
     "pear-pear.horde.org/horde_imap_client": "~2.30"
   },
   "archive": {
-    "directory": "dist",
-    "format": "tar",
-    "prefix-url": "https://supportpal.github.io/satis/",
-    "skip-dev": true
+    "directory": "dist"
   }
 }
