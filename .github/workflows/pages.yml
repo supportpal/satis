@@ -30,9 +30,10 @@ jobs:
 
       - name: Build satis
         run: |
-          mkdir -p public/dist
           ./vendor/bin/satis build ./satis.json ./public
-          sed -i -e 's/\(pear-pear\.horde\.org\/.*\)/\L\1/' public/all.json
+          shopt -s globstar
+          sed -i -e 's/\(pear-pear\.horde\.org\/.*\)/\L\1/' public/**/*.json
+          sed -i -e 's/"type": "file",/"type": "tar",/' public/**/*.json
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.7.1
