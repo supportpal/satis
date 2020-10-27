@@ -2,8 +2,6 @@
   "name": "SupportPal Repository",
   "homepage": "https://supportpal.github.io/satis",
   "include-filename": "all.json",
-  "repositories": [
-    {"type": "pear", "url": "https://pear.horde.org"}
-  ],
+  "repositories": [],
   "require-all": true
 }
