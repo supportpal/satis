@@ -5,10 +5,5 @@
   "repositories": [
     {"type": "pear", "url": "https://pear.horde.org"}
   ],
-  "require": {
-    "pear-pear.horde.org/horde_imap_client": "~2.30"
-  },
-  "archive": {
-    "directory": "dist"
-  }
+  "require-all": true
 }
