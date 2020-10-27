@@ -1,0 +1,93 @@
+{
+    "packages": {
+        "pear-pear.horde.org/horde_javascriptminify_jsmin": [
+            {
+                "name": "pear-pear.horde.org/horde_javascriptminify_jsmin",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_JavascriptMinify_Jsmin-1.0.0.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_javascriptminify": "<2.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_javascriptminify_jsmin": "== 1.0.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "JSMin"
+                ],
+                "description": "The JSMin javascript minifier driver for use with the Horde_JavascriptMinify package."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_javascriptminify_jsmin",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_JavascriptMinify_Jsmin-1.0.1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_javascriptminify": "<2.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_javascriptminify_jsmin": "== 1.0.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "JSMin"
+                ],
+                "description": "The JSMin javascript minifier driver for use with the Horde_JavascriptMinify package."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_javascriptminify_jsmin",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_JavascriptMinify_Jsmin-1.0.2.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_javascriptminify": "<2.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_javascriptminify_jsmin": "== 1.0.2.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "JSMin"
+                ],
+                "description": "The JSMin javascript minifier driver for use with the Horde_JavascriptMinify package."
+            }
+        ]
+    }
+}

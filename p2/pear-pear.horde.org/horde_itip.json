@@ -1,0 +1,700 @@
+{
+    "packages": {
+        "pear-pear.horde.org/horde_itip": [
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-1.0.0.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 1.0.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "1.0.0RC1",
+                "version_normalized": "1.0.0.0-RC1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-1.0.0RC1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 1.0.0.0-RC1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "1.0.0RC2",
+                "version_normalized": "1.0.0.0-RC2",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-1.0.0RC2.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 1.0.0.0-RC2"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-1.0.1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 1.0.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-1.0.2.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 1.0.2.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-1.0.3.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 1.0.3.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-1.0.4.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 1.0.4.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-1.0.5.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 1.0.5.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "1.0.6",
+                "version_normalized": "1.0.6.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-1.0.6.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 1.0.6.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "1.0.7",
+                "version_normalized": "1.0.7.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-1.0.7.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 1.0.7.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-2.0.0.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 2.0.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "2.0.0alpha1",
+                "version_normalized": "2.0.0.0-alpha1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-2.0.0alpha1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<2.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 2.0.0.0-alpha1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "2.0.0beta1",
+                "version_normalized": "2.0.0.0-beta1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-2.0.0beta1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 2.0.0.0-beta1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-2.0.1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 2.0.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-2.0.2.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 2.0.2.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-2.0.3.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 2.0.3.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "2.0.4",
+                "version_normalized": "2.0.4.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-2.0.4.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 2.0.4.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "2.0.5",
+                "version_normalized": "2.0.5.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-2.0.5.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 2.0.5.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "2.0.6",
+                "version_normalized": "2.0.6.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-2.0.6.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<3.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 2.0.6.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "2.0.7",
+                "version_normalized": "2.0.7.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-2.0.7.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 2.0.7.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-2.1.0.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 2.1.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "2.1.1",
+                "version_normalized": "2.1.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-2.1.1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 2.1.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_itip",
+                "version": "2.1.2",
+                "version_normalized": "2.1.2.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Itip-2.1.2.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_icalendar": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_mime": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_itip": "== 2.1.2.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "This package to generates MIME encapsuled responses to iCalendar invitations."
+            }
+        ]
+    }
+}

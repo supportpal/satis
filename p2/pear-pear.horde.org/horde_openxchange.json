@@ -1,0 +1,102 @@
+{
+    "packages": {
+        "pear-pear.horde.org/horde_openxchange": [
+            {
+                "name": "pear-pear.horde.org/horde_openxchange",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_OpenXchange-1.0.0.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_http": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_openxchange": "== 1.0.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Library to interact with Open-Xchange servers."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_openxchange",
+                "version": "1.0.0alpha1",
+                "version_normalized": "1.0.0.0-alpha1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_OpenXchange-1.0.0alpha1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_http": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_openxchange": "== 1.0.0.0-alpha1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Library to interact with Open-Xchange servers."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_openxchange",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_OpenXchange-1.0.1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_http": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_openxchange": "== 1.0.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Library to interact with Open-Xchange servers."
+            }
+        ]
+    }
+}

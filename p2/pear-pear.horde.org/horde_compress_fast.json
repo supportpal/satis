@@ -1,0 +1,180 @@
+{
+    "packages": {
+        "pear-pear.horde.org/horde_compress_fast": [
+            {
+                "name": "pear-pear.horde.org/horde_compress_fast",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Compress_Fast-1.0.0.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_compress_fast": "== 1.0.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Provides compression suitable for packing strings on-the-fly in PHP code (as opposed to more resource-intensive compression algorithms such as DEFLATE)."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_compress_fast",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Compress_Fast-1.0.1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_compress_fast": "== 1.0.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Provides compression suitable for packing strings on-the-fly in PHP code (as opposed to more resource-intensive compression algorithms such as DEFLATE)."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_compress_fast",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Compress_Fast-1.0.2.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_compress_fast": "== 1.0.2.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Provides compression suitable for packing strings on-the-fly in PHP code (as opposed to more resource-intensive compression algorithms such as DEFLATE)."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_compress_fast",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Compress_Fast-1.0.3.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_compress_fast": "== 1.0.3.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Provides compression suitable for packing strings on-the-fly in PHP code (as opposed to more resource-intensive compression algorithms such as DEFLATE)."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_compress_fast",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Compress_Fast-1.1.0.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_compress_fast": "== 1.1.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Provides compression suitable for packing strings on-the-fly in PHP code (as opposed to more resource-intensive compression algorithms such as DEFLATE)."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_compress_fast",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Compress_Fast-1.1.1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_compress_fast": "== 1.1.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Provides compression suitable for packing strings on-the-fly in PHP code (as opposed to more resource-intensive compression algorithms such as DEFLATE)."
+            }
+        ]
+    }
+}

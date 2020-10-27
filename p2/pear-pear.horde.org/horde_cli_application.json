@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "pear-pear.horde.org/horde_cli_application": [
+            {
+                "name": "pear-pear.horde.org/horde_cli_application",
+                "version": "1.0.0RC1",
+                "version_normalized": "1.0.0.0-RC1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cli_Application-1.0.0RC1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_argv": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_cli": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cli_application": "== 1.0.0.0-RC1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "BSD"
+                ],
+                "description": "A base class with supporting classes that builds a complete command line application."
+            }
+        ]
+    }
+}

@@ -1,0 +1,1092 @@
+{
+    "packages": {
+        "pear-pear.horde.org/horde_alarm": [
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-1.0.0.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 1.0.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "1.0.0RC1",
+                "version_normalized": "1.0.0.0-RC1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-1.0.0RC1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 1.0.0.0-RC1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "1.0.0RC2",
+                "version_normalized": "1.0.0.0-RC2",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-1.0.0RC2.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 1.0.0.0-RC2"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "1.0.0alpha1",
+                "version_normalized": "1.0.0.0-alpha1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-1.0.0alpha1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_core": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_date": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 1.0.0.0-alpha1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "1.0.0beta1",
+                "version_normalized": "1.0.0.0-beta1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-1.0.0beta1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 1.0.0.0-beta1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-1.0.1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 1.0.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-1.0.2.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 1.0.2.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-1.0.3.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 1.0.3.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-1.0.4.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 1.0.4.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-1.0.5.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 1.0.5.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "1.0.6",
+                "version_normalized": "1.0.6.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-1.0.6.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 1.0.6.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "1.0.7",
+                "version_normalized": "1.0.7.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-1.0.7.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 1.0.7.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "1.0.8",
+                "version_normalized": "1.0.8.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-1.0.8.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 1.0.8.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-2.0.0.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 2.0.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "2.0.0RC1",
+                "version_normalized": "2.0.0.0-RC1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-2.0.0RC1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 2.0.0.0-RC1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "2.0.0alpha1",
+                "version_normalized": "2.0.0.0-alpha1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-2.0.0alpha1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 2.0.0.0-alpha1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "2.0.0beta1",
+                "version_normalized": "2.0.0.0-beta1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-2.0.0beta1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 2.0.0.0-beta1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "2.0.0beta2",
+                "version_normalized": "2.0.0.0-beta2",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-2.0.0beta2.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 2.0.0.0-beta2"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-2.0.1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 2.0.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-2.0.2.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 2.0.2.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-2.0.3.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 2.0.3.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "2.0.4",
+                "version_normalized": "2.0.4.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-2.0.4.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 2.0.4.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "2.0.5",
+                "version_normalized": "2.0.5.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-2.0.5.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 2.0.5.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-2.1.0.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 2.1.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "2.2.0",
+                "version_normalized": "2.2.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-2.2.0.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 2.2.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "2.2.1",
+                "version_normalized": "2.2.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-2.2.1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 2.2.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "2.2.10",
+                "version_normalized": "2.2.10.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-2.2.10.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 2.2.10.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "2.2.2",
+                "version_normalized": "2.2.2.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-2.2.2.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 2.2.2.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "2.2.3",
+                "version_normalized": "2.2.3.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-2.2.3.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 2.2.3.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "2.2.4",
+                "version_normalized": "2.2.4.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-2.2.4.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 2.2.4.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "2.2.5",
+                "version_normalized": "2.2.5.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-2.2.5.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 2.2.5.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "2.2.6",
+                "version_normalized": "2.2.6.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-2.2.6.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 2.2.6.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "2.2.7",
+                "version_normalized": "2.2.7.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-2.2.7.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 2.2.7.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "2.2.8",
+                "version_normalized": "2.2.8.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-2.2.8.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 2.2.8.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_alarm",
+                "version": "2.2.9",
+                "version_normalized": "2.2.9.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Alarm-2.2.9.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_alarm": "== 2.2.9.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "An interface to deal with reminders, alarms and notifications through a standardized API. The following notification methods are currently available: standard Horde notifications, popups, emails."
+            }
+        ]
+    }
+}

@@ -1,0 +1,1011 @@
+{
+    "packages": {
+        "pear-pear.horde.org/horde_cache": [
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-1.0.0.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 1.0.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "1.0.0RC1",
+                "version_normalized": "1.0.0.0-RC1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-1.0.0RC1.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 1.0.0.0-RC1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "1.0.0RC2",
+                "version_normalized": "1.0.0.0-RC2",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-1.0.0RC2.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 1.0.0.0-RC2"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "1.0.0alpha1",
+                "version_normalized": "1.0.0.0-alpha1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-1.0.0alpha1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 1.0.0.0-alpha1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "1.0.0beta1",
+                "version_normalized": "1.0.0.0-beta1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-1.0.0beta1.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 1.0.0.0-beta1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-1.0.1.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 1.0.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-1.0.2.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 1.0.2.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-1.0.3.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 1.0.3.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-1.0.4.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 1.0.4.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-1.0.5.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 1.0.5.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "1.0.6",
+                "version_normalized": "1.0.6.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-1.0.6.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 1.0.6.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-2.0.0.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 2.0.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "2.0.0RC1",
+                "version_normalized": "2.0.0.0-RC1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-2.0.0RC1.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 2.0.0.0-RC1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "2.0.0alpha1",
+                "version_normalized": "2.0.0.0-alpha1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-2.0.0alpha1.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 2.0.0.0-alpha1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "2.0.0beta1",
+                "version_normalized": "2.0.0.0-beta1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-2.0.0beta1.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 2.0.0.0-beta1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-2.0.1.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 2.0.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-2.0.2.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 2.0.2.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-2.0.3.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 2.0.3.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "2.0.4",
+                "version_normalized": "2.0.4.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-2.0.4.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_compress_fast": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 2.0.4.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-2.1.0.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_compress_fast": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 2.1.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "2.2.0",
+                "version_normalized": "2.2.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-2.2.0.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_compress_fast": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 2.2.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "2.2.1",
+                "version_normalized": "2.2.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-2.2.1.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_compress_fast": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 2.2.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "2.3.0",
+                "version_normalized": "2.3.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-2.3.0.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_compress_fast": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 2.3.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "2.4.0",
+                "version_normalized": "2.4.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-2.4.0.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_compress_fast": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 2.4.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "2.4.1",
+                "version_normalized": "2.4.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-2.4.1.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_compress_fast": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 2.4.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "2.4.2",
+                "version_normalized": "2.4.2.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-2.4.2.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_compress_fast": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 2.4.2.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "2.5.0",
+                "version_normalized": "2.5.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-2.5.0.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_compress_fast": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 2.5.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "2.5.1",
+                "version_normalized": "2.5.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-2.5.1.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_compress_fast": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 2.5.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "2.5.2",
+                "version_normalized": "2.5.2.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-2.5.2.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_compress_fast": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 2.5.2.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "2.5.3",
+                "version_normalized": "2.5.3.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-2.5.3.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_compress_fast": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 2.5.3.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "2.5.4",
+                "version_normalized": "2.5.4.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-2.5.4.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_compress_fast": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 2.5.4.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_cache",
+                "version": "2.5.5",
+                "version_normalized": "2.5.5.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Cache-2.5.5.tgz"
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_compress_fast": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_cache": "== 2.5.5.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "A simple, functional caching API, with the option to store the cached data on the filesystem, in one of the PHP opcode cache systems (APC, eAcclerator, XCache), Memcache, MongoDB, Redis, user session, an SQL table, or a combination of these."
+            }
+        ]
+    }
+}

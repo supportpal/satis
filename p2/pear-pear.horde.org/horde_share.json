@@ -1,0 +1,1227 @@
+{
+    "packages": {
+        "pear-pear.horde.org/horde_share": [
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-1.0.0.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 1.0.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "1.0.0RC1",
+                "version_normalized": "1.0.0.0-RC1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-1.0.0RC1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_sql": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 1.0.0.0-RC1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "1.0.0RC2",
+                "version_normalized": "1.0.0.0-RC2",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-1.0.0RC2.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_sql": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 1.0.0.0-RC2"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "1.0.0alpha1",
+                "version_normalized": "1.0.0.0-alpha1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-1.0.0alpha1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_perms": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_sql": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 1.0.0.0-alpha1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "1.0.0beta1",
+                "version_normalized": "1.0.0.0-beta1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-1.0.0beta1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_sql": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 1.0.0.0-beta1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-1.0.1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 1.0.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-1.1.0.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 1.1.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-1.1.1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 1.1.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-1.1.2.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 1.1.2.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-1.2.0.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 1.2.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-1.2.1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 1.2.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-1.2.2.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 1.2.2.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "1.3.0",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-1.3.0.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 1.3.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-2.0.0.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 2.0.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "2.0.0RC1",
+                "version_normalized": "2.0.0.0-RC1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-2.0.0RC1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 2.0.0.0-RC1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "2.0.0alpha1",
+                "version_normalized": "2.0.0.0-alpha1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-2.0.0alpha1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<2.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 2.0.0.0-alpha1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "2.0.0beta1",
+                "version_normalized": "2.0.0.0-beta1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-2.0.0beta1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 2.0.0.0-beta1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "2.0.0beta2",
+                "version_normalized": "2.0.0.0-beta2",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-2.0.0beta2.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 2.0.0.0-beta2"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "2.0.0beta3",
+                "version_normalized": "2.0.0.0-beta3",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-2.0.0beta3.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 2.0.0.0-beta3"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "2.0.0beta4",
+                "version_normalized": "2.0.0.0-beta4",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-2.0.0beta4.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 2.0.0.0-beta4"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-2.0.1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 2.0.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "2.0.10",
+                "version_normalized": "2.0.10.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-2.0.10.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 2.0.10.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-2.0.2.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 2.0.2.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-2.0.3.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 2.0.3.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "2.0.4",
+                "version_normalized": "2.0.4.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-2.0.4.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 2.0.4.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "2.0.5",
+                "version_normalized": "2.0.5.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-2.0.5.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 2.0.5.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "2.0.6",
+                "version_normalized": "2.0.6.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-2.0.6.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 2.0.6.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "2.0.7",
+                "version_normalized": "2.0.7.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-2.0.7.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 2.0.7.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "2.0.8",
+                "version_normalized": "2.0.8.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-2.0.8.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 2.0.8.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "2.0.9",
+                "version_normalized": "2.0.9.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-2.0.9.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 2.0.9.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-2.1.0.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 2.1.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "2.1.1",
+                "version_normalized": "2.1.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-2.1.1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 2.1.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "2.1.2",
+                "version_normalized": "2.1.2.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-2.1.2.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 2.1.2.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_share",
+                "version": "2.2.0",
+                "version_normalized": "2.2.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Share-2.2.0.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_group": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_support": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_url": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "== 2.2.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Horde_Share provides an interface to all shared resources a user\nowns or has access to."
+            }
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "packages": {
+        "pear-pear.horde.org/horde_backup": [
+            {
+                "name": "pear-pear.horde.org/horde_backup",
+                "version": "1.0.0RC1",
+                "version_normalized": "1.0.0.0-RC1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Backup-1.0.0RC1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_compress": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_pack": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_translation": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_backup": "== 1.0.0.0-RC1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "BSD"
+                ],
+                "description": "Library that drives the backup and restore features of Horde applications."
+            }
+        ]
+    }
+}

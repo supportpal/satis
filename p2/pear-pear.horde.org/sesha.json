@@ -1,0 +1,196 @@
+{
+    "packages": {
+        "pear-pear.horde.org/sesha": [
+            {
+                "name": "pear-pear.horde.org/sesha",
+                "version": "1.0.0RC1",
+                "version_normalized": "1.0.0.0-RC1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/sesha-1.0.0RC1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde": "<6.0.0.0",
+                    "pear-pear.horde.org/horde_auth": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_autoloader": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_core": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_form": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_prefs": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_rdo": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/sesha": "== 1.0.0.0-RC1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "Sesha allows you to define categories with a rich set of attributes to manage your inventory stock"
+            },
+            {
+                "name": "pear-pear.horde.org/sesha",
+                "version": "1.0.0RC2",
+                "version_normalized": "1.0.0.0-RC2",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/sesha-1.0.0RC2.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde": "<6.0.0.0",
+                    "pear-pear.horde.org/horde_auth": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_autoloader": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_core": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_form": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_prefs": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_rdo": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/sesha": "== 1.0.0.0-RC2"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "Sesha allows you to define categories with a rich set of attributes to manage your inventory stock"
+            },
+            {
+                "name": "pear-pear.horde.org/sesha",
+                "version": "1.0.0RC3",
+                "version_normalized": "1.0.0.0-RC3",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/sesha-1.0.0RC3.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde": "<6.0.0.0",
+                    "pear-pear.horde.org/horde_auth": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_autoloader": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_core": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_form": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_prefs": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_rdo": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/sesha": "== 1.0.0.0-RC3"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "Sesha allows you to define categories with a rich set of attributes to manage your inventory stock"
+            },
+            {
+                "name": "pear-pear.horde.org/sesha",
+                "version": "1.0.0alpha1",
+                "version_normalized": "1.0.0.0-alpha1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/sesha-1.0.0alpha1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde": "<6.0.0.0",
+                    "pear-pear.horde.org/horde_auth": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_autoloader": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_core": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_db": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_form": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_prefs": "<2.0.0.0",
+                    "pear-pear.horde.org/horde_rdo": "<2.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/sesha": "== 1.0.0.0-alpha1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "Sesha allows you to define categories with a rich set of attributes to manage your inventory stock"
+            },
+            {
+                "name": "pear-pear.horde.org/sesha",
+                "version": "1.0.0beta1",
+                "version_normalized": "1.0.0.0-beta1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/sesha-1.0.0beta1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde": "<6.0.0.0",
+                    "pear-pear.horde.org/horde_auth": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_autoloader": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_core": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_db": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_form": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_perms": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_prefs": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_rdo": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/sesha": "== 1.0.0.0-beta1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "Sesha allows you to define categories with a rich set of attributes to manage your inventory stock"
+            }
+        ]
+    }
+}

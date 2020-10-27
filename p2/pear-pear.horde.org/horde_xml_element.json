@@ -1,0 +1,397 @@
+{
+    "packages": {
+        "pear-pear.horde.org/horde_xml_element": [
+            {
+                "name": "pear-pear.horde.org/horde_xml_element",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Xml_Element-1.0.0.tgz"
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_xml_element": "== 1.0.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "description": "An element object that can be used to provide SimpleXML-like functionality over a DOM object. The main advantage over using SimpleXML is the ability to add multiple levels of new elements in a single call, without introducing \"ghost\" objects."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_xml_element",
+                "version": "1.0.0RC1",
+                "version_normalized": "1.0.0.0-RC1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Xml_Element-1.0.0RC1.tgz"
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_xml_element": "== 1.0.0.0-RC1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "description": "An element object that can be used to provide SimpleXML-like functionality over a DOM object. The main advantage over using SimpleXML is the ability to add multiple levels of new elements in a single call, without introducing \"ghost\" objects."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_xml_element",
+                "version": "1.0.0RC2",
+                "version_normalized": "1.0.0.0-RC2",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Xml_Element-1.0.0RC2.tgz"
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_xml_element": "== 1.0.0.0-RC2"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "description": "An element object that can be used to provide SimpleXML-like functionality over a DOM object. The main advantage over using SimpleXML is the ability to add multiple levels of new elements in a single call, without introducing \"ghost\" objects."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_xml_element",
+                "version": "1.0.0alpha1",
+                "version_normalized": "1.0.0.0-alpha1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Xml_Element-1.0.0alpha1.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_xml_element": "== 1.0.0.0-alpha1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "description": "An element object that can be used to provide SimpleXML-like functionality over a DOM object. The main advantage over using SimpleXML is the ability to add multiple levels of new elements in a single call, without introducing \"ghost\" objects."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_xml_element",
+                "version": "1.0.0beta1",
+                "version_normalized": "1.0.0.0-beta1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Xml_Element-1.0.0beta1.tgz"
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_xml_element": "== 1.0.0.0-beta1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "description": "An element object that can be used to provide SimpleXML-like functionality over a DOM object. The main advantage over using SimpleXML is the ability to add multiple levels of new elements in a single call, without introducing \"ghost\" objects."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_xml_element",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Xml_Element-1.0.1.tgz"
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_xml_element": "== 1.0.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "description": "An element object that can be used to provide SimpleXML-like functionality over a DOM object. The main advantage over using SimpleXML is the ability to add multiple levels of new elements in a single call, without introducing \"ghost\" objects."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_xml_element",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Xml_Element-2.0.0.tgz"
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_xml_element": "== 2.0.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "description": "An element object that can be used to provide SimpleXML-like functionality over a DOM object. The main advantage over using SimpleXML is the ability to add multiple levels of new elements in a single call, without introducing \"ghost\" objects."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_xml_element",
+                "version": "2.0.0alpha1",
+                "version_normalized": "2.0.0.0-alpha1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Xml_Element-2.0.0alpha1.tgz"
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "pear-pear.horde.org/horde_exception": "<2.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_xml_element": "== 2.0.0.0-alpha1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "description": "An element object that can be used to provide SimpleXML-like functionality over a DOM object. The main advantage over using SimpleXML is the ability to add multiple levels of new elements in a single call, without introducing \"ghost\" objects."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_xml_element",
+                "version": "2.0.0beta1",
+                "version_normalized": "2.0.0.0-beta1",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Xml_Element-2.0.0beta1.tgz"
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_xml_element": "== 2.0.0.0-beta1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "description": "An element object that can be used to provide SimpleXML-like functionality over a DOM object. The main advantage over using SimpleXML is the ability to add multiple levels of new elements in a single call, without introducing \"ghost\" objects."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_xml_element",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Xml_Element-2.0.1.tgz"
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_xml_element": "== 2.0.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "description": "An element object that can be used to provide SimpleXML-like functionality over a DOM object. The main advantage over using SimpleXML is the ability to add multiple levels of new elements in a single call, without introducing \"ghost\" objects."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_xml_element",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Xml_Element-2.0.2.tgz"
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_xml_element": "== 2.0.2.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "description": "An element object that can be used to provide SimpleXML-like functionality over a DOM object. The main advantage over using SimpleXML is the ability to add multiple levels of new elements in a single call, without introducing \"ghost\" objects."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_xml_element",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Xml_Element-2.0.3.tgz"
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_xml_element": "== 2.0.3.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "description": "An element object that can be used to provide SimpleXML-like functionality over a DOM object. The main advantage over using SimpleXML is the ability to add multiple levels of new elements in a single call, without introducing \"ghost\" objects."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_xml_element",
+                "version": "2.0.4",
+                "version_normalized": "2.0.4.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Xml_Element-2.0.4.tgz"
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_util": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_xml_element": "== 2.0.4.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "description": "An element object that can be used to provide SimpleXML-like functionality over a DOM object. The main advantage over using SimpleXML is the ability to add multiple levels of new elements in a single call, without introducing \"ghost\" objects."
+            }
+        ]
+    }
+}

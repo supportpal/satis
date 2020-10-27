@@ -1,0 +1,345 @@
+{
+    "packages": {
+        "pear-pear.horde.org/horde_mapi": [
+            {
+                "name": "pear-pear.horde.org/horde_mapi",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Mapi-1.0.0.tgz"
+                },
+                "require": {
+                    "ext-bcmath": "*",
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_mapi": "== 1.0.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Provides various utility classes for dealing with Microsoft MAPI structured data."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_mapi",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Mapi-1.0.1.tgz"
+                },
+                "require": {
+                    "ext-bcmath": "*",
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_mapi": "== 1.0.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Provides various utility classes for dealing with Microsoft MAPI structured data."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_mapi",
+                "version": "1.0.10",
+                "version_normalized": "1.0.10.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Mapi-1.0.10.tgz"
+                },
+                "require": {
+                    "ext-bcmath": "*",
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_mapi": "== 1.0.10.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Provides various utility classes for dealing with Microsoft MAPI structured data."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_mapi",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Mapi-1.0.2.tgz"
+                },
+                "require": {
+                    "ext-bcmath": "*",
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_mapi": "== 1.0.2.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Provides various utility classes for dealing with Microsoft MAPI structured data."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_mapi",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Mapi-1.0.3.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_mapi": "== 1.0.3.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Provides various utility classes for dealing with Microsoft MAPI structured data."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_mapi",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Mapi-1.0.4.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_mapi": "== 1.0.4.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Provides various utility classes for dealing with Microsoft MAPI structured data."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_mapi",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Mapi-1.0.5.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.php.net/math_biginteger": "<2.0.0.0",
+                    "php": "<6.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_mapi": "== 1.0.5.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Provides various utility classes for dealing with Microsoft MAPI structured data."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_mapi",
+                "version": "1.0.6",
+                "version_normalized": "1.0.6.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Mapi-1.0.6.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.php.net/math_biginteger": "<2.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_mapi": "== 1.0.6.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Provides various utility classes for dealing with Microsoft MAPI structured data."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_mapi",
+                "version": "1.0.7",
+                "version_normalized": "1.0.7.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Mapi-1.0.7.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.php.net/math_biginteger": "<2.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_mapi": "== 1.0.7.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Provides various utility classes for dealing with Microsoft MAPI structured data."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_mapi",
+                "version": "1.0.8",
+                "version_normalized": "1.0.8.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Mapi-1.0.8.tgz"
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "pear-pear.php.net/math_biginteger": "<2.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_mapi": "== 1.0.8.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Provides various utility classes for dealing with Microsoft MAPI structured data."
+            },
+            {
+                "name": "pear-pear.horde.org/horde_mapi",
+                "version": "1.0.9",
+                "version_normalized": "1.0.9.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://pear.horde.org/get/Horde_Mapi-1.0.9.tgz"
+                },
+                "require": {
+                    "ext-bcmath": "*",
+                    "pear-pear.horde.org/horde_date": "<3.0.0.0",
+                    "pear-pear.horde.org/horde_exception": "<3.0.0.0",
+                    "php": "<8.0.0.0"
+                },
+                "replace": {
+                    "pear-horde/horde_mapi": "== 1.0.9.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "description": "Provides various utility classes for dealing with Microsoft MAPI structured data."
+            }
+        ]
+    }
+}
