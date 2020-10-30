@@ -1,0 +1,641 @@
+{
+    "packages": {
+        "andywer/js-localization": [
+            {
+                "name": "andywer/js-localization",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/andywer/laravel-js-localization.git",
+                    "reference": "32f85a3870f7e286ce0bd17387ae6ee24de8bcbe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/andywer/laravel-js-localization/zipball/32f85a3870f7e286ce0bd17387ae6ee24de8bcbe",
+                    "reference": "32f85a3870f7e286ce0bd17387ae6ee24de8bcbe",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "5.x",
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~0.9.4",
+                    "orchestra/testbench": "3.0.*",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2016-01-23T03:26:42+00:00",
+                "type": "library",
+                "extra": {
+                    "component": "package",
+                    "frameworks": [
+                        "Laravel 5"
+                    ]
+                },
+                "autoload": {
+                    "classmap": [
+                        "tests/TestCase.php"
+                    ],
+                    "psr-4": {
+                        "JsLocalization\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Andy Wermke",
+                        "email": "andy@dev.next-step-software.com"
+                    }
+                ],
+                "description": "Laravel package to provide localizations to the Javascript code.",
+                "keywords": [
+                    "javascript",
+                    "laravel",
+                    "localization",
+                    "messages",
+                    "translation"
+                ],
+                "support": {
+                    "source": "https://github.com/andywer/laravel-js-localization/tree/develop",
+                    "issues": "https://github.com/andywer/laravel-js-localization/issues"
+                }
+            },
+            {
+                "name": "andywer/js-localization",
+                "version": "dev-exportcmd",
+                "version_normalized": "dev-exportcmd",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/andywer/laravel-js-localization.git",
+                    "reference": "7006144db608243c82ff25177b82a7080506f688"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/andywer/laravel-js-localization/zipball/7006144db608243c82ff25177b82a7080506f688",
+                    "reference": "7006144db608243c82ff25177b82a7080506f688",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "5.x",
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~0.9.4",
+                    "orchestra/testbench": "3.0.*",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2016-01-22T10:16:06+00:00",
+                "type": "library",
+                "extra": {
+                    "component": "package",
+                    "frameworks": [
+                        "Laravel 5"
+                    ]
+                },
+                "autoload": {
+                    "classmap": [
+                        "tests/TestCase.php"
+                    ],
+                    "psr-4": {
+                        "JsLocalization\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Andy Wermke",
+                        "email": "andy@dev.next-step-software.com"
+                    }
+                ],
+                "description": "Laravel package to provide localizations to the Javascript code.",
+                "keywords": [
+                    "javascript",
+                    "laravel",
+                    "localization",
+                    "messages",
+                    "translation"
+                ],
+                "support": {
+                    "source": "https://github.com/andywer/laravel-js-localization/tree/exportcmd",
+                    "issues": "https://github.com/andywer/laravel-js-localization/issues"
+                }
+            },
+            {
+                "name": "andywer/js-localization",
+                "version": "dev-laravel-4.0",
+                "version_normalized": "dev-laravel-4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/andywer/laravel-js-localization.git",
+                    "reference": "15661e6452f0d166eea05d02a1ab09f36e1b73c1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/andywer/laravel-js-localization/zipball/15661e6452f0d166eea05d02a1ab09f36e1b73c1",
+                    "reference": "15661e6452f0d166eea05d02a1ab09f36e1b73c1",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "4.0.x",
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "dev-master@dev",
+                    "orchestra/testbench": "2.0.*",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2013-10-29T22:23:25+00:00",
+                "type": "library",
+                "extra": {
+                    "component": "package",
+                    "frameworks": [
+                        "Laravel 4"
+                    ]
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/controllers",
+                        "tests/TestCase.php"
+                    ],
+                    "psr-0": {
+                        "JsLocalization": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Andy Wermke",
+                        "email": "andy@dev.next-step-software.com"
+                    }
+                ],
+                "description": "Laravel package to provide localizations to the Javascript code.",
+                "keywords": [
+                    "javascript",
+                    "laravel",
+                    "localization",
+                    "messages",
+                    "translation"
+                ],
+                "support": {
+                    "source": "https://github.com/andywer/laravel-js-localization/tree/laravel-4.0",
+                    "issues": "https://github.com/andywer/laravel-js-localization/issues"
+                }
+            },
+            {
+                "name": "andywer/js-localization",
+                "version": "dev-laravel-4.1",
+                "version_normalized": "dev-laravel-4.1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/andywer/laravel-js-localization.git",
+                    "reference": "f17ec4cb66ace66a70ca5b78a7b4dbf11d9b4464"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/andywer/laravel-js-localization/zipball/f17ec4cb66ace66a70ca5b78a7b4dbf11d9b4464",
+                    "reference": "f17ec4cb66ace66a70ca5b78a7b4dbf11d9b4464",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "4.1.x",
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "0.9.4",
+                    "orchestra/testbench": "2.1.*",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2015-04-10T21:37:51+00:00",
+                "type": "library",
+                "extra": {
+                    "component": "package",
+                    "frameworks": [
+                        "Laravel 4"
+                    ]
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/controllers",
+                        "tests/TestCase.php"
+                    ],
+                    "psr-0": {
+                        "JsLocalization": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Andy Wermke",
+                        "email": "andy@dev.next-step-software.com"
+                    }
+                ],
+                "description": "Laravel package to provide localizations to the Javascript code.",
+                "keywords": [
+                    "javascript",
+                    "laravel",
+                    "localization",
+                    "messages",
+                    "translation"
+                ],
+                "support": {
+                    "source": "https://github.com/andywer/laravel-js-localization/tree/laravel-4.1",
+                    "issues": "https://github.com/andywer/laravel-js-localization/issues"
+                }
+            },
+            {
+                "name": "andywer/js-localization",
+                "version": "dev-laravel-4.2",
+                "version_normalized": "dev-laravel-4.2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/andywer/laravel-js-localization.git",
+                    "reference": "8f6ba018a15e9dd26591eb3abd7b2dcd03282df3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/andywer/laravel-js-localization/zipball/8f6ba018a15e9dd26591eb3abd7b2dcd03282df3",
+                    "reference": "8f6ba018a15e9dd26591eb3abd7b2dcd03282df3",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "~4.1",
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "dev-master@dev",
+                    "orchestra/testbench": "2.2.*",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2015-04-10T21:27:20+00:00",
+                "type": "library",
+                "extra": {
+                    "component": "package",
+                    "frameworks": [
+                        "Laravel 4"
+                    ]
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/controllers",
+                        "tests/TestCase.php"
+                    ],
+                    "psr-0": {
+                        "JsLocalization": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Andy Wermke",
+                        "email": "andy@dev.next-step-software.com"
+                    }
+                ],
+                "description": "Laravel package to provide localizations to the Javascript code.",
+                "keywords": [
+                    "javascript",
+                    "laravel",
+                    "localization",
+                    "messages",
+                    "translation"
+                ],
+                "support": {
+                    "source": "https://github.com/andywer/laravel-js-localization/tree/laravel-4.2",
+                    "issues": "https://github.com/andywer/laravel-js-localization/issues"
+                }
+            },
+            {
+                "name": "andywer/js-localization",
+                "version": "dev-laravel-5",
+                "version_normalized": "dev-laravel-5",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/andywer/laravel-js-localization.git",
+                    "reference": "7f8636135ce425c9684b0b6b7225492fa544127d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/andywer/laravel-js-localization/zipball/7f8636135ce425c9684b0b6b7225492fa544127d",
+                    "reference": "7f8636135ce425c9684b0b6b7225492fa544127d",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "5.x",
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~0.9.4",
+                    "orchestra/testbench": "3.0.*",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2018-08-30T11:35:49+00:00",
+                "type": "library",
+                "extra": {
+                    "component": "package",
+                    "frameworks": [
+                        "Laravel 5"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JsLocalization\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/TestCase.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Andy Wermke",
+                        "email": "andy@dev.next-step-software.com"
+                    }
+                ],
+                "description": "Laravel package to provide localizations to the Javascript code.",
+                "keywords": [
+                    "javascript",
+                    "laravel",
+                    "localization",
+                    "messages",
+                    "translation"
+                ],
+                "support": {
+                    "source": "https://github.com/andywer/laravel-js-localization/tree/laravel-5",
+                    "issues": "https://github.com/andywer/laravel-js-localization/issues"
+                }
+            },
+            {
+                "name": "andywer/js-localization",
+                "version": "dev-laravel-5.8",
+                "version_normalized": "dev-laravel-5.8",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/andywer/laravel-js-localization.git",
+                    "reference": "6568480fb96ece8b62dba1d63b2f168499a79c18"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/andywer/laravel-js-localization/zipball/6568480fb96ece8b62dba1d63b2f168499a79c18",
+                    "reference": "6568480fb96ece8b62dba1d63b2f168499a79c18",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "~5.8",
+                    "php": ">=7.1.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/testbench": "4.*",
+                    "phpunit/phpunit": "^8.0"
+                },
+                "time": "2019-10-02T08:47:39+00:00",
+                "type": "library",
+                "extra": {
+                    "component": "package",
+                    "frameworks": [
+                        "Laravel 5"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JsLocalization\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/TestCase.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Andy Wermke",
+                        "email": "andy@dev.next-step-software.com"
+                    }
+                ],
+                "description": "Laravel package to provide localizations to the Javascript code.",
+                "keywords": [
+                    "javascript",
+                    "laravel",
+                    "localization",
+                    "messages",
+                    "translation"
+                ],
+                "support": {
+                    "source": "https://github.com/andywer/laravel-js-localization/tree/laravel-5.8",
+                    "issues": "https://github.com/andywer/laravel-js-localization/issues"
+                }
+            },
+            {
+                "name": "andywer/js-localization",
+                "version": "dev-laravel-6",
+                "version_normalized": "dev-laravel-6",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/andywer/laravel-js-localization.git",
+                    "reference": "865a5a4272541286b3d2ddc2b39a409c11934dc3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/andywer/laravel-js-localization/zipball/865a5a4272541286b3d2ddc2b39a409c11934dc3",
+                    "reference": "865a5a4272541286b3d2ddc2b39a409c11934dc3",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "6.*|7.*",
+                    "php": ">=7.2.5"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/testbench": "4.*",
+                    "phpunit/phpunit": "^8.0"
+                },
+                "time": "2020-09-25T15:19:50+00:00",
+                "type": "library",
+                "extra": {
+                    "component": "package",
+                    "frameworks": [
+                        "Laravel 7"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JsLocalization\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/TestCase.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Andy Wermke",
+                        "email": "andy@dev.next-step-software.com"
+                    }
+                ],
+                "description": "Laravel package to provide localizations to the Javascript code.",
+                "keywords": [
+                    "javascript",
+                    "laravel",
+                    "localization",
+                    "messages",
+                    "translation"
+                ],
+                "support": {
+                    "source": "https://github.com/andywer/laravel-js-localization/tree/laravel-6",
+                    "issues": "https://github.com/andywer/laravel-js-localization/issues"
+                }
+            },
+            {
+                "name": "andywer/js-localization",
+                "version": "dev-laravel-7",
+                "version_normalized": "dev-laravel-7",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/andywer/laravel-js-localization.git",
+                    "reference": "7f6868cc9b40330cb415188bc44fbcc5a7c3dd5a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/andywer/laravel-js-localization/zipball/7f6868cc9b40330cb415188bc44fbcc5a7c3dd5a",
+                    "reference": "7f6868cc9b40330cb415188bc44fbcc5a7c3dd5a",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "6.*|7.*|8.*",
+                    "php": ">=7.3.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/testbench": "4.*",
+                    "phpunit/phpunit": "^8.0"
+                },
+                "time": "2020-09-17T07:36:30+00:00",
+                "type": "library",
+                "extra": {
+                    "component": "package",
+                    "frameworks": [
+                        "Laravel 7",
+                        "Laravel 8"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JsLocalization\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/TestCase.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Andy Wermke",
+                        "email": "andy@dev.next-step-software.com"
+                    }
+                ],
+                "description": "Laravel package to provide localizations to the Javascript code.",
+                "keywords": [
+                    "javascript",
+                    "laravel",
+                    "localization",
+                    "messages",
+                    "translation"
+                ],
+                "support": {
+                    "source": "https://github.com/andywer/laravel-js-localization/tree/laravel-7",
+                    "issues": "https://github.com/andywer/laravel-js-localization/issues"
+                }
+            },
+            {
+                "name": "andywer/js-localization",
+                "version": "dev-laravel-8",
+                "version_normalized": "dev-laravel-8",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/andywer/laravel-js-localization.git",
+                    "reference": "33cda9e64e51443876086cdaefd8e0fe1d19678d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/andywer/laravel-js-localization/zipball/33cda9e64e51443876086cdaefd8e0fe1d19678d",
+                    "reference": "33cda9e64e51443876086cdaefd8e0fe1d19678d",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "6.*|7.*|8.*",
+                    "php": ">=7.3.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/testbench": "4.*",
+                    "phpunit/phpunit": "^8.0"
+                },
+                "time": "2020-09-17T07:39:39+00:00",
+                "type": "library",
+                "extra": {
+                    "component": "package",
+                    "frameworks": [
+                        "Laravel 7",
+                        "Laravel 8"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JsLocalization\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/TestCase.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Andy Wermke",
+                        "email": "andy@dev.next-step-software.com"
+                    }
+                ],
+                "description": "Laravel package to provide localizations to the Javascript code.",
+                "keywords": [
+                    "javascript",
+                    "laravel",
+                    "localization",
+                    "messages",
+                    "translation"
+                ],
+                "support": {
+                    "source": "https://github.com/andywer/laravel-js-localization/tree/laravel-8",
+                    "issues": "https://github.com/andywer/laravel-js-localization/issues"
+                }
+            }
+        ]
+    }
+}
