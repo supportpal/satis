@@ -4,9 +4,6 @@
   "include-filename": "all.json",
   "repositories": [
     {
-      "packagist.org": false
-    },
-    {
       "type": "composer",
       "url": "https://horde-satis.maintaina.com"
     },
@@ -15,8 +12,5 @@
       "url": "https://www.phpclasses.org/"
     }
   ],
-  "require": {
-    "horde/imap_client": "dev-master",
-    "phpclasses/mimeparser": "*"
-  }
+  "require-all": true
 }
