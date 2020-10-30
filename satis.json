@@ -2,6 +2,18 @@
   "name": "SupportPal Repository",
   "homepage": "https://supportpal.github.io/satis",
   "include-filename": "all.json",
-  "repositories": [],
-  "require-all": true
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://horde-satis.maintaina.com"
+    },
+    {
+      "type": "composer",
+      "url": "https://www.phpclasses.org/"
+    }
+  ],
+  "require": {
+    "horde/imap_client": "dev-master",
+    "phpclasses/mimeparser": "*"
+  }
 }
