@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/youtube-trailers": [
+            {
+                "name": "phpclasses/youtube-trailers",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/youtube-trailers.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "lib/youtubetrailer/bean/Movie.php",
+                        "lib/youtubetrailer/bean/Trailer.php",
+                        "lib/youtubetrailer/core/YouTubeTrailer.php",
+                        "lib/youtubetrailer/exception/YouTubeException.php",
+                        "lib/youtubetrailer/helper/YouTubeTrailerHelper.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

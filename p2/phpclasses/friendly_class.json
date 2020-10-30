@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/friendly_class": [
+            {
+                "name": "phpclasses/friendly_class",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/friendly_class.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "friendly_class.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

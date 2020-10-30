@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/timezoneconverterapi": [
+            {
+                "name": "phpclasses/timezoneconverterapi",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/timezoneconverterapi.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class-timezone-conversion.php",
+                        "class-timezone-conversion-php4.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

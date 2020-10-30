@@ -1,0 +1,50 @@
+{
+    "packages": {
+        "horde/stringprep": [
+            {
+                "name": "horde/stringprep",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Stringprep.git",
+                    "reference": "e4b6358b3285218c32eeb3d4ce99dfcb6b96e4a9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Stringprep/zipball/e4b6358b3285218c32eeb3d4ce99dfcb6b96e4a9",
+                    "reference": "e4b6358b3285218c32eeb3d4ce99dfcb6b96e4a9",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-iconv": "*",
+                    "ext-intl": "*",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_stringprep": "1.*",
+                    "pear-pear.horde.org/horde_stringprep": "1.*"
+                },
+                "time": "2017-09-19T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Stringprep": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "PHP implementation of RFC 3454 - Preparation of Internationalized Strings (\"stringprep\").",
+                "homepage": "https://pear.horde.org"
+            }
+        ]
+    }
+}

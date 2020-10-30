@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/threesscpanel": [
+            {
+                "name": "phpclasses/threesscpanel",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/threesscpanel.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "threesscpanel.class.inc"
+                    ]
+                }
+            }
+        ]
+    }
+}

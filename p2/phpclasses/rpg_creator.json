@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "phpclasses/rpg_creator": [
+            {
+                "name": "phpclasses/rpg_creator",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/rpg_creator.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class/oajax.cls.php",
+                        "class/oavatar.cls.php",
+                        "class/ocharacter.cls.php",
+                        "class/oevents.cls.php",
+                        "class/ogoblin.cls.php",
+                        "class/olizard.cls.php",
+                        "class/omap.cls.php",
+                        "class/ostreum.cls.php",
+                        "class/owarrior.cls.php",
+                        "class/xmlserialize.cls.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

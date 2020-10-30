@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/lgcfloader": [
+            {
+                "name": "phpclasses/lgcfloader",
+                "version": "3.0.0",
+                "version_normalized": "3.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/lgcfloader.zip"
+                },
+                "require": {
+                    "phpclasses/code-gleaner": "1.2.1",
+                    "phpclasses/globals-maker": ">=1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "LGCF_Loader.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

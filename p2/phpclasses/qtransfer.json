@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/qtransfer": [
+            {
+                "name": "phpclasses/qtransfer",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/qtransfer.zip"
+                },
+                "require": {
+                    "phpclasses/checksum": "0.1"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "classes/Transfer/CurlResponse.php",
+                        "classes/Transfer/Curl.php",
+                        "classes/Transfer/Checksum.php",
+                        "classes/Transfer/Xml.php",
+                        "classes/Transfer/XmlResponse.php",
+                        "classes/Transfer/XmlRequest.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

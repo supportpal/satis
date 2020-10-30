@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/gd2": [
+            {
+                "name": "phpclasses/gd2",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/gd2.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "GD2.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

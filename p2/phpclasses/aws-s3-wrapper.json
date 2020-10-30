@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/aws-s3-wrapper": [
+            {
+                "name": "phpclasses/aws-s3-wrapper",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/aws-s3-wrapper.zip"
+                },
+                "require": {
+                    "aws/aws-sdk-php": "2.*",
+                    "php": ">=5.3.29"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "JLaso\\S3Wrapper\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

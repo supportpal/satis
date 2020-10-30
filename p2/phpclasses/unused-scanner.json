@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "phpclasses/unused-scanner": [
+            {
+                "name": "phpclasses/unused-scanner",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/unused-scanner.zip"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "nesbot/carbon": ">=1.22",
+                    "php": ">=7.1",
+                    "symfony/finder": "^3.4|^4.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~7.0",
+                    "symfony/thanks": "1.0.*"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-legacy": "1.3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "insolita\\Scanner\\": ""
+                    }
+                }
+            }
+        ]
+    }
+}

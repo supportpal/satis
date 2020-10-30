@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/rabbitmqmanager": [
+            {
+                "name": "phpclasses/rabbitmqmanager",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/rabbitmqmanager.zip"
+                },
+                "require": {
+                    "php": ">5.5.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "RabbitMQManager\\": "src/RabbitMQManager"
+                    }
+                }
+            }
+        ]
+    }
+}

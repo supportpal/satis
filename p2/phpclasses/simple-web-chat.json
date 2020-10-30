@@ -1,0 +1,39 @@
+{
+    "packages": {
+        "phpclasses/simple-web-chat": [
+            {
+                "name": "phpclasses/simple-web-chat",
+                "version": "1.0.32",
+                "version_normalized": "1.0.32.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/simple-web-chat.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "classes/class.AcceptRequest.php",
+                        "classes/class.CheckUserIdentity.php",
+                        "classes/class.GroupDetails.php",
+                        "classes/class.History.php",
+                        "classes/class.InitContactChat.php",
+                        "classes/class.InitGroupChat.php",
+                        "classes/class.Mail.php",
+                        "classes/class.ManageGroups.php",
+                        "classes/class.Messages.php",
+                        "classes/class.ModifyPass.php",
+                        "classes/class.NewContact.php",
+                        "classes/class.RejectRequest.php",
+                        "classes/class.RemoveContacts.php",
+                        "classes/class.Reply.php",
+                        "classes/class.SearchPeople.php",
+                        "classes/class.UserContacts.php",
+                        "classes/class.UserVerification.php",
+                        "lib/Client.class.php",
+                        "lib/Server.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

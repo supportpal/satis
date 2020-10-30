@@ -1,0 +1,43 @@
+{
+    "packages": {
+        "phpclasses/laravel-instapago": [
+            {
+                "name": "phpclasses/laravel-instapago",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/laravel-instapago.zip"
+                },
+                "require": {
+                    "illuminate/support": "~5.1",
+                    "php": "~5.6|~7.0"
+                },
+                "require-dev": {
+                    "guzzlehttp/guzzle": "^6.2",
+                    "phpunit/phpunit": "~4.0||~5.0",
+                    "squizlabs/php_codesniffer": "^2.3"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Socialgest\\Instapago\\InstapagoServiceProvider"
+                        ],
+                        "aliases": {
+                            "Instapago": "Socialgest\\Instapago\\Facades\\Instapago"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Socialgest\\Instapago\\": "src"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/logger-trait": [
+            {
+                "name": "phpclasses/logger-trait",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/logger-trait.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Fogg/Util/Logger/LoggerTrait.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

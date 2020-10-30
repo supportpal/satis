@@ -1,0 +1,240 @@
+{
+    "packages": {
+        "horde/log": [
+            {
+                "name": "horde/log",
+                "version": "2.1.1",
+                "version_normalized": "2.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Log.git",
+                    "reference": "cbcc997d17192a2b13eed39d3512825a047f72ee"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Log/zipball/cbcc997d17192a2b13eed39d3512825a047f72ee",
+                    "reference": "cbcc997d17192a2b13eed39d3512825a047f72ee",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_constraint": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "pear-pear.horde.org/horde_cli": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_scribe": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-01-09T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Mike Naberezny",
+                        "email": "mike@maintainable.com",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Logging library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/log",
+                "version": "2.1.2",
+                "version_normalized": "2.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Log.git",
+                    "reference": "ef523792f26d209fe2c6122747bb2bef7ef0fbc1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Log/zipball/ef523792f26d209fe2c6122747bb2bef7ef0fbc1",
+                    "reference": "ef523792f26d209fe2c6122747bb2bef7ef0fbc1",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_constraint": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "pear-pear.horde.org/horde_cli": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_scribe": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-04-28T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Mike Naberezny",
+                        "email": "mike@maintainable.com",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Logging library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/log",
+                "version": "2.1.3",
+                "version_normalized": "2.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Log.git",
+                    "reference": "7a01a387382a067f2f5720f6c1b593de4599dede"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Log/zipball/7a01a387382a067f2f5720f6c1b593de4599dede",
+                    "reference": "7a01a387382a067f2f5720f6c1b593de4599dede",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_constraint": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "pear-pear.horde.org/horde_cli": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_scribe": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-02-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Mike Naberezny",
+                        "email": "mike@maintainable.com",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Logging library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/log",
+                "version": "2.2.0",
+                "version_normalized": "2.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Log.git",
+                    "reference": "3b9c6fb14bed79b2f8ed73085528c1b0383a11aa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Log/zipball/3b9c6fb14bed79b2f8ed73085528c1b0383a11aa",
+                    "reference": "3b9c6fb14bed79b2f8ed73085528c1b0383a11aa",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_constraint": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "pear-pear.horde.org/horde_cli": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_scribe": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-04-05T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Mike Naberezny",
+                        "email": "mike@maintainable.com",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Logging library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/log",
+                "version": "2.3.0",
+                "version_normalized": "2.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Log.git",
+                    "reference": "8ca6269dc3c81d6e2b30f4142df435752a6a16d4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Log/zipball/8ca6269dc3c81d6e2b30f4142df435752a6a16d4",
+                    "reference": "8ca6269dc3c81d6e2b30f4142df435752a6a16d4",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_constraint": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "pear-pear.horde.org/horde_cli": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_scribe": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2017-02-27T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Mike Naberezny",
+                        "email": "mike@maintainable.com",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Logging library",
+                "homepage": "https://pear.horde.org"
+            }
+        ]
+    }
+}

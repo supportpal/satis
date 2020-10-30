@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/chinese-master": [
+            {
+                "name": "phpclasses/chinese-master",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/chinese-master.zip"
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "peterkahl\\ChineseMaster\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

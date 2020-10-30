@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/maratus-php-backup": [
+            {
+                "name": "phpclasses/maratus-php-backup",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/maratus-php-backup.zip"
+                },
+                "require": {
+                    "alchemy/zippy": "0.2.*@dev",
+                    "barracuda/copy": "dev-master",
+                    "dropbox/dropbox-sdk": "1.1.*",
+                    "google/apiclient": "1.1.*@dev",
+                    "php": ">=5.5.9",
+                    "phpseclib/phpseclib": "0.3.*@dev"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Dzasa\\MaratusPhpBackup\\": "src"
+                    }
+                }
+            }
+        ]
+    }
+}

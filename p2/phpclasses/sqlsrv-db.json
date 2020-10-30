@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/sqlsrv-db": [
+            {
+                "name": "phpclasses/sqlsrv-db",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/sqlsrv-db.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.sqlserver.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

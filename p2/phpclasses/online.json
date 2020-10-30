@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/online": [
+            {
+                "name": "phpclasses/online",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/online.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "online.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

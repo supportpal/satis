@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/serverstat": [
+            {
+                "name": "phpclasses/serverstat",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/serverstat.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "wapmorgan\\ServerStat\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

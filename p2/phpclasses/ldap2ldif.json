@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/ldap2ldif": [
+            {
+                "name": "phpclasses/ldap2ldif",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ldap2ldif.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ldap2ldif.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

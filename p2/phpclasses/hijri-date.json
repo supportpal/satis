@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/hijri-date": [
+            {
+                "name": "phpclasses/hijri-date",
+                "version": "2.3.0",
+                "version_normalized": "2.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/hijri-date.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "hijri.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

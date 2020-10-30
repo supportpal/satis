@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/compare_db": [
+            {
+                "name": "phpclasses/compare_db",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/compare_db.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "compareDb.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

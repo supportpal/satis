@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/google-api-chart": [
+            {
+                "name": "phpclasses/google-api-chart",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/google-api-chart.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "base.php",
+                        "table.php",
+                        "pie.php",
+                        "line.php",
+                        "area.php",
+                        "column.php",
+                        "geo.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

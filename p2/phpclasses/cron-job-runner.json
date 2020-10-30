@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/cron-job-runner": [
+            {
+                "name": "phpclasses/cron-job-runner",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/cron-job-runner.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "systems/cron_runner_class.php",
+                        "systems/cron_service_class.php",
+                        "crontabs/ExampleCronJob1/.classes/example-cron-job1.class.php",
+                        "crontabs/ExampleCronJob3/.classes/example-cron-job3.class.php",
+                        "crontabs/ExampleCronJob4/.classes/example-cron-job4.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

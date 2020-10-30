@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/loomis-nestedset": [
+            {
+                "name": "phpclasses/loomis-nestedset",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/loomis-nestedset.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.nestedset.php",
+                        "class.database.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

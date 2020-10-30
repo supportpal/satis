@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/joomla-seblod-post": [
+            {
+                "name": "phpclasses/joomla-seblod-post",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/joomla-seblod-post.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "site/controller.php",
+                        "site/models/requestapp.php",
+                        "site/views/requestapp/view.html.php",
+                        "site/views/requestapp/view.raw.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

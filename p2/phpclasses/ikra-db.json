@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/ikra-db": [
+            {
+                "name": "phpclasses/ikra-db",
+                "version": "2",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ikra-db.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ikra.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

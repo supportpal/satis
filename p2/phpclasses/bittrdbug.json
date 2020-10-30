@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/bittrdbug": [
+            {
+                "name": "phpclasses/bittrdbug",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/bittrdbug.zip"
+                },
+                "require": {
+                    "php": ">=7.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Dbug\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

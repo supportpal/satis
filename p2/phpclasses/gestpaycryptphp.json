@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/gestpaycryptphp": [
+            {
+                "name": "phpclasses/gestpaycryptphp",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/gestpaycryptphp.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "GestPayCrypt.inc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

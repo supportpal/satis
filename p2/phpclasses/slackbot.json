@@ -1,0 +1,55 @@
+{
+    "packages": {
+        "phpclasses/slackbot": [
+            {
+                "name": "phpclasses/slackbot",
+                "version": "1.79",
+                "version_normalized": "1.79.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/slackbot.zip"
+                },
+                "require": {
+                    "mpociot/pipeline": "^1.0",
+                    "opis/closure": "^2.3 || ^3.0",
+                    "php": ">=7.0",
+                    "psr/container": "^1.0",
+                    "react/socket": "~1.0",
+                    "spatie/macroable": "^1.0",
+                    "symfony/http-foundation": "^2.8 || ^3.0 || ^4.0",
+                    "tightenco/collect": "~5.0"
+                },
+                "require-dev": {
+                    "codeigniter/framework": "~3.0",
+                    "doctrine/cache": "^1.6",
+                    "ext-curl": "*",
+                    "illuminate/support": "^5.4",
+                    "mockery/mockery": "^1.1",
+                    "orchestra/testbench": "~3.0",
+                    "phpunit/phpunit": "~6.4",
+                    "sllh/php-cs-fixer-styleci-bridge": "^2.1",
+                    "symfony/cache": "^3.1"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.1-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "BotMan\\BotMan\\BotManServiceProvider"
+                        ],
+                        "aliases": {
+                            "BotMan": "BotMan\\BotMan\\Facades\\BotMan"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "BotMan\\BotMan\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

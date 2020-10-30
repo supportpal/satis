@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/htmlbarcodes": [
+            {
+                "name": "phpclasses/htmlbarcodes",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/htmlbarcodes.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "BaseBarcode_class.php",
+                        "C39Barcode_class.php",
+                        "I25Barcode_class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

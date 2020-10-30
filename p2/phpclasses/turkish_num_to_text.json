@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/turkish_num_to_text": [
+            {
+                "name": "phpclasses/turkish_num_to_text",
+                "version": "1.02",
+                "version_normalized": "1.02.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/turkish_num_to_text.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "number_to_turkish_text.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

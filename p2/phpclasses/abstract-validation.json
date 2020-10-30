@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/abstract-validation": [
+            {
+                "name": "phpclasses/abstract-validation",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/abstract-validation.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Validator.php",
+                        "Validator/String.php",
+                        "Validator/EmailAddress.php",
+                        "Validator/Int.php",
+                        "Validator/IPv4.php",
+                        "Validator/Regex.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

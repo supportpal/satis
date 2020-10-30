@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/arr_multisort": [
+            {
+                "name": "phpclasses/arr_multisort",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/arr_multisort.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "arr_multisort.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

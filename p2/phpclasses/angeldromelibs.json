@@ -1,0 +1,60 @@
+{
+    "packages": {
+        "phpclasses/angeldromelibs": [
+            {
+                "name": "phpclasses/angeldromelibs",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/angeldromelibs.zip"
+                },
+                "require": {
+                    "phpmailer/phpmailer": "^6.1"
+                },
+                "require-dev": {
+                    "phpspec/phpspec": "^6.1"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "spec/Com/Angeldrome/Base/LibBaseExceptionSpec.php",
+                        "spec/Com/Angeldrome/Base/LibBaseSpec.php",
+                        "spec/Com/Angeldrome/Configs/ConstantsSpec.php",
+                        "spec/Com/Angeldrome/Configs/MessagesSpec.php",
+                        "spec/Com/Angeldrome/Configs/SQLsSpec.php",
+                        "spec/Com/Angeldrome/Exceptions/CurlExceptionSpec.php",
+                        "spec/Com/Angeldrome/Exceptions/DBExceptionSpec.php",
+                        "spec/Com/Angeldrome/Exceptions/GenericExceptionSpec.php",
+                        "spec/Com/Angeldrome/Libs/CurlSpec.php",
+                        "spec/Com/Angeldrome/Libs/SQLite3Spec.php",
+                        "spec/Com/Angeldrome/Shells/CronSpec.php",
+                        "spec/Com/Angeldrome/Shells/DBResumeSpec.php",
+                        "spec/Com/Angeldrome/Shells/DBSaveSpec.php",
+                        "spec/Com/Angeldrome/Utils/EmailHandlerSpec.php",
+                        "spec/Com/Angeldrome/Utils/GeneralSpec.php",
+                        "spec/Com/Angeldrome/Utils/LoggerSpec.php",
+                        "src/Com/Angeldrome/Base/LibBase.php",
+                        "src/Com/Angeldrome/Base/LibBaseException.php",
+                        "src/Com/Angeldrome/Configs/Constants.sample.php",
+                        "src/Com/Angeldrome/Configs/Messages.php",
+                        "src/Com/Angeldrome/Configs/SQLs.php",
+                        "src/Com/Angeldrome/Examples/Emailer.php",
+                        "src/Com/Angeldrome/Examples/Logger.php",
+                        "src/Com/Angeldrome/Exceptions/CurlException.php",
+                        "src/Com/Angeldrome/Exceptions/DBException.php",
+                        "src/Com/Angeldrome/Exceptions/GenericException.php",
+                        "src/Com/Angeldrome/Libs/Curl.php",
+                        "src/Com/Angeldrome/Libs/SQLite3.php",
+                        "src/Com/Angeldrome/Shells/Cron.php",
+                        "src/Com/Angeldrome/Shells/DBResume.php",
+                        "src/Com/Angeldrome/Shells/DBSave.php",
+                        "src/Com/Angeldrome/Utils/EmailHandler.php",
+                        "src/Com/Angeldrome/Utils/General.php",
+                        "src/Com/Angeldrome/Utils/Logger.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

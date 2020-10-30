@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/lightweight-mvc": [
+            {
+                "name": "phpclasses/lightweight-mvc",
+                "version": "3.0",
+                "version_normalized": "3.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/lightweight-mvc.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "controllers/controller.php",
+                        "controllers/index.php",
+                        "models/models.php",
+                        "models/user/user.php",
+                        "config/mysql.php",
+                        "library/singleton.php",
+                        "library/mysql/querybuild.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

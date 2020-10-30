@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/oc-pdo": [
+            {
+                "name": "phpclasses/oc-pdo",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/oc-pdo.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "OC_PDO.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

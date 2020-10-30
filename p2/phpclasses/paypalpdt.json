@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/paypalpdt": [
+            {
+                "name": "phpclasses/paypalpdt",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/paypalpdt.zip"
+                },
+                "require": {
+                    "phpclasses/curl": "1.2.0",
+                    "phpclasses/dm_paypal": "1.0.0",
+                    "phpclasses/sdd": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.paypalPDTBase.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/ajax-paginator": [
+            {
+                "name": "phpclasses/ajax-paginator",
+                "version": "1.50",
+                "version_normalized": "1.50.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ajax-paginator.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ajaxpaginator.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

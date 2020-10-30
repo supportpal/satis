@@ -1,0 +1,245 @@
+{
+    "packages": {
+        "horde/hashtable": [
+            {
+                "name": "horde/hashtable",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/HashTable.git",
+                    "reference": "aec9422c6a82bda49dc922c0a3ec14e27d5a00e4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/HashTable/zipball/aec9422c6a82bda49dc922c0a3ec14e27d5a00e4",
+                    "reference": "aec9422c6a82bda49dc922c0a3ec14e27d5a00e4",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "dev-master",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "horde/log": "^2",
+                    "horde/memcache": "^2",
+                    "horde/vfs": "^2",
+                    "pear-pear.nrk.io/Predis": "^1"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_HashTable": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Hash table client library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/hashtable",
+                "version": "dev-FRAMEWORK_5_2",
+                "version_normalized": "dev-FRAMEWORK_5_2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/HashTable.git",
+                    "reference": "247665c68cc15c65cd96ee554571dd841c8004a1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/HashTable/zipball/247665c68cc15c65cd96ee554571dd841c8004a1",
+                    "reference": "247665c68cc15c65cd96ee554571dd841c8004a1",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_hashtable": "1.*",
+                    "pear-pear.horde.org/horde_hashtable": "1.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_log": "^2",
+                    "pear-pear.horde.org/horde_memcache": "^2",
+                    "pear-pear.horde.org/horde_vfs": "^2",
+                    "pear-pear.nrk.io/Predis": "^1"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_HashTable": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Hash table client library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/hashtable",
+                "version": "dev-horde-upstream",
+                "version_normalized": "dev-horde-upstream",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/HashTable.git",
+                    "reference": "ec2017ea3da83054efa980fcbb42b7b572d1d7e7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/HashTable/zipball/ec2017ea3da83054efa980fcbb42b7b572d1d7e7",
+                    "reference": "ec2017ea3da83054efa980fcbb42b7b572d1d7e7",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_hashtable": "1.*",
+                    "pear-pear.horde.org/horde_hashtable": "1.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_log": "^2",
+                    "pear-pear.horde.org/horde_memcache": "^2",
+                    "pear-pear.horde.org/horde_vfs": "^2",
+                    "pear-pear.nrk.io/Predis": "^1"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_HashTable": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Hash table client library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/hashtable",
+                "version": "dev-maintaina-bare",
+                "version_normalized": "dev-maintaina-bare",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/HashTable.git",
+                    "reference": "ec2017ea3da83054efa980fcbb42b7b572d1d7e7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/HashTable/zipball/ec2017ea3da83054efa980fcbb42b7b572d1d7e7",
+                    "reference": "ec2017ea3da83054efa980fcbb42b7b572d1d7e7",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_hashtable": "1.*",
+                    "pear-pear.horde.org/horde_hashtable": "1.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_log": "^2",
+                    "pear-pear.horde.org/horde_memcache": "^2",
+                    "pear-pear.horde.org/horde_vfs": "^2",
+                    "pear-pear.nrk.io/Predis": "^1"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_HashTable": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Hash table client library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/hashtable",
+                "version": "dev-maintaina-composerfixed",
+                "version_normalized": "dev-maintaina-composerfixed",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/HashTable.git",
+                    "reference": "cbd9ff9af84ee790abf9487bc0ec76a80ce3cf6b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/HashTable/zipball/cbd9ff9af84ee790abf9487bc0ec76a80ce3cf6b",
+                    "reference": "cbd9ff9af84ee790abf9487bc0ec76a80ce3cf6b",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "dev-master",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "horde/log": "^2",
+                    "horde/memcache": "^2",
+                    "horde/vfs": "^2",
+                    "pear-pear.nrk.io/Predis": "^1"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_HashTable": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Hash table client library",
+                "homepage": "https://www.horde.org"
+            }
+        ]
+    }
+}

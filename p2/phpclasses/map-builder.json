@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/map-builder": [
+            {
+                "name": "phpclasses/map-builder",
+                "version": "1.12",
+                "version_normalized": "1.12.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/map-builder.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.MapBuilder.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

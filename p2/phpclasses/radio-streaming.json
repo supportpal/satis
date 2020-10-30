@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/radio-streaming": [
+            {
+                "name": "phpclasses/radio-streaming",
+                "version": "2.2",
+                "version_normalized": "2.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/radio-streaming.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "offlineradio.class.php",
+                        "class.mp3.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/json-rpc-php": [
+            {
+                "name": "phpclasses/json-rpc-php",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/json-rpc-php.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "JsonRpcClient.php",
+                        "JsonRpcException.php",
+                        "JsonRpcServer.php",
+                        "examples/DataService.php",
+                        "examples/MathService.php",
+                        "examples/OptionalParamsService.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

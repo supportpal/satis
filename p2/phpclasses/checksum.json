@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/checksum": [
+            {
+                "name": "phpclasses/checksum",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/checksum.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "checksum.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

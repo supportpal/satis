@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/message_transmission": [
+            {
+                "name": "phpclasses/message_transmission",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/message_transmission.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "msg.class.php",
+                        "neurone_base.class.php",
+                        "neurone.class.php",
+                        "shm.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,260 @@
+{
+    "packages": {
+        "horde/service_gravatar": [
+            {
+                "name": "horde/service_gravatar",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Service_Gravatar.git",
+                    "reference": "2ae700d0946d58e65459acc19f3d5dc835369143"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Service_Gravatar/zipball/2ae700d0946d58e65459acc19f3d5dc835369143",
+                    "reference": "2ae700d0946d58e65459acc19f3d5dc835369143",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/http": "dev-master",
+                    "horde/url": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "horde/test": "^2.1"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Service_Gravatar": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Gravatar client library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/service_gravatar",
+                "version": "dev-FRAMEWORK_5_2",
+                "version_normalized": "dev-FRAMEWORK_5_2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Service_Gravatar.git",
+                    "reference": "9f9948292d574cf962ceca07aa8ba526191723b2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Service_Gravatar/zipball/9f9948292d574cf962ceca07aa8ba526191723b2",
+                    "reference": "9f9948292d574cf962ceca07aa8ba526191723b2",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_url": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_service_gravatar": "1.*",
+                    "pear-pear.horde.org/horde_service_gravatar": "1.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Service_Gravatar": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Gravatar client library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/service_gravatar",
+                "version": "dev-horde-upstream",
+                "version_normalized": "dev-horde-upstream",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Service_Gravatar.git",
+                    "reference": "1147c590263e85a89901748350b14247f1648fe9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Service_Gravatar/zipball/1147c590263e85a89901748350b14247f1648fe9",
+                    "reference": "1147c590263e85a89901748350b14247f1648fe9",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_url": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_service_gravatar": "1.*",
+                    "pear-pear.horde.org/horde_service_gravatar": "1.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Service_Gravatar": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Gravatar client library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/service_gravatar",
+                "version": "dev-maintaina-bare",
+                "version_normalized": "dev-maintaina-bare",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Service_Gravatar.git",
+                    "reference": "1147c590263e85a89901748350b14247f1648fe9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Service_Gravatar/zipball/1147c590263e85a89901748350b14247f1648fe9",
+                    "reference": "1147c590263e85a89901748350b14247f1648fe9",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_url": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_service_gravatar": "1.*",
+                    "pear-pear.horde.org/horde_service_gravatar": "1.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Service_Gravatar": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Gravatar client library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/service_gravatar",
+                "version": "dev-maintaina-composerfixed",
+                "version_normalized": "dev-maintaina-composerfixed",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Service_Gravatar.git",
+                    "reference": "4c2ea7892453ba10fddb5acf980bbcc040315e11"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Service_Gravatar/zipball/4c2ea7892453ba10fddb5acf980bbcc040315e11",
+                    "reference": "4c2ea7892453ba10fddb5acf980bbcc040315e11",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/http": "dev-master",
+                    "horde/url": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "horde/test": "^2.1"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Service_Gravatar": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Gravatar client library",
+                "homepage": "https://www.horde.org"
+            }
+        ]
+    }
+}

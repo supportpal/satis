@@ -1,0 +1,891 @@
+{
+    "packages": {
+        "horde/whups": [
+            {
+                "name": "horde/whups",
+                "version": "3.0.0RC3",
+                "version_normalized": "3.0.0.0-RC3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/whups.git",
+                    "reference": "8603ef916d17e7c69732e9e8a37ed74c9bf5cc2f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/whups/zipball/8603ef916d17e7c69732e9e8a37ed74c9bf5cc2f",
+                    "reference": "8603ef916d17e7c69732e9e8a37ed74c9bf5cc2f",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde": ">=5.0.0,<=6.0.0alpha1",
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_autoloader": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_compress": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_core": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_db": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_form": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_group": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_mime_viewer": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_notification": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_prefs": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_scheduler": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_share": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_vfs": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_view": ">=2.0.0,<=3.0.0alpha1",
+                    "php": ">=5.3.0"
+                },
+                "time": "2013-08-29T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Ticket-tracking application",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.0rc3"
+                }
+            },
+            {
+                "name": "horde/whups",
+                "version": "3.0.1",
+                "version_normalized": "3.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/whups.git",
+                    "reference": "b5a359d31db9906f52cb7282d84be64fcf677d97"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/whups/zipball/b5a359d31db9906f52cb7282d84be64fcf677d97",
+                    "reference": "b5a359d31db9906f52cb7282d84be64fcf677d97",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde": ">=5.0.0@stable,<=6.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_autoloader": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_compress": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_core": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_form": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_group": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime_viewer": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_notification": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_prefs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_scheduler": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_share": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_vfs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_view": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "time": "2014-10-29T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Ticket-tracking application",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.1"
+                }
+            },
+            {
+                "name": "horde/whups",
+                "version": "3.0.10",
+                "version_normalized": "3.0.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/whups.git",
+                    "reference": "c36f9af5956d51f3a885ad3ab08627f9b9a94be0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/whups/zipball/c36f9af5956d51f3a885ad3ab08627f9b9a94be0",
+                    "reference": "c36f9af5956d51f3a885ad3ab08627f9b9a94be0",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde": "^5@stable",
+                    "pear-pear.horde.org/horde_auth": "^2@stable",
+                    "pear-pear.horde.org/horde_autoloader": "^2@stable",
+                    "pear-pear.horde.org/horde_compress": "^2@stable",
+                    "pear-pear.horde.org/horde_core": "^2@stable",
+                    "pear-pear.horde.org/horde_date": "^2@stable",
+                    "pear-pear.horde.org/horde_db": "^2@stable",
+                    "pear-pear.horde.org/horde_exception": "^2@stable",
+                    "pear-pear.horde.org/horde_form": "^2@stable",
+                    "pear-pear.horde.org/horde_group": "^2@stable",
+                    "pear-pear.horde.org/horde_mail": "^2@stable",
+                    "pear-pear.horde.org/horde_mime": "^2.5@stable",
+                    "pear-pear.horde.org/horde_mime_viewer": "^2@stable",
+                    "pear-pear.horde.org/horde_notification": "^2@stable",
+                    "pear-pear.horde.org/horde_perms": "^2@stable",
+                    "pear-pear.horde.org/horde_prefs": "^2@stable",
+                    "pear-pear.horde.org/horde_scheduler": "^2@stable",
+                    "pear-pear.horde.org/horde_share": "^2@stable",
+                    "pear-pear.horde.org/horde_support": "^2@stable",
+                    "pear-pear.horde.org/horde_text_filter": "^2@stable",
+                    "pear-pear.horde.org/horde_util": "^2@stable",
+                    "pear-pear.horde.org/horde_vfs": "^2@stable",
+                    "pear-pear.horde.org/horde_view": "^2@stable",
+                    "php": "^5.3"
+                },
+                "replace": {
+                    "pear-horde/whups": "3.*",
+                    "pear-pear.horde.org/whups": "3.*"
+                },
+                "time": "2017-06-23T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Whups": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Ticket-tracking application",
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.10"
+                }
+            },
+            {
+                "name": "horde/whups",
+                "version": "3.0.11",
+                "version_normalized": "3.0.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/whups.git",
+                    "reference": "eb50126d3f031cb72a85da9eb6df21c737adb3c3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/whups/zipball/eb50126d3f031cb72a85da9eb6df21c737adb3c3",
+                    "reference": "eb50126d3f031cb72a85da9eb6df21c737adb3c3",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde": "^5@stable",
+                    "pear-pear.horde.org/horde_auth": "^2@stable",
+                    "pear-pear.horde.org/horde_autoloader": "^2@stable",
+                    "pear-pear.horde.org/horde_compress": "^2@stable",
+                    "pear-pear.horde.org/horde_core": "^2.3@stable",
+                    "pear-pear.horde.org/horde_date": "^2@stable",
+                    "pear-pear.horde.org/horde_db": "^2@stable",
+                    "pear-pear.horde.org/horde_exception": "^2@stable",
+                    "pear-pear.horde.org/horde_form": "^2@stable",
+                    "pear-pear.horde.org/horde_group": "^2@stable",
+                    "pear-pear.horde.org/horde_mail": "^2@stable",
+                    "pear-pear.horde.org/horde_mime": "^2.5@stable",
+                    "pear-pear.horde.org/horde_mime_viewer": "^2@stable",
+                    "pear-pear.horde.org/horde_notification": "^2@stable",
+                    "pear-pear.horde.org/horde_perms": "^2@stable",
+                    "pear-pear.horde.org/horde_prefs": "^2@stable",
+                    "pear-pear.horde.org/horde_scheduler": "^2@stable",
+                    "pear-pear.horde.org/horde_share": "^2@stable",
+                    "pear-pear.horde.org/horde_support": "^2@stable",
+                    "pear-pear.horde.org/horde_text_filter": "^2@stable",
+                    "pear-pear.horde.org/horde_util": "^2@stable",
+                    "pear-pear.horde.org/horde_vfs": "^2@stable",
+                    "pear-pear.horde.org/horde_view": "^2@stable",
+                    "php": "^5.3"
+                },
+                "replace": {
+                    "pear-horde/whups": "3.*",
+                    "pear-pear.horde.org/whups": "3.*"
+                },
+                "time": "2017-08-01T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Whups": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Ticket-tracking application",
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.11"
+                }
+            },
+            {
+                "name": "horde/whups",
+                "version": "3.0.12",
+                "version_normalized": "3.0.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/whups.git",
+                    "reference": "5a84bf32243c3676a1be72347ca0800758cd3882"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/whups/zipball/5a84bf32243c3676a1be72347ca0800758cd3882",
+                    "reference": "5a84bf32243c3676a1be72347ca0800758cd3882",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde": "^5@stable",
+                    "pear-pear.horde.org/horde_auth": "^2@stable",
+                    "pear-pear.horde.org/horde_autoloader": "^2@stable",
+                    "pear-pear.horde.org/horde_compress": "^2@stable",
+                    "pear-pear.horde.org/horde_core": "^2.3@stable",
+                    "pear-pear.horde.org/horde_date": "^2@stable",
+                    "pear-pear.horde.org/horde_db": "^2@stable",
+                    "pear-pear.horde.org/horde_exception": "^2@stable",
+                    "pear-pear.horde.org/horde_form": "^2@stable",
+                    "pear-pear.horde.org/horde_group": "^2@stable",
+                    "pear-pear.horde.org/horde_mail": "^2@stable",
+                    "pear-pear.horde.org/horde_mime": "^2.5@stable",
+                    "pear-pear.horde.org/horde_mime_viewer": "^2@stable",
+                    "pear-pear.horde.org/horde_notification": "^2@stable",
+                    "pear-pear.horde.org/horde_perms": "^2@stable",
+                    "pear-pear.horde.org/horde_prefs": "^2@stable",
+                    "pear-pear.horde.org/horde_scheduler": "^2@stable",
+                    "pear-pear.horde.org/horde_share": "^2@stable",
+                    "pear-pear.horde.org/horde_support": "^2@stable",
+                    "pear-pear.horde.org/horde_text_filter": "^2@stable",
+                    "pear-pear.horde.org/horde_util": "^2@stable",
+                    "pear-pear.horde.org/horde_vfs": "^2@stable",
+                    "pear-pear.horde.org/horde_view": "^2@stable",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/whups": "3.*",
+                    "pear-pear.horde.org/whups": "3.*"
+                },
+                "time": "2017-09-19T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Whups": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Ticket-tracking application",
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.12"
+                }
+            },
+            {
+                "name": "horde/whups",
+                "version": "3.0.2",
+                "version_normalized": "3.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/whups.git",
+                    "reference": "beb68fe721ca4502fc4e73b9510977e178f8e9e5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/whups/zipball/beb68fe721ca4502fc4e73b9510977e178f8e9e5",
+                    "reference": "beb68fe721ca4502fc4e73b9510977e178f8e9e5",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde": ">=5.0.0@stable,<=6.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_autoloader": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_compress": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_core": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_form": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_group": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime_viewer": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_notification": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_prefs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_scheduler": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_share": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_vfs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_view": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "time": "2015-02-10T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Ticket-tracking application",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.2"
+                }
+            },
+            {
+                "name": "horde/whups",
+                "version": "3.0.3",
+                "version_normalized": "3.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/whups.git",
+                    "reference": "810a79db9ea8360163b26ef8868976afae443760"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/whups/zipball/810a79db9ea8360163b26ef8868976afae443760",
+                    "reference": "810a79db9ea8360163b26ef8868976afae443760",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde": ">=5.0.0@stable,<=6.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_autoloader": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_compress": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_core": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_form": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_group": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime_viewer": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_notification": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_prefs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_scheduler": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_share": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_vfs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_view": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "time": "2015-04-28T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Ticket-tracking application",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.3"
+                }
+            },
+            {
+                "name": "horde/whups",
+                "version": "3.0.4",
+                "version_normalized": "3.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/whups.git",
+                    "reference": "0f39fae97030ad73ea735f4349aa116f8ab84b62"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/whups/zipball/0f39fae97030ad73ea735f4349aa116f8ab84b62",
+                    "reference": "0f39fae97030ad73ea735f4349aa116f8ab84b62",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde": ">=5.0.0@stable,<=6.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_autoloader": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_compress": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_core": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_form": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_group": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime_viewer": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_notification": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_prefs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_scheduler": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_share": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_vfs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_view": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "time": "2015-08-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Ticket-tracking application",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.4"
+                }
+            },
+            {
+                "name": "horde/whups",
+                "version": "3.0.5",
+                "version_normalized": "3.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/whups.git",
+                    "reference": "8cf63fef8d869d026b549eeea67764c8c2e1ff93"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/whups/zipball/8cf63fef8d869d026b549eeea67764c8c2e1ff93",
+                    "reference": "8cf63fef8d869d026b549eeea67764c8c2e1ff93",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde": ">=5.0.0@stable,<=6.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_autoloader": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_compress": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_core": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_form": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_group": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime_viewer": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_notification": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_prefs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_scheduler": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_share": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_vfs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_view": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "time": "2015-10-21T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Ticket-tracking application",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.5"
+                }
+            },
+            {
+                "name": "horde/whups",
+                "version": "3.0.6",
+                "version_normalized": "3.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/whups.git",
+                    "reference": "fbfe3adc7c3aa9da241260a108c838f09169858a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/whups/zipball/fbfe3adc7c3aa9da241260a108c838f09169858a",
+                    "reference": "fbfe3adc7c3aa9da241260a108c838f09169858a",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde": ">=5.0.0@stable,<=6.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_autoloader": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_compress": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_core": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_form": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_group": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime_viewer": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_notification": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_prefs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_scheduler": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_share": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_vfs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_view": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "time": "2016-02-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Ticket-tracking application",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.6"
+                }
+            },
+            {
+                "name": "horde/whups",
+                "version": "3.0.7",
+                "version_normalized": "3.0.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/whups.git",
+                    "reference": "f85092429b2ebcf7047b07a0f63f29ce3ec28a59"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/whups/zipball/f85092429b2ebcf7047b07a0f63f29ce3ec28a59",
+                    "reference": "f85092429b2ebcf7047b07a0f63f29ce3ec28a59",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde": ">=5.0.0@stable,<=6.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_autoloader": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_compress": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_core": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_form": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_group": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime_viewer": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_notification": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_prefs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_scheduler": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_share": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_vfs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_view": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "time": "2016-03-21T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Ticket-tracking application",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.7"
+                }
+            },
+            {
+                "name": "horde/whups",
+                "version": "3.0.8",
+                "version_normalized": "3.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/whups.git",
+                    "reference": "8d875bcb0ac23263eca4f5f6dc427d476028e529"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/whups/zipball/8d875bcb0ac23263eca4f5f6dc427d476028e529",
+                    "reference": "8d875bcb0ac23263eca4f5f6dc427d476028e529",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde": ">=5.0.0@stable,<=6.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_autoloader": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_compress": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_core": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_form": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_group": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime_viewer": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_notification": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_prefs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_scheduler": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_share": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_vfs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_view": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "time": "2016-07-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Ticket-tracking application",
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.8"
+                }
+            },
+            {
+                "name": "horde/whups",
+                "version": "3.0.9",
+                "version_normalized": "3.0.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/whups.git",
+                    "reference": "5b44bcff8acb61b1f449db1e106c1bf06f3fa88e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/whups/zipball/5b44bcff8acb61b1f449db1e106c1bf06f3fa88e",
+                    "reference": "5b44bcff8acb61b1f449db1e106c1bf06f3fa88e",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde": ">=5.0.0@stable,<=6.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_autoloader": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_compress": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_core": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_form": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_group": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime_viewer": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_notification": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_prefs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_scheduler": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_share": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_vfs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_view": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "time": "2016-12-16T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Ticket-tracking application",
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.9"
+                }
+            }
+        ]
+    }
+}

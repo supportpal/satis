@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/zyb-importer": [
+            {
+                "name": "phpclasses/zyb-importer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/zyb-importer.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ZybImport.inc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

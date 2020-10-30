@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/dom-html-element": [
+            {
+                "name": "phpclasses/dom-html-element",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/dom-html-element.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "htmlelement.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

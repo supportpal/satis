@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/dbbackup": [
+            {
+                "name": "phpclasses/dbbackup",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/dbbackup.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "inc.dbbackup.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

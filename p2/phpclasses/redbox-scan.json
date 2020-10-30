@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/redbox-scan": [
+            {
+                "name": "phpclasses/redbox-scan",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/redbox-scan.zip"
+                },
+                "require": {
+                    "php": ">=5.3",
+                    "symfony/yaml": "2.8"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "4.8"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Redbox\\Scan\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/rschat": [
+            {
+                "name": "phpclasses/rschat",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/rschat.zip"
+                },
+                "require": {
+                    "phpclasses/rsmysql": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "rschat.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

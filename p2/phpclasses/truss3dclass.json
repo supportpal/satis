@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/truss3dclass": [
+            {
+                "name": "phpclasses/truss3dclass",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/truss3dclass.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "truss3dclass.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

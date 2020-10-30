@@ -1,0 +1,32 @@
+{
+    "packages": {
+        "phpclasses/mime-stub": [
+            {
+                "name": "phpclasses/mime-stub",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mime-stub.zip"
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Riverline\\MultiPartParser\\": "src/"
+                    },
+                    "psr-4": {
+                        "webfan\\Mime\\": "src/webfan/Mime/"
+                    },
+                    "classmap": [
+                        "src/webfan/MimeStub.php",
+                        "src/webfan/Mime/vm.php",
+                        "src/webfan/MimeStubAPC.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

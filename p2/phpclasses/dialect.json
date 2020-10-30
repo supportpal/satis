@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/dialect": [
+            {
+                "name": "phpclasses/dialect",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/dialect.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/php/Dialect.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

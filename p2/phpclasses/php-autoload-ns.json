@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/php-autoload-ns": [
+            {
+                "name": "phpclasses/php-autoload-ns",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-autoload-ns.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "classes/loader.php",
+                        "classes/MyPackage/Test.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

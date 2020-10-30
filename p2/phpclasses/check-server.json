@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/check-server": [
+            {
+                "name": "phpclasses/check-server",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/check-server.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Servidores.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

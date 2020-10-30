@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/htmlpp": [
+            {
+                "name": "phpclasses/htmlpp",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/htmlpp.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "HTMLPP.php",
+                        "HTMLNode.php",
+                        "HTMLCollection.php",
+                        "HTMLFilterIterator.php",
+                        "HTMLParser.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/ini-files-handler": [
+            {
+                "name": "phpclasses/ini-files-handler",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ini-files-handler.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "classe.ini.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

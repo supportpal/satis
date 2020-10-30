@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/print_anything": [
+            {
+                "name": "phpclasses/print_anything",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/print_anything.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.PrintAnything.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

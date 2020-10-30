@@ -1,0 +1,54 @@
+{
+    "packages": {
+        "phpclasses/phritz": [
+            {
+                "name": "phpclasses/phritz",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/phritz.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "kernel/Phritz.class.php",
+                        "kernel/PhritzConfig.class.php",
+                        "kernel/PhritzController.class.php",
+                        "kernel/PhritzDebugger.class.php",
+                        "kernel/PhritzErrorHandler.class.php",
+                        "kernel/PhritzException.class.php",
+                        "kernel/PhritzObject.class.php",
+                        "kernel/PhritzRequest.class.php",
+                        "kernel/PhritzResponse.class.php",
+                        "kernel/PhritzView.class.php",
+                        "lib/Browser.class.php",
+                        "lib/FileStream.class.php",
+                        "lib/FileWriter.class.php",
+                        "lib/Mailer.class.php",
+                        "lib/PhritzText.class.php",
+                        "lib/XMLBuilder.class.php",
+                        "lib/XSL_Wrapper.class.php",
+                        "lib/xmlrpc/xmlrpc.class.php",
+                        "lib/nusoap/nusoap_base.class.php",
+                        "lib/nusoap/soap_parser.class.php",
+                        "lib/nusoap/soap_fault.class.php",
+                        "view/HTMLView.class.php",
+                        "view/RPCView.class.php",
+                        "view/SOAPView.class.php",
+                        "view/AJAXView.class.php",
+                        "view/WAPView.class.php",
+                        "view/PhritzTpl.class.php",
+                        "lib/nusoap/soap_server.class.php",
+                        "lib/nusoap/soap_transport_http.class.php",
+                        "lib/nusoap/soap_val.class.php",
+                        "lib/nusoap/soapclient.class.php",
+                        "lib/nusoap/wsdl.class.php",
+                        "lib/nusoap/wsdlcache.class.php",
+                        "lib/nusoap/xmlschema.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

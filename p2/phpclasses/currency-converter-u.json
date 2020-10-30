@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/currency-converter-u": [
+            {
+                "name": "phpclasses/currency-converter-u",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/currency-converter-u.zip"
+                },
+                "require": {
+                    "gilbitron/php-simplecache": "^1.4",
+                    "nesbot/carbon": "^2.5",
+                    "php": ">=5.3.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Secrethash\\Currency\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

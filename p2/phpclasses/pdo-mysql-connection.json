@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/pdo-mysql-connection": [
+            {
+                "name": "phpclasses/pdo-mysql-connection",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/pdo-mysql-connection.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "pdo-mysql-connection-ssl.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

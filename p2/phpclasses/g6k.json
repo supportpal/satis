@@ -1,0 +1,56 @@
+{
+    "packages": {
+        "phpclasses/g6k": [
+            {
+                "name": "phpclasses/g6k",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/g6k.zip"
+                },
+                "require": {
+                    "ashleydawson/simple-pagination-bundle": "^1.0",
+                    "doctrine/doctrine-bundle": "~1.2",
+                    "doctrine/orm": "~2.2,>=2.2.3",
+                    "flow/jsonpath": "^0.3.4",
+                    "friendsofsymfony/user-bundle": "~2.0@dev",
+                    "incenteev/composer-parameter-handler": "~2.0",
+                    "jbinfo/mobile-detect-service-provider": "~1",
+                    "php": ">=5.3.3",
+                    "sensio/distribution-bundle": "~3.0",
+                    "sensio/framework-extra-bundle": "~3.0",
+                    "silex/silex": "~1",
+                    "symfony/assetic-bundle": "~2.3",
+                    "symfony/monolog-bundle": "~2.4",
+                    "symfony/swiftmailer-bundle": "~2.3",
+                    "symfony/symfony": "2.8.*",
+                    "tfox/mpdf-port-bundle": "1.2.*",
+                    "twig/extensions": "~1.0",
+                    "willdurand/js-translation-bundle": "@stable"
+                },
+                "require-dev": {
+                    "sensio/generator-bundle": "~2.3"
+                },
+                "type": "project",
+                "extra": {
+                    "symfony-app-dir": "app",
+                    "symfony-web-dir": "calcul",
+                    "symfony-assets-install": "symlink",
+                    "incenteev-parameters": {
+                        "file": "app/config/parameters.yml"
+                    },
+                    "branch-alias": {
+                        "dev-master": "3.2.7-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "EUREKA\\": "src/",
+                        "SymfonyStandard": "app/"
+                    }
+                }
+            }
+        ]
+    }
+}

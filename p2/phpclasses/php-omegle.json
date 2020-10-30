@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-omegle": [
+            {
+                "name": "phpclasses/php-omegle",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-omegle.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "php.omegle.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,240 @@
+{
+    "packages": {
+        "horde/timezone": [
+            {
+                "name": "horde/timezone",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Timezone.git",
+                    "reference": "e45e9af3e0339a7b8418c4b5cb4715c425cdec9d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Timezone/zipball/e45e9af3e0339a7b8418c4b5cb4715c425cdec9d",
+                    "reference": "e45e9af3e0339a7b8418c4b5cb4715c425cdec9d",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/date": "dev-master",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/icalendar": "dev-master",
+                    "horde/vfs": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "horde/test": "^2.1"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Timezone": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Timezone library",
+                "homepage": "https://www.horde.org/libraries/Horde_Timezone"
+            },
+            {
+                "name": "horde/timezone",
+                "version": "dev-FRAMEWORK_5_2",
+                "version_normalized": "dev-FRAMEWORK_5_2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Timezone.git",
+                    "reference": "6d760eeab4ba5ba5e9be2abd85e640584d677bf9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Timezone/zipball/6d760eeab4ba5ba5e9be2abd85e640584d677bf9",
+                    "reference": "6d760eeab4ba5ba5e9be2abd85e640584d677bf9",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "^2.3",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_vfs": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_timezone": "1.*",
+                    "pear-pear.horde.org/horde_timezone": "1.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Timezone": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Timezone library",
+                "homepage": "https://www.horde.org/libraries/Horde_Timezone"
+            },
+            {
+                "name": "horde/timezone",
+                "version": "dev-horde-upstream",
+                "version_normalized": "dev-horde-upstream",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Timezone.git",
+                    "reference": "e597967d347462fc0b2a6b17d09eaf1839b8ff61"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Timezone/zipball/e597967d347462fc0b2a6b17d09eaf1839b8ff61",
+                    "reference": "e597967d347462fc0b2a6b17d09eaf1839b8ff61",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "^2.3",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_vfs": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_timezone": "1.*",
+                    "pear-pear.horde.org/horde_timezone": "1.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Timezone": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Timezone library",
+                "homepage": "https://www.horde.org/libraries/Horde_Timezone"
+            },
+            {
+                "name": "horde/timezone",
+                "version": "dev-maintaina-bare",
+                "version_normalized": "dev-maintaina-bare",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Timezone.git",
+                    "reference": "e597967d347462fc0b2a6b17d09eaf1839b8ff61"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Timezone/zipball/e597967d347462fc0b2a6b17d09eaf1839b8ff61",
+                    "reference": "e597967d347462fc0b2a6b17d09eaf1839b8ff61",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "^2.3",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_vfs": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_timezone": "1.*",
+                    "pear-pear.horde.org/horde_timezone": "1.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Timezone": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Timezone library",
+                "homepage": "https://www.horde.org/libraries/Horde_Timezone"
+            },
+            {
+                "name": "horde/timezone",
+                "version": "dev-maintaina-composerfixed",
+                "version_normalized": "dev-maintaina-composerfixed",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Timezone.git",
+                    "reference": "94d1e56f7934deedb9339c07ea5757ce95f60607"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Timezone/zipball/94d1e56f7934deedb9339c07ea5757ce95f60607",
+                    "reference": "94d1e56f7934deedb9339c07ea5757ce95f60607",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/date": "dev-master",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/icalendar": "dev-master",
+                    "horde/vfs": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "horde/test": "^2.1"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Timezone": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Timezone library",
+                "homepage": "https://www.horde.org/libraries/Horde_Timezone"
+            }
+        ]
+    }
+}

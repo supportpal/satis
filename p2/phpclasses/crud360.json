@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/crud360": [
+            {
+                "name": "phpclasses/crud360",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/crud360.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "install/sample.class.config.php",
+                        "crud360/includes/class.config.php",
+                        "crud360/includes/class.crud360.php",
+                        "crud360/includes/class.database.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

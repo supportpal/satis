@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/decorate": [
+            {
+                "name": "phpclasses/decorate",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/decorate.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Decorate.php",
+                        "ADT/OnAfterDecorativeLinkedList.php",
+                        "ADT/OnBeforeDecorativeLinkedList.php",
+                        "core/FunctionEmulable.php",
+                        "core/FunctionEmulator.php",
+                        "core/OnAfterFunctionEmulator.php",
+                        "core/OnBeforeFunctionEmulator.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

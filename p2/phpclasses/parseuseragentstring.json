@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/parseuseragentstring": [
+            {
+                "name": "phpclasses/parseuseragentstring",
+                "version": "1.21",
+                "version_normalized": "1.21.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/parseuseragentstring.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "parseUserAgentString.php",
+                        "parseUserAgentString_without_bots.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

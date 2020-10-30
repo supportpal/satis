@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/sistema-cab": [
+            {
+                "name": "phpclasses/sistema-cab",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/sistema-cab.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "generador/cab/GeneradorCab.php",
+                        "generador/cab/incs/Database.php",
+                        "generador/cab/incs/DatabaseException.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

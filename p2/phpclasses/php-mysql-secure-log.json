@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/php-mysql-secure-log": [
+            {
+                "name": "phpclasses/php-mysql-secure-log",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-mysql-secure-log.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "MySQL_Session_Handler.class.php",
+                        "MySQL_wrapper.class.php",
+                        "User_Log_In.class.php",
+                        "User_Register.class.php",
+                        "User_Validation.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

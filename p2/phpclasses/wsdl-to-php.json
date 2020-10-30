@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/wsdl-to-php": [
+            {
+                "name": "phpclasses/wsdl-to-php",
+                "version": "7",
+                "version_normalized": "7.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/wsdl-to-php.zip"
+                },
+                "require": {
+                    "ext-soap": "*",
+                    "php": ">=5.3.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "/"
+                    ]
+                }
+            }
+        ]
+    }
+}

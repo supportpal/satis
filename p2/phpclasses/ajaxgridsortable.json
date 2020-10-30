@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/ajaxgridsortable": [
+            {
+                "name": "phpclasses/ajaxgridsortable",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ajaxgridsortable.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "getagents.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

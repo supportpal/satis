@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/script_profiler": [
+            {
+                "name": "phpclasses/script_profiler",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/script_profiler.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "profiler.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/mezon-social-network": [
+            {
+                "name": "phpclasses/mezon-social-network",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mezon-social-network.zip"
+                },
+                "require": {
+                    "mezon/custom-client": "^1.0.0",
+                    "php": ">=7.2.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "8.5"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Mezon\\SocialNetwork\\": "",
+                        "Mezon\\SocialNetwork\\Auth\\": ""
+                    }
+                }
+            }
+        ]
+    }
+}

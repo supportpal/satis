@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/parsecss": [
+            {
+                "name": "phpclasses/parsecss",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/parsecss.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "parseCSS.inc"
+                    ]
+                }
+            }
+        ]
+    }
+}

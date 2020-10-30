@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/time-zone-mapper": [
+            {
+                "name": "phpclasses/time-zone-mapper",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/time-zone-mapper.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "TimezoneMapper.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

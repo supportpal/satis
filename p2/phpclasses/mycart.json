@@ -1,0 +1,19 @@
+{
+    "packages": {
+        "phpclasses/mycart": [
+            {
+                "name": "phpclasses/mycart",
+                "version": "3",
+                "version_normalized": "3.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mycart.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": []
+                }
+            }
+        ]
+    }
+}

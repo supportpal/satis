@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/har_page": [
+            {
+                "name": "phpclasses/har_page",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/har_page.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "page.inc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

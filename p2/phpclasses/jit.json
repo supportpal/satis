@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/jit": [
+            {
+                "name": "phpclasses/jit",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/jit.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Tool_JIT.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

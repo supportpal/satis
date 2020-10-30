@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/phmagick": [
+            {
+                "name": "phpclasses/phmagick",
+                "version": "0.3.1",
+                "version_normalized": "0.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/phmagick.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "phMagick.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

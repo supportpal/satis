@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/importerfp2db": [
+            {
+                "name": "phpclasses/importerfp2db",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/importerfp2db.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.import.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

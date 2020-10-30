@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/htmlform": [
+            {
+                "name": "phpclasses/htmlform",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/htmlform.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "HTMLForm.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

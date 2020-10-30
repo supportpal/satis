@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-mssql-dump": [
+            {
+                "name": "phpclasses/php-mssql-dump",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-mssql-dump.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "phpmssqldump.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

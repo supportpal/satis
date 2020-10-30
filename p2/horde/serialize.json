@@ -1,0 +1,116 @@
+{
+    "packages": {
+        "horde/serialize": [
+            {
+                "name": "horde/serialize",
+                "version": "2.0.4",
+                "version_normalized": "2.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Serialize.git",
+                    "reference": "43ec30a975f71fb9a294938f4106bd9113143d00"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Serialize/zipball/43ec30a975f71fb9a294938f4106bd9113143d00",
+                    "reference": "43ec30a975f71fb9a294938f4106bd9113143d00",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-bz2": "*",
+                    "ext-json": "*",
+                    "ext-wddx": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_imap_client": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pecl.php.net/lzf": ">=1.5.2@stable"
+                },
+                "time": "2015-07-31T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Data Encapulation API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/serialize",
+                "version": "2.0.5",
+                "version_normalized": "2.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Serialize.git",
+                    "reference": "f6658cdea3a6fc04fd63f7c4c0f3a27181931c5b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Serialize/zipball/f6658cdea3a6fc04fd63f7c4c0f3a27181931c5b",
+                    "reference": "f6658cdea3a6fc04fd63f7c4c0f3a27181931c5b",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-bz2": "*",
+                    "ext-json": "*",
+                    "ext-wddx": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_imap_client": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pecl.php.net/lzf": ">=1.5.2@stable"
+                },
+                "time": "2016-02-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Data Encapulation API",
+                "homepage": "http://pear.horde.org"
+            }
+        ]
+    }
+}

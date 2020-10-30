@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/exif-wideimage": [
+            {
+                "name": "phpclasses/exif-wideimage",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/exif-wideimage.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Operation/CorrectExif.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

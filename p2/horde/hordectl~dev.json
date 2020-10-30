@@ -1,0 +1,59 @@
+{
+    "packages": {
+        "horde/hordectl": [
+            {
+                "name": "horde/hordectl",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/hordectl.git",
+                    "reference": "12eb7018537ff7b838b76c46d3327dc3a9a46cd8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/hordectl/zipball/12eb7018537ff7b838b76c46d3327dc3a9a46cd8",
+                    "reference": "12eb7018537ff7b838b76c46d3327dc3a9a46cd8",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/argv": "dev-master",
+                    "horde/auth": "dev-master",
+                    "horde/cli": "dev-master",
+                    "horde/cli_modular": "dev-master",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/perms": "dev-master",
+                    "horde/util": "dev-master",
+                    "horde/yaml": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "time": "2020-04-02T00:00:00+00:00",
+                "bin": [
+                    "bin/hordectl"
+                ],
+                "type": "horde-library",
+                "autoload": {
+                    "psr-4": {
+                        "Horde\\Hordectl\\": "lib/Horde/Hordectl"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Ralf Lang",
+                        "email": "lang@b1-systems.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Scenario Deployment utility",
+                "homepage": "https://www.horde.org/",
+                "support": {
+                    "source": "https://github.com/maintaina-com/hordectl/tree/master",
+                    "issues": "https://github.com/maintaina-com/hordectl/issues"
+                }
+            }
+        ]
+    }
+}

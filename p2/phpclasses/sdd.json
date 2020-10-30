@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/sdd": [
+            {
+                "name": "phpclasses/sdd",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/sdd.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.SDD.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

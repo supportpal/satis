@@ -1,0 +1,37 @@
+{
+    "packages": {
+        "phpclasses/fs": [
+            {
+                "name": "phpclasses/fs",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/fs.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "fs/fs.php",
+                        "fractal_zip/fractal_zip.php",
+                        "fractal_zip/test_files/1.txt",
+                        "fractal_zip/test_files/2.txt",
+                        "fractal_zip/test_files/3.txt",
+                        "fractal_zip/test_files/4.txt",
+                        "fractal_zip/test_files/5.txt",
+                        "fractal_zip/test_files/6.txt",
+                        "fractal_zip/test_files/7.txt",
+                        "fractal_zip/test_files/8.txt",
+                        "fractal_zip/test_files/9.txt",
+                        "fractal_zip/test_files13/A000017.html",
+                        "fractal_zip/test_files13/A034607.html",
+                        "fractal_zip/test_files13/A072913.html",
+                        "fractal_zip/test_files13/A097738.html",
+                        "fractal_zip/test_files13/A119044.html",
+                        "fractal_zip/test_files13/A148167.html"
+                    ]
+                }
+            }
+        ]
+    }
+}

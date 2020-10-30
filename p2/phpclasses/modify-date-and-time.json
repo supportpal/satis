@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/modify-date-and-time": [
+            {
+                "name": "phpclasses/modify-date-and-time",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/modify-date-and-time.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "modify_date_and_time.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

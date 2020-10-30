@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/ctmail": [
+            {
+                "name": "phpclasses/ctmail",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ctmail.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.mail.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/tiny-address-book": [
+            {
+                "name": "phpclasses/tiny-address-book",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/tiny-address-book.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "pri/gateway.php",
+                        "pri/abk/_lib/Frontal.php",
+                        "pri/sys/_lib/Base.php",
+                        "pri/sys/_lib/Common.php",
+                        "pri/sys/_lib/Database.php",
+                        "pri/sys/_lib/IData.php",
+                        "pri/sys/_lib/Mypdo.php",
+                        "pri/sys/_lib/Texts.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

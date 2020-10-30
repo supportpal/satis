@@ -1,0 +1,35 @@
+{
+    "packages": {
+        "phpclasses/ybc": [
+            {
+                "name": "phpclasses/ybc",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ybc.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "YBC/Client.php",
+                        "YBC/AbstractQuery.php",
+                        "YBC/AbstractResult.php",
+                        "YBC/Cache.php",
+                        "YBC/CacheException.php",
+                        "YBC/FileCache.php",
+                        "YBC/ImagesQuery.php",
+                        "YBC/ImagesResult.php",
+                        "YBC/NewsQuery.php",
+                        "YBC/NewsResult.php",
+                        "YBC/NullCache.php",
+                        "YBC/Query.php",
+                        "YBC/ResultSet.php",
+                        "YBC/WebQuery.php",
+                        "YBC/WebResult.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

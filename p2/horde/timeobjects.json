@@ -1,0 +1,270 @@
+{
+    "packages": {
+        "horde/timeobjects": [
+            {
+                "name": "horde/timeobjects",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/timeobjects.git",
+                    "reference": "779f024a4e125354dd7410a092e8be8354c3afe1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/timeobjects/zipball/779f024a4e125354dd7410a092e8be8354c3afe1",
+                    "reference": "779f024a4e125354dd7410a092e8be8354c3afe1",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "pear-pear.horde.org/horde_core": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_url": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_service_facebook": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_service_weather": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2014-05-05T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde timeobjects application",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/timeobjects/tree/v2.1.0"
+                }
+            },
+            {
+                "name": "horde/timeobjects",
+                "version": "2.1.1",
+                "version_normalized": "2.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/timeobjects.git",
+                    "reference": "b18e49c1bb57abc53578266d381229ccb3fcd849"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/timeobjects/zipball/b18e49c1bb57abc53578266d381229ccb3fcd849",
+                    "reference": "b18e49c1bb57abc53578266d381229ccb3fcd849",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "pear-pear.horde.org/horde_core": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_url": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_service_facebook": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_service_weather": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-02-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde timeobjects application",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/timeobjects/tree/v2.1.1"
+                }
+            },
+            {
+                "name": "horde/timeobjects",
+                "version": "2.1.2",
+                "version_normalized": "2.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/timeobjects.git",
+                    "reference": "82b3aa8d5fc8c53383d0f135534c7f9e71633c39"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/timeobjects/zipball/82b3aa8d5fc8c53383d0f135534c7f9e71633c39",
+                    "reference": "82b3aa8d5fc8c53383d0f135534c7f9e71633c39",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "pear-pear.horde.org/horde_core": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_url": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_service_facebook": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_service_weather": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-04-05T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde timeobjects application",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/timeobjects/tree/v2.1.2"
+                }
+            },
+            {
+                "name": "horde/timeobjects",
+                "version": "2.1.3",
+                "version_normalized": "2.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/timeobjects.git",
+                    "reference": "0b98533c96207c50dde5c3c665c6e304e8532b05"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/timeobjects/zipball/0b98533c96207c50dde5c3c665c6e304e8532b05",
+                    "reference": "0b98533c96207c50dde5c3c665c6e304e8532b05",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "pear-pear.horde.org/horde_core": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_url": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_service_facebook": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_service_weather": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-12-16T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde timeobjects application",
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/timeobjects/tree/v2.1.3"
+                }
+            },
+            {
+                "name": "horde/timeobjects",
+                "version": "2.1.4",
+                "version_normalized": "2.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/timeobjects.git",
+                    "reference": "fcfb9f0d4fdfbbb7a32ffe7847eacd71889e76a9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/timeobjects/zipball/fcfb9f0d4fdfbbb7a32ffe7847eacd71889e76a9",
+                    "reference": "fcfb9f0d4fdfbbb7a32ffe7847eacd71889e76a9",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "pear-pear.horde.org/horde_core": "^2@stable",
+                    "pear-pear.horde.org/horde_date": "^2@stable",
+                    "pear-pear.horde.org/horde_exception": "^2@stable",
+                    "pear-pear.horde.org/horde_url": "^2@stable",
+                    "pear-pear.horde.org/horde_util": "^2@stable",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/timeobjects": "2.*",
+                    "pear-pear.horde.org/timeobjects": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_service_facebook": "^2@stable",
+                    "pear-pear.horde.org/horde_service_weather": "^2@stable"
+                },
+                "time": "2017-09-19T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Timeobjects": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde timeobjects application",
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/timeobjects/tree/v2.1.4"
+                }
+            }
+        ]
+    }
+}

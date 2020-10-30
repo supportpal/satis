@@ -1,0 +1,320 @@
+{
+    "packages": {
+        "horde/share": [
+            {
+                "name": "horde/share",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Share.git",
+                    "reference": "f406aac70fc50c65e3dfddf656f51f37ee434e8a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Share/zipball/f406aac70fc50c65e3dfddf656f51f37ee434e8a",
+                    "reference": "f406aac70fc50c65e3dfddf656f51f37ee434e8a",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/db": "dev-master",
+                    "horde/exception": "dev-master",
+                    "horde/group": "dev-master",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/perms": "dev-master",
+                    "horde/support": "dev-master",
+                    "horde/translation": "dev-master",
+                    "horde/url": "dev-master",
+                    "horde/util": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "horde/kolab_storage": "^2",
+                    "horde/test": "^2.1"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Share": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Resource sharing library",
+                "homepage": "https://www.horde.org/libraries/Horde_Share"
+            },
+            {
+                "name": "horde/share",
+                "version": "dev-FRAMEWORK_5_2",
+                "version_normalized": "dev-FRAMEWORK_5_2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Share.git",
+                    "reference": "7a25a5c6fd4f18d4b918fe1a5dca7453e2f66533"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Share/zipball/7a25a5c6fd4f18d4b918fe1a5dca7453e2f66533",
+                    "reference": "7a25a5c6fd4f18d4b918fe1a5dca7453e2f66533",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "^2",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_group": "^2",
+                    "pear-pear.horde.org/horde_perms": "^2.1",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_url": "^2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "2.*",
+                    "pear-pear.horde.org/horde_share": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_kolab_storage": "^2",
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Share": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Resource sharing library",
+                "homepage": "https://www.horde.org/libraries/Horde_Share"
+            },
+            {
+                "name": "horde/share",
+                "version": "dev-horde-upstream",
+                "version_normalized": "dev-horde-upstream",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Share.git",
+                    "reference": "218b59f19f7c61acedda737213a7a12e3f4791e2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Share/zipball/218b59f19f7c61acedda737213a7a12e3f4791e2",
+                    "reference": "218b59f19f7c61acedda737213a7a12e3f4791e2",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "^2",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_group": "^2",
+                    "pear-pear.horde.org/horde_perms": "^2.1",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_url": "^2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "2.*",
+                    "pear-pear.horde.org/horde_share": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_kolab_storage": "^2",
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Share": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Resource sharing library",
+                "homepage": "https://www.horde.org/libraries/Horde_Share"
+            },
+            {
+                "name": "horde/share",
+                "version": "dev-maintaina-bare",
+                "version_normalized": "dev-maintaina-bare",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Share.git",
+                    "reference": "218b59f19f7c61acedda737213a7a12e3f4791e2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Share/zipball/218b59f19f7c61acedda737213a7a12e3f4791e2",
+                    "reference": "218b59f19f7c61acedda737213a7a12e3f4791e2",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": "^2",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_group": "^2",
+                    "pear-pear.horde.org/horde_perms": "^2.1",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_url": "^2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_share": "2.*",
+                    "pear-pear.horde.org/horde_share": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_kolab_storage": "^2",
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Share": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Resource sharing library",
+                "homepage": "https://www.horde.org/libraries/Horde_Share"
+            },
+            {
+                "name": "horde/share",
+                "version": "dev-maintaina-composerfixed",
+                "version_normalized": "dev-maintaina-composerfixed",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Share.git",
+                    "reference": "9aca427e29c25fd1e6c1aacb5f680cca631b90ec"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Share/zipball/9aca427e29c25fd1e6c1aacb5f680cca631b90ec",
+                    "reference": "9aca427e29c25fd1e6c1aacb5f680cca631b90ec",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/db": "dev-master",
+                    "horde/exception": "dev-master",
+                    "horde/group": "dev-master",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/perms": "dev-master",
+                    "horde/support": "dev-master",
+                    "horde/translation": "dev-master",
+                    "horde/url": "dev-master",
+                    "horde/util": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "horde/kolab_storage": "^2",
+                    "horde/test": "^2.1"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Share": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Resource sharing library",
+                "homepage": "https://www.horde.org/libraries/Horde_Share"
+            }
+        ]
+    }
+}

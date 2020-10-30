@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/connectionfactory": [
+            {
+                "name": "phpclasses/connectionfactory",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/connectionfactory.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "entities/Notificacao.php",
+                        "ConectionFactory.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/css-generator": [
+            {
+                "name": "phpclasses/css-generator",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/css-generator.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.CssGenerator.php",
+                        "class.CssRule.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

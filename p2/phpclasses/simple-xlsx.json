@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/simple-xlsx": [
+            {
+                "name": "phpclasses/simple-xlsx",
+                "version": "0.8.9",
+                "version_normalized": "0.8.9.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/simple-xlsx.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/SimpleXLSX.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

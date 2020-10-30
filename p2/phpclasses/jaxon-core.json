@@ -1,0 +1,34 @@
+{
+    "packages": {
+        "phpclasses/jaxon-core": [
+            {
+                "name": "phpclasses/jaxon-core",
+                "version": "3.1.6",
+                "version_normalized": "3.1.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/jaxon-core.zip"
+                },
+                "require": {
+                    "lemonphp/event": "^1.0",
+                    "matthiasmullie/minify": "^1.3",
+                    "php": ">=5.6.0",
+                    "pimple/pimple": "^3.0",
+                    "psr/log": "*"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.7"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Jaxon\\": "src/"
+                    },
+                    "files": [
+                        "src/start.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

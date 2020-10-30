@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/mp3": [
+            {
+                "name": "phpclasses/mp3",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mp3.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.mp3.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

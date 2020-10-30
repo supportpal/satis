@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/query-in-action": [
+            {
+                "name": "phpclasses/query-in-action",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/query-in-action.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.QueryInAction.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

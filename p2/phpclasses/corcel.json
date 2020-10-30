@@ -1,0 +1,46 @@
+{
+    "packages": {
+        "phpclasses/corcel": [
+            {
+                "name": "phpclasses/corcel",
+                "version": "1.0.58",
+                "version_normalized": "1.0.58.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/corcel.zip"
+                },
+                "require": {
+                    "fzaninotto/faker": "^1.6",
+                    "hautelook/phpass": "0.3.*",
+                    "illuminate/database": "^6.0",
+                    "illuminate/filesystem": "^6.0",
+                    "illuminate/support": "^6.0",
+                    "php": ">=7.2",
+                    "thunderer/shortcode": "^0.7.3"
+                },
+                "require-dev": {
+                    "codeclimate/php-test-reporter": "dev-master",
+                    "dms/phpunit-arraysubset-asserts": "^0.1.0",
+                    "mockery/mockery": "^1.0",
+                    "orchestra/database": "^4.0",
+                    "orchestra/testbench": "^4.0",
+                    "symfony/thanks": "^1.0"
+                },
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Corcel\\Laravel\\CorcelServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Corcel\\": "src/",
+                        "Corcel\\Tests\\": "tests/"
+                    }
+                }
+            }
+        ]
+    }
+}

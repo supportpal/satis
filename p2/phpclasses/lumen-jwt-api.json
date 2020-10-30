@@ -1,0 +1,32 @@
+{
+    "packages": {
+        "phpclasses/lumen-jwt-api": [
+            {
+                "name": "phpclasses/lumen-jwt-api",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/lumen-jwt-api.zip"
+                },
+                "require": {
+                    "laravel/lumen-framework": "5.5.*",
+                    "php": ">=5.6.4",
+                    "tymon/jwt-auth": "^1.0@dev",
+                    "vlucas/phpdotenv": "~2.2"
+                },
+                "require-dev": {
+                    "fzaninotto/faker": "~1.4",
+                    "mockery/mockery": "~0.9",
+                    "phpunit/phpunit": "~6.0"
+                },
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "App\\": "app/"
+                    }
+                }
+            }
+        ]
+    }
+}

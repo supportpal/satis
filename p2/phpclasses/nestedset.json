@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/nestedset": [
+            {
+                "name": "phpclasses/nestedset",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/nestedset.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "nestedset.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

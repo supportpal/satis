@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/treeview": [
+            {
+                "name": "phpclasses/treeview",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/treeview.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class/class.treeview.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

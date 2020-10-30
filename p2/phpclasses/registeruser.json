@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/registeruser": [
+            {
+                "name": "phpclasses/registeruser",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/registeruser.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class_register.php",
+                        "class_connect_db.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

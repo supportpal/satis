@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/calculate-distance": [
+            {
+                "name": "phpclasses/calculate-distance",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/calculate-distance.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "CalculateDistance.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

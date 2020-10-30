@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/codeigniter-model": [
+            {
+                "name": "phpclasses/codeigniter-model",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/codeigniter-model.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "application/core/MY_Model.php",
+                        "application/models/Advert_model.php",
+                        "application/models/Category_model.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

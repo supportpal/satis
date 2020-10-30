@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/very-simple-wp-maker": [
+            {
+                "name": "phpclasses/very-simple-wp-maker",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/very-simple-wp-maker.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "admin/vswpmm-class-serializer.php",
+                        "admin/vswpmm-class-submenu.php",
+                        "admin/vswpmm-map.php",
+                        "admin/vswpmm-submenu-page.php",
+                        "public/vswpmm-class-content-messenger.php",
+                        "shared/vswpmm-class-deserializer.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

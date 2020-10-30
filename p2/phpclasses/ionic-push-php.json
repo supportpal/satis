@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/ionic-push-php": [
+            {
+                "name": "phpclasses/ionic-push-php",
+                "version": "1.1.18",
+                "version_normalized": "1.1.18.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ionic-push-php.zip"
+                },
+                "require": {
+                    "php": ">=5.1"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Tomloprod\\IonicApi\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

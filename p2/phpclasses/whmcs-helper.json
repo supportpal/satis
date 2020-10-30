@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/whmcs-helper": [
+            {
+                "name": "phpclasses/whmcs-helper",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/whmcs-helper.zip"
+                },
+                "type": "utility",
+                "autoload": {
+                    "classmap": [
+                        "whmcshelper.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

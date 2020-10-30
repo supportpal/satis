@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/phpmxgram": [
+            {
+                "name": "phpclasses/phpmxgram",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/phpmxgram.zip"
+                },
+                "require": {
+                    "php": ">=5.4.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Lutian\\PHPMxGram\\": "/"
+                    }
+                }
+            }
+        ]
+    }
+}

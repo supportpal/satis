@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/simplehashwrapper": [
+            {
+                "name": "phpclasses/simplehashwrapper",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/simplehashwrapper.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "hash.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

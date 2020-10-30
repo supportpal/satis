@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/imexvcard": [
+            {
+                "name": "phpclasses/imexvcard",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/imexvcard.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "SKien/VCard/VCard.php",
+                        "SKien/VCard/VCardAddress.php",
+                        "SKien/VCard/VCardContact.php",
+                        "SKien/VCard/VCardHelper.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

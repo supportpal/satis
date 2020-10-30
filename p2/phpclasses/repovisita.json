@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/repovisita": [
+            {
+                "name": "phpclasses/repovisita",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/repovisita.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "php/CProg.php",
+                        "php/Cobjdb.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

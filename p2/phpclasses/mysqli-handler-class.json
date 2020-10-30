@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/mysqli-handler-class": [
+            {
+                "name": "phpclasses/mysqli-handler-class",
+                "version": "2.4",
+                "version_normalized": "2.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mysqli-handler-class.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Db.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/lua-sandbox": [
+            {
+                "name": "phpclasses/lua-sandbox",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/lua-sandbox.zip"
+                },
+                "require": {
+                    "ext-lua": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "WebPower\\LuaSandbox": "src"
+                    }
+                }
+            }
+        ]
+    }
+}

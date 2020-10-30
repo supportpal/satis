@@ -1,0 +1,1644 @@
+{
+    "packages": {
+        "horde/turba": [
+            {
+                "name": "horde/turba",
+                "version": "4.2.10",
+                "version_normalized": "4.2.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/turba.git",
+                    "reference": "a2b0399a15b4241ba7a395eb11c55caae0caabfd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/a2b0399a15b4241ba7a395eb11c55caae0caabfd",
+                    "reference": "a2b0399a15b4241ba7a395eb11c55caae0caabfd",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/content": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde": ">=5.0.0@stable,<=6.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_core": ">=2.12.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_data": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_dav": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_form": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_group": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_history": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_icalendar": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_prefs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_serialize": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_share": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_url": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_vfs": ">=2.1.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_view": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_activesync": ">=2.4.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_imsp": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_format": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_storage": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_ldap": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_openxchange": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_service_facebook": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-10-22T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "ASL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "A web based address book",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/turba/tree/v4.2.10"
+                }
+            },
+            {
+                "name": "horde/turba",
+                "version": "4.2.11",
+                "version_normalized": "4.2.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/turba.git",
+                    "reference": "a8d8e7afe3b5e25c8cdf8fd7979f7c6c67eefa7a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/a8d8e7afe3b5e25c8cdf8fd7979f7c6c67eefa7a",
+                    "reference": "a8d8e7afe3b5e25c8cdf8fd7979f7c6c67eefa7a",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/content": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde": ">=5.0.0@stable,<=6.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_core": ">=2.12.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_data": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_dav": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_form": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_group": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_history": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_icalendar": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_prefs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_serialize": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_share": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_url": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_vfs": ">=2.1.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_view": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_activesync": ">=2.4.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_imsp": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_format": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_storage": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_ldap": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_openxchange": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_service_facebook": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-10-28T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "ASL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "A web based address book",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/turba/tree/v4.2.11"
+                }
+            },
+            {
+                "name": "horde/turba",
+                "version": "4.2.12",
+                "version_normalized": "4.2.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/turba.git",
+                    "reference": "d9b82c636ddecd48958e64dd112a0e073a4abc53"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/d9b82c636ddecd48958e64dd112a0e073a4abc53",
+                    "reference": "d9b82c636ddecd48958e64dd112a0e073a4abc53",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/content": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde": ">=5.0.0@stable,<=6.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_core": ">=2.12.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_data": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_dav": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_form": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_group": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_history": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_icalendar": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_prefs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_serialize": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_share": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_url": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_vfs": ">=2.1.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_view": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_activesync": ">=2.4.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_imsp": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_format": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_storage": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_ldap": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_openxchange": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_service_facebook": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-02-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "ASL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "A web based address book",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/turba/tree/v4.2.12"
+                }
+            },
+            {
+                "name": "horde/turba",
+                "version": "4.2.13",
+                "version_normalized": "4.2.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/turba.git",
+                    "reference": "c39191a22b3d11b9208e704e96c9ffdc2fdd88b9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/c39191a22b3d11b9208e704e96c9ffdc2fdd88b9",
+                    "reference": "c39191a22b3d11b9208e704e96c9ffdc2fdd88b9",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/content": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde": ">=5.0.0@stable,<=6.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_core": ">=2.12.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_data": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_dav": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_form": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_group": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_history": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_icalendar": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_prefs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_serialize": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_share": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_url": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_vfs": ">=2.1.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_view": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_activesync": ">=2.4.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_imsp": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_format": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_storage": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_ldap": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_openxchange": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_service_facebook": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-03-21T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "ASL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "A web based address book",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/turba/tree/v4.2.13"
+                }
+            },
+            {
+                "name": "horde/turba",
+                "version": "4.2.14",
+                "version_normalized": "4.2.14.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/turba.git",
+                    "reference": "2bcd3b1dfe1dbce2920ad332476e424c36b45b9c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/2bcd3b1dfe1dbce2920ad332476e424c36b45b9c",
+                    "reference": "2bcd3b1dfe1dbce2920ad332476e424c36b45b9c",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/content": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde": ">=5.0.0@stable,<=6.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_core": ">=2.12.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_data": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_dav": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_form": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_group": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_history": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_icalendar": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_prefs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_serialize": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_share": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_url": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_vfs": ">=2.1.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_view": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_activesync": ">=2.4.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_imsp": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_format": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_storage": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_ldap": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_openxchange": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_service_facebook": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-04-05T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "ASL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "A web based address book",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/turba/tree/v4.2.14"
+                }
+            },
+            {
+                "name": "horde/turba",
+                "version": "4.2.15",
+                "version_normalized": "4.2.15.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/turba.git",
+                    "reference": "33cfe6e8a0c7023f8da68f90a115473980d76d2c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/33cfe6e8a0c7023f8da68f90a115473980d76d2c",
+                    "reference": "33cfe6e8a0c7023f8da68f90a115473980d76d2c",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/content": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde": ">=5.0.0@stable,<=6.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_core": ">=2.12.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_data": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_dav": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_form": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_group": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_history": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_icalendar": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_prefs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_serialize": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_share": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_url": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_vfs": ">=2.1.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_view": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_activesync": ">=2.4.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_imsp": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_format": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_storage": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_ldap": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_openxchange": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_service_facebook": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-07-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "ASL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "A web based address book",
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/turba/tree/v4.2.15"
+                }
+            },
+            {
+                "name": "horde/turba",
+                "version": "4.2.16",
+                "version_normalized": "4.2.16.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/turba.git",
+                    "reference": "dbaf25009f9a720aade0a57c0034efd43d8e9bfc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/dbaf25009f9a720aade0a57c0034efd43d8e9bfc",
+                    "reference": "dbaf25009f9a720aade0a57c0034efd43d8e9bfc",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/content": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde": ">=5.0.0@stable,<=6.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_core": ">=2.12.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_data": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_dav": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_form": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_group": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_history": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_icalendar": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_prefs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_serialize": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_share": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_url": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_vfs": ">=2.1.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_view": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_activesync": ">=2.4.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_imsp": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_format": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_storage": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_ldap": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_openxchange": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_service_facebook": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-09-06T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "ASL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "A web based address book",
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/turba/tree/v4.2.16"
+                }
+            },
+            {
+                "name": "horde/turba",
+                "version": "4.2.17",
+                "version_normalized": "4.2.17.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/turba.git",
+                    "reference": "06c5f5eb837e3b98ba35db4a096ffb8cd6431b8a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/06c5f5eb837e3b98ba35db4a096ffb8cd6431b8a",
+                    "reference": "06c5f5eb837e3b98ba35db4a096ffb8cd6431b8a",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/content": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde": ">=5.0.0@stable,<=6.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_core": ">=2.12.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_data": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_dav": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_form": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_group": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_history": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_icalendar": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_prefs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_serialize": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_share": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_url": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_vfs": ">=2.1.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_view": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_activesync": ">=2.4.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_imsp": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_format": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_storage": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_ldap": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_openxchange": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_service_facebook": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-11-03T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "ASL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "A web based address book",
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/turba/tree/v4.2.17"
+                }
+            },
+            {
+                "name": "horde/turba",
+                "version": "4.2.18",
+                "version_normalized": "4.2.18.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/turba.git",
+                    "reference": "6ec928086a053cb181aa55b6edcb9580f063bc7b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/6ec928086a053cb181aa55b6edcb9580f063bc7b",
+                    "reference": "6ec928086a053cb181aa55b6edcb9580f063bc7b",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/content": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde": ">=5.0.0@stable,<=6.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_core": ">=2.12.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_data": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_dav": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_form": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_group": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_history": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_icalendar": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_prefs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_serialize": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_share": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_url": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_vfs": ">=2.1.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_view": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_activesync": ">=2.4.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_imsp": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_format": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_storage": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_ldap": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_openxchange": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_service_facebook": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-12-16T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "ASL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "A web based address book",
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/turba/tree/v4.2.18"
+                }
+            },
+            {
+                "name": "horde/turba",
+                "version": "4.2.19",
+                "version_normalized": "4.2.19.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/turba.git",
+                    "reference": "54fd2a2e8ba268237a19815649221707aca501cd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/54fd2a2e8ba268237a19815649221707aca501cd",
+                    "reference": "54fd2a2e8ba268237a19815649221707aca501cd",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/content": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde": ">=5.0.0@stable,<=6.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_core": ">=2.12.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_data": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_dav": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_form": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_group": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_history": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_icalendar": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_prefs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_serialize": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_share": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_url": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_vfs": ">=2.1.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_view": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_activesync": ">=2.4.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_imsp": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_format": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_storage": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_ldap": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_openxchange": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_service_facebook": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2017-03-20T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "ASL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "A web based address book",
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/turba/tree/v4.2.19"
+                }
+            },
+            {
+                "name": "horde/turba",
+                "version": "4.2.20",
+                "version_normalized": "4.2.20.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/turba.git",
+                    "reference": "017e1e9ee93b0535c1eb42a412f6010b74eefe26"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/017e1e9ee93b0535c1eb42a412f6010b74eefe26",
+                    "reference": "017e1e9ee93b0535c1eb42a412f6010b74eefe26",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/content": "^2.0.5@stable",
+                    "pear-pear.horde.org/horde": "^5@stable",
+                    "pear-pear.horde.org/horde_auth": "^2@stable",
+                    "pear-pear.horde.org/horde_core": "^2.3@stable",
+                    "pear-pear.horde.org/horde_data": "^2@stable",
+                    "pear-pear.horde.org/horde_date": "^2@stable",
+                    "pear-pear.horde.org/horde_dav": "^1@stable",
+                    "pear-pear.horde.org/horde_exception": "^2@stable",
+                    "pear-pear.horde.org/horde_form": "^2@stable",
+                    "pear-pear.horde.org/horde_group": "^2@stable",
+                    "pear-pear.horde.org/horde_history": "^2.1@stable",
+                    "pear-pear.horde.org/horde_icalendar": "^2@stable",
+                    "pear-pear.horde.org/horde_mail": "^2@stable",
+                    "pear-pear.horde.org/horde_mime": "^2@stable",
+                    "pear-pear.horde.org/horde_nls": "^2@stable",
+                    "pear-pear.horde.org/horde_perms": "^2@stable",
+                    "pear-pear.horde.org/horde_prefs": "^2@stable",
+                    "pear-pear.horde.org/horde_serialize": "^2@stable",
+                    "pear-pear.horde.org/horde_share": "^2@stable",
+                    "pear-pear.horde.org/horde_support": "^2@stable",
+                    "pear-pear.horde.org/horde_url": "^2@stable",
+                    "pear-pear.horde.org/horde_util": "^2.5@stable",
+                    "pear-pear.horde.org/horde_vfs": "^2.1.3@stable",
+                    "pear-pear.horde.org/horde_view": "^2@stable",
+                    "php": "^5.3"
+                },
+                "replace": {
+                    "pear-horde/turba": "4.*",
+                    "pear-pear.horde.org/turba": "4.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_activesync": "^2.4@stable",
+                    "pear-pear.horde.org/horde_db": "^2.0.3@stable",
+                    "pear-pear.horde.org/horde_imsp": "^2@stable",
+                    "pear-pear.horde.org/horde_kolab_format": "^2.0.5@stable",
+                    "pear-pear.horde.org/horde_kolab_storage": "^2.1@stable",
+                    "pear-pear.horde.org/horde_ldap": "^2@stable",
+                    "pear-pear.horde.org/horde_openxchange": "^1@stable",
+                    "pear-pear.horde.org/horde_service_facebook": "^2@stable"
+                },
+                "time": "2017-08-01T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Turba": "lib/"
+                    }
+                },
+                "license": [
+                    "ASL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "A web based address book",
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/turba/tree/v4.2.20"
+                }
+            },
+            {
+                "name": "horde/turba",
+                "version": "4.2.21",
+                "version_normalized": "4.2.21.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/turba.git",
+                    "reference": "6e4b8c0406cd76a7e6cfb86cb9933053d63f7b20"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/6e4b8c0406cd76a7e6cfb86cb9933053d63f7b20",
+                    "reference": "6e4b8c0406cd76a7e6cfb86cb9933053d63f7b20",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/content": "^2.0.5@stable",
+                    "pear-pear.horde.org/horde": "^5@stable",
+                    "pear-pear.horde.org/horde_auth": "^2@stable",
+                    "pear-pear.horde.org/horde_core": "^2.3@stable",
+                    "pear-pear.horde.org/horde_data": "^2@stable",
+                    "pear-pear.horde.org/horde_date": "^2@stable",
+                    "pear-pear.horde.org/horde_dav": "^1@stable",
+                    "pear-pear.horde.org/horde_exception": "^2@stable",
+                    "pear-pear.horde.org/horde_form": "^2@stable",
+                    "pear-pear.horde.org/horde_group": "^2@stable",
+                    "pear-pear.horde.org/horde_history": "^2.1@stable",
+                    "pear-pear.horde.org/horde_icalendar": "^2@stable",
+                    "pear-pear.horde.org/horde_mail": "^2@stable",
+                    "pear-pear.horde.org/horde_mime": "^2@stable",
+                    "pear-pear.horde.org/horde_nls": "^2@stable",
+                    "pear-pear.horde.org/horde_perms": "^2@stable",
+                    "pear-pear.horde.org/horde_prefs": "^2@stable",
+                    "pear-pear.horde.org/horde_serialize": "^2@stable",
+                    "pear-pear.horde.org/horde_share": "^2@stable",
+                    "pear-pear.horde.org/horde_support": "^2@stable",
+                    "pear-pear.horde.org/horde_url": "^2@stable",
+                    "pear-pear.horde.org/horde_util": "^2.5@stable",
+                    "pear-pear.horde.org/horde_vfs": "^2.1.3@stable",
+                    "pear-pear.horde.org/horde_view": "^2@stable",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/turba": "4.*",
+                    "pear-pear.horde.org/turba": "4.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_activesync": "^2.4@stable",
+                    "pear-pear.horde.org/horde_db": "^2.0.3@stable",
+                    "pear-pear.horde.org/horde_imsp": "^2@stable",
+                    "pear-pear.horde.org/horde_kolab_format": "^2.0.5@stable",
+                    "pear-pear.horde.org/horde_kolab_storage": "^2.1@stable",
+                    "pear-pear.horde.org/horde_ldap": "^2@stable",
+                    "pear-pear.horde.org/horde_openxchange": "^1@stable",
+                    "pear-pear.horde.org/horde_service_facebook": "^2@stable"
+                },
+                "time": "2017-09-19T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Turba": "lib/"
+                    }
+                },
+                "license": [
+                    "ASL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "A web based address book",
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/turba/tree/v4.2.21"
+                }
+            },
+            {
+                "name": "horde/turba",
+                "version": "4.2.22",
+                "version_normalized": "4.2.22.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/turba.git",
+                    "reference": "3ed26432a26f39542f47d1138f668e584af3fcc1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/3ed26432a26f39542f47d1138f668e584af3fcc1",
+                    "reference": "3ed26432a26f39542f47d1138f668e584af3fcc1",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/content": "^2.0.5",
+                    "pear-pear.horde.org/horde": "^5",
+                    "pear-pear.horde.org/horde_auth": "^2",
+                    "pear-pear.horde.org/horde_core": "^2.30",
+                    "pear-pear.horde.org/horde_data": "^2",
+                    "pear-pear.horde.org/horde_date": "^2",
+                    "pear-pear.horde.org/horde_dav": "^1",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_form": "^2",
+                    "pear-pear.horde.org/horde_group": "^2",
+                    "pear-pear.horde.org/horde_history": "^2.1",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_mail": "^2",
+                    "pear-pear.horde.org/horde_mime": "^2",
+                    "pear-pear.horde.org/horde_nls": "^2",
+                    "pear-pear.horde.org/horde_perms": "^2",
+                    "pear-pear.horde.org/horde_prefs": "^2",
+                    "pear-pear.horde.org/horde_serialize": "^2",
+                    "pear-pear.horde.org/horde_share": "^2",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_url": "^2",
+                    "pear-pear.horde.org/horde_util": "^2.5",
+                    "pear-pear.horde.org/horde_vfs": "^2.1.3",
+                    "pear-pear.horde.org/horde_view": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/turba": "4.*",
+                    "pear-pear.horde.org/turba": "4.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_activesync": "^2.4",
+                    "pear-pear.horde.org/horde_db": "^2.0.3",
+                    "pear-pear.horde.org/horde_imsp": "^2",
+                    "pear-pear.horde.org/horde_kolab_format": "^2.0.5",
+                    "pear-pear.horde.org/horde_kolab_storage": "^2.1",
+                    "pear-pear.horde.org/horde_ldap": "^2",
+                    "pear-pear.horde.org/horde_openxchange": "^1",
+                    "pear-pear.horde.org/horde_service_facebook": "^2"
+                },
+                "time": "2018-07-04T00:00:00+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-0": {
+                        "Turba": "lib/"
+                    }
+                },
+                "license": [
+                    "ASL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Address book application",
+                "homepage": "https://www.horde.org/apps/turba",
+                "support": {
+                    "source": "https://github.com/maintaina-com/turba/tree/v4.2.22"
+                }
+            },
+            {
+                "name": "horde/turba",
+                "version": "4.2.23",
+                "version_normalized": "4.2.23.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/turba.git",
+                    "reference": "0652c6f162e5c848f8e6cc12adb31a14fa6662db"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/0652c6f162e5c848f8e6cc12adb31a14fa6662db",
+                    "reference": "0652c6f162e5c848f8e6cc12adb31a14fa6662db",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/content": "^2.0.5",
+                    "pear-pear.horde.org/horde": "^5",
+                    "pear-pear.horde.org/horde_auth": "^2",
+                    "pear-pear.horde.org/horde_core": "^2.30",
+                    "pear-pear.horde.org/horde_data": "^2",
+                    "pear-pear.horde.org/horde_date": "^2",
+                    "pear-pear.horde.org/horde_dav": "^1",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_form": "^2",
+                    "pear-pear.horde.org/horde_group": "^2",
+                    "pear-pear.horde.org/horde_history": "^2.1",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_mail": "^2",
+                    "pear-pear.horde.org/horde_mime": "^2",
+                    "pear-pear.horde.org/horde_nls": "^2",
+                    "pear-pear.horde.org/horde_perms": "^2",
+                    "pear-pear.horde.org/horde_prefs": "^2",
+                    "pear-pear.horde.org/horde_serialize": "^2",
+                    "pear-pear.horde.org/horde_share": "^2",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_url": "^2",
+                    "pear-pear.horde.org/horde_util": "^2.5",
+                    "pear-pear.horde.org/horde_vfs": "^2.1.3",
+                    "pear-pear.horde.org/horde_view": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/turba": "4.*",
+                    "pear-pear.horde.org/turba": "4.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_activesync": "^2.4",
+                    "pear-pear.horde.org/horde_db": "^2.0.3",
+                    "pear-pear.horde.org/horde_imsp": "^2",
+                    "pear-pear.horde.org/horde_kolab_format": "^2.0.5",
+                    "pear-pear.horde.org/horde_kolab_storage": "^2.1",
+                    "pear-pear.horde.org/horde_ldap": "^2",
+                    "pear-pear.horde.org/horde_openxchange": "^1",
+                    "pear-pear.horde.org/horde_service_facebook": "^2"
+                },
+                "time": "2018-08-18T00:00:00+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-0": {
+                        "Turba": "lib/"
+                    }
+                },
+                "license": [
+                    "ASL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Address book application",
+                "homepage": "https://www.horde.org/apps/turba",
+                "support": {
+                    "source": "https://github.com/maintaina-com/turba/tree/v4.2.23"
+                }
+            },
+            {
+                "name": "horde/turba",
+                "version": "4.2.24",
+                "version_normalized": "4.2.24.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/turba.git",
+                    "reference": "7edf246ee0b891a6f2d915ebecd10ce0cfbb19bf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/7edf246ee0b891a6f2d915ebecd10ce0cfbb19bf",
+                    "reference": "7edf246ee0b891a6f2d915ebecd10ce0cfbb19bf",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/content": "^2.0.5",
+                    "pear-pear.horde.org/horde": "^5",
+                    "pear-pear.horde.org/horde_auth": "^2",
+                    "pear-pear.horde.org/horde_core": "^2.30",
+                    "pear-pear.horde.org/horde_data": "^2",
+                    "pear-pear.horde.org/horde_date": "^2",
+                    "pear-pear.horde.org/horde_dav": "^1",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_form": "^2",
+                    "pear-pear.horde.org/horde_group": "^2",
+                    "pear-pear.horde.org/horde_history": "^2.1",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_mail": "^2",
+                    "pear-pear.horde.org/horde_mime": "^2",
+                    "pear-pear.horde.org/horde_nls": "^2",
+                    "pear-pear.horde.org/horde_perms": "^2",
+                    "pear-pear.horde.org/horde_prefs": "^2",
+                    "pear-pear.horde.org/horde_serialize": "^2",
+                    "pear-pear.horde.org/horde_share": "^2",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_url": "^2",
+                    "pear-pear.horde.org/horde_util": "^2.5",
+                    "pear-pear.horde.org/horde_vfs": "^2.1.3",
+                    "pear-pear.horde.org/horde_view": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/turba": "4.*",
+                    "pear-pear.horde.org/turba": "4.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_activesync": "^2.4",
+                    "pear-pear.horde.org/horde_db": "^2.0.3",
+                    "pear-pear.horde.org/horde_imsp": "^2",
+                    "pear-pear.horde.org/horde_kolab_format": "^2.0.5",
+                    "pear-pear.horde.org/horde_kolab_storage": "^2.1",
+                    "pear-pear.horde.org/horde_ldap": "^2",
+                    "pear-pear.horde.org/horde_openxchange": "^1",
+                    "pear-pear.horde.org/horde_service_facebook": "^2"
+                },
+                "time": "2019-04-20T00:00:00+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-0": {
+                        "Turba": "lib/"
+                    }
+                },
+                "license": [
+                    "ASL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Address book application",
+                "homepage": "https://www.horde.org/apps/turba",
+                "support": {
+                    "source": "https://github.com/maintaina-com/turba/tree/v4.2.24"
+                }
+            },
+            {
+                "name": "horde/turba",
+                "version": "4.2.25",
+                "version_normalized": "4.2.25.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/turba.git",
+                    "reference": "c5abbdace72baa6ee806fb0ac7a76f76db3dd0b4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/c5abbdace72baa6ee806fb0ac7a76f76db3dd0b4",
+                    "reference": "c5abbdace72baa6ee806fb0ac7a76f76db3dd0b4",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/content": "^2.0.5",
+                    "pear-pear.horde.org/horde": "^5",
+                    "pear-pear.horde.org/horde_auth": "^2",
+                    "pear-pear.horde.org/horde_core": "^2.30",
+                    "pear-pear.horde.org/horde_data": "^2",
+                    "pear-pear.horde.org/horde_date": "^2",
+                    "pear-pear.horde.org/horde_dav": "^1",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_form": "^2",
+                    "pear-pear.horde.org/horde_group": "^2",
+                    "pear-pear.horde.org/horde_history": "^2.1",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_mail": "^2",
+                    "pear-pear.horde.org/horde_mime": "^2",
+                    "pear-pear.horde.org/horde_nls": "^2",
+                    "pear-pear.horde.org/horde_perms": "^2",
+                    "pear-pear.horde.org/horde_prefs": "^2",
+                    "pear-pear.horde.org/horde_serialize": "^2",
+                    "pear-pear.horde.org/horde_share": "^2",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_url": "^2",
+                    "pear-pear.horde.org/horde_util": "^2.5",
+                    "pear-pear.horde.org/horde_vfs": "^2.1.3",
+                    "pear-pear.horde.org/horde_view": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/turba": "4.*",
+                    "pear-pear.horde.org/turba": "4.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_activesync": "^2.4",
+                    "pear-pear.horde.org/horde_db": "^2.0.3",
+                    "pear-pear.horde.org/horde_imsp": "^2",
+                    "pear-pear.horde.org/horde_kolab_format": "^2.0.5",
+                    "pear-pear.horde.org/horde_kolab_storage": "^2.1",
+                    "pear-pear.horde.org/horde_ldap": "^2",
+                    "pear-pear.horde.org/horde_openxchange": "^1",
+                    "pear-pear.horde.org/horde_service_facebook": "^2"
+                },
+                "time": "2019-05-25T00:00:00+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-0": {
+                        "Turba": "lib/"
+                    }
+                },
+                "license": [
+                    "ASL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Address book application",
+                "homepage": "https://www.horde.org/apps/turba",
+                "support": {
+                    "source": "https://github.com/maintaina-com/turba/tree/v4.2.25"
+                }
+            },
+            {
+                "name": "horde/turba",
+                "version": "4.2.8",
+                "version_normalized": "4.2.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/turba.git",
+                    "reference": "14b75edcaaf926468b0182aa06de95800bdf714e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/14b75edcaaf926468b0182aa06de95800bdf714e",
+                    "reference": "14b75edcaaf926468b0182aa06de95800bdf714e",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/content": ">=2.0.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde": ">=5.0.0@stable,<=6.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_core": ">=2.12.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_data": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_dav": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_form": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_group": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_history": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_icalendar": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_prefs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_serialize": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_share": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_url": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_vfs": ">=2.1.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_view": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_activesync": ">=2.4.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_imsp": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_format": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_storage": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_ldap": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_openxchange": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_service_facebook": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-08-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "ASL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "A web based address book",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/turba/tree/v4.2.8"
+                }
+            },
+            {
+                "name": "horde/turba",
+                "version": "4.2.9",
+                "version_normalized": "4.2.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/turba.git",
+                    "reference": "45d03788035ba2e01bf9403f7eede8051dee4b20"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/45d03788035ba2e01bf9403f7eede8051dee4b20",
+                    "reference": "45d03788035ba2e01bf9403f7eede8051dee4b20",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/content": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde": ">=5.0.0@stable,<=6.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_core": ">=2.12.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_data": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_dav": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_form": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_group": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_history": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_icalendar": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_prefs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_serialize": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_share": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_url": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_vfs": ">=2.1.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_view": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_activesync": ">=2.4.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_imsp": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_format": ">=2.0.5@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_kolab_storage": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_ldap": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_openxchange": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_service_facebook": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-10-21T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "ASL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "A web based address book",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/turba/tree/v4.2.9"
+                }
+            }
+        ]
+    }
+}

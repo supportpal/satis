@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/class_protect_pictur": [
+            {
+                "name": "phpclasses/class_protect_pictur",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/class_protect_pictur.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class_protect_picture.php",
+                        "class_cache.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

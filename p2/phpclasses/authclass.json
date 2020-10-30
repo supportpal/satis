@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/authclass": [
+            {
+                "name": "phpclasses/authclass",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/authclass.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "auth.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

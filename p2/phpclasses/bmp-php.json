@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/bmp-php": [
+            {
+                "name": "phpclasses/bmp-php",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/bmp-php.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "BMP.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

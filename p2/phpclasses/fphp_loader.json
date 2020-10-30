@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/fphp_loader": [
+            {
+                "name": "phpclasses/fphp_loader",
+                "version": "1.9",
+                "version_normalized": "1.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/fphp_loader.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "dist/php/example/Bob.php",
+                        "dist/php/example/SuperHero.php",
+                        "dist/php/fphp/loader/ClassLoader.php",
+                        "dist/php/fphp/loader/ErrorParserLoader.php",
+                        "dist/php/fphp/loader/FileLoader.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

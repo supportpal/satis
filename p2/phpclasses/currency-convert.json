@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/currency-convert": [
+            {
+                "name": "phpclasses/currency-convert",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/currency-convert.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "CurrencyConversion.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

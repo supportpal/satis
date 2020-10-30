@@ -1,0 +1,34 @@
+{
+    "packages": {
+        "phpclasses/booby_bookmarks": [
+            {
+                "name": "phpclasses/booby_bookmarks",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/booby_bookmarks.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "BookmarkController.php",
+                        "BookmarkFactory.php",
+                        "Bookmark.php",
+                        "BookmarkPreferences.php",
+                        "BookmarkServices.php",
+                        "bookmarkQueries.php",
+                        "BookmarkUtils.php",
+                        "RightsManagerImpl.php",
+                        "BookmarkExplorerTreeDelegate.php",
+                        "BookmarkYahooTreeDelegate.php",
+                        "Services.php",
+                        "ItemFactory.php",
+                        "Item.php",
+                        "Controller.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

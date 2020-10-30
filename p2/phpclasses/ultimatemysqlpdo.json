@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/ultimatemysqlpdo": [
+            {
+                "name": "phpclasses/ultimatemysqlpdo",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ultimatemysqlpdo.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "DB.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

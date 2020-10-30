@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/microformatsparser": [
+            {
+                "name": "phpclasses/microformatsparser",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/microformatsparser.zip"
+                },
+                "require": {
+                    "phpclasses/xarray": "1"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "lib/hCalendar.php",
+                        "lib/hCard.php",
+                        "lib/hReview.php",
+                        "lib/MicroFormatParser.php",
+                        "lib/relElement.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

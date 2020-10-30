@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/compare-mysql-backup": [
+            {
+                "name": "phpclasses/compare-mysql-backup",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/compare-mysql-backup.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "base.class.php",
+                        "mysql_backup.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

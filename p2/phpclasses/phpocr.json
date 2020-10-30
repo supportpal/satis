@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/phpocr": [
+            {
+                "name": "phpclasses/phpocr",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/phpocr.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "char.object.php",
+                        "OCR.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

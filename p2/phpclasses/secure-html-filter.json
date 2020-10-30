@@ -1,0 +1,32 @@
+{
+    "packages": {
+        "phpclasses/secure-html-filter": [
+            {
+                "name": "phpclasses/secure-html-filter",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/secure-html-filter.zip"
+                },
+                "require": {
+                    "phpclasses/filecache": "1.0.1",
+                    "phpclasses/formsgeneration": "1.0.32",
+                    "phpclasses/xmlparser": "1.0.1"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "markup_parser.php",
+                        "markup_filter_safe_html.php",
+                        "css_parser.php",
+                        "dtd_parser.php",
+                        "markup_filter_get_html_links.php",
+                        "markup_filter_validator.php",
+                        "markup_filter_no_follow_html_links.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

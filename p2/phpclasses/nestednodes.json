@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/nestednodes": [
+            {
+                "name": "phpclasses/nestednodes",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/nestednodes.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "nodes.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

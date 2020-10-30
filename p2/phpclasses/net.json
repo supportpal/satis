@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/net": [
+            {
+                "name": "phpclasses/net",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/net.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "URL.php",
+                        "Socket.php",
+                        "ServerSocket.php",
+                        "InetSocketAddress.php",
+                        "InetAddress",
+                        "HttpURLConnection.php",
+                        "AbstractSocket.php",
+                        "exception/SocketException.php",
+                        "exception/UnknownHostException.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

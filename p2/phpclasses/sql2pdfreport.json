@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/sql2pdfreport": [
+            {
+                "name": "phpclasses/sql2pdfreport",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/sql2pdfreport.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Sql2PdfReport.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

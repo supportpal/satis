@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/tld": [
+            {
+                "name": "phpclasses/tld",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/tld.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "utils.php",
+                        "exceptions.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

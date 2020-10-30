@@ -1,0 +1,33 @@
+{
+    "packages": {
+        "phpclasses/ldr-apt-calendar": [
+            {
+                "name": "phpclasses/ldr-apt-calendar",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ldr-apt-calendar.zip"
+                },
+                "require": {
+                    "phpclasses/ladder": "1.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Appointment_Edit.cls",
+                        "Appointment_View.cls",
+                        "Calendar_Week.cls",
+                        "Common_Appointment.cls",
+                        "Common_Appointments.cls",
+                        "Common_List4.cls",
+                        "Common_Panel.cls",
+                        "Time_Length.cls",
+                        "Time_Start.cls",
+                        "List.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

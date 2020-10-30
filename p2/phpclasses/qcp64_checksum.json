@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/qcp64_checksum": [
+            {
+                "name": "phpclasses/qcp64_checksum",
+                "version": "1.5.1",
+                "version_normalized": "1.5.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/qcp64_checksum.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "qcp64.base.php",
+                        "qcp64.class.php",
+                        "qcp64.enumerator.php",
+                        "qcp64.leaver.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

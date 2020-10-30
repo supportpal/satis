@@ -1,0 +1,64 @@
+{
+    "packages": {
+        "horde/tree": [
+            {
+                "name": "horde/tree",
+                "version": "2.0.5",
+                "version_normalized": "2.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Tree.git",
+                    "reference": "c8a165ba1cb914fb6e410417ecc4e5959f388096"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Tree/zipball/c8a165ba1cb914fb6e410417ecc4e5959f388096",
+                    "reference": "c8a165ba1cb914fb6e410417ecc4e5959f388096",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2@stable",
+                    "pear-pear.horde.org/horde_url": "^2@stable",
+                    "pear-pear.horde.org/horde_util": "^2@stable",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_tree": "2.*",
+                    "pear-pear.horde.org/horde_tree": "2.*"
+                },
+                "suggest": {
+                    "ext-gettext": "*"
+                },
+                "time": "2017-09-19T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Tree": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Horde Tree API",
+                "homepage": "https://pear.horde.org"
+            }
+        ]
+    }
+}

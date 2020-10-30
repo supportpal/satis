@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/healthmeasures": [
+            {
+                "name": "phpclasses/healthmeasures",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/healthmeasures.zip"
+                },
+                "require": {
+                    "amenadiel/jpgraph": "^3.6",
+                    "illuminate/config": "~5.0",
+                    "php": "^5.3.3|^7.0",
+                    "symfony/finder": "~2.6",
+                    "vlucas/phpdotenv": "~2.2"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Healthmeasures\\": "src/Healthmeasures"
+                    }
+                }
+            }
+        ]
+    }
+}

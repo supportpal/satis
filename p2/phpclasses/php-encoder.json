@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-encoder": [
+            {
+                "name": "phpclasses/php-encoder",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-encoder.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/Encoder.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

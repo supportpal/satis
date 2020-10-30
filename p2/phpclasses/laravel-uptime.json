@@ -1,0 +1,39 @@
+{
+    "packages": {
+        "phpclasses/laravel-uptime": [
+            {
+                "name": "phpclasses/laravel-uptime",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/laravel-uptime.zip"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "5.*|6.*",
+                    "illuminate/support": "~5.5|~6.5|^7.0",
+                    "php": ">=5.5.9"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "~3.5|~4.4|^5.0"
+                },
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Infinitypaul\\LaravelUptime\\LaravelUptimeServiceProvider"
+                        ],
+                        "aliases": {
+                            "LaravelUptime": "Infinitypaul\\LaravelUptime\\LaravelUptimeFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Infinitypaul\\LaravelUptime\\": "src"
+                    }
+                }
+            }
+        ]
+    }
+}

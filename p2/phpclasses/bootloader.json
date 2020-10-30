@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/bootloader": [
+            {
+                "name": "phpclasses/bootloader",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/bootloader.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Bootloader.php",
+                        "libs/Db.php",
+                        "libs/Router.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

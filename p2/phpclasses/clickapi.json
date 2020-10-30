@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/clickapi": [
+            {
+                "name": "phpclasses/clickapi",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/clickapi.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "click_api.php",
+                        "xml_click_api.php",
+                        "smtp_click_api.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/minifier": [
+            {
+                "name": "phpclasses/minifier",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/minifier.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "CssMinifier.phpclass",
+                        "JavascriptMinifier.phpclass",
+                        "Minifier.phpclass",
+                        "PhpMinifier.phpclass",
+                        "examples/php/example.phpclass",
+                        "HtmlMinifier.phpclass"
+                    ]
+                }
+            }
+        ]
+    }
+}

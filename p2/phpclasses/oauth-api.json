@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/oauth-api": [
+            {
+                "name": "phpclasses/oauth-api",
+                "version": "1.0.106",
+                "version_normalized": "1.0.106.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/oauth-api.zip"
+                },
+                "require": {
+                    "phpclasses/httpclient": "1.0.5"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "oauth_client.php",
+                        "mysqli_oauth_client.php",
+                        "mysqli_offline_access_to_google.php",
+                        "database_oauth_client.php",
+                        "cookie_oauth_client.php",
+                        "file_oauth_client.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

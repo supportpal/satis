@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/htmlformvalidator": [
+            {
+                "name": "phpclasses/htmlformvalidator",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/htmlformvalidator.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "FormValidator.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

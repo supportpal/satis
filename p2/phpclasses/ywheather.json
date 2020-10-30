@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/ywheather": [
+            {
+                "name": "phpclasses/ywheather",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ywheather.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "YWeather.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

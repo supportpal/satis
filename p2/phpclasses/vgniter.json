@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/vgniter": [
+            {
+                "name": "phpclasses/vgniter",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/vgniter.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "config/vgniter.php",
+                        "controller/vgniter.php",
+                        "libraries/Vgniter_lib.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

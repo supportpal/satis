@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/emailmd": [
+            {
+                "name": "phpclasses/emailmd",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/emailmd.zip"
+                },
+                "require": {
+                    "ext-imap": "*",
+                    "php": ">=5.3"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "EmailMD\\": "src/EmailMD"
+                    }
+                }
+            }
+        ]
+    }
+}

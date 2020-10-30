@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/us-to-uk-converter": [
+            {
+                "name": "phpclasses/us-to-uk-converter",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/us-to-uk-converter.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "us-to-uk-converter/AmericanBritishSpellings.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

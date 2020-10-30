@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/apphp-calendar": [
+            {
+                "name": "phpclasses/apphp-calendar",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/apphp-calendar.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "calendar.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

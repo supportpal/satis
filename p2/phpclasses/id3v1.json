@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/id3v1": [
+            {
+                "name": "phpclasses/id3v1",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/id3v1.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.Id3v1.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

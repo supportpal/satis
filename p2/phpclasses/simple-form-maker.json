@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/simple-form-maker": [
+            {
+                "name": "phpclasses/simple-form-maker",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/simple-form-maker.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "FormMaker.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

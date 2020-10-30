@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/ajax-chat": [
+            {
+                "name": "phpclasses/ajax-chat",
+                "version": "2.13",
+                "version_normalized": "2.13.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ajax-chat.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "inc/chatClass.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

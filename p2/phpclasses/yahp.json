@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/yahp": [
+            {
+                "name": "phpclasses/yahp",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/yahp.zip"
+                },
+                "require": {
+                    "hashids/hashids": "^2.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Ezama_Hashmore.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-ajax-voting": [
+            {
+                "name": "phpclasses/php-ajax-voting",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-ajax-voting.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "votingfiles/class.voting.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

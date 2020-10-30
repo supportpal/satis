@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/cls_form": [
+            {
+                "name": "phpclasses/cls_form",
+                "version": "2.4.3",
+                "version_normalized": "2.4.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/cls_form.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "cls_form.php",
+                        "inc/cls_form.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

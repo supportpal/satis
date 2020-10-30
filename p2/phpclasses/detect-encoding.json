@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/detect-encoding": [
+            {
+                "name": "phpclasses/detect-encoding",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/detect-encoding.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "DetectEncoding.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

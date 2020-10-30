@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/gender-latin": [
+            {
+                "name": "phpclasses/gender-latin",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/gender-latin.zip"
+                },
+                "require": {
+                    "ext-gender": "*",
+                    "php": ">=5.3.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "peterkahl\\GenderLatin\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

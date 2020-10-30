@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/dot-naming-strategy": [
+            {
+                "name": "phpclasses/dot-naming-strategy",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/dot-naming-strategy.zip"
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "doctrine/orm": "~2.2,>=2.2.3"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Fluency\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

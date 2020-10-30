@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "phpclasses/ping-traceroute-dns": [
+            {
+                "name": "phpclasses/ping-traceroute-dns",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ping-traceroute-dns.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "geoip.class.php",
+                        "dns_struct.php",
+                        "echo_request.struct.php",
+                        "icmp_header.struct.php",
+                        "ip_header.struct.php",
+                        "os.class.php",
+                        "ping.class.php",
+                        "ping_repply.struct.php",
+                        "request.struct.php",
+                        "trace_request.struct.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "packages": {
+        "phpclasses/veriword": [
+            {
+                "name": "phpclasses/veriword",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/veriword.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.veriword.php",
+                        "class.captcha.php",
+                        "class.noisegenerator.php",
+                        "class.wordgenerator.php",
+                        "class.wordart.php",
+                        "class.filefinder.php",
+                        "class.configreader.php",
+                        "class.filter.php",
+                        "class.verificator.php",
+                        "class.flashcaptcha.php",
+                        "class.img2bitmap.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

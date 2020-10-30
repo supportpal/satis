@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/security-helper": [
+            {
+                "name": "phpclasses/security-helper",
+                "version": "4",
+                "version_normalized": "4.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/security-helper.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "SecurityHelper.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

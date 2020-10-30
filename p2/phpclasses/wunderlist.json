@@ -1,0 +1,38 @@
+{
+    "packages": {
+        "phpclasses/wunderlist": [
+            {
+                "name": "phpclasses/wunderlist",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/wunderlist.zip"
+                },
+                "require": {
+                    "doctrine/common": "~2.4",
+                    "easyframework/collections": "~4.0",
+                    "filp/whoops": "~1.1",
+                    "guzzlehttp/guzzle": "~5.2",
+                    "jms/serializer": "~0.16",
+                    "lusitanian/oauth": ">=0.2.3",
+                    "nesbot/carbon": "~1.17",
+                    "symfony/http-foundation": "~2.6",
+                    "symfony/property-access": "~2.6",
+                    "symfony/yaml": "~2.6"
+                },
+                "require-dev": {
+                    "php": ">=5.4.0",
+                    "phpunit/phpunit": "~4.5",
+                    "symfony/var-dumper": "~2.6"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Wunderlist\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

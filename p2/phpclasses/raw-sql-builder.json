@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/raw-sql-builder": [
+            {
+                "name": "phpclasses/raw-sql-builder",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/raw-sql-builder.zip"
+                },
+                "require": {
+                    "ext-mbstring": "*",
+                    "php": ">=5.6.4"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Twister\\": "./"
+                    },
+                    "files": [
+                        "helpers.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

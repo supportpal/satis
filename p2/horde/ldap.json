@@ -1,0 +1,455 @@
+{
+    "packages": {
+        "horde/ldap": [
+            {
+                "name": "horde/ldap",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Ldap.git",
+                    "reference": "56553848d4ecee0bd0ae145e93d7c4bd3e0533f0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Ldap/zipball/56553848d4ecee0bd0ae145e93d7c4bd3e0533f0",
+                    "reference": "56553848d4ecee0bd0ae145e93d7c4bd3e0533f0",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ldap": "*",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2013-01-29T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Klang",
+                        "email": "ben@alkaloid.net",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde LDAP libraries",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/ldap",
+                "version": "2.0.5",
+                "version_normalized": "2.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Ldap.git",
+                    "reference": "88ba98fbc93b382630353e01b9c9d8c598e4fffa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Ldap/zipball/88ba98fbc93b382630353e01b9c9d8c598e4fffa",
+                    "reference": "88ba98fbc93b382630353e01b9c9d8c598e4fffa",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ldap": "*",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2014-05-21T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Klang",
+                        "email": "ben@alkaloid.net",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde LDAP libraries",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/ldap",
+                "version": "2.0.6",
+                "version_normalized": "2.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Ldap.git",
+                    "reference": "8a6ab389704cadc7435d3a19c14447aea8bee4d7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Ldap/zipball/8a6ab389704cadc7435d3a19c14447aea8bee4d7",
+                    "reference": "8a6ab389704cadc7435d3a19c14447aea8bee4d7",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ldap": "*",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2014-06-03T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Klang",
+                        "email": "ben@alkaloid.net",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde LDAP libraries",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/ldap",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Ldap.git",
+                    "reference": "d40c2a66441a0bd47b0ff271736b6c38d89a29bf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Ldap/zipball/d40c2a66441a0bd47b0ff271736b6c38d89a29bf",
+                    "reference": "d40c2a66441a0bd47b0ff271736b6c38d89a29bf",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ldap": "*",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2014-06-10T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Klang",
+                        "email": "ben@alkaloid.net",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde LDAP libraries",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/ldap",
+                "version": "2.2.0",
+                "version_normalized": "2.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Ldap.git",
+                    "reference": "4e266b9b6c4413cbc5361dbdb1d9280be7fb966a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Ldap/zipball/4e266b9b6c4413cbc5361dbdb1d9280be7fb966a",
+                    "reference": "4e266b9b6c4413cbc5361dbdb1d9280be7fb966a",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ldap": "*",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2014-06-17T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Klang",
+                        "email": "ben@alkaloid.net",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde LDAP libraries",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/ldap",
+                "version": "2.3.0",
+                "version_normalized": "2.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Ldap.git",
+                    "reference": "e8fe885ddb0a54d1a4e7b1a4d691b26b33a7dde4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Ldap/zipball/e8fe885ddb0a54d1a4e7b1a4d691b26b33a7dde4",
+                    "reference": "e8fe885ddb0a54d1a4e7b1a4d691b26b33a7dde4",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ldap": "*",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-02-10T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Klang",
+                        "email": "ben@alkaloid.net",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde LDAP libraries",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/ldap",
+                "version": "2.3.1",
+                "version_normalized": "2.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Ldap.git",
+                    "reference": "4c6de476e30ebee9122614633ce0be47ce079aff"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Ldap/zipball/4c6de476e30ebee9122614633ce0be47ce079aff",
+                    "reference": "4c6de476e30ebee9122614633ce0be47ce079aff",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ldap": "*",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-02-12T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Klang",
+                        "email": "ben@alkaloid.net",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde LDAP libraries",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/ldap",
+                "version": "2.3.2",
+                "version_normalized": "2.3.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Ldap.git",
+                    "reference": "aee5926380d54704428c77ef04abc47101475971"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Ldap/zipball/aee5926380d54704428c77ef04abc47101475971",
+                    "reference": "aee5926380d54704428c77ef04abc47101475971",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ldap": "*",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-02-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Klang",
+                        "email": "ben@alkaloid.net",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde LDAP libraries",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/ldap",
+                "version": "2.4.0",
+                "version_normalized": "2.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Ldap.git",
+                    "reference": "5db8603570c0cf99d5b0f61436fcf3719ccb39b1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Ldap/zipball/5db8603570c0cf99d5b0f61436fcf3719ccb39b1",
+                    "reference": "5db8603570c0cf99d5b0f61436fcf3719ccb39b1",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ldap": "*",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2017-02-27T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Klang",
+                        "email": "ben@alkaloid.net",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde LDAP libraries",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/ldap",
+                "version": "2.4.1",
+                "version_normalized": "2.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Ldap.git",
+                    "reference": "c8e420070dc1b683cc7710ff38e0382c4ad48b5e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Ldap/zipball/c8e420070dc1b683cc7710ff38e0382c4ad48b5e",
+                    "reference": "c8e420070dc1b683cc7710ff38e0382c4ad48b5e",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ldap": "*",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_ldap": "2.*",
+                    "pear-pear.horde.org/horde_ldap": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Ldap": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Klang",
+                        "email": "ben@alkaloid.net",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "LDAP client library",
+                "homepage": "https://www.horde.org/libraries/Horde_Ldap"
+            }
+        ]
+    }
+}

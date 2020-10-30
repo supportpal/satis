@@ -1,0 +1,147 @@
+{
+    "packages": {
+        "horde/exception": [
+            {
+                "name": "horde/exception",
+                "version": "2.0.6",
+                "version_normalized": "2.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Exception.git",
+                    "reference": "f379500df47f5601ba660fce32f4eb60747251f9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Exception/zipball/f379500df47f5601ba660fce32f4eb60747251f9",
+                    "reference": "f379500df47f5601ba660fce32f4eb60747251f9",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-07-31T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Horde Exception Handler",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/exception",
+                "version": "2.0.7",
+                "version_normalized": "2.0.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Exception.git",
+                    "reference": "8332f0dafe2aab837417268e4adf8773c66dda6d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Exception/zipball/8332f0dafe2aab837417268e4adf8773c66dda6d",
+                    "reference": "8332f0dafe2aab837417268e4adf8773c66dda6d",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-02-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Horde Exception Handler",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/exception",
+                "version": "2.0.8",
+                "version_normalized": "2.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Exception.git",
+                    "reference": "9f5eb8f67ba91bd2f7bfc3673ee26458e2f2989d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Exception/zipball/9f5eb8f67ba91bd2f7bfc3673ee26458e2f2989d",
+                    "reference": "9f5eb8f67ba91bd2f7bfc3673ee26458e2f2989d",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-03-21T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Horde Exception Handler",
+                "homepage": "http://pear.horde.org"
+            }
+        ]
+    }
+}

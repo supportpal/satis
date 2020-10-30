@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/youtube-video-search": [
+            {
+                "name": "phpclasses/youtube-video-search",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/youtube-video-search.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "youtube.inc.php",
+                        "example.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

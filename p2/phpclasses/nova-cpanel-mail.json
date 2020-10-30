@@ -1,0 +1,32 @@
+{
+    "packages": {
+        "phpclasses/nova-cpanel-mail": [
+            {
+                "name": "phpclasses/nova-cpanel-mail",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/nova-cpanel-mail.zip"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^6.3",
+                    "php": ">=7.1.0"
+                },
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Naif\\CpanelMail\\ToolServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Naif\\CpanelMail\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

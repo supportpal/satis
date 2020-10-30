@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/hnwb_listview": [
+            {
+                "name": "phpclasses/hnwb_listview",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/hnwb_listview.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "hnwb_ListView/hnwb_listview.class.php",
+                        "hnwb_ListView/hn_basic.class.php",
+                        "hnwb_ListView/hn_ini.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

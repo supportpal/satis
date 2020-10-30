@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/itaucripto-class": [
+            {
+                "name": "phpclasses/itaucripto-class",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/itaucripto-class.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Itaucripto.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

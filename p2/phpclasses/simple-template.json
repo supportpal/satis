@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/simple-template": [
+            {
+                "name": "phpclasses/simple-template",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/simple-template.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "include/class.simpletemplate.php",
+                        "include/class.simpletemplatehelper.php",
+                        "include/class.simpletemplateview.php",
+                        "include/helpers/html.helper.php",
+                        "include/helpers/paypal.helper.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

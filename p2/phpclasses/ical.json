@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/ical": [
+            {
+                "name": "phpclasses/ical",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ical.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.iCal.inc.php",
+                        "class.iCalEvent.inc.php",
+                        "class.iCalToDo.inc.php",
+                        "class.iCalJournal.inc.php",
+                        "class.iCalFreeBusy.inc.php",
+                        "class.iCalAlarm.inc.php",
+                        "class.iCalBase.inc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

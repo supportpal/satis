@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/retryclass": [
+            {
+                "name": "phpclasses/retryclass",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/retryclass.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "retry-class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

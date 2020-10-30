@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/jalali_calendar": [
+            {
+                "name": "phpclasses/jalali_calendar",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/jalali_calendar.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Converter.Class.php",
+                        "Calendar.Class.php",
+                        "CalendarEvents.Class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

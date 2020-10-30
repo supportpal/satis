@@ -1,0 +1,35 @@
+{
+    "packages": {
+        "phpclasses/notes": [
+            {
+                "name": "phpclasses/notes",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/notes.zip"
+                },
+                "require": {
+                    "phpclasses/ladder": "1.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Shared/Classes/Common/Common_Note.cls",
+                        "Shared/Classes/Common/Common_Notes.cls",
+                        "Shared/Panels/Common/Panel_Common_Note.cls",
+                        "Shared/Panels/Ladder/Panel_Folder_DetailList2.cls",
+                        "Shared/Panels/Ladder/Panel_Ladder_Folder.cls",
+                        "Shared/Panels/Ladder/Panel_Ladder_Item.cls",
+                        "Shared/Panels/Ladder/Panel_Ladder_Properties.cls",
+                        "Shared/Panels/Panel_List7.cls",
+                        "Shared/Panels/Panel_Panel.cls",
+                        "Shared/Panels/Panel_TreeView.cls",
+                        "Shared/Panels/Panel_TriView.cls",
+                        "Shared/Panels/Common/Panel_Common_Notes.cls"
+                    ]
+                }
+            }
+        ]
+    }
+}

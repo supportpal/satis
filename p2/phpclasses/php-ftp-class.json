@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-ftp-class": [
+            {
+                "name": "phpclasses/php-ftp-class",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-ftp-class.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "classes/Ftp.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

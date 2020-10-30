@@ -1,0 +1,31 @@
+{
+    "packages": {
+        "phpclasses/string-formatter": [
+            {
+                "name": "phpclasses/string-formatter",
+                "version": "0.6.3",
+                "version_normalized": "0.6.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/string-formatter.zip"
+                },
+                "require": {
+                    "php": ">=5.3.0 || >7.0.0"
+                },
+                "require-dev": {
+                    "fabpot/php-cs-fixer": "^2.2",
+                    "phpunit/phpunit": "^4.8"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "m36\\StringFormatter\\": "src/"
+                    },
+                    "files": [
+                        "src/Functional.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

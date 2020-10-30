@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/whatmybrowser": [
+            {
+                "name": "phpclasses/whatmybrowser",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/whatmybrowser.zip"
+                },
+                "require": {
+                    "softhub99/zest_framework": "dev-master"
+                },
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "App\\": "App/",
+                        "Config\\": "Config/"
+                    }
+                }
+            }
+        ]
+    }
+}

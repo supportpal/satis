@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/no1-pagination": [
+            {
+                "name": "phpclasses/no1-pagination",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/no1-pagination.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "pagination.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

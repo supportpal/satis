@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/rest-server": [
+            {
+                "name": "phpclasses/rest-server",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/rest-server.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "restObject.php",
+                        "restServer.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

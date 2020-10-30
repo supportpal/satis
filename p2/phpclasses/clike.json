@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/clike": [
+            {
+                "name": "phpclasses/clike",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/clike.zip"
+                },
+                "require": {
+                    "php": ">=7.1.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^0.9.9",
+                    "phpunit/phpunit": "5.7.*"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DeGraciaMathieu\\Clike\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

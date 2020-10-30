@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/komodo-edit-keys": [
+            {
+                "name": "phpclasses/komodo-edit-keys",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/komodo-edit-keys.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "convert_keybindings_table.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

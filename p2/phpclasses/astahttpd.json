@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "phpclasses/astahttpd": [
+            {
+                "name": "phpclasses/astahttpd",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/astahttpd.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "lib/class.cgiparser.php",
+                        "lib/class.compressor.php",
+                        "lib/class.htmlpage.php",
+                        "lib/class.httpexception.php",
+                        "lib/class.httpheadermaker.php",
+                        "lib/class.httpheaderparser.php",
+                        "lib/class.httpserver.php",
+                        "lib/class.logger.php",
+                        "lib/class.serverdir.php",
+                        "lib/class.socket.php",
+                        "lib/class.urlrewrite.php",
+                        "modules/mod_auth_basic.php",
+                        "modules/mod_auth_digest.php",
+                        "modules/mod_bandwidth.php",
+                        "modules/mod_cgi.php",
+                        "modules/mod_cgi_header.php",
+                        "modules/mod_encoding.php",
+                        "modules/mod_rewrite.php",
+                        "modules/mod_status.php",
+                        "modules/mod_test.php",
+                        "modules/module.php",
+                        "modules/mod_vhost.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

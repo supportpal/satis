@@ -1,0 +1,33 @@
+{
+    "packages": {
+        "phpclasses/mydbo": [
+            {
+                "name": "phpclasses/mydbo",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mydbo.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "plugins/dataAccessLayer/dbo_coll.tpl",
+                        "lib/Database.php",
+                        "lib/File.php",
+                        "lib/Smarty.php",
+                        "lib/XmlConfigReader.php",
+                        "plugins/dataAccessLayer/dbo_obj.tpl",
+                        "plugins/dataAccessLayer/dbo_wrapper.tpl",
+                        "plugins/businessLogicLayer/dbo_table.tpl",
+                        "plugins/instantAdmin/coll.tpl",
+                        "plugins/instantAdmin/mySmarty.tpl",
+                        "plugins/instantAdmin/obj.tpl",
+                        "plugins/instantAdmin/table.tpl",
+                        "plugins/instantAdmin/wrapper.tpl"
+                    ]
+                }
+            }
+        ]
+    }
+}

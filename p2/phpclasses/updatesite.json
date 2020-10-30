@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/updatesite": [
+            {
+                "name": "phpclasses/updatesite",
+                "version": "1.0.6",
+                "version_normalized": "1.0.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/updatesite.zip"
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "/"
+                    ],
+                    "files": [
+                        "./updatesite-simple-preview.i.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

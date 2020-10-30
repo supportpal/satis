@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/sqlite-mysql": [
+            {
+                "name": "phpclasses/sqlite-mysql",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/sqlite-mysql.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "SQLite.php",
+                        "DataTable.php",
+                        "MySQL.php",
+                        "Database.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

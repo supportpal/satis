@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/cepwebservice": [
+            {
+                "name": "phpclasses/cepwebservice",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/cepwebservice.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "CepWebService.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

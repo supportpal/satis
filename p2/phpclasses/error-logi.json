@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/error-logi": [
+            {
+                "name": "phpclasses/error-logi",
+                "version": "3",
+                "version_normalized": "3.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/error-logi.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "phperror-logi.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/svg-creator": [
+            {
+                "name": "phpclasses/svg-creator",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/svg-creator.zip"
+                },
+                "require": {
+                    "php": ">=5.3.10"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "SVGCreator": "src"
+                    }
+                }
+            }
+        ]
+    }
+}

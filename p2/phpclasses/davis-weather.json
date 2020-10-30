@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/davis-weather": [
+            {
+                "name": "phpclasses/davis-weather",
+                "version": "1.01",
+                "version_normalized": "1.01.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/davis-weather.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.davis.php",
+                        "class.mysql.v.1.55.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

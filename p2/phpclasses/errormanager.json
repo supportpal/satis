@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/errormanager": [
+            {
+                "name": "phpclasses/errormanager",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/errormanager.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ErrorManager.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

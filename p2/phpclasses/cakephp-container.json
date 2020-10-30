@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "phpclasses/cakephp-container": [
+            {
+                "name": "phpclasses/cakephp-container",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/cakephp-container.zip"
+                },
+                "require": {
+                    "cakephp/cakephp": "^2.0",
+                    "container-interop/container-interop": "^1.0",
+                    "php": ">=5.3",
+                    "phpclasses/cakephp-zf2-service": "1.0.0"
+                },
+                "require-dev": {
+                    "cakephp/cakephp-codesniffer": "^1.0",
+                    "phpunit/phpunit": "~3.7.0"
+                },
+                "type": "cakephp-plugin",
+                "extra": {
+                    "installer-name": "ContainerInterop"
+                },
+                "autoload": {
+                    "classmap": [
+                        "Controller/Component/ContainerComponent.php",
+                        "Test/Case/ClassRegistryConfigTest.php",
+                        "Test/Case/Controller/Component/ContainerComponentTest.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

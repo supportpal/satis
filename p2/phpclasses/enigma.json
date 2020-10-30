@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/enigma": [
+            {
+                "name": "phpclasses/enigma",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/enigma.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "core/enigma.class.php",
+                        "core/plugboard.class.php",
+                        "core/reflector.class.php",
+                        "core/rotor.class.php",
+                        "core/wiring.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

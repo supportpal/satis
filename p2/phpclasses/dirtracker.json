@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/dirtracker": [
+            {
+                "name": "phpclasses/dirtracker",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/dirtracker.zip"
+                },
+                "require": {
+                    "phpmailer/phpmailer": "^6.0",
+                    "vlucas/phpdotenv": "^3.3"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DirTrack\\": "src/"
+                    },
+                    "files": [
+                        "src/helper.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

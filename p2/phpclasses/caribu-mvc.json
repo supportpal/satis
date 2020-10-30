@@ -1,0 +1,41 @@
+{
+    "packages": {
+        "phpclasses/caribu-mvc": [
+            {
+                "name": "phpclasses/caribu-mvc",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/caribu-mvc.zip"
+                },
+                "require": {
+                    "nkey/phpgenerics": "dev-master",
+                    "php": ">=7.0",
+                    "psr/log": "~1.0"
+                },
+                "require-dev": {
+                    "pdepend/pdepend": "~2.0",
+                    "phploc/phploc": "~4.0",
+                    "phpmd/phpmd": "~2.0",
+                    "phpunit/phpunit": "~6.0",
+                    "scrutinizer/ocular": "~1.0",
+                    "sebastian/phpcpd": "~3.0",
+                    "squizlabs/php_codesniffer": "~3.0",
+                    "theseer/phpdox": "~0.9"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Nkey\\Caribu\\Mvc\\": "src/Mvc"
+                    }
+                }
+            }
+        ]
+    }
+}

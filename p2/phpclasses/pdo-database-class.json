@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/pdo-database-class": [
+            {
+                "name": "phpclasses/pdo-database-class",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/pdo-database-class.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "PHP_PDO_database_connection_class"
+                    ]
+                }
+            }
+        ]
+    }
+}

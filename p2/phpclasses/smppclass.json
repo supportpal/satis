@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/smppclass": [
+            {
+                "name": "phpclasses/smppclass",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/smppclass.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "smppclass.php",
+                        "smppclass_binary.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

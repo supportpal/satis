@@ -1,0 +1,162 @@
+{
+    "packages": {
+        "horde/stream": [
+            {
+                "name": "horde/stream",
+                "version": "1.6.0",
+                "version_normalized": "1.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Stream.git",
+                    "reference": "840db0adf0cbace13736341bae2ef829e55fc533"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream/zipball/840db0adf0cbace13736341bae2ef829e55fc533",
+                    "reference": "840db0adf0cbace13736341bae2ef829e55fc533",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_string_wrapper": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2014-02-12T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde stream handler",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/stream",
+                "version": "1.6.1",
+                "version_normalized": "1.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Stream.git",
+                    "reference": "a95d36ba1122de257040ac06299b39b10eb0ae0c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream/zipball/a95d36ba1122de257040ac06299b39b10eb0ae0c",
+                    "reference": "a95d36ba1122de257040ac06299b39b10eb0ae0c",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_stream_wrapper": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2014-02-12T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde stream handler",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/stream",
+                "version": "1.6.2",
+                "version_normalized": "1.6.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Stream.git",
+                    "reference": "772be92c688f7d5e5081625d7a9b69749ca46b21"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream/zipball/772be92c688f7d5e5081625d7a9b69749ca46b21",
+                    "reference": "772be92c688f7d5e5081625d7a9b69749ca46b21",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_stream_wrapper": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2014-12-03T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde stream handler",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/stream",
+                "version": "1.6.3",
+                "version_normalized": "1.6.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Stream.git",
+                    "reference": "8ff70d86d03484550e2ff6037422871d40c8a8a6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream/zipball/8ff70d86d03484550e2ff6037422871d40c8a8a6",
+                    "reference": "8ff70d86d03484550e2ff6037422871d40c8a8a6",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_stream_wrapper": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-02-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde stream handler",
+                "homepage": "http://pear.horde.org"
+            }
+        ]
+    }
+}

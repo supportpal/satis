@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/alexa-api": [
+            {
+                "name": "phpclasses/alexa-api",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/alexa-api.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "alexa-api",
+                        "alexa-data.class.php",
+                        "test-alexa-api.php",
+                        "fetch-curl-data.class.php",
+                        "example-of-alexa-statistics.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

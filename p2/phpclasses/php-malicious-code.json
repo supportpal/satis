@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-malicious-code": [
+            {
+                "name": "phpclasses/php-malicious-code",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-malicious-code.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "phpMalCodeScanner.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

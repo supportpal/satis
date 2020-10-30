@@ -1,0 +1,38 @@
+{
+    "packages": {
+        "phpclasses/http-request": [
+            {
+                "name": "phpclasses/http-request",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/http-request.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "classes/autoload.php",
+                        "classes/arr/arr-helper.php",
+                        "classes/http/http-helper.php",
+                        "classes/text/text-helper.php",
+                        "classes/arr/arguments/arr-arguments-descriptor.php",
+                        "classes/arr/arguments/arr-arguments.php",
+                        "classes/http/exception/http-exception.php",
+                        "classes/http/request/http-request-abstract.php",
+                        "classes/http/request/http-request-config.php",
+                        "classes/http/request/http-request-form-data.php",
+                        "classes/http/request/http-request-form-file.php",
+                        "classes/http/request/http-request-get.php",
+                        "classes/http/request/http-request-post.php",
+                        "classes/text/exception/text-exception.php",
+                        "classes/text/parser/text-parser.php",
+                        "classes/text/tokenizer/text-tokenizer.php",
+                        "classes/http/request/exception/http-request-exception.php",
+                        "classes/text/parser/exception/text-parser-exception.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/dvote": [
+            {
+                "name": "phpclasses/dvote",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/dvote.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "dvote.php",
+                        "ini_manager.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

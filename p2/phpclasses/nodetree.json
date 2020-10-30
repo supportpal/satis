@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/nodetree": [
+            {
+                "name": "phpclasses/nodetree",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/nodetree.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "node/Node.php",
+                        "node/NodeTree.php",
+                        "phpdtobject/PhpDtObject.php",
+                        "phpdtobject/PhpDtObject_mysql.php",
+                        "phpdtobject/PhpDtObject_dsn.php",
+                        "phpdtobject/MysqlQueryBuilder.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

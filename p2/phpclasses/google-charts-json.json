@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/google-charts-json": [
+            {
+                "name": "phpclasses/google-charts-json",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/google-charts-json.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "GoogleCharts.php",
+                        "Base.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

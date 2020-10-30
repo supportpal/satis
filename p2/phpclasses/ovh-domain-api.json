@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/ovh-domain-api": [
+            {
+                "name": "phpclasses/ovh-domain-api",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ovh-domain-api.zip"
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "type": "module",
+                "autoload": {
+                    "psr-0": {
+                        "JLaso\\OvhDomainApi": ""
+                    }
+                }
+            }
+        ]
+    }
+}

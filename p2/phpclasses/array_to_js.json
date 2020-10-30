@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/array_to_js": [
+            {
+                "name": "phpclasses/array_to_js",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/array_to_js.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class_arraytojs.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

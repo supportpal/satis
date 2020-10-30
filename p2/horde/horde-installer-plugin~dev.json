@@ -1,0 +1,120 @@
+{
+    "packages": {
+        "horde/horde-installer-plugin": [
+            {
+                "name": "horde/horde-installer-plugin",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/horde-installer-plugin.git",
+                    "reference": "c8bd0c2f98da3ab7b19823d16aef6ea25b504efe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/horde-installer-plugin/zipball/c8bd0c2f98da3ab7b19823d16aef6ea25b504efe",
+                    "reference": "c8bd0c2f98da3ab7b19823d16aef6ea25b504efe",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0|~2.0"
+                },
+                "require-dev": {
+                    "composer/composer": "^1.3|~2.0"
+                },
+                "time": "2020-10-29T07:38:18+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Horde\\Composer\\HordeInstallerPlugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Horde\\Composer\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/maintaina-com/horde-installer-plugin/tree/v1.1.0"
+                }
+            },
+            {
+                "name": "horde/horde-installer-plugin",
+                "version": "dev-horde-upstream",
+                "version_normalized": "dev-horde-upstream",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/horde-installer-plugin.git",
+                    "reference": "2299d82cf2b42aef6262a498e7ffecfdfeb0121a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/horde-installer-plugin/zipball/2299d82cf2b42aef6262a498e7ffecfdfeb0121a",
+                    "reference": "2299d82cf2b42aef6262a498e7ffecfdfeb0121a",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0"
+                },
+                "require-dev": {
+                    "composer/composer": "^1.3"
+                },
+                "time": "2019-11-17T22:53:15+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Horde\\Composer\\HordeInstallerPlugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Horde\\Composer\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/maintaina-com/horde-installer-plugin/tree/horde-upstream"
+                }
+            },
+            {
+                "name": "horde/horde-installer-plugin",
+                "version": "dev-maintaina-bare",
+                "version_normalized": "dev-maintaina-bare",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/horde-installer-plugin.git",
+                    "reference": "2299d82cf2b42aef6262a498e7ffecfdfeb0121a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/horde-installer-plugin/zipball/2299d82cf2b42aef6262a498e7ffecfdfeb0121a",
+                    "reference": "2299d82cf2b42aef6262a498e7ffecfdfeb0121a",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0"
+                },
+                "require-dev": {
+                    "composer/composer": "^1.3"
+                },
+                "time": "2019-11-17T22:53:15+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Horde\\Composer\\HordeInstallerPlugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Horde\\Composer\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/maintaina-com/horde-installer-plugin/tree/horde-upstream"
+                }
+            }
+        ]
+    }
+}

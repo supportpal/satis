@@ -1,0 +1,180 @@
+{
+    "packages": {
+        "horde/content": [
+            {
+                "name": "horde/content",
+                "version": "2.0.4",
+                "version_normalized": "2.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/content.git",
+                    "reference": "dc3a7238c5201dd4aedbc8ed4df6c76dfe4e5293"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/content/zipball/dc3a7238c5201dd4aedbc8ed4df6c76dfe4e5293",
+                    "reference": "dc3a7238c5201dd4aedbc8ed4df6c76dfe4e5293",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_core": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_injector": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_rdo": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_argv": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_controller": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_elasticsearch": ">=1.0.0@stable,<=2.0.0alpha1@stable"
+                },
+                "time": "2014-06-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Tagging application",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/content/tree/v2.0.4"
+                }
+            },
+            {
+                "name": "horde/content",
+                "version": "2.0.5",
+                "version_normalized": "2.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/content.git",
+                    "reference": "c979a1f05130c3f17ff4e338d82249400569085c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/content/zipball/c979a1f05130c3f17ff4e338d82249400569085c",
+                    "reference": "c979a1f05130c3f17ff4e338d82249400569085c",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_core": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_db": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_injector": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_rdo": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_argv": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_controller": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_elasticsearch": ">=1.0.0@stable,<=2.0.0alpha1@stable"
+                },
+                "time": "2015-10-21T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Tagging application",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/content/tree/v2.0.5"
+                }
+            },
+            {
+                "name": "horde/content",
+                "version": "2.0.6",
+                "version_normalized": "2.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/content.git",
+                    "reference": "ef8c4aa81f9e4eb7e68d49db8c24b789fdaef5f9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/content/zipball/ef8c4aa81f9e4eb7e68d49db8c24b789fdaef5f9",
+                    "reference": "ef8c4aa81f9e4eb7e68d49db8c24b789fdaef5f9",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_core": "^2@stable",
+                    "pear-pear.horde.org/horde_date": "^2@stable",
+                    "pear-pear.horde.org/horde_db": "^2@stable",
+                    "pear-pear.horde.org/horde_exception": "^2@stable",
+                    "pear-pear.horde.org/horde_injector": "^2@stable",
+                    "pear-pear.horde.org/horde_rdo": "^2@stable",
+                    "pear-pear.horde.org/horde_util": "^2@stable",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/content": "2.*",
+                    "pear-pear.horde.org/content": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_argv": "^2@stable",
+                    "pear-pear.horde.org/horde_controller": "^2@stable",
+                    "pear-pear.horde.org/horde_elasticsearch": "^1@stable"
+                },
+                "time": "2017-09-19T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Content": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Tagging application",
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/content/tree/v2.0.6"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/prev-next-pagination": [
+            {
+                "name": "phpclasses/prev-next-pagination",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/prev-next-pagination.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "pagination.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "packages": {
+        "phpclasses/mtop-soap-server": [
+            {
+                "name": "phpclasses/mtop-soap-server",
+                "version": "1.0.18",
+                "version_normalized": "1.0.18.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mtop-soap-server.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "abstracts/converter/TypeConverter.php",
+                        "abstracts/core/AbstractSOAPCore.php",
+                        "abstracts/filter/Filter.php",
+                        "abstracts/message/SoapMessage.php",
+                        "implements/converter/MtomTypeConverter.php",
+                        "implements/converter/SwaTypeConverter.php",
+                        "implements/core/SOAPCore.php",
+                        "implements/core/SoapRequest.php",
+                        "implements/core/SoapResponse.php",
+                        "implements/filter/FilterHelper.php",
+                        "implements/filter/MimeFilter.php",
+                        "implements/filter/XmlMimeFilter.php",
+                        "interfaces/converter/SoapConverterInterface.php",
+                        "interfaces/converter/TypeConverterInterface.php",
+                        "interfaces/filter/SoapRequestFilter.php",
+                        "interfaces/filter/SoapResponseFilter.php",
+                        "abstracts/mime/part/Part.php",
+                        "implements/mime/parser/MimeParser.php",
+                        "implements/mime/part/MimePart.php",
+                        "implements/mime/part/MultiPart.php",
+                        "SERVERSoap.php",
+                        "implements/helper/SOAPhelper.php",
+                        "test/testSoap/Fixtures/AttachmentRequest.php",
+                        "test/testSoap/Fixtures/AttachmentType.php",
+                        "test/testSoap/Fixtures/base64Binary.php",
+                        "test/testSoap/MTOMServer.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

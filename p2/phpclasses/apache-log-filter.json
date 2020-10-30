@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/apache-log-filter": [
+            {
+                "name": "phpclasses/apache-log-filter",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/apache-log-filter.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "classes/ApacheAccessLogFilter.php",
+                        "classes/ip2Nation.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

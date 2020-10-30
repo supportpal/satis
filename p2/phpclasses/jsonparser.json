@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/jsonparser": [
+            {
+                "name": "phpclasses/jsonparser",
+                "version": "2.2.3",
+                "version_normalized": "2.2.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/jsonparser.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "JsonParser.php",
+                        "JsonParser-min.php",
+                        "JPOPHP-min.php",
+                        "JPOPHP.php",
+                        "JPOPHP-min.php",
+                        "JPOPHP.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

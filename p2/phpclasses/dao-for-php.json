@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/dao-for-php": [
+            {
+                "name": "phpclasses/dao-for-php",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/dao-for-php.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "DAO.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

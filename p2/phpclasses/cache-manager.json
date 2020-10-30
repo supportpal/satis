@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/cache-manager": [
+            {
+                "name": "phpclasses/cache-manager",
+                "version": "2.3",
+                "version_normalized": "2.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/cache-manager.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "cacheManager.class.php",
+                        "cacheManager.interface.php",
+                        "exceptions.class.php",
+                        "cacheTypes/apcCache.class.php",
+                        "cacheTypes/defaultCache.class.php",
+                        "cacheTypes/fileCache.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

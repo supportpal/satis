@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/net-ping": [
+            {
+                "name": "phpclasses/net-ping",
+                "version": "0.01",
+                "version_normalized": "0.01.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/net-ping.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "netping.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

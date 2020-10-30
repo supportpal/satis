@@ -1,0 +1,37 @@
+{
+    "packages": {
+        "phpclasses/openssltoolbox": [
+            {
+                "name": "phpclasses/openssltoolbox",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/openssltoolbox.zip"
+                },
+                "require": {
+                    "ext-openssl": "*",
+                    "kigkonsult/loggerdepot": "dev-master",
+                    "php": "^5.6 || ^7.0",
+                    "psr/log": "1.1.0"
+                },
+                "require-dev": {
+                    "fzaninotto/faker": "^v1.8.0",
+                    "katzgrau/klogger": "1.2.1",
+                    "phpunit/phpunit": "6.5.14"
+                },
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "autoload.php"
+                    ],
+                    "psr-4": {
+                        "Kigkonsult\\OpenSSLToolbox\\": [
+                            "src/"
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

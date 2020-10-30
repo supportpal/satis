@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/mysql_connection": [
+            {
+                "name": "phpclasses/mysql_connection",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mysql_connection.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.connection.phtml",
+                        "class.log.phtml",
+                        "class.calendar.phtml"
+                    ]
+                }
+            }
+        ]
+    }
+}

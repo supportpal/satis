@@ -1,0 +1,71 @@
+{
+    "packages": {
+        "phpclasses/falcraftdatatypes": [
+            {
+                "name": "phpclasses/falcraftdatatypes",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/falcraftdatatypes.zip"
+                },
+                "require": {
+                    "phpclasses/configuration-trait": "2.9",
+                    "phpclasses/enumerator": "3.0.1"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Falcraft/Features/Identity.php",
+                        "Falcraft/Data/Types/Exception/ExceptionInterface.php",
+                        "Falcraft/Data/Types/Exception/UnexpectedValueException.php",
+                        "Falcraft/Data/Types/Exception/RuntimeException.php",
+                        "Falcraft/Data/Types/Exception/RangeException.php",
+                        "Falcraft/Data/Types/Exception/InvalidArgumentException.php",
+                        "Falcraft/Data/Types/Exception/CodeGenerationException.php",
+                        "Falcraft/Data/Types/Exception/BadMethodCallException.php",
+                        "Falcraft/Data/Types/Resource/VertexInterface.php",
+                        "Falcraft/Data/Types/Resource/SetInterface.php",
+                        "Falcraft/Data/Types/Resource/PriorityInterface.php",
+                        "Falcraft/Data/Types/Resource/ListInterface.php",
+                        "Falcraft/Data/Types/Resource/LinkedListElementInterface.php",
+                        "Falcraft/Data/Types/Resource/LeafInterface.php",
+                        "Falcraft/Data/Types/Resource/FilterInterface.php",
+                        "Falcraft/Data/Types/Resource/EdgeInterface.php",
+                        "Falcraft/Data/Types/Resource/AbstractVertex.php",
+                        "Falcraft/Data/Types/Resource/AbstractSortedList.php",
+                        "Falcraft/Data/Types/Resource/AbstractRestrictedList.php",
+                        "Falcraft/Data/Types/Resource/AbstractList.php",
+                        "Falcraft/Data/Types/Resource/AbstractLinkedListElement.php",
+                        "Falcraft/Data/Types/Resource/AbstractLeaf.php",
+                        "Falcraft/Data/Types/Resource/AbstractFilter.php",
+                        "Falcraft/Data/Types/VertexList.php",
+                        "Falcraft/Data/Types/UnorderedNode.php",
+                        "Falcraft/Data/Types/Type.php",
+                        "Falcraft/Data/Types/TaggedUnion.php",
+                        "Falcraft/Data/Types/Structure.php",
+                        "Falcraft/Data/Types/Stack.php",
+                        "Falcraft/Data/Types/Set.php",
+                        "Falcraft/Data/Types/Restrictions.php",
+                        "Falcraft/Data/Types/RestrictedStack.php",
+                        "Falcraft/Data/Types/RestrictedSet.php",
+                        "Falcraft/Data/Types/RestrictedQueue.php",
+                        "Falcraft/Data/Types/RestrictedList.php",
+                        "Falcraft/Data/Types/Range.php",
+                        "Falcraft/Data/Types/Queue.php",
+                        "Falcraft/Data/Types/PriorityQueue.php",
+                        "Falcraft/Data/Types/Priority.php",
+                        "Falcraft/Data/Types/OrderedNode.php",
+                        "Falcraft/Data/Types/OrderedEdge.php",
+                        "Falcraft/Data/Types/Null.php",
+                        "Falcraft/Data/Types/Map.php",
+                        "Falcraft/Data/Types/LexicographicList.php",
+                        "Falcraft/Data/Types/Leaf.php",
+                        "Falcraft/Data/Types/Enumeration.php",
+                        "Falcraft/Data/Types/Edge.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

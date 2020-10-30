@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/shopping-cart-ajax": [
+            {
+                "name": "phpclasses/shopping-cart-ajax",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/shopping-cart-ajax.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "shoppingcartAjax/classes/products.cls.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

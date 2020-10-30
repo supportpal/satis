@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/b3rtcsvwriter": [
+            {
+                "name": "phpclasses/b3rtcsvwriter",
+                "version": "1.05",
+                "version_normalized": "1.05.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/b3rtcsvwriter.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.b3rtCSVWriter.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "packages": {
+        "horde/autoloader": [
+            {
+                "name": "horde/autoloader",
+                "version": "2.1.1",
+                "version_normalized": "2.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Autoloader.git",
+                    "reference": "a90af7c503cc53b17889acef6fb03b706743481d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Autoloader/zipball/a90af7c503cc53b17889acef6fb03b706743481d",
+                    "reference": "a90af7c503cc53b17889acef6fb03b706743481d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-04-28T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Autoloader",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Autoloader/tree/v2.1.1"
+                }
+            },
+            {
+                "name": "horde/autoloader",
+                "version": "2.1.2",
+                "version_normalized": "2.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Autoloader.git",
+                    "reference": "5366e270eed21a2ece130a1c9ada780acf7d6bc7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Autoloader/zipball/5366e270eed21a2ece130a1c9ada780acf7d6bc7",
+                    "reference": "5366e270eed21a2ece130a1c9ada780acf7d6bc7",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-02-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Autoloader",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Autoloader/tree/v2.1.2"
+                }
+            }
+        ]
+    }
+}

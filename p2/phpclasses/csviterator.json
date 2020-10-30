@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/csviterator": [
+            {
+                "name": "phpclasses/csviterator",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/csviterator.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "CSVIterator.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

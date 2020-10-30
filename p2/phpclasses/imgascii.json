@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/imgascii": [
+            {
+                "name": "phpclasses/imgascii",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/imgascii.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "include/ImageAscii.class.php",
+                        "source/original_index.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

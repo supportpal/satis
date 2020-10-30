@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-mysqli-queries": [
+            {
+                "name": "phpclasses/php-mysqli-queries",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-mysqli-queries.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "dbclass.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

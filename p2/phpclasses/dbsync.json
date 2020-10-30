@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/dbsync": [
+            {
+                "name": "phpclasses/dbsync",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/dbsync.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.dbsync.mysql.php",
+                        "class.dbsync.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

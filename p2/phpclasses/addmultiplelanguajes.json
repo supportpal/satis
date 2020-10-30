@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/addmultiplelanguajes": [
+            {
+                "name": "phpclasses/addmultiplelanguajes",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/addmultiplelanguajes.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.Language.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

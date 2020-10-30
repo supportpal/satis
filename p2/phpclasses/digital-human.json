@@ -1,0 +1,34 @@
+{
+    "packages": {
+        "phpclasses/digital-human": [
+            {
+                "name": "phpclasses/digital-human",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/digital-human.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "DefaultBody.php",
+                        "element.php",
+                        "Iobserver.php",
+                        "ear.php",
+                        "eye.php",
+                        "head.php",
+                        "mouth.php",
+                        "nose.php",
+                        "enviroment/IEnviroment.php",
+                        "enviroment/enviroment.php",
+                        "enviroment/EnviromentElement.php",
+                        "enviroment/light.php",
+                        "enviroment/smell.php",
+                        "enviroment/sound.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

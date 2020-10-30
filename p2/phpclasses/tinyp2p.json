@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/tinyp2p": [
+            {
+                "name": "phpclasses/tinyp2p",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/tinyp2p.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "P2P.cls.php",
+                        "ClsConnection.cls.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

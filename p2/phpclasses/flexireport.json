@@ -1,0 +1,32 @@
+{
+    "packages": {
+        "phpclasses/flexireport": [
+            {
+                "name": "phpclasses/flexireport",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/flexireport.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.Db4.php",
+                        "class.Dbutility_Db.php",
+                        "class.Level4.php",
+                        "class.Flexireport_Level.php",
+                        "class.Link4.php",
+                        "class.Report4.php",
+                        "class.Flexireport_Report.php",
+                        "class.Flexireport_Field.php",
+                        "class.Flexireport_Misc.php",
+                        "class.Flexireport_Total.php",
+                        "class.Flexireport_TotalLabel.php",
+                        "class.Flexireport_Value.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "packages": {
+        "phpclasses/file-path-normalizer": [
+            {
+                "name": "phpclasses/file-path-normalizer",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/file-path-normalizer.zip"
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "php": ">=7.1 <7.4"
+                },
+                "require-dev": {
+                    "leanphp/phpspec-code-coverage": ">=4.2 <5.0.0",
+                    "phpspec/nyan-formatters": ">=2.0.0 <3.0.0",
+                    "phpspec/phpspec": ">=4.0 <5.0.0",
+                    "phpunit/php-code-coverage": ">=5.0 <6.0.0",
+                    "roave/security-advisories": "dev-master"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.*-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "FilePathNormalizer\\": [
+                            "src/"
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

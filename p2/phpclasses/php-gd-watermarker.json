@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-gd-watermarker": [
+            {
+                "name": "phpclasses/php-gd-watermarker",
+                "version": "1.01",
+                "version_normalized": "1.01.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-gd-watermarker.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "phpgdwatermarker.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

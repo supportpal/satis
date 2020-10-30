@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/multi-bar-chart": [
+            {
+                "name": "phpclasses/multi-bar-chart",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/multi-bar-chart.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "simplemultibar.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

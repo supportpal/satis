@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/mycurl": [
+            {
+                "name": "phpclasses/mycurl",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mycurl.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "MyCurl.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

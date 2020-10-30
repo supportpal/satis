@@ -1,0 +1,31 @@
+{
+    "packages": {
+        "phpclasses/laravel-html2pdf": [
+            {
+                "name": "phpclasses/laravel-html2pdf",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/laravel-html2pdf.zip"
+                },
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "NahidulHasan\\Html2pdf\\Html2pdfServiceProvider"
+                        ],
+                        "aliases": {
+                            "Pdf": "NahidulHasan\\Html2pdf\\Facades\\Pdf"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "NahidulHasan\\Html2pdf\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

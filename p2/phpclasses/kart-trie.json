@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/kart-trie": [
+            {
+                "name": "phpclasses/kart-trie",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/kart-trie.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "pat.php",
+                        "pat_h.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

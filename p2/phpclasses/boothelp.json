@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/boothelp": [
+            {
+                "name": "phpclasses/boothelp",
+                "version": "0.4.0",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/boothelp.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "cobisja\\BootHelp\\": "src/",
+                        "cobisja\\BootHelp\\Guide\\": "Guide/"
+                    }
+                }
+            }
+        ]
+    }
+}

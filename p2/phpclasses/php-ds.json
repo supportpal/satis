@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/php-ds": [
+            {
+                "name": "phpclasses/php-ds",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-ds.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "PHP-DS/core/CORE_1-1-0.php",
+                        "PHP-DS/core/bagimliliklar.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

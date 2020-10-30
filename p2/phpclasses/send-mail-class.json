@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/send-mail-class": [
+            {
+                "name": "phpclasses/send-mail-class",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/send-mail-class.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.sendmail.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

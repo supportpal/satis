@@ -1,0 +1,50 @@
+{
+    "packages": {
+        "phpclasses/separation": [
+            {
+                "name": "phpclasses/separation",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/separation.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "db-conect/DatabaseClass.php",
+                        "db-delete/DbDeleteContact.php",
+                        "db-delete/DbDeleteSesion.php",
+                        "db-delete/DbDeleteUser.php",
+                        "db-insert/DbInsertChat.php",
+                        "db-insert/DbInsertContact.php",
+                        "db-insert/DbInsertSesion.php",
+                        "db-insert/DbInsertUser.php",
+                        "db-select/DbSelectChat.php",
+                        "db-select/DbSelectContact.php",
+                        "db-select/DbSelectSesion.php",
+                        "db-select/DbSelectUser.php",
+                        "db-update/DbUpdateContact.php",
+                        "db-update/DbUpdateSesion.php",
+                        "db-update/DbUpdateUser.php",
+                        "lib-interface/InterfAuto.php",
+                        "lib-interface/InterfDb.php",
+                        "lib-interface/InterfaceSeparationDatabaseQueries.php",
+                        "lib-traid/SeparationDatabaseQueries.php",
+                        "lib-traid/SuperError.php",
+                        "lib-traid/TraidMicrotime.php",
+                        "lib-traid/ValidateClass.php",
+                        "lib-traid/ValidateUrl.php",
+                        "lib/Autoload.php",
+                        "lib/ClassFile.php",
+                        "lib/ClassLang.php",
+                        "lib/ClassMicrotime.php",
+                        "lib/ErrorLogiClass.php",
+                        "lib/UrlClass.php",
+                        "lib/UserSesionClass.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

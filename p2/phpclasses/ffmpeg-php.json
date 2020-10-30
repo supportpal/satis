@@ -1,0 +1,35 @@
+{
+    "packages": {
+        "phpclasses/ffmpeg-php": [
+            {
+                "name": "phpclasses/ffmpeg-php",
+                "version": "3.0.4",
+                "version_normalized": "3.0.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ffmpeg-php.zip"
+                },
+                "require": {
+                    "ext-gd": "*",
+                    "ext-mbstring": "*",
+                    "ext-xml": "*",
+                    "php": ">=7"
+                },
+                "require-dev": {
+                    "graphp/graphviz": "v0.2.1",
+                    "iautomation/filesystem-helper": "1.0.0",
+                    "phpdocumentor/phpdocumentor": "v2.9.0",
+                    "phpunit/phpunit": "6.1.4",
+                    "squizlabs/php_codesniffer": "3.0.0RC4"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Char0n\\FFMpegPHP\\": "src",
+                        "Char0n\\FFMpegPHP\\Tests\\": "tests"
+                    }
+                }
+            }
+        ]
+    }
+}

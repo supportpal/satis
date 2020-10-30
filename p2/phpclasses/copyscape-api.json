@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/copyscape-api": [
+            {
+                "name": "phpclasses/copyscape-api",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/copyscape-api.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "copyscape.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

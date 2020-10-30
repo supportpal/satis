@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/designer_stats": [
+            {
+                "name": "phpclasses/designer_stats",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/designer_stats.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "designer_stats.class.php",
+                        "detect.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

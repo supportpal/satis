@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/dunzip2": [
+            {
+                "name": "phpclasses/dunzip2",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/dunzip2.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "dUnzip2.inc.php",
+                        "dZip.inc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

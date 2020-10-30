@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/dom-parser": [
+            {
+                "name": "phpclasses/dom-parser",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/dom-parser.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Domparser.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

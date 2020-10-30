@@ -1,0 +1,752 @@
+{
+    "packages": {
+        "horde/test": [
+            {
+                "name": "horde/test",
+                "version": "2.2.4",
+                "version_normalized": "2.2.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Test.git",
+                    "reference": "bf3b260fbf994df4bbdf43a572cbc41bbfc50063"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/bf3b260fbf994df4bbdf43a572cbc41bbfc50063",
+                    "reference": "bf3b260fbf994df4bbdf43a572cbc41bbfc50063",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.phpunit.de/phpunit": ">=3.5.0@stable",
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_cli": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_log": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2013-08-27T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde testing base classes",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/test",
+                "version": "2.4.0",
+                "version_normalized": "2.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Test.git",
+                    "reference": "24530486456ff2389f1da295c29b588a7bf1ceb6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/24530486456ff2389f1da295c29b588a7bf1ceb6",
+                    "reference": "24530486456ff2389f1da295c29b588a7bf1ceb6",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_cli": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_log": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2014-05-05T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde testing base classes",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/test",
+                "version": "2.4.1",
+                "version_normalized": "2.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Test.git",
+                    "reference": "bb2762ddca844427018900f209ad855c1e88dff9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/bb2762ddca844427018900f209ad855c1e88dff9",
+                    "reference": "bb2762ddca844427018900f209ad855c1e88dff9",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_cli": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_log": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2014-05-06T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde testing base classes",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/test",
+                "version": "2.4.2",
+                "version_normalized": "2.4.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Test.git",
+                    "reference": "9fae803f43a9936792e7d7184e4208df443c1c72"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/9fae803f43a9936792e7d7184e4208df443c1c72",
+                    "reference": "9fae803f43a9936792e7d7184e4208df443c1c72",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_cli": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_log": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2014-07-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde testing base classes",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/test",
+                "version": "2.4.3",
+                "version_normalized": "2.4.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Test.git",
+                    "reference": "01651f8b30400ba7265d7d3bebc56b0e86078d7d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/01651f8b30400ba7265d7d3bebc56b0e86078d7d",
+                    "reference": "01651f8b30400ba7265d7d3bebc56b0e86078d7d",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_cli": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_log": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2014-08-29T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde testing base classes",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/test",
+                "version": "2.4.4",
+                "version_normalized": "2.4.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Test.git",
+                    "reference": "0b2765aa0524aa0c0cb53b03ad673c7bb0477829"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/0b2765aa0524aa0c0cb53b03ad673c7bb0477829",
+                    "reference": "0b2765aa0524aa0c0cb53b03ad673c7bb0477829",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_cli": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_log": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2014-10-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde testing base classes",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/test",
+                "version": "2.4.5",
+                "version_normalized": "2.4.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Test.git",
+                    "reference": "b8a95b58e3ceccda8978514a0899582f778d98f6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/b8a95b58e3ceccda8978514a0899582f778d98f6",
+                    "reference": "b8a95b58e3ceccda8978514a0899582f778d98f6",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_cli": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_log": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2014-10-27T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde testing base classes",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/test",
+                "version": "2.4.6",
+                "version_normalized": "2.4.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Test.git",
+                    "reference": "a1a2f8ea03e779a0b946e54216830783053d52d8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/a1a2f8ea03e779a0b946e54216830783053d52d8",
+                    "reference": "a1a2f8ea03e779a0b946e54216830783053d52d8",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_cli": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_log": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2014-11-18T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde testing base classes",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/test",
+                "version": "2.4.7",
+                "version_normalized": "2.4.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Test.git",
+                    "reference": "3f8fd88200db9b16bb0191d5294125a023cd84d0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/3f8fd88200db9b16bb0191d5294125a023cd84d0",
+                    "reference": "3f8fd88200db9b16bb0191d5294125a023cd84d0",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_cli": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_log": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2014-12-29T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde testing base classes",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/test",
+                "version": "2.4.8",
+                "version_normalized": "2.4.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Test.git",
+                    "reference": "31b54a3ffb3e1ed5249ccba9594800016ec03234"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/31b54a3ffb3e1ed5249ccba9594800016ec03234",
+                    "reference": "31b54a3ffb3e1ed5249ccba9594800016ec03234",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_cli": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_log": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-01-13T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde testing base classes",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/test",
+                "version": "2.5.0",
+                "version_normalized": "2.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Test.git",
+                    "reference": "c096c543d0bf4448db6f5515409f2261b8fd232f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/c096c543d0bf4448db6f5515409f2261b8fd232f",
+                    "reference": "c096c543d0bf4448db6f5515409f2261b8fd232f",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_cli": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_log": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-02-10T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde testing base classes",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/test",
+                "version": "2.5.1",
+                "version_normalized": "2.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Test.git",
+                    "reference": "e037ca8d5049e109d85b5ab521c4118127a8096c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/e037ca8d5049e109d85b5ab521c4118127a8096c",
+                    "reference": "e037ca8d5049e109d85b5ab521c4118127a8096c",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_cli": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_log": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-04-13T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde testing base classes",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/test",
+                "version": "2.6.0",
+                "version_normalized": "2.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Test.git",
+                    "reference": "28b54ee918c6fed294264bdb1f4aa85ce85d3b36"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/28b54ee918c6fed294264bdb1f4aa85ce85d3b36",
+                    "reference": "28b54ee918c6fed294264bdb1f4aa85ce85d3b36",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_cli": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_log": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-02-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde testing base classes",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/test",
+                "version": "2.6.1",
+                "version_normalized": "2.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Test.git",
+                    "reference": "3e4cee162eb01a3669c2fea7c86b80abf9b6f366"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/3e4cee162eb01a3669c2fea7c86b80abf9b6f366",
+                    "reference": "3e4cee162eb01a3669c2fea7c86b80abf9b6f366",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.3,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_cli": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_log": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-07-12T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde testing base classes",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/test",
+                "version": "2.6.2",
+                "version_normalized": "2.6.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Test.git",
+                    "reference": "6911382aa0aec31845d72aff2c029b491d4cf080"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/6911382aa0aec31845d72aff2c029b491d4cf080",
+                    "reference": "6911382aa0aec31845d72aff2c029b491d4cf080",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.3,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_cli": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_log": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2017-02-27T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde testing base classes",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/test",
+                "version": "2.6.3",
+                "version_normalized": "2.6.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Test.git",
+                    "reference": "49aa7e11c93f1de90db9b120234a224ef817d2d4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/49aa7e11c93f1de90db9b120234a224ef817d2d4",
+                    "reference": "49aa7e11c93f1de90db9b120234a224ef817d2d4",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_support": "^2@stable",
+                    "pear-pear.horde.org/horde_util": "^2@stable",
+                    "php": "^5.3.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_test": "2.*",
+                    "pear-pear.horde.org/horde_test": "2.*"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_cli": "^2@stable",
+                    "pear-pear.horde.org/horde_log": "^2@stable"
+                },
+                "time": "2017-05-03T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Test": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde testing base classes",
+                "homepage": "https://pear.horde.org"
+            }
+        ]
+    }
+}

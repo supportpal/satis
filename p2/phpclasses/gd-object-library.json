@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/gd-object-library": [
+            {
+                "name": "phpclasses/gd-object-library",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/gd-object-library.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libGD.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

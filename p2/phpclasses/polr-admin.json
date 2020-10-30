@@ -1,0 +1,43 @@
+{
+    "packages": {
+        "phpclasses/polr-admin": [
+            {
+                "name": "phpclasses/polr-admin",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/polr-admin.zip"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~6.0",
+                    "jaxon-php/jaxon-dialogs": "~1.2",
+                    "jaxon-php/jaxon-view-blade": "~2.0",
+                    "nesbot/carbon": "^1.22",
+                    "php": ">=5.5.9",
+                    "phpclasses/jaxon-core": "3.1.6",
+                    "phpclasses/polr-api": "2.0.0",
+                    "vlucas/valitron": "1.4.*"
+                },
+                "require-dev": {
+                    "fzaninotto/faker": "~1.4",
+                    "mockery/mockery": "0.9.*",
+                    "phpspec/phpspec": "~2.1",
+                    "phpunit/phpunit": "~4.0"
+                },
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "App\\": "app/",
+                        "Lagdo\\Polr\\Admin\\": "src/",
+                        "Lagdo\\Polr\\Admin\\App\\": "src/Ajax/Classes/",
+                        "Lagdo\\Polr\\Admin\\Ext\\": "src/Ajax/Plugins/"
+                    },
+                    "files": [
+                        "src/start.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

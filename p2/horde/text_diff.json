@@ -1,0 +1,237 @@
+{
+    "packages": {
+        "horde/text_diff": [
+            {
+                "name": "horde/text_diff",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Diff.git",
+                    "reference": "58e3e0d11eb7120e78ed6cf2ff07b04f310dad4a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Diff/zipball/58e3e0d11eb7120e78ed6cf2ff07b04f310dad4a",
+                    "reference": "58e3e0d11eb7120e78ed6cf2ff07b04f310dad4a",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pecl.php.net/xdiff": "*"
+                },
+                "time": "2014-06-17T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Engine for performing and rendering text diffs",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/text_diff",
+                "version": "2.1.1",
+                "version_normalized": "2.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Diff.git",
+                    "reference": "8c1b408ddde8c2e70bf1d4d3b16ab10b588b1ff1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Diff/zipball/8c1b408ddde8c2e70bf1d4d3b16ab10b588b1ff1",
+                    "reference": "8c1b408ddde8c2e70bf1d4d3b16ab10b588b1ff1",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pecl.php.net/xdiff": "*"
+                },
+                "time": "2015-01-09T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Engine for performing and rendering text diffs",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/text_diff",
+                "version": "2.1.2",
+                "version_normalized": "2.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Diff.git",
+                    "reference": "e8b74a78217891f81668928aee2bfbccce16d9b3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Diff/zipball/e8b74a78217891f81668928aee2bfbccce16d9b3",
+                    "reference": "e8b74a78217891f81668928aee2bfbccce16d9b3",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pecl.php.net/xdiff": "*"
+                },
+                "time": "2016-02-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Engine for performing and rendering text diffs",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/text_diff",
+                "version": "2.2.0",
+                "version_normalized": "2.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Diff.git",
+                    "reference": "9586af2c6d3334b31af0267cb788fb87fb90881f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Diff/zipball/9586af2c6d3334b31af0267cb788fb87fb90881f",
+                    "reference": "9586af2c6d3334b31af0267cb788fb87fb90881f",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_cli": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pecl.php.net/xdiff": "*"
+                },
+                "time": "2017-03-20T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Engine for performing and rendering text diffs",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/text_diff",
+                "version": "2.2.1",
+                "version_normalized": "2.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Diff.git",
+                    "reference": "ea24810d2e83274e83382158dfdfd3ecc58ea2b8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Diff/zipball/ea24810d2e83274e83382158dfdfd3ecc58ea2b8",
+                    "reference": "ea24810d2e83274e83382158dfdfd3ecc58ea2b8",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_text_diff": "2.*",
+                    "pear-pear.horde.org/horde_text_diff": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_cli": "^2.1",
+                    "pear-pear.horde.org/horde_test": "^2.1",
+                    "pear-pecl.php.net/xdiff": "*"
+                },
+                "time": "2019-09-29T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Text_Diff": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Text diff generation and rendering library",
+                "homepage": "https://www.horde.org/libraries/Horde_Text_Diff"
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/htaccess_emulation": [
+            {
+                "name": "phpclasses/htaccess_emulation",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/htaccess_emulation.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "htaccess.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

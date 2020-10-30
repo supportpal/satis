@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "phpclasses/rainbow-maker": [
+            {
+                "name": "phpclasses/rainbow-maker",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/rainbow-maker.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "PHP_toolbucket/SoftMoon/Password.php",
+                        "PHP_toolbucket/SoftMoon/rainbow-maker/Rainbow.Builder.php",
+                        "PHP_toolbucket/SoftMoon/rainbow-maker/Rainbow.Sculptor.php",
+                        "PHP_toolbucket/SoftMoon/rainbow-maker/Rainbow.Sculptor.shapeInterfaces.php",
+                        "PHP_toolbucket/SoftMoon/rainbow-maker/Rainbow.Gradient.php",
+                        "PHP_toolbucket/SoftMoon/rainbow-maker/RGBaa.php",
+                        "PHP_toolbucket/SoftMoon/rainbow-maker/plug_in_Shapes/RadialShape/autosized_RadialShape.php",
+                        "PHP_toolbucket/SoftMoon/rainbow-maker/plug_in_Shapes/RadialShape/ComplexFlower.php",
+                        "PHP_toolbucket/SoftMoon/rainbow-maker/plug_in_Shapes/RadialShape/ComplexStar.php",
+                        "PHP_toolbucket/SoftMoon/rainbow-maker/plug_in_Shapes/RadialShape/Ellipse.php",
+                        "PHP_toolbucket/SoftMoon/rainbow-maker/plug_in_Shapes/RadialShape/Polygonic.php",
+                        "PHP_toolbucket/SoftMoon/rainbow-maker/plug_in_Shapes/RadialShape/RegularPolygon.php",
+                        "PHP_toolbucket/SoftMoon/rainbow-maker/plug_in_Shapes/RadialShape/RadialMask.php",
+                        "PHP_toolbucket/SoftMoon/rainbow-maker/plug_in_Shapes/RadialShape/Rainbow-IrregularPolygons.php",
+                        "PHP_toolbucket/SoftMoon/rainbow-maker/plug_in_Shapes/FountainShape/BasicGradient.php",
+                        "PHP_toolbucket/SoftMoon/rainbow-maker/plug_in_Shapes/FountainShape/Fountain.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

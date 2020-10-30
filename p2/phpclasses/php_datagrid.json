@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php_datagrid": [
+            {
+                "name": "phpclasses/php_datagrid",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php_datagrid.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "DataGrid.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

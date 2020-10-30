@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "phpclasses/php-string-functions": [
+            {
+                "name": "phpclasses/php-string-functions",
+                "version": "13",
+                "version_normalized": "13.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-string-functions.zip"
+                },
+                "require": {
+                    "php": ">=7.0.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^8.1"
+                },
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "src/helper.php"
+                    ],
+                    "psr-4": {
+                        "mscribellito\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

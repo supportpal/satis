@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/image_flag_effect": [
+            {
+                "name": "phpclasses/image_flag_effect",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/image_flag_effect.zip"
+                },
+                "require": {
+                    "phpclasses/gifmerge": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Animation.class.php",
+                        "FramePoint.class.php",
+                        "Rotator.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

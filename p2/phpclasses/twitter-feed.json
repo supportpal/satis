@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/twitter-feed": [
+            {
+                "name": "phpclasses/twitter-feed",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/twitter-feed.zip"
+                },
+                "require": {
+                    "phpclasses/httpclient": "1.0.5",
+                    "phpclasses/oauth-api": "1.0.106",
+                    "phpclasses/rsswriter": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "twitter_feed.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

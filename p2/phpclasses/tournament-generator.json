@@ -1,0 +1,33 @@
+{
+    "packages": {
+        "phpclasses/tournament-generator": [
+            {
+                "name": "phpclasses/tournament-generator",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/tournament-generator.zip"
+                },
+                "require": {
+                    "php": ">=7.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^8.3"
+                },
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "src/TournamentGenerator/functions.php"
+                    ],
+                    "psr-4": {
+                        "TournamentGenerator\\": "src/TournamentGenerator/",
+                        "TournamentGenerator\\Preset\\": "src/TournamentGenerator/Preset/",
+                        "TournamentGenerator\\Utilis\\": "src/TournamentGenerator/Utilis/",
+                        "TournamentGenerator\\Utilis\\Sorter\\": "src/TournamentGenerator/Utilis/Sorter/"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/html-5": [
+            {
+                "name": "phpclasses/html-5",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/html-5.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "html5.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

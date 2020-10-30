@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/ioracledriver": [
+            {
+                "name": "phpclasses/ioracledriver",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ioracledriver.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "OracleDriver.class.php",
+                        "OracleRecordset.class.php",
+                        "OracleDriverPHP4.class.php",
+                        "OracleRecordsetPHP4.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

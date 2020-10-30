@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/telegram-cli-wrapper": [
+            {
+                "name": "phpclasses/telegram-cli-wrapper",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/telegram-cli-wrapper.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "TelegramCliWrapper\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

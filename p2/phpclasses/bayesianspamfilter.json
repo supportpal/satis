@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/bayesianspamfilter": [
+            {
+                "name": "phpclasses/bayesianspamfilter",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/bayesianspamfilter.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ngram.php",
+                        "spam.php",
+                        "trainer.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/backup": [
+            {
+                "name": "phpclasses/backup",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/backup.zip"
+                },
+                "require": {
+                    "phpclasses/createzipfile": "1.0.0",
+                    "phpclasses/mysql_dump": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "es/cls_backup.php",
+                        "es/cls_fecha_hora.php",
+                        "en/cls_backup.php",
+                        "en/cls_fecha_hora.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,604 @@
+{
+    "packages": {
+        "horde/mail": [
+            {
+                "name": "horde/mail",
+                "version": "2.1.3",
+                "version_normalized": "2.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mail.git",
+                    "reference": "9a540c398e5ff94b91375295e8a78a2231b37576"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/9a540c398e5ff94b91375295e8a78a2231b37576",
+                    "reference": "9a540c398e5ff94b91375295e8a78a2231b37576",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_smtp": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pear.php.net/Net_SMTP": ">=1.6.0@stable"
+                },
+                "time": "2014-01-17T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Mail Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mail",
+                "version": "2.1.4",
+                "version_normalized": "2.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mail.git",
+                    "reference": "69af375553d29bffcbb19fec89dcd4fe1d2020f7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/69af375553d29bffcbb19fec89dcd4fe1d2020f7",
+                    "reference": "69af375553d29bffcbb19fec89dcd4fe1d2020f7",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_smtp": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pear.php.net/Net_SMTP": ">=1.6.0@stable"
+                },
+                "time": "2014-01-21T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Mail Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mail",
+                "version": "2.1.5",
+                "version_normalized": "2.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mail.git",
+                    "reference": "7745804b03e3b49df13857ace3ffb1c961f97bd2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/7745804b03e3b49df13857ace3ffb1c961f97bd2",
+                    "reference": "7745804b03e3b49df13857ace3ffb1c961f97bd2",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_smtp": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_wrapper": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pear.php.net/Net_SMTP": ">=1.6.0@stable"
+                },
+                "time": "2014-02-11T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Mail Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mail",
+                "version": "2.3.0",
+                "version_normalized": "2.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mail.git",
+                    "reference": "056c1e90cd79d2e3f4be02d885d054576beb6b68"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/056c1e90cd79d2e3f4be02d885d054576beb6b68",
+                    "reference": "056c1e90cd79d2e3f4be02d885d054576beb6b68",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_smtp": ">=1.5.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_wrapper": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pear.php.net/Net_SMTP": ">=1.6.0@stable"
+                },
+                "time": "2014-05-21T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Mail Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mail",
+                "version": "2.4.0",
+                "version_normalized": "2.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mail.git",
+                    "reference": "f699725fc6adb0f4a671326665401d8de1697d00"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/f699725fc6adb0f4a671326665401d8de1697d00",
+                    "reference": "f699725fc6adb0f4a671326665401d8de1697d00",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_smtp": ">=1.5.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_wrapper": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pear.php.net/Net_SMTP": ">=1.6.0@stable"
+                },
+                "time": "2014-08-04T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Mail Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mail",
+                "version": "2.5.0",
+                "version_normalized": "2.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mail.git",
+                    "reference": "b8687b94a6fcc924da7f1aae7deabc59e708ab29"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/b8687b94a6fcc924da7f1aae7deabc59e708ab29",
+                    "reference": "b8687b94a6fcc924da7f1aae7deabc59e708ab29",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_smtp": ">=1.7.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_wrapper": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pear.php.net/Net_SMTP": ">=1.6.0@stable"
+                },
+                "time": "2014-11-23T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Mail Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mail",
+                "version": "2.5.1",
+                "version_normalized": "2.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mail.git",
+                    "reference": "5672c3c83ad4d78a10865f8593827a66e29a488f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/5672c3c83ad4d78a10865f8593827a66e29a488f",
+                    "reference": "5672c3c83ad4d78a10865f8593827a66e29a488f",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_idna": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_smtp": ">=1.7.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_wrapper": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pear.php.net/Net_SMTP": ">=1.6.0@stable"
+                },
+                "time": "2015-01-07T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Mail Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mail",
+                "version": "2.6.0",
+                "version_normalized": "2.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mail.git",
+                    "reference": "3ad886eb9d694de2558eb03690afc72546a796f6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/3ad886eb9d694de2558eb03690afc72546a796f6",
+                    "reference": "3ad886eb9d694de2558eb03690afc72546a796f6",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_idna": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_smtp": ">=1.7.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_wrapper": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pear.php.net/Net_SMTP": ">=1.6.0@stable"
+                },
+                "time": "2015-04-28T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Mail Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mail",
+                "version": "2.6.1",
+                "version_normalized": "2.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mail.git",
+                    "reference": "9310ce78adfa12defa5b407a6fb23cd7338f9e6f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/9310ce78adfa12defa5b407a6fb23cd7338f9e6f",
+                    "reference": "9310ce78adfa12defa5b407a6fb23cd7338f9e6f",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_idna": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_smtp": ">=1.7.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_wrapper": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pear.php.net/Net_SMTP": ">=1.6.0@stable"
+                },
+                "time": "2015-06-24T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Mail Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mail",
+                "version": "2.6.2",
+                "version_normalized": "2.6.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mail.git",
+                    "reference": "51eafdc15f448d4ca98e618cadac18cc9d81c777"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/51eafdc15f448d4ca98e618cadac18cc9d81c777",
+                    "reference": "51eafdc15f448d4ca98e618cadac18cc9d81c777",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_idna": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_smtp": ">=1.7.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_wrapper": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pear.php.net/Net_SMTP": ">=1.6.0@stable"
+                },
+                "time": "2015-07-31T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Mail Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mail",
+                "version": "2.6.3",
+                "version_normalized": "2.6.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mail.git",
+                    "reference": "6a4e4c6fd4f9eb43586f6dd49f139858c83317ba"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/6a4e4c6fd4f9eb43586f6dd49f139858c83317ba",
+                    "reference": "6a4e4c6fd4f9eb43586f6dd49f139858c83317ba",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_idna": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mime": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_smtp": ">=1.7.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_wrapper": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pear.php.net/Net_SMTP": ">=1.6.0@stable"
+                },
+                "time": "2016-02-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Mail Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mail",
+                "version": "2.6.4",
+                "version_normalized": "2.6.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mail.git",
+                    "reference": "5d0b224813fded3e70e7e49ac7559691a73f9daa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/5d0b224813fded3e70e7e49ac7559691a73f9daa",
+                    "reference": "5d0b224813fded3e70e7e49ac7559691a73f9daa",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2@stable",
+                    "pear-pear.horde.org/horde_idna": "^1@stable",
+                    "pear-pear.horde.org/horde_mime": "^2@stable",
+                    "pear-pear.horde.org/horde_stream_filter": "^2@stable",
+                    "pear-pear.horde.org/horde_translation": "^2.2@stable",
+                    "pear-pear.horde.org/horde_util": "^2@stable",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_mail": "2.*",
+                    "pear-pear.horde.org/horde_mail": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_smtp": "^1.7@stable",
+                    "pear-pear.horde.org/horde_stream_wrapper": "^2.1@stable",
+                    "pear-pear.horde.org/horde_test": "^2.1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pear.php.net/Net_SMTP": "^1.6@stable"
+                },
+                "time": "2017-06-22T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Mail": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Mail Library",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/mail",
+                "version": "2.6.5",
+                "version_normalized": "2.6.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mail.git",
+                    "reference": "fefa2fe14747bdbbccada684cec117c2cbfc858c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/fefa2fe14747bdbbccada684cec117c2cbfc858c",
+                    "reference": "fefa2fe14747bdbbccada684cec117c2cbfc858c",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_idna": "^1",
+                    "pear-pear.horde.org/horde_mime": "^2",
+                    "pear-pear.horde.org/horde_stream_filter": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_mail": "2.*",
+                    "pear-pear.horde.org/horde_mail": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_smtp": "^1.7",
+                    "pear-pear.horde.org/horde_stream_wrapper": "^2.1",
+                    "pear-pear.horde.org/horde_test": "^2.1",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pear.php.net/Net_SMTP": "^1.6"
+                },
+                "time": "2019-03-02T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Mail": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Mail library",
+                "homepage": "https://www.horde.org/libraries/Horde_Mail"
+            }
+        ]
+    }
+}

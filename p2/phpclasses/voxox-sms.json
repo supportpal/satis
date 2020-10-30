@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/voxox-sms": [
+            {
+                "name": "phpclasses/voxox-sms",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/voxox-sms.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class_VoxoxSMS.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

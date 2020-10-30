@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "phpclasses/qgooglevisualapi": [
+            {
+                "name": "phpclasses/qgooglevisualapi",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/qgooglevisualapi.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "QGoogleGraph.class.php",
+                        "QVizualisationGoogleGraph.class.php",
+                        "QBarchartGoogleGraph.class.php",
+                        "QColumnchartGoogleGraph.class.php",
+                        "QLinechartGoogleGraph.class.php",
+                        "QInflector.class.php",
+                        "QTool.class.php",
+                        "QApikeyGoogleGraph.class.php",
+                        "QConfig.class.php",
+                        "QAreachartGoogleGraph.class.php",
+                        "QGaugeGoogleGraph.class.php",
+                        "QIntensitymapGoogleGraph.class.php",
+                        "QPiechartGoogleGraph.class.php",
+                        "QWordcloudGoogleGraph.class.php",
+                        "QOrgchartGoogleGraph.class.php",
+                        "QTableGoogleGraph.class.php",
+                        "QScatterchartGoogleGraph.class.php",
+                        "QAnnotatedtimelineGoogleGraph.class.php",
+                        "QMapGoogleGraph.class.php",
+                        "QMotionchartGoogleGraph.class.php",
+                        "QMixupGoogleGraph.class.php",
+                        "QMagictableGoogleGraph.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

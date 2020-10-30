@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/imagedit": [
+            {
+                "name": "phpclasses/imagedit",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/imagedit.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.imagedit.php",
+                        "class.facedetect.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

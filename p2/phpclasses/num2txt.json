@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/num2txt": [
+            {
+                "name": "phpclasses/num2txt",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/num2txt.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "php/Num2Txt.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

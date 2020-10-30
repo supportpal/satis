@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/jcomponentcreator": [
+            {
+                "name": "phpclasses/jcomponentcreator",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/jcomponentcreator.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "JComponentCreator.class.php",
+                        "Patterns/admin_controller.tmpl",
+                        "Patterns/admin_view.tmpl",
+                        "Patterns/install_script.tmpl",
+                        "Patterns/site_controller.tmpl",
+                        "Patterns/site_view.tmpl"
+                    ]
+                }
+            }
+        ]
+    }
+}

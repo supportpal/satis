@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/simple-cms": [
+            {
+                "name": "phpclasses/simple-cms",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/simple-cms.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "core/classes/Database.class.php",
+                        "core/classes/Functions.class.php",
+                        "core/classes/Restriction.class.php",
+                        "core/classes/Session.class.php",
+                        "core/classes/Template.class.php",
+                        "core/classes/User.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/url-shortener-hycus": [
+            {
+                "name": "phpclasses/url-shortener-hycus",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/url-shortener-hycus.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "hycus_urlshortener.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

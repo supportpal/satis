@@ -1,0 +1,32 @@
+{
+    "packages": {
+        "phpclasses/backup-task": [
+            {
+                "name": "phpclasses/backup-task",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/backup-task.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "BackupTask.php",
+                        "Command/Backup/BackupAbstract.php",
+                        "Command/Backup/BackupCommand.php",
+                        "Command/Backup/DirectoryBackup.php",
+                        "Command/Backup/MysqlBackup.php",
+                        "Command/Notification/EmailNotification.php",
+                        "Command/Notification/NotificationAbstract.php",
+                        "Command/Notification/NotificationCommand.php",
+                        "Command/Upload/DirectoryUpload.php",
+                        "Command/Upload/FtpUpload.php",
+                        "Command/Upload/UploadAbstract.php",
+                        "Command/Upload/UploadCommand.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/crop-image-plugin": [
+            {
+                "name": "phpclasses/crop-image-plugin",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/crop-image-plugin.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "cropImage.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

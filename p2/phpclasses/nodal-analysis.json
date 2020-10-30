@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/nodal-analysis": [
+            {
+                "name": "phpclasses/nodal-analysis",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/nodal-analysis.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "nodal.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

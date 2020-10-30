@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-grid": [
+            {
+                "name": "phpclasses/php-grid",
+                "version": "3",
+                "version_normalized": "3.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-grid.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "grid.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

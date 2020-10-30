@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/php-mail-sending": [
+            {
+                "name": "phpclasses/php-mail-sending",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-mail-sending.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Mail.phpclass",
+                        "Regex.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

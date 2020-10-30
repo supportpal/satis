@@ -1,0 +1,38 @@
+{
+    "packages": {
+        "phpclasses/falcraftloader": [
+            {
+                "name": "phpclasses/falcraftloader",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/falcraftloader.zip"
+                },
+                "require": {
+                    "phpclasses/configuration-trait": "2.9",
+                    "phpclasses/falcraftdatatypes": "1.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Falcraft/tests/Loader/TestLoads/TestClass.php",
+                        "Falcraft/Loader/Resource/ModuleInterface.php",
+                        "Falcraft/Loader/Resource/GenericLoaderInterface.php",
+                        "Falcraft/Loader/Resource/AbstractLoader.php",
+                        "Falcraft/Loader/Module.php",
+                        "Falcraft/Loader/AutoLoader.php",
+                        "Falcraft/Data/Components/Exception/ExceptionInterface.php",
+                        "Falcraft/Data/Components/Exception/InvalidArgumentException.php",
+                        "Falcraft/Data/Components/File/Resource/FolderInterface.php",
+                        "Falcraft/Data/Components/File/Resource/AbstractFolder.php",
+                        "Falcraft/Data/Components/File/Path.php",
+                        "AutoLoaderTest/SecondNamespace/TestClass.php",
+                        "AutoLoaderTest/FirstNamespace/TestClass.php",
+                        "Falcraft/Data/Components/File/Folder.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

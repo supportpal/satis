@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/hiutils": [
+            {
+                "name": "phpclasses/hiutils",
+                "version": "0.2.9",
+                "version_normalized": "0.2.9.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/hiutils.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "include/classes/Hi/Utils.php",
+                        "include/classes/Hi/Request.php",
+                        "include/classes/Hi/Error.php",
+                        "include/classes/Hi/Form.php",
+                        "include/classes/Hi/Tree.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

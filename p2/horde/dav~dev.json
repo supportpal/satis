@@ -1,0 +1,278 @@
+{
+    "packages": {
+        "horde/dav": [
+            {
+                "name": "horde/dav",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Dav.git",
+                    "reference": "f1123258deca540129b00e8bea59f2a23f559c09"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Dav/zipball/f1123258deca540129b00e8bea59f2a23f559c09",
+                    "reference": "f1123258deca540129b00e8bea59f2a23f559c09",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-date": "*",
+                    "ext-dom": "*",
+                    "ext-iconv": "*",
+                    "ext-libxml": "*",
+                    "ext-mbstring": "*",
+                    "ext-pcre": "*",
+                    "ext-simplexml": "*",
+                    "ext-spl": "*",
+                    "horde/auth": "dev-master",
+                    "horde/core": "dev-master",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/http": "dev-master",
+                    "horde/stream": "dev-master",
+                    "horde/translation": "dev-master",
+                    "php": "^5.4.1 || ^7",
+                    "sabre/dav": "~2.0.0"
+                },
+                "suggest": {
+                    "ext-curl": "*"
+                },
+                "time": "2019-11-17T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Dav": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "WebDAV, CalDAV, and CardDAV library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/dav",
+                "version": "dev-FRAMEWORK_5_2",
+                "version_normalized": "dev-FRAMEWORK_5_2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Dav.git",
+                    "reference": "594fb56fa76628e6835efa20e61894a7c02cd7ac"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Dav/zipball/594fb56fa76628e6835efa20e61894a7c02cd7ac",
+                    "reference": "594fb56fa76628e6835efa20e61894a7c02cd7ac",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-date": "*",
+                    "ext-dom": "*",
+                    "ext-iconv": "*",
+                    "ext-libxml": "*",
+                    "ext-mbstring": "*",
+                    "ext-pcre": "*",
+                    "ext-simplexml": "*",
+                    "ext-spl": "*",
+                    "pear-pear.horde.org/horde_auth": "^2",
+                    "pear-pear.horde.org/horde_core": "^2",
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_stream": "^1.2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "php": "^5.4.1 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_dav": "2.*",
+                    "pear-pear.horde.org/horde_dav": "2.*"
+                },
+                "suggest": {
+                    "ext-curl": "*"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Dav": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "WebDAV, CalDAV, and CardDAV library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/dav",
+                "version": "dev-horde-upstream",
+                "version_normalized": "dev-horde-upstream",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Dav.git",
+                    "reference": "060049ff6e1f4e99442f05ccc36610cfc058efb5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Dav/zipball/060049ff6e1f4e99442f05ccc36610cfc058efb5",
+                    "reference": "060049ff6e1f4e99442f05ccc36610cfc058efb5",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-date": "*",
+                    "ext-dom": "*",
+                    "ext-iconv": "*",
+                    "ext-libxml": "*",
+                    "ext-mbstring": "*",
+                    "ext-pcre": "*",
+                    "ext-simplexml": "*",
+                    "ext-spl": "*",
+                    "pear-pear.horde.org/horde_auth": "^2",
+                    "pear-pear.horde.org/horde_core": "^2",
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_stream": "^1.2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "php": "^5.4.1 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_dav": "2.*",
+                    "pear-pear.horde.org/horde_dav": "2.*"
+                },
+                "suggest": {
+                    "ext-curl": "*"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Dav": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "WebDAV, CalDAV, and CardDAV library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/dav",
+                "version": "dev-horde_dav-1.1.x",
+                "version_normalized": "dev-horde_dav-1.1.x",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Dav.git",
+                    "reference": "765afbf8a240e91dbf52bebe3d94e6654fb01719"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Dav/zipball/765afbf8a240e91dbf52bebe3d94e6654fb01719",
+                    "reference": "765afbf8a240e91dbf52bebe3d94e6654fb01719",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_auth": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_core": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_http": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.2.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "time": "2016-12-15T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde library for WebDAV, CalDAV, CardDAV",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/dav",
+                "version": "dev-maintaina-bare",
+                "version_normalized": "dev-maintaina-bare",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Dav.git",
+                    "reference": "060049ff6e1f4e99442f05ccc36610cfc058efb5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Dav/zipball/060049ff6e1f4e99442f05ccc36610cfc058efb5",
+                    "reference": "060049ff6e1f4e99442f05ccc36610cfc058efb5",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-date": "*",
+                    "ext-dom": "*",
+                    "ext-iconv": "*",
+                    "ext-libxml": "*",
+                    "ext-mbstring": "*",
+                    "ext-pcre": "*",
+                    "ext-simplexml": "*",
+                    "ext-spl": "*",
+                    "pear-pear.horde.org/horde_auth": "^2",
+                    "pear-pear.horde.org/horde_core": "^2",
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_stream": "^1.2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "php": "^5.4.1 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_dav": "2.*",
+                    "pear-pear.horde.org/horde_dav": "2.*"
+                },
+                "suggest": {
+                    "ext-curl": "*"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Dav": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "WebDAV, CalDAV, and CardDAV library",
+                "homepage": "https://www.horde.org"
+            }
+        ]
+    }
+}

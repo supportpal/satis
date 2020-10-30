@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/disquswpglue": [
+            {
+                "name": "phpclasses/disquswpglue",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/disquswpglue.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "disqus-wordpress-localization-glue/disqus-wordpress-localization-glue.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

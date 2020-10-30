@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/facecapture": [
+            {
+                "name": "phpclasses/facecapture",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/facecapture.zip"
+                },
+                "require": {
+                    "ext-gd": "*",
+                    "php": ">=5.2.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "FaceDetector.php",
+                        "Exception/"
+                    ]
+                }
+            }
+        ]
+    }
+}

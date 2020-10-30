@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/apc-wrapper": [
+            {
+                "name": "phpclasses/apc-wrapper",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/apc-wrapper.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "APC.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

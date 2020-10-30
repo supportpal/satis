@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/php-input-class": [
+            {
+                "name": "phpclasses/php-input-class",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-input-class.zip"
+                },
+                "require": {
+                    "lablnet/http-client": "^1.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Lablnet\\": "src/"
+                    },
+                    "files": [
+                        "src/functions/helpers.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

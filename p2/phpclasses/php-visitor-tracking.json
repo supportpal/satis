@@ -1,0 +1,19 @@
+{
+    "packages": {
+        "phpclasses/php-visitor-tracking": [
+            {
+                "name": "phpclasses/php-visitor-tracking",
+                "version": "1.21",
+                "version_normalized": "1.21.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-visitor-tracking.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": []
+                }
+            }
+        ]
+    }
+}

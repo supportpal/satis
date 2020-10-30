@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/viv-oauth-imap": [
+            {
+                "name": "phpclasses/viv-oauth-imap",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/viv-oauth-imap.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/VivOAuthIMAP.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

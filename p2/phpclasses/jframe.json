@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/jframe": [
+            {
+                "name": "phpclasses/jframe",
+                "version": "0.0.7",
+                "version_normalized": "0.0.7.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/jframe.zip"
+                },
+                "require": {
+                    "filp/whoops": "^2.1",
+                    "php": ">=7.0.13"
+                },
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "Javamon\\Jframe\\": "src/",
+                        "Javamon\\Jframe\\Core\\": "src/application/core",
+                        "Javamon\\Jframe\\Processor\\": "src/application/",
+                        "Javamon\\Jframe\\Model\\": "src/application/model",
+                        "Javamon\\Jframe\\View\\": "src/application/view"
+                    }
+                }
+            }
+        ]
+    }
+}

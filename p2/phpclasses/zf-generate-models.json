@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/zf-generate-models": [
+            {
+                "name": "phpclasses/zf-generate-models",
+                "version": "3.1",
+                "version_normalized": "3.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/zf-generate-models.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "zf1_library/App/Model/Abstract.php",
+                        "zf1_library/App/Model/Mapper/Abstract.php",
+                        "zf1_generator/Generator.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

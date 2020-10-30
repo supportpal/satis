@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/save-and-convert-img": [
+            {
+                "name": "phpclasses/save-and-convert-img",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/save-and-convert-img.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "save_and_convert_img_class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

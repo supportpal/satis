@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/paramsproxy": [
+            {
+                "name": "phpclasses/paramsproxy",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/paramsproxy.zip"
+                },
+                "require": {
+                    "phpclasses/domit": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ParamsProxy.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

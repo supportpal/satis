@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/qxml": [
+            {
+                "name": "phpclasses/qxml",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/qxml.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "QXml.class.php",
+                        "QSet.class.php",
+                        "QWhoIsIp.class.php",
+                        "QReflection.class.php",
+                        "QTransform.class.php",
+                        "XMLJSON.class.php",
+                        "JSON.class.php",
+                        "QGoogleMapToGPX",
+                        "Propel2Doctrine.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

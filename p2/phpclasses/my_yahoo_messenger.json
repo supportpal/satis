@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/my_yahoo_messenger": [
+            {
+                "name": "phpclasses/my_yahoo_messenger",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/my_yahoo_messenger.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "My_Yahoo_Messenger"
+                    ]
+                }
+            }
+        ]
+    }
+}

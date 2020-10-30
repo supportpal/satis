@@ -1,0 +1,31 @@
+{
+    "packages": {
+        "phpclasses/gitchangelogcreator": [
+            {
+                "name": "phpclasses/gitchangelogcreator",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/gitchangelogcreator.zip"
+                },
+                "require": {
+                    "ext-date": "*",
+                    "ext-spl": "*",
+                    "php": ">=7.1"
+                },
+                "require-dev": {
+                    "roave/security-advisories": "dev-master"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "GitChangeLogCreator\\": [
+                            "src/"
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

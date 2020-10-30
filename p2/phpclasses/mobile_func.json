@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/mobile_func": [
+            {
+                "name": "phpclasses/mobile_func",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mobile_func.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "mobile_func/chkisdn.inc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

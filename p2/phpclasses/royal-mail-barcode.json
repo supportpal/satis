@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/royal-mail-barcode": [
+            {
+                "name": "phpclasses/royal-mail-barcode",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/royal-mail-barcode.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "RoyalMailBarcode.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

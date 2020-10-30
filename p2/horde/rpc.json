@@ -1,0 +1,255 @@
+{
+    "packages": {
+        "horde/rpc": [
+            {
+                "name": "horde/rpc",
+                "version": "2.1.5",
+                "version_normalized": "2.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Rpc.git",
+                    "reference": "8131dc0367a9924345ab2afa0f948872f7e92414"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Rpc/zipball/8131dc0367a9924345ab2afa0f948872f7e92414",
+                    "reference": "8131dc0367a9924345ab2afa0f948872f7e92414",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_core": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_dav": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_serialize": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_xml_element": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-soap": "*",
+                    "ext-xmlrpc": "*",
+                    "pear-pear.horde.org/horde_activesync": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_http": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_lock": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_syncml": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-07-31T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Horde RPC API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/rpc",
+                "version": "2.1.6",
+                "version_normalized": "2.1.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Rpc.git",
+                    "reference": "0d80e402806b283af0677fd4e21cae3c44bf9997"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Rpc/zipball/0d80e402806b283af0677fd4e21cae3c44bf9997",
+                    "reference": "0d80e402806b283af0677fd4e21cae3c44bf9997",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_core": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_dav": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_serialize": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_xml_element": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-soap": "*",
+                    "ext-xmlrpc": "*",
+                    "pear-pear.horde.org/horde_activesync": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_http": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_lock": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_syncml": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-02-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Horde RPC API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/rpc",
+                "version": "2.1.7",
+                "version_normalized": "2.1.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Rpc.git",
+                    "reference": "08991b4cb76ecae83238028916945a7a1a3f49bf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Rpc/zipball/08991b4cb76ecae83238028916945a7a1a3f49bf",
+                    "reference": "08991b4cb76ecae83238028916945a7a1a3f49bf",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_core": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_dav": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_perms": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_serialize": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_xml_element": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-soap": "*",
+                    "ext-xmlrpc": "*",
+                    "pear-pear.horde.org/horde_activesync": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_http": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_lock": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_syncml": ">=2.0.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-03-21T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Horde RPC API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/rpc",
+                "version": "2.1.8",
+                "version_normalized": "2.1.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Rpc.git",
+                    "reference": "c3a4555009a31114f77d13ddf1eeb438e7869f71"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Rpc/zipball/c3a4555009a31114f77d13ddf1eeb438e7869f71",
+                    "reference": "c3a4555009a31114f77d13ddf1eeb438e7869f71",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_core": "^2.5@stable",
+                    "pear-pear.horde.org/horde_dav": "^1@stable",
+                    "pear-pear.horde.org/horde_exception": "^2@stable",
+                    "pear-pear.horde.org/horde_perms": "^2@stable",
+                    "pear-pear.horde.org/horde_serialize": "^2@stable",
+                    "pear-pear.horde.org/horde_support": "^2@stable",
+                    "pear-pear.horde.org/horde_translation": "^2.2@stable",
+                    "pear-pear.horde.org/horde_util": "^2@stable",
+                    "pear-pear.horde.org/horde_xml_element": "^2@stable",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_rpc": "2.*",
+                    "pear-pear.horde.org/horde_rpc": "2.*"
+                },
+                "suggest": {
+                    "ext-soap": "*",
+                    "ext-xmlrpc": "*",
+                    "pear-pear.horde.org/horde_activesync": "^2@stable",
+                    "pear-pear.horde.org/horde_http": "^2@stable",
+                    "pear-pear.horde.org/horde_lock": "^2@stable",
+                    "pear-pear.horde.org/horde_syncml": "^2@stable"
+                },
+                "time": "2017-10-09T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Rpc": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Horde RPC API",
+                "homepage": "https://pear.horde.org"
+            }
+        ]
+    }
+}

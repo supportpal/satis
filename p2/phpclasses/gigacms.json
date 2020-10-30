@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/gigacms": [
+            {
+                "name": "phpclasses/gigacms",
+                "version": "1.0.6",
+                "version_normalized": "1.0.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/gigacms.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "lib/mysql.class.php",
+                        "lib/options.class.php",
+                        "lib/pagination.class.php",
+                        "lib/presets.class.php",
+                        "lib/users.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

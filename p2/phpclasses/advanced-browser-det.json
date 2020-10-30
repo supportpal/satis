@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/advanced-browser-det": [
+            {
+                "name": "phpclasses/advanced-browser-det",
+                "version": "2",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/advanced-browser-det.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "stnc_userAgent.php",
+                        "ua.class.php",
+                        "ua.footprintref.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

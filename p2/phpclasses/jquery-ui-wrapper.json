@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/jquery-ui-wrapper": [
+            {
+                "name": "phpclasses/jquery-ui-wrapper",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/jquery-ui-wrapper.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "widgetAbstract.php",
+                        "uiWidget.php",
+                        "genericWidget.php",
+                        "dialogWidget.php",
+                        "datepickerWidget.php",
+                        "buttonWidget.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

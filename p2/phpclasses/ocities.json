@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "phpclasses/ocities": [
+            {
+                "name": "phpclasses/ocities",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ocities.zip"
+                },
+                "require": {
+                    "phpclasses/soundex2": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "villes/php5/oajax.cls.php",
+                        "villes/php5/ocity.cls.php",
+                        "villes/php4/oajax.cls.php",
+                        "villes/php4/ocity.cls.php",
+                        "docs/english/classes/city/oajax/setFooter.html",
+                        "villes/php5/phonex.cls.php",
+                        "villes/php5/soundex2.cls.php",
+                        "villes/php4/phonex.cls.php",
+                        "villes/php4/soundex2.cls.php",
+                        "villes_normal/php4/oajax.cls.php",
+                        "villes_normal/php4/ocity.cls.php",
+                        "villes_normal/php5/ocity.cls.php",
+                        "villes_normal/php5/oajax.cls.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

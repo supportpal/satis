@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/fake-admin-honeypot": [
+            {
+                "name": "phpclasses/fake-admin-honeypot",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/fake-admin-honeypot.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "fake-admin-panel/config/Permission.php",
+                        "fake-admin-panel/controllers/AdminController.php",
+                        "fake-admin-panel/controllers/MainController.php",
+                        "fake-admin-panel/forms/LoginForm.php",
+                        "fake-admin-panel/forms/processing/LoginFormProcess.php",
+                        "fake-admin-panel/inc/class/Logger.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

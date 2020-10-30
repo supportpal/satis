@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/phpcodegenerator": [
+            {
+                "name": "phpclasses/phpcodegenerator",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/phpcodegenerator.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "gerador_gerar_classes.php",
+                        "myclasses.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

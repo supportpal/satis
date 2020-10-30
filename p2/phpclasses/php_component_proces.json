@@ -1,0 +1,32 @@
+{
+    "packages": {
+        "phpclasses/php_component_proces": [
+            {
+                "name": "phpclasses/php_component_proces",
+                "version": "1.0.11",
+                "version_normalized": "1.0.11.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php_component_proces.zip"
+                },
+                "require": {
+                    "net_bazzline/php_component_memory_limit_manager": "1.1.*",
+                    "net_bazzline/php_component_time_limit_manager": "1.0.*",
+                    "php": ">=5.3.3",
+                    "symfony/event-dispatcher": "~2.7||~3.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "0.9.5",
+                    "phpunit/phpunit": "~4.8||~5.5"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Example\\Net\\Bazzline\\Component\\ProcessForkManager\\": "example/",
+                        "Net\\Bazzline\\Component\\ProcessForkManager\\": "source/"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/abr4xas-utils": [
+            {
+                "name": "phpclasses/abr4xas-utils",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/abr4xas-utils.zip"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Abr4xas\\Utils\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

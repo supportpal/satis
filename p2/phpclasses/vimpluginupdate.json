@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/vimpluginupdate": [
+            {
+                "name": "phpclasses/vimpluginupdate",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/vimpluginupdate.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "updater.php",
+                        "classes/Config.class.php",
+                        "classes/UpdaterConfig.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,359 @@
+{
+    "packages": {
+        "horde/horde-gittools": [
+            {
+                "name": "horde/horde-gittools",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/git-tools.git",
+                    "reference": "b66353676e19ccab1bec98998fefeee4f4fa2385"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/git-tools/zipball/b66353676e19ccab1bec98998fefeee4f4fa2385",
+                    "reference": "b66353676e19ccab1bec98998fefeee4f4fa2385",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0",
+                    "horde/alarm": "dev-master as 2.99.99",
+                    "horde/argv": "dev-master as 2.99.99",
+                    "horde/auth": "dev-master as 2.99.99",
+                    "horde/browser": "dev-master as 2.99.99",
+                    "horde/cache": "dev-master as 2.99.99",
+                    "horde/cli": "dev-master as 2.99.99",
+                    "horde/cli_modular": "dev-master as 2.99.99",
+                    "horde/components": "dev-master",
+                    "horde/compress": "dev-master as 2.99.99",
+                    "horde/compress_fast": "dev-master as 1.99.99",
+                    "horde/controller": "dev-master as 2.99.99",
+                    "horde/core": "dev-master as 2.99.99",
+                    "horde/crypt_blowfish": "dev-master as 1.99.99",
+                    "horde/cssminify": "dev-master as 1.99.99",
+                    "horde/data": "dev-master as 2.99.99",
+                    "horde/date": "dev-master as 2.99.99",
+                    "horde/db": "dev-master as 2.99.99",
+                    "horde/exception": "dev-master as 2.99.99",
+                    "horde/group": "dev-master as 2.99.99",
+                    "horde/hashtable": "dev-master as 1.99.99",
+                    "horde/history": "dev-master as 2.99.99",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/http": "dev-master as 2.99.99",
+                    "horde/icalendar": "dev-master as 2.99.99",
+                    "horde/idna": "dev-master as 1.99.99",
+                    "horde/injector": "dev-master as 2.99.99",
+                    "horde/javascriptminify": "dev-master as 1.99.99",
+                    "horde/lock": "dev-master as 2.99.99",
+                    "horde/log": "dev-master as 2.99.99",
+                    "horde/logintasks": "dev-master as 2.99.99",
+                    "horde/mail": "dev-master as 2.99.99",
+                    "horde/mime": "dev-master as 2.99.99",
+                    "horde/mime_viewer": "dev-master as 2.99.99",
+                    "horde/nls": "dev-master as 2.99.99",
+                    "horde/notification": "dev-master as 2.99.99",
+                    "horde/pack": "dev-master as 1.99.99",
+                    "horde/pear": "dev-master",
+                    "horde/perms": "dev-master as 2.99.99",
+                    "horde/prefs": "dev-master as 2.99.99",
+                    "horde/release": "dev-master as 3.99.99",
+                    "horde/rpc": "dev-master as 2.99.99",
+                    "horde/secret": "dev-master as 2.99.99",
+                    "horde/serialize": "dev-master as 2.99.99",
+                    "horde/sessionhandler": "dev-master as 2.99.99",
+                    "horde/share": "dev-master as 2.99.99",
+                    "horde/stream_wrapper": "dev-master as 2.99.99",
+                    "horde/support": "dev-master as 2.99.99",
+                    "horde/test": "dev-master",
+                    "horde/text_diff": "dev-master as 2.99.99",
+                    "horde/text_filter": "dev-master as 2.99.99",
+                    "horde/text_flowed": "dev-master as 2.99.99",
+                    "horde/token": "dev-master as 2.99.99",
+                    "horde/translation": "dev-master as 2.99.99",
+                    "horde/url": "dev-master as 2.99.99",
+                    "horde/util": "dev-master as 2.99.99",
+                    "horde/view": "dev-master as 2.99.99",
+                    "horde/xml_element": "dev-master as 2.99.99",
+                    "horde/yaml": "dev-master as 2.99.99",
+                    "pear/archive_tar": "^1.4.2",
+                    "pear/pear": "^1.10.0@dev",
+                    "php": ">=7.0.0",
+                    "phpunit/phpunit": "^8.5@dev"
+                },
+                "time": "2019-04-12T00:00:00+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "Horde\\GitTools\\": "lib"
+                    }
+                },
+                "license": [
+                    "LGPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Utility for installing and managing Horde checkouts.",
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/git-tools/tree/master"
+                }
+            },
+            {
+                "name": "horde/horde-gittools",
+                "version": "dev-horde-upstream",
+                "version_normalized": "dev-horde-upstream",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/git-tools.git",
+                    "reference": "eeaddcc12150e3e5fa213a3f20ce68dfe3e73039"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/git-tools/zipball/eeaddcc12150e3e5fa213a3f20ce68dfe3e73039",
+                    "reference": "eeaddcc12150e3e5fa213a3f20ce68dfe3e73039",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/components": "dev-master",
+                    "pear-pear.horde.org/horde_argv": "^2.1.0",
+                    "pear-pear.horde.org/horde_cache": "^2",
+                    "pear-pear.horde.org/horde_cli": "^2.2.0",
+                    "pear-pear.horde.org/horde_cli_modular": "^2.1.0",
+                    "pear-pear.horde.org/horde_exception": "^2.0.0",
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_pear": "^1.0.0@dev",
+                    "pear-pear.horde.org/horde_translation": "^2.2.2",
+                    "pear-pear.horde.org/horde_yaml": "^2.0.6",
+                    "pear/archive_tar": "^1.4.2",
+                    "pear/pear": "^1.10.0@dev",
+                    "php": ">=5.5.0"
+                },
+                "time": "2017-03-29T00:00:00+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "Horde\\GitTools\\": "lib"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Horde\\GitTools\\Callbacks::linkHordeRole"
+                    ],
+                    "pre-update-cmd": [
+                        "Horde\\GitTools\\Callbacks::unlinkHordeRole"
+                    ],
+                    "post-update-cmd": [
+                        "Horde\\GitTools\\Callbacks::linkHordeRole"
+                    ]
+                },
+                "license": [
+                    "LGPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Utility for installing and managing Horde checkouts.",
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/git-tools/tree/horde-upstream"
+                }
+            },
+            {
+                "name": "horde/horde-gittools",
+                "version": "dev-maintaina-bare",
+                "version_normalized": "dev-maintaina-bare",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/git-tools.git",
+                    "reference": "eeaddcc12150e3e5fa213a3f20ce68dfe3e73039"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/git-tools/zipball/eeaddcc12150e3e5fa213a3f20ce68dfe3e73039",
+                    "reference": "eeaddcc12150e3e5fa213a3f20ce68dfe3e73039",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/components": "dev-master",
+                    "pear-pear.horde.org/horde_argv": "^2.1.0",
+                    "pear-pear.horde.org/horde_cache": "^2",
+                    "pear-pear.horde.org/horde_cli": "^2.2.0",
+                    "pear-pear.horde.org/horde_cli_modular": "^2.1.0",
+                    "pear-pear.horde.org/horde_exception": "^2.0.0",
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_pear": "^1.0.0@dev",
+                    "pear-pear.horde.org/horde_translation": "^2.2.2",
+                    "pear-pear.horde.org/horde_yaml": "^2.0.6",
+                    "pear/archive_tar": "^1.4.2",
+                    "pear/pear": "^1.10.0@dev",
+                    "php": ">=5.5.0"
+                },
+                "time": "2017-03-29T00:00:00+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "Horde\\GitTools\\": "lib"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Horde\\GitTools\\Callbacks::linkHordeRole"
+                    ],
+                    "pre-update-cmd": [
+                        "Horde\\GitTools\\Callbacks::unlinkHordeRole"
+                    ],
+                    "post-update-cmd": [
+                        "Horde\\GitTools\\Callbacks::linkHordeRole"
+                    ]
+                },
+                "license": [
+                    "LGPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Utility for installing and managing Horde checkouts.",
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/git-tools/tree/horde-upstream"
+                }
+            },
+            {
+                "name": "horde/horde-gittools",
+                "version": "dev-maintaina-com",
+                "version_normalized": "dev-maintaina-com",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/git-tools.git",
+                    "reference": "18effb86155fc1d4ea8b9bcc195365162e75f9b4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/git-tools/zipball/18effb86155fc1d4ea8b9bcc195365162e75f9b4",
+                    "reference": "18effb86155fc1d4ea8b9bcc195365162e75f9b4",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0",
+                    "horde/alarm": "dev-master as 2.99.99",
+                    "horde/argv": "dev-master as 2.99.99",
+                    "horde/auth": "dev-master as 2.99.99",
+                    "horde/browser": "dev-master as 2.99.99",
+                    "horde/cache": "dev-master as 2.99.99",
+                    "horde/cli": "dev-master as 2.99.99",
+                    "horde/cli_modular": "dev-master as 2.99.99",
+                    "horde/components": "dev-master",
+                    "horde/compress": "dev-master as 2.99.99",
+                    "horde/compress_fast": "dev-master as 1.99.99",
+                    "horde/controller": "dev-master as 2.99.99",
+                    "horde/core": "dev-master as 2.99.99",
+                    "horde/crypt_blowfish": "dev-master as 1.99.99",
+                    "horde/cssminify": "dev-master as 1.99.99",
+                    "horde/data": "dev-master as 2.99.99",
+                    "horde/date": "dev-master as 2.99.99",
+                    "horde/db": "dev-master as 2.99.99",
+                    "horde/exception": "dev-master as 2.99.99",
+                    "horde/group": "dev-master as 2.99.99",
+                    "horde/hashtable": "dev-master as 1.99.99",
+                    "horde/history": "dev-master as 2.99.99",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/http": "dev-master as 2.99.99",
+                    "horde/icalendar": "dev-master as 2.99.99",
+                    "horde/idna": "dev-master as 1.99.99",
+                    "horde/injector": "dev-master as 2.99.99",
+                    "horde/javascriptminify": "dev-master as 1.99.99",
+                    "horde/lock": "dev-master as 2.99.99",
+                    "horde/log": "dev-master as 2.99.99",
+                    "horde/logintasks": "dev-master as 2.99.99",
+                    "horde/mail": "dev-master as 2.99.99",
+                    "horde/mime": "dev-master as 2.99.99",
+                    "horde/mime_viewer": "dev-master as 2.99.99",
+                    "horde/nls": "dev-master as 2.99.99",
+                    "horde/notification": "dev-master as 2.99.99",
+                    "horde/pack": "dev-master as 1.99.99",
+                    "horde/pear": "dev-master",
+                    "horde/perms": "dev-master as 2.99.99",
+                    "horde/prefs": "dev-master as 2.99.99",
+                    "horde/release": "dev-master as 3.99.99",
+                    "horde/rpc": "dev-master as 2.99.99",
+                    "horde/secret": "dev-master as 2.99.99",
+                    "horde/serialize": "dev-master as 2.99.99",
+                    "horde/sessionhandler": "dev-master as 2.99.99",
+                    "horde/share": "dev-master as 2.99.99",
+                    "horde/stream_wrapper": "dev-master as 2.99.99",
+                    "horde/support": "dev-master as 2.99.99",
+                    "horde/test": "dev-master",
+                    "horde/text_diff": "dev-master as 2.99.99",
+                    "horde/text_filter": "dev-master as 2.99.99",
+                    "horde/text_flowed": "dev-master as 2.99.99",
+                    "horde/token": "dev-master as 2.99.99",
+                    "horde/translation": "dev-master as 2.99.99",
+                    "horde/url": "dev-master as 2.99.99",
+                    "horde/util": "dev-master as 2.99.99",
+                    "horde/view": "dev-master as 2.99.99",
+                    "horde/xml_element": "dev-master as 2.99.99",
+                    "horde/yaml": "dev-master as 2.99.99",
+                    "pear/archive_tar": "^1.4.2",
+                    "pear/pear": "^1.10.0@dev",
+                    "php": ">=7.0.0"
+                },
+                "time": "2019-04-12T00:00:00+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "Horde\\GitTools\\": "lib"
+                    }
+                },
+                "license": [
+                    "LGPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Utility for installing and managing Horde checkouts.",
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/git-tools/tree/maintaina-com"
+                }
+            }
+        ]
+    }
+}

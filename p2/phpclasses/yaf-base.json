@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/yaf-base": [
+            {
+                "name": "phpclasses/yaf-base",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/yaf-base.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "application/Bootstrap.php",
+                        "application/controllers/Error.php",
+                        "application/controllers/Index.php",
+                        "application/plugins/Layout.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

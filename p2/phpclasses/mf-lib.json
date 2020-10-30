@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/mf-lib": [
+            {
+                "name": "phpclasses/mf-lib",
+                "version": "0.33",
+                "version_normalized": "0.33.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mf-lib.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "mflib.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

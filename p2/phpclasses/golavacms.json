@@ -1,0 +1,43 @@
+{
+    "packages": {
+        "phpclasses/golavacms": [
+            {
+                "name": "phpclasses/golavacms",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/golavacms.zip"
+                },
+                "require": {
+                    "fideloper/proxy": "~3.3",
+                    "laravel/framework": "5.5.*",
+                    "laravel/tinker": "~1.0",
+                    "php": ">=7.0.0"
+                },
+                "require-dev": {
+                    "filp/whoops": "~2.0",
+                    "fzaninotto/faker": "~1.4",
+                    "mockery/mockery": "~1.0",
+                    "phpunit/phpunit": "~6.0",
+                    "symfony/thanks": "^1.0"
+                },
+                "type": "project",
+                "extra": {
+                    "laravel": {
+                        "dont-discover": []
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "database/seeds",
+                        "database/factories"
+                    ],
+                    "psr-4": {
+                        "App\\": "app/"
+                    }
+                }
+            }
+        ]
+    }
+}

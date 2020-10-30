@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/apeform": [
+            {
+                "name": "phpclasses/apeform",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/apeform.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Apeform.class.php",
+                        "example_advertisement.class.php",
+                        "example_elements.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

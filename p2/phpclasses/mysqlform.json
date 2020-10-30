@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/mysqlform": [
+            {
+                "name": "phpclasses/mysqlform",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mysqlform.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "form.class.php",
+                        "captcha.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

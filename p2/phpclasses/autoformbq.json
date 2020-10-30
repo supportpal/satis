@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/autoformbq": [
+            {
+                "name": "phpclasses/autoformbq",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/autoformbq.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "autoformBQ.php",
+                        "class_field.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

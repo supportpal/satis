@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/zip": [
+            {
+                "name": "phpclasses/zip",
+                "version": "1.64",
+                "version_normalized": "1.64.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/zip.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Zip.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

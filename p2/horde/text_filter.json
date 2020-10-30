@@ -1,0 +1,280 @@
+{
+    "packages": {
+        "horde/text_filter": [
+            {
+                "name": "horde/text_filter",
+                "version": "2.3.2",
+                "version_normalized": "2.3.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Filter.git",
+                    "reference": "ac2151613978fca39f5d23dfe8a8d334198ff1f5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/ac2151613978fca39f5d23dfe8a8d334198ff1f5",
+                    "reference": "ac2151613978fca39f5d23dfe8a8d334198ff1f5",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_idna": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-tidy": "*",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter_jsmin": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-07-31T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Horde Text Filter API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/text_filter",
+                "version": "2.3.3",
+                "version_normalized": "2.3.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Filter.git",
+                    "reference": "69c717b60876a1f3c78f1bc2bedb34414fd99839"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/69c717b60876a1f3c78f1bc2bedb34414fd99839",
+                    "reference": "69c717b60876a1f3c78f1bc2bedb34414fd99839",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_idna": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-tidy": "*",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter_jsmin": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-02-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Horde Text Filter API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/text_filter",
+                "version": "2.3.4",
+                "version_normalized": "2.3.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Filter.git",
+                    "reference": "7ec825b30fe92427a25ba02404dd38f2d3f09a7e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/7ec825b30fe92427a25ba02404dd38f2d3f09a7e",
+                    "reference": "7ec825b30fe92427a25ba02404dd38f2d3f09a7e",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_idna": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-tidy": "*",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter_jsmin": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-03-21T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Horde Text Filter API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/text_filter",
+                "version": "2.3.5",
+                "version_normalized": "2.3.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Filter.git",
+                    "reference": "935e1a6ba4a5d11081ff7b69fda82b23dc570a1a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/935e1a6ba4a5d11081ff7b69fda82b23dc570a1a",
+                    "reference": "935e1a6ba4a5d11081ff7b69fda82b23dc570a1a",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_idna": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-tidy": "*",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter_jsmin": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-09-06T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Horde Text Filter API",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/text_filter",
+                "version": "2.3.6",
+                "version_normalized": "2.3.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Filter.git",
+                    "reference": "171ade16f4fa7224bf366b15c917ff027f12edb4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/171ade16f4fa7224bf366b15c917ff027f12edb4",
+                    "reference": "171ade16f4fa7224bf366b15c917ff027f12edb4",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_idna": "^1",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_text_filter": "2.*",
+                    "pear-pear.horde.org/horde_text_filter": "2.*"
+                },
+                "suggest": {
+                    "ext-tidy": "*",
+                    "pear-pear.horde.org/horde_test": "^2.1",
+                    "pear-pear.horde.org/horde_text_filter_jsmin": "^1",
+                    "pear-pear.horde.org/horde_text_flowed": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2"
+                },
+                "time": "2018-12-30T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Text_Filter": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Text filtering and conversion library",
+                "homepage": "https://www.horde.org/libraries/Horde_Text_Filter"
+            }
+        ]
+    }
+}

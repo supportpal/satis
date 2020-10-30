@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/pop3ml": [
+            {
+                "name": "phpclasses/pop3ml",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/pop3ml.zip"
+                },
+                "require": {
+                    "phpclasses/mimeparser": "1.84",
+                    "phpclasses/pop3class": "1.0.1",
+                    "phpclasses/sasl": ">=1.0.0",
+                    "phpclasses/smtpclass": "1.0.5"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "includes/class.pop3ml.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "packages": {
+        "phpclasses/php-iso-file": [
+            {
+                "name": "phpclasses/php-iso-file",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-iso-file.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "classes/boot_catalog.class.php",
+                        "classes/boot_catalog_entry.class.php",
+                        "classes/buffer.class.php",
+                        "classes/descriptor_boot.class.php",
+                        "classes/descriptor.class.php",
+                        "classes/descriptor_partition.class.php",
+                        "classes/descriptor_terminator.class.php",
+                        "classes/descriptor_volume.class.php",
+                        "classes/file_dir_descriptors.class.php",
+                        "classes/file_iso.class.php",
+                        "classes/iso_date.class.php",
+                        "classes/path_table_record.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

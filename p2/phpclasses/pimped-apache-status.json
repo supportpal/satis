@@ -1,0 +1,32 @@
+{
+    "packages": {
+        "phpclasses/pimped-apache-status": [
+            {
+                "name": "phpclasses/pimped-apache-status",
+                "version": "1.28",
+                "version_normalized": "1.28.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/pimped-apache-status.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "classes/primitivelogger.class.php",
+                        "classes/serverstatus.class.php",
+                        "classes/page.class.php",
+                        "classes/datarenderer.class.php",
+                        "classes/array2xml.class.php",
+                        "classes/ahwi-installer.class.php",
+                        "classes/cdnorlocal-admin.class.php",
+                        "classes/cdnorlocal.class.php",
+                        "classes/configdata.class.php",
+                        "classes/confighandler.class.php",
+                        "classes/configserver.class.php",
+                        "classes/logger.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

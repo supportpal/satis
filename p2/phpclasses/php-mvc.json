@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "phpclasses/php-mvc": [
+            {
+                "name": "phpclasses/php-mvc",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-mvc.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "code/controllers/home.php",
+                        "code/includes/catalog.php",
+                        "code/includes/configuration.php",
+                        "code/includes/controller.php",
+                        "code/includes/database.php",
+                        "code/includes/loader.php",
+                        "code/includes/model.php",
+                        "code/includes/url.php",
+                        "code/includes/utilities.php",
+                        "code/models/home.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "packages": {
+        "horde/text_flowed": [
+            {
+                "name": "horde/text_flowed",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Flowed.git",
+                    "reference": "e4552e24b4beddcd7753f988a2e98ed9040cb07e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Flowed/zipball/e4552e24b4beddcd7753f988a2e98ed9040cb07e",
+                    "reference": "e4552e24b4beddcd7753f988a2e98ed9040cb07e",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-01-09T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde API for flowed text as per RFC 3676",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/text_flowed",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Flowed.git",
+                    "reference": "13eb7900203c2bf5b0fa1b2ef280dd110c4a548e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Flowed/zipball/13eb7900203c2bf5b0fa1b2ef280dd110c4a548e",
+                    "reference": "13eb7900203c2bf5b0fa1b2ef280dd110c4a548e",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-02-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde API for flowed text as per RFC 3676",
+                "homepage": "http://pear.horde.org"
+            }
+        ]
+    }
+}

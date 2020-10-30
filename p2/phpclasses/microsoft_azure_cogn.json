@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/microsoft_azure_cogn": [
+            {
+                "name": "phpclasses/microsoft_azure_cogn",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/microsoft_azure_cogn.zip"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^6.5",
+                    "vlucas/phpdotenv": "^4.1"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "speech.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

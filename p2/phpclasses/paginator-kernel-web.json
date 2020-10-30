@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/paginator-kernel-web": [
+            {
+                "name": "phpclasses/paginator-kernel-web",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/paginator-kernel-web.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Paginator.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

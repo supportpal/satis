@@ -1,0 +1,50 @@
+{
+    "packages": {
+        "phpclasses/cardealer": [
+            {
+                "name": "phpclasses/cardealer",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/cardealer.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class/Constants.php",
+                        "class/Customer.php",
+                        "class/CustomerHandler.php",
+                        "class/Helper.php",
+                        "class/Part.php",
+                        "class/PartHandler.php",
+                        "class/Service.php",
+                        "class/ServiceHandler.php",
+                        "class/Servpart.php",
+                        "class/ServpartHandler.php",
+                        "class/Utility.php",
+                        "class/Vehicle.php",
+                        "class/VehicleHandler.php",
+                        "class/Workorder.php",
+                        "class/WorkorderHandler.php",
+                        "class/Workserv.php",
+                        "class/WorkservHandler.php",
+                        "preloads/core.php",
+                        "class/Common/Breadcrumb.php",
+                        "class/Common/Configurator.php",
+                        "class/Common/FilesManagement.php",
+                        "class/Common/ServerStats.php",
+                        "class/Common/VersionChecks.php",
+                        "class/Form/CustomerForm.php",
+                        "class/Form/PartForm.php",
+                        "class/Form/ServiceForm.php",
+                        "class/Form/ServpartForm.php",
+                        "class/Form/VehicleForm.php",
+                        "class/Form/WorkorderForm.php",
+                        "class/Form/WorkservForm.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

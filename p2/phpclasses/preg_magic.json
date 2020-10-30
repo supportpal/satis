@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/preg_magic": [
+            {
+                "name": "phpclasses/preg_magic",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/preg_magic.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "preg_magic.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/connection_dbms": [
+            {
+                "name": "phpclasses/connection_dbms",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/connection_dbms.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class/class.mysqli.instruction.php",
+                        "class/class.pdo.instruction.php",
+                        "dist/php/connection/MysqliInstruction.php",
+                        "dist/php/connection/PDOInstruction.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

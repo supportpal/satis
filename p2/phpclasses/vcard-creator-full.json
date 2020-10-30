@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/vcard-creator-full": [
+            {
+                "name": "phpclasses/vcard-creator-full",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/vcard-creator-full.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "VCardIFL-PHP5.php",
+                        "VCardIFL-PHP4.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

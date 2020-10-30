@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/pop-under": [
+            {
+                "name": "phpclasses/pop-under",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/pop-under.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "pop_under.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/html2array": [
+            {
+                "name": "phpclasses/html2array",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/html2array.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "html2array.inc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "packages": {
+        "phpclasses/array-keys-case-tran": [
+            {
+                "name": "phpclasses/array-keys-case-tran",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/array-keys-case-tran.zip"
+                },
+                "require": {
+                    "icanboogie/inflector": "^1.4",
+                    "php": ">=7.1.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^7",
+                    "roave/security-advisories": "dev-master",
+                    "squizlabs/php_codesniffer": "*",
+                    "zendframework/zend-coding-standard": "^1.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "ArrayKeysCaseTransform\\": "src",
+                        "Tests\\": "test"
+                    }
+                }
+            }
+        ]
+    }
+}

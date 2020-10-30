@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/je5": [
+            {
+                "name": "phpclasses/je5",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/je5.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class_html5_php.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

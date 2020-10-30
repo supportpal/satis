@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/cron-php": [
+            {
+                "name": "phpclasses/cron-php",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/cron-php.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Fogg/CronPhp/JobAbstract.php",
+                        "Fogg/CronPhp/CronPhp.php",
+                        "Fogg/CronPhp/Jobs/JobExample.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

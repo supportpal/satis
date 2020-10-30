@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/classmanager": [
+            {
+                "name": "phpclasses/classmanager",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/classmanager.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "classmanager/ClassManager.php",
+                        "classmanager/ClassManagerException.php",
+                        "testclasses/TestClass1.php",
+                        "testclasses/TestClass2.php",
+                        "testclasses/more/TestClass3.php",
+                        "testclasses/lookedup/LookedupClass.php",
+                        "testclasses/lookeduptemplate/LookedUpTemplate.class.php",
+                        "testclasses/lookeduprecursive/somedir/LookedupRecursive.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

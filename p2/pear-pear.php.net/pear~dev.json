@@ -1,0 +1,303 @@
+{
+    "packages": {
+        "pear-pear.php.net/pear": [
+            {
+                "name": "pear-pear.php.net/pear",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/pear-core.git",
+                    "reference": "a07c6347bcd4664112a971fed49c3b476e6cab8f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/pear-core/zipball/a07c6347bcd4664112a971fed49c3b476e6cab8f",
+                    "reference": "a07c6347bcd4664112a971fed49c3b476e6cab8f",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-pcre": "*",
+                    "ext-xml": "*",
+                    "pear/archive_tar": "*",
+                    "pear/console_getopt": "*",
+                    "pear/structures_graph": "*",
+                    "pear/xml_util": "*"
+                },
+                "replace": {
+                    "pear/pear-core-minimal": "*"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "*"
+                },
+                "suggest": {
+                    "pear/pear_frontend_gtk": "For GTK support",
+                    "pear/pear_frontend_web": "For Web support"
+                },
+                "time": "2019-02-07T11:41:26+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ]
+                },
+                "include-path": [
+                    "./"
+                ],
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "email": "cellog@php.net",
+                        "name": "Greg Beaver",
+                        "role": "Lead"
+                    },
+                    {
+                        "email": "pierre@php.net",
+                        "name": "Pierre-Alain Joye",
+                        "role": "Lead"
+                    },
+                    {
+                        "email": "stig@php.net",
+                        "name": "Stig Bakken",
+                        "role": "Lead"
+                    },
+                    {
+                        "email": "cox@idecnet.com",
+                        "name": "Tomas V.V.Cox",
+                        "role": "Lead"
+                    },
+                    {
+                        "email": "dufuz@php.net",
+                        "name": "Helgi Thormar",
+                        "role": "Lead"
+                    },
+                    {
+                        "email": "tias@php.net",
+                        "name": "Tias Guns",
+                        "role": "Developer"
+                    },
+                    {
+                        "email": "timj@php.net",
+                        "name": "Tim Jackson",
+                        "role": "Helper"
+                    },
+                    {
+                        "email": "toggg@php.net",
+                        "name": "Bertrand Gugger",
+                        "role": "Helper"
+                    },
+                    {
+                        "email": "mj@php.net",
+                        "name": "Martin Jansen",
+                        "role": "Helper"
+                    }
+                ],
+                "description": "This is the definitive source of PEAR's core files.",
+                "support": {
+                    "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=PEAR",
+                    "source": "https://github.com/pear/PEAR"
+                }
+            },
+            {
+                "name": "pear-pear.php.net/pear",
+                "version": "dev-horde-upstream",
+                "version_normalized": "dev-horde-upstream",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/pear-core.git",
+                    "reference": "c3f563cfe74fabe8b2059c799bbf7f7e459488eb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/pear-core/zipball/c3f563cfe74fabe8b2059c799bbf7f7e459488eb",
+                    "reference": "c3f563cfe74fabe8b2059c799bbf7f7e459488eb",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-pcre": "*",
+                    "ext-xml": "*",
+                    "pear/archive_tar": "*",
+                    "pear/console_getopt": "*",
+                    "pear/structures_graph": "*",
+                    "pear/xml_util": "*"
+                },
+                "replace": {
+                    "pear/pear-core-minimal": "*"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "*"
+                },
+                "suggest": {
+                    "pear/pear_frontend_gtk": "For GTK support",
+                    "pear/pear_frontend_web": "For Web support"
+                },
+                "time": "2020-07-01T21:12:13+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ]
+                },
+                "include-path": [
+                    "./"
+                ],
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "email": "cellog@php.net",
+                        "name": "Greg Beaver",
+                        "role": "Lead"
+                    },
+                    {
+                        "email": "pierre@php.net",
+                        "name": "Pierre-Alain Joye",
+                        "role": "Lead"
+                    },
+                    {
+                        "email": "stig@php.net",
+                        "name": "Stig Bakken",
+                        "role": "Lead"
+                    },
+                    {
+                        "email": "cox@idecnet.com",
+                        "name": "Tomas V.V.Cox",
+                        "role": "Lead"
+                    },
+                    {
+                        "email": "dufuz@php.net",
+                        "name": "Helgi Thormar",
+                        "role": "Lead"
+                    },
+                    {
+                        "email": "tias@php.net",
+                        "name": "Tias Guns",
+                        "role": "Developer"
+                    },
+                    {
+                        "email": "timj@php.net",
+                        "name": "Tim Jackson",
+                        "role": "Helper"
+                    },
+                    {
+                        "email": "toggg@php.net",
+                        "name": "Bertrand Gugger",
+                        "role": "Helper"
+                    },
+                    {
+                        "email": "mj@php.net",
+                        "name": "Martin Jansen",
+                        "role": "Helper"
+                    }
+                ],
+                "description": "This is the definitive source of PEAR's core files.",
+                "support": {
+                    "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=PEAR",
+                    "source": "https://github.com/pear/PEAR"
+                }
+            },
+            {
+                "name": "pear-pear.php.net/pear",
+                "version": "dev-maintaina-bare",
+                "version_normalized": "dev-maintaina-bare",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/pear-core.git",
+                    "reference": "c3f563cfe74fabe8b2059c799bbf7f7e459488eb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/pear-core/zipball/c3f563cfe74fabe8b2059c799bbf7f7e459488eb",
+                    "reference": "c3f563cfe74fabe8b2059c799bbf7f7e459488eb",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-pcre": "*",
+                    "ext-xml": "*",
+                    "pear/archive_tar": "*",
+                    "pear/console_getopt": "*",
+                    "pear/structures_graph": "*",
+                    "pear/xml_util": "*"
+                },
+                "replace": {
+                    "pear/pear-core-minimal": "*"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "*"
+                },
+                "suggest": {
+                    "pear/pear_frontend_gtk": "For GTK support",
+                    "pear/pear_frontend_web": "For Web support"
+                },
+                "time": "2020-07-01T21:12:13+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ]
+                },
+                "include-path": [
+                    "./"
+                ],
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "email": "cellog@php.net",
+                        "name": "Greg Beaver",
+                        "role": "Lead"
+                    },
+                    {
+                        "email": "pierre@php.net",
+                        "name": "Pierre-Alain Joye",
+                        "role": "Lead"
+                    },
+                    {
+                        "email": "stig@php.net",
+                        "name": "Stig Bakken",
+                        "role": "Lead"
+                    },
+                    {
+                        "email": "cox@idecnet.com",
+                        "name": "Tomas V.V.Cox",
+                        "role": "Lead"
+                    },
+                    {
+                        "email": "dufuz@php.net",
+                        "name": "Helgi Thormar",
+                        "role": "Lead"
+                    },
+                    {
+                        "email": "tias@php.net",
+                        "name": "Tias Guns",
+                        "role": "Developer"
+                    },
+                    {
+                        "email": "timj@php.net",
+                        "name": "Tim Jackson",
+                        "role": "Helper"
+                    },
+                    {
+                        "email": "toggg@php.net",
+                        "name": "Bertrand Gugger",
+                        "role": "Helper"
+                    },
+                    {
+                        "email": "mj@php.net",
+                        "name": "Martin Jansen",
+                        "role": "Helper"
+                    }
+                ],
+                "description": "This is the definitive source of PEAR's core files.",
+                "support": {
+                    "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=PEAR",
+                    "source": "https://github.com/pear/PEAR"
+                }
+            }
+        ]
+    }
+}

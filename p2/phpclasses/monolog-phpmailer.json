@@ -1,0 +1,32 @@
+{
+    "packages": {
+        "phpclasses/monolog-phpmailer": [
+            {
+                "name": "phpclasses/monolog-phpmailer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/monolog-phpmailer.zip"
+                },
+                "require": {
+                    "monolog/monolog": "^1.0|^2.0@dev",
+                    "php": ">= 5.5.0",
+                    "phpclasses/phpmailer": "1.0.0",
+                    "phpmailer/phpmailer": "^6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpcov": ">= 2.0.0",
+                    "phpunit/phpunit": ">= 4.8.36",
+                    "squizlabs/php_codesniffer": "^3.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "MonologPHPMailer\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

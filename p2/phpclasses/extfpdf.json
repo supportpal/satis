@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/extfpdf": [
+            {
+                "name": "phpclasses/extfpdf",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/extfpdf.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "lib/XFPDF/fpdf.php",
+                        "lib/XFPDF/xfpdf.php",
+                        "XFPDFExample.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

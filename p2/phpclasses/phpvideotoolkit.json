@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/phpvideotoolkit": [
+            {
+                "name": "phpclasses/phpvideotoolkit",
+                "version": "2.1.4",
+                "version_normalized": "2.1.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/phpvideotoolkit.zip"
+                },
+                "require": {
+                    "php": ">=5.3.0",
+                    "sybio/gif-creator": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "PHPVideoToolkit\\": "src/",
+                        "FFmpeg-PHP\\": "emulators/ffmpeg-php/"
+                    }
+                }
+            }
+        ]
+    }
+}

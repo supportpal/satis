@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/search-engine-crawl": [
+            {
+                "name": "phpclasses/search-engine-crawl",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/search-engine-crawl.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "search_engine_crawler.php",
+                        "simple_html_dom.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

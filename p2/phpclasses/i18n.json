@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/i18n": [
+            {
+                "name": "phpclasses/i18n",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/i18n.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "DatabaseConnectionManager.class.php",
+                        "Dommer.class.php",
+                        "I18N.class.php",
+                        "DatabaseConnection.class.php",
+                        "DataSource.class.php",
+                        "DatabaseDataSource.class.php",
+                        "FileDataSource.class.php",
+                        "XmlDataSource.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

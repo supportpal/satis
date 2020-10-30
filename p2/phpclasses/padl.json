@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/padl": [
+            {
+                "name": "phpclasses/padl",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/padl.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "app/class.license.app.php",
+                        "app/class.license.gen.php",
+                        "server/class.license.server.php",
+                        "shared/class.license.lib.php",
+                        "server/class.license.janitor.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

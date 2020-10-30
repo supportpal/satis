@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/sentiment-analyzer": [
+            {
+                "name": "phpclasses/sentiment-analyzer",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/sentiment-analyzer.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/SentimentAnalyzer.class.php",
+                        "src/SentimentAnalyzer.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

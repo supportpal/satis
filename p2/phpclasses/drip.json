@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/drip": [
+            {
+                "name": "phpclasses/drip",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/drip.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "drip.php",
+                        "internalSignature.php",
+                        "leftFragment.php",
+                        "rightFragment.php",
+                        "byteSequence.php",
+                        "subSequence.php",
+                        "abstractSequence.php",
+                        "abstractFragment.php",
+                        "format.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

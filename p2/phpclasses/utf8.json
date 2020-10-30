@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/utf8": [
+            {
+                "name": "phpclasses/utf8",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/utf8.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "utf8.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/stop-watch": [
+            {
+                "name": "phpclasses/stop-watch",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/stop-watch.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "stopwatch.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

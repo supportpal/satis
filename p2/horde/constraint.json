@@ -1,0 +1,84 @@
+{
+    "packages": {
+        "horde/constraint": [
+            {
+                "name": "horde/constraint",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Constraint.git",
+                    "reference": "97130ea054b820b58d0201858db28c630e1fab65"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Constraint/zipball/97130ea054b820b58d0201858db28c630e1fab65",
+                    "reference": "97130ea054b820b58d0201858db28c630e1fab65",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-01-08T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Constraint library",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Constraint/tree/v2.0.2"
+                }
+            },
+            {
+                "name": "horde/constraint",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Constraint.git",
+                    "reference": "e0948fb365dc217b824bcf7f28c9cc630af0efa4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Constraint/zipball/e0948fb365dc217b824bcf7f28c9cc630af0efa4",
+                    "reference": "e0948fb365dc217b824bcf7f28c9cc630af0efa4",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-02-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Constraint library",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Constraint/tree/v2.0.3"
+                }
+            }
+        ]
+    }
+}

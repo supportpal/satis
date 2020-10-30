@@ -1,0 +1,44 @@
+{
+    "packages": {
+        "phpclasses/druid-client": [
+            {
+                "name": "phpclasses/druid-client",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/druid-client.zip"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "guzzlehttp/guzzle": "^6.2",
+                    "php": ">=7.2"
+                },
+                "require-dev": {
+                    "illuminate/support": "~5.0",
+                    "mockery/mockery": "^1.2",
+                    "php-coveralls/php-coveralls": "^2.1",
+                    "phpstan/phpstan": "^0.11.9",
+                    "phpstan/phpstan-mockery": "^0.11.2",
+                    "phpunit/phpunit": "^8.2"
+                },
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Level23\\Druid\\DruidServiceProvider"
+                        ],
+                        "aliases": {
+                            "Druid": "Level23\\Druid\\Facades\\Druid"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Level23\\Druid\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

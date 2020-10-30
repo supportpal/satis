@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/minifyr": [
+            {
+                "name": "phpclasses/minifyr",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/minifyr.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "minifyr.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

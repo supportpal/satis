@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/apk_collector": [
+            {
+                "name": "phpclasses/apk_collector",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/apk_collector.zip"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^6.2",
+                    "symfony/console": "^3.1",
+                    "symfony/css-selector": "^3.1",
+                    "symfony/dom-crawler": "^3.1"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "helper/greet.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

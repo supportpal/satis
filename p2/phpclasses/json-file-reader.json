@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/json-file-reader": [
+            {
+                "name": "phpclasses/json-file-reader",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/json-file-reader.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "json-file-decode.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

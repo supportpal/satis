@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/mysqli-access": [
+            {
+                "name": "phpclasses/mysqli-access",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mysqli-access.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "mysqli_class.php",
+                        "mysqli_result_class.php",
+                        "mysqli_stmt_class.php",
+                        "Build_query_string_class.php",
+                        "mysqli_exception_class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

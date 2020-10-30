@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/source-loader": [
+            {
+                "name": "phpclasses/source-loader",
+                "version": "0.9.21",
+                "version_normalized": "0.9.21.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/source-loader.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "SourceLoader.php",
+                        "Loader.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

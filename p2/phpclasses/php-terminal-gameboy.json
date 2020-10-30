@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/php-terminal-gameboy": [
+            {
+                "name": "phpclasses/php-terminal-gameboy",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-terminal-gameboy.zip"
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "require-dev": {
+                    "squizlabs/php_codesniffer": "2.0.*@dev",
+                    "symfony/finder": "*"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "GameBoy\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

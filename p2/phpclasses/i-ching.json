@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/i-ching": [
+            {
+                "name": "phpclasses/i-ching",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/i-ching.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "main.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

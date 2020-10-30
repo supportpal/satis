@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/easy-curl": [
+            {
+                "name": "phpclasses/easy-curl",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/easy-curl.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "EasyCurlCookieHelper.php",
+                        "EasyCurlError.php",
+                        "EasyCurlExceptions.php",
+                        "EasyCurlExecuter.php",
+                        "EasyCurlHelperClasses.php",
+                        "EasyCurlRequest.php",
+                        "EasyCurlResponse.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

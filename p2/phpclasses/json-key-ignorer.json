@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/json-key-ignorer": [
+            {
+                "name": "phpclasses/json-key-ignorer",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/json-key-ignorer.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ignore.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

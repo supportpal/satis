@@ -1,0 +1,34 @@
+{
+    "packages": {
+        "phpclasses/php-security-class": [
+            {
+                "name": "phpclasses/php-security-class",
+                "version": "0.2.23",
+                "version_normalized": "0.2.23.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-security-class.zip"
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-fileinfo": "*",
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-libxml": "*",
+                    "ext-openssl": "*",
+                    "ext-pdo": "*",
+                    "php": ">=5.1.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^2.15"
+                },
+                "type": "console",
+                "autoload": {
+                    "psr-4": {
+                        "marcocesarato\\security\\": "src"
+                    }
+                }
+            }
+        ]
+    }
+}

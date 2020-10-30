@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/slobel-php-cron": [
+            {
+                "name": "phpclasses/slobel-php-cron",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/slobel-php-cron.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/lib/Autoloader.php",
+                        "src/lib/classes/Entries.php",
+                        "src/lib/classes/PHPCron.php",
+                        "src/lib/classes/Process.php",
+                        "src/lib/classes/Tools.php",
+                        "src/lib/interfaces/PHPCronInterface.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

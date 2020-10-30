@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-gravatar-class": [
+            {
+                "name": "phpclasses/php-gravatar-class",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-gravatar-class.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Classes/Gravatar.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

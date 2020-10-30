@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/import_templates": [
+            {
+                "name": "phpclasses/import_templates",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/import_templates.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "import_templates.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

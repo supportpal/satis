@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/db-form-creation": [
+            {
+                "name": "phpclasses/db-form-creation",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/db-form-creation.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Db_class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

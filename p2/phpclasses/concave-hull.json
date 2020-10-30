@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/concave-hull": [
+            {
+                "name": "phpclasses/concave-hull",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/concave-hull.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "concave-hull.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

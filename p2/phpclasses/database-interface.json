@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/database-interface": [
+            {
+                "name": "phpclasses/database-interface",
+                "version": "1.0.8",
+                "version_normalized": "1.0.8.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/database-interface.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "classes_namespace_fhDatabaseInterface.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

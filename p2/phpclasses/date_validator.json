@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/date_validator": [
+            {
+                "name": "phpclasses/date_validator",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/date_validator.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "datevalidator.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

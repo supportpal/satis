@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/frdl-whois": [
+            {
+                "name": "phpclasses/frdl-whois",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/frdl-whois.zip"
+                },
+                "require": {
+                    "frdl/php-floodprotection": "*",
+                    "frdl/web": "*",
+                    "jsmitty12/phpwhois": "^5.0",
+                    "php": ">=7.2"
+                },
+                "type": "frdl-module",
+                "autoload": {
+                    "psr-4": {
+                        "frdl\\whois\\": "src/frdl/whois/"
+                    }
+                }
+            }
+        ]
+    }
+}

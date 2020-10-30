@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/ghost": [
+            {
+                "name": "phpclasses/ghost",
+                "version": "2.6",
+                "version_normalized": "2.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ghost.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "GhostCrypt.class.php",
+                        "GhostHash.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

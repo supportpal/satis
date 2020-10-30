@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/cls_creditcard": [
+            {
+                "name": "phpclasses/cls_creditcard",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/cls_creditcard.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "cls_CreditCard.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

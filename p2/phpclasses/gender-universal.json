@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/gender-universal": [
+            {
+                "name": "phpclasses/gender-universal",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/gender-universal.zip"
+                },
+                "require": {
+                    "peterkahl/charset-from-string": "*",
+                    "peterkahl/gender-cyrillic": "*",
+                    "peterkahl/gender-hanzi": "*",
+                    "peterkahl/gender-latin": "*",
+                    "php": ">=5.3.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "peterkahl\\GenderUniversal\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

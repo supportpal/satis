@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/simple-pdo": [
+            {
+                "name": "phpclasses/simple-pdo",
+                "version": "2",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/simple-pdo.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "db.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

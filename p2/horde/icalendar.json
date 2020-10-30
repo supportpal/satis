@@ -1,0 +1,440 @@
+{
+    "packages": {
+        "horde/icalendar": [
+            {
+                "name": "horde/icalendar",
+                "version": "2.1.1",
+                "version_normalized": "2.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Icalendar.git",
+                    "reference": "236de7d012dbebe6046488fe31dbac5ef6433775"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Icalendar/zipball/236de7d012dbebe6046488fe31dbac5ef6433775",
+                    "reference": "236de7d012dbebe6046488fe31dbac5ef6433775",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-07-06T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "iCalendar API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/icalendar",
+                "version": "2.1.2",
+                "version_normalized": "2.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Icalendar.git",
+                    "reference": "7130a3909112c0bf7ac4aadcd47b649d17207c80"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Icalendar/zipball/7130a3909112c0bf7ac4aadcd47b649d17207c80",
+                    "reference": "7130a3909112c0bf7ac4aadcd47b649d17207c80",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-11-17T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "iCalendar API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/icalendar",
+                "version": "2.1.3",
+                "version_normalized": "2.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Icalendar.git",
+                    "reference": "e176e5a31b164bf9300a45972a35381fe073e397"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Icalendar/zipball/e176e5a31b164bf9300a45972a35381fe073e397",
+                    "reference": "e176e5a31b164bf9300a45972a35381fe073e397",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-02-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "iCalendar API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/icalendar",
+                "version": "2.1.4",
+                "version_normalized": "2.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Icalendar.git",
+                    "reference": "36f9b48c645b6bba50a6d275f21b447980bd144a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Icalendar/zipball/36f9b48c645b6bba50a6d275f21b447980bd144a",
+                    "reference": "36f9b48c645b6bba50a6d275f21b447980bd144a",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-03-21T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "iCalendar API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/icalendar",
+                "version": "2.1.5",
+                "version_normalized": "2.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Icalendar.git",
+                    "reference": "e6368d1ce78aa66aef17d0e47500e1833007c22c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Icalendar/zipball/e6368d1ce78aa66aef17d0e47500e1833007c22c",
+                    "reference": "e6368d1ce78aa66aef17d0e47500e1833007c22c",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2017-02-10T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "iCalendar API",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/icalendar",
+                "version": "2.1.6",
+                "version_normalized": "2.1.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Icalendar.git",
+                    "reference": "b0ce46d8d29389b3cb5303201dc487a8807fa616"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Icalendar/zipball/b0ce46d8d29389b3cb5303201dc487a8807fa616",
+                    "reference": "b0ce46d8d29389b3cb5303201dc487a8807fa616",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2017-02-11T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "iCalendar API",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/icalendar",
+                "version": "2.1.7",
+                "version_normalized": "2.1.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Icalendar.git",
+                    "reference": "7bb066e0d4630d29a08be93460326413c05addb8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Icalendar/zipball/7bb066e0d4630d29a08be93460326413c05addb8",
+                    "reference": "7bb066e0d4630d29a08be93460326413c05addb8",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "^2@stable",
+                    "pear-pear.horde.org/horde_exception": "^2@stable",
+                    "pear-pear.horde.org/horde_mail": "^2@stable",
+                    "pear-pear.horde.org/horde_support": "^2@stable",
+                    "pear-pear.horde.org/horde_translation": "^2.2@stable",
+                    "pear-pear.horde.org/horde_util": "^2@stable",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_icalendar": "2.*",
+                    "pear-pear.horde.org/horde_icalendar": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": "^2.1@stable"
+                },
+                "time": "2017-07-04T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Icalendar": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "iCalendar API",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/icalendar",
+                "version": "2.1.8",
+                "version_normalized": "2.1.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Icalendar.git",
+                    "reference": "3920e2c308f5be43cae11125675b06e8eba0e75a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Icalendar/zipball/3920e2c308f5be43cae11125675b06e8eba0e75a",
+                    "reference": "3920e2c308f5be43cae11125675b06e8eba0e75a",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "^2",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_mail": "^2",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_icalendar": "2.*",
+                    "pear-pear.horde.org/horde_icalendar": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2018-07-04T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Icalendar": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "iCalendar and vCard library",
+                "homepage": "https://www.horde.org/libraries/Horde_Icalendar"
+            }
+        ]
+    }
+}

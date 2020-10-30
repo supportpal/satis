@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/smartirc": [
+            {
+                "name": "phpclasses/smartirc",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/smartirc.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "SmartIRC.php",
+                        "SmartIRC/irccommands.php",
+                        "SmartIRC/messagehandler.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

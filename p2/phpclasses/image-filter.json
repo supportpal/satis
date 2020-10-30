@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/image-filter": [
+            {
+                "name": "phpclasses/image-filter",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/image-filter.zip"
+                },
+                "require": {
+                    "phpclasses/image-curl": "2.0.3"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "image_filter.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/autosave": [
+            {
+                "name": "phpclasses/autosave",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/autosave.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "autosave.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

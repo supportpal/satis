@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/corner": [
+            {
+                "name": "phpclasses/corner",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/corner.zip"
+                },
+                "require": {
+                    "php": "^7.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^7",
+                    "vimeo/psalm": "^2"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "ParagonIE\\Corner\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

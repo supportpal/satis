@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/xzy-interpol": [
+            {
+                "name": "phpclasses/xzy-interpol",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/xzy-interpol.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "xzyinterpol.php",
+                        "xzydegrade.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

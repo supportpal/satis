@@ -1,0 +1,46 @@
+{
+    "packages": {
+        "phpclasses/laravel-bible": [
+            {
+                "name": "phpclasses/laravel-bible",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/laravel-bible.zip"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "require-dev": {
+                    "illuminate/contracts": "^5.8.15|^6.0",
+                    "illuminate/database": "^5.8.15|^6.0",
+                    "illuminate/filesystem": "^5.8.15|^6.0",
+                    "illuminate/support": "^5.8.15|^6.0",
+                    "mockery/mockery": "^1.0",
+                    "orchestra/testbench": "3.8.*|4.*",
+                    "phpunit/phpunit": "^8.0"
+                },
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Djunehor\\Logos\\BibleServiceProvider"
+                        ],
+                        "aliases": {
+                            "Grammar": "Djunehor\\Logos\\Facades\\BibleFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Djunehor\\Logos\\": "src/"
+                    },
+                    "files": [
+                        "src/Helpers/helpers.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

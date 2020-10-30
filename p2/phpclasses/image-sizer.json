@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/image-sizer": [
+            {
+                "name": "phpclasses/image-sizer",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/image-sizer.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "image_sizer.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

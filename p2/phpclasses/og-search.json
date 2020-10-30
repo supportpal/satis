@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/og-search": [
+            {
+                "name": "phpclasses/og-search",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/og-search.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "facebookSearcher.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

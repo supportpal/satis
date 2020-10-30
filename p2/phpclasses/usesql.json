@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/usesql": [
+            {
+                "name": "phpclasses/usesql",
+                "version": "1.00",
+                "version_normalized": "1.00.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/usesql.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "usesql.php",
+                        "exception.php",
+                        "usecrud.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

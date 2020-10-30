@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/php-downloader": [
+            {
+                "name": "phpclasses/php-downloader",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-downloader.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "core/downloader.php",
+                        "core/http_error_response_trait.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

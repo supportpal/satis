@@ -1,0 +1,39 @@
+{
+    "packages": {
+        "phpclasses/laravel-multistep-fo": [
+            {
+                "name": "phpclasses/laravel-multistep-fo",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/laravel-multistep-fo.zip"
+                },
+                "require": {
+                    "illuminate/support": "^5.7|^6.0|^7.0",
+                    "php": "^7.1"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "^4.0",
+                    "phpunit/phpunit": "^8.0"
+                },
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Infinitypaul\\MultiStep\\MultiStepFormsServiceProvider"
+                        ],
+                        "aliases": {
+                            "MultiStep": "Infinitypaul\\MultiStep\\MultiStepFormsFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Infinitypaul\\MultiStep\\": "src"
+                    }
+                }
+            }
+        ]
+    }
+}

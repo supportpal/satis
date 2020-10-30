@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/cache-master": [
+            {
+                "name": "phpclasses/cache-master",
+                "version": "3",
+                "version_normalized": "3.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/cache-master.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "CacheMaster.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

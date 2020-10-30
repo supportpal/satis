@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/ticker": [
+            {
+                "name": "phpclasses/ticker",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ticker.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.Ticker.inc.php",
+                        "class.TickerBase.inc.php",
+                        "class.TickerMessage.inc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

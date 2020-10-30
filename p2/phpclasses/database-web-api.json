@@ -1,0 +1,60 @@
+{
+    "packages": {
+        "phpclasses/database-web-api": [
+            {
+                "name": "phpclasses/database-web-api",
+                "version": "0.6.133",
+                "version_normalized": "0.6.133.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/database-web-api.zip"
+                },
+                "require": {
+                    "ext-curl": "*",
+                    "ext-dom": "*",
+                    "ext-iconv": "*",
+                    "ext-json": "*",
+                    "ext-pdo": "*",
+                    "ext-simplexml": "*",
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "brainmaestro/composer-git-hooks": "^2.8",
+                    "friendsofphp/php-cs-fixer": "^2.15"
+                },
+                "type": "project",
+                "extra": {
+                    "hooks": {
+                        "pre-commit": [
+                            "vendor/bin/php-cs-fixer fix --config=.cs.php"
+                        ],
+                        "pre-push": [
+                            "vendor/bin/php-cs-fixer fix --dry-run --format=txt --verbose --diff --diff-format=udiff --config=.cs.php"
+                        ],
+                        "post-merge": "composer install"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "includes/classes/PDO/PDOStatement_mysql.class.php",
+                        "includes/classes/PDO/PDOStatement_pgsql.class.php",
+                        "includes/classes/PDO/PDOStatement_sqlite.class.php",
+                        "includes/classes/PDO/PDO_mysql.class.php",
+                        "includes/classes/PDO/PDO_pgsql.class.php",
+                        "includes/classes/PDO/PDO_sqlite.class.php",
+                        "includes/classes/API.php",
+                        "includes/classes/Auth.php",
+                        "includes/classes/Hooks.php",
+                        "includes/classes/Logger.php",
+                        "includes/classes/Request.php",
+                        "includes/classes/PDO/PDO.php",
+                        "clients/APIClient.php",
+                        "includes/classes/Dump.php",
+                        "includes/classes/DatabaseErrors.php",
+                        "includes/classes/Response.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

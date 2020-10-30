@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/html_to_pdf": [
+            {
+                "name": "phpclasses/html_to_pdf",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/html_to_pdf.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "html_to_pdf.inc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

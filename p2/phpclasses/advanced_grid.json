@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/advanced_grid": [
+            {
+                "name": "phpclasses/advanced_grid",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/advanced_grid.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "db/ut_con.php",
+                        "class/lists.inc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

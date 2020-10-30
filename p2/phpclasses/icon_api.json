@@ -1,0 +1,39 @@
+{
+    "packages": {
+        "phpclasses/icon_api": [
+            {
+                "name": "phpclasses/icon_api",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/icon_api.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/IconBundleBase.php",
+                        "src/IconBundleInterface.php",
+                        "src/IconBundleManager.php",
+                        "src/IconStyle.php",
+                        "src/Annotation/IconBundle.php",
+                        "src/Controller/IconBundleController.php",
+                        "bundles/fontawesome_bundle/src/FontAwesomeIconData.php",
+                        "bundles/fontawesome_bundle/src/IconStyle.php",
+                        "bundles/test_bundle/src/IconStyle.php",
+                        "bundles/fontawesome_bundle/src/Controller/AutocompleteController.php",
+                        "bundles/fontawesome_bundle/src/Form/FontAwesomeSettingsForm.php",
+                        "bundles/test_bundle/src/Controller/AutocompleteController.php",
+                        "bundles/test_bundle/src/Form/TestSettingsForm.php",
+                        "bundles/fontawesome_bundle/src/Plugin/IconBundle/FontAwesomeBundle.php",
+                        "bundles/test_bundle/src/Plugin/IconBundle/TestBundle.php",
+                        "modules/icon_filter/src/Plugin/Filter/FilterIcon.php",
+                        "modules/icon_field/src/Plugin/Field/FieldFormatter/IconFieldFormatter.php",
+                        "modules/icon_field/src/Plugin/Field/FieldType/IconFieldItem.php",
+                        "modules/icon_field/src/Plugin/Field/FieldWidget/IconFieldWidget.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

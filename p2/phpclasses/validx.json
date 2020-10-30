@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/validx": [
+            {
+                "name": "phpclasses/validx",
+                "version": "2.5",
+                "version_normalized": "2.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/validx.zip"
+                },
+                "require": {
+                    "php": ">=5.4.0",
+                    "phpclasses/mysqli": "1.6"
+                },
+                "require-dev": {
+                    "graham-campbell/testbench": "^3.1",
+                    "phpunit/phpunit": "^4.8 || ^5.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Nahid\\Validx\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

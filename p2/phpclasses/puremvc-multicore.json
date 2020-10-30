@@ -1,0 +1,71 @@
+{
+    "packages": {
+        "phpclasses/puremvc-multicore": [
+            {
+                "name": "phpclasses/puremvc-multicore",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/puremvc-multicore.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "tests/AllTestsSuite.php",
+                        "src/org/puremvc/php/multicore/core/Controller.php",
+                        "src/org/puremvc/php/multicore/core/Model.php",
+                        "src/org/puremvc/php/multicore/core/View.php",
+                        "src/org/puremvc/php/multicore/interfaces/ICommand.php",
+                        "src/org/puremvc/php/multicore/interfaces/IController.php",
+                        "src/org/puremvc/php/multicore/interfaces/IFacade.php",
+                        "src/org/puremvc/php/multicore/interfaces/IMediator.php",
+                        "src/org/puremvc/php/multicore/interfaces/IModel.php",
+                        "src/org/puremvc/php/multicore/interfaces/INotification.php",
+                        "src/org/puremvc/php/multicore/interfaces/INotifier.php",
+                        "src/org/puremvc/php/multicore/interfaces/IObserver.php",
+                        "src/org/puremvc/php/multicore/interfaces/IProxy.php",
+                        "src/org/puremvc/php/multicore/interfaces/IView.php",
+                        "tests/org/puremvc/php/multicore/core/ControllerTest.php",
+                        "tests/org/puremvc/php/multicore/core/ControllerTestCommand.php",
+                        "tests/org/puremvc/php/multicore/core/ControllerTestCommand2.php",
+                        "tests/org/puremvc/php/multicore/core/ControllerTestVO.php",
+                        "tests/org/puremvc/php/multicore/core/ModelTest.php",
+                        "tests/org/puremvc/php/multicore/core/ModelTestProxy.php",
+                        "tests/org/puremvc/php/multicore/core/ViewTest.php",
+                        "tests/org/puremvc/php/multicore/core/ViewTestMediator.php",
+                        "tests/org/puremvc/php/multicore/core/ViewTestMediator2.php",
+                        "tests/org/puremvc/php/multicore/core/ViewTestMediator3.php",
+                        "tests/org/puremvc/php/multicore/core/ViewTestMediator4.php",
+                        "tests/org/puremvc/php/multicore/core/ViewTestMediator5.php",
+                        "tests/org/puremvc/php/multicore/core/ViewTestMediator6.php",
+                        "tests/org/puremvc/php/multicore/core/ViewTestNote.php",
+                        "src/org/puremvc/php/multicore/patterns/command/MacroCommand.php",
+                        "src/org/puremvc/php/multicore/patterns/command/SimpleCommand.php",
+                        "src/org/puremvc/php/multicore/patterns/facade/Facade.php",
+                        "src/org/puremvc/php/multicore/patterns/mediator/Mediator.php",
+                        "src/org/puremvc/php/multicore/patterns/observer/Notification.php",
+                        "src/org/puremvc/php/multicore/patterns/observer/Notifier.php",
+                        "src/org/puremvc/php/multicore/patterns/observer/Observer.php",
+                        "src/org/puremvc/php/multicore/patterns/proxy/Proxy.php",
+                        "tests/org/puremvc/php/multicore/patterns/command/MacroCommandTest.php",
+                        "tests/org/puremvc/php/multicore/patterns/command/MacroCommandTestCommand.php",
+                        "tests/org/puremvc/php/multicore/patterns/command/MacroCommandTestSub1Command.php",
+                        "tests/org/puremvc/php/multicore/patterns/command/MacroCommandTestSub2Command.php",
+                        "tests/org/puremvc/php/multicore/patterns/command/MacroCommandTestVO.php",
+                        "tests/org/puremvc/php/multicore/patterns/command/SimpleCommandTest.php",
+                        "tests/org/puremvc/php/multicore/patterns/command/SimpleCommandTestCommand.php",
+                        "tests/org/puremvc/php/multicore/patterns/command/SimpleCommandTestVO.php",
+                        "tests/org/puremvc/php/multicore/patterns/facade/FacadeTest.php",
+                        "tests/org/puremvc/php/multicore/patterns/facade/FacadeTestCommand.php",
+                        "tests/org/puremvc/php/multicore/patterns/facade/FacadeTestVO.php",
+                        "tests/org/puremvc/php/multicore/patterns/mediator/MediatorTest.php",
+                        "tests/org/puremvc/php/multicore/patterns/observer/NotificationTest.php",
+                        "tests/org/puremvc/php/multicore/patterns/observer/ObserverTest.php",
+                        "tests/org/puremvc/php/multicore/patterns/proxy/ProxyTest.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/xpower": [
+            {
+                "name": "phpclasses/xpower",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/xpower.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class/xpower.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

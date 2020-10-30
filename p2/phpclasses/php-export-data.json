@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-export-data": [
+            {
+                "name": "phpclasses/php-export-data",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-export-data.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "php-export-data.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

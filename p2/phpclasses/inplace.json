@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/inplace": [
+            {
+                "name": "phpclasses/inplace",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/inplace.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "scriptaculous.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

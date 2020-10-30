@@ -1,0 +1,35 @@
+{
+    "packages": {
+        "phpclasses/sepa": [
+            {
+                "name": "phpclasses/sepa",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/sepa.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "SKien/Sepa/CntryValidation/SepaCntryValidation.php",
+                        "SKien/Sepa/CntryValidation/SepaCntryValidationAT.php",
+                        "SKien/Sepa/CntryValidation/SepaCntryValidationBE.php",
+                        "SKien/Sepa/CntryValidation/SepaCntryValidationBase.php",
+                        "SKien/Sepa/CntryValidation/SepaCntryValidationCH.php",
+                        "SKien/Sepa/CntryValidation/SepaCntryValidationDE.php",
+                        "SKien/Sepa/CntryValidation/SepaCntryValidationEE.php",
+                        "SKien/Sepa/CntryValidation/SepaCntryValidationFR.php",
+                        "SKien/Sepa/CntryValidation/SepaCntryValidationGB.php",
+                        "SKien/Sepa/CntryValidation/SepaCntryValidationLU.php",
+                        "SKien/Sepa/Sepa.php",
+                        "SKien/Sepa/SepaDoc.php",
+                        "SKien/Sepa/SepaHelper.php",
+                        "SKien/Sepa/SepaPmtInf.php",
+                        "SKien/Sepa/SepaTxInf.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

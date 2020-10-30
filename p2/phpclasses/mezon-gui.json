@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/mezon-gui": [
+            {
+                "name": "phpclasses/mezon-gui",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mezon-gui.zip"
+                },
+                "require": {
+                    "mezon/fields-set": "^1.0",
+                    "mezon/functional": "^1.0",
+                    "mezon/list-builder-adapter": "^1.0",
+                    "mezon/security": "^1.0",
+                    "mezon/template-engine": "^1.0",
+                    "php": ">=7.2.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Mezon\\Gui\\": ""
+                    }
+                }
+            }
+        ]
+    }
+}

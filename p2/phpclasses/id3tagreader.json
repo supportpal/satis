@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/id3tagreader": [
+            {
+                "name": "phpclasses/id3tagreader",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/id3tagreader.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "id3.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

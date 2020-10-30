@@ -1,0 +1,32 @@
+{
+    "packages": {
+        "phpclasses/ip-addresses": [
+            {
+                "name": "phpclasses/ip-addresses",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ip-addresses.zip"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "require-dev": {
+                    "consistence/coding-standard": "^0.10",
+                    "nette/robot-loader": "^2.4",
+                    "nette/tester": "^1.7",
+                    "phpstan/phpstan": "^0.7.0",
+                    "slevomat/coding-standard": "^1.0",
+                    "tracy/tracy": "~2.3.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                }
+            }
+        ]
+    }
+}

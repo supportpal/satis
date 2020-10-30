@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/curler": [
+            {
+                "name": "phpclasses/curler",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/curler.zip"
+                },
+                "require": {
+                    "php": "^7.1|^7.2"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src"
+                    ],
+                    "psr": {
+                        "src": "\\Coderatio\\Curler\\"
+                    }
+                }
+            }
+        ]
+    }
+}

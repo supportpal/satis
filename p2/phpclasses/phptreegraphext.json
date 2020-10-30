@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/phptreegraphext": [
+            {
+                "name": "phpclasses/phptreegraphext",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/phptreegraphext.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "classes/GDRenderer.php",
+                        "classes/Node.php",
+                        "classes/Tree.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

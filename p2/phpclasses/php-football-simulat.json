@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/php-football-simulat": [
+            {
+                "name": "phpclasses/php-football-simulat",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-football-simulat.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "match.php",
+                        "stage.php",
+                        "team.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/backup_restore_mysql": [
+            {
+                "name": "phpclasses/backup_restore_mysql",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/backup_restore_mysql.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "backup_restore.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

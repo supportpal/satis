@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/nabibust": [
+            {
+                "name": "phpclasses/nabibust",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/nabibust.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Class_System_Classes",
+                        "obfuscator",
+                        "obfuscator_io",
+                        "obfuscator_settings",
+                        "obfuscator_tools",
+                        "stephandling",
+                        "testfiles/stephandling",
+                        "testfiles/obfuscatorsettings",
+                        "testfiles/not_to_obfuscate/obfuscator_tool"
+                    ]
+                }
+            }
+        ]
+    }
+}

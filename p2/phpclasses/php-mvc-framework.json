@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "phpclasses/php-mvc-framework": [
+            {
+                "name": "phpclasses/php-mvc-framework",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-mvc-framework.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Apphp.php",
+                        "core/Controller.php",
+                        "core/Database.php",
+                        "core/Debug.php",
+                        "core/Model.php",
+                        "core/Router.php",
+                        "core/View.php",
+                        "collections/Config.php",
+                        "components/ClientScript.php",
+                        "components/HttpRequest.php",
+                        "components/HttpSession.php",
+                        "helpers/Auth.php",
+                        "helpers/Filter.php",
+                        "helpers/Hash.php",
+                        "helpers/Html.php",
+                        "helpers/Mailer.php",
+                        "helpers/Validator.php",
+                        "helpers/Widget.php",
+                        "vendors/phpmailer/class.phpmailer.php",
+                        "vendors/phpmailer/class.smtp.php",
+                        "demos/hello-world/protected/controllers/IndexController.php",
+                        "demos/hello-world/protected/controllers/ErrorController.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

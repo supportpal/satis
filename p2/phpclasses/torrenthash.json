@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/torrenthash": [
+            {
+                "name": "phpclasses/torrenthash",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/torrenthash.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.bdecode.php",
+                        "class.torrentfile.php",
+                        "class.bencode.php",
+                        "class.hashcheck.php",
+                        "class.torrentinfo.php",
+                        "class.torrentpiece.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

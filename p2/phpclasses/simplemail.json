@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/simplemail": [
+            {
+                "name": "phpclasses/simplemail",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/simplemail.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "php4/AbstractMail.php",
+                        "php4/Mail.php",
+                        "php4/AttachmentMail.php",
+                        "php4/Multipart.php",
+                        "php5/AbstractMail.php",
+                        "php5/Mail.php",
+                        "php5/AttachmentMail.php",
+                        "php5/Multipart.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "phpclasses/simpleorm": [
+            {
+                "name": "phpclasses/simpleorm",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/simpleorm.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "SimpleORM/Adapter/DbMockup.php",
+                        "SimpleORM/Adapter/IAdapter.php",
+                        "SimpleORM/Adapter/Mysqli.php",
+                        "SimpleORM/Adapter/PDO.php",
+                        "SimpleORM/Db/Model.php",
+                        "SimpleORM/Db/Reference.php",
+                        "SimpleORM/Db/Relation.php",
+                        "SimpleORM/Db/Row.php",
+                        "SimpleORM/Db/Table.php",
+                        "SimpleORM/Helper/Connector.php",
+                        "SimpleORM/Helper/Exception.php",
+                        "SimpleORM/Helper/Object.php",
+                        "SimpleORM/Helper/Query.php",
+                        "test/DbTest/Client/Model.php",
+                        "test/DbTest/Client/Reference.php",
+                        "test/DbTest/Client/Relation.php",
+                        "test/DbTest/Client/Row.php",
+                        "test/DbTest/Client/Table.php",
+                        "SimpleORM/Helper/Tool.php",
+                        "SimpleORM/Helper/Validator.php",
+                        "test/DbTest/ClientApp/Model.php",
+                        "test/DbTest/ClientApp/Table.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "phpclasses/php-api-kit": [
+            {
+                "name": "phpclasses/php-api-kit",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-api-kit.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "controllers/index.php",
+                        "models/sample.php",
+                        "seed/controller.php",
+                        "seed/model.php",
+                        "seed/nucleos.php",
+                        "seed/router.php",
+                        "seed/libraries/http.php",
+                        "seed/libraries/logger.php",
+                        "seed/libraries/rcurl.php",
+                        "seed/libraries/rmysql.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

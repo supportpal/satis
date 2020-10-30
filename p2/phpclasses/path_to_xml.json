@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/path_to_xml": [
+            {
+                "name": "phpclasses/path_to_xml",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/path_to_xml.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "path_to_xml.class.php",
+                        "class.array2xml2array.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

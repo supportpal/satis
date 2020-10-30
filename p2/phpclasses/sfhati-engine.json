@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/sfhati-engine": [
+            {
+                "name": "phpclasses/sfhati-engine",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/sfhati-engine.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "syntax.php",
+                        "plugin/php.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

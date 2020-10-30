@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/apphp-tree-menu": [
+            {
+                "name": "phpclasses/apphp-tree-menu",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/apphp-tree-menu.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "treemenu.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

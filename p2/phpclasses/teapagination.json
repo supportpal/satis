@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/teapagination": [
+            {
+                "name": "phpclasses/teapagination",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/teapagination.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "teaPagination.php",
+                        "teaPagination/teaPagination.php",
+                        "examples/debug/FirePHP.php",
+                        "examples/debug/fb.php",
+                        "examples/extendsPaginate/PaginateCustomize.php",
+                        "teaPagination/examples/debug/FirePHP.php",
+                        "teaPagination/examples/debug/fb.php",
+                        "teaPagination/examples/extendsPaginate/PaginateCustomize.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

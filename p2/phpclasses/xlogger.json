@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "phpclasses/xlogger": [
+            {
+                "name": "phpclasses/xlogger",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/xlogger.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "CCampbell/ChromePhp/ChromePhp.php",
+                        "FirePHP/Core/FB.php",
+                        "FirePHP/Core/FirePHP.php",
+                        "Psr/Log/AbstractLogger.php",
+                        "Psr/Log/InvalidArgumentException.php",
+                        "Psr/Log/LogLevel.php",
+                        "Psr/Log/LoggerAwareInterface.php",
+                        "Psr/Log/LoggerAwareTrait.php",
+                        "Psr/Log/LoggerInterface.php",
+                        "Psr/Log/LoggerTrait.php",
+                        "Psr/Log/NullLogger.php",
+                        "SKien/XLogger/ChromePHPLogger.php",
+                        "SKien/XLogger/FileLogger.php",
+                        "SKien/XLogger/FirePHPLogger.php",
+                        "SKien/XLogger/XLogger.php",
+                        "SKien/XLogger/XMLLogger.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

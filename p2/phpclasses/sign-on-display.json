@@ -1,0 +1,31 @@
+{
+    "packages": {
+        "phpclasses/sign-on-display": [
+            {
+                "name": "phpclasses/sign-on-display",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/sign-on-display.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "signature.class.php",
+                        "fpdi/fpdf_tpl.php",
+                        "fpdi/fpdi.php",
+                        "fpdi/fpdi2tcpdf_bridge.php",
+                        "fpdi/fpdi_pdf_parser.php",
+                        "fpdi/pdf_context.php",
+                        "fpdi/pdf_parser.php",
+                        "fpdi/filters/FilterASCII85.php",
+                        "fpdi/filters/FilterASCII85_FPDI.php",
+                        "fpdi/filters/FilterLZW.php",
+                        "fpdi/filters/FilterLZW_FPDI.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

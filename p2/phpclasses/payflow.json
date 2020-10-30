@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/payflow": [
+            {
+                "name": "phpclasses/payflow",
+                "version": "4.0",
+                "version_normalized": "4.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/payflow.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "payflow.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

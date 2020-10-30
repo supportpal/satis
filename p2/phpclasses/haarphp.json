@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/haarphp": [
+            {
+                "name": "phpclasses/haarphp",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/haarphp.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "cascades/haartophp.php",
+                        "src/HaarDetector.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

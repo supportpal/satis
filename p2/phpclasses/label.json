@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/label": [
+            {
+                "name": "phpclasses/label",
+                "version": "1.11",
+                "version_normalized": "1.11.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/label.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.label.php",
+                        "exemples/class.labelExemple.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

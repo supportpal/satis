@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/fscontrol": [
+            {
+                "name": "phpclasses/fscontrol",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/fscontrol.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "socketeer.php",
+                        "ogamecontrol.php",
+                        "fields.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

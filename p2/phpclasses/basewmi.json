@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/basewmi": [
+            {
+                "name": "phpclasses/basewmi",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/basewmi.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "namespace.wmi.php",
+                        "SMS/SimpleSMS.php",
+                        "CIMV2/SimpleCIMV2.php",
+                        "ClientSMS/SimpleClientSMS.php",
+                        "StdRegProv/SimpleRegistry.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

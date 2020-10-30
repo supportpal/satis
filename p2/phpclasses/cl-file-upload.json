@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/cl-file-upload": [
+            {
+                "name": "phpclasses/cl-file-upload",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/cl-file-upload.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "cl_FileUpload.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

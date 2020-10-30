@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/jak8583": [
+            {
+                "name": "phpclasses/jak8583",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/jak8583.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "JAK8583.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

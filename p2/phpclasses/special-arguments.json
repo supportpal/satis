@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/special-arguments": [
+            {
+                "name": "phpclasses/special-arguments",
+                "version": "19",
+                "version_normalized": "19.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/special-arguments.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class_special_arguments.php",
+                        "special-argumentsv1",
+                        "special-arguments-v2",
+                        "special-arguments-class",
+                        "Special-Arguments-abstract"
+                    ]
+                }
+            }
+        ]
+    }
+}

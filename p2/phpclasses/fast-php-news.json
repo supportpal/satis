@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/fast-php-news": [
+            {
+                "name": "phpclasses/fast-php-news",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/fast-php-news.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "fastnews-code.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

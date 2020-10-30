@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/bfs-search": [
+            {
+                "name": "phpclasses/bfs-search",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/bfs-search.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "searchBFS.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

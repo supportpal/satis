@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/unified-playlist": [
+            {
+                "name": "phpclasses/unified-playlist",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/unified-playlist.zip"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-simplexml": "*",
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.8"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "wapmorgan\\UnifiedPlaylist\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

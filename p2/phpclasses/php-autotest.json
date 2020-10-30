@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/php-autotest": [
+            {
+                "name": "phpclasses/php-autotest",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-autotest.zip"
+                },
+                "require": {
+                    "phpunit/phpunit": "4.8.*",
+                    "symfony/console": "2.4.*"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Autotest": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

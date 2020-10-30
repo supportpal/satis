@@ -1,0 +1,53 @@
+{
+    "packages": {
+        "phpclasses/pnserver": [
+            {
+                "name": "phpclasses/pnserver",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/pnserver.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Psr/Log/AbstractLogger.php",
+                        "Psr/Log/InvalidArgumentException.php",
+                        "Psr/Log/LogLevel.php",
+                        "Psr/Log/LoggerAwareInterface.php",
+                        "Psr/Log/LoggerAwareTrait.php",
+                        "Psr/Log/LoggerInterface.php",
+                        "Psr/Log/LoggerTrait.php",
+                        "Psr/Log/NullLogger.php",
+                        "SKien/PNServer/PNDataProvider.php",
+                        "SKien/PNServer/PNDataProviderMySQL.php",
+                        "SKien/PNServer/PNDataProviderSQLite.php",
+                        "SKien/PNServer/PNEncryption.php",
+                        "SKien/PNServer/PNPayload.php",
+                        "SKien/PNServer/PNServer.php",
+                        "SKien/PNServer/PNServerHelper.php",
+                        "SKien/PNServer/PNSubscription.php",
+                        "SKien/PNServer/PNVapid.php",
+                        "SKien/PNServer/Utils/Curve.php",
+                        "SKien/PNServer/Utils/Math.php",
+                        "SKien/PNServer/Utils/NistCurve.php",
+                        "SKien/PNServer/Utils/Point.php",
+                        "SKien/Test/PNServer/PNDataProviderMySQLTest.php",
+                        "SKien/Test/PNServer/PNDataProviderSQLiteTest.php",
+                        "SKien/Test/PNServer/PNDataProviderTest.php",
+                        "SKien/Test/PNServer/PNEncryptionTest.php",
+                        "SKien/Test/PNServer/PNPayloadTest.php",
+                        "SKien/Test/PNServer/PNServerTest.php",
+                        "SKien/Test/PNServer/PNSubscriptionTest.php",
+                        "SKien/Test/PNServer/PNVapidTest.php",
+                        "SKien/Test/PNServer/TestHelperTrait.php",
+                        "SKien/Test/PNServer/UtilsCurveTest.php",
+                        "SKien/Test/PNServer/UtilsMathTest.php",
+                        "SKien/Test/PNServer/UtilsPointTest.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

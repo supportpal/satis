@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/ifb": [
+            {
+                "name": "phpclasses/ifb",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ifb.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "file_browser.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

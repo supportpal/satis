@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/send-formatted-mail": [
+            {
+                "name": "phpclasses/send-formatted-mail",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/send-formatted-mail.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "SendFormattedMail/lib/sendmail.inc"
+                    ]
+                }
+            }
+        ]
+    }
+}

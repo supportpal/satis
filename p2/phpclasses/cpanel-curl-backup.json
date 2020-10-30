@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/cpanel-curl-backup": [
+            {
+                "name": "phpclasses/cpanel-curl-backup",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/cpanel-curl-backup.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "cpanel.backup.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

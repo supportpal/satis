@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/bar-chart-class": [
+            {
+                "name": "phpclasses/bar-chart-class",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/bar-chart-class.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "bar-chart-class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

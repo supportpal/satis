@@ -1,0 +1,59 @@
+{
+    "packages": {
+        "phpclasses/codeigniter-and-angu": [
+            {
+                "name": "phpclasses/codeigniter-and-angu",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/codeigniter-and-angu.zip"
+                },
+                "require": {
+                    "php": ">=5.2.4"
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "1.1.*"
+                },
+                "type": "project",
+                "autoload": {
+                    "classmap": [
+                        "application/controllers/Items.php",
+                        "application/controllers/Templates.php",
+                        "application/controllers/Welcome.php",
+                        "system/core/Benchmark.php",
+                        "system/core/Config.php",
+                        "system/core/Controller.php",
+                        "system/core/Exceptions.php",
+                        "system/core/Hooks.php",
+                        "system/core/Input.php",
+                        "system/core/Lang.php",
+                        "system/core/Loader.php",
+                        "system/core/Log.php",
+                        "system/core/Model.php",
+                        "system/core/Output.php",
+                        "system/core/Router.php",
+                        "system/core/Security.php",
+                        "system/core/URI.php",
+                        "system/core/Utf8.php",
+                        "system/database/DB.php",
+                        "system/database/DB_cache.php",
+                        "system/database/DB_driver.php",
+                        "system/database/DB_forge.php",
+                        "system/database/DB_query_builder.php",
+                        "system/database/DB_result.php",
+                        "system/database/DB_utility.php",
+                        "system/database/drivers/cubrid/cubrid_driver.php",
+                        "system/database/drivers/cubrid/cubrid_forge.php",
+                        "system/database/drivers/cubrid/cubrid_result.php",
+                        "system/database/drivers/cubrid/cubrid_utility.php",
+                        "system/database/drivers/ibase/ibase_driver.php",
+                        "system/database/drivers/ibase/ibase_forge.php",
+                        "system/database/drivers/ibase/ibase_result.php",
+                        "system/database/drivers/ibase/ibase_utility.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

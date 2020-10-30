@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/curlfileuploader": [
+            {
+                "name": "phpclasses/curlfileuploader",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/curlfileuploader.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "fileUploader.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

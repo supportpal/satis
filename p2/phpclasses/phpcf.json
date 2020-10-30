@@ -1,0 +1,46 @@
+{
+    "packages": {
+        "phpclasses/phpcf": [
+            {
+                "name": "phpclasses/phpcf",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/phpcf.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "phpcf-src/src/ClassLoader.php",
+                        "phpcf-src/src/ExecStat.php",
+                        "phpcf-src/src/Formatter.php",
+                        "phpcf-src/src/FormattingResult.php",
+                        "phpcf-src/src/Helper.php",
+                        "phpcf-src/src/IFormatter.php",
+                        "phpcf-src/src/Options.php",
+                        "phpcf-src/src/cli/AbstractAction.php",
+                        "phpcf-src/src/cli/ActionApply.php",
+                        "phpcf-src/src/cli/ActionCheck.php",
+                        "phpcf-src/src/cli/ActionPreview.php",
+                        "phpcf-src/src/cli/ActionStdin.php",
+                        "phpcf-src/src/cli/Ctx.php",
+                        "phpcf-src/src/cli/Handler.php",
+                        "phpcf-src/src/cli/IAction.php",
+                        "phpcf-src/src/filter/StringAscii.php",
+                        "phpcf-src/src/filter/StringAsciiMap.php",
+                        "phpcf-src/src/filter/StringAsciiMapCyr.php",
+                        "phpcf-src/src/impl/Fsm.php",
+                        "phpcf-src/src/impl/Pure.php",
+                        "phpcf-src/styles/example/phpcf-class.php",
+                        "phpcf-src/src/cli/git/ActionApply.php",
+                        "phpcf-src/src/cli/git/ActionCheck.php",
+                        "phpcf-src/src/cli/git/ActionPreview.php",
+                        "phpcf-src/src/cli/git/GitCallback.php",
+                        "phpcf-src/src/cli/git/Helper.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

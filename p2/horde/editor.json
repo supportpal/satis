@@ -1,0 +1,97 @@
+{
+    "packages": {
+        "horde/editor": [
+            {
+                "name": "horde/editor",
+                "version": "2.0.4",
+                "version_normalized": "2.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Editor.git",
+                    "reference": "09aef45e7bbe2e1e13ac9b6df7a05858416701e2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Editor/zipball/09aef45e7bbe2e1e13ac9b6df7a05858416701e2",
+                    "reference": "09aef45e7bbe2e1e13ac9b6df7a05858416701e2",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_browser": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_serialize": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0"
+                },
+                "time": "2013-02-11T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Editor API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/editor",
+                "version": "2.0.5",
+                "version_normalized": "2.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Editor.git",
+                    "reference": "e5a70d63b0980e41a66a5281ab731d67365eaf88"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Editor/zipball/e5a70d63b0980e41a66a5281ab731d67365eaf88",
+                    "reference": "e5a70d63b0980e41a66a5281ab731d67365eaf88",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_browser": "^2@stable",
+                    "pear-pear.horde.org/horde_exception": "^2@stable",
+                    "pear-pear.horde.org/horde_serialize": "^2@stable",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_editor": "2.*",
+                    "pear-pear.horde.org/horde_editor": "2.*"
+                },
+                "time": "2017-09-19T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Editor": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Editor API",
+                "homepage": "https://pear.horde.org"
+            }
+        ]
+    }
+}

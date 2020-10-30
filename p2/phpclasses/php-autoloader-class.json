@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/php-autoloader-class": [
+            {
+                "name": "phpclasses/php-autoloader-class",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-autoloader-class.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "core/classes/Autoloader.php",
+                        "include/classes/A.php",
+                        "include/classes/B.php",
+                        "include/classes/Hello.php",
+                        "include/classes/php/C.php",
+                        "include/classes/php/dynamic/D.php",
+                        "include/classes/php/dynamic/core/hack/E.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

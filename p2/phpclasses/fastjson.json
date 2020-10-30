@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/fastjson": [
+            {
+                "name": "phpclasses/fastjson",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/fastjson.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "FastJSON.class.php",
+                        "FastJSON.class.php5"
+                    ]
+                }
+            }
+        ]
+    }
+}

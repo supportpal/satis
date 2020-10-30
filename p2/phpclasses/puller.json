@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/puller": [
+            {
+                "name": "phpclasses/puller",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/puller.zip"
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "@stable"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "_empty_": "src"
+                    }
+                }
+            }
+        ]
+    }
+}

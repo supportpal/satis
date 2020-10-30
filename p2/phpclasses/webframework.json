@@ -1,0 +1,51 @@
+{
+    "packages": {
+        "phpclasses/webframework": [
+            {
+                "name": "phpclasses/webframework",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/webframework.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "WebFramework.class.php",
+                        "View.interface.php",
+                        "ValidatorsParser.interface.php",
+                        "Validator.class.php",
+                        "Tester.interface.php",
+                        "IsNumeric.tester.class.php",
+                        "Regexp.tester.class.php",
+                        "StrLength.tester.class.php",
+                        "VerifyEmail.tester.class.php",
+                        "DefaultValidatorsParser.class.php",
+                        "Token.interface.php",
+                        "Token.class.php",
+                        "DefaultToken.class.php",
+                        "Template.interface.php",
+                        "WebTemplate_File.class.php",
+                        "Languages.class.php",
+                        "SmartyTemplate_File.class.php",
+                        "HTTPRequest.class.php",
+                        "HTTPResponse.interface.php",
+                        "DefaultResponse.class.php",
+                        "GZipResponse.class.php",
+                        "Router.interface.php",
+                        "DefaultRouter.class.php",
+                        "SessionHandler.interface.php",
+                        "Session.class.php",
+                        "ConfigurationParser.interface.php",
+                        "Configuration.class.php",
+                        "DefaultConfigurationParser.class.php",
+                        "Authorization.interface.php",
+                        "ActionsSharedData.class.php",
+                        "Action.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

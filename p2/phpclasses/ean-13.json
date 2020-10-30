@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/ean-13": [
+            {
+                "name": "phpclasses/ean-13",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ean-13.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ean13class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

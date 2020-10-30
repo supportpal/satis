@@ -1,0 +1,31 @@
+{
+    "packages": {
+        "phpclasses/phpcrondaemon": [
+            {
+                "name": "phpclasses/phpcrondaemon",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/phpcrondaemon.zip"
+                },
+                "require": {
+                    "phpclasses/cronparser": "1.0.0",
+                    "phpclasses/php_fork": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "lib/phpfork.php",
+                        "lib/miniDb.php",
+                        "lib/worker",
+                        "lib/cron/daemon.php",
+                        "lib/cron/parser.php",
+                        "lib/cron/job.php",
+                        "lib/cron/tab.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

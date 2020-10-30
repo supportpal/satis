@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "phpclasses/lezaz": [
+            {
+                "name": "phpclasses/lezaz",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/lezaz.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "classes/___core.php",
+                        "classes/autoinclude/class.JavaScriptPacker.php",
+                        "classes/autoload/__db.php",
+                        "classes/autoload/__file.php",
+                        "classes/autoload/__lezaz.php",
+                        "classes/autoload/__string.php",
+                        "plugin/lezaz/plugin/block.php",
+                        "plugin/lezaz/plugin/each.php",
+                        "plugin/lezaz/plugin/for.php",
+                        "plugin/lezaz/plugin/if.php",
+                        "plugin/lezaz/plugin/import.php",
+                        "plugin/lezaz/plugin/php.php",
+                        "plugin/lezaz/plugin/sql.php",
+                        "classes/autoinclude/class.phpmailer.php",
+                        "classes/autoinclude/comment.php",
+                        "classes/autoload/__mailer.php",
+                        "plugin/lezaz/plugin/email.php",
+                        "plugin/lezaz/plugin/filter.php",
+                        "classes/clean_html.php",
+                        "classes/autoinclude/Image.php",
+                        "classes/autoinclude/pure_captcha.php",
+                        "classes/autoinclude/search.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

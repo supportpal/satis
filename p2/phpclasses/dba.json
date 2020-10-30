@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/dba": [
+            {
+                "name": "phpclasses/dba",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/dba.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "dbal/dbal.php",
+                        "dbal/safeIO.php",
+                        "dbal/dbm/mysql.php",
+                        "dbal/dbm/sqlite.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

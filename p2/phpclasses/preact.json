@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/preact": [
+            {
+                "name": "phpclasses/preact",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/preact.zip"
+                },
+                "require": {
+                    "php": ">=5.4.0",
+                    "react/promise": "^1.1.1"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Preact\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/gcurl": [
+            {
+                "name": "phpclasses/gcurl",
+                "version": "2",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/gcurl.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "gCurl/gcurl.class.php",
+                        "gCurl/gCurlRequest.class.php",
+                        "gCurl/gCurlResponse.class.php",
+                        "gCurl/gksException.class.php",
+                        "gCurl/URI.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

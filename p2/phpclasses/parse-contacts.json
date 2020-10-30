@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/parse-contacts": [
+            {
+                "name": "phpclasses/parse-contacts",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/parse-contacts.zip"
+                },
+                "require": {
+                    "mf2/mf2": "~0.3",
+                    "yiisoft/yii2": "~2.0.4"
+                },
+                "type": "yii2-extension",
+                "autoload": {
+                    "psr-4": {
+                        "Vench\\ParseContacts\\": "/",
+                        "Vench\\ParseContacts\\Parsers\\": "/parsers/",
+                        "Vench\\ParseContacts\\Commands\\": "/commands/",
+                        "Vench\\ParseContacts\\Models\\": "/models/",
+                        "Vench\\ParseContacts\\Ext\\": "/ext/"
+                    }
+                }
+            }
+        ]
+    }
+}

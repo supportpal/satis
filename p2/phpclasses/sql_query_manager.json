@@ -1,0 +1,33 @@
+{
+    "packages": {
+        "phpclasses/sql_query_manager": [
+            {
+                "name": "phpclasses/sql_query_manager",
+                "version": "1.0.19",
+                "version_normalized": "1.0.19.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/sql_query_manager.zip"
+                },
+                "require": {
+                    "php": ">=7.1",
+                    "symfony/framework-bundle": ">=3.4"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^8.1"
+                },
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Beeflow\\SQLQueryManager\\": ""
+                    }
+                }
+            }
+        ]
+    }
+}

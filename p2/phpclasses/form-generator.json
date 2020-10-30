@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/form-generator": [
+            {
+                "name": "phpclasses/form-generator",
+                "version": "0.8.1",
+                "version_normalized": "0.8.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/form-generator.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "formgenerator.php",
+                        "validators.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

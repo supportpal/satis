@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/jade-spark": [
+            {
+                "name": "phpclasses/jade-spark",
+                "version": "0.0.2",
+                "version_normalized": "0.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/jade-spark.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "jade_spark.php",
+                        "CLIStatus",
+                        "Jade_spark"
+                    ]
+                }
+            }
+        ]
+    }
+}

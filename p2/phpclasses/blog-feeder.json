@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/blog-feeder": [
+            {
+                "name": "phpclasses/blog-feeder",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/blog-feeder.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Atomxml.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

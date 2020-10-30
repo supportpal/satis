@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/smart_counter": [
+            {
+                "name": "phpclasses/smart_counter",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/smart_counter.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "smart_counter.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

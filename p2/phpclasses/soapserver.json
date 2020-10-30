@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/soapserver": [
+            {
+                "name": "phpclasses/soapserver",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/soapserver.zip"
+                },
+                "require": {
+                    "phpclasses/httpclient": "1.0.5",
+                    "phpclasses/xmlparser": "1.0.1",
+                    "phpclasses/xmlwriter": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "soapserverclass.php",
+                        "datesoapserverclass.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

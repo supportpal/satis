@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/div-ways": [
+            {
+                "name": "phpclasses/div-ways",
+                "version": "2.3.5",
+                "version_normalized": "2.3.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/div-ways.zip"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=5.4.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "divengine\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

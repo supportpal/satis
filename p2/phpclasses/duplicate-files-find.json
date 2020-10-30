@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/duplicate-files-find": [
+            {
+                "name": "phpclasses/duplicate-files-find",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/duplicate-files-find.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "phpDuplicateFilesFinder.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

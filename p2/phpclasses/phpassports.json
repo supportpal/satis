@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/phpassports": [
+            {
+                "name": "phpclasses/phpassports",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/phpassports.zip"
+                },
+                "require": {
+                    "phpclasses/phpassportc": "0.2"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "server.cls.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

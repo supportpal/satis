@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/resize_upload_image": [
+            {
+                "name": "phpclasses/resize_upload_image",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/resize_upload_image.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "upload_class.php",
+                        "imageresizer.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

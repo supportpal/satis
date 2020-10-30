@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/yii2-notymo": [
+            {
+                "name": "phpclasses/yii2-notymo",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/yii2-notymo.zip"
+                },
+                "require": {
+                    "nstdio/notymo": "dev-master",
+                    "yiisoft/yii2": "~2.0.6",
+                    "yiisoft/yii2-mongodb": "~2.1.0"
+                },
+                "type": "yii2-extension",
+                "autoload": {
+                    "psr-4": {
+                        "nstdio\\yii2notymo\\": ""
+                    }
+                }
+            }
+        ]
+    }
+}

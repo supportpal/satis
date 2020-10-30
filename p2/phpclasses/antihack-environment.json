@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/antihack-environment": [
+            {
+                "name": "phpclasses/antihack-environment",
+                "version": "4.1",
+                "version_normalized": "4.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/antihack-environment.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.antihack.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/poirot_autoloader": [
+            {
+                "name": "phpclasses/poirot_autoloader",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/poirot_autoloader.zip"
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Poirot\\Loader": "."
+                    },
+                    "files": [
+                        "_functions.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

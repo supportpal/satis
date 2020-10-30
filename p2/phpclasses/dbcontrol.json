@@ -1,0 +1,38 @@
+{
+    "packages": {
+        "phpclasses/dbcontrol": [
+            {
+                "name": "phpclasses/dbcontrol",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/dbcontrol.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "DbControl.class.php",
+                        "DbControlInterface.class.php",
+                        "DbMysql.class.php",
+                        "DbPlatform.class.php",
+                        "DbResult.class.php",
+                        "DbResultInterface.class.php",
+                        "DbSelector.class.php",
+                        "DbStateHandler.class.php",
+                        "QueryBuilderInterface.class.php",
+                        "QueryBuilder.class.php",
+                        "DbMssql.class.php",
+                        "DbOdbc.class.php",
+                        "DbParametersMessenger.php",
+                        "DbCfg.class.php",
+                        "DbControlException.class.php",
+                        "DbLog.class.php",
+                        "DbPgsql.class.php",
+                        "DbResultNoCache.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/getnet-api-client": [
+            {
+                "name": "phpclasses/getnet-api-client",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/getnet-api-client.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "GETNET-API-Client/Auth.php",
+                        "GETNET-API-Client/Boleto.php",
+                        "GETNET-API-Client/Credit.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/archive": [
+            {
+                "name": "phpclasses/archive",
+                "version": "2.1",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/archive.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "archive.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

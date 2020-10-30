@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/advanced-ini-file": [
+            {
+                "name": "phpclasses/advanced-ini-file",
+                "version": "9",
+                "version_normalized": "9.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/advanced-ini-file.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Inifile.inc"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/radiogaga": [
+            {
+                "name": "phpclasses/radiogaga",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/radiogaga.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.mp3_filelist.php",
+                        "class.mp3_idv.php",
+                        "class.mp3_radio.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

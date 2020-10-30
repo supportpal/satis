@@ -1,0 +1,35 @@
+{
+    "packages": {
+        "phpclasses/shikiryu_backup": [
+            {
+                "name": "phpclasses/shikiryu_backup",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/shikiryu_backup.zip"
+                },
+                "require": {
+                    "ext-fileinfo": "*",
+                    "ext-ftp": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "ext-pdo": "*",
+                    "ext-zip": "*",
+                    "phpseclib/phpseclib": ">=1.0.0",
+                    "spatie/dropbox-api": "^1.11"
+                },
+                "require-dev": {
+                    "roave/security-advisories": "dev-master"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "app/code/",
+                        "vendor/"
+                    ]
+                }
+            }
+        ]
+    }
+}

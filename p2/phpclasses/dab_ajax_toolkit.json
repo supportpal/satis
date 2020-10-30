@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/dab_ajax_toolkit": [
+            {
+                "name": "phpclasses/dab_ajax_toolkit",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/dab_ajax_toolkit.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "AjaxControlFiller.class.php",
+                        "AjaxFilter.class.php",
+                        "AjaxFormat.class.php",
+                        "AjaxOptionsValidator.interface.php",
+                        "AjaxQueries.class.php",
+                        "BusValidator.example.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

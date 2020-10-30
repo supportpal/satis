@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/profanity-filter": [
+            {
+                "name": "phpclasses/profanity-filter",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/profanity-filter.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "profanity_filter.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

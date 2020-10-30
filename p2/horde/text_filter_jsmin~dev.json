@@ -1,0 +1,215 @@
+{
+    "packages": {
+        "horde/text_filter_jsmin": [
+            {
+                "name": "horde/text_filter_jsmin",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Filter_Jsmin.git",
+                    "reference": "8a6d34aa33c7c3cca4d33e8db58417c3a2f52d8f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter_Jsmin/zipball/8a6d34aa33c7c3cca4d33e8db58417c3a2f52d8f",
+                    "reference": "8a6d34aa33c7c3cca4d33e8db58417c3a2f52d8f",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/text_filter": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Text_Filter_Jsmin": "lib/"
+                    }
+                },
+                "license": [
+                    "JSMin"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Text filtering and conversion library - JSMin driver",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/text_filter_jsmin",
+                "version": "dev-FRAMEWORK_5_2",
+                "version_normalized": "dev-FRAMEWORK_5_2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Filter_Jsmin.git",
+                    "reference": "bc759c30792e5a512fe28c7f692c43354d908abd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter_Jsmin/zipball/bc759c30792e5a512fe28c7f692c43354d908abd",
+                    "reference": "bc759c30792e5a512fe28c7f692c43354d908abd",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_text_filter": "^2.2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_text_filter_jsmin": "1.*",
+                    "pear-pear.horde.org/horde_text_filter_jsmin": "1.*"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Text_Filter_Jsmin": "lib/"
+                    }
+                },
+                "license": [
+                    "JSMin"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Text filtering and conversion library - JSMin driver",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/text_filter_jsmin",
+                "version": "dev-horde-upstream",
+                "version_normalized": "dev-horde-upstream",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Filter_Jsmin.git",
+                    "reference": "d695f376435026fdf91e0c3cee01b4bcc0ce043a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter_Jsmin/zipball/d695f376435026fdf91e0c3cee01b4bcc0ce043a",
+                    "reference": "d695f376435026fdf91e0c3cee01b4bcc0ce043a",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_text_filter": "^2.2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_text_filter_jsmin": "1.*",
+                    "pear-pear.horde.org/horde_text_filter_jsmin": "1.*"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Text_Filter_Jsmin": "lib/"
+                    }
+                },
+                "license": [
+                    "JSMin"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Text filtering and conversion library - JSMin driver",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/text_filter_jsmin",
+                "version": "dev-maintaina-bare",
+                "version_normalized": "dev-maintaina-bare",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Filter_Jsmin.git",
+                    "reference": "d695f376435026fdf91e0c3cee01b4bcc0ce043a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter_Jsmin/zipball/d695f376435026fdf91e0c3cee01b4bcc0ce043a",
+                    "reference": "d695f376435026fdf91e0c3cee01b4bcc0ce043a",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_text_filter": "^2.2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_text_filter_jsmin": "1.*",
+                    "pear-pear.horde.org/horde_text_filter_jsmin": "1.*"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Text_Filter_Jsmin": "lib/"
+                    }
+                },
+                "license": [
+                    "JSMin"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Text filtering and conversion library - JSMin driver",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/text_filter_jsmin",
+                "version": "dev-maintaina-composerfixed",
+                "version_normalized": "dev-maintaina-composerfixed",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Filter_Jsmin.git",
+                    "reference": "0669370ae8d6af82196859952054aa80380b784e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter_Jsmin/zipball/0669370ae8d6af82196859952054aa80380b784e",
+                    "reference": "0669370ae8d6af82196859952054aa80380b784e",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/text_filter": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Text_Filter_Jsmin": "lib/"
+                    }
+                },
+                "license": [
+                    "JSMin"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Text filtering and conversion library - JSMin driver",
+                "homepage": "https://www.horde.org"
+            }
+        ]
+    }
+}

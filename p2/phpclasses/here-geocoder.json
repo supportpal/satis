@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/here-geocoder": [
+            {
+                "name": "phpclasses/here-geocoder",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/here-geocoder.zip"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^6.3",
+                    "php": "^7.1.3"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                }
+            }
+        ]
+    }
+}

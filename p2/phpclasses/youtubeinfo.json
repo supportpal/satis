@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/youtubeinfo": [
+            {
+                "name": "phpclasses/youtubeinfo",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/youtubeinfo.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "yt.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

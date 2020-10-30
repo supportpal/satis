@@ -1,0 +1,230 @@
+{
+    "packages": {
+        "horde/cssminify": [
+            {
+                "name": "horde/cssminify",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/CssMinify.git",
+                    "reference": "ef994bff60a55e83d288f2422478b83a05425573"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/CssMinify/zipball/ef994bff60a55e83d288f2422478b83a05425573",
+                    "reference": "ef994bff60a55e83d288f2422478b83a05425573",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/css_parser": "dev-master",
+                    "horde/exception": "dev-master",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/log": "dev-master",
+                    "horde/url": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_CssMinify": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "CSS minification library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/cssminify",
+                "version": "dev-FRAMEWORK_5_2",
+                "version_normalized": "dev-FRAMEWORK_5_2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/CssMinify.git",
+                    "reference": "13013d0569b90ca1108a120da3f7a38fa243eb13"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/CssMinify/zipball/13013d0569b90ca1108a120da3f7a38fa243eb13",
+                    "reference": "13013d0569b90ca1108a120da3f7a38fa243eb13",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_css_parser": "^1",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_log": "^2",
+                    "pear-pear.horde.org/horde_url": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_cssminify": "1.*",
+                    "pear-pear.horde.org/horde_cssminify": "1.*"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_CssMinify": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "CSS minification library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/cssminify",
+                "version": "dev-horde-upstream",
+                "version_normalized": "dev-horde-upstream",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/CssMinify.git",
+                    "reference": "5f453a2f579bbc1ed52db830ec7ac8e0b19b2b70"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/CssMinify/zipball/5f453a2f579bbc1ed52db830ec7ac8e0b19b2b70",
+                    "reference": "5f453a2f579bbc1ed52db830ec7ac8e0b19b2b70",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_css_parser": "^1",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_log": "^2",
+                    "pear-pear.horde.org/horde_url": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_cssminify": "1.*",
+                    "pear-pear.horde.org/horde_cssminify": "1.*"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_CssMinify": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "CSS minification library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/cssminify",
+                "version": "dev-maintaina-bare",
+                "version_normalized": "dev-maintaina-bare",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/CssMinify.git",
+                    "reference": "5f453a2f579bbc1ed52db830ec7ac8e0b19b2b70"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/CssMinify/zipball/5f453a2f579bbc1ed52db830ec7ac8e0b19b2b70",
+                    "reference": "5f453a2f579bbc1ed52db830ec7ac8e0b19b2b70",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_css_parser": "^1",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_log": "^2",
+                    "pear-pear.horde.org/horde_url": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_cssminify": "1.*",
+                    "pear-pear.horde.org/horde_cssminify": "1.*"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_CssMinify": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "CSS minification library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/cssminify",
+                "version": "dev-maintaina-composerfixed",
+                "version_normalized": "dev-maintaina-composerfixed",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/CssMinify.git",
+                    "reference": "8bbe773215a917e01aa0da12227d973576eb2c50"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/CssMinify/zipball/8bbe773215a917e01aa0da12227d973576eb2c50",
+                    "reference": "8bbe773215a917e01aa0da12227d973576eb2c50",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/css_parser": "dev-master",
+                    "horde/exception": "dev-master",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/log": "dev-master",
+                    "horde/url": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_CssMinify": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "CSS minification library",
+                "homepage": "https://www.horde.org"
+            }
+        ]
+    }
+}

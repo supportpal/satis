@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/extended-ini-file": [
+            {
+                "name": "phpclasses/extended-ini-file",
+                "version": "1.0.16",
+                "version_normalized": "1.0.16.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/extended-ini-file.zip"
+                },
+                "require": {
+                    "phpclasses/associative-array": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "IniFile.class.php",
+                        "AssociativeArray.phpclass",
+                        "Variables.phpclass"
+                    ]
+                }
+            }
+        ]
+    }
+}

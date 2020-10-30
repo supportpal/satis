@@ -1,0 +1,72 @@
+{
+    "packages": {
+        "phpclasses/reingold-tilford": [
+            {
+                "name": "phpclasses/reingold-tilford",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/reingold-tilford.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/Utils/File/FileSystemObject.inc",
+                        "src/Utils/File/File.inc",
+                        "src/Utils/File/IFileSystemObject.inc",
+                        "src/Utils/File/Directory.inc",
+                        "src/Utils/URL/Url.inc",
+                        "src/Utils/Font/FontMetric.inc",
+                        "src/Utils/Font/FontManager.inc",
+                        "src/Utils/Logging/FileLogger.inc",
+                        "src/Utils/Logging/Logger.inc",
+                        "src/Utils/Geom/Point.inc",
+                        "src/Utils/Geom/Dimension.inc",
+                        "src/Utils/Autoload/SourceFileNotFoundException.inc",
+                        "src/Utils/Autoload/Autoloader.inc",
+                        "src/Utils/Color/RgbColor.inc",
+                        "src/Utils/Color/Color.inc",
+                        "src/ReingoldTilford/Models/FSTreeModel.inc",
+                        "src/ReingoldTilford/Models/ITreeModel.inc",
+                        "src/ReingoldTilford/Models/TreeModel.inc",
+                        "src/ReingoldTilford/Models/DomTreeModel.inc",
+                        "src/ReingoldTilford/Styles/TreeStyle.inc",
+                        "src/ReingoldTilford/Algorithms/Layout.inc",
+                        "src/ReingoldTilford/Algorithms/ReingoldTilfordAlgorithm.inc",
+                        "src/ReingoldTilford/Plotters/Plotter.inc",
+                        "src/Utils/Graphics2D/DrawingPanes/IDrawingPane.inc",
+                        "src/Utils/Graphics2D/DrawingPanes/DrawingPane.inc",
+                        "src/Utils/Graphics2D/DrawingPanes/SvgDrawingPane.inc",
+                        "src/Utils/Graphics2D/DrawingPanes/DomDrawingPane.inc",
+                        "src/Utils/Graphics2D/DrawingPanes/GdLibDrawingPane.inc",
+                        "src/Utils/Graphics2D/DrawingPanes/ImageDrawingPane.inc",
+                        "src/Utils/Graphics2D/DrawingPanes/ImagickDrawingPane.inc",
+                        "src/Utils/Graphics2D/DrawingPanes/HtmlDrawingPane.inc",
+                        "src/Utils/Graphics2D/Shapes/ShapeFactory.inc",
+                        "src/Utils/Graphics2D/Shapes/PolyEdge.inc",
+                        "src/Utils/Graphics2D/Shapes/Star.inc",
+                        "src/Utils/Graphics2D/Shapes/IShape.inc",
+                        "src/Utils/Graphics2D/Shapes/TextFactory.inc",
+                        "src/Utils/Graphics2D/Shapes/EdgeFactory.inc",
+                        "src/Utils/Graphics2D/Shapes/Ellipse.inc",
+                        "src/Utils/Graphics2D/Shapes/DirectEdge.inc",
+                        "src/Utils/Graphics2D/Shapes/Shape.inc",
+                        "src/Utils/Graphics2D/Shapes/Edge.inc",
+                        "src/Utils/Graphics2D/Shapes/Text.inc",
+                        "src/Utils/Graphics2D/Shapes/Rectangle.inc",
+                        "src/Utils/Font/FontMetricServices/FontMetricService.inc",
+                        "src/Utils/Font/FontMetricServices/FontMetricWebServerService.inc",
+                        "src/Utils/Font/FontMetricServices/FontMetricServiceFactory.inc",
+                        "src/Utils/Graphics2D/Shapes/Styles/LineStyle.inc",
+                        "src/Utils/Graphics2D/Shapes/Styles/IStyle.inc",
+                        "src/Utils/Graphics2D/Shapes/Styles/BorderStyle.inc",
+                        "src/Utils/Graphics2D/Shapes/Styles/ShapeStyle.inc",
+                        "src/Utils/Graphics2D/Shapes/Styles/EdgeStyle.inc",
+                        "src/Utils/Graphics2D/Shapes/Styles/TextStyle.inc"
+                    ]
+                }
+            }
+        ]
+    }
+}

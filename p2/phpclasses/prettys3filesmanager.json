@@ -1,0 +1,32 @@
+{
+    "packages": {
+        "phpclasses/prettys3filesmanager": [
+            {
+                "name": "phpclasses/prettys3filesmanager",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/prettys3filesmanager.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "application/modules/AppS3.php",
+                        "application/modules/Data.php",
+                        "application/modules/controller.php",
+                        "application/modules/exception.php",
+                        "application/modules/system/home.php",
+                        "application/modules/extensions/aws/Psr/Http/Message/MessageInterface.php",
+                        "application/modules/extensions/aws/Psr/Http/Message/RequestInterface.php",
+                        "application/modules/extensions/aws/Psr/Http/Message/ResponseInterface.php",
+                        "application/modules/extensions/aws/Psr/Http/Message/ServerRequestInterface.php",
+                        "application/modules/extensions/aws/Psr/Http/Message/StreamInterface.php",
+                        "application/modules/extensions/aws/Psr/Http/Message/UploadedFileInterface.php",
+                        "application/modules/extensions/aws/Psr/Http/Message/UriInterface.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "packages": {
+        "phpclasses/elemental-sm": [
+            {
+                "name": "phpclasses/elemental-sm",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/elemental-sm.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "elemental-sm/include/AuthSystem/AuthSystem.php",
+                        "elemental-sm/include/AuthSystem/User.php",
+                        "elemental-sm/include/Cash/Casher.php",
+                        "elemental-sm/include/Config/Config.php",
+                        "elemental-sm/include/DateTime/DateTime.php",
+                        "elemental-sm/include/Element/Element.php",
+                        "elemental-sm/include/Element/ElementText.php",
+                        "elemental-sm/include/Element/ElementContainer.php",
+                        "elemental-sm/include/Element/ElementFactory.php",
+                        "elemental-sm/include/Element/ElementHr.php",
+                        "elemental-sm/include/Element/ElementHtml.php",
+                        "elemental-sm/include/File/File.php",
+                        "elemental-sm/include/File/Dir.php",
+                        "elemental-sm/include/functions/ClassLoader.php",
+                        "elemental-sm/include/Http/Request.php",
+                        "elemental-sm/include/Login/Login.php",
+                        "elemental-sm/include/MultiLanguage/Translator.php",
+                        "elemental-sm/include/MultiLanguage/AccessToTranslator.php",
+                        "elemental-sm/include/Offline/OfflineSiteGenerator.php",
+                        "elemental-sm/include/Offline/PageShowerOffline.php",
+                        "elemental-sm/include/Page/Auth/PageManagerAuth.php",
+                        "elemental-sm/include/Page/Auth/PageViewerAuth.php",
+                        "elemental-sm/include/Page/Core/PageController.php",
+                        "elemental-sm/include/Page/Core/PageManager.php",
+                        "elemental-sm/include/Page/Core/PageViewer.php",
+                        "elemental-sm/include/Page/Core/URLKeeper.php",
+                        "elemental-sm/include/Page/Core/AccessToPageManager.php",
+                        "elemental-sm/include/Page/PageSiteList/PageManagerList.php",
+                        "elemental-sm/include/Page/PageSiteList/PageViewerList.php",
+                        "elemental-sm/include/Page/PageSiteList/PageControllerList.php",
+                        "elemental-sm/include/Page/PageSiteList/URLKeeperPageList.php",
+                        "elemental-sm/include/Page/PageSiteEdit/PageManagerEdit.php",
+                        "elemental-sm/include/Page/PageSiteEdit/PageViewerEdit.php",
+                        "elemental-sm/include/Page/PageSiteEdit/URLKeeperPageEdit.php",
+                        "elemental-sm/include/Page/PageSiteEdit/PageControllerEdit.php",
+                        "elemental-sm/include/Page/PageSiteLogin/PageViewerLogin.php",
+                        "elemental-sm/include/Page/PageSiteLogin/PageControllerLogin.php",
+                        "elemental-sm/include/Page/PageSiteLogin/PageManagerLogin.php",
+                        "elemental-sm/include/Page/PageSiteLogin/URLKeeperPageLogin.php",
+                        "elemental-sm/include/PageContent/PageContent.php",
+                        "elemental-sm/include/PageRepository/PageRepository.php",
+                        "elemental-sm/include/PageRepository/PageInfo.php",
+                        "elemental-sm/include/PageShower/TemplateFileRepository.php",
+                        "elemental-sm/include/PageShower/PageShower.php",
+                        "elemental-sm/include/PageShower/Includer.php",
+                        "elemental-sm/include/Persistance/PersistanceManager.php",
+                        "elemental-sm/include/SessionSystem/SessionContainer.php",
+                        "elemental-sm/include/SessionSystem/SessionSystem.php",
+                        "elemental-sm/include/SessionSystem/RandomGenerator.php",
+                        "elemental-sm/include/SessionSystem/SessionFactory.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

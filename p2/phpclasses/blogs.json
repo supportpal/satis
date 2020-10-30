@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/blogs": [
+            {
+                "name": "phpclasses/blogs",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/blogs.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "app_controller.php",
+                        "blog_replies_controller.php",
+                        "blogs_controller.php",
+                        "tinymce.php",
+                        "blog.php",
+                        "blog_class.php",
+                        "blog_reply.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

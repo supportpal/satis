@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/convert-to-bmp": [
+            {
+                "name": "phpclasses/convert-to-bmp",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/convert-to-bmp.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ToBmp.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

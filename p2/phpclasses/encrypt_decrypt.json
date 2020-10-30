@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/encrypt_decrypt": [
+            {
+                "name": "phpclasses/encrypt_decrypt",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/encrypt_decrypt.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "php_encryption.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "phpclasses/html_element": [
+            {
+                "name": "phpclasses/html_element",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/html_element.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Html/Div.php",
+                        "Html/Element.php",
+                        "Html/Interface.php",
+                        "Html/Javascript.php",
+                        "Html/Link.php",
+                        "Html/Picture.php",
+                        "Html/Span.php",
+                        "Form/Button.php",
+                        "Form/Checkbox.php",
+                        "Form/Files.php",
+                        "Form/Form.php",
+                        "Form/Object.php",
+                        "Form/Option.php",
+                        "Form/Password.php",
+                        "Form/Radio.php",
+                        "Form/Reset.php",
+                        "Form/Select.php",
+                        "Form/Submit.php",
+                        "Form/Text.php",
+                        "Form/Textarea.php",
+                        "Html/Design/Interface.php",
+                        "Html/Target/Interface.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

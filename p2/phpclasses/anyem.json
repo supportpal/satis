@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "phpclasses/anyem": [
+            {
+                "name": "phpclasses/anyem",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/anyem.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ANYEM_CLIENT/anyem.client.api/IClient.php",
+                        "ANYEM_CLIENT/anyem.client.api/IClientConnection.php",
+                        "ANYEM_CLIENT/anyem.client.impl/AnyemClientImpl.php",
+                        "ANYEM_CLIENT/anyem.client.impl/ClientConnectionImpl.php",
+                        "ANYEM_CLIENT/anyem.client.impl/ClientImpl.php",
+                        "ANYEM_SERVER/anyem.app.server.api/IServer.php",
+                        "ANYEM_SERVER/anyem.app.server.impl/ServerImpl.php",
+                        "ANYEM_SERVER/anyem.bsrv.impl/ResourceHolderImpl.php",
+                        "ANYEM_SERVER/anyem.bsrv.impl/ResourceManagerImpl.php",
+                        "ANYEM_SHARED/anyem.bsrv.api/IResourceHolder.php",
+                        "ANYEM_SHARED/anyem.resource.api/IResource.php",
+                        "ANYEM_SHARED/anyem.resource.api/IResponseWrapper.php",
+                        "ANYEM_SHARED/anyem.resource.impl/ResourceIdentifierImpl.php",
+                        "ANYEM_SHARED/anyem.resource.impl/ResourceImpl.php",
+                        "ANYEM_SHARED/anyem.resource.impl/ResourceWrapper.php",
+                        "ANYEM_SHARED/anyem.resource.impl/ResponseWrapperImpl.php",
+                        "ANYEM_SHARED/anyem.utils/AnyemConfigReaderimpl.php",
+                        "ANYEM_SHARED/anyem.utils/AnyemDateTimeUtilsImpl.php",
+                        "ANYEM_SHARED/anyem.utils/IAnyemConfigReader.php",
+                        "ANYEM_SHARED/anyem.utils/IAnyemDateTimeUtils.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

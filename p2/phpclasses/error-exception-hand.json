@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/error-exception-hand": [
+            {
+                "name": "phpclasses/error-exception-hand",
+                "version": "2.5",
+                "version_normalized": "2.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/error-exception-hand.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "FrameworkException.php",
+                        "SingletonTrait.php",
+                        "IUtilities.php",
+                        "ErrorExceptionHandler.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

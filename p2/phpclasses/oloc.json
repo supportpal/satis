@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/oloc": [
+            {
+                "name": "phpclasses/oloc",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/oloc.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class/class.backoffice.php",
+                        "class/class.genparser.php",
+                        "class/class.localeException.php",
+                        "class/class.oLocale.php",
+                        "class/class.openoffice23htmlparser.php",
+                        "class/package.exceptions.errors.php",
+                        "class/package.exceptions.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

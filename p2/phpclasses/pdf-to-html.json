@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/pdf-to-html": [
+            {
+                "name": "phpclasses/pdf-to-html",
+                "version": "1.0.7",
+                "version_normalized": "1.0.7.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/pdf-to-html.zip"
+                },
+                "require": {
+                    "pelago/emogrifier": "^2.0.0",
+                    "php": ">=5.4.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "TonchikTm": "src"
+                    },
+                    "psr-4": {
+                        "TonchikTm\\PdfToHtml\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

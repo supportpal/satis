@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/nsim": [
+            {
+                "name": "phpclasses/nsim",
+                "version": "0.5.0",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/nsim.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "NamespaceSim/Executer.php",
+                        "NamespaceSim/Parser.php",
+                        "NamespaceSim/Rewriter.php",
+                        "NamespaceSim/UnexpectedToken.php",
+                        "NamespaceSim/ErrorMap.php",
+                        "NamespaceSim/ClassConstantFacade.php",
+                        "NamespaceSim/FindClassFacade.php",
+                        "NamespaceSim/StaticAccessFacade.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

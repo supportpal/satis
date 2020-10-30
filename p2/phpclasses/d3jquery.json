@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/d3jquery": [
+            {
+                "name": "phpclasses/d3jquery",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/d3jquery.zip"
+                },
+                "require": {
+                    "phpclasses/d3": "0.1",
+                    "phpclasses/d3google": "1"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "jquery.classes.inc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

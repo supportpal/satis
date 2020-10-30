@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/tabclass": [
+            {
+                "name": "phpclasses/tabclass",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/tabclass.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "tabClass.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

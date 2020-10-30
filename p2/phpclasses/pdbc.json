@@ -1,0 +1,33 @@
+{
+    "packages": {
+        "phpclasses/pdbc": [
+            {
+                "name": "phpclasses/pdbc",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/pdbc.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "pdbc/DriverManager.class.php",
+                        "pdbc/mysql/Driver.class.php",
+                        "pdbc/mysql/Statement.class.php",
+                        "pdbc/mysql/ResultSet.class.php",
+                        "pdbc/mysql/PreparedStatement.class.php",
+                        "pdbc/mysql/ResultSetMetaData.class.php",
+                        "pdbc/mysql/Connection.class.php",
+                        "Object.class.php",
+                        "util/Vector.class.php",
+                        "util/StringTokenizer.class.php",
+                        "util/String.class.php",
+                        "util/StringBuffer.class.php",
+                        "util/StringUtils.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

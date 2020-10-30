@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/tiesse": [
+            {
+                "name": "phpclasses/tiesse",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/tiesse.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ts.class.php",
+                        "ts_msg.php.inc"
+                    ]
+                }
+            }
+        ]
+    }
+}

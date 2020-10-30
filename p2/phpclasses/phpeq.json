@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/phpeq": [
+            {
+                "name": "phpclasses/phpeq",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/phpeq.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "code/PHPEQ/class/PHPEQ.php",
+                        "code/PHPEQ/class/PHPEQMessage.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

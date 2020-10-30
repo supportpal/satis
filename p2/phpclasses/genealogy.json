@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/genealogy": [
+            {
+                "name": "phpclasses/genealogy",
+                "version": "0.8",
+                "version_normalized": "0.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/genealogy.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.personne.php",
+                        "class.gedcom.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,318 @@
+{
+    "packages": {
+        "horde/sessionhandler": [
+            {
+                "name": "horde/sessionhandler",
+                "version": "2.2.4",
+                "version_normalized": "2.2.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/SessionHandler.git",
+                    "reference": "16edc02a9110e6cde2cb2837317ddf6b038e2b3c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/SessionHandler/zipball/16edc02a9110e6cde2cb2837317ddf6b038e2b3c",
+                    "reference": "16edc02a9110e6cde2cb2837317ddf6b038e2b3c",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_db": ">=2.0.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_hashtable": ">=1.1.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_log": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mongo": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2013-08-27T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Session Handler API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/sessionhandler",
+                "version": "2.2.5",
+                "version_normalized": "2.2.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/SessionHandler.git",
+                    "reference": "79d0b60d52dc89e36cc5e93ea06e975dd2c8a8e4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/SessionHandler/zipball/79d0b60d52dc89e36cc5e93ea06e975dd2c8a8e4",
+                    "reference": "79d0b60d52dc89e36cc5e93ea06e975dd2c8a8e4",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_db": ">=2.0.3@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_hashtable": ">=1.1.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_log": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mongo": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-10-20T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Session Handler API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/sessionhandler",
+                "version": "2.2.6",
+                "version_normalized": "2.2.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/SessionHandler.git",
+                    "reference": "8f5a92f9af27d02ae8fcb2084866923bef4082c6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/SessionHandler/zipball/8f5a92f9af27d02ae8fcb2084866923bef4082c6",
+                    "reference": "8f5a92f9af27d02ae8fcb2084866923bef4082c6",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_db": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_hashtable": ">=1.1.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_log": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mongo": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-01-05T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Session Handler API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/sessionhandler",
+                "version": "2.2.7",
+                "version_normalized": "2.2.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/SessionHandler.git",
+                    "reference": "ba0371c0f994949f14854791b52ae9716c26156c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/SessionHandler/zipball/ba0371c0f994949f14854791b52ae9716c26156c",
+                    "reference": "ba0371c0f994949f14854791b52ae9716c26156c",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_db": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_hashtable": ">=1.1.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_log": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mongo": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-02-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Session Handler API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/sessionhandler",
+                "version": "2.2.8",
+                "version_normalized": "2.2.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/SessionHandler.git",
+                    "reference": "f4729e33cc78a67e99f363237a01dbfdffc768a3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/SessionHandler/zipball/f4729e33cc78a67e99f363237a01dbfdffc768a3",
+                    "reference": "f4729e33cc78a67e99f363237a01dbfdffc768a3",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_db": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_hashtable": ">=1.1.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_log": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mongo": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-09-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Session Handler API",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/sessionhandler",
+                "version": "2.2.9",
+                "version_normalized": "2.2.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/SessionHandler.git",
+                    "reference": "9dce9e2567ea0dda6d27231be548462ce7437698"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/SessionHandler/zipball/9dce9e2567ea0dda6d27231be548462ce7437698",
+                    "reference": "9dce9e2567ea0dda6d27231be548462ce7437698",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_db": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_hashtable": ">=1.1.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_log": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mongo": ">=1.0.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2017-02-27T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Session Handler API",
+                "homepage": "https://pear.horde.org"
+            }
+        ]
+    }
+}

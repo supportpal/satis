@@ -1,0 +1,44 @@
+{
+    "packages": {
+        "phpclasses/cache-dba": [
+            {
+                "name": "phpclasses/cache-dba",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/cache-dba.zip"
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "tests/DummyFixtures.php",
+                        "bootstrap.php",
+                        "app/config.php",
+                        "app/index.php",
+                        "src/Cache.php",
+                        "src/Capsule.php",
+                        "make-million.php",
+                        "src/Pack.php",
+                        "src/Sweep.php",
+                        "tests/PackTest.php",
+                        "tests/SweepTest.php",
+                        "tests/Handlers/CdbReadTest.php",
+                        "tests/Handlers/CdbWriteTest.php",
+                        "tests/Handlers/Db4Test.php",
+                        "tests/Handlers/FlatfileTest.php",
+                        "tests/Handlers/GdbmTest.php",
+                        "tests/Handlers/InifileTest.php",
+                        "tests/Handlers/QdbmTest.php",
+                        "tests/Handlers/TestCase.php",
+                        "vendor/composer/ClassLoader.php",
+                        "vendor/composer/autoload_real.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

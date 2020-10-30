@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/crud_123": [
+            {
+                "name": "phpclasses/crud_123",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/crud_123.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "CRUD.php",
+                        "connect.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

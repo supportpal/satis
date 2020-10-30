@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/large-file-reader": [
+            {
+                "name": "phpclasses/large-file-reader",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/large-file-reader.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "large_file_reader_v09.php",
+                        "large_file_reader_v010.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,292 @@
+{
+    "packages": {
+        "horde/pear": [
+            {
+                "name": "horde/pear",
+                "version": "1.0.0alpha10",
+                "version_normalized": "1.0.0.0-alpha10",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Pear.git",
+                    "reference": "4780d075fef5a3704a2ea186457cfd5d093dc297"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Pear/zipball/4780d075fef5a3704a2ea186457cfd5d093dc297",
+                    "reference": "4780d075fef5a3704a2ea186457cfd5d093dc297",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_xml_element": ">=2.0.0,<=3.0.0alpha1",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_http": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0,<=3.0.0alpha1"
+                },
+                "time": "2016-03-08T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "A library for handling a subset of the PEAR formats and specifications",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/pear",
+                "version": "1.0.0alpha11",
+                "version_normalized": "1.0.0.0-alpha11",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Pear.git",
+                    "reference": "173ca3846b65d2a2340c469f27abfd13bd965fc4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Pear/zipball/173ca3846b65d2a2340c469f27abfd13bd965fc4",
+                    "reference": "173ca3846b65d2a2340c469f27abfd13bd965fc4",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_xml_element": ">=2.0.0,<=3.0.0alpha1",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_http": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0,<=3.0.0alpha1"
+                },
+                "time": "2016-07-12T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "A library for handling a subset of the PEAR formats and specifications",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/pear",
+                "version": "1.0.0alpha12",
+                "version_normalized": "1.0.0.0-alpha12",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Pear.git",
+                    "reference": "e8fe437fa60bb515ba2b3d2ff8c8dfc55aafa728"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Pear/zipball/e8fe437fa60bb515ba2b3d2ff8c8dfc55aafa728",
+                    "reference": "e8fe437fa60bb515ba2b3d2ff8c8dfc55aafa728",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "pear-pear.horde.org/horde_xml_element": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_pear": "1.*",
+                    "pear-pear.horde.org/horde_pear": "1.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2017-05-03T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Pear": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "A library for handling a subset of the PEAR formats and specifications",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/pear",
+                "version": "1.0.0alpha6",
+                "version_normalized": "1.0.0.0-alpha6",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Pear.git",
+                    "reference": "ad884f2937ac84d1c6d008be92ec7ce1515cee97"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Pear/zipball/ad884f2937ac84d1c6d008be92ec7ce1515cee97",
+                    "reference": "ad884f2937ac84d1c6d008be92ec7ce1515cee97",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_xml_element": ">=2.0.0,<=3.0.0alpha1",
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_http": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0,<=3.0.0alpha1"
+                },
+                "time": "2013-10-15T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "A library for handling a subset of the PEAR formats and specifications",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/pear",
+                "version": "1.0.0alpha7",
+                "version_normalized": "1.0.0.0-alpha7",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Pear.git",
+                    "reference": "ff2fd8af08ff5eedb4da2959eb09d836ade9dcdd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Pear/zipball/ff2fd8af08ff5eedb4da2959eb09d836ade9dcdd",
+                    "reference": "ff2fd8af08ff5eedb4da2959eb09d836ade9dcdd",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_xml_element": ">=2.0.0,<=3.0.0alpha1",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_http": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0,<=3.0.0alpha1"
+                },
+                "time": "2015-01-09T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "A library for handling a subset of the PEAR formats and specifications",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/pear",
+                "version": "1.0.0alpha8",
+                "version_normalized": "1.0.0.0-alpha8",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Pear.git",
+                    "reference": "de10af945b7a18620fe07990bc5552b864955e32"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Pear/zipball/de10af945b7a18620fe07990bc5552b864955e32",
+                    "reference": "de10af945b7a18620fe07990bc5552b864955e32",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_xml_element": ">=2.0.0,<=3.0.0alpha1",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_http": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0,<=3.0.0alpha1"
+                },
+                "time": "2015-04-13T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "A library for handling a subset of the PEAR formats and specifications",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/pear",
+                "version": "1.0.0alpha9",
+                "version_normalized": "1.0.0.0-alpha9",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Pear.git",
+                    "reference": "1470573c2b73e353adece9b43a61e32d4bb7a64c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Pear/zipball/1470573c2b73e353adece9b43a61e32d4bb7a64c",
+                    "reference": "1470573c2b73e353adece9b43a61e32d4bb7a64c",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_xml_element": ">=2.0.0,<=3.0.0alpha1",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_http": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0,<=3.0.0alpha1"
+                },
+                "time": "2015-04-28T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "A library for handling a subset of the PEAR formats and specifications",
+                "homepage": "http://pear.horde.org"
+            }
+        ]
+    }
+}

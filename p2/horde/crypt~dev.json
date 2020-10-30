@@ -1,0 +1,300 @@
+{
+    "packages": {
+        "horde/crypt": [
+            {
+                "name": "horde/crypt",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Crypt.git",
+                    "reference": "534ad3e3b3c068981655c9d6d75e27af29e9ef1f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Crypt/zipball/534ad3e3b3c068981655c9d6d75e27af29e9ef1f",
+                    "reference": "534ad3e3b3c068981655c9d6d75e27af29e9ef1f",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "ext-openssl": "*",
+                    "horde/exception": "dev-master",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/http": "dev-master",
+                    "horde/mime": "dev-master",
+                    "horde/stream": "dev-master",
+                    "horde/stream_filter": "dev-master",
+                    "horde/translation": "dev-master",
+                    "horde/url": "dev-master",
+                    "horde/util": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "horde/test": "^2.1"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Crypt": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Cryptography library",
+                "homepage": "https://www.horde.org/libraries/Horde_Crypt"
+            },
+            {
+                "name": "horde/crypt",
+                "version": "dev-FRAMEWORK_5_2",
+                "version_normalized": "dev-FRAMEWORK_5_2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Crypt.git",
+                    "reference": "13fc791cdde31c2e577b466d3036744dbe50de0b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Crypt/zipball/13fc791cdde31c2e577b466d3036744dbe50de0b",
+                    "reference": "13fc791cdde31c2e577b466d3036744dbe50de0b",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "ext-openssl": "*",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_mime": "^2",
+                    "pear-pear.horde.org/horde_stream": "^1.5",
+                    "pear-pear.horde.org/horde_stream_filter": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_url": "^2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_crypt": "2.*",
+                    "pear-pear.horde.org/horde_crypt": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2018-05-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Crypt": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Cryptography library",
+                "homepage": "https://www.horde.org/libraries/Horde_Crypt"
+            },
+            {
+                "name": "horde/crypt",
+                "version": "dev-horde-upstream",
+                "version_normalized": "dev-horde-upstream",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Crypt.git",
+                    "reference": "5cc883f1a2dfad6d0947dffc9e1bb1b9eb0ff3f4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Crypt/zipball/5cc883f1a2dfad6d0947dffc9e1bb1b9eb0ff3f4",
+                    "reference": "5cc883f1a2dfad6d0947dffc9e1bb1b9eb0ff3f4",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "ext-openssl": "*",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_mime": "^2",
+                    "pear-pear.horde.org/horde_stream": "^1.5",
+                    "pear-pear.horde.org/horde_stream_filter": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_url": "^2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_crypt": "2.*",
+                    "pear-pear.horde.org/horde_crypt": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Crypt": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Cryptography library",
+                "homepage": "https://www.horde.org/libraries/Horde_Crypt"
+            },
+            {
+                "name": "horde/crypt",
+                "version": "dev-maintaina-bare",
+                "version_normalized": "dev-maintaina-bare",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Crypt.git",
+                    "reference": "5cc883f1a2dfad6d0947dffc9e1bb1b9eb0ff3f4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Crypt/zipball/5cc883f1a2dfad6d0947dffc9e1bb1b9eb0ff3f4",
+                    "reference": "5cc883f1a2dfad6d0947dffc9e1bb1b9eb0ff3f4",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "ext-openssl": "*",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_mime": "^2",
+                    "pear-pear.horde.org/horde_stream": "^1.5",
+                    "pear-pear.horde.org/horde_stream_filter": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_url": "^2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_crypt": "2.*",
+                    "pear-pear.horde.org/horde_crypt": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Crypt": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Cryptography library",
+                "homepage": "https://www.horde.org/libraries/Horde_Crypt"
+            },
+            {
+                "name": "horde/crypt",
+                "version": "dev-maintaina-composerfixed",
+                "version_normalized": "dev-maintaina-composerfixed",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Crypt.git",
+                    "reference": "9b52cbe61da861cda621196d83536ad2c61ecd56"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Crypt/zipball/9b52cbe61da861cda621196d83536ad2c61ecd56",
+                    "reference": "9b52cbe61da861cda621196d83536ad2c61ecd56",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "ext-openssl": "*",
+                    "horde/exception": "dev-master",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/http": "dev-master",
+                    "horde/mime": "dev-master",
+                    "horde/stream": "dev-master",
+                    "horde/stream_filter": "dev-master",
+                    "horde/translation": "dev-master",
+                    "horde/url": "dev-master",
+                    "horde/util": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "horde/test": "^2.1"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Crypt": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Cryptography library",
+                "homepage": "https://www.horde.org/libraries/Horde_Crypt"
+            }
+        ]
+    }
+}

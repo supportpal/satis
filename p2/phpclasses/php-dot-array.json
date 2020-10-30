@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/php-dot-array": [
+            {
+                "name": "phpclasses/php-dot-array",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-dot-array.zip"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "src/helper.php"
+                    ],
+                    "psr-4": {
+                        "RaggiTech\\DotArray\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

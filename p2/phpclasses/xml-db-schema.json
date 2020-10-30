@@ -1,0 +1,19 @@
+{
+    "packages": {
+        "phpclasses/xml-db-schema": [
+            {
+                "name": "phpclasses/xml-db-schema",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/xml-db-schema.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": []
+                }
+            }
+        ]
+    }
+}

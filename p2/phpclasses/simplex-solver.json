@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/simplex-solver": [
+            {
+                "name": "phpclasses/simplex-solver",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/simplex-solver.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "TSimplex.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

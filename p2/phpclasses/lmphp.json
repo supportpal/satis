@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/lmphp": [
+            {
+                "name": "phpclasses/lmphp",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/lmphp.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "LMPHP.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

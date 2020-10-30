@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/db-sync": [
+            {
+                "name": "phpclasses/db-sync",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/db-sync.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Fogg/Db/Sync/Sync.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

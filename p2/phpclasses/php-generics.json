@@ -1,0 +1,43 @@
+{
+    "packages": {
+        "phpclasses/php-generics": [
+            {
+                "name": "phpclasses/php-generics",
+                "version": "0.26",
+                "version_normalized": "0.26.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-generics.zip"
+                },
+                "require": {
+                    "composer/ca-bundle": "~1.0",
+                    "ext-sockets": "*",
+                    "ext-spl": "*",
+                    "php": ">=7.0",
+                    "psr/log": "^1.0"
+                },
+                "require-dev": {
+                    "pdepend/pdepend": "^2.0",
+                    "phploc/phploc": "^4.0",
+                    "phpmd/phpmd": "^2.0",
+                    "phpunit/phpunit": "^6.3",
+                    "scrutinizer/ocular": "^1.0",
+                    "sebastian/phpcpd": "^3.0",
+                    "squizlabs/php_codesniffer": "^3.0",
+                    "theseer/phpdox": "^0.10"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.2-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Generics\\": "src/Generics"
+                    }
+                }
+            }
+        ]
+    }
+}

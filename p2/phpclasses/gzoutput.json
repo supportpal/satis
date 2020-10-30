@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/gzoutput": [
+            {
+                "name": "phpclasses/gzoutput",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/gzoutput.zip"
+                },
+                "require": {
+                    "phpclasses/cruncher": "0.9",
+                    "phpclasses/sourcemap": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "GzOutput.class4.php",
+                        "GzOutput.class5.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

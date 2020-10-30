@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/data-grid": [
+            {
+                "name": "phpclasses/data-grid",
+                "version": "2.62",
+                "version_normalized": "2.62.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/data-grid.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "datagrid.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

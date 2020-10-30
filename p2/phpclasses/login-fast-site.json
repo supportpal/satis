@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/login-fast-site": [
+            {
+                "name": "phpclasses/login-fast-site",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/login-fast-site.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class/MyDB.class.php",
+                        "class/login.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

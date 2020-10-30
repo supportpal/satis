@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/rfloodprotect": [
+            {
+                "name": "phpclasses/rfloodprotect",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/rfloodprotect.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "flood-protection.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

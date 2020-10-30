@@ -1,0 +1,74 @@
+{
+    "packages": {
+        "phpclasses/php-query": [
+            {
+                "name": "phpclasses/php-query",
+                "version": "1.1.3",
+                "version_normalized": "1.1.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-query.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "classes/autoload.php",
+                        "classes/arr/arguments/arr-arguments-descriptor.php",
+                        "classes/arr/arguments/arr-arguments.php",
+                        "classes/css/exception/css-exception.php",
+                        "classes/css/parser/css-parser.php",
+                        "classes/sys/exception/sys-exception.php",
+                        "classes/text/exception/text-exception.php",
+                        "classes/text/parser/text-parser.php",
+                        "classes/text/tokenizer/text-tokenizer.php",
+                        "classes/css/parser/combinator/css-parser-combinator-adjacent.php",
+                        "classes/css/parser/combinator/css-parser-combinator-child.php",
+                        "classes/css/parser/combinator/css-parser-combinator-descendant.php",
+                        "classes/css/parser/combinator/css-parser-combinator-factory.php",
+                        "classes/css/parser/combinator/css-parser-combinator-general.php",
+                        "classes/css/parser/combinator/css-parser-combinator-user-defined.php",
+                        "classes/css/parser/combinator/css-parser-combinator.php",
+                        "classes/css/parser/exception/css-parser-exception.php",
+                        "classes/css/parser/filter/css-parser-filter-attr.php",
+                        "classes/css/parser/filter/css-parser-filter-class.php",
+                        "classes/css/parser/filter/css-parser-filter-id.php",
+                        "classes/css/parser/filter/css-parser-filter-pseudo-eq.php",
+                        "classes/css/parser/filter/css-parser-filter-pseudo-even.php",
+                        "classes/css/parser/filter/css-parser-filter-pseudo-factory.php",
+                        "classes/css/parser/filter/css-parser-filter-pseudo-first-child.php",
+                        "classes/css/parser/filter/css-parser-filter-pseudo-first.php",
+                        "classes/css/parser/filter/css-parser-filter-pseudo-gt.php",
+                        "classes/css/parser/filter/css-parser-filter-pseudo-last.php",
+                        "classes/css/parser/filter/css-parser-filter-pseudo-lt.php",
+                        "classes/css/parser/filter/css-parser-filter-pseudo-not.php",
+                        "classes/css/parser/filter/css-parser-filter-pseudo-nth-child.php",
+                        "classes/css/parser/filter/css-parser-filter-pseudo-odd.php",
+                        "classes/css/parser/filter/css-parser-filter-pseudo-user-defined.php",
+                        "classes/css/parser/filter/css-parser-filter-pseudo.php",
+                        "classes/css/parser/filter/css-parser-filter.php",
+                        "classes/css/parser/model/css-parser-model-element.php",
+                        "classes/css/parser/model/css-parser-model-factor.php",
+                        "classes/css/parser/model/css-parser-model-selector.php",
+                        "classes/text/parser/exception/text-parser-exception.php",
+                        "classes/arr/arr-helper.php",
+                        "classes/text/text-helper.php",
+                        "classes/sys/cmd/sys-cmd-argument.php",
+                        "classes/sys/cmd/sys-cmd-arguments-parser.php",
+                        "classes/sys/cmd/sys-cmd-helper.php",
+                        "classes/sys/cmd/sys-cmd.php",
+                        "classes/sys/file/sys-file-helper.php",
+                        "classes/sys/cmd/exception/sys-cmd-exception.php",
+                        "classes/dom/dom-helper.php",
+                        "classes/dom/dom-node-attribute-capable.php",
+                        "classes/dom/dom-node-class-capable.php",
+                        "classes/dom/dom-node-content-capable.php",
+                        "classes/dom/dom-node-css-capable.php",
+                        "classes/dom/dom-node-data-capable.php",
+                        "classes/dom/dom-node-iterable.php",
+                        "classes/dom/dom-node.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

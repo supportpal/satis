@@ -1,0 +1,41 @@
+{
+    "packages": {
+        "phpclasses/ajax-wrapper": [
+            {
+                "name": "phpclasses/ajax-wrapper",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ajax-wrapper.zip"
+                },
+                "require": {
+                    "phpclasses/simple-form-builder": "1.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "PHPClassJavascript.php",
+                        "PHPClassManageRowData.php",
+                        "PHPClassDescribeDatabase.php",
+                        "complex-example/controller/PHPClassFormAddressBook.php",
+                        "complex-example/model/build/classes/address_book/AddressesPeer.php",
+                        "complex-example/model/build/classes/address_book/Addresses.php",
+                        "complex-example/model/build/classes/address_book/AddressesQuery.php",
+                        "complex-example/model/build/classes/address_book/CityList.php",
+                        "complex-example/model/build/classes/address_book/CityListQuery.php",
+                        "complex-example/model/build/classes/address_book/CityListPeer.php",
+                        "complex-example/model/build/classes/address_book/map/AddressesTableMap.php",
+                        "complex-example/model/build/classes/address_book/map/CityListTableMap.php",
+                        "complex-example/model/build/classes/address_book/om/BaseAddresses.php",
+                        "complex-example/model/build/classes/address_book/om/BaseAddressesPeer.php",
+                        "complex-example/model/build/classes/address_book/om/BaseAddressesQuery.php",
+                        "complex-example/model/build/classes/address_book/om/BaseCityList.php",
+                        "complex-example/model/build/classes/address_book/om/BaseCityListPeer.php",
+                        "complex-example/model/build/classes/address_book/om/BaseCityListQuery.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

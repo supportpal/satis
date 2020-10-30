@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/recursive-serialize": [
+            {
+                "name": "phpclasses/recursive-serialize",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/recursive-serialize.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "SerializeManager.php",
+                        "TSClass1.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

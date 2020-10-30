@@ -1,0 +1,32 @@
+{
+    "packages": {
+        "phpclasses/responsive-css": [
+            {
+                "name": "phpclasses/responsive-css",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/responsive-css.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "index.php",
+                        "class_cssresponsiwe.php",
+                        "class_cssresponsiwe_fb.php",
+                        "index_fb.php",
+                        "class_cssresponsiwe_fb_boo.php",
+                        "index_fb_boo.php",
+                        "class_cssresponsiwe_fb_goog.php",
+                        "index_fb_goog.php",
+                        "class_cssresponsiwe_fb_b_g_meta.php",
+                        "index_fb_go_meta.php",
+                        "class_cssresponsiwe-v2.php",
+                        "index_fb_go_meta-v2.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

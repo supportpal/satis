@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/emailer": [
+            {
+                "name": "phpclasses/emailer",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/emailer.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class_emailer.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

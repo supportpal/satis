@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/wordpress-phpmyadmin": [
+            {
+                "name": "phpclasses/wordpress-phpmyadmin",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/wordpress-phpmyadmin.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "zacwp_pma_controller.php",
+                        "zacwp_pma_model.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/phpfirebase": [
+            {
+                "name": "phpclasses/phpfirebase",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/phpfirebase.zip"
+                },
+                "require": {
+                    "kreait/firebase-php": "^4.0",
+                    "php": "^7.0"
+                },
+                "require-dev": {
+                    "coderatio/phpfirebase": "dev-master"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src"
+                    ]
+                }
+            }
+        ]
+    }
+}

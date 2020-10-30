@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/htmlxlite": [
+            {
+                "name": "phpclasses/htmlxlite",
+                "version": "6",
+                "version_normalized": "6.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/htmlxlite.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "htmlxlite.php",
+                        "htmlxlite.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

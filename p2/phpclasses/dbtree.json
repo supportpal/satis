@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/dbtree": [
+            {
+                "name": "phpclasses/dbtree",
+                "version": "4.4",
+                "version_normalized": "4.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/dbtree.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "DbTree.class.php",
+                        "DbTreeExt.class.php",
+                        "safemysql.class.php",
+                        "language/dbtree.lang-en.php",
+                        "language/dbtree.lang-ru.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-csv-to-dbf": [
+            {
+                "name": "phpclasses/php-csv-to-dbf",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-csv-to-dbf.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "CharSVtoDbf.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

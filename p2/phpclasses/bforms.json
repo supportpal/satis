@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/bforms": [
+            {
+                "name": "phpclasses/bforms",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/bforms.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "b-forms.inc",
+                        "upload.inc",
+                        "layout.inc"
+                    ]
+                }
+            }
+        ]
+    }
+}

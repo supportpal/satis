@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/sdata": [
+            {
+                "name": "phpclasses/sdata",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/sdata.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "sdata-modules.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

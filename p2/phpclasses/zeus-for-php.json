@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "phpclasses/zeus-for-php": [
+            {
+                "name": "phpclasses/zeus-for-php",
+                "version": "1.7.4",
+                "version_normalized": "1.7.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/zeus-for-php.zip"
+                },
+                "require": {
+                    "ext-pcntl": "*",
+                    "ext-posix": "*",
+                    "opis/closure": "^2.4.0",
+                    "php": "^5.6 || ^7.0 || ^7.1",
+                    "zendframework/zend-config": "^2.6",
+                    "zendframework/zend-console": "^2.6",
+                    "zendframework/zend-log": "^2.9",
+                    "zendframework/zend-mvc": "^3.0.1",
+                    "zendframework/zend-mvc-console": "^1.1"
+                },
+                "require-dev": {
+                    "athletic/athletic": "^0.1",
+                    "doctrine/instantiator": ">=1.0.2 <1.1.0",
+                    "phpunit/phpunit": "^4.8 || ^5.7",
+                    "squizlabs/php_codesniffer": "^2.7",
+                    "symfony/yaml": "2.1.0",
+                    "zendframework/zend-cache": "^2.7"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Zeus\\": "src/Zeus/"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/fedex-api-wrapper": [
+            {
+                "name": "phpclasses/fedex-api-wrapper",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/fedex-api-wrapper.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "classes/class.fedex.php",
+                        "classes/class.fedex.package.php",
+                        "classes/class.fedex.pickup.php",
+                        "classes/class.fedex.rate.php",
+                        "classes/class.fedex.shipment.php",
+                        "classes/class.fedex.track.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

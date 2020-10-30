@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/cookieobjectsclass": [
+            {
+                "name": "phpclasses/cookieobjectsclass",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/cookieobjectsclass.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "CookieObjects.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

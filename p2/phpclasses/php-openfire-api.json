@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/php-openfire-api": [
+            {
+                "name": "phpclasses/php-openfire-api",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-openfire-api.zip"
+                },
+                "require": {
+                    "ext-curl": "*",
+                    "php": ">=5.4.0",
+                    "rmccue/requests": ">=1.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Gidkom\\OpenFireRestApi": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

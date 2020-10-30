@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/send_mail": [
+            {
+                "name": "phpclasses/send_mail",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/send_mail.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "CEmailSender"
+                    ]
+                }
+            }
+        ]
+    }
+}

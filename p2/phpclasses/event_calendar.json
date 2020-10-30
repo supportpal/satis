@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/event_calendar": [
+            {
+                "name": "phpclasses/event_calendar",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/event_calendar.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ClsEventCalender.cls.php",
+                        "ClsConnection.cls.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

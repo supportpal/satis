@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/intortus-json-rpc": [
+            {
+                "name": "phpclasses/intortus-json-rpc",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/intortus-json-rpc.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "intortus/jsonrpc/callableobject.php",
+                        "intortus/jsonrpc/error.php",
+                        "intortus/jsonrpc/handler.php",
+                        "intortus/jsonrpc/request.php",
+                        "intortus/jsonrpc/response.php",
+                        "intortus/jsonrpc/returnableobject.php",
+                        "API/example.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

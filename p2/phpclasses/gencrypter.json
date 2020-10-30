@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/gencrypter": [
+            {
+                "name": "phpclasses/gencrypter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/gencrypter.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "gEncrypter.php",
+                        "gEncrypter2.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

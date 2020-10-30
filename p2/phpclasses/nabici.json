@@ -1,0 +1,66 @@
+{
+    "packages": {
+        "phpclasses/nabici": [
+            {
+                "name": "phpclasses/nabici",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/nabici.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "CI/website_builder.php",
+                        "CI/TaskSeparate.php",
+                        "CI/Process.php",
+                        "CI/Loop.php",
+                        "CI/Continuous_integration.php",
+                        "CI/Task/Task.php",
+                        "include/html_utilities/browser.php",
+                        "include/simple_test/authentication.php",
+                        "include/simple_test/browser.php",
+                        "include/simple_test/collector.php",
+                        "include/simple_test/compatibility.php",
+                        "include/simple_test/cookies.php",
+                        "include/simple_test/default_reporter.php",
+                        "include/simple_test/detached.php",
+                        "include/simple_test/dumper.php",
+                        "include/simple_test/eclipse.php",
+                        "include/simple_test/encoding.php",
+                        "include/simple_test/errors.php",
+                        "include/simple_test/exceptions.php",
+                        "include/simple_test/expectation.php",
+                        "include/simple_test/form.php",
+                        "include/simple_test/frames.php",
+                        "include/simple_test/http.php",
+                        "include/simple_test/invoker.php",
+                        "include/simple_test/mock_objects.php",
+                        "include/simple_test/page.php",
+                        "include/simple_test/parser.php",
+                        "include/simple_test/reflection_php4.php",
+                        "include/simple_test/reflection_php5.php",
+                        "include/simple_test/remote.php",
+                        "include/simple_test/reporter.php",
+                        "include/simple_test/scorer.php",
+                        "include/simple_test/selector.php",
+                        "include/simple_test/shell_tester.php",
+                        "include/simple_test/simpletest.php",
+                        "include/simple_test/socket.php",
+                        "include/simple_test/tag.php",
+                        "include/simple_test/test_case.php",
+                        "include/simple_test/unit_tester.php",
+                        "include/simple_test/url.php",
+                        "include/simple_test/user_agent.php",
+                        "include/simple_test/web_tester.php",
+                        "include/simple_test/xml.php",
+                        "include/easy_file.php",
+                        "include/folders.php",
+                        "include/string_utilities.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

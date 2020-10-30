@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/docx-template": [
+            {
+                "name": "phpclasses/docx-template",
+                "version": "0.1.10",
+                "version_normalized": "0.1.10.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/docx-template.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "docxtemplate.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

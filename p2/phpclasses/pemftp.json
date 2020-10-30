@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/pemftp": [
+            {
+                "name": "phpclasses/pemftp",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/pemftp.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ftp_class.php",
+                        "ftp_class_pure.php",
+                        "ftp_class_sockets.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

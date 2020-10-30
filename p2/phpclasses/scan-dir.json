@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/scan-dir": [
+            {
+                "name": "phpclasses/scan-dir",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/scan-dir.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Class_ScanDir.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

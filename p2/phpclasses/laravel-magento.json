@@ -1,0 +1,34 @@
+{
+    "packages": {
+        "phpclasses/laravel-magento": [
+            {
+                "name": "phpclasses/laravel-magento",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/laravel-magento.zip"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "guzzlehttp/guzzle": "*",
+                    "laravel/framework": "^5.5",
+                    "php": ">=7.1"
+                },
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "KgBot\\Magento\\MagentoServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "KgBot\\Magento\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

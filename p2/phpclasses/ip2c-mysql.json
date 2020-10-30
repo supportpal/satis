@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/ip2c-mysql": [
+            {
+                "name": "phpclasses/ip2c-mysql",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ip2c-mysql.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ipclass.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "packages": {
+        "phpclasses/class_playlist": [
+            {
+                "name": "phpclasses/class_playlist",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/class_playlist.zip"
+                },
+                "require": {
+                    "phpclasses/directorylisting": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Audio/class_playlist.php",
+                        "Audio/class_audioFile_data.php",
+                        "Audio/class_Audiofile.php",
+                        "Audio/Playlist/Exception.php",
+                        "Audio/Playlist.php",
+                        "Debug/Console.php",
+                        "Singleton/Interface.php",
+                        "Validator/Base.php",
+                        "Validator/Playlist.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "packages": {
+        "phpclasses/laravel-api-generato": [
+            {
+                "name": "phpclasses/laravel-api-generato",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/laravel-api-generato.zip"
+                },
+                "require": {
+                    "illuminate/support": "5.8.*|^6.0|^7.0",
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "orchestra/testbench": "3.8.*",
+                    "phpunit/phpunit": "^7.0"
+                },
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Bhavingajjar\\LaravelApiGenerator\\LaravelApiGeneratorServiceProvider"
+                        ],
+                        "aliases": {
+                            "LaravelApiGenerator": "Bhavingajjar\\LaravelApiGenerator\\LaravelApiGeneratorFacade"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Bhavingajjar\\LaravelApiGenerator\\": "src"
+                    }
+                }
+            }
+        ]
+    }
+}

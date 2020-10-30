@@ -1,0 +1,122 @@
+{
+    "packages": {
+        "horde/xml_element": [
+            {
+                "name": "horde/xml_element",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Xml_Element.git",
+                    "reference": "5de8b10abc8fead26e64523d04d6bc65523aeeed"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Xml_Element/zipball/5de8b10abc8fead26e64523d04d6bc65523aeeed",
+                    "reference": "5de8b10abc8fead26e64523d04d6bc65523aeeed",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-01-09T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Xml Element object",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/xml_element",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Xml_Element.git",
+                    "reference": "4c9917355e32359893f6414305aca39bc8627b20"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Xml_Element/zipball/4c9917355e32359893f6414305aca39bc8627b20",
+                    "reference": "4c9917355e32359893f6414305aca39bc8627b20",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-04-28T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Xml Element object",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/xml_element",
+                "version": "2.0.4",
+                "version_normalized": "2.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Xml_Element.git",
+                    "reference": "dc0873a035b21584d1d2cef715e09a411443106b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Xml_Element/zipball/dc0873a035b21584d1d2cef715e09a411443106b",
+                    "reference": "dc0873a035b21584d1d2cef715e09a411443106b",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-02-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Xml Element object",
+                "homepage": "http://pear.horde.org"
+            }
+        ]
+    }
+}

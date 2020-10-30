@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/analytics-api": [
+            {
+                "name": "phpclasses/analytics-api",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/analytics-api.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "analytics_api.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

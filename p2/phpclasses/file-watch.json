@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/file-watch": [
+            {
+                "name": "phpclasses/file-watch",
+                "version": "3.1.2",
+                "version_normalized": "3.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/file-watch.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "twzFileWatch.class.php",
+                        "twzFileWatch.class.mini.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

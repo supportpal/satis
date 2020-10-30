@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/quadratic-equation": [
+            {
+                "name": "phpclasses/quadratic-equation",
+                "version": "2.1",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/quadratic-equation.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "QuadraticEquation.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

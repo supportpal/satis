@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/jaxon-codeigniter": [
+            {
+                "name": "phpclasses/jaxon-codeigniter",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/jaxon-codeigniter.zip"
+                },
+                "require": {
+                    "jaxon-php/jaxon-sentry": "~2.0",
+                    "phpclasses/jaxon-sentry": "2.0.5"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Jaxon\\CI\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

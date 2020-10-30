@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/easy-sql": [
+            {
+                "name": "phpclasses/easy-sql",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/easy-sql.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "inc/data_base.php",
+                        "inc/easy_sql.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

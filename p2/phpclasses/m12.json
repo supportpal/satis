@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/m12": [
+            {
+                "name": "phpclasses/m12",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/m12.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "IncredibleTimestamp.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

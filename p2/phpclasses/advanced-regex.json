@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/advanced-regex": [
+            {
+                "name": "phpclasses/advanced-regex",
+                "version": "1.0.8",
+                "version_normalized": "1.0.8.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/advanced-regex.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Regex.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "phpclasses/reportlib": [
+            {
+                "name": "phpclasses/reportlib",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/reportlib.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ReportLib/DetallePagina.php",
+                        "ReportLib/EncabezadoPagina.php",
+                        "ReportLib/EscLib.php",
+                        "ReportLib/FormatoBloque.php",
+                        "ReportLib/MainObject.php",
+                        "ReportLib/Pagina.php",
+                        "ReportLib/PiePagina.php",
+                        "ReportLib/ReportLib.php",
+                        "ReportLib/ResumenPagina.php",
+                        "ReportLib/TituloPagina.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

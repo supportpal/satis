@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/powershell-remoting": [
+            {
+                "name": "phpclasses/powershell-remoting",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/powershell-remoting.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "PowerShell.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/login-script-pdo": [
+            {
+                "name": "phpclasses/login-script-pdo",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/login-script-pdo.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "sys.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

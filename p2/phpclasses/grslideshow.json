@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/grslideshow": [
+            {
+                "name": "phpclasses/grslideshow",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/grslideshow.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "GRSlideShow.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

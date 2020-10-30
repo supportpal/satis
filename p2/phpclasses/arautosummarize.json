@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/arautosummarize": [
+            {
+                "name": "phpclasses/arautosummarize",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/arautosummarize.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "arAutoSummarize.class.php",
+                        "php5/arAutoSummarize.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

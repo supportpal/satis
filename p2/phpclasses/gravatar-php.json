@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/gravatar-php": [
+            {
+                "name": "phpclasses/gravatar-php",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/gravatar-php.zip"
+                },
+                "require-dev": {
+                    "phpspec/phpspec": "~2.0",
+                    "phpunit/phpunit": "4.*"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Gravatar\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

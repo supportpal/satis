@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/b5-gbk-trans": [
+            {
+                "name": "phpclasses/b5-gbk-trans",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/b5-gbk-trans.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "TranslateChinese.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

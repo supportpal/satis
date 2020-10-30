@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/doublemetaphone": [
+            {
+                "name": "phpclasses/doublemetaphone",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/doublemetaphone.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "DoubleMetaPhone.php3",
+                        "double_metaphone_func_1-01.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

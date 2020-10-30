@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/zend-form-builder": [
+            {
+                "name": "phpclasses/zend-form-builder",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/zend-form-builder.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Zend_Form_Base_class.php",
+                        "ZendForm.Class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

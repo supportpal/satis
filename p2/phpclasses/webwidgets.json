@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/webwidgets": [
+            {
+                "name": "phpclasses/webwidgets",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/webwidgets.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Base.lib.php",
+                        "FormControls.lib.php",
+                        "FormControlSets.lib.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/twitter": [
+            {
+                "name": "phpclasses/twitter",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/twitter.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Twitter.class.php",
+                        "Twitter.class.php4"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/php-locale-kit": [
+            {
+                "name": "phpclasses/php-locale-kit",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-locale-kit.zip"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "require-dev": {
+                    "php": ">=7.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "php-locale-kit.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

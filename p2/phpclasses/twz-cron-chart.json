@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/twz-cron-chart": [
+            {
+                "name": "phpclasses/twz-cron-chart",
+                "version": "1.1.4",
+                "version_normalized": "1.1.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/twz-cron-chart.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "twzCronChart.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/qr-sat": [
+            {
+                "name": "phpclasses/qr-sat",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/qr-sat.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "qr_img.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

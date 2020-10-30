@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/gen-md": [
+            {
+                "name": "phpclasses/gen-md",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/gen-md.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "ABGEO\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

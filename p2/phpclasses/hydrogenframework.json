@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/hydrogenframework": [
+            {
+                "name": "phpclasses/hydrogenframework",
+                "version": "1.0.10",
+                "version_normalized": "1.0.10.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/hydrogenframework.zip"
+                },
+                "require": {
+                    "dilawsky/hydrogen-console": "dev-master",
+                    "dilawsky/hydrogen-zipper": "dev-master"
+                },
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "src\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

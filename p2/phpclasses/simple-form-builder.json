@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/simple-form-builder": [
+            {
+                "name": "phpclasses/simple-form-builder",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/simple-form-builder.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "PHPClassForm.php",
+                        "PHPClassFormInputTypes.php",
+                        "PHPInterfaceTags.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

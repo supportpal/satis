@@ -1,0 +1,32 @@
+{
+    "packages": {
+        "phpclasses/ldr-todo": [
+            {
+                "name": "phpclasses/ldr-todo",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ldr-todo.zip"
+                },
+                "require": {
+                    "phpclasses/ladder": "1.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Calendar_Week.cls",
+                        "Common_List5.cls",
+                        "Common_Panel.cls",
+                        "Common_Todo.cls",
+                        "Common_Todos.cls",
+                        "Task_Priorities.cls",
+                        "Task_Types.cls",
+                        "Todo_Edit.cls",
+                        "Todo_View.cls"
+                    ]
+                }
+            }
+        ]
+    }
+}

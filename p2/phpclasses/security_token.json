@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/security_token": [
+            {
+                "name": "phpclasses/security_token",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/security_token.zip"
+                },
+                "require": {
+                    "phpclasses/html_element": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Security/Token.php",
+                        "Validator/Base.php",
+                        "Validator/Token.php",
+                        "Validator/SessionToken.php",
+                        "Test/Validator/Base.php",
+                        "Test/Validator/SessionToken.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

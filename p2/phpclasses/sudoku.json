@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/sudoku": [
+            {
+                "name": "phpclasses/sudoku",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/sudoku.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "NumberField.class.php",
+                        "Solver.class.php",
+                        "Sudoku.class.php",
+                        "sudoku4/Solver.class.php",
+                        "sudoku4/Sudoku.class.php",
+                        "sudoku4/NumberField.class.php",
+                        "DLX.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

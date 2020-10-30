@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/joomla-auth-user": [
+            {
+                "name": "phpclasses/joomla-auth-user",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/joomla-auth-user.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "joomla_connect.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

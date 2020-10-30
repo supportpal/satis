@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/depcheck": [
+            {
+                "name": "phpclasses/depcheck",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/depcheck.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "depcheck.class.php",
+                        "extended_sql/depcheck.class.extended.php",
+                        "extended_sql/db.mysqli.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

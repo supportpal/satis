@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/esi_utility": [
+            {
+                "name": "phpclasses/esi_utility",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/esi_utility.zip"
+                },
+                "require": {
+                    "php": ">=7.0.0"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Esi\\Utility\\": "src/Utility"
+                    }
+                }
+            }
+        ]
+    }
+}

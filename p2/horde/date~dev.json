@@ -1,0 +1,275 @@
+{
+    "packages": {
+        "horde/date": [
+            {
+                "name": "horde/date",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Date.git",
+                    "reference": "f67100fb94f60b74e39984fd68efaab770e0d02f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Date/zipball/f67100fb94f60b74e39984fd68efaab770e0d02f",
+                    "reference": "f67100fb94f60b74e39984fd68efaab770e0d02f",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "dev-master",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/nls": "dev-master",
+                    "horde/translation": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "ext-calendar": "*",
+                    "horde/icalendar": "^2",
+                    "horde/test": "^2.1"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Date": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Date library",
+                "homepage": "https://www.horde.org/libraries/Horde_Date"
+            },
+            {
+                "name": "horde/date",
+                "version": "dev-FRAMEWORK_5_2",
+                "version_normalized": "dev-FRAMEWORK_5_2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Date.git",
+                    "reference": "a0be73da6f681a77a9642ae9fb98db2395d177c8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Date/zipball/a0be73da6f681a77a9642ae9fb98db2395d177c8",
+                    "reference": "a0be73da6f681a77a9642ae9fb98db2395d177c8",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_nls": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_date": "2.*",
+                    "pear-pear.horde.org/horde_date": "2.*"
+                },
+                "suggest": {
+                    "ext-calendar": "*",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Date": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Date library",
+                "homepage": "https://www.horde.org/libraries/Horde_Date"
+            },
+            {
+                "name": "horde/date",
+                "version": "dev-horde-upstream",
+                "version_normalized": "dev-horde-upstream",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Date.git",
+                    "reference": "047bdc98b81a46b65ff6fd845709ecf72e9c16e2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Date/zipball/047bdc98b81a46b65ff6fd845709ecf72e9c16e2",
+                    "reference": "047bdc98b81a46b65ff6fd845709ecf72e9c16e2",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_nls": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_date": "2.*",
+                    "pear-pear.horde.org/horde_date": "2.*"
+                },
+                "suggest": {
+                    "ext-calendar": "*",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Date": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Date library",
+                "homepage": "https://www.horde.org/libraries/Horde_Date"
+            },
+            {
+                "name": "horde/date",
+                "version": "dev-maintaina-bare",
+                "version_normalized": "dev-maintaina-bare",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Date.git",
+                    "reference": "047bdc98b81a46b65ff6fd845709ecf72e9c16e2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Date/zipball/047bdc98b81a46b65ff6fd845709ecf72e9c16e2",
+                    "reference": "047bdc98b81a46b65ff6fd845709ecf72e9c16e2",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_nls": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_date": "2.*",
+                    "pear-pear.horde.org/horde_date": "2.*"
+                },
+                "suggest": {
+                    "ext-calendar": "*",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Date": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Date library",
+                "homepage": "https://www.horde.org/libraries/Horde_Date"
+            },
+            {
+                "name": "horde/date",
+                "version": "dev-maintaina-composerfixed",
+                "version_normalized": "dev-maintaina-composerfixed",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Date.git",
+                    "reference": "851ef9e572b1ed50885c2bca65968169ecd51765"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Date/zipball/851ef9e572b1ed50885c2bca65968169ecd51765",
+                    "reference": "851ef9e572b1ed50885c2bca65968169ecd51765",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "dev-master",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/nls": "dev-master",
+                    "horde/translation": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "ext-calendar": "*",
+                    "horde/icalendar": "^2",
+                    "horde/test": "^2.1"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Date": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Date library",
+                "homepage": "https://www.horde.org/libraries/Horde_Date"
+            }
+        ]
+    }
+}

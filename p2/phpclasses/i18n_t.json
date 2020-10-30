@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/i18n_t": [
+            {
+                "name": "phpclasses/i18n_t",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/i18n_t.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.dictionnaires.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

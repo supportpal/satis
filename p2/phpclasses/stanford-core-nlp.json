@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/stanford-core-nlp": [
+            {
+                "name": "phpclasses/stanford-core-nlp",
+                "version": "4.0.8",
+                "version_normalized": "4.0.8.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/stanford-core-nlp.zip"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^6.2.0",
+                    "php": ">=5.5"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "packages": {
+        "horde/scheduler": [
+            {
+                "name": "horde/scheduler",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Scheduler.git",
+                    "reference": "0ab2519daf90d0f9e6201b9d79fc00a4703e6a67"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Scheduler/zipball/0ab2519daf90d0f9e6201b9d79fc00a4703e6a67",
+                    "reference": "0ab2519daf90d0f9e6201b9d79fc00a4703e6a67",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_core": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_vfs": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "time": "2015-01-09T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Scheduler System",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/scheduler",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Scheduler.git",
+                    "reference": "3c9b64483f9b8009aa481ad24711dc579c460bb0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Scheduler/zipball/3c9b64483f9b8009aa481ad24711dc579c460bb0",
+                    "reference": "3c9b64483f9b8009aa481ad24711dc579c460bb0",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_core": "^2@stable",
+                    "pear-pear.horde.org/horde_util": "^2@stable",
+                    "pear-pear.horde.org/horde_vfs": "^2@stable",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_scheduler": "2.*",
+                    "pear-pear.horde.org/horde_scheduler": "2.*"
+                },
+                "time": "2017-09-19T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Scheduler": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Scheduler System",
+                "homepage": "https://pear.horde.org"
+            }
+        ]
+    }
+}

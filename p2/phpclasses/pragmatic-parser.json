@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/pragmatic-parser": [
+            {
+                "name": "phpclasses/pragmatic-parser",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/pragmatic-parser.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "parser.class.php",
+                        "SQL/SQLLexer.class.php",
+                        "RTF/RTFLexer.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

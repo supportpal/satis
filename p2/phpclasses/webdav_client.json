@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/webdav_client": [
+            {
+                "name": "phpclasses/webdav_client",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/webdav_client.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class_webdav_client.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

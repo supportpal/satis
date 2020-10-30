@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/apache-conf": [
+            {
+                "name": "phpclasses/apache-conf",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/apache-conf.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Conf.php",
+                        "Directive.php",
+                        "DirectiveCollection.php",
+                        "DirectiveGroup.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

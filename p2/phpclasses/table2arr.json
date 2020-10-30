@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/table2arr": [
+            {
+                "name": "phpclasses/table2arr",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/table2arr.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "table2arr.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/ncdc": [
+            {
+                "name": "phpclasses/ncdc",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ncdc.zip"
+                },
+                "require": {
+                    "danielstjules/stringy": "~3.1.0",
+                    "php": "^7.2.5"
+                },
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "App\\": "app/"
+                    }
+                }
+            }
+        ]
+    }
+}

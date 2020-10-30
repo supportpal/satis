@@ -1,0 +1,35 @@
+{
+    "packages": {
+        "phpclasses/torm": [
+            {
+                "name": "phpclasses/torm",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/torm.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "builder.php",
+                        "collection.php",
+                        "connection.php",
+                        "driver.php",
+                        "factory.php",
+                        "inflections.php",
+                        "log.php",
+                        "model.php",
+                        "validation.php",
+                        "drivers/mysql.php",
+                        "drivers/oracle.php",
+                        "drivers/sqlite.php",
+                        "models/account.php",
+                        "models/ticket.php",
+                        "models/user.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

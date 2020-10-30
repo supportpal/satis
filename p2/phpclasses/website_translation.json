@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/website_translation": [
+            {
+                "name": "phpclasses/website_translation",
+                "version": "3.9",
+                "version_normalized": "3.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/website_translation.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "tranasalatorhelper.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/smart-string": [
+            {
+                "name": "phpclasses/smart-string",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/smart-string.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "lib/SmartString.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

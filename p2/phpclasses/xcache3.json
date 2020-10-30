@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/xcache3": [
+            {
+                "name": "phpclasses/xcache3",
+                "version": "3.3",
+                "version_normalized": "3.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/xcache3.zip"
+                },
+                "require": {
+                    "php": ">=5.4.0"
+                },
+                "type": "git",
+                "autoload": {
+                    "psr-0": {
+                        "XCache": "lib/"
+                    }
+                }
+            }
+        ]
+    }
+}

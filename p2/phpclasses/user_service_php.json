@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/user_service_php": [
+            {
+                "name": "phpclasses/user_service_php",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/user_service_php.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "user_service_php.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

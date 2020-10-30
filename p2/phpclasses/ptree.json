@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/ptree": [
+            {
+                "name": "phpclasses/ptree",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ptree.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.pTree.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

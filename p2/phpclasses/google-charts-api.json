@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/google-charts-api": [
+            {
+                "name": "phpclasses/google-charts-api",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/google-charts-api.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "gcharts.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

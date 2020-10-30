@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/fen2diag": [
+            {
+                "name": "phpclasses/fen2diag",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/fen2diag.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "fen2Diagram.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

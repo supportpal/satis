@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/base_db": [
+            {
+                "name": "phpclasses/base_db",
+                "version": "57",
+                "version_normalized": "57.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/base_db.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class-db.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

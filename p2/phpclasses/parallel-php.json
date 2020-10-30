@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/parallel-php": [
+            {
+                "name": "phpclasses/parallel-php",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/parallel-php.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "test/synchronous-forker.php",
+                        "test/sleep.php",
+                        "Forker/ForkerInit.inc.php",
+                        "Forker/ForkerManager.inc.php",
+                        "Forker/Forker.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/zbase32": [
+            {
+                "name": "phpclasses/zbase32",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/zbase32.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "5.2/zbase32.php",
+                        "5.3/zbase32.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/numero_extenso": [
+            {
+                "name": "phpclasses/numero_extenso",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/numero_extenso.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "numeroExtenso.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

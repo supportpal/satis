@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/mysqlinfo": [
+            {
+                "name": "phpclasses/mysqlinfo",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mysqlinfo.zip"
+                },
+                "require": {
+                    "phpclasses/extfpdf": "1.0.3"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "MySqlInfoTable.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

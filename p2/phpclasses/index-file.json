@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/index-file": [
+            {
+                "name": "phpclasses/index-file",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/index-file.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "indexfile.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

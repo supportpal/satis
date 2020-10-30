@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/kis-ffmpeg": [
+            {
+                "name": "phpclasses/kis-ffmpeg",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/kis-ffmpeg.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Video.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

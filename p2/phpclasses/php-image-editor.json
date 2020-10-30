@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/php-image-editor": [
+            {
+                "name": "phpclasses/php-image-editor",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-image-editor.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "image_editor.php",
+                        "plugins/SE_effects.php",
+                        "plugins/SE_basic.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

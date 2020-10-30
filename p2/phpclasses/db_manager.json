@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/db_manager": [
+            {
+                "name": "phpclasses/db_manager",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/db_manager.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Database.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

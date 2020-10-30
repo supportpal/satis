@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/sql-class-php": [
+            {
+                "name": "phpclasses/sql-class-php",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/sql-class-php.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "mysql.inc.php",
+                        "mssql.inc.php",
+                        "sqlite2.inc.php",
+                        "sqlite3.inc.php",
+                        "mysqli.inc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

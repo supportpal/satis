@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/router-class": [
+            {
+                "name": "phpclasses/router-class",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/router-class.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "router.class.php",
+                        "config.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

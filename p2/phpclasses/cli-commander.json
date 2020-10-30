@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/cli-commander": [
+            {
+                "name": "phpclasses/cli-commander",
+                "version": "1.7",
+                "version_normalized": "1.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/cli-commander.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "CLICommander.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

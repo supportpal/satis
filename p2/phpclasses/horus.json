@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/horus": [
+            {
+                "name": "phpclasses/horus",
+                "version": "8",
+                "version_normalized": "8.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/horus.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Horus.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

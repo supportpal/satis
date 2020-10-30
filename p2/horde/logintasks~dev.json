@@ -1,0 +1,235 @@
+{
+    "packages": {
+        "horde/logintasks": [
+            {
+                "name": "horde/logintasks",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/LoginTasks.git",
+                    "reference": "26d8615fa8830ff5f8ee6c730eaa95a1683e8cd9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/LoginTasks/zipball/26d8615fa8830ff5f8ee6c730eaa95a1683e8cd9",
+                    "reference": "26d8615fa8830ff5f8ee6c730eaa95a1683e8cd9",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/translation": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "horde/date": "^2",
+                    "horde/test": "^2.1"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_LoginTasks": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Login tasks library",
+                "homepage": "https://www.horde.org/libraries/Horde_LoginTasks"
+            },
+            {
+                "name": "horde/logintasks",
+                "version": "dev-FRAMEWORK_5_2",
+                "version_normalized": "dev-FRAMEWORK_5_2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/LoginTasks.git",
+                    "reference": "f7e887bb54af0a6ea0bd1c26c8c7f5989e123d8b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/LoginTasks/zipball/f7e887bb54af0a6ea0bd1c26c8c7f5989e123d8b",
+                    "reference": "f7e887bb54af0a6ea0bd1c26c8c7f5989e123d8b",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_logintasks": "2.*",
+                    "pear-pear.horde.org/horde_logintasks": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_date": "^2",
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_LoginTasks": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Login tasks library",
+                "homepage": "https://www.horde.org/libraries/Horde_LoginTasks"
+            },
+            {
+                "name": "horde/logintasks",
+                "version": "dev-horde-upstream",
+                "version_normalized": "dev-horde-upstream",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/LoginTasks.git",
+                    "reference": "8852c9240ad344d597a87dd0122b1153b26d688f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/LoginTasks/zipball/8852c9240ad344d597a87dd0122b1153b26d688f",
+                    "reference": "8852c9240ad344d597a87dd0122b1153b26d688f",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_logintasks": "2.*",
+                    "pear-pear.horde.org/horde_logintasks": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_date": "^2",
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_LoginTasks": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Login tasks library",
+                "homepage": "https://www.horde.org/libraries/Horde_LoginTasks"
+            },
+            {
+                "name": "horde/logintasks",
+                "version": "dev-maintaina-bare",
+                "version_normalized": "dev-maintaina-bare",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/LoginTasks.git",
+                    "reference": "8852c9240ad344d597a87dd0122b1153b26d688f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/LoginTasks/zipball/8852c9240ad344d597a87dd0122b1153b26d688f",
+                    "reference": "8852c9240ad344d597a87dd0122b1153b26d688f",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_logintasks": "2.*",
+                    "pear-pear.horde.org/horde_logintasks": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_date": "^2",
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_LoginTasks": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Login tasks library",
+                "homepage": "https://www.horde.org/libraries/Horde_LoginTasks"
+            },
+            {
+                "name": "horde/logintasks",
+                "version": "dev-maintaina-composerfixed",
+                "version_normalized": "dev-maintaina-composerfixed",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/LoginTasks.git",
+                    "reference": "01156c7ee69b5245eb6e9637200f7658cc0f1ca9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/LoginTasks/zipball/01156c7ee69b5245eb6e9637200f7658cc0f1ca9",
+                    "reference": "01156c7ee69b5245eb6e9637200f7658cc0f1ca9",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/translation": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "horde/date": "^2",
+                    "horde/test": "^2.1"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_LoginTasks": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Login tasks library",
+                "homepage": "https://www.horde.org/libraries/Horde_LoginTasks"
+            }
+        ]
+    }
+}

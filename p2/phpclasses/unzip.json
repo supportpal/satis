@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/unzip": [
+            {
+                "name": "phpclasses/unzip",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/unzip.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "unzip.cls.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

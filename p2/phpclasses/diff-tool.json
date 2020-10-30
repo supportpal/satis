@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/diff-tool": [
+            {
+                "name": "phpclasses/diff-tool",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/diff-tool.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class_diffTool.php",
+                        "class_textEditor.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

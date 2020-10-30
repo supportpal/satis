@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/fluent-query-builder": [
+            {
+                "name": "phpclasses/fluent-query-builder",
+                "version": "0.9.2",
+                "version_normalized": "0.9.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/fluent-query-builder.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "PtcQueryBuilder.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

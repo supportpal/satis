@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/stream-steganography": [
+            {
+                "name": "phpclasses/stream-steganography",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/stream-steganography.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "streamsteganography.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

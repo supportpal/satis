@@ -1,0 +1,55 @@
+{
+    "packages": {
+        "phpclasses/boiler": [
+            {
+                "name": "phpclasses/boiler",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/boiler.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "build/phpunit/Bindings/Selenium2BrowserTestSuite.php",
+                        "build/phpunit/Bindings/Selenium2TestCase.php",
+                        "build/phpunit/Bindings/Selenium2TestDriver.php",
+                        "build/phpunit/Bindings/Selenium2TestSuite.php",
+                        "framework/application/controller/BaseController.php",
+                        "framework/application/controller/Home.php",
+                        "framework/application/core/Router.php",
+                        "framework/application/library/ACL.php",
+                        "framework/application/library/FieldProperties.php",
+                        "framework/application/model/DBObject.php",
+                        "framework/system/controller/Framework.php",
+                        "framework/system/core/Router.php",
+                        "framework/system/library/ACL.php",
+                        "framework/system/library/BoilerException.php",
+                        "framework/system/library/FieldProperties.php",
+                        "framework/system/library/Lexical.php",
+                        "framework/system/library/Security.php",
+                        "framework/system/library/StdLib.php",
+                        "framework/system/model/DBObject.php",
+                        "websocket/src/MyApp/Chat.php",
+                        "websocket/src/MyApp/Pusher.php",
+                        "websocket/vendor/composer/ClassLoader.php",
+                        "build/phpunit/Bindings/WebDriver/Keys.php",
+                        "build/phpunit/Bindings/WebDriver/LocatorStrategy.php",
+                        "build/phpunit/Bindings/WebDriver/MouseButton.php",
+                        "build/phpunit/Bindings/WebDriver/NoSuchElementException.php",
+                        "build/phpunit/Bindings/WebDriver/WebDriverBase.php",
+                        "build/phpunit/Bindings/WebDriver/WebDriverException.php",
+                        "build/phpunit/Bindings/WebDriver/WebDriverResponseStatus.php",
+                        "build/phpunit/Bindings/WebDriver/WebElement.php",
+                        "framework/application/controller/api/ModelController.php",
+                        "framework/application/library/widget/Widget.php",
+                        "framework/system/controller/api/ModelController.php",
+                        "framework/system/library/data/DataStream.php",
+                        "framework/system/library/data/InputModule.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

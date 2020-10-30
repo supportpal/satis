@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/gloomy-honeypot": [
+            {
+                "name": "phpclasses/gloomy-honeypot",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/gloomy-honeypot.zip"
+                },
+                "require": {
+                    "monolog/monolog": ">=1.23.0",
+                    "php": "^5.3.3 || ^7.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "4.0.*"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Dominiquevienne\\Honeypot\\": "src"
+                    }
+                }
+            }
+        ]
+    }
+}

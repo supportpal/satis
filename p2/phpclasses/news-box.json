@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/news-box": [
+            {
+                "name": "phpclasses/news-box",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/news-box.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "newsbox.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

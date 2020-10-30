@@ -1,0 +1,44 @@
+{
+    "packages": {
+        "phpclasses/myxml": [
+            {
+                "name": "phpclasses/myxml",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/myxml.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "myXML/Automat.php",
+                        "myXML/myXSLT/myXSLT.php",
+                        "myXML/myDOM/Attr.php",
+                        "myXML/myDOM/CDATASection.php",
+                        "myXML/myDOM/CharacterData.php",
+                        "myXML/myDOM/Comment.php",
+                        "myXML/myDOM/DocumentFragment.php",
+                        "myXML/myDOM/DocumentType.php",
+                        "myXML/myDOM/DOMImplementation.php",
+                        "myXML/myDOM/Element.php",
+                        "myXML/myDOM/Entity.php",
+                        "myXML/myDOM/EntityReference.php",
+                        "myXML/myDOM/myDom.php",
+                        "myXML/myDOM/NamedNodeMap.php",
+                        "myXML/myDOM/Node.php",
+                        "myXML/myDOM/NodeList.php",
+                        "myXML/myDOM/Notation.php",
+                        "myXML/myDOM/ProcessingInstruction.php",
+                        "myXML/myDOM/Text.php",
+                        "myXML/myXPath/myXPath.php",
+                        "myXML/myXPath/XPathParser.php",
+                        "myXML/myXPath/XPredicateParser.php",
+                        "myXML/myDOM/Parser.php",
+                        "myXML/XML_Preprocessor.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

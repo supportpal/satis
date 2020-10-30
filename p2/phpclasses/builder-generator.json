@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/builder-generator": [
+            {
+                "name": "phpclasses/builder-generator",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/builder-generator.zip"
+                },
+                "require": {
+                    "phpclasses/configuration-trait": "2.9"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/Phabstractic/Patterns/Builder.php",
+                        "src/Phabstractic/Patterns/Resource/BuilderInterface.php",
+                        "src/Phabstractic/Patterns/Exception/RuntimeException.php",
+                        "src/Phabstractic/Patterns/Exception/CodeGenerationException.php",
+                        "src/Phabstractic/Patterns/Exception/RangeException.php",
+                        "src/Phabstractic/Patterns/Exception/ExceptionInterface.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

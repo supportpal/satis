@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/falcraftprototypes": [
+            {
+                "name": "phpclasses/falcraftprototypes",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/falcraftprototypes.zip"
+                },
+                "require": {
+                    "phpclasses/configuration-trait": "2.9",
+                    "phpclasses/falcraftdatatypes": "1.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Falcraft/Patterns/Prototype.php",
+                        "Falcraft/Patterns/Exception/ExceptionInterface.php",
+                        "Falcraft/Patterns/Exception/RuntimeException.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

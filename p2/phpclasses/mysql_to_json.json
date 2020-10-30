@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/mysql_to_json": [
+            {
+                "name": "phpclasses/mysql_to_json",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mysql_to_json.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "mysql_to_json.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

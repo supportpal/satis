@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/folderbase-php-route": [
+            {
+                "name": "phpclasses/folderbase-php-route",
+                "version": "0.11",
+                "version_normalized": "0.11.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/folderbase-php-route.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "lib/Router.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/simply-text-file": [
+            {
+                "name": "phpclasses/simply-text-file",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/simply-text-file.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "file.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

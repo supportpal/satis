@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/plugin-mercado-pago": [
+            {
+                "name": "phpclasses/plugin-mercado-pago",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/plugin-mercado-pago.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Sit/Plugin/Pago/Mercado.php",
+                        "Sit/Plugin/Pago/Mercado/Abs.php",
+                        "Sit/Plugin/Pago/Mercado/Exception.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

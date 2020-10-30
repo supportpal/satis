@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/sec-sess-management": [
+            {
+                "name": "phpclasses/sec-sess-management",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/sec-sess-management.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "systems/mcrypt_cryptography.php",
+                        "systems/session_manager.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-md5-decrypter": [
+            {
+                "name": "phpclasses/php-md5-decrypter",
+                "version": "2",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-md5-decrypter.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "PhpMd5Decrypter.inc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

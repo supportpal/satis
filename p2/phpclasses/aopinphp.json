@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/aopinphp": [
+            {
+                "name": "phpclasses/aopinphp",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/aopinphp.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/Lib/Aop/Advice.php",
+                        "src/Lib/Aop/Aspect.php",
+                        "src/Lib/Aop/Exception.php",
+                        "src/Lib/Aop/Pointcut.php",
+                        "src/Lib/Aop/Dto/Trace.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

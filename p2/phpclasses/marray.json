@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/marray": [
+            {
+                "name": "phpclasses/marray",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/marray.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "obj.marray.php",
+                        "obj.marray.compressed.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

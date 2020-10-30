@@ -1,0 +1,51 @@
+{
+    "packages": {
+        "phpclasses/paypal-woocommerce": [
+            {
+                "name": "phpclasses/paypal-woocommerce",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/paypal-woocommerce.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "index.php",
+                        "uninstall.php",
+                        "admin/class-all-in-one-paypal-for-woocommerce-admin.php",
+                        "admin/index.php",
+                        "includes/class-all-in-one-paypal-for-woocommerce-activator.php",
+                        "includes/class-all-in-one-paypal-for-woocommerce-deactivator.php",
+                        "includes/class-all-in-one-paypal-for-woocommerce-i18n.php",
+                        "includes/class-all-in-one-paypal-for-woocommerce-loader.php",
+                        "includes/class-all-in-one-paypal-for-woocommerce.php",
+                        "includes/index.php",
+                        "public/class-all-in-one-paypal-for-woocommerce-public.php",
+                        "template/paypal-review-order.php",
+                        "admin/partials/class-all-in-one-paypal-for-woocommerce-admin-paypal-adaptive-payments.php",
+                        "admin/partials/class-all-in-one-paypal-for-woocommerce-admin-paypal-advanced.php",
+                        "admin/partials/class-all-in-one-paypal-for-woocommerce-admin-paypal-digital-goods.php",
+                        "admin/partials/class-all-in-one-paypal-for-woocommerce-admin-paypal-express.php",
+                        "admin/partials/class-all-in-one-paypal-for-woocommerce-admin-paypal-pro-hosted.php",
+                        "admin/partials/class-all-in-one-paypal-for-woocommerce-admin-paypal-pro-payflow.php",
+                        "admin/partials/class-all-in-one-paypal-for-woocommerce-admin-paypal-pro.php",
+                        "admin/partials/lib/CentinelClient.php",
+                        "admin/partials/lib/CentinelErrors.php",
+                        "admin/partials/lib/CentinelUtility.php",
+                        "admin/partials/lib/NameParser.php",
+                        "admin/partials/lib/XMLParser.php",
+                        "admin/partials/lib/paypal-digital-goods/paypal-configuration.class.php",
+                        "admin/partials/lib/paypal-digital-goods/paypal-digital-goods.class.php",
+                        "admin/partials/lib/paypal-digital-goods/paypal-purchase.class.php",
+                        "admin/partials/lib/paypal-digital-goods/paypal-subscription.class.php",
+                        "admin/partials/lib/paypal-php-library/includes/config-sample.php",
+                        "admin/partials/lib/paypal-php-library/includes/paypal.class.php",
+                        "admin/partials/lib/paypal-php-library/includes/paypal.nvp.callback.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

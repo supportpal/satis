@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/edictionary": [
+            {
+                "name": "phpclasses/edictionary",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/edictionary.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "EDictionary.php",
+                        "adapters/ETAdapterAbbyyLingvo.php",
+                        "adapters/ETAdapterAbstract.php",
+                        "adapters/ETAdapterYandexDict.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

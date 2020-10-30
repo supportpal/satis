@@ -1,0 +1,161 @@
+{
+    "packages": {
+        "horde/rdo": [
+            {
+                "name": "horde/rdo",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Rdo.git",
+                    "reference": "449aaf4c43e909edabccea4bb37eec90c9711564"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Rdo/zipball/449aaf4c43e909edabccea4bb37eec90c9711564",
+                    "reference": "449aaf4c43e909edabccea4bb37eec90c9711564",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-01-09T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Rampage Data Objects",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/rdo",
+                "version": "2.0.4",
+                "version_normalized": "2.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Rdo.git",
+                    "reference": "5be4ce6e0326a01f2ab1aae7a48eda201b07dfa8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Rdo/zipball/5be4ce6e0326a01f2ab1aae7a48eda201b07dfa8",
+                    "reference": "5be4ce6e0326a01f2ab1aae7a48eda201b07dfa8",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-04-28T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Rampage Data Objects",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/rdo",
+                "version": "2.0.5",
+                "version_normalized": "2.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Rdo.git",
+                    "reference": "dc7aa576efcdea68759a00ab2e15c66a78e4c9cb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Rdo/zipball/dc7aa576efcdea68759a00ab2e15c66a78e4c9cb",
+                    "reference": "dc7aa576efcdea68759a00ab2e15c66a78e4c9cb",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-02-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Rampage Data Objects",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/rdo",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Rdo.git",
+                    "reference": "826dbad79ace97440253207a0e60ce23a8259994"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Rdo/zipball/826dbad79ace97440253207a0e60ce23a8259994",
+                    "reference": "826dbad79ace97440253207a0e60ce23a8259994",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_db": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-09-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Rampage Data Objects",
+                "homepage": "https://pear.horde.org"
+            }
+        ]
+    }
+}

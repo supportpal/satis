@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/simplelargexmlparser": [
+            {
+                "name": "phpclasses/simplelargexmlparser",
+                "version": "1.6",
+                "version_normalized": "1.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/simplelargexmlparser.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "SimpleLargeXMLParser.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

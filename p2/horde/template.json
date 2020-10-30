@@ -1,0 +1,88 @@
+{
+    "packages": {
+        "horde/template": [
+            {
+                "name": "horde/template",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Template.git",
+                    "reference": "5b74006bcca6988fa825c6d592dd68c11d93c0fe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Template/zipball/5b74006bcca6988fa825c6d592dd68c11d93c0fe",
+                    "reference": "5b74006bcca6988fa825c6d592dd68c11d93c0fe",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-01-09T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Template System",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/template",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Template.git",
+                    "reference": "b2126e82d62bcc1496290c098d3ea375aae80650"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Template/zipball/b2126e82d62bcc1496290c098d3ea375aae80650",
+                    "reference": "b2126e82d62bcc1496290c098d3ea375aae80650",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-02-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Template System",
+                "homepage": "http://pear.horde.org"
+            }
+        ]
+    }
+}

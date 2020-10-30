@@ -1,0 +1,55 @@
+{
+    "packages": {
+        "phpclasses/rest": [
+            {
+                "name": "phpclasses/rest",
+                "version": "1.0.14",
+                "version_normalized": "1.0.14.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/rest.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/Rest.php",
+                        "src/Core/Configuration.php",
+                        "src/Core/Core.php",
+                        "src/Core/CurlOpts.php",
+                        "src/Core/Error.php",
+                        "src/Exceptions/RestException.php",
+                        "src/Modules/BaseModule.php",
+                        "src/Payloads/Headers.php",
+                        "src/Payloads/Request.php",
+                        "src/Payloads/Response.php",
+                        "src/Modules/Decoders/BaseDecoder.php",
+                        "src/Modules/Decoders/JSONDecoder.php",
+                        "src/Modules/Decoders/XMLDecoder.php",
+                        "src/Modules/Decoders/XMLRPCDecoder.php",
+                        "src/Modules/Encoders/BaseEncoder.php",
+                        "src/Modules/Encoders/JSONEncoder.php",
+                        "src/Modules/Encoders/XMLRPCEncoder.php",
+                        "tests/HeadersTest.php",
+                        "src/Exceptions/ConfigurationException.php",
+                        "src/Exceptions/ConnectionException.php",
+                        "src/Exceptions/ModuleNotFoundException.php",
+                        "tests/ConfigurationTest.php",
+                        "tests/DecodersTest.php",
+                        "tests/QuickCallsTest.php",
+                        "tests/EncodersTest.php",
+                        "tests/ErrorTest.php",
+                        "tests/ModulesTest.php",
+                        "tests/ResponseTest.php",
+                        "src/Modules/ModuleInterface.php",
+                        "tests/Modules/Dummy.php",
+                        "tests/Rest/CoreTester.php",
+                        "src/Modules/Decoders/DecoderInterface.php",
+                        "src/Modules/Encoders/EncoderInterface.php",
+                        "tests/Modules/Decoders/DummyDecoder.php",
+                        "tests/Modules/Encoders/DummyEncoder.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/evens-waps": [
+            {
+                "name": "phpclasses/evens-waps",
+                "version": "1.6",
+                "version_normalized": "1.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/evens-waps.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Clwsinc.php",
+                        "instfile.php",
+                        "comparator"
+                    ]
+                }
+            }
+        ]
+    }
+}

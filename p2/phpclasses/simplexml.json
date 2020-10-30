@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/simplexml": [
+            {
+                "name": "phpclasses/simplexml",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/simplexml.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "simplexml.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

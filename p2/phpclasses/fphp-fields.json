@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/fphp-fields": [
+            {
+                "name": "phpclasses/fphp-fields",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/fphp-fields.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "dist/php/fphp/fields/BoxesField.php",
+                        "dist/php/fphp/fields/ButtonField.php",
+                        "dist/php/fphp/fields/ErrorParserFields.php",
+                        "dist/php/fphp/fields/FieldInterface.php",
+                        "dist/php/fphp/fields/FormField.php",
+                        "dist/php/fphp/fields/InputField.php",
+                        "dist/php/fphp/fields/MasterFields.php",
+                        "dist/php/fphp/fields/SelectField.php",
+                        "dist/php/fphp/fields/TextareaField.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

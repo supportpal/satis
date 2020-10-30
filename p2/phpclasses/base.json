@@ -1,0 +1,62 @@
+{
+    "packages": {
+        "phpclasses/base": [
+            {
+                "name": "phpclasses/base",
+                "version": "1.0.16",
+                "version_normalized": "1.0.16.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/base.zip"
+                },
+                "require": {
+                    "kaduamaral/cmp": "^1.1.4",
+                    "kaduamaral/connectionpdo": "~1.1",
+                    "mobiledetect/mobiledetectlib": "~2.8",
+                    "php": ">=5.5.33",
+                    "phpmailer/phpmailer": "~5.2"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "base/core/application.class.php",
+                        "base/core/config.class.php",
+                        "base/core/connection.class.php",
+                        "base/core/controller.class.php",
+                        "base/core/globalizer.class.php",
+                        "base/core/load.class.php",
+                        "base/core/model.class.php",
+                        "base/core/permissions.class.php",
+                        "base/core/request.class.php",
+                        "base/core/security.class.php",
+                        "base/core/sendmail.class.php",
+                        "base/core/exception/systemexception.class.php",
+                        "base/core/dispatch.class.php",
+                        "base/core/exception.class.php",
+                        "base/core/exception/exception.class.php",
+                        "base/core/exception/exceptionslist.class.php",
+                        "base/core/exception/immutablepropertyexception.class.php",
+                        "base/core/exception/invalidapplicationexception.class.php",
+                        "base/core/exception/invalidpropertyexception.class.php",
+                        "base/core/routes/matcher.class.php",
+                        "base/core/routes/route.class.php",
+                        "base/core/routes/router.class.php",
+                        "base/core/routes/routes.class.php",
+                        "base/core/routes/rules/allows.class.php",
+                        "base/core/routes/rules/ruleinterface.class.php",
+                        "base/core/routes/rules/host.class.php",
+                        "base/core/service.class.php",
+                        "base/core/routes/annotation.class.php",
+                        "base/console/commands/build.class.php",
+                        "base/core/request/globals.class.php",
+                        "base/core/request/vars.class.php",
+                        "base/console/commands/dumproutes.class.php",
+                        "base/console/commands/environment.class.php",
+                        "base/core/response.class.php",
+                        "base/console/commands/testemail.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

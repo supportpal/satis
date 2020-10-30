@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/barcode-php": [
+            {
+                "name": "phpclasses/barcode-php",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/barcode-php.zip"
+                },
+                "require": {
+                    "phpclasses/fpdf": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Barcode.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

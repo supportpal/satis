@@ -1,0 +1,31 @@
+{
+    "packages": {
+        "phpclasses/imc": [
+            {
+                "name": "phpclasses/imc",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/imc.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "imcComponent.php",
+                        "imc_iCal.php",
+                        "imc_vCard.php",
+                        "imcProperty.php",
+                        "imcPropertyADR.php",
+                        "imcPropertyN.php",
+                        "imcPropertyPhoto.php",
+                        "imcPropertyRRULE.php",
+                        "imcPropertydt.php",
+                        "imc_ptm.php",
+                        "evolution_maillist.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

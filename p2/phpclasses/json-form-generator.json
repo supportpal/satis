@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/json-form-generator": [
+            {
+                "name": "phpclasses/json-form-generator",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/json-form-generator.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "form.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

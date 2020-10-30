@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/phpspellchecker": [
+            {
+                "name": "phpclasses/phpspellchecker",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/phpspellchecker.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "HunSpellChecker.class.php",
+                        "PHPSpellChecker.class.php",
+                        "SpellChecker.class.php",
+                        "GDYMSpellChecker.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

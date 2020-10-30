@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/as_admintool": [
+            {
+                "name": "phpclasses/as_admintool",
+                "version": "1.0.003",
+                "version_normalized": "1.0.003.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/as_admintool.zip"
+                },
+                "require": {
+                    "phpclasses/as_propsheet": "1.04.006"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "as_admintool.php",
+                        "as_dbutils.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

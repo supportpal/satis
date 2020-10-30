@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/file-change-scanner": [
+            {
+                "name": "phpclasses/file-change-scanner",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/file-change-scanner.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "scanner.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

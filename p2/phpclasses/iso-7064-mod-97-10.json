@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/iso-7064-mod-97-10": [
+            {
+                "name": "phpclasses/iso-7064-mod-97-10",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/iso-7064-mod-97-10.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ISO7064Mod97_10.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

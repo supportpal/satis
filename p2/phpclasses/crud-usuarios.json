@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/crud-usuarios": [
+            {
+                "name": "phpclasses/crud-usuarios",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/crud-usuarios.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "classesBanco/Cargos.php",
+                        "classesBanco/CrudCargo.php",
+                        "classesBanco/CrudDepartamento.php",
+                        "classesBanco/CrudUsuario.php",
+                        "classesBanco/CrudUsuarioHasDepartamento.php",
+                        "classesBanco/DB.php",
+                        "classesBanco/Departamentos.php",
+                        "classesBanco/Usuarios.php",
+                        "classesBanco/UsuariosHasDepartamento.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/masnathan-curl": [
+            {
+                "name": "phpclasses/masnathan-curl",
+                "version": "0.0.5",
+                "version_normalized": "0.0.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/masnathan-curl.zip"
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "MASNathan\\Curl\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

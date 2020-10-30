@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/simplexlsxgen": [
+            {
+                "name": "phpclasses/simplexlsxgen",
+                "version": "0.9.11",
+                "version_normalized": "0.9.11.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/simplexlsxgen.zip"
+                },
+                "require": {
+                    "ext-mbstring": "*",
+                    "ext-zlib": "*"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/SimpleXLSXGen.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

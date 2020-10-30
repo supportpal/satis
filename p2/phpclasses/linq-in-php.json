@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/linq-in-php": [
+            {
+                "name": "phpclasses/linq-in-php",
+                "version": "1.6.0",
+                "version_normalized": "1.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/linq-in-php.zip"
+                },
+                "require": {
+                    "phpclasses/dbengine": "1.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "D3Linq.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

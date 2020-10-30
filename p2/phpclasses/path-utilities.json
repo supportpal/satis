@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/path-utilities": [
+            {
+                "name": "phpclasses/path-utilities",
+                "version": "1.0.17",
+                "version_normalized": "1.0.17.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/path-utilities.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Path.phpclass"
+                    ]
+                }
+            }
+        ]
+    }
+}

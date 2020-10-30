@@ -1,0 +1,1135 @@
+{
+    "packages": {
+        "horde/image": [
+            {
+                "name": "horde/image",
+                "version": "2.0.6",
+                "version_normalized": "2.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "85ef1c62edaefcd5c4fc35a4aae74e29c603e747"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/85ef1c62edaefcd5c4fc35a4aae74e29c603e747",
+                    "reference": "85ef1c62edaefcd5c4fc35a4aae74e29c603e747",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/XML_SVG": "*"
+                },
+                "time": "2013-07-13T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Image API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/image",
+                "version": "2.0.8",
+                "version_normalized": "2.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "efd964ce7893d68e98271f3851a2efbc44915e80"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/efd964ce7893d68e98271f3851a2efbc44915e80",
+                    "reference": "efd964ce7893d68e98271f3851a2efbc44915e80",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/XML_SVG": "*",
+                    "pear-pecl.php.net/imagick": ">=2.0.0@stable,<=4.0.0alpha1@stable"
+                },
+                "time": "2014-05-21T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Image API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/image",
+                "version": "2.0.9",
+                "version_normalized": "2.0.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "7950460b6b98ff288d1cf391a228d21f762cecaa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/7950460b6b98ff288d1cf391a228d21f762cecaa",
+                    "reference": "7950460b6b98ff288d1cf391a228d21f762cecaa",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/XML_SVG": "*",
+                    "pear-pecl.php.net/imagick": ">=2.0.0@stable,<=4.0.0alpha1@stable"
+                },
+                "time": "2014-06-10T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Image API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/image",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "fafaed7c8c76acb416dcb6ab4b81a11301e5a153"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/fafaed7c8c76acb416dcb6ab4b81a11301e5a153",
+                    "reference": "fafaed7c8c76acb416dcb6ab4b81a11301e5a153",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/XML_SVG": "*",
+                    "pear-pecl.php.net/imagick": ">=2.0.0@stable,<=4.0.0alpha1@stable"
+                },
+                "time": "2014-06-17T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Image API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/image",
+                "version": "2.2.0",
+                "version_normalized": "2.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "1f191a196aa98c9fd77828f89ab41e0fda94f3af"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/1f191a196aa98c9fd77828f89ab41e0fda94f3af",
+                    "reference": "1f191a196aa98c9fd77828f89ab41e0fda94f3af",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.6.2@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/XML_SVG": "*",
+                    "pear-pecl.php.net/imagick": ">=2.0.0@stable,<=4.0.0alpha1@stable"
+                },
+                "time": "2015-02-10T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Image API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/image",
+                "version": "2.3.0",
+                "version_normalized": "2.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "0540a42c75537d2f17b93bd94567e792e395638f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/0540a42c75537d2f17b93bd94567e792e395638f",
+                    "reference": "0540a42c75537d2f17b93bd94567e792e395638f",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.6.2@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/XML_SVG": "*",
+                    "pear-pecl.php.net/imagick": ">=2.0.0@stable,<=4.0.0alpha1@stable"
+                },
+                "time": "2015-04-13T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Image API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/image",
+                "version": "2.3.1",
+                "version_normalized": "2.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "ddf14bd3018cd2ac440fb43ed419ccdd5a291f62"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/ddf14bd3018cd2ac440fb43ed419ccdd5a291f62",
+                    "reference": "ddf14bd3018cd2ac440fb43ed419ccdd5a291f62",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.6.2@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/XML_SVG": "*",
+                    "pear-pecl.php.net/imagick": ">=2.0.0@stable,<=4.0.0alpha1@stable"
+                },
+                "time": "2015-04-28T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Image API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/image",
+                "version": "2.3.2",
+                "version_normalized": "2.3.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "89747700ab2d17b71cd57be028c5671d227ac703"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/89747700ab2d17b71cd57be028c5671d227ac703",
+                    "reference": "89747700ab2d17b71cd57be028c5671d227ac703",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.6.2@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/XML_SVG": "*",
+                    "pear-pecl.php.net/imagick": ">=2.0.0@stable,<=4.0.0alpha1@stable"
+                },
+                "time": "2015-07-31T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Image API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/image",
+                "version": "2.3.3",
+                "version_normalized": "2.3.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "b37f7b9c5186ed04f75e323bf648a35615498d79"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/b37f7b9c5186ed04f75e323bf648a35615498d79",
+                    "reference": "b37f7b9c5186ed04f75e323bf648a35615498d79",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.6.2@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/XML_SVG": "*",
+                    "pear-pecl.php.net/imagick": ">=2.0.0@stable,<=4.0.0alpha1@stable"
+                },
+                "time": "2015-09-07T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Image API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/image",
+                "version": "2.3.4",
+                "version_normalized": "2.3.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "f3a5e4c66f4c45e36f23eec186ed9773b891b361"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/f3a5e4c66f4c45e36f23eec186ed9773b891b361",
+                    "reference": "f3a5e4c66f4c45e36f23eec186ed9773b891b361",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.6.2@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/XML_SVG": "*",
+                    "pear-pecl.php.net/imagick": ">=2.0.0@stable,<=4.0.0alpha1@stable"
+                },
+                "time": "2016-02-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Image API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/image",
+                "version": "2.3.5",
+                "version_normalized": "2.3.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "dca802cdc33e44998204fe0cd992f2eca42d93a6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/dca802cdc33e44998204fe0cd992f2eca42d93a6",
+                    "reference": "dca802cdc33e44998204fe0cd992f2eca42d93a6",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.6.2@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/XML_SVG": "*",
+                    "pear-pecl.php.net/imagick": ">=2.0.0@stable,<=4.0.0alpha1@stable"
+                },
+                "time": "2016-03-21T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Image API",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/image",
+                "version": "2.3.6",
+                "version_normalized": "2.3.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "fbaf6caa9699ed423c9678ddb705144ac37f286e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/fbaf6caa9699ed423c9678ddb705144ac37f286e",
+                    "reference": "fbaf6caa9699ed423c9678ddb705144ac37f286e",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.6.2@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/XML_SVG": "*",
+                    "pear-pecl.php.net/imagick": ">=2.0.0@stable,<=4.0.0alpha1@stable"
+                },
+                "time": "2016-07-12T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Image API",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/image",
+                "version": "2.4.0",
+                "version_normalized": "2.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "e4b2b3a7a51e61665e8baee0e93b8f723f94c70b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/e4b2b3a7a51e61665e8baee0e93b8f723f94c70b",
+                    "reference": "e4b2b3a7a51e61665e8baee0e93b8f723f94c70b",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.6.2@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/XML_SVG": "*",
+                    "pear-pecl.php.net/imagick": ">=2.0.0@stable,<=4.0.0alpha1@stable"
+                },
+                "time": "2017-03-20T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Image API",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/image",
+                "version": "2.4.1",
+                "version_normalized": "2.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "7f85046c1413be7ebf89b93741e08d21964f4de8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/7f85046c1413be7ebf89b93741e08d21964f4de8",
+                    "reference": "7f85046c1413be7ebf89b93741e08d21964f4de8",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.6.2@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/XML_SVG": "*",
+                    "pear-pecl.php.net/imagick": ">=2.0.0@stable,<=4.0.0alpha1@stable"
+                },
+                "time": "2017-04-11T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Image API",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/image",
+                "version": "2.5.0",
+                "version_normalized": "2.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "d026bd3843264de108d9f143207c3407008112f8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/d026bd3843264de108d9f143207c3407008112f8",
+                    "reference": "d026bd3843264de108d9f143207c3407008112f8",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2@stable",
+                    "pear-pear.horde.org/horde_stream": "^1.6.2@stable",
+                    "pear-pear.horde.org/horde_support": "^2@stable",
+                    "pear-pear.horde.org/horde_translation": "^2.2@stable",
+                    "pear-pear.horde.org/horde_util": "^2@stable",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_image": "2.*",
+                    "pear-pear.horde.org/horde_image": "2.*"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": "^2.1@stable",
+                    "pear-pear.php.net/XML_SVG": "*",
+                    "pear-pecl.php.net/imagick": "^2@stable <4"
+                },
+                "time": "2017-06-21T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Image": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Image API",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/image",
+                "version": "2.5.1",
+                "version_normalized": "2.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "d2a48831baf957ff76097f0edf4cb23dc2d31c14"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/d2a48831baf957ff76097f0edf4cb23dc2d31c14",
+                    "reference": "d2a48831baf957ff76097f0edf4cb23dc2d31c14",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2@stable",
+                    "pear-pear.horde.org/horde_stream": "^1.6.2@stable",
+                    "pear-pear.horde.org/horde_support": "^2@stable",
+                    "pear-pear.horde.org/horde_translation": "^2.2@stable",
+                    "pear-pear.horde.org/horde_util": "^2@stable",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_image": "2.*",
+                    "pear-pear.horde.org/horde_image": "2.*"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": "^2.1@stable",
+                    "pear-pear.php.net/XML_SVG": "*",
+                    "pear-pecl.php.net/imagick": "^2@stable <4"
+                },
+                "time": "2017-06-25T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Image": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Image API",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/image",
+                "version": "2.5.2",
+                "version_normalized": "2.5.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "c7542a42afd92d55306f796726e3beab0cd4df8c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/c7542a42afd92d55306f796726e3beab0cd4df8c",
+                    "reference": "c7542a42afd92d55306f796726e3beab0cd4df8c",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2@stable",
+                    "pear-pear.horde.org/horde_stream": "^1.6.2@stable",
+                    "pear-pear.horde.org/horde_support": "^2@stable",
+                    "pear-pear.horde.org/horde_translation": "^2.2@stable",
+                    "pear-pear.horde.org/horde_util": "^2@stable",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_image": "2.*",
+                    "pear-pear.horde.org/horde_image": "2.*"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": "^2.1@stable",
+                    "pear-pear.php.net/XML_SVG": "*",
+                    "pear-pecl.php.net/imagick": "^2@stable <4"
+                },
+                "time": "2017-09-19T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Image": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Image API",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/image",
+                "version": "2.5.3",
+                "version_normalized": "2.5.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "e68b880cb2814a22705cb82bc04f6fddd935b8cc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/e68b880cb2814a22705cb82bc04f6fddd935b8cc",
+                    "reference": "e68b880cb2814a22705cb82bc04f6fddd935b8cc",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_stream": "^1.6.2",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_image": "2.*",
+                    "pear-pear.horde.org/horde_image": "2.*"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": "^2.1",
+                    "pear-pear.php.net/XML_SVG": "*",
+                    "pear-pecl.php.net/imagick": "^2 || ^3"
+                },
+                "time": "2018-06-23T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Image": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Image library",
+                "homepage": "https://www.horde.org/libraries/Horde_Image"
+            },
+            {
+                "name": "horde/image",
+                "version": "2.5.4",
+                "version_normalized": "2.5.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "8f3dec89ee802c6aac2322cd346dabde10646f4e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/8f3dec89ee802c6aac2322cd346dabde10646f4e",
+                    "reference": "8f3dec89ee802c6aac2322cd346dabde10646f4e",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_stream": "^1.6.2",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_image": "2.*",
+                    "pear-pear.horde.org/horde_image": "2.*"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": "^2.1",
+                    "pear-pear.php.net/XML_SVG": "*",
+                    "pear-pecl.php.net/imagick": "^2 || ^3"
+                },
+                "time": "2019-01-01T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Image": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Image library",
+                "homepage": "https://www.horde.org/libraries/Horde_Image"
+            },
+            {
+                "name": "horde/image",
+                "version": "2.5.5",
+                "version_normalized": "2.5.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "1a57c9a19aaa97bc9e98e8c09e5715532f26fe7f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/1a57c9a19aaa97bc9e98e8c09e5715532f26fe7f",
+                    "reference": "1a57c9a19aaa97bc9e98e8c09e5715532f26fe7f",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_stream": "^1.6.2",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_image": "2.*",
+                    "pear-pear.horde.org/horde_image": "2.*"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": "^2.1",
+                    "pear-pear.php.net/XML_SVG": "*",
+                    "pear-pecl.php.net/imagick": "^2 || ^3"
+                },
+                "time": "2019-01-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Image": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Image library",
+                "homepage": "https://www.horde.org/libraries/Horde_Image"
+            },
+            {
+                "name": "horde/image",
+                "version": "2.6.0",
+                "version_normalized": "2.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "b62ce1662345f88f8c0af28ab8657e1852083a5c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/b62ce1662345f88f8c0af28ab8657e1852083a5c",
+                    "reference": "b62ce1662345f88f8c0af28ab8657e1852083a5c",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_stream": "^1.6.2",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_image": "2.*",
+                    "pear-pear.horde.org/horde_image": "2.*"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": "^2.1",
+                    "pear-pear.php.net/XML_SVG": "*",
+                    "pear-pecl.php.net/imagick": "^2 || ^3"
+                },
+                "time": "2019-01-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Image": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Image library",
+                "homepage": "https://www.horde.org/libraries/Horde_Image"
+            }
+        ]
+    }
+}

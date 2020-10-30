@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/circulararray": [
+            {
+                "name": "phpclasses/circulararray",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/circulararray.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "circularArray.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

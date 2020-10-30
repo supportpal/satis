@@ -1,0 +1,19 @@
+{
+    "packages": {
+        "phpclasses/php-form-validation": [
+            {
+                "name": "phpclasses/php-form-validation",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-form-validation.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": []
+                }
+            }
+        ]
+    }
+}

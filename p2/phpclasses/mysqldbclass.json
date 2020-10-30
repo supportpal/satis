@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/mysqldbclass": [
+            {
+                "name": "phpclasses/mysqldbclass",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mysqldbclass.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "includes/dbclasses/MySQLDB.php",
+                        "includes/dbclasses/Data.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

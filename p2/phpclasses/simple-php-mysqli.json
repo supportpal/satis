@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/simple-php-mysqli": [
+            {
+                "name": "phpclasses/simple-php-mysqli",
+                "version": "2.0.12",
+                "version_normalized": "2.0.12.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/simple-php-mysqli.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.db.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

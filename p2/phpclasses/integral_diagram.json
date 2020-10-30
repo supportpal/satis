@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/integral_diagram": [
+            {
+                "name": "phpclasses/integral_diagram",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/integral_diagram.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "integral_diagram.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

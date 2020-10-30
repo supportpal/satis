@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/add-2-google-cal": [
+            {
+                "name": "phpclasses/add-2-google-cal",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/add-2-google-cal.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "_classes/Autoloader.class.php",
+                        "_classes/Dates.class.php",
+                        "_classes/date.class.php",
+                        "_classes/date_Core.class.php",
+                        "_classes/GoogleCalendar.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

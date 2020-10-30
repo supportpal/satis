@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/forms2go": [
+            {
+                "name": "phpclasses/forms2go",
+                "version": "0.101",
+                "version_normalized": "0.101.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/forms2go.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.forms.php",
+                        "class.forms.v4.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

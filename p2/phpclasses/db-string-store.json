@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/db-string-store": [
+            {
+                "name": "phpclasses/db-string-store",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/db-string-store.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "DbTable.php",
+                        "DbStringStore.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/ip-location-class": [
+            {
+                "name": "phpclasses/ip-location-class",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ip-location-class.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ip_location.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

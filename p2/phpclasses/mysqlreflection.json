@@ -1,0 +1,46 @@
+{
+    "packages": {
+        "phpclasses/mysqlreflection": [
+            {
+                "name": "phpclasses/mysqlreflection",
+                "version": "1.0.10",
+                "version_normalized": "1.0.10.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mysqlreflection.zip"
+                },
+                "require": {
+                    "phpclasses/mysqlreflection": ">=1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "beans/BeanMultiplePk.php",
+                        "beans/BeanSinglePkDate.php",
+                        "beans/BeanSinglePkDateTime.php",
+                        "beans/BeanSinglePkInt.php",
+                        "beans/BeanSinglePkIntAuto.php",
+                        "beans/BeanSinglePkString.php",
+                        "beans/Model.php",
+                        "beans/MySqlRecord.php",
+                        "mysqlreflection/MVCMySqlBeanBuilder.php",
+                        "mysqlreflection/MVCMySqlBeanClass.php.tpl",
+                        "mysqlreflection/MVCMySqlFieldToAttributeReflection.php",
+                        "mysqlreflection/MVCMySqlPKAnalyzer.php",
+                        "mysqlreflection/MVCMySqlSchemaReflection.php",
+                        "mysqlreflection/MVCMySqlSimpleTemplate.php",
+                        "mysqlreflection/MVCMySqlTableReflection.php",
+                        "beans/BeanAclActions.php",
+                        "beans/BeanDepartments.php",
+                        "beans/BeanDeptEmp.php",
+                        "beans/BeanDeptManager.php",
+                        "beans/BeanEmployees.php",
+                        "beans/BeanSalaries.php",
+                        "beans/BeanTitles.php",
+                        "beans/BeanUser.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

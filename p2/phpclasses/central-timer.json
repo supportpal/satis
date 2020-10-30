@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/central-timer": [
+            {
+                "name": "phpclasses/central-timer",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/central-timer.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Fogg/Util/Timer/Timer.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

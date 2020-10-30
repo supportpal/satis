@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/ladder": [
+            {
+                "name": "phpclasses/ladder",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ladder.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Ladder_Ladder.cls",
+                        "Ladder_Properties.cls",
+                        "Ladder_Globals.cls",
+                        "Ladder_Folder.cls",
+                        "Ladder_Item.cls",
+                        "Ladder_Reference.cls"
+                    ]
+                }
+            }
+        ]
+    }
+}

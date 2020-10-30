@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/file_uploading": [
+            {
+                "name": "phpclasses/file_uploading",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/file_uploading.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "files_upload.inc"
+                    ]
+                }
+            }
+        ]
+    }
+}

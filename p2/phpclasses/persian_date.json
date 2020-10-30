@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/persian_date": [
+            {
+                "name": "phpclasses/persian_date",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/persian_date.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "persian_date.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,300 @@
+{
+    "packages": {
+        "horde/controller": [
+            {
+                "name": "horde/controller",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Controller.git",
+                    "reference": "a8fed42d0e6b8466bc328f0b037364b0bac4234f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Controller/zipball/a8fed42d0e6b8466bc328f0b037364b0bac4234f",
+                    "reference": "a8fed42d0e6b8466bc328f0b037364b0bac4234f",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "dev-master",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/injector": "dev-master",
+                    "horde/log": "dev-master",
+                    "horde/support": "dev-master",
+                    "horde/util": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "ext-mbstring": "*",
+                    "ext-zlib": "*",
+                    "horde/test": "^2.1"
+                },
+                "time": "2020-08-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Controller": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Naberezny",
+                        "email": "mike@naberezny.com",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Controller library",
+                "homepage": "https://www.horde.org/libraries/Horde_Controller",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Controller/tree/maintaina-composerfixed"
+                }
+            },
+            {
+                "name": "horde/controller",
+                "version": "dev-FRAMEWORK_5_2",
+                "version_normalized": "dev-FRAMEWORK_5_2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Controller.git",
+                    "reference": "4a68b90495e507074540eed458227dd2218aa882"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Controller/zipball/4a68b90495e507074540eed458227dd2218aa882",
+                    "reference": "4a68b90495e507074540eed458227dd2218aa882",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_injector": "^2",
+                    "pear-pear.horde.org/horde_log": "^2",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_controller": "2.*",
+                    "pear-pear.horde.org/horde_controller": "2.*"
+                },
+                "suggest": {
+                    "ext-mbstring": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2018-07-04T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Controller": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Naberezny",
+                        "email": "mike@naberezny.com",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Controller library",
+                "homepage": "https://www.horde.org/libraries/Horde_Controller",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Controller/tree/FRAMEWORK_5_2"
+                }
+            },
+            {
+                "name": "horde/controller",
+                "version": "dev-horde-upstream",
+                "version_normalized": "dev-horde-upstream",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Controller.git",
+                    "reference": "45782f9b70b000b04199801de45e5cb66174994b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Controller/zipball/45782f9b70b000b04199801de45e5cb66174994b",
+                    "reference": "45782f9b70b000b04199801de45e5cb66174994b",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_injector": "^2",
+                    "pear-pear.horde.org/horde_log": "^2",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_controller": "2.*",
+                    "pear-pear.horde.org/horde_controller": "2.*"
+                },
+                "suggest": {
+                    "ext-mbstring": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Controller": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Naberezny",
+                        "email": "mike@naberezny.com",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Controller library",
+                "homepage": "https://www.horde.org/libraries/Horde_Controller",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Controller/tree/horde-upstream"
+                }
+            },
+            {
+                "name": "horde/controller",
+                "version": "dev-maintaina-bare",
+                "version_normalized": "dev-maintaina-bare",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Controller.git",
+                    "reference": "69db91d5da8a9a9af502a312381576e7a21e3513"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Controller/zipball/69db91d5da8a9a9af502a312381576e7a21e3513",
+                    "reference": "69db91d5da8a9a9af502a312381576e7a21e3513",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_injector": "^2",
+                    "pear-pear.horde.org/horde_log": "^2",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_controller": "2.*",
+                    "pear-pear.horde.org/horde_controller": "2.*"
+                },
+                "suggest": {
+                    "ext-mbstring": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Controller": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Naberezny",
+                        "email": "mike@naberezny.com",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Controller library",
+                "homepage": "https://www.horde.org/libraries/Horde_Controller",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Controller/tree/maintaina-bare"
+                }
+            },
+            {
+                "name": "horde/controller",
+                "version": "dev-maintaina-composerfixed",
+                "version_normalized": "dev-maintaina-composerfixed",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Controller.git",
+                    "reference": "a8fed42d0e6b8466bc328f0b037364b0bac4234f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Controller/zipball/a8fed42d0e6b8466bc328f0b037364b0bac4234f",
+                    "reference": "a8fed42d0e6b8466bc328f0b037364b0bac4234f",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "dev-master",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/injector": "dev-master",
+                    "horde/log": "dev-master",
+                    "horde/support": "dev-master",
+                    "horde/util": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "ext-mbstring": "*",
+                    "ext-zlib": "*",
+                    "horde/test": "^2.1"
+                },
+                "time": "2020-08-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Controller": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Naberezny",
+                        "email": "mike@naberezny.com",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Controller library",
+                "homepage": "https://www.horde.org/libraries/Horde_Controller",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Controller/tree/maintaina-composerfixed"
+                }
+            }
+        ]
+    }
+}

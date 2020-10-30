@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/laravel-revert-migra": [
+            {
+                "name": "phpclasses/laravel-revert-migra",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/laravel-revert-migra.zip"
+                },
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Djunehor\\CherryPick\\CherryPickMigrateServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Djunehor\\CherryPick\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

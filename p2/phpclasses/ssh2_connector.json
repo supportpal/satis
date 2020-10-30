@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/ssh2_connector": [
+            {
+                "name": "phpclasses/ssh2_connector",
+                "version": "0.1.14",
+                "version_normalized": "0.1.14.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ssh2_connector.zip"
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^0.9.5",
+                    "phpunit/phpunit": "4.0.*"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "FlatBuffers\\": "src"
+                    }
+                }
+            }
+        ]
+    }
+}

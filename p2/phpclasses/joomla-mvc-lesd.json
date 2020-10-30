@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "phpclasses/joomla-mvc-lesd": [
+            {
+                "name": "phpclasses/joomla-mvc-lesd",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/joomla-mvc-lesd.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "jmodellesd.php",
+                        "jviewlesd.php",
+                        "jcontrollerlesd.php",
+                        "example/admin/controllers/hellos.php",
+                        "example/admin/libs/jcontrollerlesd.php",
+                        "example/admin/libs/jmodellesd.php",
+                        "example/admin/libs/jviewlesd.php",
+                        "example/admin/models/hellos.php",
+                        "example/admin/tables/hellos.php",
+                        "example/admin/views/hellos/view.html.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/webmaster-tools-api": [
+            {
+                "name": "phpclasses/webmaster-tools-api",
+                "version": "1.0.23",
+                "version_normalized": "1.0.23.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/webmaster-tools-api.zip"
+                },
+                "require": {
+                    "phpclasses/formsgeneration": "1.0.32",
+                    "phpclasses/httpclient": "1.0.5",
+                    "phpclasses/oauth-api": "1.0.106"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "top_pages.php",
+                        "web_master_tools.php",
+                        "configuration/configuration.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

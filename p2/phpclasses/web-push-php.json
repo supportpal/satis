@@ -1,0 +1,33 @@
+{
+    "packages": {
+        "phpclasses/web-push-php": [
+            {
+                "name": "phpclasses/web-push-php",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/web-push-php.zip"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^6.2",
+                    "lib-openssl": "*",
+                    "mdanter/ecc": "^0.5.0",
+                    "php": "^7.0",
+                    "spomky-labs/base64url": "^1.0",
+                    "spomky-labs/jose": "^7.0",
+                    "spomky-labs/php-aes-gcm": "^1.2"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^6.5.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Minishlink\\WebPush\\": "src"
+                    }
+                }
+            }
+        ]
+    }
+}

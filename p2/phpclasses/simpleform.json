@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/simpleform": [
+            {
+                "name": "phpclasses/simpleform",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/simpleform.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "SimpleForm.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

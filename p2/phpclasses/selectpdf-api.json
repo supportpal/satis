@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/selectpdf-api": [
+            {
+                "name": "phpclasses/selectpdf-api",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/selectpdf-api.zip"
+                },
+                "require": {
+                    "ext-curl": "*",
+                    "php": ">=5.5"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "selectpdf.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

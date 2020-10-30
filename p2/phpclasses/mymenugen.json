@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/mymenugen": [
+            {
+                "name": "phpclasses/mymenugen",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mymenugen.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "classes/mymenugen_class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/database-abstraction": [
+            {
+                "name": "phpclasses/database-abstraction",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/database-abstraction.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "abstract.DBConfig.php",
+                        "class.DBManager.php",
+                        "class.ExampleUsage.php",
+                        "class.MySqlDB.php",
+                        "class.OracleDB.php",
+                        "interface.DBConfigInterface.php",
+                        "class.SqliteDB.php",
+                        "class.PostgreDB.php",
+                        "class.MSSqlDB.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

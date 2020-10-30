@@ -1,0 +1,196 @@
+{
+    "packages": {
+        "horde/logintasks": [
+            {
+                "name": "horde/logintasks",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/LoginTasks.git",
+                    "reference": "777386058aabd19aff49aad6cb9bf4a5718f1f6c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/LoginTasks/zipball/777386058aabd19aff49aad6cb9bf4a5718f1f6c",
+                    "reference": "777386058aabd19aff49aad6cb9bf4a5718f1f6c",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_translation": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2014-01-28T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Login Tasks System",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/logintasks",
+                "version": "2.0.4",
+                "version_normalized": "2.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/LoginTasks.git",
+                    "reference": "fd2124cec08e8febcdf012384a6b26a7c74aa0b8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/LoginTasks/zipball/fd2124cec08e8febcdf012384a6b26a7c74aa0b8",
+                    "reference": "fd2124cec08e8febcdf012384a6b26a7c74aa0b8",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-01-09T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Login Tasks System",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/logintasks",
+                "version": "2.0.5",
+                "version_normalized": "2.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/LoginTasks.git",
+                    "reference": "1fd309c0cbc0af504921af0a075ce2d2cf4e56fb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/LoginTasks/zipball/1fd309c0cbc0af504921af0a075ce2d2cf4e56fb",
+                    "reference": "1fd309c0cbc0af504921af0a075ce2d2cf4e56fb",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-07-31T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Login Tasks System",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/logintasks",
+                "version": "2.0.6",
+                "version_normalized": "2.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/LoginTasks.git",
+                    "reference": "f44153fec90e2dd585a0daffcbc1028b772ef854"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/LoginTasks/zipball/f44153fec90e2dd585a0daffcbc1028b772ef854",
+                    "reference": "f44153fec90e2dd585a0daffcbc1028b772ef854",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-02-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Login Tasks System",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/logintasks",
+                "version": "2.0.7",
+                "version_normalized": "2.0.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/LoginTasks.git",
+                    "reference": "81bd8aa65f72dc061c884473fe2573ae22fe6984"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/LoginTasks/zipball/81bd8aa65f72dc061c884473fe2573ae22fe6984",
+                    "reference": "81bd8aa65f72dc061c884473fe2573ae22fe6984",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_date": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-03-21T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Login Tasks System",
+                "homepage": "http://pear.horde.org"
+            }
+        ]
+    }
+}

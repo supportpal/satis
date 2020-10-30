@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/lib-mail": [
+            {
+                "name": "phpclasses/lib-mail",
+                "version": "12.08.30",
+                "version_normalized": "12.08.30.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/lib-mail.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "mail.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

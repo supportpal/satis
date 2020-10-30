@@ -1,0 +1,52 @@
+{
+    "packages": {
+        "phpclasses/cf": [
+            {
+                "name": "phpclasses/cf",
+                "version": "1.6",
+                "version_normalized": "1.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/cf.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "include/Form.php",
+                        "include/FormField.php",
+                        "include/Hidden.php",
+                        "include/Login.php",
+                        "include/Mailer.php",
+                        "include/Menu.php",
+                        "include/MenuItem.php",
+                        "include/PermisionRule.php",
+                        "include/Permisions.php",
+                        "include/Redir.php",
+                        "include/Saxophone.php",
+                        "include/Select.php",
+                        "include/Snips.php",
+                        "include/Table.php",
+                        "include/Tools.php",
+                        "include/ad.php",
+                        "include/db.php",
+                        "include/seo.php",
+                        "libs/phpmailer/class.phpmailer.php",
+                        "libs/phpmailer/class.phpmaileroauth.php",
+                        "libs/phpmailer/class.phpmaileroauthgoogle.php",
+                        "libs/phpmailer/class.pop3.php",
+                        "libs/phpmailer/class.smtp.php",
+                        "libs/phpmailer/get_oauth_token.php",
+                        "sandbox/controllers/Controller.php",
+                        "sandbox/controllers/Error404Controller.php",
+                        "sandbox/controllers/ErrorController.php",
+                        "sandbox/controllers/RouterController.php",
+                        "examples/annonce/controllers/Controller.php",
+                        "examples/annonce/controllers/Error404Controller.php",
+                        "examples/annonce/controllers/ErrorController.php",
+                        "examples/annonce/controllers/RouterController.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/validate_gameid": [
+            {
+                "name": "phpclasses/validate_gameid",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/validate_gameid.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class_gameid"
+                    ]
+                }
+            }
+        ]
+    }
+}

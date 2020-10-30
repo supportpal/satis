@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/script-loader": [
+            {
+                "name": "phpclasses/script-loader",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/script-loader.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ptk.utils.scriptloader.class.php",
+                        "ptk.class.php",
+                        "ptk.fs.filefolder.directory.class.php",
+                        "ptk.utils.validator.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

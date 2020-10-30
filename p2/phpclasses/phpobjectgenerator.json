@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "phpclasses/phpobjectgenerator": [
+            {
+                "name": "phpclasses/phpobjectgenerator",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/phpobjectgenerator.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "object_factory/class.objectphp5pogmysql.php",
+                        "object_factory/class.objectphp4pogmysql.php",
+                        "object_factory/class.objectphp5.1pdofirebird.php",
+                        "object_factory/class.database.php4.php",
+                        "object_factory/class.database.php5.php",
+                        "services/nusoap.php",
+                        "object_factory/class.objectphp5.1pdomysql.php",
+                        "object_factory/class.objectphp5.1pdoodbc.php",
+                        "object_factory/class.objectphp5.1pdopgsql.php",
+                        "object_factory/class.objectphp5.1pdosqlite.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

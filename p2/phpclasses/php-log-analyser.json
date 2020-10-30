@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-log-analyser": [
+            {
+                "name": "phpclasses/php-log-analyser",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-log-analyser.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "PhpLogAnalyser.inc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

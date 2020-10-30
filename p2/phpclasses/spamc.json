@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/spamc": [
+            {
+                "name": "phpclasses/spamc",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/spamc.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "spamc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

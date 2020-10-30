@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/css-optimize": [
+            {
+                "name": "phpclasses/css-optimize",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/css-optimize.zip"
+                },
+                "require": {
+                    "jelle-s/arraykeycombiner": "^1.0",
+                    "nicmart/tree": "^0.2.7",
+                    "phpclasses/arraykeycombiner": "1.0.0",
+                    "sabberworm/php-css-parser": "^8.1"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Jelle_S\\CssOptimizer\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

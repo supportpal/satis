@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/xzy-dialogs": [
+            {
+                "name": "phpclasses/xzy-dialogs",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/xzy-dialogs.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "xzydialogs.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

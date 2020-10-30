@@ -1,0 +1,88 @@
+{
+    "packages": {
+        "horde/stream_filter": [
+            {
+                "name": "horde/stream_filter",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Stream_Filter.git",
+                    "reference": "415e12a4763303dca3af6dfb03bddb01a6c7ea77"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream_Filter/zipball/415e12a4763303dca3af6dfb03bddb01a6c7ea77",
+                    "reference": "415e12a4763303dca3af6dfb03bddb01a6c7ea77",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-01-09T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Stream filters",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/stream_filter",
+                "version": "2.0.4",
+                "version_normalized": "2.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Stream_Filter.git",
+                    "reference": "897f58fde22d4ed8ceb07713a4c80a7c2153a859"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream_Filter/zipball/897f58fde22d4ed8ceb07713a4c80a7c2153a859",
+                    "reference": "897f58fde22d4ed8ceb07713a4c80a7c2153a859",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-02-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Stream filters",
+                "homepage": "http://pear.horde.org"
+            }
+        ]
+    }
+}

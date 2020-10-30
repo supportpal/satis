@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/http-basic-auth": [
+            {
+                "name": "phpclasses/http-basic-auth",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/http-basic-auth.zip"
+                },
+                "require": {
+                    "phpclasses/razonftpwriter": "1.0.0",
+                    "phpclasses/sqlfunctions": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "http.auth.cls.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

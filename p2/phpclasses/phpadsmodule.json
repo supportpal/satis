@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/phpadsmodule": [
+            {
+                "name": "phpclasses/phpadsmodule",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/phpadsmodule.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "PHPAdsModule.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

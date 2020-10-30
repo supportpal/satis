@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/lou-genpass": [
+            {
+                "name": "phpclasses/lou-genpass",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/lou-genpass.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Lou_GenPass.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

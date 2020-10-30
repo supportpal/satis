@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/abstract-http-client": [
+            {
+                "name": "phpclasses/abstract-http-client",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/abstract-http-client.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "httpClient.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

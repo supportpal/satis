@@ -1,0 +1,41 @@
+{
+    "packages": {
+        "phpclasses/envato-php": [
+            {
+                "name": "phpclasses/envato-php",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/envato-php.zip"
+                },
+                "require": {
+                    "duncan3dc/sessions": "^1.0",
+                    "guzzlehttp/guzzle": "^6.2",
+                    "php": ">=5.6"
+                },
+                "require-dev": {
+                    "graham-campbell/testbench": "^3.1",
+                    "phpunit/phpunit": "^4.8 || ^5.0"
+                },
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Nahid\\EnvatoPHP\\EnvatoServiceProvider"
+                        ],
+                        "aliases": {
+                            "Envato": "Nahid\\EnvatoPHP\\Facades\\Envato"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Nahid\\EnvatoPHP\\": "src/"
+                    },
+                    "files": []
+                }
+            }
+        ]
+    }
+}

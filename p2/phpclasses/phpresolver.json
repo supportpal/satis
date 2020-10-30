@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/phpresolver": [
+            {
+                "name": "phpclasses/phpresolver",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/phpresolver.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "DNS.php",
+                        "rrcompat.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

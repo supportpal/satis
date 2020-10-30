@@ -1,0 +1,19 @@
+{
+    "packages": {
+        "phpclasses/form-crud": [
+            {
+                "name": "phpclasses/form-crud",
+                "version": "1.0.14",
+                "version_normalized": "1.0.14.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/form-crud.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": []
+                }
+            }
+        ]
+    }
+}

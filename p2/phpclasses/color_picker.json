@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/color_picker": [
+            {
+                "name": "phpclasses/color_picker",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/color_picker.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class_color_picker.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

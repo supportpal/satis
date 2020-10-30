@@ -1,0 +1,56 @@
+{
+    "packages": {
+        "phpclasses/clparser": [
+            {
+                "name": "phpclasses/clparser",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/clparser.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "CL/CL.phpclass",
+                        "CL/CLAbstractParameter.phpclass",
+                        "CL/CLExceptions.phpclass",
+                        "CL/CLParser.phpclass",
+                        "CL/CLValidators.phpclass",
+                        "CL/Types/Boolean.phpclass",
+                        "CL/Types/Color.phpclass",
+                        "CL/Types/CommandLine.phpclass",
+                        "CL/Types/DateTime.phpclass",
+                        "CL/Types/File.phpclass",
+                        "CL/Types/Flag.phpclass",
+                        "CL/Types/Internet.phpclass",
+                        "CL/Types/Keyword.phpclass",
+                        "CL/Types/List.phpclass",
+                        "CL/Types/Measure.phpclass",
+                        "CL/Types/Numeric.phpclass",
+                        "CL/Types/Range.phpclass",
+                        "CL/Types/Set.phpclass",
+                        "CL/Types/SortOptions.phpclass",
+                        "CL/Types/Standard.phpclass",
+                        "CL/Types/String.phpclass",
+                        "CL/Utilities/Colors.phpclass",
+                        "CL/Utilities/Convert.phpclass",
+                        "CL/Utilities/Debug.phpclass",
+                        "CL/Utilities/Encoder.phpclass",
+                        "CL/Utilities/Formatting.phpclass",
+                        "CL/Utilities/GenericWrapper.phpclass",
+                        "CL/Utilities/IniFile.phpclass",
+                        "CL/Utilities/PHP.phpclass",
+                        "CL/Utilities/Path.phpclass",
+                        "CL/Utilities/Regex.phpclass",
+                        "CL/Utilities/SimpleXML.phpclass",
+                        "CL/Utilities/String.phpclass",
+                        "CL/Utilities/Vector.phpclass",
+                        "CL/Utilities/AsciiReport.phpclass",
+                        "CL/Utilities/Console.phpclass"
+                    ]
+                }
+            }
+        ]
+    }
+}

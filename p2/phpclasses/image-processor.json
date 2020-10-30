@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/image-processor": [
+            {
+                "name": "phpclasses/image-processor",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/image-processor.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "D3Image.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

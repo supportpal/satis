@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-image-classes": [
+            {
+                "name": "phpclasses/php-image-classes",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-image-classes.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "classes/Image.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

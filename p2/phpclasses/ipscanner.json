@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/ipscanner": [
+            {
+                "name": "phpclasses/ipscanner",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ipscanner.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "multiple-scan/class.php",
+                        "single-scan/class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

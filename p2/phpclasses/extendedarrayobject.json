@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/extendedarrayobject": [
+            {
+                "name": "phpclasses/extendedarrayobject",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/extendedarrayobject.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ExtendedArrayObject.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

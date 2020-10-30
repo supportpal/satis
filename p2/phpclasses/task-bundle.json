@@ -1,0 +1,33 @@
+{
+    "packages": {
+        "phpclasses/task-bundle": [
+            {
+                "name": "phpclasses/task-bundle",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/task-bundle.zip"
+                },
+                "require": {
+                    "doctrine/orm": "~2.6",
+                    "dragonmantank/cron-expression": "~2.0",
+                    "php": ">=7.1",
+                    "symfony/framework-bundle": "~4.3"
+                },
+                "require-dev": {
+                    "php-coveralls/php-coveralls": "~2.1",
+                    "phpspec/prophecy": "~1.8",
+                    "phpunit/phpunit": "^7",
+                    "symfony/phpunit-bridge": "^4.3"
+                },
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "Glooby\\TaskBundle\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

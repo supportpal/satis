@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/ci-google-recaptcha": [
+            {
+                "name": "phpclasses/ci-google-recaptcha",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ci-google-recaptcha.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "application/controllers/Example.php",
+                        "application/controllers/Welcome.php",
+                        "application/libraries/MY_Form_validation.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

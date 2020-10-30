@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/aio-proxy": [
+            {
+                "name": "phpclasses/aio-proxy",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/aio-proxy.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "shell.proxy.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

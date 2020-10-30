@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/http-server": [
+            {
+                "name": "phpclasses/http-server",
+                "version": "0.0.14",
+                "version_normalized": "0.0.14.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/http-server.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "wapmorgan\\HttpServer\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

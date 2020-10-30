@@ -1,0 +1,53 @@
+{
+    "packages": {
+        "phpclasses/formsgeneration": [
+            {
+                "name": "phpclasses/formsgeneration",
+                "version": "1.0.32",
+                "version_normalized": "1.0.32.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/formsgeneration.zip"
+                },
+                "require": {
+                    "phpclasses/metabase": "1.0.8"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "forms.php",
+                        "form_date.php",
+                        "form_captcha.php",
+                        "form_linked_select.php",
+                        "form_mysql_linked_select.php",
+                        "form_metabase_linked_select.php",
+                        "form_mdb2_linked_select.php",
+                        "form_ajax_submit.php",
+                        "form_layout_vertical.php",
+                        "form_map_location.php",
+                        "form_auto_complete.php",
+                        "form_mysql_auto_complete.php",
+                        "form_metabase_auto_complete.php",
+                        "form_mdb2_auto_complete.php",
+                        "form_animation.php",
+                        "form_upload_progress.php",
+                        "form_custom_validation.php",
+                        "form_secure_submit.php",
+                        "form_layout_paged.php",
+                        "form_scaffolding.php",
+                        "blog_post_view.php",
+                        "blog_post_model.php",
+                        "form_html_editor.php",
+                        "form_list_select.php",
+                        "form_crud.php",
+                        "form_recaptcha.php",
+                        "blog_post_data_source.php",
+                        "test_crud_input.php",
+                        "form_mysqli_auto_complete.php",
+                        "form_mysqli_linked_select.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

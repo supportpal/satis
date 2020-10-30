@@ -1,0 +1,67 @@
+{
+    "packages": {
+        "phpclasses/define-mvc": [
+            {
+                "name": "phpclasses/define-mvc",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/define-mvc.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "application/controller/ApplicationController.php",
+                        "application/controller/ErrorController.php",
+                        "application/controller/IndexController.php",
+                        "application/model/dao/ApplicationDAO.php",
+                        "application/model/service/ApplicationService.php",
+                        "lib/define/core/BaseController.php",
+                        "lib/define/core/BaseDAO.php",
+                        "lib/define/core/BaseModel.php",
+                        "lib/define/core/BaseService.php",
+                        "lib/define/core/Framework.php",
+                        "lib/define/core/IBaseDAO.php",
+                        "lib/define/core/IBaseModel.php",
+                        "lib/define/core/IBaseService.php",
+                        "lib/define/core/IDefine.php",
+                        "lib/define/core/IRouter.php",
+                        "lib/define/core/IView.php",
+                        "lib/define/core/ObjectContainer.php",
+                        "lib/define/core/Router.php",
+                        "lib/define/core/View.php",
+                        "lib/define/dbdrivers/DatabaseBean.php",
+                        "lib/define/dbdrivers/DatabaseFactory.php",
+                        "lib/define/dbdrivers/IDatabase.php",
+                        "lib/define/dbdrivers/MONGODBDriver.php",
+                        "lib/define/dbdrivers/MSSQLDriver.php",
+                        "lib/define/dbdrivers/MYSQLDriver.php",
+                        "lib/define/dbdrivers/MYSQLIDriver.php",
+                        "lib/define/dbdrivers/ORACLEDriver.php",
+                        "lib/define/dbdrivers/PDODriver.php",
+                        "lib/define/dbdrivers/POSTGREDriver.php",
+                        "lib/define/dbdrivers/SQLITEDriver.php",
+                        "lib/define/exceptions/FileNotFoundException.php",
+                        "lib/define/exceptions/FrameworkException.php",
+                        "lib/define/exceptions/IException.php",
+                        "lib/define/exceptions/LoggerException.php",
+                        "lib/define/exceptions/NullPointerException.php",
+                        "lib/define/exceptions/RuntimeException.php",
+                        "lib/define/traits/SingletonTrait.php",
+                        "lib/define/utilities/ErrorExceptionHandler.php",
+                        "lib/define/utilities/IUtilities.php",
+                        "lib/define/utilities/Localization.php",
+                        "lib/define/utilities/Logger.php",
+                        "lib/define/utilities/PasswordHelper.php",
+                        "lib/define/utilities/Session.php",
+                        "lib/vendors/phpmailer/PHPMailer.php",
+                        "lib/vendors/phpmailer/SMTP.php",
+                        "application/model/dao/impl/IndexDAO.php",
+                        "application/model/service/impl/IndexService.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

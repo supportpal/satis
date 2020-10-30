@@ -1,0 +1,31 @@
+{
+    "packages": {
+        "phpclasses/php-interpreter": [
+            {
+                "name": "phpclasses/php-interpreter",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-interpreter.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Compiler.php",
+                        "ExceptionFoxway.php",
+                        "Runtime.php",
+                        "iRawOutput.php",
+                        "outPrint.php",
+                        "functions/array.php",
+                        "functions/datetime.php",
+                        "functions/math.php",
+                        "functions/pcre.php",
+                        "functions/strings.php",
+                        "functions/var.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

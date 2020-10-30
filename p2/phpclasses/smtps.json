@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/smtps": [
+            {
+                "name": "phpclasses/smtps",
+                "version": "1.15",
+                "version_normalized": "1.15.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/smtps.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "smtps.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

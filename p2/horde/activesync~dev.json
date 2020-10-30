@@ -1,0 +1,390 @@
+{
+    "packages": {
+        "horde/activesync": [
+            {
+                "name": "horde/activesync",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "reference": "4396acb4004524b7902eb87c1e4b9df0eee60f9e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ActiveSync/zipball/4396acb4004524b7902eb87c1e4b9df0eee60f9e",
+                    "reference": "4396acb4004524b7902eb87c1e4b9df0eee60f9e",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "horde/compress": "dev-master",
+                    "horde/date": "dev-master",
+                    "horde/exception": "dev-master",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/icalendar": "dev-master",
+                    "horde/log": "dev-master",
+                    "horde/mapi": "dev-master",
+                    "horde/mime": "dev-master",
+                    "horde/stream": "dev-master",
+                    "horde/support": "dev-master",
+                    "horde/translation": "dev-master",
+                    "horde/util": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "horde/db": "^2.1",
+                    "horde/imap_client": "^2.28.1",
+                    "horde/mail": "^2",
+                    "horde/mongo": "^1.0.2",
+                    "horde/test": "^2.1",
+                    "horde/text_filter": "^2"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_ActiveSync": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "ActiveSync server library",
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync",
+                "support": {
+                    "source": "https://github.com/maintaina-com/ActiveSync/tree/master"
+                }
+            },
+            {
+                "name": "horde/activesync",
+                "version": "dev-FRAMEWORK_5_2",
+                "version_normalized": "dev-FRAMEWORK_5_2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "reference": "06bc0dec31116a6bc70a74dcbbc1c04f1a340781"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ActiveSync/zipball/06bc0dec31116a6bc70a74dcbbc1c04f1a340781",
+                    "reference": "06bc0dec31116a6bc70a74dcbbc1c04f1a340781",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "pear-pear.horde.org/horde_compress": "^2",
+                    "pear-pear.horde.org/horde_date": "^2.3",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_log": "^2.3",
+                    "pear-pear.horde.org/horde_mapi": "^1",
+                    "pear-pear.horde.org/horde_mime": "^2.11",
+                    "pear-pear.horde.org/horde_stream": "^1.4",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_activesync": "2.*",
+                    "pear-pear.horde.org/horde_activesync": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_db": "^2.1",
+                    "pear-pear.horde.org/horde_imap_client": "^2.28.1",
+                    "pear-pear.horde.org/horde_mail": "^2",
+                    "pear-pear.horde.org/horde_mongo": "^1.0.2",
+                    "pear-pear.horde.org/horde_test": "^2.1",
+                    "pear-pear.horde.org/horde_text_filter": "^2"
+                },
+                "time": "2019-04-28T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_ActiveSync": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "ActiveSync server library",
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync",
+                "support": {
+                    "source": "https://github.com/maintaina-com/ActiveSync/tree/FRAMEWORK_5_2"
+                }
+            },
+            {
+                "name": "horde/activesync",
+                "version": "dev-horde-upstream",
+                "version_normalized": "dev-horde-upstream",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "reference": "180ddfd2f095ed19cc2571bc3f53cb4d0055f7d6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ActiveSync/zipball/180ddfd2f095ed19cc2571bc3f53cb4d0055f7d6",
+                    "reference": "180ddfd2f095ed19cc2571bc3f53cb4d0055f7d6",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "pear-pear.horde.org/horde_compress": "^2",
+                    "pear-pear.horde.org/horde_date": "^2.3",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_log": "^2.3",
+                    "pear-pear.horde.org/horde_mapi": "^1",
+                    "pear-pear.horde.org/horde_mime": "^2.11",
+                    "pear-pear.horde.org/horde_stream": "^1.4",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_activesync": "2.*",
+                    "pear-pear.horde.org/horde_activesync": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_db": "^2.1",
+                    "pear-pear.horde.org/horde_imap_client": "^2.28.1",
+                    "pear-pear.horde.org/horde_mail": "^2",
+                    "pear-pear.horde.org/horde_mongo": "^1.0.2",
+                    "pear-pear.horde.org/horde_test": "^2.1",
+                    "pear-pear.horde.org/horde_text_filter": "^2"
+                },
+                "time": "2020-03-15T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_ActiveSync": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "ActiveSync server library",
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync",
+                "support": {
+                    "source": "https://github.com/maintaina-com/ActiveSync/tree/horde-upstream"
+                }
+            },
+            {
+                "name": "horde/activesync",
+                "version": "dev-maintaina-bare",
+                "version_normalized": "dev-maintaina-bare",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "reference": "180ddfd2f095ed19cc2571bc3f53cb4d0055f7d6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ActiveSync/zipball/180ddfd2f095ed19cc2571bc3f53cb4d0055f7d6",
+                    "reference": "180ddfd2f095ed19cc2571bc3f53cb4d0055f7d6",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "pear-pear.horde.org/horde_compress": "^2",
+                    "pear-pear.horde.org/horde_date": "^2.3",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_log": "^2.3",
+                    "pear-pear.horde.org/horde_mapi": "^1",
+                    "pear-pear.horde.org/horde_mime": "^2.11",
+                    "pear-pear.horde.org/horde_stream": "^1.4",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_activesync": "2.*",
+                    "pear-pear.horde.org/horde_activesync": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_db": "^2.1",
+                    "pear-pear.horde.org/horde_imap_client": "^2.28.1",
+                    "pear-pear.horde.org/horde_mail": "^2",
+                    "pear-pear.horde.org/horde_mongo": "^1.0.2",
+                    "pear-pear.horde.org/horde_test": "^2.1",
+                    "pear-pear.horde.org/horde_text_filter": "^2"
+                },
+                "time": "2020-03-15T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_ActiveSync": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "ActiveSync server library",
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync",
+                "support": {
+                    "source": "https://github.com/maintaina-com/ActiveSync/tree/horde-upstream"
+                }
+            },
+            {
+                "name": "horde/activesync",
+                "version": "dev-maintaina-composerfixed",
+                "version_normalized": "dev-maintaina-composerfixed",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "reference": "9327c98003a85db7e9c9a7bb8b15b59037d0fb46"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ActiveSync/zipball/9327c98003a85db7e9c9a7bb8b15b59037d0fb46",
+                    "reference": "9327c98003a85db7e9c9a7bb8b15b59037d0fb46",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "horde/compress": "dev-master",
+                    "horde/date": "dev-master",
+                    "horde/exception": "dev-master",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/icalendar": "dev-master",
+                    "horde/log": "dev-master",
+                    "horde/mapi": "dev-master",
+                    "horde/mime": "dev-master",
+                    "horde/stream": "dev-master",
+                    "horde/support": "dev-master",
+                    "horde/translation": "dev-master",
+                    "horde/util": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "horde/db": "^2.1",
+                    "horde/imap_client": "^2.28.1",
+                    "horde/mail": "^2",
+                    "horde/mongo": "^1.0.2",
+                    "horde/test": "^2.1",
+                    "horde/text_filter": "^2"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_ActiveSync": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "ActiveSync server library",
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync",
+                "support": {
+                    "source": "https://github.com/maintaina-com/ActiveSync/tree/maintaina-composerfixed"
+                }
+            },
+            {
+                "name": "horde/activesync",
+                "version": "dev-opaque_test",
+                "version_normalized": "dev-opaque_test",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "reference": "612d55c0a651e5a1d296cdc86769e7aa4e6951f7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ActiveSync/zipball/612d55c0a651e5a1d296cdc86769e7aa4e6951f7",
+                    "reference": "612d55c0a651e5a1d296cdc86769e7aa4e6951f7",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "pear-pear.horde.org/horde_compress": "^2",
+                    "pear-pear.horde.org/horde_date": "^2.3",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_log": "^2.3",
+                    "pear-pear.horde.org/horde_mapi": "^1",
+                    "pear-pear.horde.org/horde_mime": "^2.5",
+                    "pear-pear.horde.org/horde_stream": "^1.4",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_activesync": "2.*",
+                    "pear-pear.horde.org/horde_activesync": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_db": "^2.1",
+                    "pear-pear.horde.org/horde_imap_client": "^2.28.1",
+                    "pear-pear.horde.org/horde_mail": "^2",
+                    "pear-pear.horde.org/horde_mongo": "^1.0.2",
+                    "pear-pear.horde.org/horde_test": "^2.1",
+                    "pear-pear.horde.org/horde_text_filter": "^2"
+                },
+                "time": "2018-01-20T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_ActiveSync": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "ActiveSync server library",
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync",
+                "support": {
+                    "source": "https://github.com/maintaina-com/ActiveSync/tree/opaque_test"
+                }
+            }
+        ]
+    }
+}

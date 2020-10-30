@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/htm2csv": [
+            {
+                "name": "phpclasses/htm2csv",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/htm2csv.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "html2csv_class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

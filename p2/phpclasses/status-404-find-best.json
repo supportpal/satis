@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/status-404-find-best": [
+            {
+                "name": "phpclasses/status-404-find-best",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/status-404-find-best.zip"
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "peterkahl\\NotFoundAlternative\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

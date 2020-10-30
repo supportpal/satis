@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "phpclasses/scrubs": [
+            {
+                "name": "phpclasses/scrubs",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/scrubs.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ClassWriter.php",
+                        "Configer.php",
+                        "ConfigWriter.php",
+                        "Dommer.php",
+                        "Logger.php",
+                        "BaseObject.php",
+                        "DataStore.php",
+                        "ObjectAgent.php",
+                        "QueryEngine.php",
+                        "ApplicationScrubs.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

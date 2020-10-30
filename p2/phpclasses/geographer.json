@@ -1,0 +1,38 @@
+{
+    "packages": {
+        "phpclasses/geographer": [
+            {
+                "name": "phpclasses/geographer",
+                "version": "1.0.6",
+                "version_normalized": "1.0.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/geographer.zip"
+                },
+                "require": {
+                    "menarasolutions/geographer-data": "^0.1.0",
+                    "php": ">=5.5.0"
+                },
+                "require-dev": {
+                    "codeclimate/php-test-reporter": "dev-master",
+                    "illuminate/support": "5.*",
+                    "menarasolutions/geographer-de": "0.*",
+                    "menarasolutions/geographer-nl": "0.*",
+                    "menarasolutions/geographer-ru": "0.*",
+                    "phpunit/phpunit": "4.*|5.*"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.4-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "MenaraSolutions\\Geographer\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

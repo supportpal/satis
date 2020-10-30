@@ -1,0 +1,33 @@
+{
+    "packages": {
+        "phpclasses/lumen-api-repository": [
+            {
+                "name": "phpclasses/lumen-api-repository",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/lumen-api-repository.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "app/Support/Repository/EloquentRepository.php",
+                        "app/Support/Repository/RepositoryServiceProvider.php",
+                        "app/Support/Repository/Commands/MakeBaseCommand.php",
+                        "app/Support/Repository/Commands/MakeCriteriaCommand.php",
+                        "app/Support/Repository/Commands/MakeRepositoryCommand.php",
+                        "app/Support/Repository/Contracts/CriteriaInterface.php",
+                        "app/Support/Repository/Contracts/RepositoryInterface.php",
+                        "app/Support/Repository/Traits/Countable.php",
+                        "app/Support/Repository/Traits/Restorable.php",
+                        "app/Http/Controllers/UserController.php",
+                        "app/Http/Resources/UserResource.php",
+                        "app/Repositories/UserRepositoryInterface.php",
+                        "app/Repositories/Eloquent/UserRepository.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

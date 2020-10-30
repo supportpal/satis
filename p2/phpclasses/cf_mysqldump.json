@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/cf_mysqldump": [
+            {
+                "name": "phpclasses/cf_mysqldump",
+                "version": "2.20",
+                "version_normalized": "2.20.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/cf_mysqldump.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "mysqldump.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

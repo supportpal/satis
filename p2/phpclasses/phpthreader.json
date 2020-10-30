@@ -1,0 +1,31 @@
+{
+    "packages": {
+        "phpclasses/phpthreader": [
+            {
+                "name": "phpclasses/phpthreader",
+                "version": "1.6",
+                "version_normalized": "1.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/phpthreader.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Thread/AjThreader.php",
+                        "Com/FileCom.php",
+                        "Com/MyCom.php",
+                        "Com/Com.php",
+                        "Thread/SocThreader.php",
+                        "Thread/Caller.php",
+                        "Thread/CliThreader.php",
+                        "Com/ShmopCom.php",
+                        "Sync/SimpleMutex.php",
+                        "Handlers/Loader.php",
+                        "Handlers/PlainArray.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

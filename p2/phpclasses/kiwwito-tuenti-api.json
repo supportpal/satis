@@ -1,0 +1,41 @@
+{
+    "packages": {
+        "phpclasses/kiwwito-tuenti-api": [
+            {
+                "name": "phpclasses/kiwwito-tuenti-api",
+                "version": "0.8.0",
+                "version_normalized": "0.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/kiwwito-tuenti-api.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Core/Bundle.class.php",
+                        "Core/RemoteCaller.class.php",
+                        "Core/Lib/HydroObject/Bundle.class.php",
+                        "Core/Lib/WebBrowser/Bundle.class.php",
+                        "Core/Object/Album.class.php",
+                        "Core/Object/APIObject.class.php",
+                        "Core/Object/APIObjectList.class.php",
+                        "Core/Object/BirthdayEvent.class.php",
+                        "Core/Object/Comment.class.php",
+                        "Core/Object/Event.class.php",
+                        "Core/Object/Message.class.php",
+                        "Core/Object/PersonalNotifications.class.php",
+                        "Core/Object/Photo.class.php",
+                        "Core/Object/Post.class.php",
+                        "Core/Object/Profile.class.php",
+                        "Core/Object/PublicNotifications.class.php",
+                        "Core/Object/Tag.class.php",
+                        "Core/Object/Thread.class.php",
+                        "Core/Object/User.class.php",
+                        "Core/Object/UserNotifications.class.php",
+                        "Core/Object/UsualEvent.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

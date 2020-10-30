@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/speed-image-load": [
+            {
+                "name": "phpclasses/speed-image-load",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/speed-image-load.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "lib/class.resize.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

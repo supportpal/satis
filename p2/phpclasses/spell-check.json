@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/spell-check": [
+            {
+                "name": "phpclasses/spell-check",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/spell-check.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "spellcheck.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

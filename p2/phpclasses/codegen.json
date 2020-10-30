@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/codegen": [
+            {
+                "name": "phpclasses/codegen",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/codegen.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "generateClass.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

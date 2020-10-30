@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/srcds_rcon": [
+            {
+                "name": "phpclasses/srcds_rcon",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/srcds_rcon.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "clsRcon.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

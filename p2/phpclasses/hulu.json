@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/hulu": [
+            {
+                "name": "phpclasses/hulu",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/hulu.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "hulu.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

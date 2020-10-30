@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/smart_meta_generator": [
+            {
+                "name": "phpclasses/smart_meta_generator",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/smart_meta_generator.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "smart_meta_Generator",
+                        "class_in_persian"
+                    ]
+                }
+            }
+        ]
+    }
+}

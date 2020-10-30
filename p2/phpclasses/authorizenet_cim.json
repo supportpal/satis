@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/authorizenet_cim": [
+            {
+                "name": "phpclasses/authorizenet_cim",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/authorizenet_cim.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "authorizenet.cim.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

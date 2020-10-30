@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/php-extensible-objec": [
+            {
+                "name": "phpclasses/php-extensible-objec",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-extensible-objec.zip"
+                },
+                "require": {
+                    "php": "^7.3"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "^0.11",
+                    "phpunit/phpunit": "^8.1",
+                    "squizlabs/php_codesniffer": "^3.4"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "NorseBlue\\ExtensibleObjects\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/restserver": [
+            {
+                "name": "phpclasses/restserver",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/restserver.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "RestServer.class.php",
+                        "RestAction.class.php",
+                        "RestController.class.php",
+                        "RestRequest.class.php",
+                        "RestResponse.class.php",
+                        "RestView.class.php",
+                        "GenericView.class.php",
+                        "RestAuthenticator.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

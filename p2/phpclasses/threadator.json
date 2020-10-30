@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/threadator": [
+            {
+                "name": "phpclasses/threadator",
+                "version": "0.0.2",
+                "version_normalized": "0.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/threadator.zip"
+                },
+                "require": {
+                    "ext-pcntl": "*",
+                    "ext-posix": "*",
+                    "php": ">=5.5"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Threadator\\": "src"
+                    }
+                }
+            }
+        ]
+    }
+}

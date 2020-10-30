@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/zoom-api": [
+            {
+                "name": "phpclasses/zoom-api",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/zoom-api.zip"
+                },
+                "require": {
+                    "firebase/php-jwt": "^5.0",
+                    "guzzlehttp/guzzle": "~6.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Zoom\\": ""
+                    }
+                }
+            }
+        ]
+    }
+}

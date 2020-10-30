@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/google-cloud-print": [
+            {
+                "name": "phpclasses/google-cloud-print",
+                "version": "1.12",
+                "version_normalized": "1.12.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/google-cloud-print.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "GoogleCloudPrint.php",
+                        "HttpRequest.Class.php",
+                        "oAuthRedirect.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/xzyivdeg": [
+            {
+                "name": "phpclasses/xzyivdeg",
+                "version": "0.2.2",
+                "version_normalized": "0.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/xzyivdeg.zip"
+                },
+                "require": {
+                    "phpclasses/xzy-degrade": "0.2",
+                    "phpclasses/xzy-interpol": "0.1.2"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "xzyivdeg.php",
+                        "xzydegrade.php",
+                        "xzyinterpol.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

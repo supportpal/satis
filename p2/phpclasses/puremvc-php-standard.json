@@ -1,0 +1,86 @@
+{
+    "packages": {
+        "phpclasses/puremvc-php-standard": [
+            {
+                "name": "phpclasses/puremvc-php-standard",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/puremvc-php-standard.zip"
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "7"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "tests/AllTestsSuite.php",
+                        "tests/core/ControllerTest.php",
+                        "tests/core/ControllerTestCommand.php",
+                        "tests/core/ControllerTestCommand2.php",
+                        "tests/core/ControllerTestVO.php",
+                        "tests/core/ModelTest.php",
+                        "tests/core/ModelTestProxy.php",
+                        "tests/core/ViewTest.php",
+                        "tests/core/ViewTestMediator.php",
+                        "tests/core/ViewTestMediator2.php",
+                        "tests/core/ViewTestMediator3.php",
+                        "tests/core/ViewTestMediator4.php",
+                        "tests/core/ViewTestMediator5.php",
+                        "tests/core/ViewTestMediator6.php",
+                        "tests/core/ViewTestNote.php",
+                        "tests/patterns/command/MacroCommandTest.php",
+                        "tests/patterns/command/MacroCommandTestCommand.php",
+                        "tests/patterns/command/MacroCommandTestSub1Command.php",
+                        "tests/patterns/command/MacroCommandTestSub2Command.php",
+                        "tests/patterns/command/MacroCommandTestVO.php",
+                        "tests/patterns/command/SimpleCommandTest.php",
+                        "tests/patterns/command/SimpleCommandTestCommand.php",
+                        "tests/patterns/command/SimpleCommandTestVO.php",
+                        "tests/patterns/facade/FacadeTest.php",
+                        "tests/patterns/facade/FacadeTestCommand.php",
+                        "tests/patterns/facade/FacadeTestVO.php",
+                        "tests/patterns/mediator/MediatorTest.php",
+                        "tests/patterns/observer/NotificationTest.php",
+                        "tests/patterns/observer/ObserverTest.php",
+                        "tests/patterns/proxy/ProxyTest.php",
+                        "org/puremvc/php/core/Controller.php",
+                        "org/puremvc/php/core/Model.php",
+                        "org/puremvc/php/core/View.php",
+                        "org/puremvc/php/interfaces/ICommand.php",
+                        "org/puremvc/php/interfaces/IController.php",
+                        "org/puremvc/php/interfaces/IFacade.php",
+                        "org/puremvc/php/interfaces/IMediator.php",
+                        "org/puremvc/php/interfaces/IModel.php",
+                        "org/puremvc/php/interfaces/INotification.php",
+                        "org/puremvc/php/interfaces/INotifier.php",
+                        "org/puremvc/php/interfaces/IObserver.php",
+                        "org/puremvc/php/interfaces/IProxy.php",
+                        "org/puremvc/php/interfaces/IView.php",
+                        "org/puremvc/php/demos/basic/ApplicationFacade.php",
+                        "org/puremvc/php/demos/basic/BasicDemo.php",
+                        "org/puremvc/php/patterns/command/MacroCommand.php",
+                        "org/puremvc/php/patterns/command/SimpleCommand.php",
+                        "org/puremvc/php/patterns/facade/Facade.php",
+                        "org/puremvc/php/patterns/mediator/Mediator.php",
+                        "org/puremvc/php/patterns/observer/Notification.php",
+                        "org/puremvc/php/patterns/observer/Notifier.php",
+                        "org/puremvc/php/patterns/observer/Observer.php",
+                        "org/puremvc/php/patterns/proxy/Proxy.php",
+                        "org/puremvc/php/demos/basic/view/ApplicationMediator.php",
+                        "org/puremvc/php/demos/basic/view/ApplicationView.php",
+                        "org/puremvc/php/demos/basic/controller/commands/StartApplicationCommand.php",
+                        "org/puremvc/php/demos/basic/controller/commands/StartModelCommand.php",
+                        "org/puremvc/php/demos/basic/controller/commands/StartViewCommand.php",
+                        "org/puremvc/php/demos/basic/model/proxy/ApplicationDataProxy.php",
+                        "org/puremvc/php/demos/basic/model/vo/ApplicationDataVO.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

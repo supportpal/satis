@@ -1,0 +1,58 @@
+{
+    "packages": {
+        "phpclasses/pingvincek": [
+            {
+                "name": "phpclasses/pingvincek",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/pingvincek.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Config/database.php.default",
+                        "Config/email.php.default",
+                        "Controller/AppController.php",
+                        "Controller/ArticlesController.php",
+                        "Controller/CitiesController.php",
+                        "Controller/GendersController.php",
+                        "Controller/GroupsController.php",
+                        "Controller/MessagesController.php",
+                        "Controller/PagesController.php",
+                        "Controller/PicturesController.php",
+                        "Controller/ReportsController.php",
+                        "Controller/SupportsController.php",
+                        "Controller/UsersController.php",
+                        "Model/AppModel.php",
+                        "Model/Article.php",
+                        "Model/City.php",
+                        "Model/Config.php",
+                        "Model/Favorite.php",
+                        "Model/Gender.php",
+                        "Model/Group.php",
+                        "Model/Login.php",
+                        "Model/Message.php",
+                        "Model/Picture.php",
+                        "Model/Report.php",
+                        "Model/Support.php",
+                        "Model/Token.php",
+                        "Model/User.php",
+                        "Model/Visit.php",
+                        "Config/Schema/db_acl.php",
+                        "Config/Schema/i18n.php",
+                        "Config/Schema/schema.php",
+                        "Config/Schema/sessions.php",
+                        "Console/Command/AppShell.php",
+                        "Controller/Component/AutoLoginComponent.php",
+                        "View/Helper/AppHelper.php",
+                        "View/Helper/MojHelper.php",
+                        "webroot/js/ckeditor/ckeditor_php4.php",
+                        "webroot/js/ckeditor/ckeditor_php5.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

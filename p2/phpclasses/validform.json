@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/validform": [
+            {
+                "name": "phpclasses/validform",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/validform.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.FormValidation.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

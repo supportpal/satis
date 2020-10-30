@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/login-system": [
+            {
+                "name": "phpclasses/login-system",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/login-system.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "core/abstract.dbconfig.php",
+                        "core/interface.dbconfiginterface.php",
+                        "core/class.mysqldb.php",
+                        "core/class.userprofile.php",
+                        "core/class.oracledb.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

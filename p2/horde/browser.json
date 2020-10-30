@@ -1,0 +1,341 @@
+{
+    "packages": {
+        "horde/browser": [
+            {
+                "name": "horde/browser",
+                "version": "2.0.10",
+                "version_normalized": "2.0.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Browser.git",
+                    "reference": "7ed771030043ee197348c8797beabc0d32464a9a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Browser/zipball/7ed771030043ee197348c8797beabc0d32464a9a",
+                    "reference": "7ed771030043ee197348c8797beabc0d32464a9a",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "time": "2015-07-31T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Horde Browser API",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Browser/tree/v2.0.10"
+                }
+            },
+            {
+                "name": "horde/browser",
+                "version": "2.0.11",
+                "version_normalized": "2.0.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Browser.git",
+                    "reference": "60a00f1f5de8f3557c29396fd11b3b6c1eeef56a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Browser/zipball/60a00f1f5de8f3557c29396fd11b3b6c1eeef56a",
+                    "reference": "60a00f1f5de8f3557c29396fd11b3b6c1eeef56a",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "time": "2016-02-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Horde Browser API",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Browser/tree/v2.0.11"
+                }
+            },
+            {
+                "name": "horde/browser",
+                "version": "2.0.12",
+                "version_normalized": "2.0.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Browser.git",
+                    "reference": "d3227a7de3c9d72dafb0c032c96fd9a0f6a3d11f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Browser/zipball/d3227a7de3c9d72dafb0c032c96fd9a0f6a3d11f",
+                    "reference": "d3227a7de3c9d72dafb0c032c96fd9a0f6a3d11f",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "time": "2016-03-21T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Horde Browser API",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Browser/tree/v2.0.12"
+                }
+            },
+            {
+                "name": "horde/browser",
+                "version": "2.0.13",
+                "version_normalized": "2.0.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Browser.git",
+                    "reference": "24fd5c3461140f4e027de9bab25cf1e6136bed51"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Browser/zipball/24fd5c3461140f4e027de9bab25cf1e6136bed51",
+                    "reference": "24fd5c3461140f4e027de9bab25cf1e6136bed51",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "time": "2016-12-16T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Horde Browser API",
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Browser/tree/v2.0.13"
+                }
+            },
+            {
+                "name": "horde/browser",
+                "version": "2.0.14",
+                "version_normalized": "2.0.14.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Browser.git",
+                    "reference": "6f45d39793bd26d72aab11ceefae669f9584cfc8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Browser/zipball/6f45d39793bd26d72aab11ceefae669f9584cfc8",
+                    "reference": "6f45d39793bd26d72aab11ceefae669f9584cfc8",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2@stable",
+                    "pear-pear.horde.org/horde_translation": "^2.2@stable",
+                    "pear-pear.horde.org/horde_util": "^2@stable",
+                    "php": "^5.3"
+                },
+                "replace": {
+                    "pear-horde/horde_browser": "2.*",
+                    "pear-pear.horde.org/horde_browser": "2.*"
+                },
+                "time": "2017-07-27T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Browser": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Horde Browser API",
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Browser/tree/v2.0.14"
+                }
+            },
+            {
+                "name": "horde/browser",
+                "version": "2.0.15",
+                "version_normalized": "2.0.15.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Browser.git",
+                    "reference": "68e1b22be70440504f23325b62d458287ee415c6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Browser/zipball/68e1b22be70440504f23325b62d458287ee415c6",
+                    "reference": "68e1b22be70440504f23325b62d458287ee415c6",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2@stable",
+                    "pear-pear.horde.org/horde_translation": "^2.2@stable",
+                    "pear-pear.horde.org/horde_util": "^2@stable",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_browser": "2.*",
+                    "pear-pear.horde.org/horde_browser": "2.*"
+                },
+                "time": "2017-09-19T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Browser": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Horde Browser API",
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Browser/tree/v2.0.15"
+                }
+            },
+            {
+                "name": "horde/browser",
+                "version": "2.0.16",
+                "version_normalized": "2.0.16.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Browser.git",
+                    "reference": "a9027a717faef5b9afbee1c7f2a3c54410c4bb65"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Browser/zipball/a9027a717faef5b9afbee1c7f2a3c54410c4bb65",
+                    "reference": "a9027a717faef5b9afbee1c7f2a3c54410c4bb65",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_browser": "2.*",
+                    "pear-pear.horde.org/horde_browser": "2.*"
+                },
+                "time": "2018-12-27T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Browser": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Browser detection library",
+                "homepage": "https://www.horde.org/libraries/Horde_Browser",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Browser/tree/v2.0.16"
+                }
+            }
+        ]
+    }
+}

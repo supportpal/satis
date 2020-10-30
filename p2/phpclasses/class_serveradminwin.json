@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/class_serveradminwin": [
+            {
+                "name": "phpclasses/class_serveradminwin",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/class_serveradminwin.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.ServerAdminWin.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

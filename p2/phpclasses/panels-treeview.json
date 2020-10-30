@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/panels-treeview": [
+            {
+                "name": "phpclasses/panels-treeview",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/panels-treeview.zip"
+                },
+                "require": {
+                    "phpclasses/ladder": "1.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Panel_TreeView.cls",
+                        "Panel_Panel.cls"
+                    ]
+                }
+            }
+        ]
+    }
+}

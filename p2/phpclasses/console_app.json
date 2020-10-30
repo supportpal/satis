@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/console_app": [
+            {
+                "name": "phpclasses/console_app",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/console_app.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Console_app.php",
+                        "console_app.php5"
+                    ]
+                }
+            }
+        ]
+    }
+}

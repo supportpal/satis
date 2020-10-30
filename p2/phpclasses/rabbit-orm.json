@@ -1,0 +1,34 @@
+{
+    "packages": {
+        "phpclasses/rabbit-orm": [
+            {
+                "name": "phpclasses/rabbit-orm",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/rabbit-orm.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Rabbitorm.php",
+                        "RabbitORM/DefinitionReader.php",
+                        "RabbitORM/Helper.php",
+                        "RabbitORM/Model.php",
+                        "RabbitORM/Querybuilder.php",
+                        "RabbitORM/Result.php",
+                        "RabbitORM/Annotations/Annotation.php",
+                        "RabbitORM/Annotations/Column.php",
+                        "RabbitORM/Annotations/Entity.php",
+                        "RabbitORM/relations/Belongsto.php",
+                        "RabbitORM/relations/Belongstomany.php",
+                        "RabbitORM/relations/Hasmany.php",
+                        "RabbitORM/relations/Hasone.php",
+                        "RabbitORM/relations/Relation.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/lightning-imap": [
+            {
+                "name": "phpclasses/lightning-imap",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/lightning-imap.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Imap.php",
+                        "Imap_Attachment.php",
+                        "Imap_Base.php",
+                        "Imap_Message.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

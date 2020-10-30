@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/geocoder": [
+            {
+                "name": "phpclasses/geocoder",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/geocoder.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Geocoder.inc",
+                        "GoogleGeocoder.inc",
+                        "USGeocoder.inc",
+                        "WorldGeocoder.inc"
+                    ]
+                }
+            }
+        ]
+    }
+}

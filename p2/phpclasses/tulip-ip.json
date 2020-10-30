@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/tulip-ip": [
+            {
+                "name": "phpclasses/tulip-ip",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/tulip-ip.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "tulipIP/tulipIP.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "packages": {
+        "phpclasses/fclasshtml": [
+            {
+                "name": "phpclasses/fclasshtml",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/fclasshtml.zip"
+                },
+                "require": {
+                    "phpclasses/sclasshtml": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "fClassHTML/library/itemView.class.php",
+                        "fClassHTML/library/menuBar.class.php",
+                        "fClassHTML/library/menuFolder.class.php",
+                        "fClassHTML/library/inputLogin.class.php",
+                        "fClassHTML/library/inputForm.class.php",
+                        "fClassHTML/library/cCronometer.class.php",
+                        "fClassHTML/library/fConnection.class.php",
+                        "fClassHTML/library/fCart.class.php",
+                        "fClassHTML/library/fQueryTable.class.php",
+                        "fClassHTML/library/menuLabel.class.php",
+                        "fClassHTML/library/menuIcon.class.php",
+                        "fClassHTML/library/cExcel.class.php",
+                        "fClassHTML/library/fMail.class.php",
+                        "fClassHTML/library/fRss.class.php",
+                        "fClassHTML/library/fSelectText.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

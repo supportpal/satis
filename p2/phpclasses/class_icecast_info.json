@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/class_icecast_info": [
+            {
+                "name": "phpclasses/class_icecast_info",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/class_icecast_info.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class_icecast2.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

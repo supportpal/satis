@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/mtfetcher": [
+            {
+                "name": "phpclasses/mtfetcher",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mtfetcher.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "mtfetcher_Class.php",
+                        "mtfetcher_Fetcher.php",
+                        "mtfetcher_Transport.php",
+                        "mtfetcher_Transport_fgc.php",
+                        "mtfetcher_Transport_file.php",
+                        "mtfetcher_Transport_PEAR_Request.php",
+                        "mtfetcher_errors.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

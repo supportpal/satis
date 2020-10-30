@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "phpclasses/epub": [
+            {
+                "name": "phpclasses/epub",
+                "version": "3.22",
+                "version_normalized": "3.22.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/epub.zip"
+                },
+                "require": {
+                    "phpclasses/zip": "1.64"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "EPub.php",
+                        "EPubChapterSplitter.php",
+                        "lib.uuid.php",
+                        "Zip.php",
+                        "EPub.NCX.php",
+                        "EPub.OPF.php",
+                        "EPub.HtmlEntities.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/socks-client": [
+            {
+                "name": "phpclasses/socks-client",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/socks-client.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.socks5.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

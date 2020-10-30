@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/google-weather": [
+            {
+                "name": "phpclasses/google-weather",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/google-weather.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.google.weather.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/matrix-cw": [
+            {
+                "name": "phpclasses/matrix-cw",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/matrix-cw.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "example/matrixcw.php",
+                        "example/matrix.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

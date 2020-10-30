@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/dnlclass": [
+            {
+                "name": "phpclasses/dnlclass",
+                "version": "0.8",
+                "version_normalized": "0.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/dnlclass.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.dnl.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

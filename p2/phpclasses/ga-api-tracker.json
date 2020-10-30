@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/ga-api-tracker": [
+            {
+                "name": "phpclasses/ga-api-tracker",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ga-api-tracker.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Tracker.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

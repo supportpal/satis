@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-hc8-api": [
+            {
+                "name": "phpclasses/php-hc8-api",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-hc8-api.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "phphc8api.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

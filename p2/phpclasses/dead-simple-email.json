@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/dead-simple-email": [
+            {
+                "name": "phpclasses/dead-simple-email",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/dead-simple-email.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "email.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

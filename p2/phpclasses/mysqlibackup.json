@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/mysqlibackup": [
+            {
+                "name": "phpclasses/mysqlibackup",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mysqlibackup.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "backupClass.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

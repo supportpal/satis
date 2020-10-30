@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/php-contact-form": [
+            {
+                "name": "phpclasses/php-contact-form",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-contact-form.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "sendmail/class.phpmailer.php",
+                        "sendmail/class.smtp.php",
+                        "sendmail/class.sendemail.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

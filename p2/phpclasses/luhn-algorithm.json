@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/luhn-algorithm": [
+            {
+                "name": "phpclasses/luhn-algorithm",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/luhn-algorithm.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Luhn.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

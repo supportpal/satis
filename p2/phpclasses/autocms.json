@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/autocms": [
+            {
+                "name": "phpclasses/autocms",
+                "version": "2",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/autocms.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "core/autocms.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

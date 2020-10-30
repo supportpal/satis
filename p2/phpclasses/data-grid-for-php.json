@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/data-grid-for-php": [
+            {
+                "name": "phpclasses/data-grid-for-php",
+                "version": "4.2.8",
+                "version_normalized": "4.2.8.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/data-grid-for-php.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "datagrid.class.php",
+                        "pear/PEAR.php",
+                        "pear/DB.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

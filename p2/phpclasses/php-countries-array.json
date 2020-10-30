@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/php-countries-array": [
+            {
+                "name": "phpclasses/php-countries-array",
+                "version": "1.0.8",
+                "version_normalized": "1.0.8.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-countries-array.zip"
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "SameerShelavale\\PhpCountriesArray\\": "src/"
+                    },
+                    "psr-4": {
+                        "SameerShelavale\\PhpCountriesArray\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "horde/text_filter_jsmin": [
+            {
+                "name": "horde/text_filter_jsmin",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Filter_Jsmin.git",
+                    "reference": "1ce22616186e5d116e5c8b645eacd861a05fedaa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter_Jsmin/zipball/1ce22616186e5d116e5c8b645eacd861a05fedaa",
+                    "reference": "1ce22616186e5d116e5c8b645eacd861a05fedaa",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_text_filter": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "time": "2016-02-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "JSMin"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Text Filter - Jsmin PHP Driver",
+                "homepage": "http://pear.horde.org"
+            }
+        ]
+    }
+}

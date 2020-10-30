@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/id3": [
+            {
+                "name": "phpclasses/id3",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/id3.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ID3.class.php",
+                        "APIC.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

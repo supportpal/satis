@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/laravelcrudbuilder": [
+            {
+                "name": "phpclasses/laravelcrudbuilder",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/laravelcrudbuilder.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "CRUDBuilder/Model.php",
+                        "CRUDBuilder/db.php",
+                        "CRUDBuilder/dbStructure.php",
+                        "CRUDBuilder/readStructure.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

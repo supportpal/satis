@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/multiple_round_robin": [
+            {
+                "name": "phpclasses/multiple_round_robin",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/multiple_round_robin.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.roundrobin.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

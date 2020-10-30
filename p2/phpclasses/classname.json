@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/classname": [
+            {
+                "name": "phpclasses/classname",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/classname.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "laudirbispo\\classname\\": "src"
+                    }
+                }
+            }
+        ]
+    }
+}

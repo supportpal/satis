@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/maildir2mbox": [
+            {
+                "name": "phpclasses/maildir2mbox",
+                "version": "3.0",
+                "version_normalized": "3.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/maildir2mbox.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "maildir2mbox.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

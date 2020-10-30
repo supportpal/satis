@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/canvas-image": [
+            {
+                "name": "phpclasses/canvas-image",
+                "version": "2.0.13",
+                "version_normalized": "2.0.13.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/canvas-image.zip"
+                },
+                "require": {
+                    "ext-gd": "*",
+                    "php": "^7.0"
+                },
+                "require-dev": {
+                    "apigen/apigen": "4.1.2",
+                    "phpunit/phpunit": "6"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "GImage\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

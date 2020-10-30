@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/url-shortener": [
+            {
+                "name": "phpclasses/url-shortener",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/url-shortener.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class/UrlShortener.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

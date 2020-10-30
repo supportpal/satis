@@ -1,0 +1,50 @@
+{
+    "packages": {
+        "phpclasses/zhandlesocket": [
+            {
+                "name": "phpclasses/zhandlesocket",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/zhandlesocket.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "zhandlersocket/Client.zep",
+                        "zhandlersocket/Command.zep",
+                        "zhandlersocket/CommunicationException.zep",
+                        "zhandlersocket/Connection.zep",
+                        "zhandlersocket/ConnectionException.zep",
+                        "zhandlersocket/DebugLogger.zep",
+                        "zhandlersocket/DuplicateEntryException.zep",
+                        "zhandlersocket/Encoder.zep",
+                        "zhandlersocket/Index.zep",
+                        "zhandlersocket/Logger.zep",
+                        "zhandlersocket/WhereClause.zep",
+                        "zhandlersocket/WhereClauseFilter.zep",
+                        "zhandlersocket/ZException.zep",
+                        "ide/0.0.1/Zhandlersocket/Client.zep.php",
+                        "ide/0.0.1/Zhandlersocket/Command.zep.php",
+                        "ide/0.0.1/Zhandlersocket/CommunicationException.zep.php",
+                        "ide/0.0.1/Zhandlersocket/Connection.zep.php",
+                        "ide/0.0.1/Zhandlersocket/ConnectionException.zep.php",
+                        "ide/0.0.1/Zhandlersocket/DebugLogger.zep.php",
+                        "ide/0.0.1/Zhandlersocket/DuplicateEntryException.zep.php",
+                        "ide/0.0.1/Zhandlersocket/Encoder.zep.php",
+                        "ide/0.0.1/Zhandlersocket/Index.zep.php",
+                        "ide/0.0.1/Zhandlersocket/Log.zep.php",
+                        "ide/0.0.1/Zhandlersocket/Logger.zep.php",
+                        "ide/0.0.1/Zhandlersocket/NullLogger.zep.php",
+                        "ide/0.0.1/Zhandlersocket/WhereClause.zep.php",
+                        "ide/0.0.1/Zhandlersocket/WhereClauseFilter.zep.php",
+                        "ide/0.0.1/Zhandlersocket/ZException.zep.php",
+                        "zhandlersocket/FakeLogger.zep",
+                        "test/EncoderTest.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

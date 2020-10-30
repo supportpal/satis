@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/php-session-csrf": [
+            {
+                "name": "phpclasses/php-session-csrf",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-session-csrf.zip"
+                },
+                "require": {
+                    "php": "7.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "CSRFSession.php",
+                        "SessionHandler.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

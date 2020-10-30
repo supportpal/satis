@@ -1,0 +1,31 @@
+{
+    "packages": {
+        "phpclasses/site-class": [
+            {
+                "name": "phpclasses/site-class",
+                "version": "1.44",
+                "version_normalized": "1.44.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/site-class.zip"
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "includes",
+                        "includes/database-engines"
+                    ],
+                    "files": [
+                        "includes/database-engines/helper-functions.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

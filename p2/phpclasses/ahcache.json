@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/ahcache": [
+            {
+                "name": "phpclasses/ahcache",
+                "version": "2.3",
+                "version_normalized": "2.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ahcache.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "cache.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

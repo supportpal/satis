@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/cloud-response-parse": [
+            {
+                "name": "phpclasses/cloud-response-parse",
+                "version": "1.7.4",
+                "version_normalized": "1.7.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/cloud-response-parse.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ResponseFactory.php",
+                        "ResponseFormatter.php",
+                        "providers/BaseResponse.php",
+                        "providers/AWSResponse.php",
+                        "providers/RackspaceResponse.php",
+                        "providers/DigitalOceanResponse.php",
+                        "utils/NetteCachingIterator.php",
+                        "ResponseParser.php",
+                        "ResponseParser2.0.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

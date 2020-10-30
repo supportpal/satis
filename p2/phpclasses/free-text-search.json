@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "phpclasses/free-text-search": [
+            {
+                "name": "phpclasses/free-text-search",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/free-text-search.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Controller/Controller.php",
+                        "Controller/Main.php",
+                        "Engine/Config.php",
+                        "Engine/Loader.php",
+                        "Engine/Router.php",
+                        "Engine/Str.php",
+                        "Engine/View.php",
+                        "Engine/FreeText/Looking.php",
+                        "Engine/FreeText/Parser.php",
+                        "Engine/FreeText/Type.php",
+                        "Engine/Pattern/Singleton.php",
+                        "Engine/Pattern/Stic.php",
+                        "Engine/FreeText/Type/Area.php",
+                        "Engine/FreeText/Type/Bedroom.php",
+                        "Engine/FreeText/Type/County.php",
+                        "Engine/FreeText/Type/HouseType.php",
+                        "Engine/FreeText/Type/Price.php",
+                        "Engine/FreeText/Type/Property.php",
+                        "Engine/FreeText/Type/Rental.php",
+                        "Engine/FreeText/Type/Sale.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

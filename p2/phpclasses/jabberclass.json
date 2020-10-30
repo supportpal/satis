@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/jabberclass": [
+            {
+                "name": "phpclasses/jabberclass",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/jabberclass.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class_Jabber.php",
+                        "class_ConnectionSocket.php",
+                        "class_XMLParser.php",
+                        "class_SHA1Library.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

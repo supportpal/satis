@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/uniwersal-import-xml": [
+            {
+                "name": "phpclasses/uniwersal-import-xml",
+                "version": "2",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/uniwersal-import-xml.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "uniwersal_import_xml.class.php",
+                        "uniwersal_import_xml.class2.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

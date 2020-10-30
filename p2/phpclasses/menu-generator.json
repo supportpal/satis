@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/menu-generator": [
+            {
+                "name": "phpclasses/menu-generator",
+                "version": "2.3",
+                "version_normalized": "2.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/menu-generator.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "menuClass.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

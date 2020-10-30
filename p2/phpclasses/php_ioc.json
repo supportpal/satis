@@ -1,0 +1,32 @@
+{
+    "packages": {
+        "phpclasses/php_ioc": [
+            {
+                "name": "phpclasses/php_ioc",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php_ioc.zip"
+                },
+                "require": {
+                    "phpclasses/domit": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "objectfactory/IFactory.php",
+                        "objectfactory/InvokeConstructor.php",
+                        "objectfactory/InvokeMethod.php",
+                        "objectfactory/ObjectFactory.php",
+                        "objectfactory/helper/DirectoryHelper.php",
+                        "objectfactory/helper/Helper.php",
+                        "objectfactory/helper/ObjectHelper.php",
+                        "objectfactory/loader/ClassLoader.php",
+                        "objectfactory/parser/Parser.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/attach-mailer-pdf": [
+            {
+                "name": "phpclasses/attach-mailer-pdf",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/attach-mailer-pdf.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "AttachMailer.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

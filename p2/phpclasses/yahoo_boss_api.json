@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/yahoo_boss_api": [
+            {
+                "name": "phpclasses/yahoo_boss_api",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/yahoo_boss_api.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "yahooboss.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

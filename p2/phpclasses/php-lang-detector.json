@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/php-lang-detector": [
+            {
+                "name": "phpclasses/php-lang-detector",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-lang-detector.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "lib/LangDetector.php",
+                        "lib/LangDetectorTrainer.php",
+                        "lib/Model.php",
+                        "lib/Bigram.php",
+                        "lib/Ngram.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

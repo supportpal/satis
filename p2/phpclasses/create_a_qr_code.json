@@ -1,0 +1,32 @@
+{
+    "packages": {
+        "phpclasses/create_a_qr_code": [
+            {
+                "name": "phpclasses/create_a_qr_code",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/create_a_qr_code.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "library/php_qr_code/bindings/tcpdf/qrcode.php",
+                        "library/php_qr_code/phpqrcode.php",
+                        "library/php_qr_code/qrbitstream.php",
+                        "library/php_qr_code/qrconst.php",
+                        "library/php_qr_code/qrencode.php",
+                        "library/php_qr_code/qrimage.php",
+                        "library/php_qr_code/qrinput.php",
+                        "library/php_qr_code/qrmask.php",
+                        "library/php_qr_code/qrrscode.php",
+                        "library/php_qr_code/qrspec.php",
+                        "library/php_qr_code/qrsplit.php",
+                        "library/php_qr_code/qrtools.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

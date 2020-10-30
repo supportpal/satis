@@ -1,0 +1,33 @@
+{
+    "packages": {
+        "phpclasses/php-identity-map": [
+            {
+                "name": "phpclasses/php-identity-map",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-identity-map.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "autoload.php",
+                        "src/framework/IdentityMap.php",
+                        "src/framework/MapperException.php",
+                        "src/model/User.php",
+                        "src/persistence/UserMapper.php",
+                        "src/Repository.php",
+                        "tests/RepositoryTest.php",
+                        "src/framework/RecursiveClassLoder.php",
+                        "src/model/Article.php",
+                        "src/persistence/AbstractMapper.php",
+                        "src/persistence/ArticleMapper.php",
+                        "tests/model/ArticleTest.php",
+                        "tests/persistence/ArticleMapperTest.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

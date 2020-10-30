@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/route": [
+            {
+                "name": "phpclasses/route",
+                "version": "1.0.22",
+                "version_normalized": "1.0.22.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/route.zip"
+                },
+                "require": {
+                    "nezamy/support": "1.0.*",
+                    "php": ">=5.4.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "System\\": "system"
+                    },
+                    "files": [
+                        "system/function.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

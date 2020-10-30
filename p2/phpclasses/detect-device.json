@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/detect-device": [
+            {
+                "name": "phpclasses/detect-device",
+                "version": "5",
+                "version_normalized": "5.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/detect-device.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.DetectDevice.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

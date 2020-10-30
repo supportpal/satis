@@ -1,0 +1,140 @@
+{
+    "packages": {
+        "horde/cli_modular": [
+            {
+                "name": "horde/cli_modular",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Cli_Modular.git",
+                    "reference": "b2e7a87fe4d5abd13a6ed019f21775c910375783"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Cli_Modular/zipball/b2e7a87fe4d5abd13a6ed019f21775c910375783",
+                    "reference": "b2e7a87fe4d5abd13a6ed019f21775c910375783",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_argv": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-01-08T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "A toolset for CLI interfaces that are modular.",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cli_Modular/tree/v2.0.3"
+                }
+            },
+            {
+                "name": "horde/cli_modular",
+                "version": "2.0.4",
+                "version_normalized": "2.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Cli_Modular.git",
+                    "reference": "e05f699053c78b7548cbcd4ae0ef489ad0ddc8b6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Cli_Modular/zipball/e05f699053c78b7548cbcd4ae0ef489ad0ddc8b6",
+                    "reference": "e05f699053c78b7548cbcd4ae0ef489ad0ddc8b6",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_argv": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-02-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "A toolset for CLI interfaces that are modular.",
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cli_Modular/tree/v2.0.4"
+                }
+            },
+            {
+                "name": "horde/cli_modular",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Cli_Modular.git",
+                    "reference": "aa174895878ba643ea3e00109b052ca82e440a40"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Cli_Modular/zipball/aa174895878ba643ea3e00109b052ca82e440a40",
+                    "reference": "aa174895878ba643ea3e00109b052ca82e440a40",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_argv": "^2@stable",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_cli_modular": "2.*",
+                    "pear-pear.horde.org/horde_cli_modular": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": "^2.1@stable"
+                },
+                "time": "2017-05-03T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Cli_Modular": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "A toolset for CLI interfaces that are modular.",
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cli_Modular/tree/v2.1.0"
+                }
+            }
+        ]
+    }
+}

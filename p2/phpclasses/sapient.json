@@ -1,0 +1,33 @@
+{
+    "packages": {
+        "phpclasses/sapient": [
+            {
+                "name": "phpclasses/sapient",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/sapient.zip"
+                },
+                "require": {
+                    "guzzlehttp/psr7": "^1",
+                    "paragonie/constant_time_encoding": "^2",
+                    "paragonie/sodium_compat": "^1",
+                    "php": "^7",
+                    "psr/http-message": "^1"
+                },
+                "require-dev": {
+                    "guzzlehttp/guzzle": "^6",
+                    "phpunit/phpunit": "^6",
+                    "vimeo/psalm": "dev-master"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "ParagonIE\\Sapient\\": "src"
+                    }
+                }
+            }
+        ]
+    }
+}

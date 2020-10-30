@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/apcswitch": [
+            {
+                "name": "phpclasses/apcswitch",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/apcswitch.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ApcSwitch.php",
+                        "Shell.php",
+                        "Ssh2Connector.php",
+                        "ShellConnector.php",
+                        "LogWrapper.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

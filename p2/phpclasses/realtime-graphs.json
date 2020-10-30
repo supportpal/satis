@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/realtime-graphs": [
+            {
+                "name": "phpclasses/realtime-graphs",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/realtime-graphs.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "realtime_graph.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

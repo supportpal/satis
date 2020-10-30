@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/kiwilogger": [
+            {
+                "name": "phpclasses/kiwilogger",
+                "version": "0.99",
+                "version_normalized": "0.99.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/kiwilogger.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.kiwiLogger.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

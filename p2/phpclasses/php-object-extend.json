@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-object-extend": [
+            {
+                "name": "phpclasses/php-object-extend",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-object-extend.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "extend.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

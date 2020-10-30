@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/barcodegenerator": [
+            {
+                "name": "phpclasses/barcodegenerator",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/barcodegenerator.zip"
+                },
+                "require": {
+                    "doctrine/common": "^2.6",
+                    "doctrine/doctrine-bundle": "^1.6",
+                    "doctrine/doctrine-cache-bundle": "^1.2",
+                    "doctrine/orm": "^2.5",
+                    "phpunit/phpunit": "^7.3"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Elminson\\BarCode\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

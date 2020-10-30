@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/arsoundex": [
+            {
+                "name": "phpclasses/arsoundex",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/arsoundex.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ASoundex.class.php",
+                        "php5/ASoundex.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

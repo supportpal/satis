@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/php-comments": [
+            {
+                "name": "phpclasses/php-comments",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-comments.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.captcha.php",
+                        "class.comments.php",
+                        "class.controller.php",
+                        "class.dbsql.php",
+                        "class.registry.php",
+                        "markdown.php",
+                        "markhtml.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/square-spec-bdd": [
+            {
+                "name": "phpclasses/square-spec-bdd",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/square-spec-bdd.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "spec.php",
+                        "spec_context.php",
+                        "spec_description.php",
+                        "spec_subject.php",
+                        "spec_var.php",
+                        "testable.php",
+                        "wip/spec_double.php",
+                        "wip/spec_stub.php",
+                        "wip/traits.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-maths-matrix": [
+            {
+                "name": "phpclasses/php-maths-matrix",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-maths-matrix.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "matrix.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

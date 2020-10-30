@@ -1,0 +1,31 @@
+{
+    "packages": {
+        "phpclasses/endsql": [
+            {
+                "name": "phpclasses/endsql",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/endsql.zip"
+                },
+                "require": {
+                    "phpclasses/endsql": ">=1.0.2"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Autoload.php",
+                        "library/EndSql.php",
+                        "library/EndSql/Sql/AbstractSql.php",
+                        "library/EndSql/Sql/Delete.php",
+                        "library/EndSql/Sql/Insert.php",
+                        "library/EndSql/Sql/Select.php",
+                        "library/EndSql/Sql/Update.php",
+                        "library/EndSql/Sql/Where.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

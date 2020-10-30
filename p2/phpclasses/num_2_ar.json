@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/num_2_ar": [
+            {
+                "name": "phpclasses/num_2_ar",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/num_2_ar.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "num_to_ar.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

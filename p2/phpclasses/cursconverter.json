@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/cursconverter": [
+            {
+                "name": "phpclasses/cursconverter",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/cursconverter.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "CursConverter.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

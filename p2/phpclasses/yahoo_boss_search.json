@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/yahoo_boss_search": [
+            {
+                "name": "phpclasses/yahoo_boss_search",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/yahoo_boss_search.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "bossSearch.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

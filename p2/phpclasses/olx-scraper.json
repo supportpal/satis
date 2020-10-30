@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/olx-scraper": [
+            {
+                "name": "phpclasses/olx-scraper",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/olx-scraper.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "scraper.php",
+                        "simple_html_dom.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

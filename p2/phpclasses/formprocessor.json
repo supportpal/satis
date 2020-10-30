@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "phpclasses/formprocessor": [
+            {
+                "name": "phpclasses/formprocessor",
+                "version": "1.0.8",
+                "version_normalized": "1.0.8.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/formprocessor.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "lib/FormModel.class.php",
+                        "lib/FormTable.class.php",
+                        "lib/FormProcessor.class.php",
+                        "lib/DbModel.class.php",
+                        "example/FormProcessor/DbModel.class.php",
+                        "example/FormProcessor/FormModel.class.php",
+                        "example/FormProcessor/FormProcessor.class.php",
+                        "example/FormProcessor/FormTable.class.php",
+                        "lib/dbConnection.class.php",
+                        "example/FormProcessor/dbConnection.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

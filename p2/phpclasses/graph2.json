@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/graph2": [
+            {
+                "name": "phpclasses/graph2",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/graph2.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "graph.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

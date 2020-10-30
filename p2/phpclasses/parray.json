@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/parray": [
+            {
+                "name": "phpclasses/parray",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/parray.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "parray.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

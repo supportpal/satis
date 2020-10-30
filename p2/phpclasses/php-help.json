@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-help": [
+            {
+                "name": "phpclasses/php-help",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-help.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "phphelp.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

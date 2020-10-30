@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/isbncheck": [
+            {
+                "name": "phpclasses/isbncheck",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/isbncheck.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "isbntest.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

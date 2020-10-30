@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/tbszip": [
+            {
+                "name": "phpclasses/tbszip",
+                "version": "2.16",
+                "version_normalized": "2.16.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/tbszip.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "tbszip.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

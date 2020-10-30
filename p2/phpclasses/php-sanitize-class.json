@@ -1,0 +1,33 @@
+{
+    "packages": {
+        "phpclasses/php-sanitize-class": [
+            {
+                "name": "phpclasses/php-sanitize-class",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-sanitize-class.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ClassLoader.php",
+                        "PHPSanitizer.php",
+                        "SanitizerFactory.php",
+                        "factories/AbstractSanitizer.php",
+                        "factories/ISanitizer.php",
+                        "factories/SanitizerFloat.php",
+                        "factories/SanitizerHtml.php",
+                        "factories/SanitizerInt.php",
+                        "factories/SanitizerLdap.php",
+                        "factories/SanitizerParanoid.php",
+                        "factories/SanitizerSql.php",
+                        "factories/SanitizerSystem.php",
+                        "factories/SanitizerUtf8.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

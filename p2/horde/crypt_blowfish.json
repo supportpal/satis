@@ -1,0 +1,215 @@
+{
+    "packages": {
+        "horde/crypt_blowfish": [
+            {
+                "name": "horde/crypt_blowfish",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Crypt_Blowfish.git",
+                    "reference": "a6f45b3956f1dc902aa24e64a40d33087e8c7414"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Crypt_Blowfish/zipball/a6f45b3956f1dc902aa24e64a40d33087e8c7414",
+                    "reference": "a6f45b3956f1dc902aa24e64a40d33087e8c7414",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-mcrypt": "*",
+                    "ext-openssl": "*",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-01-08T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Blowfish Encryption Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/crypt_blowfish",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Crypt_Blowfish.git",
+                    "reference": "a5645843ca79e03dc4290144eb346071e4957713"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Crypt_Blowfish/zipball/a5645843ca79e03dc4290144eb346071e4957713",
+                    "reference": "a5645843ca79e03dc4290144eb346071e4957713",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-mcrypt": "*",
+                    "ext-openssl": "*",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2015-05-21T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Blowfish Encryption Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/crypt_blowfish",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Crypt_Blowfish.git",
+                    "reference": "15d18c0ab5fa98cdca790257db3c407f54f03436"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Crypt_Blowfish/zipball/15d18c0ab5fa98cdca790257db3c407f54f03436",
+                    "reference": "15d18c0ab5fa98cdca790257db3c407f54f03436",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-mcrypt": "*",
+                    "ext-openssl": "*",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-02-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Blowfish Encryption Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/crypt_blowfish",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Crypt_Blowfish.git",
+                    "reference": "18a83859c65d2bd540590f48ae72907d36862128"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Crypt_Blowfish/zipball/18a83859c65d2bd540590f48ae72907d36862128",
+                    "reference": "18a83859c65d2bd540590f48ae72907d36862128",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-mcrypt": "*",
+                    "ext-openssl": "*",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-09-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Blowfish Encryption Library",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/crypt_blowfish",
+                "version": "1.1.3",
+                "version_normalized": "1.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Crypt_Blowfish.git",
+                    "reference": "b9ca1e2e1e83bdbe54e9e56d82f1d9e39d1527e8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Crypt_Blowfish/zipball/b9ca1e2e1e83bdbe54e9e56d82f1d9e39d1527e8",
+                    "reference": "b9ca1e2e1e83bdbe54e9e56d82f1d9e39d1527e8",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_crypt_blowfish": "1.*",
+                    "pear-pear.horde.org/horde_crypt_blowfish": "1.*"
+                },
+                "suggest": {
+                    "ext-mcrypt": "*",
+                    "ext-openssl": "*",
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2019-11-03T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Crypt_Blowfish": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Blowfish encryption library",
+                "homepage": "https://www.horde.org/libraries/Horde_Crypt_Blowfish"
+            }
+        ]
+    }
+}

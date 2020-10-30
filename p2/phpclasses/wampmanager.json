@@ -1,0 +1,43 @@
+{
+    "packages": {
+        "phpclasses/wampmanager": [
+            {
+                "name": "phpclasses/wampmanager",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/wampmanager.zip"
+                },
+                "require": {
+                    "phpclasses/extended-ini-file": "1.0.16",
+                    "phpclasses/path-utilities": "1.0.17",
+                    "phpclasses/win-logical-drives": "1.0.0",
+                    "phpclasses/wmi": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Src/ApachePackage.phpclass",
+                        "Src/ApachePackages.phpclass",
+                        "Src/MySqlPackage.phpclass",
+                        "Src/MySqlPackages.phpclass",
+                        "Src/PhpPackage.phpclass",
+                        "Src/PhpPackages.phpclass",
+                        "Src/WampManager.phpclass",
+                        "Src/WampPackage.phpclass",
+                        "Src/WampPackages.phpclass",
+                        "Src/Dependencies/AssociativeArray.phpclass",
+                        "Src/Dependencies/IniFile.phpclass",
+                        "Src/Dependencies/LogicalDrives.phpclass",
+                        "Src/Dependencies/Path.phpclass",
+                        "Src/Dependencies/String.phpclass",
+                        "Src/Dependencies/Variables.phpclass",
+                        "Src/Dependencies/WShell.phpclass",
+                        "Src/Dependencies/Wmi.phpclass"
+                    ]
+                }
+            }
+        ]
+    }
+}

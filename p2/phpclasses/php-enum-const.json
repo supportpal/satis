@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-enum-const": [
+            {
+                "name": "phpclasses/php-enum-const",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-enum-const.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Enum.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

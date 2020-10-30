@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/admin-panel-user-man": [
+            {
+                "name": "phpclasses/admin-panel-user-man",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/admin-panel-user-man.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "application/controllers/Error_404",
+                        "application/controllers/Login.php",
+                        "application/controllers/User.php",
+                        "application/libraries/BaseController.php",
+                        "application/models/Login_model.php",
+                        "application/models/User_model.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

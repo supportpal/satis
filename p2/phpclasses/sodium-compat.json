@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/sodium-compat": [
+            {
+                "name": "phpclasses/sodium-compat",
+                "version": "1.5.27",
+                "version_normalized": "1.5.27.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/sodium-compat.zip"
+                },
+                "require": {
+                    "paragonie/random_compat": ">=1",
+                    "php": "^5.2.4|^5.3|^5.4|^5.5|^5.6|^7|^8"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^3|^4|^5|^6|^7"
+                },
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "autoload.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

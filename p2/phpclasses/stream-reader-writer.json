@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/stream-reader-writer": [
+            {
+                "name": "phpclasses/stream-reader-writer",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/stream-reader-writer.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "reader/ReverseStreamReader.php",
+                        "reader/StreamReader.php",
+                        "writer/FileWriter.php",
+                        "writer/BufferedStreamWriter.php",
+                        "writer/StreamWriter.php",
+                        "AbstractStreamAccesser.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

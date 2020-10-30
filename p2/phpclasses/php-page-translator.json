@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-page-translator": [
+            {
+                "name": "phpclasses/php-page-translator",
+                "version": "0.0.2",
+                "version_normalized": "0.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-page-translator.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Translator.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/make-sql": [
+            {
+                "name": "phpclasses/make-sql",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/make-sql.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class/makeSql.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

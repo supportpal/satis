@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/sharebike": [
+            {
+                "name": "phpclasses/sharebike",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/sharebike.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Bike.php",
+                        "Cloud.php",
+                        "Factory.php",
+                        "Mobile.php",
+                        "Person.php",
+                        "Place.php",
+                        "ShareBikeTest.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

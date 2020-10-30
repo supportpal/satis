@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/dp2": [
+            {
+                "name": "phpclasses/dp2",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/dp2.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DP\\": "vendor/DP"
+                    }
+                }
+            }
+        ]
+    }
+}

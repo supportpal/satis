@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/ptcforms": [
+            {
+                "name": "phpclasses/ptcforms",
+                "version": "0.9.2",
+                "version_normalized": "0.9.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ptcforms.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "PtcEvent.php",
+                        "PtcForm.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

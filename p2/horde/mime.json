@@ -1,0 +1,1762 @@
+{
+    "packages": {
+        "horde/mime": [
+            {
+                "name": "horde/mime",
+                "version": "2.10.0",
+                "version_normalized": "2.10.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "1ecf0c35a676c57732113684ba62bd403ffb6b34"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/1ecf0c35a676c57732113684ba62bd403ffb6b34",
+                    "reference": "1ecf0c35a676c57732113684ba62bd403ffb6b34",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_listheaders": ">=1.2.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2016-07-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.10.1",
+                "version_normalized": "2.10.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "d685b25abc81758297bfb0c7b97ec0e4f2baa750"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/d685b25abc81758297bfb0c7b97ec0e4f2baa750",
+                    "reference": "d685b25abc81758297bfb0c7b97ec0e4f2baa750",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_listheaders": ">=1.2.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2016-09-05T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.10.2",
+                "version_normalized": "2.10.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "d81a8b02b7bed22387b16516e7e318c069845f10"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/d81a8b02b7bed22387b16516e7e318c069845f10",
+                    "reference": "d81a8b02b7bed22387b16516e7e318c069845f10",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_listheaders": ">=1.2.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2016-11-09T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.10.3",
+                "version_normalized": "2.10.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "3f8f4d2c8dfe14918f99a02fabd546fd36b01749"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/3f8f4d2c8dfe14918f99a02fabd546fd36b01749",
+                    "reference": "3f8f4d2c8dfe14918f99a02fabd546fd36b01749",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_listheaders": ">=1.2.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2017-02-27T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.11.0",
+                "version_normalized": "2.11.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "c9bde4a55d3ee5f2d8615fb88c143108ebd78094"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/c9bde4a55d3ee5f2d8615fb88c143108ebd78094",
+                    "reference": "c9bde4a55d3ee5f2d8615fb88c143108ebd78094",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_listheaders": "^1.2",
+                    "pear-pear.horde.org/horde_mail": "^2.5",
+                    "pear-pear.horde.org/horde_stream": "^1.3",
+                    "pear-pear.horde.org/horde_stream_filter": "^2",
+                    "pear-pear.horde.org/horde_support": "^2.1",
+                    "pear-pear.horde.org/horde_text_flowed": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_mime": "2.*",
+                    "pear-pear.horde.org/horde_mime": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": "^2",
+                    "pear-pear.horde.org/horde_test": "^2.1",
+                    "pear-pear.horde.org/horde_text_filter": "^2",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2018-01-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Mime": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "MIME library",
+                "homepage": "https://www.horde.org/libraries/Horde_Mime"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.2.8",
+                "version_normalized": "2.2.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "7ce1686f7d4a14080508fc8e13a726e7d9406a0c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/7ce1686f7d4a14080508fc8e13a726e7d9406a0c",
+                    "reference": "7ce1686f7d4a14080508fc8e13a726e7d9406a0c",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.1.1@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2013-11-22T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.2.9",
+                "version_normalized": "2.2.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "696129b0b45d030cdc3d66cad8d35294111b2bc7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/696129b0b45d030cdc3d66cad8d35294111b2bc7",
+                    "reference": "696129b0b45d030cdc3d66cad8d35294111b2bc7",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.1.1@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2014-02-11T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.3.0",
+                "version_normalized": "2.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "32bae54576fac24e3c7eeb8fdd694d1bd6b7c2b0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/32bae54576fac24e3c7eeb8fdd694d1bd6b7c2b0",
+                    "reference": "32bae54576fac24e3c7eeb8fdd694d1bd6b7c2b0",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.1.1@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2014-03-10T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.3.1",
+                "version_normalized": "2.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "0353a2f0709cdff7262cf402d41245d0a660d902"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/0353a2f0709cdff7262cf402d41245d0a660d902",
+                    "reference": "0353a2f0709cdff7262cf402d41245d0a660d902",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.1.1@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2014-04-22T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.3.2",
+                "version_normalized": "2.3.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "78ac6303036e37d5c7d418ea4dd054d42bcc04b6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/78ac6303036e37d5c7d418ea4dd054d42bcc04b6",
+                    "reference": "78ac6303036e37d5c7d418ea4dd054d42bcc04b6",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.1.1@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2014-04-22T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.3.4",
+                "version_normalized": "2.3.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "463eb533ae54a91e76274392db69dad436736b4e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/463eb533ae54a91e76274392db69dad436736b4e",
+                    "reference": "463eb533ae54a91e76274392db69dad436736b4e",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.1.1@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2014-05-09T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.3.5",
+                "version_normalized": "2.3.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "017d3903b8426effd85b090e5d24a9e2071cc52f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/017d3903b8426effd85b090e5d24a9e2071cc52f",
+                    "reference": "017d3903b8426effd85b090e5d24a9e2071cc52f",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.1.1@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2014-05-21T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.4.0",
+                "version_normalized": "2.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "2e777a86ed5e23b0ab5301ca235392270a9baea3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/2e777a86ed5e23b0ab5301ca235392270a9baea3",
+                    "reference": "2e777a86ed5e23b0ab5301ca235392270a9baea3",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.1.1@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2014-05-24T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.4.1",
+                "version_normalized": "2.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "d2b51c8d5550078ca8021fccf3f1b92b991367c5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/d2b51c8d5550078ca8021fccf3f1b92b991367c5",
+                    "reference": "d2b51c8d5550078ca8021fccf3f1b92b991367c5",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.1.1@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2014-05-25T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.4.2",
+                "version_normalized": "2.4.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "5110beba29029b6c92d02e0423f3141fbdfe0b70"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/5110beba29029b6c92d02e0423f3141fbdfe0b70",
+                    "reference": "5110beba29029b6c92d02e0423f3141fbdfe0b70",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.1.1@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2014-06-22T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.4.3",
+                "version_normalized": "2.4.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "1b2165bd0871d5c98036484662e1e05990cc385b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/1b2165bd0871d5c98036484662e1e05990cc385b",
+                    "reference": "1b2165bd0871d5c98036484662e1e05990cc385b",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.1.1@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2014-07-09T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.4.4",
+                "version_normalized": "2.4.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "a1f4c7d0a585b3f6428b195b8b8fe690f801c7ad"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/a1f4c7d0a585b3f6428b195b8b8fe690f801c7ad",
+                    "reference": "a1f4c7d0a585b3f6428b195b8b8fe690f801c7ad",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.1.1@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2014-08-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.4.5",
+                "version_normalized": "2.4.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "51fce66df13a1b4bd75cf4c84937e282955182bb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/51fce66df13a1b4bd75cf4c84937e282955182bb",
+                    "reference": "51fce66df13a1b4bd75cf4c84937e282955182bb",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.1.1@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2014-08-27T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.5.0",
+                "version_normalized": "2.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "9cde7744fcbdbc13061746d8438329794939d795"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/9cde7744fcbdbc13061746d8438329794939d795",
+                    "reference": "9cde7744fcbdbc13061746d8438329794939d795",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_listheaders": ">=1.2.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2014-11-21T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.5.1",
+                "version_normalized": "2.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "4d82c084670b58b29f4da4d1207baa85c73367a2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/4d82c084670b58b29f4da4d1207baa85c73367a2",
+                    "reference": "4d82c084670b58b29f4da4d1207baa85c73367a2",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_listheaders": ">=1.2.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2014-11-23T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.5.2",
+                "version_normalized": "2.5.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "6dcc08453514855bdb9e732e11896696ec3de4c2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/6dcc08453514855bdb9e732e11896696ec3de4c2",
+                    "reference": "6dcc08453514855bdb9e732e11896696ec3de4c2",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_listheaders": ">=1.2.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2014-11-25T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.6.0",
+                "version_normalized": "2.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "4d4e363dc65c68cb97d5a7ac69f304af327e4f11"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/4d4e363dc65c68cb97d5a7ac69f304af327e4f11",
+                    "reference": "4d4e363dc65c68cb97d5a7ac69f304af327e4f11",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_listheaders": ">=1.2.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2014-12-05T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.6.1",
+                "version_normalized": "2.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "05acdd72215942876c0ed5bfa78c2c3e3533fe45"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/05acdd72215942876c0ed5bfa78c2c3e3533fe45",
+                    "reference": "05acdd72215942876c0ed5bfa78c2c3e3533fe45",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_listheaders": ">=1.2.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2014-12-29T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.7.0",
+                "version_normalized": "2.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "9cbf04ad05dddb607e060f6e37124a3a20506e04"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/9cbf04ad05dddb607e060f6e37124a3a20506e04",
+                    "reference": "9cbf04ad05dddb607e060f6e37124a3a20506e04",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_listheaders": ">=1.2.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2015-01-20T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.8.0",
+                "version_normalized": "2.8.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "41b392510420a421ecbeaeeaa828014ce9a7e4cb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/41b392510420a421ecbeaeeaa828014ce9a7e4cb",
+                    "reference": "41b392510420a421ecbeaeeaa828014ce9a7e4cb",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_listheaders": ">=1.2.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2015-03-10T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.8.1",
+                "version_normalized": "2.8.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "a00c55edf0de777a7bda14149febe1f7a8e996c0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/a00c55edf0de777a7bda14149febe1f7a8e996c0",
+                    "reference": "a00c55edf0de777a7bda14149febe1f7a8e996c0",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_listheaders": ">=1.2.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2015-04-13T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.9.0",
+                "version_normalized": "2.9.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "bf86b98aae4bb94d4c0bdaa02dd414659f6791b2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/bf86b98aae4bb94d4c0bdaa02dd414659f6791b2",
+                    "reference": "bf86b98aae4bb94d4c0bdaa02dd414659f6791b2",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_listheaders": ">=1.2.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2015-04-28T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.9.1",
+                "version_normalized": "2.9.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "aea5f645815a90ec8dc0d7013c0d6d06986063c9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/aea5f645815a90ec8dc0d7013c0d6d06986063c9",
+                    "reference": "aea5f645815a90ec8dc0d7013c0d6d06986063c9",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_listheaders": ">=1.2.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2015-05-21T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.9.2",
+                "version_normalized": "2.9.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "4c6394bb20ca58cda876eeaddb6350daf856c189"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/4c6394bb20ca58cda876eeaddb6350daf856c189",
+                    "reference": "4c6394bb20ca58cda876eeaddb6350daf856c189",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_listheaders": ">=1.2.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2015-09-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.9.3",
+                "version_normalized": "2.9.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "786ec32d8dbd492425917ccc2b9903f0fabfd877"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/786ec32d8dbd492425917ccc2b9903f0fabfd877",
+                    "reference": "786ec32d8dbd492425917ccc2b9903f0fabfd877",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_listheaders": ">=1.2.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2016-02-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.9.4",
+                "version_normalized": "2.9.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "23399b21e1f4089a9322c4ef4fabcc14e1d79112"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/23399b21e1f4089a9322c4ef4fabcc14e1d79112",
+                    "reference": "23399b21e1f4089a9322c4ef4fabcc14e1d79112",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_listheaders": ">=1.2.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2016-03-21T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/mime",
+                "version": "2.9.5",
+                "version_normalized": "2.9.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "cd61e04bbbc5bd369de33720911fdc33c971957d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/cd61e04bbbc5bd369de33720911fdc33c971957d",
+                    "reference": "cd61e04bbbc5bd369de33720911fdc33c971957d",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_listheaders": ">=1.2.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_mail": ">=2.5.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream": ">=1.3.0@stable,<=2.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_stream_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_support": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_flowed": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_translation": ">=2.2.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_nls": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_text_filter": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/idn": "*",
+                    "pear-pecl.php.net/intl": "*"
+                },
+                "time": "2016-05-31T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde MIME Library",
+                "homepage": "https://pear.horde.org"
+            }
+        ]
+    }
+}

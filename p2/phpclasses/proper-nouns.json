@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/proper-nouns": [
+            {
+                "name": "phpclasses/proper-nouns",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/proper-nouns.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "proper_nouns.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

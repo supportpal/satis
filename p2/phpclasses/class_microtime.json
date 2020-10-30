@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/class_microtime": [
+            {
+                "name": "phpclasses/class_microtime",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/class_microtime.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.microtime.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/ipapi": [
+            {
+                "name": "phpclasses/ipapi",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ipapi.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ipapi.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/goo-gl-short-url": [
+            {
+                "name": "phpclasses/goo-gl-short-url",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/goo-gl-short-url.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "googlshorturl"
+                    ]
+                }
+            }
+        ]
+    }
+}

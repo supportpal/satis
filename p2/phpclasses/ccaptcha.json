@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/ccaptcha": [
+            {
+                "name": "phpclasses/ccaptcha",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ccaptcha.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "cSession.php",
+                        "cCaptcha.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

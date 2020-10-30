@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-error-handling": [
+            {
+                "name": "phpclasses/php-error-handling",
+                "version": "3",
+                "version_normalized": "3.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-error-handling.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ErrorHandler.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/boot-help-demo": [
+            {
+                "name": "phpclasses/boot-help-demo",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/boot-help-demo.zip"
+                },
+                "require": {
+                    "cobisja/boothelp": ">=0.3.1"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "BootHelpDemo\\": "src/core"
+                    }
+                }
+            }
+        ]
+    }
+}

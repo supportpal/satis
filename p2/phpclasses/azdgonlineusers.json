@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/azdgonlineusers": [
+            {
+                "name": "phpclasses/azdgonlineusers",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/azdgonlineusers.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "AzDGOnlineUsers.class.inc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

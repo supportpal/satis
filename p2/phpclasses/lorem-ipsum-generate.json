@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/lorem-ipsum-generate": [
+            {
+                "name": "phpclasses/lorem-ipsum-generate",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/lorem-ipsum-generate.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "lib/LoremIpsum.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

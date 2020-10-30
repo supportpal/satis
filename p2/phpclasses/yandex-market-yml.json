@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/yandex-market-yml": [
+            {
+                "name": "phpclasses/yandex-market-yml",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/yandex-market-yml.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "yml_class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

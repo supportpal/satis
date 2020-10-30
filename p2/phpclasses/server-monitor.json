@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/server-monitor": [
+            {
+                "name": "phpclasses/server-monitor",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/server-monitor.zip"
+                },
+                "require": {
+                    "cboden/ratchet": "^0.4.1",
+                    "hassankhan/config": "^2.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Distvan\\": "lib/"
+                    }
+                }
+            }
+        ]
+    }
+}

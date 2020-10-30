@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/opencart-sitemap": [
+            {
+                "name": "phpclasses/opencart-sitemap",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/opencart-sitemap.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "sitemap_generator.php",
+                        "scripts/classes/Class_ScriptBase.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

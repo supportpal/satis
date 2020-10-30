@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/cg": [
+            {
+                "name": "phpclasses/cg",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/cg.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "core_classes/core.dbfunctions.php",
+                        "core_classes/DGEN_Generator.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

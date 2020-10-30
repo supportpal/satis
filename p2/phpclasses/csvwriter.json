@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/csvwriter": [
+            {
+                "name": "phpclasses/csvwriter",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/csvwriter.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "csv_writer.inc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

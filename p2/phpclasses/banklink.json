@@ -1,0 +1,35 @@
+{
+    "packages": {
+        "phpclasses/banklink": [
+            {
+                "name": "phpclasses/banklink",
+                "version": "1.0.13",
+                "version_normalized": "1.0.13.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/banklink.zip"
+                },
+                "require": {
+                    "ext-mbstring": "*",
+                    "lib-openssl": "*",
+                    "php": ">=7.0"
+                },
+                "require-dev": {
+                    "apigen/apigen": "dev-master",
+                    "friendsofphp/php-cs-fixer": "^2.14",
+                    "php-coveralls/php-coveralls": "2.*",
+                    "phpmd/phpmd": "^2.6",
+                    "phpunit/phpunit": "6.*",
+                    "roave/better-reflection": "dev-master",
+                    "squizlabs/php_codesniffer": "^3.3"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "RKD\\Banklink\\": "src"
+                    }
+                }
+            }
+        ]
+    }
+}

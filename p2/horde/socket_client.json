@@ -1,0 +1,311 @@
+{
+    "packages": {
+        "horde/socket_client": [
+            {
+                "name": "horde/socket_client",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Socket_Client.git",
+                    "reference": "2c7acf3aee3064d6e0abb8921ae0415d46d7c570"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Socket_Client/zipball/2c7acf3aee3064d6e0abb8921ae0415d46d7c570",
+                    "reference": "2c7acf3aee3064d6e0abb8921ae0415d46d7c570",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "ext-openssl": "*"
+                },
+                "time": "2013-10-19T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Socket Client",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/socket_client",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Socket_Client.git",
+                    "reference": "1ba3530e1b1977e0f355264ad424c8551ececf69"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Socket_Client/zipball/1ba3530e1b1977e0f355264ad424c8551ececf69",
+                    "reference": "1ba3530e1b1977e0f355264ad424c8551ececf69",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "ext-openssl": "*"
+                },
+                "time": "2013-10-30T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Socket Client",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/socket_client",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Socket_Client.git",
+                    "reference": "db778f25f3b6b7209eb9b83a89b118b3a464f5ab"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Socket_Client/zipball/db778f25f3b6b7209eb9b83a89b118b3a464f5ab",
+                    "reference": "db778f25f3b6b7209eb9b83a89b118b3a464f5ab",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "ext-openssl": "*"
+                },
+                "time": "2014-01-22T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Socket Client",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/socket_client",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Socket_Client.git",
+                    "reference": "ae1e7e358eec4894604812d5305d3a194445b92d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Socket_Client/zipball/ae1e7e358eec4894604812d5305d3a194445b92d",
+                    "reference": "ae1e7e358eec4894604812d5305d3a194445b92d",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-openssl": "*"
+                },
+                "time": "2014-07-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Socket Client",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/socket_client",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Socket_Client.git",
+                    "reference": "24f738fb911c9b725f747a2f6d070a254aec53ef"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Socket_Client/zipball/24f738fb911c9b725f747a2f6d070a254aec53ef",
+                    "reference": "24f738fb911c9b725f747a2f6d070a254aec53ef",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-openssl": "*"
+                },
+                "time": "2015-03-10T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Socket Client",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/socket_client",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Socket_Client.git",
+                    "reference": "a329c45092c5f2d63c8e6ecc5b46f16330cb1d95"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Socket_Client/zipball/a329c45092c5f2d63c8e6ecc5b46f16330cb1d95",
+                    "reference": "a329c45092c5f2d63c8e6ecc5b46f16330cb1d95",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-openssl": "*"
+                },
+                "time": "2016-01-05T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Socket Client",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/socket_client",
+                "version": "2.1.1",
+                "version_normalized": "2.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Socket_Client.git",
+                    "reference": "bb6ecd823bde15822a3405a624a7edb2ce0fd062"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Socket_Client/zipball/bb6ecd823bde15822a3405a624a7edb2ce0fd062",
+                    "reference": "bb6ecd823bde15822a3405a624a7edb2ce0fd062",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "ext-openssl": "*"
+                },
+                "time": "2016-02-18T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde Socket Client",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/socket_client",
+                "version": "2.1.2",
+                "version_normalized": "2.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Socket_Client.git",
+                    "reference": "8a745658c3eb21cf0c46eff6c96b43e7758ce01b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Socket_Client/zipball/8a745658c3eb21cf0c46eff6c96b43e7758ce01b",
+                    "reference": "8a745658c3eb21cf0c46eff6c96b43e7758ce01b",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_socket_client": "2.*",
+                    "pear-pear.horde.org/horde_socket_client": "2.*"
+                },
+                "suggest": {
+                    "ext-openssl": "*"
+                },
+                "time": "2018-01-25T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Socket_Client": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Network socket client library",
+                "homepage": "https://www.horde.org"
+            }
+        ]
+    }
+}

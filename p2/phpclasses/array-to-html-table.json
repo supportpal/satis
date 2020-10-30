@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/array-to-html-table": [
+            {
+                "name": "phpclasses/array-to-html-table",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/array-to-html-table.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "HTMLTable.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

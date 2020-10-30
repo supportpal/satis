@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/css_ranking": [
+            {
+                "name": "phpclasses/css_ranking",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/css_ranking.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "css_stats_class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/mysql-xlsx-export": [
+            {
+                "name": "phpclasses/mysql-xlsx-export",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mysql-xlsx-export.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.mysql2xls_xml.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/simple-paypal-button": [
+            {
+                "name": "phpclasses/simple-paypal-button",
+                "version": "1.02",
+                "version_normalized": "1.02.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/simple-paypal-button.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "PaypalSimpleClass.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

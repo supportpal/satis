@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/certchecker": [
+            {
+                "name": "phpclasses/certchecker",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/certchecker.zip"
+                },
+                "require": {
+                    "hassankhan/config": "^2.0",
+                    "monolog/monolog": "^1.24",
+                    "swiftmailer/swiftmailer": "^6.1"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Distvan\\": "lib/"
+                    }
+                }
+            }
+        ]
+    }
+}

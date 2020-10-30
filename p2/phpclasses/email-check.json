@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/email-check": [
+            {
+                "name": "phpclasses/email-check",
+                "version": "1.1.18",
+                "version_normalized": "1.1.18.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/email-check.zip"
+                },
+                "require": {
+                    "php": ">=7.0.0",
+                    "symfony/polyfill-intl-idn": "~1.10"
+                },
+                "require-dev": {
+                    "fzaninotto/faker": "~1.7",
+                    "phpunit/phpunit": "~6.0 || ~7.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "voku\\helper\\": "src/voku/helper/"
+                    }
+                }
+            }
+        ]
+    }
+}

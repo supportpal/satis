@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/fep": [
+            {
+                "name": "phpclasses/fep",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/fep.zip"
+                },
+                "require": {
+                    "phpclasses/httpclient": "1.0.5"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "FEP_base.php",
+                        "FEP_server.php",
+                        "safeIO.php",
+                        "FEP_client.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

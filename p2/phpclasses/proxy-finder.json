@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/proxy-finder": [
+            {
+                "name": "phpclasses/proxy-finder",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/proxy-finder.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Proxy.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

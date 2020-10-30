@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/frdl-app": [
+            {
+                "name": "phpclasses/frdl-app",
+                "version": "1.0.8",
+                "version_normalized": "1.0.8.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/frdl-app.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "App.php",
+                        "A.php",
+                        "o.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

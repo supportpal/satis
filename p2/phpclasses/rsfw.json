@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "phpclasses/rsfw": [
+            {
+                "name": "phpclasses/rsfw",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/rsfw.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/Cache.php",
+                        "libs/Core.php",
+                        "libs/Database.php",
+                        "libs/Observable.php",
+                        "libs/Request.php",
+                        "libs/Router.php",
+                        "libs/SessionCache.php",
+                        "libs/Singleton.php",
+                        "libs/View.php",
+                        "libs/interfaces/ICache.php",
+                        "libs/interfaces/IObservable.php",
+                        "libs/interfaces/IObserver.php",
+                        "theme/Default/Main.php",
+                        "vendor/RS/Debug.php",
+                        "vendor/RS/User.php",
+                        "vendor/RS/Observer/Log.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

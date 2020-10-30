@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/wp_menu": [
+            {
+                "name": "phpclasses/wp_menu",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/wp_menu.zip"
+                },
+                "require": {
+                    "php": "^5.6 || ^7.0"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Josantonius\\WP_Menu\\": "src/WP_Menu/"
+                    }
+                }
+            }
+        ]
+    }
+}

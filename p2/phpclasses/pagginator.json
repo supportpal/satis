@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/pagginator": [
+            {
+                "name": "phpclasses/pagginator",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/pagginator.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "PagginatorClass.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

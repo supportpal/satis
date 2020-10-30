@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/statistic-classes": [
+            {
+                "name": "phpclasses/statistic-classes",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/statistic-classes.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Statistic.php",
+                        "raw2table.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

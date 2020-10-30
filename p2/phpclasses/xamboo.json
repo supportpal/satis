@@ -1,0 +1,75 @@
+{
+    "packages": {
+        "phpclasses/xamboo": [
+            {
+                "name": "phpclasses/xamboo",
+                "version": "3.0.2",
+                "version_normalized": "3.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/xamboo.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "restsite/Base.lib",
+                        "site/Base.lib",
+                        "include/core/WAClass.lib",
+                        "include/core/WADebug.lib",
+                        "include/core/WAError.lib",
+                        "include/core/WAException.lib",
+                        "include/core/WAFile.lib",
+                        "include/core/WALanguage.lib",
+                        "include/core/WALanguageCompiler.lib",
+                        "include/core/WAMessage.lib",
+                        "include/core/WAObject.lib",
+                        "include/core/WASHM.lib",
+                        "include/core/WASimpleXML.lib",
+                        "include/core/WATemplate.lib",
+                        "include/core/WAThrowable.lib",
+                        "include/datasources/DataSource.lib",
+                        "include/datasources/FastObjectSource.lib",
+                        "include/datasources/FileSource.lib",
+                        "include/datasources/LanguageSource.lib",
+                        "include/datasources/SHMSource.lib",
+                        "include/datasources/TemplateSource.lib",
+                        "include/datasources/XBCodeSource.lib",
+                        "include/datasources/XBInstanceSource.lib",
+                        "include/datasources/XBLanguageSource.lib",
+                        "include/datasources/XBPageSource.lib",
+                        "include/datasources/XBTemplateSource.lib",
+                        "include/patterns/Factory.lib",
+                        "include/patterns/Multiton.lib",
+                        "include/patterns/Singleton.lib",
+                        "include/throwables/CoreError.lib",
+                        "include/throwables/DataSourceError.lib",
+                        "include/throwables/FileException.lib",
+                        "include/throwables/PatternError.lib",
+                        "include/throwables/SHMError.lib",
+                        "include/throwables/XambooError.lib",
+                        "include/throwables/XambooException.lib",
+                        "include/xamboo/Base_Engine.lib",
+                        "include/xamboo/HTTPRequest.lib",
+                        "include/xamboo/HTTPResponse.lib",
+                        "include/xamboo/PHPExec.lib",
+                        "include/xamboo/Validator.lib",
+                        "include/xamboo/XBCacheServer.lib",
+                        "include/xamboo/XBCode.lib",
+                        "include/xamboo/XBCodeServer.lib",
+                        "include/xamboo/XBCompiler.lib",
+                        "include/xamboo/XBInstance.lib",
+                        "include/xamboo/XBInstanceServer.lib",
+                        "include/xamboo/XBLanguageServer.lib",
+                        "include/xamboo/XBLibrary.lib",
+                        "include/xamboo/XBPage.lib",
+                        "include/xamboo/XBPageServer.lib",
+                        "include/xamboo/XBRESTLibrary.lib",
+                        "include/xamboo/XBTemplateServer.lib",
+                        "include/xamboo/engine.lib",
+                        "repository/pages/blocks/library-demo/library-demo.lib"
+                    ]
+                }
+            }
+        ]
+    }
+}

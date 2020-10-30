@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/rrd-manipulator": [
+            {
+                "name": "phpclasses/rrd-manipulator",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/rrd-manipulator.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "rrd_manipulator.php",
+                        "HelperFunc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/bitstring": [
+            {
+                "name": "phpclasses/bitstring",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/bitstring.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "BitString.phpclass"
+                    ]
+                }
+            }
+        ]
+    }
+}

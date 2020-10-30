@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/ivweather": [
+            {
+                "name": "phpclasses/ivweather",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ivweather.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "IVWeather.class.php",
+                        "ivweather.lang.english.php",
+                        "ivweather.lang.spanish.php",
+                        "ivweather.lang.dutch.php",
+                        "ivweather.lang.german.php",
+                        "ivweather.lang.french.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

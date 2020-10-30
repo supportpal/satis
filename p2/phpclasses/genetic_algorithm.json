@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "phpclasses/genetic_algorithm": [
+            {
+                "name": "phpclasses/genetic_algorithm",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/genetic_algorithm.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Javascripts/Bootstrap.Bundle.js",
+                        "Javascripts/Bootstrap.js",
+                        "Javascripts/Javascript.js",
+                        "Javascripts/JQuery.Easing.js",
+                        "Javascripts/JQuery.js",
+                        "Javascripts/Popper.js",
+                        "Styles/Bootstrap.css",
+                        "Styles/Normalize.css",
+                        "Styles/Style.css",
+                        "Genetic.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-handyman": [
+            {
+                "name": "phpclasses/php-handyman",
+                "version": "0.9.3",
+                "version_normalized": "0.9.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-handyman.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "PtcHm.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

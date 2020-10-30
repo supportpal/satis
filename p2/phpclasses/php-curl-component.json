@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/php-curl-component": [
+            {
+                "name": "phpclasses/php-curl-component",
+                "version": "0.14.10",
+                "version_normalized": "0.14.10.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-curl-component.zip"
+                },
+                "require": {
+                    "net_bazzline/php_component_toolbox": "1.9.*",
+                    "php": ">=5.6"
+                },
+                "require-dev": {
+                    "mockery/mockery": "0.9.*",
+                    "phpunit/phpunit": "^5.7"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Net\\Bazzline\\Component\\Curl\\": "source/"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/card-deck": [
+            {
+                "name": "phpclasses/card-deck",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/card-deck.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "card_deck.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

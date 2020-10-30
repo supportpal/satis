@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/smtpclass": [
+            {
+                "name": "phpclasses/smtpclass",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/smtpclass.zip"
+                },
+                "require": {
+                    "phpclasses/phpresolver": "1.0.1",
+                    "phpclasses/sasl": ">=1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "smtp.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

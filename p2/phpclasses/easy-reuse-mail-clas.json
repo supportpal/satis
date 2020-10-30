@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/easy-reuse-mail-clas": [
+            {
+                "name": "phpclasses/easy-reuse-mail-clas",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/easy-reuse-mail-clas.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "config.php",
+                        "mail.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/jaxon-dialogs": [
+            {
+                "name": "phpclasses/jaxon-dialogs",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/jaxon-dialogs.zip"
+                },
+                "require": {
+                    "jaxon-php/jaxon-core": "~2.0",
+                    "phpclasses/jaxon-core": "3.1.6"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Jaxon\\Dialogs\\": "src/"
+                    },
+                    "files": [
+                        "src/start.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

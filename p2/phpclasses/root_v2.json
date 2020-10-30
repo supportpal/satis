@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/root_v2": [
+            {
+                "name": "phpclasses/root_v2",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/root_v2.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "application/class/_controller.php",
+                        "application/class/root_v2.php",
+                        "application/class/template.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

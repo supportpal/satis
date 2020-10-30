@@ -1,0 +1,31 @@
+{
+    "packages": {
+        "phpclasses/uml2classes": [
+            {
+                "name": "phpclasses/uml2classes",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/uml2classes.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/Generator.class.php",
+                        "src/Classes/Attributes/AttributeParser.class.php",
+                        "src/Classes/Classes/ClassParser.class.php",
+                        "src/Classes/Dependencies/AbstractionParser.class.php",
+                        "src/Classes/Dependencies/GeneralizationParser.class.php",
+                        "src/Classes/GUI/UML2Classes.class.php",
+                        "src/Classes/Interfaces/InterfaceParser.class.php",
+                        "src/Classes/Methods/MethodParser.class.php",
+                        "src/Classes/XMI/XMIParser.class.php",
+                        "src/Classes/XMLParser/XMLParser.class.php",
+                        "src/Classes/Packages/PackageParser.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

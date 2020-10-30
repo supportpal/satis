@@ -1,0 +1,45 @@
+{
+    "packages": {
+        "phpclasses/resource-usage": [
+            {
+                "name": "phpclasses/resource-usage",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/resource-usage.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/class.CallExt.php",
+                        "libs/class.GetHddTemp.php",
+                        "libs/class.GetMbMon.php",
+                        "libs/class.GetSensord.php",
+                        "libs/class.HW_IDS.php",
+                        "libs/class.LinfoError.php",
+                        "libs/class.LinfoTimer.php",
+                        "libs/class.LinfoTimerStart.php",
+                        "libs/class.OS_BSD_Common.php",
+                        "libs/class.OS_CYGWIN.php",
+                        "libs/class.OS_Darwin.php",
+                        "libs/class.OS_DragonFly.php",
+                        "libs/class.OS_FreeBSD.php",
+                        "libs/class.OS_Linux.php",
+                        "libs/class.OS_Minix.php",
+                        "libs/class.OS_NetBSD.php",
+                        "libs/class.OS_OpenBSD.php",
+                        "libs/class.OS_SunOS.php",
+                        "libs/class.OS_Windows.php",
+                        "libs/class.out_ncurses.php",
+                        "libs/class.serverInfo.php",
+                        "libs/config.inc.php",
+                        "libs/CPU.php",
+                        "libs/interface.LinfoExtension.php",
+                        "libs/RAM.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

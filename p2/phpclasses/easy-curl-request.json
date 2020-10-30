@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/easy-curl-request": [
+            {
+                "name": "phpclasses/easy-curl-request",
+                "version": "0.2.3",
+                "version_normalized": "0.2.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/easy-curl-request.zip"
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Webdice\\Utilities\\": ""
+                    }
+                }
+            }
+        ]
+    }
+}

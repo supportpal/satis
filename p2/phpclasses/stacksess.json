@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/stacksess": [
+            {
+                "name": "phpclasses/stacksess",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/stacksess.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "handlers/stackSess.inc.php",
+                        "handlers/compat.inc.php",
+                        "handlers/encrypting.inc.php",
+                        "handlers/nonBlocking.inc.php",
+                        "handlers/nullsess.inc.php",
+                        "handlers/security.inc.php",
+                        "handlers/writeSometimes.inc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

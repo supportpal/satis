@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/emacros": [
+            {
+                "name": "phpclasses/emacros",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/emacros.zip"
+                },
+                "require": {
+                    "php": ">=5.4.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "eMacros": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/efc_xfss": [
+            {
+                "name": "phpclasses/efc_xfss",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/efc_xfss.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "efc.class.php",
+                        "crypt_class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

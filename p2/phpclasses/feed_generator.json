@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/feed_generator": [
+            {
+                "name": "phpclasses/feed_generator",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/feed_generator.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "FeedWriter.php",
+                        "FeedItem.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

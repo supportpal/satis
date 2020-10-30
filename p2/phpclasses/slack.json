@@ -1,0 +1,37 @@
+{
+    "packages": {
+        "phpclasses/slack": [
+            {
+                "name": "phpclasses/slack",
+                "version": "1.11.1",
+                "version_normalized": "1.11.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/slack.zip"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "guzzlehttp/guzzle": "~6.0|~5.0|~4.0",
+                    "php": "^7.1"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.0",
+                    "phpunit/phpunit": "^7.5"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Maknz\\Slack\\": "src/",
+                        "Slack\\Tests\\": "tests/"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/blitztemplatecontrol": [
+            {
+                "name": "phpclasses/blitztemplatecontrol",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/blitztemplatecontrol.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "BlitzTemplateControl.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

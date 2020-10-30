@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/ite-collection": [
+            {
+                "name": "phpclasses/ite-collection",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ite-collection.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ite\\Collection\\": "src"
+                    }
+                }
+            }
+        ]
+    }
+}

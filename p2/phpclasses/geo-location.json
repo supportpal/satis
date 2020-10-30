@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/geo-location": [
+            {
+                "name": "phpclasses/geo-location",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/geo-location.zip"
+                },
+                "require-dev": {
+                    "mashape/unirest-php": "2.*"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "geolocation.class.php",
+                        "geolocation.interface.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

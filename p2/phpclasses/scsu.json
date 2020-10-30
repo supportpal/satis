@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/scsu": [
+            {
+                "name": "phpclasses/scsu",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/scsu.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "SCSU.php",
+                        "UTF8.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

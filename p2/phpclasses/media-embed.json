@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/media-embed": [
+            {
+                "name": "phpclasses/media-embed",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/media-embed.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "media_embed.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

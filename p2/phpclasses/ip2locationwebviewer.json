@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/ip2locationwebviewer": [
+            {
+                "name": "phpclasses/ip2locationwebviewer",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ip2locationwebviewer.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "IP2locationCalc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

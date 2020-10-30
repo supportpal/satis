@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/you-thumb": [
+            {
+                "name": "phpclasses/you-thumb",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/you-thumb.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "YouThumb.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

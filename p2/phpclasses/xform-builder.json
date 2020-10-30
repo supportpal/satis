@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/xform-builder": [
+            {
+                "name": "phpclasses/xform-builder",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/xform-builder.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "FormBuilder.php",
+                        "SampleField.php",
+                        "Select.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

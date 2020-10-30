@@ -1,0 +1,60 @@
+{
+    "packages": {
+        "phpclasses/micro-php": [
+            {
+                "name": "phpclasses/micro-php",
+                "version": "1.10",
+                "version_normalized": "1.10.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/micro-php.zip"
+                },
+                "require": {
+                    "components/jquery": "dev-master",
+                    "ext-mbstring": "*",
+                    "lib-pcre": ">=8.31",
+                    "linpax/microphp-framework": "dev-master",
+                    "php": ">=5.4.0",
+                    "twbs/bootstrap": "dev-master"
+                },
+                "require-dev": {
+                    "codeception/codeception": "dev-master",
+                    "codeclimate/php-test-reporter": "dev-master",
+                    "phpunit/phpunit": "5.0.0"
+                },
+                "type": "project",
+                "autoload": {
+                    "classmap": [
+                        "app/components/Controller.php",
+                        "app/components/View.php",
+                        "app/configs/index.php",
+                        "app/consoles/UserCleanerConsoleCommand.php",
+                        "app/controllers/DefaultController.php",
+                        "app/controllers/ProfileController.php",
+                        "app/controllers/RegisterController.php",
+                        "app/models/LoginFormModel.php",
+                        "app/models/User.php",
+                        "app/widgets/MenubarWidget.php",
+                        "app/modules/blog/BlogModule.php",
+                        "app/modules/blog/controllers/PostController.php",
+                        "app/modules/blog/models/Blog.php",
+                        "app/modules/blog/widgets/TopblogsWidget.php",
+                        "app/assets/AppAsset.php",
+                        "app/assets/BootstrapAsset.php",
+                        "app/assets/JqueryAsset.php",
+                        "tests/_support/AcceptanceTester.php",
+                        "tests/_support/FunctionalTester.php",
+                        "tests/_support/UnitTester.php",
+                        "tests/_support/Helper/Acceptance.php",
+                        "tests/_support/Helper/Functional.php",
+                        "tests/_support/Helper/Unit.php",
+                        "tests/_support/_generated/AcceptanceTesterActions.php",
+                        "tests/_support/_generated/FunctionalTesterActions.php",
+                        "tests/_support/_generated/UnitTesterActions.php",
+                        "app/Kernel.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

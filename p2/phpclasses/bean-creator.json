@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/bean-creator": [
+            {
+                "name": "phpclasses/bean-creator",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/bean-creator.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "incs/generate.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

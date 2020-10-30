@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/phpdirectadmin": [
+            {
+                "name": "phpclasses/phpdirectadmin",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/phpdirectadmin.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "directadmin.inc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

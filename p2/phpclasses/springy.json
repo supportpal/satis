@@ -1,0 +1,139 @@
+{
+    "packages": {
+        "phpclasses/springy": [
+            {
+                "name": "phpclasses/springy",
+                "version": "3.6.7",
+                "version_normalized": "3.6.7.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/springy.zip"
+                },
+                "require": {
+                    "components/jquery": "~3.1",
+                    "ircmaxell/password-compat": "1.0.*",
+                    "matthiasmullie/minify": "1.3.*",
+                    "php": ">=7.0.0",
+                    "phpmailer/phpmailer": "~5.2",
+                    "sendgrid/sendgrid": "~7",
+                    "smarty/smarty": "3.1.*",
+                    "twbs/bootstrap": "3.3.*",
+                    "twig/twig": "<2.5"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~6.0"
+                },
+                "type": "project",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$name}": [
+                            "vendor/package"
+                        ]
+                    },
+                    "post-install": {
+                        "components/jquery": {
+                            "target": "www/assets/jquery",
+                            "files": "jquery.min.js"
+                        },
+                        "twbs/bootstrap": {
+                            "target": "www/assets/bootstrap",
+                            "files": [
+                                "dist/css/*",
+                                "dist/js/*",
+                                "dist/fonts/*"
+                            ]
+                        }
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "www/helpers.php",
+                        "tests/Container/DIContainerTest.php",
+                        "tests/Core/ApplicationTest.php",
+                        "tests/Core/CopyrightTest.php",
+                        "tests/Core/DebugTest.php",
+                        "tests/DB/ConditionsTest.php",
+                        "tests/DB/WhereTest.php",
+                        "tests/Events/MediatorTest.php",
+                        "tests/Security/HasherTest.php",
+                        "tests/Utils/ArrayUtilsTest.php",
+                        "tests/Utils/MessageContainerTest.php",
+                        "tests/Utils/StringsTest.php",
+                        "tests/Utils/UUIDTest.php",
+                        "tests/Validation/ValidatorTest.php",
+                        "springy/Configuration.php",
+                        "springy/Controller.php",
+                        "springy/Cookie.php",
+                        "springy/CreditCardValidation.php",
+                        "springy/DB.php",
+                        "springy/DBDelete.php",
+                        "springy/DBExpression.php",
+                        "springy/DBFiltro.php",
+                        "springy/DBInsert.php",
+                        "springy/DBSelect.php",
+                        "springy/DBUpdate.php",
+                        "springy/DBWhere.php",
+                        "springy/DeepDir.php",
+                        "springy/Errors.php",
+                        "springy/Kernel.php",
+                        "springy/Log.php",
+                        "springy/Mail.php",
+                        "springy/Migrator.php",
+                        "springy/Model.php",
+                        "springy/Pagination.php",
+                        "springy/SOAP.php",
+                        "springy/SOAP_Client.php",
+                        "springy/Session.php",
+                        "springy/Template.php",
+                        "springy/URI.php",
+                        "app/classes/User.class.php",
+                        "app/controllers/_global.php",
+                        "app/controllers/index.page.php",
+                        "springy/Container/DIContainer.php",
+                        "springy/Core/Application.php",
+                        "springy/Core/Copyright.php",
+                        "springy/Core/Debug.php",
+                        "springy/Core/Input.php",
+                        "springy/DB/Conditions.php",
+                        "springy/DB/Embed.php",
+                        "springy/DB/Utils.php",
+                        "springy/DB/Where.php",
+                        "springy/Events/HandlerInterface.php",
+                        "springy/Events/Mediator.php",
+                        "springy/Files/File.php",
+                        "springy/Files/UploadedFile.php",
+                        "springy/Mail/MailDriverInterface.php",
+                        "springy/Mail/MimeMessageDriver.php",
+                        "springy/Mail/PHPMailerDriver.php",
+                        "springy/Mail/SendGridDriver.php",
+                        "springy/Mail/SwiftMailerDriver.php",
+                        "springy/Security/AclManager.php",
+                        "springy/Security/AclUserInterface.php",
+                        "springy/Security/AuthDriverInterface.php",
+                        "springy/Security/Authentication.php",
+                        "springy/Security/BCryptHasher.php",
+                        "springy/Security/BasicHasher.php",
+                        "springy/Security/DBAuthDriver.php",
+                        "springy/Security/HasherInterface.php",
+                        "springy/Security/IdentityInterface.php",
+                        "springy/Template/SmartyDriver.php",
+                        "springy/Template/TemplateDriverInterface.php",
+                        "springy/Template/TwigDriver.php",
+                        "springy/Utils/ArrayUtils.php",
+                        "springy/Utils/Excel.php",
+                        "springy/Utils/FlashMessagesManager.php",
+                        "springy/Utils/JSON.php",
+                        "springy/Utils/JSON_Static.php",
+                        "springy/Utils/MessageContainer.php",
+                        "springy/Utils/Strings.php",
+                        "springy/Utils/Strings_ANSI.php",
+                        "springy/Utils/Strings_UTF8.php",
+                        "springy/Utils/UUID.php",
+                        "springy/Utils/ZipFile.php",
+                        "springy/Validation/Validator.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

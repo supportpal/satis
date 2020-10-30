@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/json-login-system": [
+            {
+                "name": "phpclasses/json-login-system",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/json-login-system.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.jsonHandler.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

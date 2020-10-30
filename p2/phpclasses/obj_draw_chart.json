@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/obj_draw_chart": [
+            {
+                "name": "phpclasses/obj_draw_chart",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/obj_draw_chart.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "draw_chart"
+                    ]
+                }
+            }
+        ]
+    }
+}

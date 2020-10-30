@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/mysql-lexer": [
+            {
+                "name": "phpclasses/mysql-lexer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mysql-lexer.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "QuickMySQLLexer.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

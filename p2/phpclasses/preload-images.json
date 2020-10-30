@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/preload-images": [
+            {
+                "name": "phpclasses/preload-images",
+                "version": "1.0.8",
+                "version_normalized": "1.0.8.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/preload-images.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.preloadimages.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

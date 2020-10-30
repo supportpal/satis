@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/php-template-engine-": [
+            {
+                "name": "phpclasses/php-template-engine-",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-template-engine-.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "classes/Template.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

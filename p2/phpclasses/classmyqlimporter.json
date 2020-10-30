@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/classmyqlimporter": [
+            {
+                "name": "phpclasses/classmyqlimporter",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/classmyqlimporter.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "OLD_VERSION/ClassSQLimporter.php",
+                        "ClassMySQLImport.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

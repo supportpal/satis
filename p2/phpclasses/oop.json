@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/oop": [
+            {
+                "name": "phpclasses/oop",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/oop.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Coffee.php",
+                        "Template.php",
+                        "UsersController_with_Interface.php",
+                        "UsersController_without_Interface.php",
+                        "tea.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

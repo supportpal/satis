@@ -1,0 +1,38 @@
+{
+    "packages": {
+        "phpclasses/php-rest": [
+            {
+                "name": "phpclasses/php-rest",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-rest.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "api/Bootstrap.php",
+                        "api/Observer.php",
+                        "api/Request.php",
+                        "api/Response.php",
+                        "api/ResponseXML.php",
+                        "api/Helpers/Cached.php",
+                        "api/Helpers/Email.php",
+                        "api/Helpers/_Abstract.php",
+                        "api/Helpers/class.phpmailer.php",
+                        "api/Helpers/class.pop3.php",
+                        "api/Helpers/class.smtp.php",
+                        "api/commands/Token.php",
+                        "api/commands/Tokentest.php",
+                        "api/commands/Users.php",
+                        "api/commands/Version.php",
+                        "api/commands/_Abstract.php",
+                        "api/models/Users.php",
+                        "api/models/_Abstract.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

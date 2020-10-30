@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/bmi_calculator": [
+            {
+                "name": "phpclasses/bmi_calculator",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/bmi_calculator.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.bmi.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/twitter_api": [
+            {
+                "name": "phpclasses/twitter_api",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/twitter_api.zip"
+                },
+                "require": {
+                    "phpclasses/curl": "1.2.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Twitter/Twitter.php",
+                        "Twitter/libary/twitterData.php",
+                        "Twitter/libary/api_methods/Status.php",
+                        "Twitter/libary/api_methods/Timeline.php",
+                        "Twitter/libary/api_methods/Users.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

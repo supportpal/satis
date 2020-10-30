@@ -1,0 +1,35 @@
+{
+    "packages": {
+        "phpclasses/gd": [
+            {
+                "name": "phpclasses/gd",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/gd.zip"
+                },
+                "require": {
+                    "php": ">=7.0.0"
+                },
+                "require-dev": {
+                    "illuminate/database": "5.7",
+                    "illuminate/filesystem": "5.7",
+                    "illuminate/translation": "5.7",
+                    "illuminate/validation": "5.7",
+                    "seytar/php-router": "dev-master",
+                    "symfony/var-dumper": "^4.1"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "gdgrid\\gd\\": "src"
+                    },
+                    "classmap": [
+                        "testapp/models/"
+                    ]
+                }
+            }
+        ]
+    }
+}

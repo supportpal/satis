@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/htmlgenerate": [
+            {
+                "name": "phpclasses/htmlgenerate",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/htmlgenerate.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "html.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

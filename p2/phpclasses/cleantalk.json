@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/cleantalk": [
+            {
+                "name": "phpclasses/cleantalk",
+                "version": "1.23",
+                "version_normalized": "1.23.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/cleantalk.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "cleantalk.class.php",
+                        "JSON.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

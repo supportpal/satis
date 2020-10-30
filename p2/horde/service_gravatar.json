@@ -1,0 +1,135 @@
+{
+    "packages": {
+        "horde/service_gravatar": [
+            {
+                "name": "horde/service_gravatar",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Service_Gravatar.git",
+                    "reference": "1796a7a99697ed31fef565af0f9efd9371a13b1a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Service_Gravatar/zipball/1796a7a99697ed31fef565af0f9efd9371a13b1a",
+                    "reference": "1796a7a99697ed31fef565af0f9efd9371a13b1a",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_http": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_url": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2014-07-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "API accessor for gravatar.com",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/service_gravatar",
+                "version": "1.0.0alpha1",
+                "version_normalized": "1.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Service_Gravatar.git",
+                    "reference": "336356bdaa409d5dd7aacd8e6cb555fc954462b0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Service_Gravatar/zipball/336356bdaa409d5dd7aacd8e6cb555fc954462b0",
+                    "reference": "336356bdaa409d5dd7aacd8e6cb555fc954462b0",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_http": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_url": ">=2.0.0,<=3.0.0alpha1",
+                    "php": ">=5.3.0,<=6.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0,<=3.0.0alpha1"
+                },
+                "time": "2014-05-05T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "API accessor for gravatar.com",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/service_gravatar",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Service_Gravatar.git",
+                    "reference": "90d27266c84c65c61062da2db17135a02dfb26bf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Service_Gravatar/zipball/90d27266c84c65c61062da2db17135a02dfb26bf",
+                    "reference": "90d27266c84c65c61062da2db17135a02dfb26bf",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_http": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_url": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.3.0,<=8.0.0alpha1"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                },
+                "time": "2016-02-02T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "API accessor for gravatar.com",
+                "homepage": "http://pear.horde.org"
+            }
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "packages": {
+        "phpclasses/nibble-php-framework": [
+            {
+                "name": "phpclasses/nibble-php-framework",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/nibble-php-framework.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "lib/class/ActionBase.class.php",
+                        "lib/class/Ajax.class.php",
+                        "lib/class/Bites.class.php",
+                        "lib/class/Feeds.class.php",
+                        "lib/class/Flash.class.php",
+                        "lib/class/Initialise.class.php",
+                        "lib/class/Markdown.class.php",
+                        "lib/class/Navigation.class.php",
+                        "lib/class/NibbleForm.class.php",
+                        "lib/class/rb.php",
+                        "lib/class/Render.class.php",
+                        "lib/class/Useful.class.php",
+                        "bites/bites/actions.admin.class.php",
+                        "bites/bites/actions.frontend.class.php",
+                        "bites/bites/actions.ajax.class"
+                    ]
+                }
+            }
+        ]
+    }
+}

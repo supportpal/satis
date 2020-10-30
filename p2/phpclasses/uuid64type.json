@@ -1,0 +1,35 @@
+{
+    "packages": {
+        "phpclasses/uuid64type": [
+            {
+                "name": "phpclasses/uuid64type",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/uuid64type.zip"
+                },
+                "require": {
+                    "doctrine/orm": "^2.7",
+                    "ext-pdo": ">=1.0.0",
+                    "ext-pdo_mysql": "*",
+                    "ext-sodium": "*",
+                    "ext-spl": "*",
+                    "php": ">=7.3,<7.5"
+                },
+                "require-dev": {
+                    "roave/security-advisories": "dev-master"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Uuid64Type\\": [
+                            "bin/",
+                            "src/"
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

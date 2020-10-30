@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/period": [
+            {
+                "name": "phpclasses/period",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/period.zip"
+                },
+                "require": {
+                    "php": "^7.1"
+                },
+                "require-dev": {
+                    "larapack/dd": "^1.0",
+                    "nesbot/carbon": "^2.6",
+                    "phpunit/phpunit": "^7.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Spatie\\Period\\": "src"
+                    }
+                }
+            }
+        ]
+    }
+}

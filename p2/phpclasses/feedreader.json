@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/feedreader": [
+            {
+                "name": "phpclasses/feedreader",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/feedreader.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "feedReader.inc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

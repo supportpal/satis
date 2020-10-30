@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "phpclasses/phata-widgetfy": [
+            {
+                "name": "phpclasses/phata-widgetfy",
+                "version": "1.8",
+                "version_normalized": "1.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/phata-widgetfy.zip"
+                },
+                "require": {
+                    "php": ">=7.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^7"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Phata\\Widgetfy\\": "src/"
+                    },
+                    "psr-4": {
+                        "Phata\\Widgetfy\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

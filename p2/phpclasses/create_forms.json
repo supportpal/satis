@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/create_forms": [
+            {
+                "name": "phpclasses/create_forms",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/create_forms.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "cforms"
+                    ]
+                }
+            }
+        ]
+    }
+}

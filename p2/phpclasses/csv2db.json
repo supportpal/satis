@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/csv2db": [
+            {
+                "name": "phpclasses/csv2db",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/csv2db.zip"
+                },
+                "require": {
+                    "phpclasses/csvmanage": "1.0.0",
+                    "phpclasses/dbcontrol": "1.0.0",
+                    "phpclasses/xml2array": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Csv2Db.class.php",
+                        "Csv2DbCfg.class.php",
+                        "Csv2DbInterface.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

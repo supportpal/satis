@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/human-diff-time": [
+            {
+                "name": "phpclasses/human-diff-time",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/human-diff-time.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "human-diff-time.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

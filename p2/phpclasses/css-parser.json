@@ -1,0 +1,35 @@
+{
+    "packages": {
+        "phpclasses/css-parser": [
+            {
+                "name": "phpclasses/css-parser",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/css-parser.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "classes/parser/tokenizer.php",
+                        "classes/parser/parser.php",
+                        "classes/parser/exceptions/parser-exception.php",
+                        "classes/css-parser/css-element.php",
+                        "classes/css-parser/css-factor.php",
+                        "classes/css-parser/css-parser.php",
+                        "classes/css-parser/css-term.php",
+                        "classes/css-parser/filters/css-attr-filter.php",
+                        "classes/css-parser/filters/css-class-filter.php",
+                        "classes/css-parser/filters/css-filter.php",
+                        "classes/css-parser/filters/css-id-filter.php",
+                        "classes/css-parser/filters/css-pseudo-filter.php",
+                        "classes/css-parser/filters/css-pseudo-first-child-filter.php",
+                        "classes/css-parser/filters/css-pseudo-nth-child-filter.php",
+                        "classes/css-parser/css-helper.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

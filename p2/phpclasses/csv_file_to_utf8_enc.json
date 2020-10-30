@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/csv_file_to_utf8_enc": [
+            {
+                "name": "phpclasses/csv_file_to_utf8_enc",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/csv_file_to_utf8_enc.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "convert_csv_to_utf8.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

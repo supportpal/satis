@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/arab-template": [
+            {
+                "name": "phpclasses/arab-template",
+                "version": "12",
+                "version_normalized": "12.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/arab-template.zip"
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "ArTemplate\\": "ArTemplate/"
+                    }
+                }
+            }
+        ]
+    }
+}

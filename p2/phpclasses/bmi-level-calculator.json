@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/bmi-level-calculator": [
+            {
+                "name": "phpclasses/bmi-level-calculator",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/bmi-level-calculator.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "php/classes/BMI.php",
+                        "php/traits/trait.math.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

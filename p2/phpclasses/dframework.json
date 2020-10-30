@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "phpclasses/dframework": [
+            {
+                "name": "phpclasses/dframework",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/dframework.zip"
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-fileinfo": "*",
+                    "ext-openssl": "*",
+                    "ext-pdo": "*",
+                    "ext-reflection": "*",
+                    "ext-xml": "*",
+                    "php": ">=7.1"
+                },
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "App\\": "app\\class"
+                    }
+                }
+            }
+        ]
+    }
+}

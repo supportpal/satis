@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "phpclasses/billbee-php-sdk": [
+            {
+                "name": "phpclasses/billbee-php-sdk",
+                "version": "1.8.0",
+                "version_normalized": "1.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/billbee-php-sdk.zip"
+                },
+                "require": {
+                    "ext-curl": "*",
+                    "ext-json": "*",
+                    "guzzlehttp/guzzle": "^6.3",
+                    "mintware-de/data-model-mapper": "^1.0",
+                    "mintware-de/dmm-json": "^1.0",
+                    "php": "5.6.* || ^7.0",
+                    "psr/log": "^1.0"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^2.15",
+                    "phpunit/phpunit": "~5.7",
+                    "symfony/yaml": "~3.3"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "BillbeeDe\\BillbeeAPI\\": "src/",
+                        "BillbeeDe\\Tests\\BillbeeAPI\\": "tests/"
+                    }
+                }
+            }
+        ]
+    }
+}

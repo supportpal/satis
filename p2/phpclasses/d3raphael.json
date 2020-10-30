@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/d3raphael": [
+            {
+                "name": "phpclasses/d3raphael",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/d3raphael.zip"
+                },
+                "require": {
+                    "phpclasses/d3": "0.1",
+                    "phpclasses/d3google": "1",
+                    "phpclasses/d3jquery": "1"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "raphael.class.inc.php",
+                        "demos/003.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

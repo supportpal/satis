@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "phpclasses/html-in-php": [
+            {
+                "name": "phpclasses/html-in-php",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/html-in-php.zip"
+                },
+                "require": {
+                    "php": ">=7.3"
+                },
+                "require-dev": {
+                    "mysiar/coding-standard": "^2.0",
+                    "php-parallel-lint/php-parallel-lint": "^1.2",
+                    "phpunit/phpunit": "^9.2",
+                    "vimeo/psalm": "^3.12"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Mysiar\\Html\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

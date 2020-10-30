@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/php-api-server": [
+            {
+                "name": "phpclasses/php-api-server",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-api-server.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "core/router.php",
+                        "db/database.php",
+                        "core/api/API.php",
+                        "core/api/Describe.php",
+                        "core/api/User.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

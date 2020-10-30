@@ -1,0 +1,50 @@
+{
+    "packages": {
+        "phpclasses/numberstowords": [
+            {
+                "name": "phpclasses/numberstowords",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/numberstowords.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Numbers/Words.php",
+                        "Numbers/Locale/bg.php",
+                        "Numbers/Locale/cs.php",
+                        "Numbers/Locale/de.php",
+                        "Numbers/Locale/dk.php",
+                        "Numbers/Locale/es.php",
+                        "Numbers/Locale/et.php",
+                        "Numbers/Locale/fr.php",
+                        "Numbers/Locale/he.php",
+                        "Numbers/Locale/id.php",
+                        "Numbers/Locale/lt.php",
+                        "Numbers/Locale/lv.php",
+                        "Numbers/Locale/nl.php",
+                        "Numbers/Locale/pl.php",
+                        "Numbers/Locale/ru.php",
+                        "Numbers/Locale/sv.php",
+                        "Numbers/Locale/ua.php",
+                        "Numbers/Locale/en/100.php",
+                        "Numbers/Locale/en/GB.php",
+                        "Numbers/Locale/en/IN.php",
+                        "Numbers/Locale/en/US.php",
+                        "Numbers/Locale/es/AR.php",
+                        "Numbers/Locale/es/MX.php",
+                        "Numbers/Locale/es/VE.php",
+                        "Numbers/Locale/fr/BE.php",
+                        "Numbers/Locale/hu/HU.php",
+                        "Numbers/Locale/it/IT.php",
+                        "Numbers/Locale/pt/BR.php",
+                        "Numbers/Locale/ro/RO.php",
+                        "Numbers/Locale/tr/TR.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

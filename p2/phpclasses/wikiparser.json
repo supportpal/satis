@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/wikiparser": [
+            {
+                "name": "phpclasses/wikiparser",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/wikiparser.zip"
+                },
+                "require": {
+                    "phpclasses/httpretriever": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class_WikiParser.php",
+                        "class_WikiRetriever.php",
+                        "class_XMLParser.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

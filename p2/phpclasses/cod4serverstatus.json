@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/cod4serverstatus": [
+            {
+                "name": "phpclasses/cod4serverstatus",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/cod4serverstatus.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "COD4ServerStatus.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

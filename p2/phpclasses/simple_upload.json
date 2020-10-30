@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/simple_upload": [
+            {
+                "name": "phpclasses/simple_upload",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/simple_upload.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "file_upload.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

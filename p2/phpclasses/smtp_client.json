@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/smtp_client": [
+            {
+                "name": "phpclasses/smtp_client",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/smtp_client.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "SMTPClientClass"
+                    ]
+                }
+            }
+        ]
+    }
+}

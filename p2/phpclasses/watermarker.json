@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/watermarker": [
+            {
+                "name": "phpclasses/watermarker",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/watermarker.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "waterMarker.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/time_online": [
+            {
+                "name": "phpclasses/time_online",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/time_online.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "time_online.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "phpclasses/phpcalendar": [
+            {
+                "name": "phpclasses/phpcalendar",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/phpcalendar.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "includes/PHP4/calendar.php",
+                        "includes/PHP4/controls.php",
+                        "includes/PHP5/calendar.php",
+                        "includes/PHP5/controls.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/mini-paginator": [
+            {
+                "name": "phpclasses/mini-paginator",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mini-paginator.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "paginator/paginator.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

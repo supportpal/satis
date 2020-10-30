@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/pure-text-render": [
+            {
+                "name": "phpclasses/pure-text-render",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/pure-text-render.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "pure_text_render.php",
+                        "pure_captcha.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

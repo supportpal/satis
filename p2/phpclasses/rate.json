@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/rate": [
+            {
+                "name": "phpclasses/rate",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/rate.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "cls_rate.php",
+                        "cls_fast_template.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

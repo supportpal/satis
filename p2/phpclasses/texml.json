@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/texml": [
+            {
+                "name": "phpclasses/texml",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/texml.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/AbstractTeXML.php",
+                        "src/TeXML.php",
+                        "FileManager/file_manager.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/mylogin": [
+            {
+                "name": "phpclasses/mylogin",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mylogin.zip"
+                },
+                "require": {
+                    "facebook/graph-sdk": "~5.0",
+                    "google/apiclient": "1.*",
+                    "monolog/monolog": "1.13.1",
+                    "php": ">=5.4.0",
+                    "ruudk/twitter-oauth": "dev-master"
+                },
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "MyLogin.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/pwassist": [
+            {
+                "name": "phpclasses/pwassist",
+                "version": "0.10",
+                "version_normalized": "0.10.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/pwassist.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/PWAssist.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

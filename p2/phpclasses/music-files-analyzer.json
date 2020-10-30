@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/music-files-analyzer": [
+            {
+                "name": "phpclasses/music-files-analyzer",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/music-files-analyzer.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "MusicAlbumsYearAnalyzer.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

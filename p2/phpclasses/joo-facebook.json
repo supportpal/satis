@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/joo-facebook": [
+            {
+                "name": "phpclasses/joo-facebook",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/joo-facebook.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "facebook.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

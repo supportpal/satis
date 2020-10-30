@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/laravelhighcharts": [
+            {
+                "name": "phpclasses/laravelhighcharts",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/laravelhighcharts.zip"
+                },
+                "require": {
+                    "illuminate/support": "~5.1",
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^0.9.9",
+                    "phpunit/phpunit": "5.7.*"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "EnergieProduction\\Chart\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

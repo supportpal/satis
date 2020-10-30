@@ -1,0 +1,250 @@
+{
+    "packages": {
+        "horde/pack": [
+            {
+                "name": "horde/pack",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Pack.git",
+                    "reference": "0c98731540dec2561718f4636bfba8db202be774"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Pack/zipball/0c98731540dec2561718f4636bfba8db202be774",
+                    "reference": "0c98731540dec2561718f4636bfba8db202be774",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/compress_fast": "dev-master",
+                    "horde/exception": "dev-master",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "ext-igbinary": "^1.2",
+                    "ext-json": "*",
+                    "ext-msgpack": "*",
+                    "horde/test": "^2"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Pack": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Data packing library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/pack",
+                "version": "dev-FRAMEWORK_5_2",
+                "version_normalized": "dev-FRAMEWORK_5_2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Pack.git",
+                    "reference": "22ed03fdcc825d502e0c8d31baf881f2c679dacd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Pack/zipball/22ed03fdcc825d502e0c8d31baf881f2c679dacd",
+                    "reference": "22ed03fdcc825d502e0c8d31baf881f2c679dacd",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_compress_fast": "^1",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_pack": "1.*",
+                    "pear-pear.horde.org/horde_pack": "1.*"
+                },
+                "suggest": {
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_test": "^2",
+                    "pear-pecl.php.net/igbinary": "^1.2",
+                    "pear-pecl.php.net/msgpack": "*"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Pack": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Data packing library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/pack",
+                "version": "dev-horde-upstream",
+                "version_normalized": "dev-horde-upstream",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Pack.git",
+                    "reference": "09d8c9ce3f0ea912d7a9b7b6b176fc374055bfa0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Pack/zipball/09d8c9ce3f0ea912d7a9b7b6b176fc374055bfa0",
+                    "reference": "09d8c9ce3f0ea912d7a9b7b6b176fc374055bfa0",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_compress_fast": "^1",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_pack": "1.*",
+                    "pear-pear.horde.org/horde_pack": "1.*"
+                },
+                "suggest": {
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_test": "^2",
+                    "pear-pecl.php.net/igbinary": "^1.2",
+                    "pear-pecl.php.net/msgpack": "*"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Pack": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Data packing library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/pack",
+                "version": "dev-maintaina-bare",
+                "version_normalized": "dev-maintaina-bare",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Pack.git",
+                    "reference": "09d8c9ce3f0ea912d7a9b7b6b176fc374055bfa0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Pack/zipball/09d8c9ce3f0ea912d7a9b7b6b176fc374055bfa0",
+                    "reference": "09d8c9ce3f0ea912d7a9b7b6b176fc374055bfa0",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_compress_fast": "^1",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_pack": "1.*",
+                    "pear-pear.horde.org/horde_pack": "1.*"
+                },
+                "suggest": {
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_test": "^2",
+                    "pear-pecl.php.net/igbinary": "^1.2",
+                    "pear-pecl.php.net/msgpack": "*"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Pack": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Data packing library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/pack",
+                "version": "dev-maintaina-composerfixed",
+                "version_normalized": "dev-maintaina-composerfixed",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Pack.git",
+                    "reference": "4e22417e2b5351dbefcdb0a9530c556dee1d667d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Pack/zipball/4e22417e2b5351dbefcdb0a9530c556dee1d667d",
+                    "reference": "4e22417e2b5351dbefcdb0a9530c556dee1d667d",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/compress_fast": "dev-master",
+                    "horde/exception": "dev-master",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "php": "^5.3 || ^7"
+                },
+                "suggest": {
+                    "ext-igbinary": "^1.2",
+                    "ext-json": "*",
+                    "ext-msgpack": "*",
+                    "horde/test": "^2"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Pack": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Data packing library",
+                "homepage": "https://www.horde.org"
+            }
+        ]
+    }
+}

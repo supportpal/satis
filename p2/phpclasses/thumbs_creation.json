@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/thumbs_creation": [
+            {
+                "name": "phpclasses/thumbs_creation",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/thumbs_creation.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.files.php",
+                        "class.thumbs.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

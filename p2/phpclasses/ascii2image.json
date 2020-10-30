@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/ascii2image": [
+            {
+                "name": "phpclasses/ascii2image",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ascii2image.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ascii2image.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

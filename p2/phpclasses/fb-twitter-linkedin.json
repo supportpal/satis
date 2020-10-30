@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/fb-twitter-linkedin": [
+            {
+                "name": "phpclasses/fb-twitter-linkedin",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/fb-twitter-linkedin.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.fblinkedtwit.php",
+                        "facebook/jsonwrapper/JSON/JSON.php",
+                        "facebook/facebook_desktop.php",
+                        "facebook/facebook.php",
+                        "facebook/facebookapi_php5_restlib.php",
+                        "linkedin_twitter/linkedinoAuth.php",
+                        "linkedin_twitter/OAuth.php",
+                        "linkedin_twitter/twitterOAuth.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

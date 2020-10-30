@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/lights-gd": [
+            {
+                "name": "phpclasses/lights-gd",
+                "version": "5.3",
+                "version_normalized": "5.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/lights-gd.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "Light_GDClass.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

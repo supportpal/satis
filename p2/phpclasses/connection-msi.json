@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/connection-msi": [
+            {
+                "name": "phpclasses/connection-msi",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/connection-msi.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "ConnectionMSi.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

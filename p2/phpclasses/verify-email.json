@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/verify-email": [
+            {
+                "name": "phpclasses/verify-email",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/verify-email.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.verifyEmail.php"
+                    ]
+                }
+            }
+        ]
+    }
+}
