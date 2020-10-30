@@ -10,6 +10,10 @@
     {
       "type": "composer",
       "url": "https://www.phpclasses.org/"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/andywer/laravel-js-localization.git"
     }
   ],
   "require-all": true
