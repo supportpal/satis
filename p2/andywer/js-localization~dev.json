@@ -7,12 +7,12 @@
                 "version_normalized": "dev-develop",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/andywer/laravel-js-localization.git",
+                    "url": "https://github.com/bytestream/laravel-js-localization.git",
                     "reference": "32f85a3870f7e286ce0bd17387ae6ee24de8bcbe"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/andywer/laravel-js-localization/zipball/32f85a3870f7e286ce0bd17387ae6ee24de8bcbe",
+                    "url": "https://api.github.com/repos/bytestream/laravel-js-localization/zipball/32f85a3870f7e286ce0bd17387ae6ee24de8bcbe",
                     "reference": "32f85a3870f7e286ce0bd17387ae6ee24de8bcbe",
                     "shasum": ""
                 },
@@ -59,8 +59,7 @@
                     "translation"
                 ],
                 "support": {
-                    "source": "https://github.com/andywer/laravel-js-localization/tree/develop",
-                    "issues": "https://github.com/andywer/laravel-js-localization/issues"
+                    "source": "https://github.com/bytestream/laravel-js-localization/tree/develop"
                 }
             },
             {
@@ -69,12 +68,12 @@
                 "version_normalized": "dev-exportcmd",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/andywer/laravel-js-localization.git",
+                    "url": "https://github.com/bytestream/laravel-js-localization.git",
                     "reference": "7006144db608243c82ff25177b82a7080506f688"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/andywer/laravel-js-localization/zipball/7006144db608243c82ff25177b82a7080506f688",
+                    "url": "https://api.github.com/repos/bytestream/laravel-js-localization/zipball/7006144db608243c82ff25177b82a7080506f688",
                     "reference": "7006144db608243c82ff25177b82a7080506f688",
                     "shasum": ""
                 },
@@ -121,8 +120,7 @@
                     "translation"
                 ],
                 "support": {
-                    "source": "https://github.com/andywer/laravel-js-localization/tree/exportcmd",
-                    "issues": "https://github.com/andywer/laravel-js-localization/issues"
+                    "source": "https://github.com/bytestream/laravel-js-localization/tree/exportcmd"
                 }
             },
             {
@@ -131,12 +129,12 @@
                 "version_normalized": "dev-laravel-4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/andywer/laravel-js-localization.git",
+                    "url": "https://github.com/bytestream/laravel-js-localization.git",
                     "reference": "15661e6452f0d166eea05d02a1ab09f36e1b73c1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/andywer/laravel-js-localization/zipball/15661e6452f0d166eea05d02a1ab09f36e1b73c1",
+                    "url": "https://api.github.com/repos/bytestream/laravel-js-localization/zipball/15661e6452f0d166eea05d02a1ab09f36e1b73c1",
                     "reference": "15661e6452f0d166eea05d02a1ab09f36e1b73c1",
                     "shasum": ""
                 },
@@ -184,8 +182,7 @@
                     "translation"
                 ],
                 "support": {
-                    "source": "https://github.com/andywer/laravel-js-localization/tree/laravel-4.0",
-                    "issues": "https://github.com/andywer/laravel-js-localization/issues"
+                    "source": "https://github.com/bytestream/laravel-js-localization/tree/laravel-4.0"
                 }
             },
             {
@@ -194,12 +191,12 @@
                 "version_normalized": "dev-laravel-4.1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/andywer/laravel-js-localization.git",
+                    "url": "https://github.com/bytestream/laravel-js-localization.git",
                     "reference": "f17ec4cb66ace66a70ca5b78a7b4dbf11d9b4464"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/andywer/laravel-js-localization/zipball/f17ec4cb66ace66a70ca5b78a7b4dbf11d9b4464",
+                    "url": "https://api.github.com/repos/bytestream/laravel-js-localization/zipball/f17ec4cb66ace66a70ca5b78a7b4dbf11d9b4464",
                     "reference": "f17ec4cb66ace66a70ca5b78a7b4dbf11d9b4464",
                     "shasum": ""
                 },
@@ -247,8 +244,7 @@
                     "translation"
                 ],
                 "support": {
-                    "source": "https://github.com/andywer/laravel-js-localization/tree/laravel-4.1",
-                    "issues": "https://github.com/andywer/laravel-js-localization/issues"
+                    "source": "https://github.com/bytestream/laravel-js-localization/tree/laravel-4.1"
                 }
             },
             {
@@ -257,12 +253,12 @@
                 "version_normalized": "dev-laravel-4.2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/andywer/laravel-js-localization.git",
+                    "url": "https://github.com/bytestream/laravel-js-localization.git",
                     "reference": "8f6ba018a15e9dd26591eb3abd7b2dcd03282df3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/andywer/laravel-js-localization/zipball/8f6ba018a15e9dd26591eb3abd7b2dcd03282df3",
+                    "url": "https://api.github.com/repos/bytestream/laravel-js-localization/zipball/8f6ba018a15e9dd26591eb3abd7b2dcd03282df3",
                     "reference": "8f6ba018a15e9dd26591eb3abd7b2dcd03282df3",
                     "shasum": ""
                 },
@@ -310,8 +306,7 @@
                     "translation"
                 ],
                 "support": {
-                    "source": "https://github.com/andywer/laravel-js-localization/tree/laravel-4.2",
-                    "issues": "https://github.com/andywer/laravel-js-localization/issues"
+                    "source": "https://github.com/bytestream/laravel-js-localization/tree/laravel-4.2"
                 }
             },
             {
@@ -320,12 +315,12 @@
                 "version_normalized": "dev-laravel-5",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/andywer/laravel-js-localization.git",
+                    "url": "https://github.com/bytestream/laravel-js-localization.git",
                     "reference": "7f8636135ce425c9684b0b6b7225492fa544127d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/andywer/laravel-js-localization/zipball/7f8636135ce425c9684b0b6b7225492fa544127d",
+                    "url": "https://api.github.com/repos/bytestream/laravel-js-localization/zipball/7f8636135ce425c9684b0b6b7225492fa544127d",
                     "reference": "7f8636135ce425c9684b0b6b7225492fa544127d",
                     "shasum": ""
                 },
@@ -374,8 +369,7 @@
                     "translation"
                 ],
                 "support": {
-                    "source": "https://github.com/andywer/laravel-js-localization/tree/laravel-5",
-                    "issues": "https://github.com/andywer/laravel-js-localization/issues"
+                    "source": "https://github.com/bytestream/laravel-js-localization/tree/laravel-5"
                 }
             },
             {
@@ -384,25 +378,25 @@
                 "version_normalized": "dev-laravel-5.8",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/andywer/laravel-js-localization.git",
-                    "reference": "6568480fb96ece8b62dba1d63b2f168499a79c18"
+                    "url": "https://github.com/bytestream/laravel-js-localization.git",
+                    "reference": "720fb91eb250ac868ad16190162385a6e31acf18"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/andywer/laravel-js-localization/zipball/6568480fb96ece8b62dba1d63b2f168499a79c18",
-                    "reference": "6568480fb96ece8b62dba1d63b2f168499a79c18",
+                    "url": "https://api.github.com/repos/bytestream/laravel-js-localization/zipball/720fb91eb250ac868ad16190162385a6e31acf18",
+                    "reference": "720fb91eb250ac868ad16190162385a6e31acf18",
                     "shasum": ""
                 },
                 "require": {
-                    "illuminate/support": "~5.8",
-                    "php": ">=7.1.0"
+                    "illuminate/support": "^5.8",
+                    "php": ">=5.4.0"
                 },
                 "require-dev": {
                     "mockery/mockery": "~1.0",
-                    "orchestra/testbench": "4.*",
-                    "phpunit/phpunit": "^8.0"
+                    "orchestra/testbench": "3.8.*",
+                    "phpunit/phpunit": "^7.5"
                 },
-                "time": "2019-10-02T08:47:39+00:00",
+                "time": "2019-03-29T17:42:38+00:00",
                 "type": "library",
                 "extra": {
                     "component": "package",
@@ -438,8 +432,7 @@
                     "translation"
                 ],
                 "support": {
-                    "source": "https://github.com/andywer/laravel-js-localization/tree/laravel-5.8",
-                    "issues": "https://github.com/andywer/laravel-js-localization/issues"
+                    "source": "https://github.com/bytestream/laravel-js-localization/tree/laravel-5.8"
                 }
             },
             {
@@ -448,12 +441,12 @@
                 "version_normalized": "dev-laravel-6",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/andywer/laravel-js-localization.git",
+                    "url": "https://github.com/bytestream/laravel-js-localization.git",
                     "reference": "865a5a4272541286b3d2ddc2b39a409c11934dc3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/andywer/laravel-js-localization/zipball/865a5a4272541286b3d2ddc2b39a409c11934dc3",
+                    "url": "https://api.github.com/repos/bytestream/laravel-js-localization/zipball/865a5a4272541286b3d2ddc2b39a409c11934dc3",
                     "reference": "865a5a4272541286b3d2ddc2b39a409c11934dc3",
                     "shasum": ""
                 },
@@ -502,41 +495,39 @@
                     "translation"
                 ],
                 "support": {
-                    "source": "https://github.com/andywer/laravel-js-localization/tree/laravel-6",
-                    "issues": "https://github.com/andywer/laravel-js-localization/issues"
+                    "source": "https://github.com/bytestream/laravel-js-localization/tree/laravel-6"
                 }
             },
             {
                 "name": "andywer/js-localization",
-                "version": "dev-laravel-7",
-                "version_normalized": "dev-laravel-7",
+                "version": "dev-supportpal-fork",
+                "version_normalized": "dev-supportpal-fork",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/andywer/laravel-js-localization.git",
-                    "reference": "7f6868cc9b40330cb415188bc44fbcc5a7c3dd5a"
+                    "url": "https://github.com/bytestream/laravel-js-localization.git",
+                    "reference": "40984fd3e17483be2c313fd414e5ac8c0255d88e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/andywer/laravel-js-localization/zipball/7f6868cc9b40330cb415188bc44fbcc5a7c3dd5a",
-                    "reference": "7f6868cc9b40330cb415188bc44fbcc5a7c3dd5a",
+                    "url": "https://api.github.com/repos/bytestream/laravel-js-localization/zipball/40984fd3e17483be2c313fd414e5ac8c0255d88e",
+                    "reference": "40984fd3e17483be2c313fd414e5ac8c0255d88e",
                     "shasum": ""
                 },
                 "require": {
-                    "illuminate/support": "6.*|7.*|8.*",
-                    "php": ">=7.3.0"
+                    "illuminate/support": "5.x",
+                    "php": ">=5.4.0"
                 },
                 "require-dev": {
-                    "mockery/mockery": "~1.0",
-                    "orchestra/testbench": "4.*",
-                    "phpunit/phpunit": "^8.0"
+                    "mockery/mockery": "~0.9.4",
+                    "orchestra/testbench": "3.0.*",
+                    "phpunit/phpunit": "3.7.*"
                 },
-                "time": "2020-09-17T07:36:30+00:00",
+                "time": "2019-09-04T17:23:11+00:00",
                 "type": "library",
                 "extra": {
                     "component": "package",
                     "frameworks": [
-                        "Laravel 7",
-                        "Laravel 8"
+                        "Laravel 5"
                     ]
                 },
                 "autoload": {
@@ -567,73 +558,7 @@
                     "translation"
                 ],
                 "support": {
-                    "source": "https://github.com/andywer/laravel-js-localization/tree/laravel-7",
-                    "issues": "https://github.com/andywer/laravel-js-localization/issues"
-                }
-            },
-            {
-                "name": "andywer/js-localization",
-                "version": "dev-laravel-8",
-                "version_normalized": "dev-laravel-8",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/andywer/laravel-js-localization.git",
-                    "reference": "33cda9e64e51443876086cdaefd8e0fe1d19678d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/andywer/laravel-js-localization/zipball/33cda9e64e51443876086cdaefd8e0fe1d19678d",
-                    "reference": "33cda9e64e51443876086cdaefd8e0fe1d19678d",
-                    "shasum": ""
-                },
-                "require": {
-                    "illuminate/support": "6.*|7.*|8.*",
-                    "php": ">=7.3.0"
-                },
-                "require-dev": {
-                    "mockery/mockery": "~1.0",
-                    "orchestra/testbench": "4.*",
-                    "phpunit/phpunit": "^8.0"
-                },
-                "time": "2020-09-17T07:39:39+00:00",
-                "type": "library",
-                "extra": {
-                    "component": "package",
-                    "frameworks": [
-                        "Laravel 7",
-                        "Laravel 8"
-                    ]
-                },
-                "autoload": {
-                    "psr-4": {
-                        "JsLocalization\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "classmap": [
-                        "tests/TestCase.php"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Andy Wermke",
-                        "email": "andy@dev.next-step-software.com"
-                    }
-                ],
-                "description": "Laravel package to provide localizations to the Javascript code.",
-                "keywords": [
-                    "javascript",
-                    "laravel",
-                    "localization",
-                    "messages",
-                    "translation"
-                ],
-                "support": {
-                    "source": "https://github.com/andywer/laravel-js-localization/tree/laravel-8",
-                    "issues": "https://github.com/andywer/laravel-js-localization/issues"
+                    "source": "https://github.com/bytestream/laravel-js-localization/tree/supportpal-fork"
                 }
             }
         ]
