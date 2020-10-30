@@ -13,7 +13,7 @@
     },
     {
       "type": "vcs",
-      "url": "https://github.com/andywer/laravel-js-localization.git"
+      "url": "https://github.com/bytestream/laravel-js-localization.git"
     }
   ],
   "require-all": true
