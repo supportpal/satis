@@ -1,5 +1,5 @@
 {
-  "name": "supportpal/satis",
+  "name": "supportpal",
   "homepage": "https://supportpal.github.io/satis",
   "include-filename": "all.json",
   "repositories": [
