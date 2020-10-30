@@ -1,7 +1,7 @@
 {
     "packages": {
-        "horde/imap_client": {
-            "dev-master": {
+        "horde/imap_client": [
+            {
                 "name": "horde/imap_client",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
@@ -65,24 +65,6 @@
                 "description": "IMAP client library",
                 "homepage": "https://www.horde.org/libraries/Horde_Imap_Client"
             }
-        },
-        "phpclasses/mimeparser": {
-            "1.84": {
-                "name": "phpclasses/mimeparser",
-                "version": "1.84",
-                "version_normalized": "1.84.0.0",
-                "dist": {
-                    "type": "zip",
-                    "url": "https://www.phpclasses.org/install/package/mimeparser.zip"
-                },
-                "type": "library",
-                "autoload": {
-                    "classmap": [
-                        "mime_parser.php",
-                        "rfc822_addresses.php"
-                    ]
-                }
-            }
-        }
+        ]
     }
 }
