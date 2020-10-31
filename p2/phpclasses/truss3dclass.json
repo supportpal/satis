@@ -3,8 +3,8 @@
         "phpclasses/truss3dclass": [
             {
                 "name": "phpclasses/truss3dclass",
-                "version": "1.0.1",
-                "version_normalized": "1.0.1.0",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/truss3dclass.zip"
