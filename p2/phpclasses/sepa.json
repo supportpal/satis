@@ -3,8 +3,8 @@
         "phpclasses/sepa": [
             {
                 "name": "phpclasses/sepa",
-                "version": "1.1.0",
-                "version_normalized": "1.1.0.0",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/sepa.zip"
@@ -26,7 +26,21 @@
                         "SKien/Sepa/SepaDoc.php",
                         "SKien/Sepa/SepaHelper.php",
                         "SKien/Sepa/SepaPmtInf.php",
-                        "SKien/Sepa/SepaTxInf.php"
+                        "SKien/Sepa/SepaTxInf.php",
+                        "SKien/Sepa/CntryValidation/SepaCntryValidationIT.php",
+                        "test/SepaCntryValidationATTest.php",
+                        "test/SepaCntryValidationBETest.php",
+                        "test/SepaCntryValidationCHTest.php",
+                        "test/SepaCntryValidationDETest.php",
+                        "test/SepaCntryValidationEETest.php",
+                        "test/SepaCntryValidationFRTest.php",
+                        "test/SepaCntryValidationGBTest.php",
+                        "test/SepaCntryValidationITTest.php",
+                        "test/SepaCntryValidationLUTest.php",
+                        "test/SepaDocTest.php",
+                        "test/SepaPmtInfTest.php",
+                        "test/SepaTest.php",
+                        "test/SepaTxInfTest.php"
                     ]
                 }
             }

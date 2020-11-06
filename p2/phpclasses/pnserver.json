@@ -3,8 +3,8 @@
         "phpclasses/pnserver": [
             {
                 "name": "phpclasses/pnserver",
-                "version": "1.1.0",
-                "version_normalized": "1.1.0.0",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/pnserver.zip"

@@ -3,8 +3,8 @@
         "phpclasses/php-security-class": [
             {
                 "name": "phpclasses/php-security-class",
-                "version": "0.2.23",
-                "version_normalized": "0.2.23.0",
+                "version": "0.2.24",
+                "version_normalized": "0.2.24.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/php-security-class.zip"
