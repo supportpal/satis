@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/service-client": [
+            {
+                "name": "phpclasses/service-client",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/service-client.zip"
+                },
+                "require": {
+                    "mezon/custom-client": "^1.0",
+                    "mezon/dns-client": "^1.0",
+                    "mezon/rest-exception": "^1.0",
+                    "php": ">=7.2"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Mezon\\Service\\": ""
+                    }
+                }
+            }
+        ]
+    }
+}
