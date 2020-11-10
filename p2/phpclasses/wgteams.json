@@ -1,0 +1,39 @@
+{
+    "packages": {
+        "phpclasses/wgteams": [
+            {
+                "name": "phpclasses/wgteams",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/wgteams.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class/Constants.php",
+                        "class/Helper.php",
+                        "class/Infofields.php",
+                        "class/InfofieldsHandler.php",
+                        "class/Members.php",
+                        "class/MembersHandler.php",
+                        "class/Relations.php",
+                        "class/RelationsHandler.php",
+                        "class/Resizer.php",
+                        "class/Teams.php",
+                        "class/TeamsHandler.php",
+                        "class/Utility.php",
+                        "preloads/core.php",
+                        "class/Common/Breadcrumb.php",
+                        "class/Common/Configurator.php",
+                        "class/Common/FilesManagement.php",
+                        "class/Common/ModuleFeedback.php",
+                        "class/Common/ServerStats.php",
+                        "class/Common/VersionChecks.php"
+                    ]
+                }
+            }
+        ]
+    }
+}
