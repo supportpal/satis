@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/telegram-webchat": [
+            {
+                "name": "phpclasses/telegram-webchat",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/telegram-webchat.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "app/Main.php",
+                        "web/application/controllers/Chat.php",
+                        "web/application/models/Tgchat.php"
+                    ]
+                }
+            }
+        ]
+    }
+}
