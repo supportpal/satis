@@ -3,8 +3,8 @@
         "phpclasses/jsonpath": [
             {
                 "name": "phpclasses/jsonpath",
-                "version": "1.0.0",
-                "version_normalized": "1.0.0.0",
+                "version": "0.5.2",
+                "version_normalized": "0.5.2.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/jsonpath.zip"
