@@ -3,6 +3,28 @@
         "horde/horde-installer-plugin": [
             {
                 "name": "horde/horde-installer-plugin",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://codeload.github.com/bytestream/horde-installer-plugin/zip/dd4aecda37630ee99233f5d906787a3253c4ace1",
+                    "shasum": "d7c31173c1ca4043a3d35fdb9b3b5f14fd76b59a"
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0|^2.0"
+                },
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Horde\\Composer\\HordeInstallerPlugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Horde\\Composer\\": "src/"
+                    }
+                }
+            },
+            {
+                "name": "horde/horde-installer-plugin",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {
