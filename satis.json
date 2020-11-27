@@ -7,7 +7,7 @@
       "type": "package",
       "package": {
 	"name": "horde/horde-installer-plugin",
-        "version": "master",
+        "version": "dev-master",
         "type": "composer-plugin",
         "autoload": {
           "psr-4": {"Horde\\Composer\\": "src/"}
