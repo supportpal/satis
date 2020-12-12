@@ -3,8 +3,8 @@
         "phpclasses/extfpdf": [
             {
                 "name": "phpclasses/extfpdf",
-                "version": "1.0.3",
-                "version_normalized": "1.0.3.0",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/extfpdf.zip"
@@ -12,9 +12,10 @@
                 "type": "library",
                 "autoload": {
                     "classmap": [
-                        "lib/XFPDF/fpdf.php",
-                        "lib/XFPDF/xfpdf.php",
-                        "XFPDFExample.class.php"
+                        "XFPDFExample.class.php",
+                        "OPlathey/FPDF/FPDF.php",
+                        "SKien/XFPDF/XPDF.php",
+                        "SKien/XFPDF/XPDFFont.php"
                     ]
                 }
             }
