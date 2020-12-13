@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "phpclasses/php_component_time_l": [
+            {
+                "name": "phpclasses/php_component_time_l",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php_component_time_l.zip"
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "mockery/mockery": "0.9.*",
+                    "phpunit/phpunit": "~4.8||~5.5"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Net\\Bazzline\\Component\\TimeLimitManager\\": "source/"
+                    }
+                }
+            }
+        ]
+    }
+}
