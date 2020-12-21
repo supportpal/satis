@@ -3,8 +3,8 @@
         "phpclasses/angell-eye-paypal": [
             {
                 "name": "phpclasses/angell-eye-paypal",
-                "version": "1.3",
-                "version_normalized": "1.3.0.0",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/angell-eye-paypal.zip"

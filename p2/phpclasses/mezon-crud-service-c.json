@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/mezon-crud-service-c": [
+            {
+                "name": "phpclasses/mezon-crud-service-c",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mezon-crud-service-c.zip"
+                },
+                "require": {
+                    "mezon/functional": ">=1.0.0",
+                    "mezon/service-client": ">=1.0.0",
+                    "php": ">=7.2.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Mezon\\CrudService\\": ""
+                    }
+                }
+            }
+        ]
+    }
+}

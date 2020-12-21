@@ -3,8 +3,8 @@
         "phpclasses/database-fill": [
             {
                 "name": "phpclasses/database-fill",
-                "version": "0.52",
-                "version_normalized": "0.52.0.0",
+                "version": "0.53",
+                "version_normalized": "0.53.0.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/database-fill.zip"

@@ -12,7 +12,7 @@
                 "require": {
                     "phpclasses/formsgeneration": "1.0.32",
                     "phpclasses/httpclient": "1.0.5",
-                    "phpclasses/oauth-api": "1.0.106"
+                    "phpclasses/oauth-api": "1.0.107"
                 },
                 "type": "library",
                 "autoload": {
