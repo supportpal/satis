@@ -3,8 +3,8 @@
         "phpclasses/noter": [
             {
                 "name": "phpclasses/noter",
-                "version": "0.38",
-                "version_normalized": "0.38.0.0",
+                "version": "0.39",
+                "version_normalized": "0.39.0.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/noter.zip"

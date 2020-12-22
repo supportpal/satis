@@ -3,15 +3,15 @@
         "phpclasses/gimage": [
             {
                 "name": "phpclasses/gimage",
-                "version": "2.0.12",
-                "version_normalized": "2.0.12.0",
+                "version": "2.0.13",
+                "version_normalized": "2.0.13.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/gimage.zip"
                 },
                 "require": {
                     "ext-gd": "*",
-                    "php": "^7.0"
+                    "php": ">=7.0"
                 },
                 "require-dev": {
                     "apigen/apigen": "4.1.2",

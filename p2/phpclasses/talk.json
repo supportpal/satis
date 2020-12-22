@@ -3,8 +3,8 @@
         "phpclasses/talk": [
             {
                 "name": "phpclasses/talk",
-                "version": "1.0.28",
-                "version_normalized": "1.0.28.0",
+                "version": "1.0.29",
+                "version_normalized": "1.0.29.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/talk.zip"

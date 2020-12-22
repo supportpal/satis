@@ -3,8 +3,8 @@
         "phpclasses/php-exe-file-details": [
             {
                 "name": "phpclasses/php-exe-file-details",
-                "version": "1.0.0",
-                "version_normalized": "1.0.0.0",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/php-exe-file-details.zip"

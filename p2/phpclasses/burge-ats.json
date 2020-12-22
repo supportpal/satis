@@ -3,8 +3,8 @@
         "phpclasses/burge-ats": [
             {
                 "name": "phpclasses/burge-ats",
-                "version": "1.0.61",
-                "version_normalized": "1.0.61.0",
+                "version": "1.0.62",
+                "version_normalized": "1.0.62.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/burge-ats.zip"

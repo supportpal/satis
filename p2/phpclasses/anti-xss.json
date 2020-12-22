@@ -3,8 +3,8 @@
         "phpclasses/anti-xss": [
             {
                 "name": "phpclasses/anti-xss",
-                "version": "2.0.38",
-                "version_normalized": "2.0.38.0",
+                "version": "2.0.39",
+                "version_normalized": "2.0.39.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/anti-xss.zip"
@@ -12,10 +12,10 @@
                 "require": {
                     "php": ">=7.0.0",
                     "phpclasses/portable-utf8": "3.0.106",
-                    "voku/portable-utf8": "~5.4.27"
+                    "voku/portable-utf8": "~5.4.51"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "~6.0 || ~7.0"
+                    "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
                 },
                 "type": "library",
                 "extra": {

@@ -12,7 +12,7 @@
                 "require": {
                     "ext-dom": "*",
                     "php": ">=7.0.0",
-                    "phpclasses/voku-simple_html_dom": "2.0.73",
+                    "phpclasses/voku-simple_html_dom": "2.0.74",
                     "symfony/css-selector": "~3.0 || ~4.0",
                     "voku/simple_html_dom": "~4.5"
                 },

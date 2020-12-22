@@ -3,8 +3,8 @@
         "phpclasses/cchat": [
             {
                 "name": "phpclasses/cchat",
-                "version": "2.2",
-                "version_normalized": "2.2.0.0",
+                "version": "2.3",
+                "version_normalized": "2.3.0.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/cchat.zip"

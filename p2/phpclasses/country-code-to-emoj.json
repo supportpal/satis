@@ -3,8 +3,8 @@
         "phpclasses/country-code-to-emoj": [
             {
                 "name": "phpclasses/country-code-to-emoj",
-                "version": "0.25",
-                "version_normalized": "0.25.0.0",
+                "version": "0.26",
+                "version_normalized": "0.26.0.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/country-code-to-emoj.zip"

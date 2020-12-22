@@ -3,8 +3,8 @@
         "phpclasses/voku-simple_html_dom": [
             {
                 "name": "phpclasses/voku-simple_html_dom",
-                "version": "2.0.73",
-                "version_normalized": "2.0.73.0",
+                "version": "2.0.74",
+                "version_normalized": "2.0.74.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/voku-simple_html_dom.zip"
@@ -18,7 +18,7 @@
                     "symfony/css-selector": "~3.0 || ~4.0 || ~5.0"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "~6.0 || ~7.0"
+                    "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
                 },
                 "type": "library",
                 "autoload": {

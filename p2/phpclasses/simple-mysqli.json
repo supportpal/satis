@@ -3,8 +3,8 @@
         "phpclasses/simple-mysqli": [
             {
                 "name": "phpclasses/simple-mysqli",
-                "version": "3.0.64",
-                "version_normalized": "3.0.64.0",
+                "version": "3.0.65",
+                "version_normalized": "3.0.65.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/simple-mysqli.zip"
@@ -13,7 +13,7 @@
                     "ext-mysqli": "*",
                     "php": ">=7.0",
                     "phpclasses/portable-utf8": "3.0.106",
-                    "symfony/property-access": "~2.8 || ~3.3 || ~4.0",
+                    "symfony/property-access": "~2.8 || ~3.3 || ~4.0 || ~5.0",
                     "voku/arrayy": "~6.0 || ~7.0",
                     "voku/phonetic-algorithms": "~4.0",
                     "voku/portable-utf8": "~5.4",

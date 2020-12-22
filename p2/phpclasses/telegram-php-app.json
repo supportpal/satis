@@ -3,8 +3,8 @@
         "phpclasses/telegram-php-app": [
             {
                 "name": "phpclasses/telegram-php-app",
-                "version": "1.0.13",
-                "version_normalized": "1.0.13.0",
+                "version": "1.0.14",
+                "version_normalized": "1.0.14.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/telegram-php-app.zip"

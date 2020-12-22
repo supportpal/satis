@@ -3,8 +3,8 @@
         "phpclasses/bladeone": [
             {
                 "name": "phpclasses/bladeone",
-                "version": "1.68",
-                "version_normalized": "1.68.0.0",
+                "version": "1.69",
+                "version_normalized": "1.69.0.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/bladeone.zip"
@@ -19,11 +19,6 @@
                     "squizlabs/php_codesniffer": "^3.5.4"
                 },
                 "type": "library",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "3.37-dev"
-                    }
-                },
                 "autoload": {
                     "psr-4": {
                         "eftec\\bladeone\\": "lib/"
