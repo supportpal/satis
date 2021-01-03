@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/mysql-export": [
+            {
+                "name": "phpclasses/mysql-export",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mysql-export.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "mysql.export.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

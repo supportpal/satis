@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/perfect_url_trimmer": [
+            {
+                "name": "phpclasses/perfect_url_trimmer",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/perfect_url_trimmer.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.trimmer.php"
+                    ]
+                }
+            }
+        ]
+    }
+}
