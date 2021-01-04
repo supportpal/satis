@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/encurtador-url-mongo": [
+            {
+                "name": "phpclasses/encurtador-url-mongo",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/encurtador-url-mongo.zip"
+                },
+                "require": {
+                    "twig/twig": "1.*",
+                    "zf1/zend-registry": "1.12.11"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Unisal\\Encurtador\\": "src/Unisal/Encurtador/"
+                    }
+                }
+            }
+        ]
+    }
+}
