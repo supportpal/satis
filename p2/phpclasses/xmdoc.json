@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/xmdoc": [
+            {
+                "name": "phpclasses/xmdoc",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/xmdoc.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class/blockform.php",
+                        "class/formdoc.php",
+                        "class/utility.php",
+                        "class/xmdoc_category.php",
+                        "class/xmdoc_docdata.php",
+                        "class/xmdoc_document.php",
+                        "class/xmdoc_downlimit.php"
+                    ]
+                }
+            }
+        ]
+    }
+}
