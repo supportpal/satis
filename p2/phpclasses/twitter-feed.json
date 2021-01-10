@@ -10,8 +10,8 @@
                     "url": "https://www.phpclasses.org/install/package/twitter-feed.zip"
                 },
                 "require": {
-                    "phpclasses/httpclient": "1.0.5",
-                    "phpclasses/oauth-api": "1.0.107",
+                    "phpclasses/httpclient": "1.0.7",
+                    "phpclasses/oauth-api": "1.0.108",
                     "phpclasses/rsswriter": "1.0.0"
                 },
                 "type": "library",

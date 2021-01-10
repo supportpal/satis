@@ -10,7 +10,7 @@
                     "url": "https://www.phpclasses.org/install/package/akismet.zip"
                 },
                 "require": {
-                    "phpclasses/httpclient": "1.0.5"
+                    "phpclasses/httpclient": "1.0.7"
                 },
                 "type": "library",
                 "autoload": {

@@ -10,7 +10,7 @@
                     "url": "https://www.phpclasses.org/install/package/niger_class_php.zip"
                 },
                 "require": {
-                    "phpclasses/formsgeneration": "1.0.32"
+                    "phpclasses/formsgeneration": "1.0.33"
                 },
                 "type": "library",
                 "autoload": {

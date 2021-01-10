@@ -3,14 +3,14 @@
         "phpclasses/oauth-api": [
             {
                 "name": "phpclasses/oauth-api",
-                "version": "1.0.107",
-                "version_normalized": "1.0.107.0",
+                "version": "1.0.108",
+                "version_normalized": "1.0.108.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/oauth-api.zip"
                 },
                 "require": {
-                    "phpclasses/httpclient": "1.0.5"
+                    "phpclasses/httpclient": "1.0.7"
                 },
                 "type": "library",
                 "autoload": {

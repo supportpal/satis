@@ -11,7 +11,7 @@
                 },
                 "require": {
                     "phpclasses/filecache": "1.0.1",
-                    "phpclasses/formsgeneration": "1.0.32",
+                    "phpclasses/formsgeneration": "1.0.33",
                     "phpclasses/xmlparser": "1.0.1"
                 },
                 "type": "library",

@@ -10,7 +10,7 @@
                     "url": "https://www.phpclasses.org/install/package/navelo-cms.zip"
                 },
                 "require": {
-                    "phpclasses/formsgeneration": "1.0.32"
+                    "phpclasses/formsgeneration": "1.0.33"
                 },
                 "type": "library",
                 "autoload": {

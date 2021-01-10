@@ -3,8 +3,8 @@
         "phpclasses/httpclient": [
             {
                 "name": "phpclasses/httpclient",
-                "version": "1.0.5",
-                "version_normalized": "1.0.5.0",
+                "version": "1.0.7",
+                "version_normalized": "1.0.7.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/httpclient.zip"

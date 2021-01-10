@@ -10,9 +10,9 @@
                     "url": "https://www.phpclasses.org/install/package/webmaster-tools-api.zip"
                 },
                 "require": {
-                    "phpclasses/formsgeneration": "1.0.32",
-                    "phpclasses/httpclient": "1.0.5",
-                    "phpclasses/oauth-api": "1.0.107"
+                    "phpclasses/formsgeneration": "1.0.33",
+                    "phpclasses/httpclient": "1.0.7",
+                    "phpclasses/oauth-api": "1.0.108"
                 },
                 "type": "library",
                 "autoload": {

@@ -10,7 +10,7 @@
                     "url": "https://www.phpclasses.org/install/package/svnclient.zip"
                 },
                 "require": {
-                    "phpclasses/httpclient": "1.0.5",
+                    "phpclasses/httpclient": "1.0.7",
                     "phpclasses/xmlparser": "1.0.1"
                 },
                 "type": "library",
