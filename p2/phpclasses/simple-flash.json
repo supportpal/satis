@@ -3,8 +3,8 @@
         "phpclasses/simple-flash": [
             {
                 "name": "phpclasses/simple-flash",
-                "version": "1.2.5",
-                "version_normalized": "1.2.5.0",
+                "version": "1.2.6",
+                "version_normalized": "1.2.6.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/simple-flash.zip"
