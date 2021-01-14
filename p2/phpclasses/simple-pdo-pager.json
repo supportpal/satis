@@ -1,0 +1,27 @@
+{
+    "packages": {
+        "phpclasses/simple-pdo-pager": [
+            {
+                "name": "phpclasses/simple-pdo-pager",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/simple-pdo-pager.zip"
+                },
+                "require": {
+                    "php": "^7.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^7"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/Pagination"
+                    ]
+                }
+            }
+        ]
+    }
+}
