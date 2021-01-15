@@ -1,0 +1,25 @@
+{
+    "packages": {
+        "phpclasses/game-draw": [
+            {
+                "name": "phpclasses/game-draw",
+                "version": "1.06",
+                "version_normalized": "1.06.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/game-draw.zip"
+                },
+                "require": {
+                    "ext-bcmath": "*",
+                    "php": ">=7.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "AbmmHasan\\Draw\\": "src/Draw/"
+                    }
+                }
+            }
+        ]
+    }
+}
