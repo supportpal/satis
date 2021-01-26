@@ -7,7 +7,7 @@
                 "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Compress_Fast.git",
+                    "url": "git@github.com:maintaina-com/Compress_Fast.git",
                     "reference": "89d8b3772810a380f17d86d636eb60bb474eac31"
                 },
                 "dist": {
@@ -38,10 +38,7 @@
                     }
                 ],
                 "description": "Fast Compression Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Compress_Fast/tree/v1.0.3"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/compress_fast",
@@ -49,7 +46,7 @@
                 "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Compress_Fast.git",
+                    "url": "git@github.com:maintaina-com/Compress_Fast.git",
                     "reference": "e7da3078939501c8ff7e642ed759ed9f7da492b3"
                 },
                 "dist": {
@@ -81,10 +78,7 @@
                     }
                 ],
                 "description": "Fast Compression Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Compress_Fast/tree/v1.1.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/compress_fast",
@@ -92,7 +86,7 @@
                 "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Compress_Fast.git",
+                    "url": "git@github.com:maintaina-com/Compress_Fast.git",
                     "reference": "4e2fc768e6e0fb4444b05c28c782c076a778e499"
                 },
                 "dist": {
@@ -124,10 +118,7 @@
                     }
                 ],
                 "description": "Fast Compression Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Compress_Fast/tree/v1.1.1"
-                }
+                "homepage": "http://pear.horde.org"
             }
         ]
     }

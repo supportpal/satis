@@ -7,7 +7,7 @@
                 "version_normalized": "2.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Cli_Modular.git",
+                    "url": "git@github.com:maintaina-com/Cli_Modular.git",
                     "reference": "b2e7a87fe4d5abd13a6ed019f21775c910375783"
                 },
                 "dist": {
@@ -36,10 +36,7 @@
                     }
                 ],
                 "description": "A toolset for CLI interfaces that are modular.",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Cli_Modular/tree/v2.0.3"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/cli_modular",
@@ -47,7 +44,7 @@
                 "version_normalized": "2.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Cli_Modular.git",
+                    "url": "git@github.com:maintaina-com/Cli_Modular.git",
                     "reference": "e05f699053c78b7548cbcd4ae0ef489ad0ddc8b6"
                 },
                 "dist": {
@@ -76,10 +73,7 @@
                     }
                 ],
                 "description": "A toolset for CLI interfaces that are modular.",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Cli_Modular/tree/v2.0.4"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/cli_modular",
@@ -87,7 +81,7 @@
                 "version_normalized": "2.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Cli_Modular.git",
+                    "url": "git@github.com:maintaina-com/Cli_Modular.git",
                     "reference": "aa174895878ba643ea3e00109b052ca82e440a40"
                 },
                 "dist": {
@@ -130,10 +124,7 @@
                     }
                 ],
                 "description": "A toolset for CLI interfaces that are modular.",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Cli_Modular/tree/v2.1.0"
-                }
+                "homepage": "https://pear.horde.org"
             }
         ]
     }

@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Alarm.git",
+                    "url": "git@github.com:maintaina-com/Alarm.git",
                     "reference": "800d19dba92551f9b96a7c7589d1d56c12a6a34c"
                 },
                 "dist": {
@@ -51,10 +51,7 @@
                     }
                 ],
                 "description": "Alarm library",
-                "homepage": "https://www.horde.org/libraries/Horde_Alarm",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Alarm/tree/master"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Alarm"
             },
             {
                 "name": "horde/alarm",
@@ -62,7 +59,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Alarm.git",
+                    "url": "git@github.com:maintaina-com/Alarm.git",
                     "reference": "3816d203c015d1559b94da572eece2d782fbe366"
                 },
                 "dist": {
@@ -109,10 +106,7 @@
                     }
                 ],
                 "description": "Alarm library",
-                "homepage": "https://www.horde.org/libraries/Horde_Alarm",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Alarm/tree/FRAMEWORK_5_2"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Alarm"
             },
             {
                 "name": "horde/alarm",
@@ -120,7 +114,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Alarm.git",
+                    "url": "git@github.com:maintaina-com/Alarm.git",
                     "reference": "e39908b1e28a197c12bcd8f2e625ae2a9e0eae31"
                 },
                 "dist": {
@@ -167,10 +161,7 @@
                     }
                 ],
                 "description": "Alarm library",
-                "homepage": "https://www.horde.org/libraries/Horde_Alarm",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Alarm/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Alarm"
             },
             {
                 "name": "horde/alarm",
@@ -178,7 +169,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Alarm.git",
+                    "url": "git@github.com:maintaina-com/Alarm.git",
                     "reference": "e39908b1e28a197c12bcd8f2e625ae2a9e0eae31"
                 },
                 "dist": {
@@ -225,10 +216,7 @@
                     }
                 ],
                 "description": "Alarm library",
-                "homepage": "https://www.horde.org/libraries/Horde_Alarm",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Alarm/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Alarm"
             },
             {
                 "name": "horde/alarm",
@@ -236,7 +224,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Alarm.git",
+                    "url": "git@github.com:maintaina-com/Alarm.git",
                     "reference": "a0b8a49d1d63d03d95f5b4f7ef3e4cd56560e821"
                 },
                 "dist": {
@@ -280,10 +268,7 @@
                     }
                 ],
                 "description": "Alarm library",
-                "homepage": "https://www.horde.org/libraries/Horde_Alarm",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Alarm/tree/maintaina-composerfixed"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Alarm"
             }
         ]
     }

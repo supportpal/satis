@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/timeobjects.git",
+                    "url": "git@github.com:maintaina-com/timeobjects.git",
                     "reference": "b58addfd8986cc0baff0e41e112085bfb195d9f9"
                 },
                 "dist": {
@@ -53,10 +53,7 @@
                     }
                 ],
                 "description": "Time-based objects application",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/timeobjects/tree/master"
-                }
+                "homepage": "https://www.horde.org"
             },
             {
                 "name": "horde/timeobjects",
@@ -64,7 +61,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/timeobjects.git",
+                    "url": "git@github.com:maintaina-com/timeobjects.git",
                     "reference": "0dd223308c6baa0b9a8969e121752a6a534415cd"
                 },
                 "dist": {
@@ -104,10 +101,7 @@
                     }
                 ],
                 "description": "Horde timeobjects application",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/timeobjects/tree/FRAMEWORK_5_1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/timeobjects",
@@ -115,7 +109,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/timeobjects.git",
+                    "url": "git@github.com:maintaina-com/timeobjects.git",
                     "reference": "dccc4d49a7e79b1210b716b41dcf7d05de4b73ba"
                 },
                 "dist": {
@@ -164,10 +158,7 @@
                     }
                 ],
                 "description": "Time-based objects application",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/timeobjects/tree/FRAMEWORK_5_2"
-                }
+                "homepage": "https://www.horde.org"
             },
             {
                 "name": "horde/timeobjects",
@@ -175,7 +166,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/timeobjects.git",
+                    "url": "git@github.com:maintaina-com/timeobjects.git",
                     "reference": "d32161ff07bb2dabb13d837ec9b24f98bee19f6e"
                 },
                 "dist": {
@@ -224,10 +215,7 @@
                     }
                 ],
                 "description": "Time-based objects application",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/timeobjects/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org"
             },
             {
                 "name": "horde/timeobjects",
@@ -235,7 +223,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/timeobjects.git",
+                    "url": "git@github.com:maintaina-com/timeobjects.git",
                     "reference": "d32161ff07bb2dabb13d837ec9b24f98bee19f6e"
                 },
                 "dist": {
@@ -284,10 +272,7 @@
                     }
                 ],
                 "description": "Time-based objects application",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/timeobjects/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org"
             },
             {
                 "name": "horde/timeobjects",
@@ -295,7 +280,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/timeobjects.git",
+                    "url": "git@github.com:maintaina-com/timeobjects.git",
                     "reference": "396f5c17d01319e34ff72a0d20ab93c56ff62696"
                 },
                 "dist": {
@@ -341,10 +326,7 @@
                     }
                 ],
                 "description": "Time-based objects application",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/timeobjects/tree/maintaina-composerfixed"
-                }
+                "homepage": "https://www.horde.org"
             }
         ]
     }

@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/whups.git",
+                    "url": "git@github.com:maintaina-com/whups.git",
                     "reference": "73aafc60ef722addade459ebf2aee0a804e803d5"
                 },
                 "dist": {
@@ -79,10 +79,7 @@
                     }
                 ],
                 "description": "Ticket-tracking application",
-                "homepage": "https://www.horde.org/apps/whups",
-                "support": {
-                    "source": "https://github.com/maintaina-com/whups/tree/master"
-                }
+                "homepage": "https://www.horde.org/apps/whups"
             },
             {
                 "name": "horde/whups",
@@ -90,7 +87,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/whups.git",
+                    "url": "git@github.com:maintaina-com/whups.git",
                     "reference": "d836bc5f5c35b48f1f578ea20c5f5ef507a9f8e2"
                 },
                 "dist": {
@@ -145,10 +142,7 @@
                     }
                 ],
                 "description": "Ticket-tracking application",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/whups/tree/FRAMEWORK_5_1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/whups",
@@ -156,7 +150,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/whups.git",
+                    "url": "git@github.com:maintaina-com/whups.git",
                     "reference": "ec7944ab24a653b3d39859cd1bbf9cb3c78de477"
                 },
                 "dist": {
@@ -220,10 +214,7 @@
                     }
                 ],
                 "description": "Ticket-tracking application",
-                "homepage": "https://www.horde.org/apps/whups",
-                "support": {
-                    "source": "https://github.com/maintaina-com/whups/tree/FRAMEWORK_5_2"
-                }
+                "homepage": "https://www.horde.org/apps/whups"
             },
             {
                 "name": "horde/whups",
@@ -231,7 +222,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/whups.git",
+                    "url": "git@github.com:maintaina-com/whups.git",
                     "reference": "27912e8ce21fba9c5096a5e6ab6741bcefca78fc"
                 },
                 "dist": {
@@ -295,10 +286,7 @@
                     }
                 ],
                 "description": "Ticket-tracking application",
-                "homepage": "https://www.horde.org/apps/whups",
-                "support": {
-                    "source": "https://github.com/maintaina-com/whups/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org/apps/whups"
             },
             {
                 "name": "horde/whups",
@@ -306,7 +294,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/whups.git",
+                    "url": "git@github.com:maintaina-com/whups.git",
                     "reference": "27912e8ce21fba9c5096a5e6ab6741bcefca78fc"
                 },
                 "dist": {
@@ -370,10 +358,7 @@
                     }
                 ],
                 "description": "Ticket-tracking application",
-                "homepage": "https://www.horde.org/apps/whups",
-                "support": {
-                    "source": "https://github.com/maintaina-com/whups/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org/apps/whups"
             },
             {
                 "name": "horde/whups",
@@ -381,7 +366,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/whups.git",
+                    "url": "git@github.com:maintaina-com/whups.git",
                     "reference": "d57ea4f45ea3b461407efa7d0558750a3e68490c"
                 },
                 "dist": {
@@ -453,10 +438,7 @@
                     }
                 ],
                 "description": "Ticket-tracking application",
-                "homepage": "https://www.horde.org/apps/whups",
-                "support": {
-                    "source": "https://github.com/maintaina-com/whups/tree/maintaina-composerfixed"
-                }
+                "homepage": "https://www.horde.org/apps/whups"
             }
         ]
     }

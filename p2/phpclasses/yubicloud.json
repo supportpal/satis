@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/yubicloud": [
+            {
+                "name": "phpclasses/yubicloud",
+                "version": "4.3.21",
+                "version_normalized": "4.3.21.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/yubicloud.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "yubicloud.class.php"
+                    ]
+                }
+            }
+        ]
+    }
+}
