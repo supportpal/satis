@@ -3,8 +3,8 @@
         "phpclasses/email-check": [
             {
                 "name": "phpclasses/email-check",
-                "version": "1.1.18",
-                "version_normalized": "1.1.18.0",
+                "version": "1.1.19",
+                "version_normalized": "1.1.19.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/email-check.zip"

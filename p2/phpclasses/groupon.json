@@ -3,8 +3,8 @@
         "phpclasses/groupon": [
             {
                 "name": "phpclasses/groupon",
-                "version": "4",
-                "version_normalized": "4.0.0.0",
+                "version": "5",
+                "version_normalized": "5.0.0.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/groupon.zip"

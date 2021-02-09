@@ -3,8 +3,8 @@
         "phpclasses/mysql-replication": [
             {
                 "name": "phpclasses/mysql-replication",
-                "version": "2.0.26",
-                "version_normalized": "2.0.26.0",
+                "version": "2.0.27",
+                "version_normalized": "2.0.27.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/mysql-replication.zip"
@@ -72,7 +72,8 @@
                         "src/MySQLReplication/Repository/FieldDTOCollection.php",
                         "src/MySQLReplication/Repository/MasterStatusDTO.php",
                         "src/MySQLReplication/Event/RowEvent/ColumnDTO.php",
-                        "src/MySQLReplication/Event/RowEvent/ColumnDTOCollection.php"
+                        "src/MySQLReplication/Event/RowEvent/ColumnDTOCollection.php",
+                        "src/MySQLReplication/Repository/PingableConnection.php"
                     ]
                 }
             }

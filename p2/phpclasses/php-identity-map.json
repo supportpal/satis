@@ -3,8 +3,8 @@
         "phpclasses/php-identity-map": [
             {
                 "name": "phpclasses/php-identity-map",
-                "version": "2",
-                "version_normalized": "2.0.0.0",
+                "version": "3",
+                "version_normalized": "3.0.0.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/php-identity-map.zip"

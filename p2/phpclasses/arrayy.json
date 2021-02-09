@@ -3,8 +3,8 @@
         "phpclasses/arrayy": [
             {
                 "name": "phpclasses/arrayy",
-                "version": "2.2.51",
-                "version_normalized": "2.2.51.0",
+                "version": "2.2.52",
+                "version_normalized": "2.2.52.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/arrayy.zip"

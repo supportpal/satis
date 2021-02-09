@@ -11,7 +11,7 @@
                 },
                 "require": {
                     "php": ">=7.0",
-                    "phpclasses/arrayy": "2.2.51",
+                    "phpclasses/arrayy": "2.2.52",
                     "phpclasses/simple-mysqli": "3.0.65",
                     "voku/arrayy": "~5.3",
                     "voku/simple-mysqli": "~8.0"

@@ -3,8 +3,8 @@
         "phpclasses/ninja-mutex": [
             {
                 "name": "phpclasses/ninja-mutex",
-                "version": "0.6.0",
-                "version_normalized": "0.6.0.0",
+                "version": "0.6.1",
+                "version_normalized": "0.6.1.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/ninja-mutex.zip"

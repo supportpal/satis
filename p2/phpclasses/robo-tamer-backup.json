@@ -3,8 +3,8 @@
         "phpclasses/robo-tamer-backup": [
             {
                 "name": "phpclasses/robo-tamer-backup",
-                "version": "9",
-                "version_normalized": "9.0.0.0",
+                "version": "10",
+                "version_normalized": "10.0.0.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/robo-tamer-backup.zip"

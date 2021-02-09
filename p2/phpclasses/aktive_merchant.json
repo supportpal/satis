@@ -3,8 +3,8 @@
         "phpclasses/aktive_merchant": [
             {
                 "name": "phpclasses/aktive_merchant",
-                "version": "1.0.5",
-                "version_normalized": "1.0.5.0",
+                "version": "1.0.6",
+                "version_normalized": "1.0.6.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/aktive_merchant.zip"

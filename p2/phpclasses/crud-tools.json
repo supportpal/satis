@@ -3,8 +3,8 @@
         "phpclasses/crud-tools": [
             {
                 "name": "phpclasses/crud-tools",
-                "version": "0.0.16",
-                "version_normalized": "0.0.16.0",
+                "version": "0.0.17",
+                "version_normalized": "0.0.17.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/crud-tools.zip"

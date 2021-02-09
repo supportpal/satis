@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "phpclasses/blake3": [
+            {
+                "name": "phpclasses/blake3",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/blake3.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "blake3.php",
+                        "blake3_optimized.php",
+                        "blake3.zep"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -3,8 +3,8 @@
         "phpclasses/thesportsdb": [
             {
                 "name": "phpclasses/thesportsdb",
-                "version": "1.0.8",
-                "version_normalized": "1.0.8.0",
+                "version": "1.0.9",
+                "version_normalized": "1.0.9.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/thesportsdb.zip"
