@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "phpclasses/freepdf": [
+            {
+                "name": "phpclasses/freepdf",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/freepdf.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "src/FreePDF/FreePDF.php",
+                        "src/FreePDF/TTFParser.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

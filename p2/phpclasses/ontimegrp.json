@@ -10,7 +10,7 @@
                     "url": "https://www.phpclasses.org/install/package/ontimegrp.zip"
                 },
                 "require": {
-                    "phpclasses/ontimecore": "3.47"
+                    "phpclasses/ontimecore": "3.48"
                 },
                 "type": "library",
                 "autoload": {
