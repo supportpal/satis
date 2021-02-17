@@ -1,0 +1,162 @@
+{
+    "packages": {
+        "horde/horde-managesieve": [
+            {
+                "name": "horde/horde-managesieve",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/ManageSieve.git",
+                    "reference": "b8d05215d37e79db138b2fdc4313d5a412c6bfc0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ManageSieve/zipball/b8d05215d37e79db138b2fdc4313d5a412c6bfc0",
+                    "reference": "b8d05215d37e79db138b2fdc4313d5a412c6bfc0",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_socket_client": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.4.0"
+                },
+                "suggest": {
+                    "pear-pear.php.net/Auth_SASL": ">=1.0@stable"
+                },
+                "time": "2015-11-15T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Client library for ManageSieve",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/horde-managesieve",
+                "version": "1.0.0alpha1",
+                "version_normalized": "1.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/ManageSieve.git",
+                    "reference": "f3f21636aa58ffb3526e8c803b3dbf5af05fb4c1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ManageSieve/zipball/f3f21636aa58ffb3526e8c803b3dbf5af05fb4c1",
+                    "reference": "f3f21636aa58ffb3526e8c803b3dbf5af05fb4c1",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_socket_client": ">=2.0.0,<=3.0.0alpha1",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0,<=3.0.0alpha1",
+                    "php": ">=5.4.0"
+                },
+                "suggest": {
+                    "pear-pear.php.net/Auth_SASL": ">=1.0"
+                },
+                "time": "2015-07-31T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Client library for ManageSieve",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/horde-managesieve",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/ManageSieve.git",
+                    "reference": "aaf5ad31d8f4a51a7ca4bbf387c8f6f1c2a9f3d2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ManageSieve/zipball/aaf5ad31d8f4a51a7ca4bbf387c8f6f1c2a9f3d2",
+                    "reference": "aaf5ad31d8f4a51a7ca4bbf387c8f6f1c2a9f3d2",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_socket_client": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.4.0"
+                },
+                "suggest": {
+                    "pear-pear.php.net/Auth_SASL": ">=1.0@stable"
+                },
+                "time": "2016-02-01T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Client library for ManageSieve",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/horde-managesieve",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/ManageSieve.git",
+                    "reference": "fe65f01f436516197139afaf2ec176aa697cdc7b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ManageSieve/zipball/fe65f01f436516197139afaf2ec176aa697cdc7b",
+                    "reference": "fe65f01f436516197139afaf2ec176aa697cdc7b",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_socket_client": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "pear-pear.horde.org/horde_util": ">=2.0.0@stable,<=3.0.0alpha1@stable",
+                    "php": ">=5.4.0"
+                },
+                "suggest": {
+                    "pear-pear.php.net/Auth_SASL": ">=1.0@stable"
+                },
+                "time": "2016-07-12T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Client library for ManageSieve",
+                "homepage": "https://pear.horde.org"
+            }
+        ]
+    }
+}

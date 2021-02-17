@@ -3,8 +3,8 @@
         "phpclasses/ontimegrp": [
             {
                 "name": "phpclasses/ontimegrp",
-                "version": "3.47",
-                "version_normalized": "3.47.0.0",
+                "version": "3.48",
+                "version_normalized": "3.48.0.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/ontimegrp.zip"
@@ -19,7 +19,11 @@
                         "OnTime.php",
                         "OnTimeFunctions.php",
                         "OnTimeGrpsA.php",
-                        "OnTimeGrpsB.php"
+                        "OnTimeGrpsB.php",
+                        "OnTimeAllways.php",
+                        "OnTimetmp.php",
+                        "OnTimeAllways.php",
+                        "OnTimetmp.php"
                     ]
                 }
             }

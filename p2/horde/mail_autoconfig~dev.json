@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Mail_Autoconfig.git",
-                    "reference": "3ef8a2c9e0571e129f14afabec8b23ac3bca7bc9"
+                    "reference": "6970fad6ea0ebb09e2b12970e26cb56c15a4d410"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Mail_Autoconfig/zipball/3ef8a2c9e0571e129f14afabec8b23ac3bca7bc9",
-                    "reference": "3ef8a2c9e0571e129f14afabec8b23ac3bca7bc9",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail_Autoconfig/zipball/6970fad6ea0ebb09e2b12970e26cb56c15a4d410",
+                    "reference": "6970fad6ea0ebb09e2b12970e26cb56c15a4d410",
                     "shasum": ""
                 },
                 "require": {
@@ -24,7 +24,7 @@
                     "horde/imap_client": "dev-master",
                     "horde/mail": "dev-master",
                     "horde/smtp": "dev-master",
-                    "pear-pear.php.net/net_dns2": "^1.3",
+                    "pear/net_dns2": "^1.5",
                     "php": "^5.3 || ^7"
                 },
                 "time": "2020-10-27T00:00:00+00:00",
@@ -201,12 +201,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Mail_Autoconfig.git",
-                    "reference": "3df1f1a24e5df71fad870d01f96be98b99826bc8"
+                    "reference": "50e77c920fc87d680ee97864902a3dd3941bf82a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Mail_Autoconfig/zipball/3df1f1a24e5df71fad870d01f96be98b99826bc8",
-                    "reference": "3df1f1a24e5df71fad870d01f96be98b99826bc8",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail_Autoconfig/zipball/50e77c920fc87d680ee97864902a3dd3941bf82a",
+                    "reference": "50e77c920fc87d680ee97864902a3dd3941bf82a",
                     "shasum": ""
                 },
                 "require": {
@@ -217,7 +217,7 @@
                     "horde/imap_client": "dev-master",
                     "horde/mail": "dev-master",
                     "horde/smtp": "dev-master",
-                    "pear-pear.php.net/net_dns2": "^1.3",
+                    "pear/net_dns2": "^1.5",
                     "php": "^5.3 || ^7"
                 },
                 "time": "2020-10-27T00:00:00+00:00",

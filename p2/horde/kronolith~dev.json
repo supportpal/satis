@@ -290,6 +290,104 @@
             },
             {
                 "name": "horde/kronolith",
+                "version": "dev-add-itip-dependency",
+                "version_normalized": "dev-add-itip-dependency",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
+                    "reference": "cd9b9dd8d6ce1b305e8461c575897105294df194"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/kronolith/zipball/cd9b9dd8d6ce1b305e8461c575897105294df194",
+                    "reference": "cd9b9dd8d6ce1b305e8461c575897105294df194",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "ext-simplexml": "*",
+                    "pear-pear.horde.org/content": "^2.0.5",
+                    "pear-pear.horde.org/horde": "^5",
+                    "pear-pear.horde.org/horde_auth": "^2",
+                    "pear-pear.horde.org/horde_autoloader": "^2",
+                    "pear-pear.horde.org/horde_core": "^2.31",
+                    "pear-pear.horde.org/horde_data": "^2.4",
+                    "pear-pear.horde.org/horde_date": "^2.2",
+                    "pear-pear.horde.org/horde_date_parser": "^2",
+                    "pear-pear.horde.org/horde_dav": "^1",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_form": "^2",
+                    "pear-pear.horde.org/horde_group": "^2",
+                    "pear-pear.horde.org/horde_history": "^2.1",
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_image": "^2",
+                    "pear-pear.horde.org/horde_itip": "^2",
+                    "pear-pear.horde.org/horde_lock": "^2",
+                    "pear-pear.horde.org/horde_logintasks": "^2",
+                    "pear-pear.horde.org/horde_mail": "^2",
+                    "pear-pear.horde.org/horde_mime": "^2",
+                    "pear-pear.horde.org/horde_nls": "^2.2",
+                    "pear-pear.horde.org/horde_notification": "^2",
+                    "pear-pear.horde.org/horde_perms": "^2",
+                    "pear-pear.horde.org/horde_serialize": "^2",
+                    "pear-pear.horde.org/horde_share": "^2.1",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_text_filter": "^2",
+                    "pear-pear.horde.org/horde_timezone": "^1",
+                    "pear-pear.horde.org/horde_url": "^2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "pear-pear.horde.org/horde_view": "^2",
+                    "php": "^5.3.4 || ^7"
+                },
+                "replace": {
+                    "pear-horde/kronolith": "5.*",
+                    "pear-pear.horde.org/kronolith": "5.*"
+                },
+                "suggest": {
+                    "ext-xmlwriter": "*",
+                    "pear-pear.horde.org/horde_activesync": "^2.31",
+                    "pear-pear.horde.org/horde_backup": "^1",
+                    "pear-pear.horde.org/horde_db": "^2",
+                    "pear-pear.horde.org/horde_openxchange": "^1",
+                    "pear-pear.horde.org/horde_test": "^2",
+                    "pear-pear.horde.org/nag": "^4.2",
+                    "pear-pear.horde.org/timeobjects": "^2",
+                    "pear-pear.php.net/Date_Holidays": "^0.21"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-0": {
+                        "Kronolith": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Calendar and scheduling application",
+                "homepage": "https://www.horde.org/apps/kronolith"
+            },
+            {
+                "name": "horde/kronolith",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

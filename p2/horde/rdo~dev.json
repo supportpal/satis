@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Rdo.git",
-                    "reference": "6f40bb19da639e7285ac4c70faa6f9ed5e7c925e"
+                    "reference": "44d72d4fbdcc9123a8f058311599c1d584fa8b24"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Rdo/zipball/6f40bb19da639e7285ac4c70faa6f9ed5e7c925e",
-                    "reference": "6f40bb19da639e7285ac4c70faa6f9ed5e7c925e",
+                    "url": "https://api.github.com/repos/maintaina-com/Rdo/zipball/44d72d4fbdcc9123a8f058311599c1d584fa8b24",
+                    "reference": "44d72d4fbdcc9123a8f058311599c1d584fa8b24",
                     "shasum": ""
                 },
                 "require": {
@@ -149,12 +149,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Rdo.git",
-                    "reference": "443b72dd69acfd4dc5c8d2cb95ddca4238f8f814"
+                    "reference": "9ec8658c1eefa9c39ed7c1908d45909e89220aee"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Rdo/zipball/443b72dd69acfd4dc5c8d2cb95ddca4238f8f814",
-                    "reference": "443b72dd69acfd4dc5c8d2cb95ddca4238f8f814",
+                    "url": "https://api.github.com/repos/maintaina-com/Rdo/zipball/9ec8658c1eefa9c39ed7c1908d45909e89220aee",
+                    "reference": "9ec8658c1eefa9c39ed7c1908d45909e89220aee",
                     "shasum": ""
                 },
                 "require": {

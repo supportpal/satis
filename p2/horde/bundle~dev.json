@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/horde-deployment.git",
-                    "reference": "3b3d6996b879565d9793560821237898cbf5f838"
+                    "reference": "e1a6b3e68abce3fb974b6a124ca9119e95465b09"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/horde-deployment/zipball/3b3d6996b879565d9793560821237898cbf5f838",
-                    "reference": "3b3d6996b879565d9793560821237898cbf5f838",
+                    "url": "https://api.github.com/repos/maintaina-com/horde-deployment/zipball/e1a6b3e68abce3fb974b6a124ca9119e95465b09",
+                    "reference": "e1a6b3e68abce3fb974b6a124ca9119e95465b09",
                     "shasum": ""
                 },
                 "require": {
@@ -29,7 +29,50 @@
                 "require-dev": {
                     "squizlabs/php_codesniffer": "^3.4"
                 },
-                "time": "2020-09-10T19:36:03+00:00",
+                "time": "2021-02-03T07:23:30+00:00",
+                "type": "project",
+                "extra": {
+                    "installer-types": [
+                        "horde-library",
+                        "horde-application"
+                    ]
+                },
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "authors": [
+                    {
+                        "name": "Ralf Lang",
+                        "email": "lang@b1-systems.de"
+                    }
+                ],
+                "description": "A bundle of horde"
+            },
+            {
+                "name": "horde/bundle",
+                "version": "dev-components-only",
+                "version_normalized": "dev-components-only",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/horde-deployment.git",
+                    "reference": "3d054c15f9522f554f5f753c8619e7478ec93c4b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/horde-deployment/zipball/3d054c15f9522f554f5f753c8619e7478ec93c4b",
+                    "reference": "3d054c15f9522f554f5f753c8619e7478ec93c4b",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0",
+                    "horde/components": "dev-maintaina-composerfixed",
+                    "horde/horde-installer-plugin": "dev-master",
+                    "horde/hordectl": "dev-master"
+                },
+                "require-dev": {
+                    "squizlabs/php_codesniffer": "^3.4"
+                },
+                "time": "2021-02-15T18:46:00+00:00",
                 "type": "project",
                 "extra": {
                     "installer-types": [
