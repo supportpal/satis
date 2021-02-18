@@ -7,7 +7,7 @@
                 "version_normalized": "1.0.0.0-RC1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Backup.git",
+                    "url": "https://github.com/maintaina-com/Backup.git",
                     "reference": "4486b785ea7a4b484f1330f0c596a6eb4a9db5c4"
                 },
                 "dist": {
@@ -48,7 +48,10 @@
                     }
                 ],
                 "description": "Backup and restore library",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Backup/tree/v1.0.0rc1"
+                }
             }
         ]
     }

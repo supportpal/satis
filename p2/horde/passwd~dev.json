@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/passwd.git",
+                    "url": "https://github.com/maintaina-com/passwd.git",
                     "reference": "3728ef58fbe6b889e1d4e109cb99616fc1386e7e"
                 },
                 "dist": {
@@ -61,7 +61,10 @@
                     }
                 ],
                 "description": "Password changing application",
-                "homepage": "https://www.horde.org/apps/passwd"
+                "homepage": "https://www.horde.org/apps/passwd",
+                "support": {
+                    "source": "https://github.com/maintaina-com/passwd/tree/master"
+                }
             },
             {
                 "name": "horde/passwd",
@@ -69,7 +72,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/passwd.git",
+                    "url": "https://github.com/maintaina-com/passwd.git",
                     "reference": "2395fd4ca431e7d4f3cffd86ded92ddccbe29315"
                 },
                 "dist": {
@@ -117,7 +120,10 @@
                     }
                 ],
                 "description": "Horde password changing application",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/passwd/tree/FRAMEWORK_5_1"
+                }
             },
             {
                 "name": "horde/passwd",
@@ -125,7 +131,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/passwd.git",
+                    "url": "https://github.com/maintaina-com/passwd.git",
                     "reference": "3b077ae6411e96742c48c14350cb88d04566fd7a"
                 },
                 "dist": {
@@ -182,7 +188,10 @@
                     }
                 ],
                 "description": "Password changing application",
-                "homepage": "https://www.horde.org/apps/passwd"
+                "homepage": "https://www.horde.org/apps/passwd",
+                "support": {
+                    "source": "https://github.com/maintaina-com/passwd/tree/FRAMEWORK_5_2"
+                }
             },
             {
                 "name": "horde/passwd",
@@ -190,7 +199,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/passwd.git",
+                    "url": "https://github.com/maintaina-com/passwd.git",
                     "reference": "1f3c4c9b55179803c2f8c195f440476b39d58c8c"
                 },
                 "dist": {
@@ -247,7 +256,10 @@
                     }
                 ],
                 "description": "Password changing application",
-                "homepage": "https://www.horde.org/apps/passwd"
+                "homepage": "https://www.horde.org/apps/passwd",
+                "support": {
+                    "source": "https://github.com/maintaina-com/passwd/tree/horde-upstream"
+                }
             },
             {
                 "name": "horde/passwd",
@@ -255,7 +267,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/passwd.git",
+                    "url": "https://github.com/maintaina-com/passwd.git",
                     "reference": "1f3c4c9b55179803c2f8c195f440476b39d58c8c"
                 },
                 "dist": {
@@ -312,7 +324,10 @@
                     }
                 ],
                 "description": "Password changing application",
-                "homepage": "https://www.horde.org/apps/passwd"
+                "homepage": "https://www.horde.org/apps/passwd",
+                "support": {
+                    "source": "https://github.com/maintaina-com/passwd/tree/horde-upstream"
+                }
             },
             {
                 "name": "horde/passwd",
@@ -320,7 +335,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/passwd.git",
+                    "url": "https://github.com/maintaina-com/passwd.git",
                     "reference": "762741c6f88000f4dd49980a5586b64721542bdc"
                 },
                 "dist": {
@@ -374,7 +389,10 @@
                     }
                 ],
                 "description": "Password changing application",
-                "homepage": "https://www.horde.org/apps/passwd"
+                "homepage": "https://www.horde.org/apps/passwd",
+                "support": {
+                    "source": "https://github.com/maintaina-com/passwd/tree/maintaina-composerfixed"
+                }
             }
         ]
     }

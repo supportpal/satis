@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/horde-deployment.git",
+                    "url": "https://github.com/maintaina-com/horde-deployment.git",
                     "reference": "e1a6b3e68abce3fb974b6a124ca9119e95465b09"
                 },
                 "dist": {
@@ -46,7 +46,10 @@
                         "email": "lang@b1-systems.de"
                     }
                 ],
-                "description": "A bundle of horde"
+                "description": "A bundle of horde",
+                "support": {
+                    "source": "https://github.com/maintaina-com/horde-deployment/tree/master"
+                }
             },
             {
                 "name": "horde/bundle",
@@ -54,7 +57,7 @@
                 "version_normalized": "dev-components-only",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/horde-deployment.git",
+                    "url": "https://github.com/maintaina-com/horde-deployment.git",
                     "reference": "3d054c15f9522f554f5f753c8619e7478ec93c4b"
                 },
                 "dist": {
@@ -89,7 +92,10 @@
                         "email": "lang@b1-systems.de"
                     }
                 ],
-                "description": "A bundle of horde"
+                "description": "A bundle of horde",
+                "support": {
+                    "source": "https://github.com/maintaina-com/horde-deployment/tree/components-only"
+                }
             },
             {
                 "name": "horde/bundle",
@@ -97,7 +103,7 @@
                 "version_normalized": "dev-composer2-support",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/horde-deployment.git",
+                    "url": "https://github.com/maintaina-com/horde-deployment.git",
                     "reference": "052c963166dbe0ce95695179c2e55ed82fae3d72"
                 },
                 "dist": {
@@ -136,7 +142,10 @@
                         "email": "lang@b1-systems.de"
                     }
                 ],
-                "description": "A bundle of horde"
+                "description": "A bundle of horde",
+                "support": {
+                    "source": "https://github.com/maintaina-com/horde-deployment/tree/composer2-support"
+                }
             },
             {
                 "name": "horde/bundle",
@@ -144,7 +153,7 @@
                 "version_normalized": "dev-developer-downstream",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/horde-deployment.git",
+                    "url": "https://github.com/maintaina-com/horde-deployment.git",
                     "reference": "9b3ad2a5a814f7e5db03e25982bcd75972757b92"
                 },
                 "dist": {
@@ -170,7 +179,7 @@
                 "require-dev": {
                     "squizlabs/php_codesniffer": "^3.4"
                 },
-                "time": "2019-11-24T11:16:52+00:00",
+                "time": "2019-11-24T11:18:17+00:00",
                 "type": "project",
                 "extra": {
                     "installer-types": [
@@ -187,7 +196,10 @@
                         "email": "lang@b1-systems.de"
                     }
                 ],
-                "description": "A bundle of horde"
+                "description": "A bundle of horde",
+                "support": {
+                    "source": "https://github.com/maintaina-com/horde-deployment/tree/developer-downstream"
+                }
             },
             {
                 "name": "horde/bundle",
@@ -195,7 +207,7 @@
                 "version_normalized": "dev-groupware",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/horde-deployment.git",
+                    "url": "https://github.com/maintaina-com/horde-deployment.git",
                     "reference": "ee80c26033872b0f1f2b82b047943ba6a01c13ae"
                 },
                 "dist": {
@@ -236,7 +248,10 @@
                         "email": "lang@b1-systems.de"
                     }
                 ],
-                "description": "A bundle of horde"
+                "description": "A bundle of horde",
+                "support": {
+                    "source": "https://github.com/maintaina-com/horde-deployment/tree/groupware"
+                }
             },
             {
                 "name": "horde/bundle",
@@ -244,7 +259,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/horde-deployment.git",
+                    "url": "https://github.com/maintaina-com/horde-deployment.git",
                     "reference": "c3f0d2f09432a40900f510aa6a68fd60eb67e685"
                 },
                 "dist": {
@@ -268,7 +283,7 @@
                 "require-dev": {
                     "squizlabs/php_codesniffer": "^3.4"
                 },
-                "time": "2019-11-21T20:01:03+00:00",
+                "time": "2019-11-21T20:01:58+00:00",
                 "type": "project",
                 "extra": {
                     "installer-types": [
@@ -285,7 +300,10 @@
                         "email": "lang@b1-systems.de"
                     }
                 ],
-                "description": "A bundle of horde"
+                "description": "A bundle of horde",
+                "support": {
+                    "source": "https://github.com/maintaina-com/horde-deployment/tree/horde-upstream"
+                }
             },
             {
                 "name": "horde/bundle",
@@ -293,7 +311,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/horde-deployment.git",
+                    "url": "https://github.com/maintaina-com/horde-deployment.git",
                     "reference": "c3f0d2f09432a40900f510aa6a68fd60eb67e685"
                 },
                 "dist": {
@@ -317,7 +335,7 @@
                 "require-dev": {
                     "squizlabs/php_codesniffer": "^3.4"
                 },
-                "time": "2019-11-21T20:01:03+00:00",
+                "time": "2019-11-21T20:01:58+00:00",
                 "type": "project",
                 "extra": {
                     "installer-types": [
@@ -334,7 +352,10 @@
                         "email": "lang@b1-systems.de"
                     }
                 ],
-                "description": "A bundle of horde"
+                "description": "A bundle of horde",
+                "support": {
+                    "source": "https://github.com/maintaina-com/horde-deployment/tree/horde-upstream"
+                }
             }
         ]
     }

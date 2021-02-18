@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Cache.git",
+                    "url": "https://github.com/maintaina-com/Cache.git",
                     "reference": "5865209272379d0d5430d01da6c4a68e95987c97"
                 },
                 "dist": {
@@ -57,7 +57,10 @@
                     }
                 ],
                 "description": "Caching library",
-                "homepage": "https://www.horde.org/libraries/Horde_Cache"
+                "homepage": "https://www.horde.org/libraries/Horde_Cache",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cache/tree/master"
+                }
             },
             {
                 "name": "horde/cache",
@@ -65,7 +68,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Cache.git",
+                    "url": "https://github.com/maintaina-com/Cache.git",
                     "reference": "92f890dc582382a5853d7b15e7fd0a606e423408"
                 },
                 "dist": {
@@ -118,7 +121,10 @@
                     }
                 ],
                 "description": "Caching library",
-                "homepage": "https://www.horde.org/libraries/Horde_Cache"
+                "homepage": "https://www.horde.org/libraries/Horde_Cache",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cache/tree/FRAMEWORK_5_2"
+                }
             },
             {
                 "name": "horde/cache",
@@ -126,7 +132,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Cache.git",
+                    "url": "https://github.com/maintaina-com/Cache.git",
                     "reference": "8b392e3d6c7672cdc8edce7d78433872a57b5048"
                 },
                 "dist": {
@@ -179,7 +185,10 @@
                     }
                 ],
                 "description": "Caching library",
-                "homepage": "https://www.horde.org/libraries/Horde_Cache"
+                "homepage": "https://www.horde.org/libraries/Horde_Cache",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cache/tree/horde-upstream"
+                }
             },
             {
                 "name": "horde/cache",
@@ -187,7 +196,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Cache.git",
+                    "url": "https://github.com/maintaina-com/Cache.git",
                     "reference": "8b392e3d6c7672cdc8edce7d78433872a57b5048"
                 },
                 "dist": {
@@ -240,7 +249,10 @@
                     }
                 ],
                 "description": "Caching library",
-                "homepage": "https://www.horde.org/libraries/Horde_Cache"
+                "homepage": "https://www.horde.org/libraries/Horde_Cache",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cache/tree/horde-upstream"
+                }
             },
             {
                 "name": "horde/cache",
@@ -248,7 +260,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Cache.git",
+                    "url": "https://github.com/maintaina-com/Cache.git",
                     "reference": "5d07618a61afd8759f1761377b02f8636fa858b2"
                 },
                 "dist": {
@@ -298,7 +310,10 @@
                     }
                 ],
                 "description": "Caching library",
-                "homepage": "https://www.horde.org/libraries/Horde_Cache"
+                "homepage": "https://www.horde.org/libraries/Horde_Cache",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cache/tree/maintaina-composerfixed"
+                }
             }
         ]
     }
