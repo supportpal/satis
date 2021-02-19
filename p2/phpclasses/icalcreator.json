@@ -3,8 +3,8 @@
         "phpclasses/icalcreator": [
             {
                 "name": "phpclasses/icalcreator",
-                "version": "2.30",
-                "version_normalized": "2.30.0.0",
+                "version": "2.31",
+                "version_normalized": "2.31.0.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/icalcreator.zip"
