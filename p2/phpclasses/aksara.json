@@ -3,8 +3,8 @@
         "phpclasses/aksara": [
             {
                 "name": "phpclasses/aksara",
-                "version": "4.2.5",
-                "version_normalized": "4.2.5.0",
+                "version": "4.2.6",
+                "version_normalized": "4.2.6.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/aksara.zip"
@@ -15,7 +15,7 @@
                     "facebook/graph-sdk": "^5.7",
                     "google/apiclient": "^2.8",
                     "mpdf/mpdf": "^8.0",
-                    "php": "^7.3||^8.0",
+                    "php": "^7.3",
                     "picqer/php-barcode-generator": "^2.1"
                 },
                 "type": "project",
@@ -55,7 +55,6 @@
                         "aksara/Laboratory/Router.php",
                         "aksara/Laboratory/Template.php",
                         "aksara/Laboratory/Validation.php",
-                        "aksara/Libraries/Connector.php",
                         "aksara/Libraries/Document.php",
                         "aksara/Libraries/Facebook.php",
                         "aksara/Libraries/Google.php",
@@ -130,7 +129,10 @@
                         "aksara/Modules/Cms/Controllers/Partials/Inquiries.php",
                         "aksara/Config/Generators.php",
                         "aksara/Modules/Shortlink/Controllers/Shortlink.php",
-                        "aksara/Libraries/Miscellaneous.php"
+                        "aksara/Libraries/Miscellaneous.php",
+                        "aksara/Laboratory/Seeder.php",
+                        "aksara/Modules/Administrative/Controllers/Connections/Connections.php",
+                        "aksara/Modules/Administrative/Controllers/Years/Years.php"
                     ]
                 }
             }
