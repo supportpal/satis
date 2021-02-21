@@ -7,7 +7,7 @@
                 "version_normalized": "2.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/content.git",
+                    "url": "https://github.com/maintaina-com/content.git",
                     "reference": "dc3a7238c5201dd4aedbc8ed4df6c76dfe4e5293"
                 },
                 "dist": {
@@ -51,7 +51,10 @@
                     }
                 ],
                 "description": "Tagging application",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/content/tree/v2.0.4"
+                }
             },
             {
                 "name": "horde/content",
@@ -59,7 +62,7 @@
                 "version_normalized": "2.0.5.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/content.git",
+                    "url": "https://github.com/maintaina-com/content.git",
                     "reference": "c979a1f05130c3f17ff4e338d82249400569085c"
                 },
                 "dist": {
@@ -103,7 +106,10 @@
                     }
                 ],
                 "description": "Tagging application",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/content/tree/v2.0.5"
+                }
             },
             {
                 "name": "horde/content",
@@ -111,7 +117,7 @@
                 "version_normalized": "2.0.6.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/content.git",
+                    "url": "https://github.com/maintaina-com/content.git",
                     "reference": "ef8c4aa81f9e4eb7e68d49db8c24b789fdaef5f9"
                 },
                 "dist": {
@@ -164,7 +170,10 @@
                     }
                 ],
                 "description": "Tagging application",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/content/tree/v2.0.6"
+                }
             }
         ]
     }
