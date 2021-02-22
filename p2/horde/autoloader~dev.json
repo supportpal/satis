@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Autoloader.git",
+                    "url": "git@github.com:maintaina-com/Autoloader.git",
                     "reference": "b8cc5bbd02b2a1a87cb9ab9c31bbffee4240f33e"
                 },
                 "dist": {
@@ -46,10 +46,7 @@
                     }
                 ],
                 "description": "Autoloader library",
-                "homepage": "https://www.horde.org/libraries/Horde_Autoloader",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Autoloader/tree/master"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Autoloader"
             },
             {
                 "name": "horde/autoloader",
@@ -57,7 +54,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Autoloader.git",
+                    "url": "git@github.com:maintaina-com/Autoloader.git",
                     "reference": "d3c1a1fb964b185fbd3e1259b16c066d95d4c4bc"
                 },
                 "dist": {
@@ -99,10 +96,7 @@
                     }
                 ],
                 "description": "Autoloader library",
-                "homepage": "https://www.horde.org/libraries/Horde_Autoloader",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Autoloader/tree/FRAMEWORK_5_2"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Autoloader"
             },
             {
                 "name": "horde/autoloader",
@@ -110,7 +104,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Autoloader.git",
+                    "url": "git@github.com:maintaina-com/Autoloader.git",
                     "reference": "2a2ce1f45494871c16f1bb2bf1182a4f122e7615"
                 },
                 "dist": {
@@ -152,10 +146,7 @@
                     }
                 ],
                 "description": "Autoloader library",
-                "homepage": "https://www.horde.org/libraries/Horde_Autoloader",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Autoloader/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Autoloader"
             },
             {
                 "name": "horde/autoloader",
@@ -163,7 +154,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Autoloader.git",
+                    "url": "git@github.com:maintaina-com/Autoloader.git",
                     "reference": "2a2ce1f45494871c16f1bb2bf1182a4f122e7615"
                 },
                 "dist": {
@@ -205,10 +196,7 @@
                     }
                 ],
                 "description": "Autoloader library",
-                "homepage": "https://www.horde.org/libraries/Horde_Autoloader",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Autoloader/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Autoloader"
             },
             {
                 "name": "horde/autoloader",
@@ -216,7 +204,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Autoloader.git",
+                    "url": "git@github.com:maintaina-com/Autoloader.git",
                     "reference": "9945202f0064bc4774420ef95da50d0e140171cc"
                 },
                 "dist": {
@@ -255,10 +243,7 @@
                     }
                 ],
                 "description": "Autoloader library",
-                "homepage": "https://www.horde.org/libraries/Horde_Autoloader",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Autoloader/tree/maintaina-composerfixed"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Autoloader"
             }
         ]
     }

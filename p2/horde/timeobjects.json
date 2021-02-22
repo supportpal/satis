@@ -7,7 +7,7 @@
                 "version_normalized": "2.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/timeobjects.git",
+                    "url": "git@github.com:maintaina-com/timeobjects.git",
                     "reference": "779f024a4e125354dd7410a092e8be8354c3afe1"
                 },
                 "dist": {
@@ -47,10 +47,7 @@
                     }
                 ],
                 "description": "Horde timeobjects application",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/timeobjects/tree/v2.1.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/timeobjects",
@@ -58,7 +55,7 @@
                 "version_normalized": "2.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/timeobjects.git",
+                    "url": "git@github.com:maintaina-com/timeobjects.git",
                     "reference": "b18e49c1bb57abc53578266d381229ccb3fcd849"
                 },
                 "dist": {
@@ -98,10 +95,7 @@
                     }
                 ],
                 "description": "Horde timeobjects application",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/timeobjects/tree/v2.1.1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/timeobjects",
@@ -109,7 +103,7 @@
                 "version_normalized": "2.1.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/timeobjects.git",
+                    "url": "git@github.com:maintaina-com/timeobjects.git",
                     "reference": "82b3aa8d5fc8c53383d0f135534c7f9e71633c39"
                 },
                 "dist": {
@@ -149,10 +143,7 @@
                     }
                 ],
                 "description": "Horde timeobjects application",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/timeobjects/tree/v2.1.2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/timeobjects",
@@ -160,7 +151,7 @@
                 "version_normalized": "2.1.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/timeobjects.git",
+                    "url": "git@github.com:maintaina-com/timeobjects.git",
                     "reference": "0b98533c96207c50dde5c3c665c6e304e8532b05"
                 },
                 "dist": {
@@ -200,10 +191,7 @@
                     }
                 ],
                 "description": "Horde timeobjects application",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/timeobjects/tree/v2.1.3"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/timeobjects",
@@ -211,7 +199,7 @@
                 "version_normalized": "2.1.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/timeobjects.git",
+                    "url": "git@github.com:maintaina-com/timeobjects.git",
                     "reference": "fcfb9f0d4fdfbbb7a32ffe7847eacd71889e76a9"
                 },
                 "dist": {
@@ -260,10 +248,7 @@
                     }
                 ],
                 "description": "Horde timeobjects application",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/timeobjects/tree/v2.1.4"
-                }
+                "homepage": "https://pear.horde.org"
             }
         ]
     }
