@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "e1671332f7a54b6847cc8564025bd794a5992821"
                 },
                 "dist": {
@@ -124,7 +124,10 @@
                     }
                 ],
                 "description": "Horde base application",
-                "homepage": "https://www.horde.org/apps/horde"
+                "homepage": "https://www.horde.org/apps/horde",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/master"
+                }
             },
             {
                 "name": "horde/horde",
@@ -132,7 +135,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "37b0a33cd04668d894d61d5a6dd89d821a66f9f9"
                 },
                 "dist": {
@@ -221,7 +224,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/FRAMEWORK_5_1"
+                }
             },
             {
                 "name": "horde/horde",
@@ -229,7 +235,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "68c683302d42d9bd1e8181a9b2fc11337ed92299"
                 },
                 "dist": {
@@ -328,7 +334,10 @@
                     }
                 ],
                 "description": "Horde base application",
-                "homepage": "https://www.horde.org/apps/horde"
+                "homepage": "https://www.horde.org/apps/horde",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/FRAMEWORK_5_2"
+                }
             },
             {
                 "name": "horde/horde",
@@ -336,7 +345,7 @@
                 "version_normalized": "dev-cherrypick-rampage-to-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "25ec6d0d9732f6bb459e4c4e4ae392dfa32cc0e4"
                 },
                 "dist": {
@@ -436,7 +445,10 @@
                     }
                 ],
                 "description": "Horde base application",
-                "homepage": "https://www.horde.org/apps/horde"
+                "homepage": "https://www.horde.org/apps/horde",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/cherrypick-rampage-to-horde-upstream"
+                }
             },
             {
                 "name": "horde/horde",
@@ -444,7 +456,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "b61ce92ea32f9c93d0db2d0be7469c5b7798aa1d"
                 },
                 "dist": {
@@ -544,7 +556,10 @@
                     }
                 ],
                 "description": "Horde base application",
-                "homepage": "https://www.horde.org/apps/horde"
+                "homepage": "https://www.horde.org/apps/horde",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/horde-upstream"
+                }
             },
             {
                 "name": "horde/horde",
@@ -552,7 +567,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "41f4be25f4b501849d771514039b7c059844a573"
                 },
                 "dist": {
@@ -651,7 +666,10 @@
                     }
                 ],
                 "description": "Horde base application",
-                "homepage": "https://www.horde.org/apps/horde"
+                "homepage": "https://www.horde.org/apps/horde",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/maintaina-bare"
+                }
             },
             {
                 "name": "horde/horde",
@@ -659,7 +677,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "7729986ec845cd67af6843c3e90863ef3020de6f"
                 },
                 "dist": {
@@ -776,7 +794,10 @@
                     }
                 ],
                 "description": "Horde base application",
-                "homepage": "https://www.horde.org/apps/horde"
+                "homepage": "https://www.horde.org/apps/horde",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/maintaina-composerfixed"
+                }
             }
         ]
     }

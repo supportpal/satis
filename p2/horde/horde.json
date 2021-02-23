@@ -7,7 +7,7 @@
                 "version_normalized": "5.1.5.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "4d9fe235b0375fb6c0f6e5e5274157ddfdff5097"
                 },
                 "dist": {
@@ -96,7 +96,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.1.5"
+                }
             },
             {
                 "name": "horde/horde",
@@ -104,7 +107,7 @@
                 "version_normalized": "5.1.7.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "868640bec2d51632b3a8cb62ce0d4cefbe317bd4"
                 },
                 "dist": {
@@ -193,7 +196,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.1.7"
+                }
             },
             {
                 "name": "horde/horde",
@@ -201,7 +207,7 @@
                 "version_normalized": "5.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "4b60d6f966e219cb0152e4ccf057f0af42dc6878"
                 },
                 "dist": {
@@ -291,7 +297,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.0"
+                }
             },
             {
                 "name": "horde/horde",
@@ -299,7 +308,7 @@
                 "version_normalized": "5.2.0.0-RC1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "4d362ead2213c2ebd3e6a5d004593ff52a7a86e2"
                 },
                 "dist": {
@@ -389,7 +398,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.0rc1"
+                }
             },
             {
                 "name": "horde/horde",
@@ -397,7 +409,7 @@
                 "version_normalized": "5.2.0.0-RC2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "5d313b682a238784e2872cf0f59fbfd47fcb1961"
                 },
                 "dist": {
@@ -487,7 +499,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.0rc2"
+                }
             },
             {
                 "name": "horde/horde",
@@ -495,7 +510,7 @@
                 "version_normalized": "5.2.0.0-alpha1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "b2666a747ee7666d07e86cd8c3e93f4d5118bc5f"
                 },
                 "dist": {
@@ -585,7 +600,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.0alpha1"
+                }
             },
             {
                 "name": "horde/horde",
@@ -593,7 +611,7 @@
                 "version_normalized": "5.2.0.0-beta1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "fa72ebb154875c82bbf6167c3e5dbaa7a69e2acc"
                 },
                 "dist": {
@@ -683,7 +701,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.0beta1"
+                }
             },
             {
                 "name": "horde/horde",
@@ -691,7 +712,7 @@
                 "version_normalized": "5.2.0.0-beta2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "6fdfb25a5b146eb6174acca32bc477f8c1ce4a28"
                 },
                 "dist": {
@@ -781,7 +802,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.0beta2"
+                }
             },
             {
                 "name": "horde/horde",
@@ -789,7 +813,7 @@
                 "version_normalized": "5.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "44685725c37449fb08436ce5f79c63f7330f511c"
                 },
                 "dist": {
@@ -879,7 +903,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.1"
+                }
             },
             {
                 "name": "horde/horde",
@@ -887,7 +914,7 @@
                 "version_normalized": "5.2.10.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "c0cdee9966c588712f4e3cdfa2d7c0486f3da326"
                 },
                 "dist": {
@@ -977,7 +1004,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.10"
+                }
             },
             {
                 "name": "horde/horde",
@@ -985,7 +1015,7 @@
                 "version_normalized": "5.2.11.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "95cb7c3ec109c4d1c9f5f98661365651324f3820"
                 },
                 "dist": {
@@ -1075,7 +1105,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.11"
+                }
             },
             {
                 "name": "horde/horde",
@@ -1083,7 +1116,7 @@
                 "version_normalized": "5.2.12.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "78ca289863afce7e6f79086e5e94f91ba9630b65"
                 },
                 "dist": {
@@ -1173,7 +1206,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.12"
+                }
             },
             {
                 "name": "horde/horde",
@@ -1181,7 +1217,7 @@
                 "version_normalized": "5.2.13.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "984011dac0954b23a9067ddc18c7d143372621cf"
                 },
                 "dist": {
@@ -1271,7 +1307,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.13"
+                }
             },
             {
                 "name": "horde/horde",
@@ -1279,7 +1318,7 @@
                 "version_normalized": "5.2.14.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "db245b346697e4f03c08707ea55134817ad1ed2d"
                 },
                 "dist": {
@@ -1369,7 +1408,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.14"
+                }
             },
             {
                 "name": "horde/horde",
@@ -1377,7 +1419,7 @@
                 "version_normalized": "5.2.15.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "7901dc07ae8cacfd0b9a5822bb9427de9c4b4fae"
                 },
                 "dist": {
@@ -1476,7 +1518,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.15"
+                }
             },
             {
                 "name": "horde/horde",
@@ -1484,7 +1529,7 @@
                 "version_normalized": "5.2.16.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "38634d9d326d64359e455d5f033d0bcc74c2485c"
                 },
                 "dist": {
@@ -1583,7 +1628,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.16"
+                }
             },
             {
                 "name": "horde/horde",
@@ -1591,7 +1639,7 @@
                 "version_normalized": "5.2.17.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "1f57a6395c5c57fd5e768a3c0f42fc9db653fb42"
                 },
                 "dist": {
@@ -1690,7 +1738,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.17"
+                }
             },
             {
                 "name": "horde/horde",
@@ -1698,7 +1749,7 @@
                 "version_normalized": "5.2.18.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "a3578cc95b414493bb47cf9f7dcff87d66dd6864"
                 },
                 "dist": {
@@ -1797,7 +1848,10 @@
                     }
                 ],
                 "description": "Horde base application",
-                "homepage": "https://www.horde.org/apps/horde"
+                "homepage": "https://www.horde.org/apps/horde",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.18"
+                }
             },
             {
                 "name": "horde/horde",
@@ -1805,7 +1859,7 @@
                 "version_normalized": "5.2.19.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "a44d3254d0abc68baf8d23a946fa6aee7045751b"
                 },
                 "dist": {
@@ -1904,7 +1958,10 @@
                     }
                 ],
                 "description": "Horde base application",
-                "homepage": "https://www.horde.org/apps/horde"
+                "homepage": "https://www.horde.org/apps/horde",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.19"
+                }
             },
             {
                 "name": "horde/horde",
@@ -1912,7 +1969,7 @@
                 "version_normalized": "5.2.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "167d0c167f5ebdbd4ae6da4a3829f0531cfc0573"
                 },
                 "dist": {
@@ -2002,7 +2059,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.2"
+                }
             },
             {
                 "name": "horde/horde",
@@ -2010,7 +2070,7 @@
                 "version_normalized": "5.2.20.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "ef9e70892ccef50d44b494cbd591cbe73b37806c"
                 },
                 "dist": {
@@ -2109,7 +2169,10 @@
                     }
                 ],
                 "description": "Horde base application",
-                "homepage": "https://www.horde.org/apps/horde"
+                "homepage": "https://www.horde.org/apps/horde",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.20"
+                }
             },
             {
                 "name": "horde/horde",
@@ -2117,7 +2180,7 @@
                 "version_normalized": "5.2.21.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "c14b0374ef168e603ba9aa3b2477c61e824daa4f"
                 },
                 "dist": {
@@ -2216,7 +2279,10 @@
                     }
                 ],
                 "description": "Horde base application",
-                "homepage": "https://www.horde.org/apps/horde"
+                "homepage": "https://www.horde.org/apps/horde",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.21"
+                }
             },
             {
                 "name": "horde/horde",
@@ -2224,7 +2290,7 @@
                 "version_normalized": "5.2.3.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "9777f6287bc3b3e43e5c47524e534e2504efd89b"
                 },
                 "dist": {
@@ -2314,7 +2380,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.3"
+                }
             },
             {
                 "name": "horde/horde",
@@ -2322,7 +2391,7 @@
                 "version_normalized": "5.2.4.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "977a57079bf76c65a15544191f5b9bd41d00a1f2"
                 },
                 "dist": {
@@ -2412,7 +2481,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.4"
+                }
             },
             {
                 "name": "horde/horde",
@@ -2420,7 +2492,7 @@
                 "version_normalized": "5.2.5.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "12b78d54ef00bd59d8bb06e23b497c7593faf4b6"
                 },
                 "dist": {
@@ -2510,7 +2582,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.5"
+                }
             },
             {
                 "name": "horde/horde",
@@ -2518,7 +2593,7 @@
                 "version_normalized": "5.2.6.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "913f7279666d190cf496a739cf5b940507c1c4c8"
                 },
                 "dist": {
@@ -2608,7 +2683,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.6"
+                }
             },
             {
                 "name": "horde/horde",
@@ -2616,7 +2694,7 @@
                 "version_normalized": "5.2.7.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "2c783bd623dcac276c6fdc2fb8ac2b0ae71ae623"
                 },
                 "dist": {
@@ -2706,7 +2784,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.7"
+                }
             },
             {
                 "name": "horde/horde",
@@ -2714,7 +2795,7 @@
                 "version_normalized": "5.2.8.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "1a58f293126f74833f51e9bad212c39eb7bcf01d"
                 },
                 "dist": {
@@ -2804,7 +2885,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.8"
+                }
             },
             {
                 "name": "horde/horde",
@@ -2812,7 +2896,7 @@
                 "version_normalized": "5.2.9.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/base.git",
+                    "url": "https://github.com/maintaina-com/base.git",
                     "reference": "6863d1f3142f2db2633483b6b30dfc5001e77896"
                 },
                 "dist": {
@@ -2902,7 +2986,10 @@
                     }
                 ],
                 "description": "Horde Application Framework",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.9"
+                }
             }
         ]
     }
