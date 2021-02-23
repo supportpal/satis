@@ -3,24 +3,22 @@
         "phpclasses/multilingual-library": [
             {
                 "name": "phpclasses/multilingual-library",
-                "version": "1.0.17",
-                "version_normalized": "1.0.17.0",
+                "version": "1.0.18",
+                "version_normalized": "1.0.18.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/multilingual-library.zip"
                 },
-                "require-dev": {
-                    "php": "^5.5 || ^7.0"
+                "require": {
+                    "phpunit/phpunit": "^9.3"
                 },
                 "type": "library",
                 "autoload": {
                     "psr-4": {
-                        "PHPtricks\\Logaty\\": "inc/classes"
+                        "PHPtricks\\Logaty\\": "Logaty"
                     },
                     "files": [
-                        "core/init.php",
-                        "core/detect_visitor_language.php",
-                        "inc/functions/functions.php"
+                        "Logaty/start.php"
                     ]
                 }
             }

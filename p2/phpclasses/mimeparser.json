@@ -3,8 +3,8 @@
         "phpclasses/mimeparser": [
             {
                 "name": "phpclasses/mimeparser",
-                "version": "1.84",
-                "version_normalized": "1.84.0.0",
+                "version": "1.85",
+                "version_normalized": "1.85.0.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/mimeparser.zip"

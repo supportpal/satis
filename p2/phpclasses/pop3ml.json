@@ -10,7 +10,7 @@
                     "url": "https://www.phpclasses.org/install/package/pop3ml.zip"
                 },
                 "require": {
-                    "phpclasses/mimeparser": "1.84",
+                    "phpclasses/mimeparser": "1.85",
                     "phpclasses/pop3class": "1.0.1",
                     "phpclasses/sasl": ">=1.0.0",
                     "phpclasses/smtpclass": "1.0.5"
