@@ -108,6 +108,57 @@
             },
             {
                 "name": "horde/http",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Http.git",
+                    "reference": "604785840d321e0ff45bdaf50989321be1f7238b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Http/zipball/604785840d321e0ff45bdaf50989321be1f7238b",
+                    "reference": "604785840d321e0ff45bdaf50989321be1f7238b",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/support": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-curl": "*",
+                    "ext-http": "*",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Http": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "HTTP client library",
+                "homepage": "https://www.horde.org/libraries/Horde_Http"
+            },
+            {
+                "name": "horde/http",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

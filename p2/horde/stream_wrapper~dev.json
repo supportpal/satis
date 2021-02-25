@@ -94,6 +94,53 @@
             },
             {
                 "name": "horde/stream_wrapper",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Stream_Wrapper.git",
+                    "reference": "21b1c90b05aa54891b0024b52e513ec074c4e7c3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream_Wrapper/zipball/21b1c90b05aa54891b0024b52e513ec074c4e7c3",
+                    "reference": "21b1c90b05aa54891b0024b52e513ec074c4e7c3",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Stream_Wrapper": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "PHP stream wrappers library",
+                "homepage": "https://www.horde.org/libraries/Horde_Stream_Wrapper"
+            },
+            {
+                "name": "horde/stream_wrapper",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

@@ -7,7 +7,7 @@
                 "version_normalized": "6.1.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "e7aaca51a071aac26249b949a0dd51696fdeac93"
                 },
                 "dist": {
@@ -88,10 +88,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.1.5"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -99,7 +96,7 @@
                 "version_normalized": "6.1.8.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "6ea78f78f30f0b4ba19af144adcb0475e4fbea19"
                 },
                 "dist": {
@@ -180,10 +177,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.1.8"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -191,7 +185,7 @@
                 "version_normalized": "6.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "7295afef8801b825946aa92f339bebd85bbfebbc"
                 },
                 "dist": {
@@ -272,10 +266,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -283,7 +274,7 @@
                 "version_normalized": "6.2.0.0-RC1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "361048fdeed70fb3ed2924ccfc9699463cc6b057"
                 },
                 "dist": {
@@ -364,10 +355,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.0rc1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -375,7 +363,7 @@
                 "version_normalized": "6.2.0.0-alpha1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "7d315d162b01d889a555b215da6090e41b2561a7"
                 },
                 "dist": {
@@ -455,10 +443,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.0alpha1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -466,7 +451,7 @@
                 "version_normalized": "6.2.0.0-beta1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "89dc88d4410e7e8d62f023ed49c05e73804a48f3"
                 },
                 "dist": {
@@ -547,10 +532,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.0beta1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -558,7 +540,7 @@
                 "version_normalized": "6.2.0.0-beta2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "3bcd991695a11f23e0f729c7b59bc0d15d336c6c"
                 },
                 "dist": {
@@ -639,10 +621,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.0beta2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -650,7 +629,7 @@
                 "version_normalized": "6.2.0.0-beta3",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "c7549c673a433030d9434fda9d77a01ade050d58"
                 },
                 "dist": {
@@ -731,10 +710,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.0beta3"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -742,7 +718,7 @@
                 "version_normalized": "6.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "5d7fbea3c025d2109a78fcef550e8e3d878a3abe"
                 },
                 "dist": {
@@ -824,10 +800,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -835,7 +808,7 @@
                 "version_normalized": "6.2.10.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "b33005adc77eef81342a35da63577b64adea3ce8"
                 },
                 "dist": {
@@ -918,10 +891,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.10"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -929,7 +899,7 @@
                 "version_normalized": "6.2.11.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "292082f1393e573ab8eb974cc432d553b75fb832"
                 },
                 "dist": {
@@ -1012,10 +982,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.11"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -1023,7 +990,7 @@
                 "version_normalized": "6.2.12.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "7fbc86cbb632cfbdda72cf78e1a72a234acf1aa5"
                 },
                 "dist": {
@@ -1106,10 +1073,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.12"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -1117,7 +1081,7 @@
                 "version_normalized": "6.2.13.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "024ad1acde66210ff2389f3979a1bd32f0f2cd6b"
                 },
                 "dist": {
@@ -1200,10 +1164,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.13"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -1211,7 +1172,7 @@
                 "version_normalized": "6.2.14.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "1dce727f83aeb7cd56f1353b69143111509709b1"
                 },
                 "dist": {
@@ -1294,10 +1255,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.14"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -1305,7 +1263,7 @@
                 "version_normalized": "6.2.15.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "4f93f623c1e231581ed27c228146db6e6cce9dc3"
                 },
                 "dist": {
@@ -1388,10 +1346,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.15"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -1399,7 +1354,7 @@
                 "version_normalized": "6.2.16.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "f7e24641d64cc517fc763ced0f108088d52ef8a2"
                 },
                 "dist": {
@@ -1482,10 +1437,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.16"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -1493,7 +1445,7 @@
                 "version_normalized": "6.2.17.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "906948daa556255da947263be7ce54637da8248c"
                 },
                 "dist": {
@@ -1576,10 +1528,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.17"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -1587,7 +1536,7 @@
                 "version_normalized": "6.2.18.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "2955b9bf50c4fe6fedbd760d238079f0f8e48b66"
                 },
                 "dist": {
@@ -1670,10 +1619,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.18"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -1681,7 +1627,7 @@
                 "version_normalized": "6.2.19.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "b5235e75d98802709fa7f62d6b1e2eb10c067a16"
                 },
                 "dist": {
@@ -1773,10 +1719,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.19"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -1784,7 +1727,7 @@
                 "version_normalized": "6.2.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "5d8d0e2df572d747404823e17bdce2bd50e44b5b"
                 },
                 "dist": {
@@ -1866,10 +1809,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -1877,7 +1817,7 @@
                 "version_normalized": "6.2.20.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "88e2ebfe719e9dc6c6c2fb446e287f58321100fb"
                 },
                 "dist": {
@@ -1969,10 +1909,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.20"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -1980,7 +1917,7 @@
                 "version_normalized": "6.2.21.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "17181c163183f8964978087362bc939843873f64"
                 },
                 "dist": {
@@ -2072,10 +2009,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.21"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -2083,7 +2017,7 @@
                 "version_normalized": "6.2.22.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "cde7d72d04684a43189f90cd5477cf2831f41609"
                 },
                 "dist": {
@@ -2175,10 +2109,7 @@
                     }
                 ],
                 "description": "Webmail application",
-                "homepage": "https://www.horde.org/apps/imp",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.22"
-                }
+                "homepage": "https://www.horde.org/apps/imp"
             },
             {
                 "name": "horde/imp",
@@ -2186,7 +2117,7 @@
                 "version_normalized": "6.2.23.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "3a07681a59f898551905144277f4fdf48d4fc8b9"
                 },
                 "dist": {
@@ -2278,10 +2209,7 @@
                     }
                 ],
                 "description": "Webmail application",
-                "homepage": "https://www.horde.org/apps/imp",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.23"
-                }
+                "homepage": "https://www.horde.org/apps/imp"
             },
             {
                 "name": "horde/imp",
@@ -2289,7 +2217,7 @@
                 "version_normalized": "6.2.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "8f40ef50042077b62a46664bbdbea38ce1eea8f1"
                 },
                 "dist": {
@@ -2371,10 +2299,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.3"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -2382,7 +2307,7 @@
                 "version_normalized": "6.2.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "c73540c7dbe2a2e925532580817f5141ced92944"
                 },
                 "dist": {
@@ -2464,10 +2389,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.4"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -2475,7 +2397,7 @@
                 "version_normalized": "6.2.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "c96e5f5e142ce7555f64cde5725c84ee0da05649"
                 },
                 "dist": {
@@ -2558,10 +2480,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.5"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -2569,7 +2488,7 @@
                 "version_normalized": "6.2.6.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "51227f40526c4441c1c2a24a28c670e3b333fa75"
                 },
                 "dist": {
@@ -2652,10 +2571,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.6"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -2663,7 +2579,7 @@
                 "version_normalized": "6.2.7.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "de4d774628e35a47a52dfc068398e0af7b5b5317"
                 },
                 "dist": {
@@ -2746,10 +2662,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.7"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -2757,7 +2670,7 @@
                 "version_normalized": "6.2.8.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "f7b9a06731c6339e5c75506a208563418d091cdc"
                 },
                 "dist": {
@@ -2840,10 +2753,7 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.8"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/imp",
@@ -2851,7 +2761,7 @@
                 "version_normalized": "6.2.9.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/imp.git",
+                    "url": "git@github.com:maintaina-com/imp.git",
                     "reference": "15d45d6add326769a26dacc838e51cf9d47632fc"
                 },
                 "dist": {
@@ -2934,10 +2844,220 @@
                     }
                 ],
                 "description": "A web based webmail system",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.9"
-                }
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/imp",
+                "version": "7.0.0alpha1",
+                "version_normalized": "7.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/imp.git",
+                    "reference": "a45e2fab811638dbc50644f9a2873b76ae821007"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/imp/zipball/a45e2fab811638dbc50644f9a2873b76ae821007",
+                    "reference": "a45e2fab811638dbc50644f9a2873b76ae821007",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "horde/auth": "^3",
+                    "horde/browser": "^3",
+                    "horde/cache": "^3",
+                    "horde/compress": "^3",
+                    "horde/core": "^3",
+                    "horde/crypt": "^3",
+                    "horde/crypt_blowfish": "^2",
+                    "horde/css_parser": "^2",
+                    "horde/date": "^3",
+                    "horde/editor": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde": "^6",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/icalendar": "^3",
+                    "horde/image": "^3",
+                    "horde/imap_client": "^3",
+                    "horde/itip": "^3",
+                    "horde/listheaders": "^2",
+                    "horde/logintasks": "^3",
+                    "horde/mail": "^3",
+                    "horde/mail_autoconfig": "^2",
+                    "horde/mime": "^3",
+                    "horde/mime_viewer": "^3",
+                    "horde/nls": "^3",
+                    "horde/notification": "^3",
+                    "horde/pack": "^2",
+                    "horde/perms": "^3",
+                    "horde/spellchecker": "^3",
+                    "horde/stream": "^2",
+                    "horde/stream_filter": "^3",
+                    "horde/stream_wrapper": "^3",
+                    "horde/support": "^3",
+                    "horde/text_filter": "^3",
+                    "horde/text_flowed": "^3",
+                    "horde/tree": "^3",
+                    "horde/url": "^3",
+                    "horde/util": "^3",
+                    "horde/vfs": "^3",
+                    "horde/view": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-openssl": "*",
+                    "horde/history": "^3",
+                    "horde/http": "^3",
+                    "horde/mongo": "^2",
+                    "horde/service_gravatar": "^2",
+                    "pear-phpseclib.sourceforge.net/File_ASN1": "*"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "bin": [
+                    "bin/imp-admin-upgrade",
+                    "bin/imp-bounce-spam",
+                    "bin/imp-mailbox-decode",
+                    "bin/imp-query-imap-cache"
+                ],
+                "type": "horde-application",
+                "autoload": {
+                    "psr-0": {
+                        "IMP": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\IMP\\": "src/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Webmail application",
+                "homepage": "https://www.horde.org/apps/imp"
+            },
+            {
+                "name": "horde/imp",
+                "version": "7.0.0alpha2",
+                "version_normalized": "7.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/imp.git",
+                    "reference": "746239878092596d440cf8f7307f85f299bed3b5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/imp/zipball/746239878092596d440cf8f7307f85f299bed3b5",
+                    "reference": "746239878092596d440cf8f7307f85f299bed3b5",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "horde/auth": "^3",
+                    "horde/browser": "^3",
+                    "horde/cache": "^3",
+                    "horde/compress": "^3",
+                    "horde/core": "^3",
+                    "horde/crypt": "^3",
+                    "horde/crypt_blowfish": "^2",
+                    "horde/css_parser": "^2",
+                    "horde/date": "^3",
+                    "horde/editor": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde": "^6",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/icalendar": "^3",
+                    "horde/image": "^3",
+                    "horde/imap_client": "^3",
+                    "horde/itip": "^3",
+                    "horde/listheaders": "^2",
+                    "horde/logintasks": "^3",
+                    "horde/mail": "^3",
+                    "horde/mail_autoconfig": "^2",
+                    "horde/mime": "^3",
+                    "horde/mime_viewer": "^3",
+                    "horde/nls": "^3",
+                    "horde/notification": "^3",
+                    "horde/pack": "^2",
+                    "horde/perms": "^3",
+                    "horde/spellchecker": "^3",
+                    "horde/stream": "^2",
+                    "horde/stream_filter": "^3",
+                    "horde/stream_wrapper": "^3",
+                    "horde/support": "^3",
+                    "horde/text_filter": "^3",
+                    "horde/text_flowed": "^3",
+                    "horde/tree": "^3",
+                    "horde/url": "^3",
+                    "horde/util": "^3",
+                    "horde/vfs": "^3",
+                    "horde/view": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-openssl": "*",
+                    "horde/history": "^3",
+                    "horde/http": "^3",
+                    "horde/mongo": "^2",
+                    "horde/service_gravatar": "^2",
+                    "pear-phpseclib.sourceforge.net/File_ASN1": "*"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "bin": [
+                    "bin/imp-admin-upgrade",
+                    "bin/imp-bounce-spam",
+                    "bin/imp-mailbox-decode",
+                    "bin/imp-query-imap-cache"
+                ],
+                "type": "horde-application",
+                "autoload": {
+                    "psr-0": {
+                        "IMP": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Webmail application",
+                "homepage": "https://www.horde.org/apps/imp"
             }
         ]
     }

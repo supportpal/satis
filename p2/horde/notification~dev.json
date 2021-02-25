@@ -100,6 +100,53 @@
             },
             {
                 "name": "horde/notification",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Notification.git",
+                    "reference": "2d5d1c783200cf89b9b88348b9a60e7fdc63ab4e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Notification/zipball/2d5d1c783200cf89b9b88348b9a60e7fdc63ab4e",
+                    "reference": "2d5d1c783200cf89b9b88348b9a60e7fdc63ab4e",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/alarm": "^3",
+                    "horde/nls": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Notification": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Notification library implementing subject-observer pattern",
+                "homepage": "https://www.horde.org/libraries/Horde_Notification"
+            },
+            {
+                "name": "horde/notification",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

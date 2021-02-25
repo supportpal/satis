@@ -110,6 +110,58 @@
             },
             {
                 "name": "horde/mail",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mail.git",
+                    "reference": "97b93a287eade2528252277751936b81aa08564f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/97b93a287eade2528252277751936b81aa08564f",
+                    "reference": "97b93a287eade2528252277751936b81aa08564f",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/idna": "^2",
+                    "horde/mime": "^3",
+                    "horde/stream_filter": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/smtp": "^2",
+                    "horde/stream_wrapper": "^3",
+                    "horde/test": "^3",
+                    "pear/net_dns2": "^1.5",
+                    "pear/net_smtp": "^1.9"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Mail": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Mail library",
+                "homepage": "https://www.horde.org/libraries/Horde_Mail"
+            },
+            {
+                "name": "horde/mail",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

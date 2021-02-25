@@ -199,6 +199,103 @@
                 ],
                 "description": "PHP stream wrappers library",
                 "homepage": "https://www.horde.org/libraries/Horde_Stream_Wrapper"
+            },
+            {
+                "name": "horde/stream_wrapper",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Stream_Wrapper.git",
+                    "reference": "5e49cebed454d3911de8281f25fa4cd9f50f178a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream_Wrapper/zipball/5e49cebed454d3911de8281f25fa4cd9f50f178a",
+                    "reference": "5e49cebed454d3911de8281f25fa4cd9f50f178a",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Stream_Wrapper": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Stream\\Wrapper\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "PHP stream wrappers library",
+                "homepage": "https://www.horde.org/libraries/Horde_Stream_Wrapper"
+            },
+            {
+                "name": "horde/stream_wrapper",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Stream_Wrapper.git",
+                    "reference": "6d280399cd6c9f16673ecb916b99c3243b13cd9e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream_Wrapper/zipball/6d280399cd6c9f16673ecb916b99c3243b13cd9e",
+                    "reference": "6d280399cd6c9f16673ecb916b99c3243b13cd9e",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Stream_Wrapper": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "PHP stream wrappers library",
+                "homepage": "https://www.horde.org/libraries/Horde_Stream_Wrapper"
             }
         ]
     }

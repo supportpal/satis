@@ -7,7 +7,7 @@
                 "version_normalized": "4.1.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "6eb06ff8f4f3a6ccf353199d34280171bbaef29c"
                 },
                 "dist": {
@@ -86,10 +86,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.1.4"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -97,7 +94,7 @@
                 "version_normalized": "4.1.6.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "24de7d7171fc89b8a55f08e514d6750f13938035"
                 },
                 "dist": {
@@ -176,10 +173,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.1.6"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -187,7 +181,7 @@
                 "version_normalized": "4.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "e005de3a7cb4278b2d1eb41f4b1b58270340cebe"
                 },
                 "dist": {
@@ -267,10 +261,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -278,7 +269,7 @@
                 "version_normalized": "4.2.0.0-RC1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "f4d63db7ed59e8be5de4bfaff9894614953468d7"
                 },
                 "dist": {
@@ -358,10 +349,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.0rc1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -369,7 +357,7 @@
                 "version_normalized": "4.2.0.0-RC2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "5015b5981ebb82d8f1706de9718a2260c2b530fe"
                 },
                 "dist": {
@@ -449,10 +437,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.0rc2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -460,7 +445,7 @@
                 "version_normalized": "4.2.0.0-alpha1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "2eae348da4c984fd3c6fc63ca6d4b1969b47a10b"
                 },
                 "dist": {
@@ -540,10 +525,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.0alpha1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -551,7 +533,7 @@
                 "version_normalized": "4.2.0.0-alpha2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "10b7aeff40d6d6292c61ca54026a3691950db6ca"
                 },
                 "dist": {
@@ -631,10 +613,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.0alpha2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -642,7 +621,7 @@
                 "version_normalized": "4.2.0.0-beta1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "63de57c472edcbf0f256bf7641fcd1f3173f512f"
                 },
                 "dist": {
@@ -722,10 +701,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.0beta1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -733,7 +709,7 @@
                 "version_normalized": "4.2.0.0-beta2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "dfc2ba73f16ceb2189657cb112d32b3b997f7435"
                 },
                 "dist": {
@@ -813,10 +789,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.0beta2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -824,7 +797,7 @@
                 "version_normalized": "4.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "8da2c6433d41c1108230cd1e6105e10ea39ed242"
                 },
                 "dist": {
@@ -904,10 +877,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -915,7 +885,7 @@
                 "version_normalized": "4.2.10.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "fb99fcc043b188109515b0b8ed91a71a6bf7c8f2"
                 },
                 "dist": {
@@ -995,10 +965,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.10"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -1006,7 +973,7 @@
                 "version_normalized": "4.2.11.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "7859f14ac65bd6e9ebecb0bf2eb7f9c2b41b8ee3"
                 },
                 "dist": {
@@ -1086,10 +1053,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.11"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -1097,7 +1061,7 @@
                 "version_normalized": "4.2.12.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "a88391d450a445ab2aa5f048c893047bf69eaf08"
                 },
                 "dist": {
@@ -1177,10 +1141,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.12"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -1188,7 +1149,7 @@
                 "version_normalized": "4.2.13.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "115e223fe3ac1b7f0bf4527938d5e44323c55686"
                 },
                 "dist": {
@@ -1268,10 +1229,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.13"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -1279,7 +1237,7 @@
                 "version_normalized": "4.2.14.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "7f574358957402b6a66dbc546998e559ed0b4693"
                 },
                 "dist": {
@@ -1359,10 +1317,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.14"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -1370,7 +1325,7 @@
                 "version_normalized": "4.2.15.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "35897bc314055823be2d71cabff07a5af3f6baab"
                 },
                 "dist": {
@@ -1450,10 +1405,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.15"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -1461,7 +1413,7 @@
                 "version_normalized": "4.2.16.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "233d485fa3ac1c39a7e43d7e13a121beb5bca2e5"
                 },
                 "dist": {
@@ -1541,10 +1493,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.16"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -1552,7 +1501,7 @@
                 "version_normalized": "4.2.17.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "c0742d3726a139fad9ae9dd919db035138aabe48"
                 },
                 "dist": {
@@ -1632,10 +1581,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.17"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -1643,7 +1589,7 @@
                 "version_normalized": "4.2.18.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "bc32d140ef8e787129e5dc824acfbfd15549f96a"
                 },
                 "dist": {
@@ -1723,10 +1669,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.18"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -1734,7 +1677,7 @@
                 "version_normalized": "4.2.19.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "232da72f79f8beca269223c8a35db9ef663df793"
                 },
                 "dist": {
@@ -1814,10 +1757,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.19"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -1825,7 +1765,7 @@
                 "version_normalized": "4.2.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "70ef32019f9da2ec7fd366211f764e47a4390efb"
                 },
                 "dist": {
@@ -1905,10 +1845,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -1916,7 +1853,7 @@
                 "version_normalized": "4.2.20.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "ed7c6da24d279b39935f9211e4fc777835e67cd0"
                 },
                 "dist": {
@@ -1996,10 +1933,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.20"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -2007,7 +1941,7 @@
                 "version_normalized": "4.2.21.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "dc76c9b47f0cc262cdb0f00cca7a67f229ece529"
                 },
                 "dist": {
@@ -2096,10 +2030,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.21"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -2107,7 +2038,7 @@
                 "version_normalized": "4.2.22.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "0047ce24b4fe54b49ef5063bcfd24eba48ef4ae9"
                 },
                 "dist": {
@@ -2196,10 +2127,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.22"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -2207,7 +2135,7 @@
                 "version_normalized": "4.2.23.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "a394ce8cc85011a5b76088c28ef1c1ce2ebc178e"
                 },
                 "dist": {
@@ -2296,10 +2224,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.23"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -2307,7 +2232,7 @@
                 "version_normalized": "4.2.24.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "cf21e208c96845a4c26a37ff5af0b47d17c1bff8"
                 },
                 "dist": {
@@ -2396,10 +2321,7 @@
                     }
                 ],
                 "description": "Calendar and scheduling application",
-                "homepage": "https://www.horde.org/apps/kronolith",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.24"
-                }
+                "homepage": "https://www.horde.org/apps/kronolith"
             },
             {
                 "name": "horde/kronolith",
@@ -2407,7 +2329,7 @@
                 "version_normalized": "4.2.25.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "d6a8527d3ba9fd6dad80a51eef73e1d04b9f4f58"
                 },
                 "dist": {
@@ -2496,10 +2418,7 @@
                     }
                 ],
                 "description": "Calendar and scheduling application",
-                "homepage": "https://www.horde.org/apps/kronolith",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.25"
-                }
+                "homepage": "https://www.horde.org/apps/kronolith"
             },
             {
                 "name": "horde/kronolith",
@@ -2507,7 +2426,7 @@
                 "version_normalized": "4.2.26.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "cec48597fa608f9e31edb2b3d1fbda0bb24ceca1"
                 },
                 "dist": {
@@ -2596,10 +2515,7 @@
                     }
                 ],
                 "description": "Calendar and scheduling application",
-                "homepage": "https://www.horde.org/apps/kronolith",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.26"
-                }
+                "homepage": "https://www.horde.org/apps/kronolith"
             },
             {
                 "name": "horde/kronolith",
@@ -2607,7 +2523,7 @@
                 "version_normalized": "4.2.27.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "00fd72c91b92a341cfc208ea0f2059e3a06846bf"
                 },
                 "dist": {
@@ -2696,10 +2612,7 @@
                     }
                 ],
                 "description": "Calendar and scheduling application",
-                "homepage": "https://www.horde.org/apps/kronolith",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.27"
-                }
+                "homepage": "https://www.horde.org/apps/kronolith"
             },
             {
                 "name": "horde/kronolith",
@@ -2707,7 +2620,7 @@
                 "version_normalized": "4.2.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "e6bf4142744c1ab74e8c983e9fce2b5822e1cf79"
                 },
                 "dist": {
@@ -2787,10 +2700,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.3"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -2798,7 +2708,7 @@
                 "version_normalized": "4.2.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "0fa2040519ac4459aaa70225a494ad9198245a0f"
                 },
                 "dist": {
@@ -2878,10 +2788,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.4"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -2889,7 +2796,7 @@
                 "version_normalized": "4.2.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "81f3c1b260cdd1de00ac25769a037f553219116e"
                 },
                 "dist": {
@@ -2969,10 +2876,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.5"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -2980,7 +2884,7 @@
                 "version_normalized": "4.2.6.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "65b980323f01d446da92d9a63fa3f3c5b7ba99b4"
                 },
                 "dist": {
@@ -3060,10 +2964,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.6"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -3071,7 +2972,7 @@
                 "version_normalized": "4.2.7.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "808de1a279b9983980b2adef746ecba6ecfc9fe0"
                 },
                 "dist": {
@@ -3151,10 +3052,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.7"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -3162,7 +3060,7 @@
                 "version_normalized": "4.2.8.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "69c07d34367b10caf0fca82dc33e94f8ac7264ee"
                 },
                 "dist": {
@@ -3242,10 +3140,7 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.8"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/kronolith",
@@ -3253,7 +3148,7 @@
                 "version_normalized": "4.2.9.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/kronolith.git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
                     "reference": "4c270bb741a53cfdd6f34057671ef2dcfa08feae"
                 },
                 "dist": {
@@ -3333,10 +3228,216 @@
                     }
                 ],
                 "description": "A web based calendar",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/v4.2.9"
-                }
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/kronolith",
+                "version": "5.0.0alpha1",
+                "version_normalized": "5.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
+                    "reference": "55e9cac7b02a2caa3245a62c58f933f8daf4efd0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/kronolith/zipball/55e9cac7b02a2caa3245a62c58f933f8daf4efd0",
+                    "reference": "55e9cac7b02a2caa3245a62c58f933f8daf4efd0",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "ext-simplexml": "*",
+                    "horde/auth": "^3",
+                    "horde/autoloader": "^3",
+                    "horde/content": "^3",
+                    "horde/core": "^3",
+                    "horde/data": "^3",
+                    "horde/date": "^3",
+                    "horde/date_parser": "^3",
+                    "horde/dav": "^2",
+                    "horde/exception": "^3",
+                    "horde/form": "^3",
+                    "horde/group": "^3",
+                    "horde/history": "^3",
+                    "horde/horde": "^6",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/http": "^3",
+                    "horde/icalendar": "^3",
+                    "horde/image": "^3",
+                    "horde/lock": "^3",
+                    "horde/logintasks": "^3",
+                    "horde/mail": "^3",
+                    "horde/mime": "^3",
+                    "horde/nls": "^3",
+                    "horde/notification": "^3",
+                    "horde/perms": "^3",
+                    "horde/serialize": "^3",
+                    "horde/share": "^3",
+                    "horde/support": "^3",
+                    "horde/text_filter": "^3",
+                    "horde/timezone": "^2",
+                    "horde/url": "^3",
+                    "horde/util": "^3",
+                    "horde/view": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-xmlwriter": "*",
+                    "horde/activesync": "^3",
+                    "horde/backup": "^2",
+                    "horde/db": "^3",
+                    "horde/nag": "^5",
+                    "horde/openxchange": "^2",
+                    "horde/test": "^3",
+                    "horde/timeobjects": "^3",
+                    "pear/date_holidays": "*"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "bin": [
+                    "bin/kronolith-agenda",
+                    "bin/kronolith-convert-datatree-shares-to-sql",
+                    "bin/kronolith-convert-sql-shares-to-sqlng",
+                    "bin/kronolith-convert-to-utc",
+                    "bin/kronolith-import-icals",
+                    "bin/kronolith-import-openxchange",
+                    "bin/kronolith-import-squirrelmail-calendar"
+                ],
+                "type": "horde-application",
+                "autoload": {
+                    "psr-0": {
+                        "Kronolith": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Kronolith\\": "src/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Calendar and scheduling application",
+                "homepage": "https://www.horde.org/apps/kronolith"
+            },
+            {
+                "name": "horde/kronolith",
+                "version": "5.0.0alpha2",
+                "version_normalized": "5.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/kronolith.git",
+                    "reference": "37a69f6a149f517c601ea387c02d8df7a25bb8dd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/kronolith/zipball/37a69f6a149f517c601ea387c02d8df7a25bb8dd",
+                    "reference": "37a69f6a149f517c601ea387c02d8df7a25bb8dd",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "ext-simplexml": "*",
+                    "horde/auth": "^3",
+                    "horde/autoloader": "^3",
+                    "horde/content": "^3",
+                    "horde/core": "^3",
+                    "horde/data": "^3",
+                    "horde/date": "^3",
+                    "horde/date_parser": "^3",
+                    "horde/dav": "^2",
+                    "horde/exception": "^3",
+                    "horde/form": "^3",
+                    "horde/group": "^3",
+                    "horde/history": "^3",
+                    "horde/horde": "^6",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/http": "^3",
+                    "horde/icalendar": "^3",
+                    "horde/image": "^3",
+                    "horde/lock": "^3",
+                    "horde/logintasks": "^3",
+                    "horde/mail": "^3",
+                    "horde/mime": "^3",
+                    "horde/nls": "^3",
+                    "horde/notification": "^3",
+                    "horde/perms": "^3",
+                    "horde/serialize": "^3",
+                    "horde/share": "^3",
+                    "horde/support": "^3",
+                    "horde/text_filter": "^3",
+                    "horde/timezone": "^2",
+                    "horde/url": "^3",
+                    "horde/util": "^3",
+                    "horde/view": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-xmlwriter": "*",
+                    "horde/activesync": "^3",
+                    "horde/backup": "^2",
+                    "horde/db": "^3",
+                    "horde/nag": "^5",
+                    "horde/openxchange": "^2",
+                    "horde/test": "^3",
+                    "horde/timeobjects": "^3",
+                    "pear/date_holidays": "*"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "bin": [
+                    "bin/kronolith-agenda",
+                    "bin/kronolith-convert-datatree-shares-to-sql",
+                    "bin/kronolith-convert-sql-shares-to-sqlng",
+                    "bin/kronolith-convert-to-utc",
+                    "bin/kronolith-import-icals",
+                    "bin/kronolith-import-openxchange",
+                    "bin/kronolith-import-squirrelmail-calendar"
+                ],
+                "type": "horde-application",
+                "autoload": {
+                    "psr-0": {
+                        "Kronolith": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Calendar and scheduling application",
+                "homepage": "https://www.horde.org/apps/kronolith"
             }
         ]
     }

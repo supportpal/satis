@@ -123,6 +123,103 @@
                 ],
                 "description": "Horde Notification System",
                 "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/notification",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Notification.git",
+                    "reference": "70be8604c554558565ba5627d1ea8eff342bc16b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Notification/zipball/70be8604c554558565ba5627d1ea8eff342bc16b",
+                    "reference": "70be8604c554558565ba5627d1ea8eff342bc16b",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/alarm": "^3",
+                    "horde/nls": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Notification": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Notification\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Notification library implementing subject-observer pattern",
+                "homepage": "https://www.horde.org/libraries/Horde_Notification"
+            },
+            {
+                "name": "horde/notification",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Notification.git",
+                    "reference": "7132cfda4800eb7fd92e940fa6f4c6783d67f169"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Notification/zipball/7132cfda4800eb7fd92e940fa6f4c6783d67f169",
+                    "reference": "7132cfda4800eb7fd92e940fa6f4c6783d67f169",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/alarm": "^3",
+                    "horde/nls": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Notification": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Notification library implementing subject-observer pattern",
+                "homepage": "https://www.horde.org/libraries/Horde_Notification"
             }
         ]
     }

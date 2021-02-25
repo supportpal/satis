@@ -116,6 +116,61 @@
             },
             {
                 "name": "horde/support",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Support.git",
+                    "reference": "0b51b7bca07ee2f74e7e229089f1b4c0c6afbac8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Support/zipball/0b51b7bca07ee2f74e7e229089f1b4c0c6afbac8",
+                    "reference": "0b51b7bca07ee2f74e7e229089f1b4c0c6afbac8",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/stream_wrapper": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Support": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Supporting library",
+                "homepage": "https://www.horde.org/libraries/Horde_Support"
+            },
+            {
+                "name": "horde/support",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

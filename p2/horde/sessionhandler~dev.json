@@ -122,6 +122,64 @@
             },
             {
                 "name": "horde/sessionhandler",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/SessionHandler.git",
+                    "reference": "9fd0eef6fb128c50159c6da648a9b9426ee13de6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/SessionHandler/zipball/9fd0eef6fb128c50159c6da648a9b9426ee13de6",
+                    "reference": "9fd0eef6fb128c50159c6da648a9b9426ee13de6",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/support": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/db": "^3",
+                    "horde/hashtable": "^2",
+                    "horde/log": "^3",
+                    "horde/mongo": "^2",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_SessionHandler": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Session handler library",
+                "homepage": "https://www.horde.org/libraries/Horde_SessionHandler"
+            },
+            {
+                "name": "horde/sessionhandler",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

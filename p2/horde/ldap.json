@@ -449,6 +449,109 @@
                 ],
                 "description": "LDAP client library",
                 "homepage": "https://www.horde.org/libraries/Horde_Ldap"
+            },
+            {
+                "name": "horde/ldap",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Ldap.git",
+                    "reference": "d709cddb18ff08945589d8a9e85b61a8d3671049"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Ldap/zipball/d709cddb18ff08945589d8a9e85b61a8d3671049",
+                    "reference": "d709cddb18ff08945589d8a9e85b61a8d3671049",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ldap": "*",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Ldap": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Ldap\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Klang",
+                        "email": "ben@alkaloid.net",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "LDAP client library",
+                "homepage": "https://www.horde.org/libraries/Horde_Ldap"
+            },
+            {
+                "name": "horde/ldap",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Ldap.git",
+                    "reference": "c1f951135cf07e0e7e3f16b23db64bdb71f3095c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Ldap/zipball/c1f951135cf07e0e7e3f16b23db64bdb71f3095c",
+                    "reference": "c1f951135cf07e0e7e3f16b23db64bdb71f3095c",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ldap": "*",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Ldap": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Klang",
+                        "email": "ben@alkaloid.net",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "LDAP client library",
+                "homepage": "https://www.horde.org/libraries/Horde_Ldap"
             }
         ]
     }

@@ -229,6 +229,115 @@
                 ],
                 "description": "Horde User Groups System",
                 "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/group",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Group.git",
+                    "reference": "97ae9d4e65437e163bdc6aa75b4df8d31b398963"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Group/zipball/97ae9d4e65437e163bdc6aa75b4df8d31b398963",
+                    "reference": "97ae9d4e65437e163bdc6aa75b4df8d31b398963",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/support": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/cache": "^3",
+                    "horde/db": "^3",
+                    "horde/ldap": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Group": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Group\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "User groups library",
+                "homepage": "https://www.horde.org/libraries/Horde_Group"
+            },
+            {
+                "name": "horde/group",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Group.git",
+                    "reference": "af9126aaa9fd7c7a443b3698525130d6185d453c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Group/zipball/af9126aaa9fd7c7a443b3698525130d6185d453c",
+                    "reference": "af9126aaa9fd7c7a443b3698525130d6185d453c",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/support": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/cache": "^3",
+                    "horde/db": "^3",
+                    "horde/ldap": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Group": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "User groups library",
+                "homepage": "https://www.horde.org/libraries/Horde_Group"
             }
         ]
     }

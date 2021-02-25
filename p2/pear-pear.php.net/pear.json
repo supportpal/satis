@@ -7,7 +7,7 @@
                 "version_normalized": "1.10.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/pear-core.git",
+                    "url": "git@github.com:maintaina-com/pear-core.git",
                     "reference": "5dbc302510232a3ea7165f874c1c8bf9c40b8d66"
                 },
                 "dist": {
@@ -106,7 +106,7 @@
                 "version_normalized": "1.10.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/pear-core.git",
+                    "url": "git@github.com:maintaina-com/pear-core.git",
                     "reference": "e93b1c7bfe22c3a34ed54a195738283d11a09e30"
                 },
                 "dist": {
@@ -205,7 +205,7 @@
                 "version_normalized": "1.10.6.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/pear-core.git",
+                    "url": "git@github.com:maintaina-com/pear-core.git",
                     "reference": "9633d937d95fcc958f64305fbf9a490133c23ef8"
                 },
                 "dist": {
@@ -304,7 +304,7 @@
                 "version_normalized": "1.10.7.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/pear-core.git",
+                    "url": "git@github.com:maintaina-com/pear-core.git",
                     "reference": "334c2323ac35849c44534e2ba5b85c3ca5146ab0"
                 },
                 "dist": {
@@ -331,7 +331,7 @@
                     "pear/pear_frontend_gtk": "For GTK support",
                     "pear/pear_frontend_web": "For Web support"
                 },
-                "time": "2018-12-05T19:51:15+00:00",
+                "time": "2018-12-05T19:39:06+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [

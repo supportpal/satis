@@ -104,6 +104,55 @@
             },
             {
                 "name": "horde/service_gravatar",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Service_Gravatar.git",
+                    "reference": "e3d383aacd92a018a48eee82aee10ef11c8e260c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Service_Gravatar/zipball/e3d383aacd92a018a48eee82aee10ef11c8e260c",
+                    "reference": "e3d383aacd92a018a48eee82aee10ef11c8e260c",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "*",
+                    "horde/http": "^3",
+                    "horde/url": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Service_Gravatar": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Gravatar client library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/service_gravatar",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

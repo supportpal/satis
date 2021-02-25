@@ -594,6 +594,114 @@
                 ],
                 "description": "Horde Form API",
                 "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/form",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Form.git",
+                    "reference": "c63e7f17ce130fb1122a458bbfb0f3cd996a99cd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Form/zipball/c63e7f17ce130fb1122a458bbfb0f3cd996a99cd",
+                    "reference": "c63e7f17ce130fb1122a458bbfb0f3cd996a99cd",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "horde/core": "^3",
+                    "horde/date": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/mail": "^3",
+                    "horde/mime": "^3",
+                    "horde/nls": "^3",
+                    "horde/token": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "classmap": [
+                        "lib/"
+                    ]
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Form library",
+                "homepage": "https://www.horde.org/libraries/Horde_Form"
+            },
+            {
+                "name": "horde/form",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Form.git",
+                    "reference": "759c599c4b9ff648f3cab7ab8d8f61f97aa7344e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Form/zipball/759c599c4b9ff648f3cab7ab8d8f61f97aa7344e",
+                    "reference": "759c599c4b9ff648f3cab7ab8d8f61f97aa7344e",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "horde/core": "^3",
+                    "horde/date": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/mail": "^3",
+                    "horde/mime": "^3",
+                    "horde/nls": "^3",
+                    "horde/token": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "classmap": [
+                        "lib/"
+                    ]
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Form library",
+                "homepage": "https://www.horde.org/libraries/Horde_Form"
             }
         ]
     }

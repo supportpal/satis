@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/turba.git",
+                    "url": "git@github.com:maintaina-com/turba.git",
                     "reference": "b9b83f05efd53f009730e7994bb50fd49de1cbeb"
                 },
                 "dist": {
@@ -100,10 +100,7 @@
                     }
                 ],
                 "description": "Address book application",
-                "homepage": "https://www.horde.org/apps/turba",
-                "support": {
-                    "source": "https://github.com/maintaina-com/turba/tree/master"
-                }
+                "homepage": "https://www.horde.org/apps/turba"
             },
             {
                 "name": "horde/turba",
@@ -111,7 +108,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/turba.git",
+                    "url": "git@github.com:maintaina-com/turba.git",
                     "reference": "fe696e20491be83575d0e87d86f2b587532ec14b"
                 },
                 "dist": {
@@ -197,10 +194,108 @@
                     }
                 ],
                 "description": "Address book application",
-                "homepage": "https://www.horde.org/apps/turba",
-                "support": {
-                    "source": "https://github.com/maintaina-com/turba/tree/FRAMEWORK_5_2"
-                }
+                "homepage": "https://www.horde.org/apps/turba"
+            },
+            {
+                "name": "horde/turba",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/turba.git",
+                    "reference": "7bb7e6599fe29b56264c19eb469dafce39104bbe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/7bb7e6599fe29b56264c19eb469dafce39104bbe",
+                    "reference": "7bb7e6599fe29b56264c19eb469dafce39104bbe",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "horde/auth": "^3",
+                    "horde/content": "^3",
+                    "horde/core": "^3",
+                    "horde/data": "^3",
+                    "horde/date": "^3",
+                    "horde/dav": "^2",
+                    "horde/exception": "^3",
+                    "horde/form": "^3",
+                    "horde/group": "^3",
+                    "horde/history": "^3",
+                    "horde/horde": "^6",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/icalendar": "^3",
+                    "horde/mail": "^3",
+                    "horde/mime": "^3",
+                    "horde/nls": "^3",
+                    "horde/perms": "^3",
+                    "horde/prefs": "^3",
+                    "horde/serialize": "^3",
+                    "horde/share": "^3",
+                    "horde/support": "^3",
+                    "horde/url": "^3",
+                    "horde/util": "^3",
+                    "horde/vfs": "^3",
+                    "horde/view": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/activeSync": "^3",
+                    "horde/backup": "^2",
+                    "horde/db": "^3",
+                    "horde/imsp": "^3",
+                    "horde/kolab_format": "^3",
+                    "horde/kolab_storage": "^3",
+                    "horde/ldap": "^3",
+                    "horde/openxchange": "^2"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "bin": [
+                    "bin/turba-convert-datatree-shares-to-sql",
+                    "bin/turba-convert-sql-shares-to-sqlng",
+                    "bin/turba-import-openxchange",
+                    "bin/turba-import-squirrelmail-file-abook",
+                    "bin/turba-import-squirrelmail-sql-abook",
+                    "bin/turba-import-vcards",
+                    "bin/turba-public-to-horde-share",
+                    "bin/turba-validate-email"
+                ],
+                "type": "horde-application",
+                "autoload": {
+                    "psr-0": {
+                        "Turba": "lib/"
+                    }
+                },
+                "license": [
+                    "ASL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Address book application",
+                "homepage": "https://www.horde.org/apps/turba"
             },
             {
                 "name": "horde/turba",
@@ -208,7 +303,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/turba.git",
+                    "url": "git@github.com:maintaina-com/turba.git",
                     "reference": "b457857fc2cd3cea605f4bbbe91b56c044551002"
                 },
                 "dist": {
@@ -294,10 +389,7 @@
                     }
                 ],
                 "description": "Address book application",
-                "homepage": "https://www.horde.org/apps/turba",
-                "support": {
-                    "source": "https://github.com/maintaina-com/turba/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org/apps/turba"
             },
             {
                 "name": "horde/turba",
@@ -305,7 +397,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/turba.git",
+                    "url": "git@github.com:maintaina-com/turba.git",
                     "reference": "b457857fc2cd3cea605f4bbbe91b56c044551002"
                 },
                 "dist": {
@@ -391,10 +483,7 @@
                     }
                 ],
                 "description": "Address book application",
-                "homepage": "https://www.horde.org/apps/turba",
-                "support": {
-                    "source": "https://github.com/maintaina-com/turba/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org/apps/turba"
             },
             {
                 "name": "horde/turba",
@@ -402,7 +491,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/turba.git",
+                    "url": "git@github.com:maintaina-com/turba.git",
                     "reference": "0182e858748d9222d72c5b6861afffc82e32c6be"
                 },
                 "dist": {
@@ -495,10 +584,7 @@
                     }
                 ],
                 "description": "Address book application",
-                "homepage": "https://www.horde.org/apps/turba",
-                "support": {
-                    "source": "https://github.com/maintaina-com/turba/tree/maintaina-composerfixed"
-                }
+                "homepage": "https://www.horde.org/apps/turba"
             }
         ]
     }

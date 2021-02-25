@@ -124,6 +124,65 @@
             },
             {
                 "name": "horde/vfs",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Vfs.git",
+                    "reference": "0eb4135fc116958eb1814f4500dfc283d7ef44e1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Vfs/zipball/0eb4135fc116958eb1814f4500dfc283d7ef44e1",
+                    "reference": "0eb4135fc116958eb1814f4500dfc283d7ef44e1",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-ftp": "*",
+                    "ext-ssh2": "*",
+                    "horde/auth": "^3",
+                    "horde/core": "^3",
+                    "horde/db": "^3",
+                    "horde/kolab_session": "^3",
+                    "horde/mime": "^3",
+                    "horde/mongo": "^2",
+                    "horde/perms": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Vfs": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Virtual file system library",
+                "homepage": "https://www.horde.org/libraries/Horde_Vfs"
+            },
+            {
+                "name": "horde/vfs",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

@@ -1,5 +1,56 @@
 {
     "packages": {
-        "horde/hordectl": []
+        "horde/hordectl": [
+            {
+                "name": "horde/hordectl",
+                "version": "1.0.0alpha1",
+                "version_normalized": "1.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/hordectl.git",
+                    "reference": "d94e12a8d97913595b310bef525552dd24430770"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/hordectl/zipball/d94e12a8d97913595b310bef525552dd24430770",
+                    "reference": "d94e12a8d97913595b310bef525552dd24430770",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/argv": "^3",
+                    "horde/cli": "^3",
+                    "horde/cli_modular": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/injector": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "bin": [
+                    "bin/hordectl"
+                ],
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Hordectl": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Hordectl\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Ralf Lang",
+                        "email": "lang@b1-systems.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Scenario deployer library",
+                "homepage": "https://www.horde.org"
+            }
+        ]
     }
 }

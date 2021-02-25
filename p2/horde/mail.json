@@ -598,6 +598,113 @@
                 ],
                 "description": "Mail library",
                 "homepage": "https://www.horde.org/libraries/Horde_Mail"
+            },
+            {
+                "name": "horde/mail",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mail.git",
+                    "reference": "30f59444eecb272d0d8427e229b334961188b99f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/30f59444eecb272d0d8427e229b334961188b99f",
+                    "reference": "30f59444eecb272d0d8427e229b334961188b99f",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/idna": "^2",
+                    "horde/mime": "^3",
+                    "horde/stream_filter": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/smtp": "^2",
+                    "horde/stream_wrapper": "^3",
+                    "horde/test": "^3",
+                    "pear/net_dns2": "^1.5",
+                    "pear/net_smtp": "^1.9"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Mail": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Mail\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Mail library",
+                "homepage": "https://www.horde.org/libraries/Horde_Mail"
+            },
+            {
+                "name": "horde/mail",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mail.git",
+                    "reference": "89d6872f986e20aa91f108c54b5c9d8f39b58e3d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/89d6872f986e20aa91f108c54b5c9d8f39b58e3d",
+                    "reference": "89d6872f986e20aa91f108c54b5c9d8f39b58e3d",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/idna": "^2",
+                    "horde/mime": "^3",
+                    "horde/stream_filter": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/smtp": "^2",
+                    "horde/stream_wrapper": "^3",
+                    "horde/test": "^3",
+                    "pear/net_dns2": "^1.5",
+                    "pear/net_smtp": "^1.9"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Mail": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Mail library",
+                "homepage": "https://www.horde.org/libraries/Horde_Mail"
             }
         ]
     }

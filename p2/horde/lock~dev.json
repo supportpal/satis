@@ -98,6 +98,52 @@
             },
             {
                 "name": "horde/lock",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Lock.git",
+                    "reference": "386e884fe29122d585c8dc3316c2e17e401dcd7d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Lock/zipball/386e884fe29122d585c8dc3316c2e17e401dcd7d",
+                    "reference": "386e884fe29122d585c8dc3316c2e17e401dcd7d",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/support": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/db": "^3",
+                    "horde/log": "^3",
+                    "horde/mongo": "^2"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Lock": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Klang",
+                        "email": "ben@alkaloid.net",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Resource locking library",
+                "homepage": "https://www.horde.org/libraries/Horde_Lock"
+            },
+            {
+                "name": "horde/lock",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

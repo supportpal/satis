@@ -1,5 +1,147 @@
 {
     "packages": {
-        "horde/managesieve": []
+        "horde/managesieve": [
+            {
+                "name": "horde/managesieve",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/ManageSieve.git",
+                    "reference": "d23023fe4c2bdb70f95746ad025fcfec077231de"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ManageSieve/zipball/d23023fe4c2bdb70f95746ad025fcfec077231de",
+                    "reference": "d23023fe4c2bdb70f95746ad025fcfec077231de",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_socket_client": "^2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.4"
+                },
+                "replace": {
+                    "pear-horde/horde_managesieve": "1.*",
+                    "pear-pear.horde.org/horde_managesieve": "1.*"
+                },
+                "suggest": {
+                    "pear-pear.php.net/Auth_SASL": "^1"
+                },
+                "time": "2021-02-17T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_ManageSieve": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "ManageSieve client library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/managesieve",
+                "version": "2.0.0alpha1",
+                "version_normalized": "2.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/ManageSieve.git",
+                    "reference": "ec102d3349ceff8235490c8454816b66fbf09bf0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ManageSieve/zipball/ec102d3349ceff8235490c8454816b66fbf09bf0",
+                    "reference": "ec102d3349ceff8235490c8454816b66fbf09bf0",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/socket_client": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "pear/auth_sasl": "^1.1"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_ManageSieve": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\ManageSieve\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "ManageSieve client library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/managesieve",
+                "version": "2.0.0alpha2",
+                "version_normalized": "2.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/ManageSieve.git",
+                    "reference": "e73d7d3d0aedb3f63a48cdaff7a06572769ff1aa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ManageSieve/zipball/e73d7d3d0aedb3f63a48cdaff7a06572769ff1aa",
+                    "reference": "e73d7d3d0aedb3f63a48cdaff7a06572769ff1aa",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/socket_client": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "pear/auth_sasl": "^1.1"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_ManageSieve": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "ManageSieve client library",
+                "homepage": "https://www.horde.org"
+            }
+        ]
     }
 }

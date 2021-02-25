@@ -134,6 +134,70 @@
             },
             {
                 "name": "horde/imap_client",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Imap_Client.git",
+                    "reference": "bf8325cac7b70ec3916d56ad9943dac18f1cbfc6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Imap_Client/zipball/bf8325cac7b70ec3916d56ad9943dac18f1cbfc6",
+                    "reference": "bf8325cac7b70ec3916d56ad9943dac18f1cbfc6",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/mail": "^3",
+                    "horde/mime": "^3",
+                    "horde/secret": "^3",
+                    "horde/socket_client": "^3",
+                    "horde/stream": "^2",
+                    "horde/stream_filter": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-intl": "*",
+                    "ext-mbstring": "*",
+                    "horde/cache": "^3",
+                    "horde/compress_fast": "^2",
+                    "horde/crypt_blowfish": "^2",
+                    "horde/db": "^3",
+                    "horde/hashtable": "^2",
+                    "horde/mongo": "^2",
+                    "horde/pack": "^2",
+                    "horde/stringprep": "^2",
+                    "horde/support": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Imap_Client": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "IMAP client library",
+                "homepage": "https://www.horde.org/libraries/Horde_Imap_Client"
+            },
+            {
+                "name": "horde/imap_client",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

@@ -114,6 +114,60 @@
             },
             {
                 "name": "horde/token",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Token.git",
+                    "reference": "d277253a21c4b050b59da8f151b16acffb872c56"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Token/zipball/d277253a21c4b050b59da8f151b16acffb872c56",
+                    "reference": "d277253a21c4b050b59da8f151b16acffb872c56",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/translation": "^3",
+                    "horde/url": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/db": "^3",
+                    "horde/mongo": "^2",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Token": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Tokens library",
+                "homepage": "https://www.horde.org/libraries/Horde_Token"
+            },
+            {
+                "name": "horde/token",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

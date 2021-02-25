@@ -100,6 +100,53 @@
             },
             {
                 "name": "horde/pear",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Pear.git",
+                    "reference": "8d0c8eaba9554ef6ca88a7c9f668c4787129010c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Pear/zipball/8d0c8eaba9554ef6ca88a7c9f668c4787129010c",
+                    "reference": "8d0c8eaba9554ef6ca88a7c9f668c4787129010c",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "horde/xml_element": "^3",
+                    "horde/yaml": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/http": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Pear": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "PEAR infrastructure library",
+                "homepage": "https://www.horde.org/libraries/Horde_Pear"
+            },
+            {
+                "name": "horde/pear",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

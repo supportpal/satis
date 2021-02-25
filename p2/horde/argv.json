@@ -7,7 +7,7 @@
                 "version_normalized": "2.0.10.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Argv.git",
+                    "url": "git@github.com:maintaina-com/Argv.git",
                     "reference": "a6844e34e670b65206589a3dd87f6b75da23fb34"
                 },
                 "dist": {
@@ -42,10 +42,7 @@
                     }
                 ],
                 "description": "Horde command-line argument parsing package",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Argv/tree/v2.0.10"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/argv",
@@ -53,7 +50,7 @@
                 "version_normalized": "2.0.11.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Argv.git",
+                    "url": "git@github.com:maintaina-com/Argv.git",
                     "reference": "18b3342b8eef746c6730c808f694801985d80175"
                 },
                 "dist": {
@@ -89,10 +86,7 @@
                     }
                 ],
                 "description": "Horde command-line argument parsing package",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Argv/tree/v2.0.11"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/argv",
@@ -100,7 +94,7 @@
                 "version_normalized": "2.0.12.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Argv.git",
+                    "url": "git@github.com:maintaina-com/Argv.git",
                     "reference": "971a9ac6b9f7c64d5e7028ebe8372b7b6ba80d0b"
                 },
                 "dist": {
@@ -136,10 +130,7 @@
                     }
                 ],
                 "description": "Horde command-line argument parsing package",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Argv/tree/v2.0.12"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/argv",
@@ -147,7 +138,7 @@
                 "version_normalized": "2.0.8.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Argv.git",
+                    "url": "git@github.com:maintaina-com/Argv.git",
                     "reference": "1e98aca661cb7419ae623fcd19a0ff0bbb77052a"
                 },
                 "dist": {
@@ -182,10 +173,7 @@
                     }
                 ],
                 "description": "Horde command-line argument parsing package",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Argv/tree/v2.0.8"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/argv",
@@ -193,7 +181,7 @@
                 "version_normalized": "2.0.9.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Argv.git",
+                    "url": "git@github.com:maintaina-com/Argv.git",
                     "reference": "be750f5131614f53fa3f50fb41b49efa274e7903"
                 },
                 "dist": {
@@ -228,10 +216,7 @@
                     }
                 ],
                 "description": "Horde command-line argument parsing package",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Argv/tree/v2.0.9"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/argv",
@@ -239,7 +224,7 @@
                 "version_normalized": "2.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Argv.git",
+                    "url": "git@github.com:maintaina-com/Argv.git",
                     "reference": "4fedf1155c6bb5d59a913a0842fe6c29dd9dc21d"
                 },
                 "dist": {
@@ -290,10 +275,122 @@
                     }
                 ],
                 "description": "Horde command-line argument parsing package",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Argv/tree/v2.1.0"
-                }
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/argv",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Argv.git",
+                    "reference": "f902db708f454128888cb1d1cb9e93cc23b081f9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Argv/zipball/f902db708f454128888cb1d1cb9e93cc23b081f9",
+                    "reference": "f902db708f454128888cb1d1cb9e93cc23b081f9",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/cli": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-23T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Argv": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Argv\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Mike Naberezny",
+                        "email": "mike@maintainable.com",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Command-line argument parsing library",
+                "homepage": "https://www.horde.org/libraries/Horde_Argv"
+            },
+            {
+                "name": "horde/argv",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Argv.git",
+                    "reference": "64a4cb71e95883e52d4cb0c83ecda8bd6de11d6f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Argv/zipball/64a4cb71e95883e52d4cb0c83ecda8bd6de11d6f",
+                    "reference": "64a4cb71e95883e52d4cb0c83ecda8bd6de11d6f",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/cli": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Argv": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Mike Naberezny",
+                        "email": "mike@maintainable.com",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Command-line argument parsing library",
+                "homepage": "https://www.horde.org/libraries/Horde_Argv"
             }
         ]
     }

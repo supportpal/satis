@@ -51,17 +51,62 @@
             },
             {
                 "name": "horde/managesieve",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/ManageSieve.git",
+                    "reference": "4c937df28ad68380c8c2dc226054534c251e49dc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ManageSieve/zipball/4c937df28ad68380c8c2dc226054534c251e49dc",
+                    "reference": "4c937df28ad68380c8c2dc226054534c251e49dc",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/socket_client": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "pear/auth_sasl": "^1.1"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_ManageSieve": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "ManageSieve client library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/managesieve",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/ManageSieve.git",
-                    "reference": "66a7ea4fbcb4a56e576d5a9055851c1bc8c57fe2"
+                    "reference": "c3abba972bee22731e63a6af737e77704aef838c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/ManageSieve/zipball/66a7ea4fbcb4a56e576d5a9055851c1bc8c57fe2",
-                    "reference": "66a7ea4fbcb4a56e576d5a9055851c1bc8c57fe2",
+                    "url": "https://api.github.com/repos/maintaina-com/ManageSieve/zipball/c3abba972bee22731e63a6af737e77704aef838c",
+                    "reference": "c3abba972bee22731e63a6af737e77704aef838c",
                     "shasum": ""
                 },
                 "require": {
@@ -77,7 +122,7 @@
                 "suggest": {
                     "pear-pear.php.net/Auth_SASL": "^1"
                 },
-                "time": "2017-11-11T00:00:00+00:00",
+                "time": "2021-02-17T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -104,12 +149,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/ManageSieve.git",
-                    "reference": "66a7ea4fbcb4a56e576d5a9055851c1bc8c57fe2"
+                    "reference": "c3abba972bee22731e63a6af737e77704aef838c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/ManageSieve/zipball/66a7ea4fbcb4a56e576d5a9055851c1bc8c57fe2",
-                    "reference": "66a7ea4fbcb4a56e576d5a9055851c1bc8c57fe2",
+                    "url": "https://api.github.com/repos/maintaina-com/ManageSieve/zipball/c3abba972bee22731e63a6af737e77704aef838c",
+                    "reference": "c3abba972bee22731e63a6af737e77704aef838c",
                     "shasum": ""
                 },
                 "require": {
@@ -125,7 +170,7 @@
                 "suggest": {
                     "pear-pear.php.net/Auth_SASL": "^1"
                 },
-                "time": "2017-11-11T00:00:00+00:00",
+                "time": "2021-02-17T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {

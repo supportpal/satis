@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "4396acb4004524b7902eb87c1e4b9df0eee60f9e"
                 },
                 "dist": {
@@ -58,10 +58,7 @@
                     }
                 ],
                 "description": "ActiveSync server library",
-                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/master"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync"
             },
             {
                 "name": "horde/activesync",
@@ -69,7 +66,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "06bc0dec31116a6bc70a74dcbbc1c04f1a340781"
                 },
                 "dist": {
@@ -123,10 +120,66 @@
                     }
                 ],
                 "description": "ActiveSync server library",
-                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/FRAMEWORK_5_2"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync"
+            },
+            {
+                "name": "horde/activesync",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
+                    "reference": "7b7c6f4e300cf444c9bc25e1082d56e27d67cdc1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ActiveSync/zipball/7b7c6f4e300cf444c9bc25e1082d56e27d67cdc1",
+                    "reference": "7b7c6f4e300cf444c9bc25e1082d56e27d67cdc1",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "horde/compress": "^3",
+                    "horde/date": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/icalendar": "^3",
+                    "horde/log": "^3",
+                    "horde/mapi": "^2",
+                    "horde/mime": "^3",
+                    "horde/stream": "^2",
+                    "horde/support": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/db": "^3",
+                    "horde/imap_client": "^3",
+                    "horde/mail": "^3",
+                    "horde/mongo": "^2",
+                    "horde/test": "^3",
+                    "horde/text_filter": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_ActiveSync": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "ActiveSync server library",
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync"
             },
             {
                 "name": "horde/activesync",
@@ -134,7 +187,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "180ddfd2f095ed19cc2571bc3f53cb4d0055f7d6"
                 },
                 "dist": {
@@ -188,10 +241,7 @@
                     }
                 ],
                 "description": "ActiveSync server library",
-                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync"
             },
             {
                 "name": "horde/activesync",
@@ -199,7 +249,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "180ddfd2f095ed19cc2571bc3f53cb4d0055f7d6"
                 },
                 "dist": {
@@ -253,10 +303,7 @@
                     }
                 ],
                 "description": "ActiveSync server library",
-                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync"
             },
             {
                 "name": "horde/activesync",
@@ -264,7 +311,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "9327c98003a85db7e9c9a7bb8b15b59037d0fb46"
                 },
                 "dist": {
@@ -315,10 +362,7 @@
                     }
                 ],
                 "description": "ActiveSync server library",
-                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/maintaina-composerfixed"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync"
             },
             {
                 "name": "horde/activesync",
@@ -326,7 +370,7 @@
                 "version_normalized": "dev-opaque_test",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "612d55c0a651e5a1d296cdc86769e7aa4e6951f7"
                 },
                 "dist": {
@@ -380,10 +424,7 @@
                     }
                 ],
                 "description": "ActiveSync server library",
-                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/opaque_test"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync"
             }
         ]
     }

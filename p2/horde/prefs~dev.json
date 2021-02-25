@@ -141,6 +141,75 @@
             },
             {
                 "name": "horde/prefs",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Prefs.git",
+                    "reference": "75149a6c2f6af6d67977b11bff8fb6d27e69cbd3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Prefs/zipball/75149a6c2f6af6d67977b11bff8fb6d27e69cbd3",
+                    "reference": "75149a6c2f6af6d67977b11bff8fb6d27e69cbd3",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/mail": "^3",
+                    "horde/mime": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/autoloader": "^3",
+                    "horde/cache": "^3",
+                    "horde/db": "^3",
+                    "horde/image": "^3",
+                    "horde/imsp": "^3",
+                    "horde/kolab_storage": "^3",
+                    "horde/ldap": "^3",
+                    "horde/mongo": "^2",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "bin": [
+                    "bin/horde-prefs"
+                ],
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Prefs": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "User preferences library",
+                "homepage": "https://www.horde.org/libraries/Horde_Prefs"
+            },
+            {
+                "name": "horde/prefs",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

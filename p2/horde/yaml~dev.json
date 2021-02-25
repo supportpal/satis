@@ -111,6 +111,61 @@
             },
             {
                 "name": "horde/yaml",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Yaml.git",
+                    "reference": "2a36c1caea515a0412a3e3125a6bdcc23675492d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Yaml/zipball/2a36c1caea515a0412a3e3125a6bdcc23675492d",
+                    "reference": "2a36c1caea515a0412a3e3125a6bdcc23675492d",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Yaml": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Mike Naberezny",
+                        "email": "mike@maintainable.com",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "YAML parsing and writing library",
+                "homepage": "https://www.horde.org/libraries/Horde_Yaml"
+            },
+            {
+                "name": "horde/yaml",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

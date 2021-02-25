@@ -7,7 +7,7 @@
                 "version_normalized": "2.12.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "1b2a825589656f4d3c1ca22833059d9a6501a163"
                 },
                 "dist": {
@@ -49,10 +49,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.12.2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -60,7 +57,7 @@
                 "version_normalized": "2.12.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "44bbf5ac1d82bb00d491a061afa550ff348855e2"
                 },
                 "dist": {
@@ -102,10 +99,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.12.3"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -113,7 +107,7 @@
                 "version_normalized": "2.12.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "e6f27dcab575ecb7cd75036d49cdfdcd28c76c0a"
                 },
                 "dist": {
@@ -155,10 +149,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.12.4"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -166,7 +157,7 @@
                 "version_normalized": "2.13.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "311ae80c4a3412279449ae3d9debe99ce5403e69"
                 },
                 "dist": {
@@ -208,10 +199,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.13.1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -219,7 +207,7 @@
                 "version_normalized": "2.15.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "b4bcf29c0d8930ad92b536138ab7f947dbd8cd12"
                 },
                 "dist": {
@@ -261,10 +249,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.15.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -272,7 +257,7 @@
                 "version_normalized": "2.15.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "e1ed94f23c6882ad19b144e6d99669c88d9d6782"
                 },
                 "dist": {
@@ -314,10 +299,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.15.1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -325,7 +307,7 @@
                 "version_normalized": "2.16.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "ace61268fe1f92e1a8afa5c6cadca1fe0437cb49"
                 },
                 "dist": {
@@ -367,10 +349,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.16.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -378,7 +357,7 @@
                 "version_normalized": "2.16.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "151a73c6fde214491b67b5864a084d14832a2648"
                 },
                 "dist": {
@@ -420,10 +399,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.16.1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -431,7 +407,7 @@
                 "version_normalized": "2.16.10.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "0b5390b9e14ac377eeacc8d32d6b656386dba168"
                 },
                 "dist": {
@@ -473,10 +449,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.16.10"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -484,7 +457,7 @@
                 "version_normalized": "2.16.11.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "69371ebcdda07151ae835a3aa01b34139a06e6a7"
                 },
                 "dist": {
@@ -526,10 +499,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.16.11"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -537,7 +507,7 @@
                 "version_normalized": "2.16.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "4d6cf3d5741b7b999d0ec8e2b486f8ad79ad38b5"
                 },
                 "dist": {
@@ -579,10 +549,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.16.2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -590,7 +557,7 @@
                 "version_normalized": "2.16.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "1d83ed258647da21d016675380018645d0d39d67"
                 },
                 "dist": {
@@ -632,10 +599,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.16.3"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -643,7 +607,7 @@
                 "version_normalized": "2.16.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "2101313eac76554385afbcb61b6ab43cef650de7"
                 },
                 "dist": {
@@ -685,10 +649,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.16.4"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -696,7 +657,7 @@
                 "version_normalized": "2.16.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "ee1ae87cdb481df14aa592f32403540ce24f948f"
                 },
                 "dist": {
@@ -738,10 +699,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.16.5"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -749,7 +707,7 @@
                 "version_normalized": "2.16.6.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "73196b231f61ee2ce605903707cfb5c2302ec5e9"
                 },
                 "dist": {
@@ -791,10 +749,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.16.6"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -802,7 +757,7 @@
                 "version_normalized": "2.16.7.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "84112a09a1460ffd83f67603f062e36049372122"
                 },
                 "dist": {
@@ -844,10 +799,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.16.7"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -855,7 +807,7 @@
                 "version_normalized": "2.16.8.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "a7fd3034ba75bc9131e56bba222b3b20f8f4c6ee"
                 },
                 "dist": {
@@ -897,10 +849,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.16.8"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -908,7 +857,7 @@
                 "version_normalized": "2.16.9.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "9d1b4411c97951b52b955300cd5bb243c78a5967"
                 },
                 "dist": {
@@ -950,10 +899,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.16.9"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -961,7 +907,7 @@
                 "version_normalized": "2.17.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "4a39274f6bedee28a29cbc80ec84367cf0721704"
                 },
                 "dist": {
@@ -1003,10 +949,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.17.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -1014,7 +957,7 @@
                 "version_normalized": "2.18.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "0360fe09ed143bb0bfcc307e3f8643ef897cfae2"
                 },
                 "dist": {
@@ -1056,10 +999,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.18.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -1067,7 +1007,7 @@
                 "version_normalized": "2.18.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "283ce2d12f26ca57174f670fa678770cab9166ec"
                 },
                 "dist": {
@@ -1109,10 +1049,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.18.1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -1120,7 +1057,7 @@
                 "version_normalized": "2.19.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "18266e3801935ebfd199ee7afb4cf7b53bd9a48c"
                 },
                 "dist": {
@@ -1162,10 +1099,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.19.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -1173,7 +1107,7 @@
                 "version_normalized": "2.19.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "93e34cb6a949511d1d6f3d1202cbb35cb89b3abe"
                 },
                 "dist": {
@@ -1215,10 +1149,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.19.1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -1226,7 +1157,7 @@
                 "version_normalized": "2.19.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "c451c6d44552af26efa0d2b944816a95ab890998"
                 },
                 "dist": {
@@ -1268,10 +1199,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.19.2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -1279,7 +1207,7 @@
                 "version_normalized": "2.19.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "2f9d4fe80982ea7f0dc15f91a18635effe8c9f3b"
                 },
                 "dist": {
@@ -1321,10 +1249,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.19.3"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -1332,7 +1257,7 @@
                 "version_normalized": "2.19.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "8a58c67d8b4cffd5895cf7521e7b596dfc24628a"
                 },
                 "dist": {
@@ -1374,10 +1299,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.19.4"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -1385,7 +1307,7 @@
                 "version_normalized": "2.20.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "1f566797f0cb508e135403849ce6cb17b67f6564"
                 },
                 "dist": {
@@ -1427,10 +1349,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.20.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -1438,7 +1357,7 @@
                 "version_normalized": "2.20.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "8496617953af3c5435b511fed6f7be480b4024db"
                 },
                 "dist": {
@@ -1482,10 +1401,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.20.1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -1493,7 +1409,7 @@
                 "version_normalized": "2.20.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "8935366dccdc0edf01a178c587e8c3282fe9f1e6"
                 },
                 "dist": {
@@ -1537,10 +1453,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.20.2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -1548,7 +1461,7 @@
                 "version_normalized": "2.20.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "17684230cfb9f0466fe29d7bcccc498fd5564df1"
                 },
                 "dist": {
@@ -1592,10 +1505,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.20.3"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -1603,7 +1513,7 @@
                 "version_normalized": "2.20.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "bafd8064a10bdd38f1dd055de7caaa36baa4b59e"
                 },
                 "dist": {
@@ -1647,10 +1557,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.20.4"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -1658,7 +1565,7 @@
                 "version_normalized": "2.20.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "4d4fff3377a3517438b7c3ce76f37c5bd3d23f74"
                 },
                 "dist": {
@@ -1702,10 +1609,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.20.5"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -1713,7 +1617,7 @@
                 "version_normalized": "2.21.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "590ea21d686f8aa6268f7037e876fed0b1207e61"
                 },
                 "dist": {
@@ -1757,10 +1661,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.21.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -1768,7 +1669,7 @@
                 "version_normalized": "2.22.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "52da4886f4d2736dadc0339327c78a420f8bff1a"
                 },
                 "dist": {
@@ -1812,10 +1713,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.22.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -1823,7 +1721,7 @@
                 "version_normalized": "2.23.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "401c305414ec8c6555cad3fcf86518d0122327c1"
                 },
                 "dist": {
@@ -1867,10 +1765,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.23.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -1878,7 +1773,7 @@
                 "version_normalized": "2.23.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "44f66c4ca5503679244157d60bec3bec602f5ce9"
                 },
                 "dist": {
@@ -1922,10 +1817,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.23.1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -1933,7 +1825,7 @@
                 "version_normalized": "2.24.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "6d5c2a26863bb08859a96d82ed862e88403f1813"
                 },
                 "dist": {
@@ -1977,10 +1869,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.24.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -1988,7 +1877,7 @@
                 "version_normalized": "2.24.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "dc85b49e40afcaffc86168844bc2cd52fd5be1bf"
                 },
                 "dist": {
@@ -2032,10 +1921,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.24.1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -2043,7 +1929,7 @@
                 "version_normalized": "2.25.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "73cb34a71fa64ca4805778488186d4bf4e0b25a8"
                 },
                 "dist": {
@@ -2087,10 +1973,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.25.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -2098,7 +1981,7 @@
                 "version_normalized": "2.26.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "64d040a4c1619aba5579cafd7276e46c70c1a626"
                 },
                 "dist": {
@@ -2142,10 +2025,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.26.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -2153,7 +2033,7 @@
                 "version_normalized": "2.26.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "89618808f0346cb630751f0d5989bc774a25b171"
                 },
                 "dist": {
@@ -2197,10 +2077,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.26.1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -2208,7 +2085,7 @@
                 "version_normalized": "2.27.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "8dcb752aa76affa8599eb5b2d295d9a7cbb7ee8b"
                 },
                 "dist": {
@@ -2252,10 +2129,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.27.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -2263,7 +2137,7 @@
                 "version_normalized": "2.27.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "7cd1370a172440636489576752a1679b6a8040cf"
                 },
                 "dist": {
@@ -2307,10 +2181,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.27.1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -2318,7 +2189,7 @@
                 "version_normalized": "2.28.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "c500b92c8a5fee8a431a72ef80a3bd8a631298f3"
                 },
                 "dist": {
@@ -2362,10 +2233,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.28.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -2373,7 +2241,7 @@
                 "version_normalized": "2.28.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "47326cf66a93bd7b4354f1471df26057871de92e"
                 },
                 "dist": {
@@ -2417,10 +2285,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.28.1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -2428,7 +2293,7 @@
                 "version_normalized": "2.28.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "100c21c5ed5adee32689164db4b8a51a1062a21e"
                 },
                 "dist": {
@@ -2472,10 +2337,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.28.2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -2483,7 +2345,7 @@
                 "version_normalized": "2.28.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "846eebecbf27cfc7dc9b3952ec8b3d559de2249f"
                 },
                 "dist": {
@@ -2527,10 +2389,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.28.3"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -2538,7 +2397,7 @@
                 "version_normalized": "2.28.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "8268cfeb7ba08d808e00981e436dc5f79e22da20"
                 },
                 "dist": {
@@ -2582,10 +2441,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.28.4"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -2593,7 +2449,7 @@
                 "version_normalized": "2.28.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "044d18676d53f19ef182b8cceca7258a6a949222"
                 },
                 "dist": {
@@ -2637,10 +2493,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.28.5"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -2648,7 +2501,7 @@
                 "version_normalized": "2.28.6.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "d8f26f675ad7cf5bedfa5f84321e517a5d182ce5"
                 },
                 "dist": {
@@ -2692,10 +2545,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.28.6"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -2703,7 +2553,7 @@
                 "version_normalized": "2.29.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "3f1c89a245acc707fa3f12f65bf1051d345b11d2"
                 },
                 "dist": {
@@ -2747,10 +2597,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.29.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -2758,7 +2605,7 @@
                 "version_normalized": "2.29.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "90e57c58cde7a2bc3998ed1ea1884cee19c17b2c"
                 },
                 "dist": {
@@ -2802,10 +2649,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.29.1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -2813,7 +2657,7 @@
                 "version_normalized": "2.29.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "e04fbab44e22394004f7e21f714e48e431c0412b"
                 },
                 "dist": {
@@ -2857,10 +2701,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.29.2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -2868,7 +2709,7 @@
                 "version_normalized": "2.30.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "f6141568ea4bffdeefea4a970c79391c17caea04"
                 },
                 "dist": {
@@ -2912,10 +2753,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.30.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -2923,7 +2761,7 @@
                 "version_normalized": "2.30.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "8770b604cbecf33a889ebf9d886a63e4cb11fa5d"
                 },
                 "dist": {
@@ -2967,10 +2805,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.30.1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -2978,7 +2813,7 @@
                 "version_normalized": "2.30.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "9e2f6b9113fb587c56feb4990b22dcd13a606644"
                 },
                 "dist": {
@@ -3022,10 +2857,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.30.2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -3033,7 +2865,7 @@
                 "version_normalized": "2.30.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "f478b6005ebd833c44e49fc80eb0f40776dcdbdd"
                 },
                 "dist": {
@@ -3077,10 +2909,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.30.3"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -3088,7 +2917,7 @@
                 "version_normalized": "2.30.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "f18bd67abfc12672fe1aa3895c4284ce42279980"
                 },
                 "dist": {
@@ -3132,10 +2961,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.30.4"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -3143,7 +2969,7 @@
                 "version_normalized": "2.30.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "57156c60887bf1172302fd46244562b93c9c8e47"
                 },
                 "dist": {
@@ -3187,10 +3013,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.30.5"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -3198,7 +3021,7 @@
                 "version_normalized": "2.30.6.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "8727a9f99d7aa392ad0346dd373c5f15958e4e53"
                 },
                 "dist": {
@@ -3242,10 +3065,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.30.6"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -3253,7 +3073,7 @@
                 "version_normalized": "2.31.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "a61b74c8dcc9188ab0aef789bebbd37ff7f513ae"
                 },
                 "dist": {
@@ -3297,10 +3117,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.31.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -3308,7 +3125,7 @@
                 "version_normalized": "2.31.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "384a3512b475ac495c1092a21ff767c5f95fc1e3"
                 },
                 "dist": {
@@ -3352,10 +3169,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.31.1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -3363,7 +3177,7 @@
                 "version_normalized": "2.31.10.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "93f8211c44e77691999d1260e5c83f98df88839d"
                 },
                 "dist": {
@@ -3407,10 +3221,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.31.10"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -3418,7 +3229,7 @@
                 "version_normalized": "2.31.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "145d78712a4b3aaddfa9d59e820442da7cf9b1ec"
                 },
                 "dist": {
@@ -3462,10 +3273,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.31.2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -3473,7 +3281,7 @@
                 "version_normalized": "2.31.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "cd4406bfbbdae00db89f1d4187334a48f52ec54d"
                 },
                 "dist": {
@@ -3517,10 +3325,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.31.3"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -3528,7 +3333,7 @@
                 "version_normalized": "2.31.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "3213983e4a5edd047f3483bf47d3b2e39d9505ce"
                 },
                 "dist": {
@@ -3572,10 +3377,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.31.4"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -3583,7 +3385,7 @@
                 "version_normalized": "2.31.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "9b619dbacc3186167994586553dcb4098c9af6d6"
                 },
                 "dist": {
@@ -3627,10 +3429,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.31.5"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -3638,7 +3437,7 @@
                 "version_normalized": "2.31.6.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "eb98879d4b9b040ecb738cb76813b575cf82257d"
                 },
                 "dist": {
@@ -3682,10 +3481,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.31.6"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -3693,7 +3489,7 @@
                 "version_normalized": "2.31.7.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "25b6256bbb8b20acd4a41c5b04e47ce249edaaef"
                 },
                 "dist": {
@@ -3737,10 +3533,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.31.7"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -3748,7 +3541,7 @@
                 "version_normalized": "2.31.8.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "17ffa690a80da892886a1bd9bd76eab90c2b4c8d"
                 },
                 "dist": {
@@ -3792,10 +3585,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.31.8"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -3803,7 +3593,7 @@
                 "version_normalized": "2.31.9.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "b71828748c59388aafebbe7427fd4a90dcf1069c"
                 },
                 "dist": {
@@ -3847,10 +3637,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.31.9"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -3858,7 +3645,7 @@
                 "version_normalized": "2.32.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "0016f50ff357555a2cfe0f49998fce7f3e8fd99a"
                 },
                 "dist": {
@@ -3902,10 +3689,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.32.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -3913,7 +3697,7 @@
                 "version_normalized": "2.33.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "370a49e210e1a3b564dc9bd1ced2a4379aa9c6d2"
                 },
                 "dist": {
@@ -3957,10 +3741,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.33.0"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -3968,7 +3749,7 @@
                 "version_normalized": "2.33.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "3490a9ebffd87bf231a25913c84338a526c91f2e"
                 },
                 "dist": {
@@ -4012,10 +3793,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.33.1"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -4023,7 +3801,7 @@
                 "version_normalized": "2.33.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "75e8ef693d6777f6fe6d91125b6b7a66d73a1f05"
                 },
                 "dist": {
@@ -4067,10 +3845,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.33.2"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -4078,7 +3853,7 @@
                 "version_normalized": "2.33.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "f0e82dacdb8bb65c011812e8e6f6b45fc35d933a"
                 },
                 "dist": {
@@ -4122,10 +3897,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.33.3"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -4133,7 +3905,7 @@
                 "version_normalized": "2.34.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "ae305d78d9c44a169436974b09b10e457302b4e2"
                 },
                 "dist": {
@@ -4177,10 +3949,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.34.0"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -4188,7 +3957,7 @@
                 "version_normalized": "2.34.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "c95e1bd4d964def0de37960582fabe1da30dea19"
                 },
                 "dist": {
@@ -4232,10 +4001,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.34.1"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -4243,7 +4009,7 @@
                 "version_normalized": "2.34.10.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "7aedb6278f6e5bc1006bc635f7011419d351178c"
                 },
                 "dist": {
@@ -4287,10 +4053,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.34.10"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -4298,7 +4061,7 @@
                 "version_normalized": "2.34.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "5859c6a312f86da80e8b95019e1edf13ab336a52"
                 },
                 "dist": {
@@ -4342,10 +4105,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.34.2"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -4353,7 +4113,7 @@
                 "version_normalized": "2.34.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "95c51a6099c3092468918df163174f2af2e5aaac"
                 },
                 "dist": {
@@ -4397,10 +4157,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.34.3"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -4408,7 +4165,7 @@
                 "version_normalized": "2.34.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "7f68cb04c17579028f394b977f3a88af449174ca"
                 },
                 "dist": {
@@ -4452,10 +4209,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.34.4"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -4463,7 +4217,7 @@
                 "version_normalized": "2.34.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "f280c5681783c9c208f332176e37173c1a8d89e6"
                 },
                 "dist": {
@@ -4507,10 +4261,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.34.5"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -4518,7 +4269,7 @@
                 "version_normalized": "2.34.6.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "f0af2a60209f9630745c86a17957bafa1532841d"
                 },
                 "dist": {
@@ -4562,10 +4313,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.34.6"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -4573,7 +4321,7 @@
                 "version_normalized": "2.34.7.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "cc7338bc2deff6f2cade61ec42c6b778840252a0"
                 },
                 "dist": {
@@ -4617,10 +4365,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.34.7"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -4628,7 +4373,7 @@
                 "version_normalized": "2.34.8.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "9385a4013ecb88f303068984036b9c474f6444c1"
                 },
                 "dist": {
@@ -4672,10 +4417,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.34.8"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -4683,7 +4425,7 @@
                 "version_normalized": "2.34.9.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "31ac527b67d65e0602b0eb4acc6c0f6d84a2b815"
                 },
                 "dist": {
@@ -4727,10 +4469,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.34.9"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -4738,7 +4477,7 @@
                 "version_normalized": "2.35.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "c7126fcff7b8dd9132d9904a1bce6d46e8b10fe4"
                 },
                 "dist": {
@@ -4782,10 +4521,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.35.0"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -4793,7 +4529,7 @@
                 "version_normalized": "2.36.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "d5610a881cc2dd1a494b4177f7afd0470472d3ca"
                 },
                 "dist": {
@@ -4837,10 +4573,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.36.0"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -4848,7 +4581,7 @@
                 "version_normalized": "2.37.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "94774766ea52bb81a0cc3c9bb8c54cee157b678b"
                 },
                 "dist": {
@@ -4892,10 +4625,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.37.0"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -4903,7 +4633,7 @@
                 "version_normalized": "2.37.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "90d7ae1225dc5e68e8e97b0a012536549fc5549d"
                 },
                 "dist": {
@@ -4947,10 +4677,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.37.1"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -4958,7 +4685,7 @@
                 "version_normalized": "2.37.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "5ced43ca415789c414e0aec7fb0b1a4adb41b1d9"
                 },
                 "dist": {
@@ -5002,10 +4729,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.37.2"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -5013,7 +4737,7 @@
                 "version_normalized": "2.37.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "1088eeb870ec4242f6e32184731c5b6bbdd1d350"
                 },
                 "dist": {
@@ -5057,10 +4781,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.37.3"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -5068,7 +4789,7 @@
                 "version_normalized": "2.37.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "d80b575dbc1ed0d1d1456fd241f5b0f854629b61"
                 },
                 "dist": {
@@ -5112,10 +4833,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.37.4"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -5123,7 +4841,7 @@
                 "version_normalized": "2.38.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "0ead56864fc1fae969f03d9bd52522dcb23aa916"
                 },
                 "dist": {
@@ -5168,10 +4886,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.38.0"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -5179,7 +4894,7 @@
                 "version_normalized": "2.38.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "b619f88780f6818dcce1f96d9715a5e5c04c4e1c"
                 },
                 "dist": {
@@ -5224,10 +4939,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.38.1"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -5235,7 +4947,7 @@
                 "version_normalized": "2.38.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "2f1da4f1cc3a2b105ef8b4120d58ce82eaadc4d3"
                 },
                 "dist": {
@@ -5280,10 +4992,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.38.2"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -5291,7 +5000,7 @@
                 "version_normalized": "2.38.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "48154d09e1d70ee9ae5e5bfefff2372ac87601a7"
                 },
                 "dist": {
@@ -5345,10 +5054,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.38.3"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -5356,7 +5062,7 @@
                 "version_normalized": "2.38.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "b6214bd4ff9f0435a30bf426009676f956e103a9"
                 },
                 "dist": {
@@ -5410,10 +5116,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.38.4"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -5421,7 +5124,7 @@
                 "version_normalized": "2.38.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "d62507c1358bf5b605dc96a34061bdf2c5c8892e"
                 },
                 "dist": {
@@ -5475,10 +5178,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.38.5"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -5486,7 +5186,7 @@
                 "version_normalized": "2.38.6.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "edc9866c5ecbf2285e7504a946e3fd45c14cfbb7"
                 },
                 "dist": {
@@ -5540,10 +5240,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.38.6"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -5551,7 +5248,7 @@
                 "version_normalized": "2.38.7.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "0ab29089e8c9448b7cc599ea7a2fe343e8c224c3"
                 },
                 "dist": {
@@ -5605,10 +5302,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.38.7"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -5616,7 +5310,7 @@
                 "version_normalized": "2.38.8.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "78d4a7db1e129097b7aab63f70e110bdd18b2349"
                 },
                 "dist": {
@@ -5670,10 +5364,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.38.8"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -5681,7 +5372,7 @@
                 "version_normalized": "2.39.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "9aeeee591598b4fb34b75fbbb9593fbb08ed280d"
                 },
                 "dist": {
@@ -5735,10 +5426,7 @@
                     }
                 ],
                 "description": "ActiveSync server library",
-                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.39.0"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync"
             },
             {
                 "name": "horde/activesync",
@@ -5746,7 +5434,7 @@
                 "version_normalized": "2.39.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "78aa7e39bae69c08590a453188bd5055253215ca"
                 },
                 "dist": {
@@ -5800,10 +5488,7 @@
                     }
                 ],
                 "description": "ActiveSync server library",
-                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.39.1"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync"
             },
             {
                 "name": "horde/activesync",
@@ -5811,7 +5496,7 @@
                 "version_normalized": "2.39.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "2a401d4700d6533e5848d8de892594fb0a210632"
                 },
                 "dist": {
@@ -5865,10 +5550,7 @@
                     }
                 ],
                 "description": "ActiveSync server library",
-                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.39.2"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync"
             },
             {
                 "name": "horde/activesync",
@@ -5876,7 +5558,7 @@
                 "version_normalized": "2.39.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "9ce9e710c87c7effaac48d9980aa08041eaff27f"
                 },
                 "dist": {
@@ -5930,10 +5612,7 @@
                     }
                 ],
                 "description": "ActiveSync server library",
-                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.39.3"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync"
             },
             {
                 "name": "horde/activesync",
@@ -5941,7 +5620,7 @@
                 "version_normalized": "2.39.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "ff35dbb0c86c65d24634743744b36e9c02c63325"
                 },
                 "dist": {
@@ -5995,10 +5674,7 @@
                     }
                 ],
                 "description": "ActiveSync server library",
-                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.39.4"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync"
             },
             {
                 "name": "horde/activesync",
@@ -6006,7 +5682,7 @@
                 "version_normalized": "2.39.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "2b3bb586a2945667f7a578b61b95077a7c869ec2"
                 },
                 "dist": {
@@ -6060,10 +5736,7 @@
                     }
                 ],
                 "description": "ActiveSync server library",
-                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.39.5"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync"
             },
             {
                 "name": "horde/activesync",
@@ -6071,7 +5744,7 @@
                 "version_normalized": "2.39.6.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "9af2c0a0e2fba30a42296a55631e596db278f583"
                 },
                 "dist": {
@@ -6125,10 +5798,7 @@
                     }
                 ],
                 "description": "ActiveSync server library",
-                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.39.6"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync"
             },
             {
                 "name": "horde/activesync",
@@ -6136,7 +5806,7 @@
                 "version_normalized": "2.39.7.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "164c80b0846ad68f621796199a2504649b69658a"
                 },
                 "dist": {
@@ -6190,10 +5860,7 @@
                     }
                 ],
                 "description": "ActiveSync server library",
-                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.39.7"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync"
             },
             {
                 "name": "horde/activesync",
@@ -6201,7 +5868,7 @@
                 "version_normalized": "2.39.8.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "a244d01881e806ddfdbfb2e486ef97bddf6f1f85"
                 },
                 "dist": {
@@ -6255,10 +5922,7 @@
                     }
                 ],
                 "description": "ActiveSync server library",
-                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.39.8"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync"
             },
             {
                 "name": "horde/activesync",
@@ -6266,7 +5930,7 @@
                 "version_normalized": "2.39.9.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "a1d39482b02fa20564e4444f44eabb6ffb187f03"
                 },
                 "dist": {
@@ -6320,10 +5984,7 @@
                     }
                 ],
                 "description": "ActiveSync server library",
-                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.39.9"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync"
             },
             {
                 "name": "horde/activesync",
@@ -6331,7 +5992,7 @@
                 "version_normalized": "2.8.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "2e04fe52d8b7c437385be620173f5c5ef1e504f5"
                 },
                 "dist": {
@@ -6370,10 +6031,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.8.5"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -6381,7 +6039,7 @@
                 "version_normalized": "2.9.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "6a6d716bbdbfccd566075feffcc2e60581d49cbc"
                 },
                 "dist": {
@@ -6421,10 +6079,7 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.9.2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/activesync",
@@ -6432,7 +6087,7 @@
                 "version_normalized": "2.9.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/ActiveSync.git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
                     "reference": "db2bbb09afe58268dbc4c1eaf4b8ca02f47ea821"
                 },
                 "dist": {
@@ -6472,10 +6127,128 @@
                     }
                 ],
                 "description": "Horde ActiveSync Server Library",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/ActiveSync/tree/v2.9.3"
-                }
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/activesync",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
+                    "reference": "a72de25fd4be24b53df7f9818b23e193f32dc517"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ActiveSync/zipball/a72de25fd4be24b53df7f9818b23e193f32dc517",
+                    "reference": "a72de25fd4be24b53df7f9818b23e193f32dc517",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "horde/compress": "^3",
+                    "horde/date": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/icalendar": "^3",
+                    "horde/log": "^3",
+                    "horde/mapi": "^2",
+                    "horde/mime": "^3",
+                    "horde/stream": "^2",
+                    "horde/support": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/db": "^3",
+                    "horde/imap_client": "^3",
+                    "horde/mail": "^3",
+                    "horde/mongo": "^2",
+                    "horde/test": "^3",
+                    "horde/text_filter": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_ActiveSync": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\ActiveSync\\": "src/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "ActiveSync server library",
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync"
+            },
+            {
+                "name": "horde/activesync",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/ActiveSync.git",
+                    "reference": "c7af3f832f8655dd87d3185d7a39cc7ebc72b034"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ActiveSync/zipball/c7af3f832f8655dd87d3185d7a39cc7ebc72b034",
+                    "reference": "c7af3f832f8655dd87d3185d7a39cc7ebc72b034",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "horde/compress": "^3",
+                    "horde/date": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/icalendar": "^3",
+                    "horde/log": "^3",
+                    "horde/mapi": "^2",
+                    "horde/mime": "^3",
+                    "horde/stream": "^2",
+                    "horde/support": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/db": "^3",
+                    "horde/imap_client": "^3",
+                    "horde/mail": "^3",
+                    "horde/mongo": "^2",
+                    "horde/test": "^3",
+                    "horde/text_filter": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_ActiveSync": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "ActiveSync server library",
+                "homepage": "https://www.horde.org/libraries/Horde_ActiveSync"
             }
         ]
     }

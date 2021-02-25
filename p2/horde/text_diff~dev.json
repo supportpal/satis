@@ -108,6 +108,57 @@
             },
             {
                 "name": "horde/text_diff",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Diff.git",
+                    "reference": "916907aa099900c0cb1d9d0f8fc1bc4c88a29958"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Diff/zipball/916907aa099900c0cb1d9d0f8fc1bc4c88a29958",
+                    "reference": "916907aa099900c0cb1d9d0f8fc1bc4c88a29958",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-xdiff": "*",
+                    "horde/cli": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Text_Diff": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Text diff generation and rendering library",
+                "homepage": "https://www.horde.org/libraries/Horde_Text_Diff"
+            },
+            {
+                "name": "horde/text_diff",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

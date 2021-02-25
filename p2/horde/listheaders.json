@@ -399,6 +399,101 @@
                 ],
                 "description": "Horde List Headers Parsing Library",
                 "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/listheaders",
+                "version": "2.0.0alpha1",
+                "version_normalized": "2.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/ListHeaders.git",
+                    "reference": "612a9267ae728412bf8a4ac28fffe254f79f278e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ListHeaders/zipball/612a9267ae728412bf8a4ac28fffe254f79f278e",
+                    "reference": "612a9267ae728412bf8a4ac28fffe254f79f278e",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "*",
+                    "horde/mail": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/mime": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_ListHeaders": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\ListHeaders\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "List headers parsing library",
+                "homepage": "https://www.horde.org/libraries/Horde_ListHeaders"
+            },
+            {
+                "name": "horde/listheaders",
+                "version": "2.0.0alpha2",
+                "version_normalized": "2.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/ListHeaders.git",
+                    "reference": "571f21c619389bff67868f7e3cba1a8ec4e72ebd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ListHeaders/zipball/571f21c619389bff67868f7e3cba1a8ec4e72ebd",
+                    "reference": "571f21c619389bff67868f7e3cba1a8ec4e72ebd",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "*",
+                    "horde/mail": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/mime": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_ListHeaders": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "List headers parsing library",
+                "homepage": "https://www.horde.org/libraries/Horde_ListHeaders"
             }
         ]
     }

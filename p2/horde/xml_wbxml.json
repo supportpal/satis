@@ -84,6 +84,105 @@
                 ],
                 "description": "Horde_Xml_Wbxml provides an API for encoding and decoding WBXML documents used in SyncML and other wireless applications",
                 "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/xml_wbxml",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Xml_Wbxml.git",
+                    "reference": "83b633a9701ca2067f41c28ef4bd4c5a26eca04a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Xml_Wbxml/zipball/83b633a9701ca2067f41c28ef4bd4c5a26eca04a",
+                    "reference": "83b633a9701ca2067f41c28ef4bd4c5a26eca04a",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Xml_Wbxml": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Xml\\Wbxml\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "WBXML library",
+                "homepage": "https://www.horde.org/libraries/Horde_Xml_Wbxml"
+            },
+            {
+                "name": "horde/xml_wbxml",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Xml_Wbxml.git",
+                    "reference": "5ee27971692451258303630b9580c893a1f318c3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Xml_Wbxml/zipball/5ee27971692451258303630b9580c893a1f318c3",
+                    "reference": "5ee27971692451258303630b9580c893a1f318c3",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Xml_Wbxml": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "WBXML library",
+                "homepage": "https://www.horde.org/libraries/Horde_Xml_Wbxml"
             }
         ]
     }

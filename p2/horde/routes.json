@@ -129,6 +129,107 @@
                 ],
                 "description": "Horde Routes URL mapping system",
                 "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/routes",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Routes.git",
+                    "reference": "7c77a53321e734ceea6e6dcdc3876fea7ae895cb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Routes/zipball/7c77a53321e734ceea6e6dcdc3876fea7ae895cb",
+                    "reference": "7c77a53321e734ceea6e6dcdc3876fea7ae895cb",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Routes": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Routes\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Naberezny",
+                        "email": "mike@maintainable.com",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "URL routing/mapping library",
+                "homepage": "https://www.horde.org/libraries/Horde_Routes"
+            },
+            {
+                "name": "horde/routes",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Routes.git",
+                    "reference": "5b37583c93a936d6f6fc82bbd7c7d8c28644e779"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Routes/zipball/5b37583c93a936d6f6fc82bbd7c7d8c28644e779",
+                    "reference": "5b37583c93a936d6f6fc82bbd7c7d8c28644e779",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Routes": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Naberezny",
+                        "email": "mike@maintainable.com",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "URL routing/mapping library",
+                "homepage": "https://www.horde.org/libraries/Horde_Routes"
             }
         ]
     }

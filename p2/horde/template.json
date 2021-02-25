@@ -82,6 +82,103 @@
                 ],
                 "description": "Horde Template System",
                 "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/template",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Template.git",
+                    "reference": "2324b5e8a66397ed3ac21e7b209eece5868f3be6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Template/zipball/2324b5e8a66397ed3ac21e7b209eece5868f3be6",
+                    "reference": "2324b5e8a66397ed3ac21e7b209eece5868f3be6",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Template": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Template\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Template library (deprecated)",
+                "homepage": "https://www.horde.org/libraries/Horde_Template"
+            },
+            {
+                "name": "horde/template",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Template.git",
+                    "reference": "a5fd7c29c76668f520befd9cd5db2c7953e58c9d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Template/zipball/a5fd7c29c76668f520befd9cd5db2c7953e58c9d",
+                    "reference": "a5fd7c29c76668f520befd9cd5db2c7953e58c9d",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Template": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Template library (deprecated)",
+                "homepage": "https://www.horde.org/libraries/Horde_Template"
             }
         ]
     }

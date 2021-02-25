@@ -209,6 +209,55 @@
                 ],
                 "description": "Blowfish encryption library",
                 "homepage": "https://www.horde.org/libraries/Horde_Crypt_Blowfish"
+            },
+            {
+                "name": "horde/crypt_blowfish",
+                "version": "2.0.0alpha1",
+                "version_normalized": "2.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Crypt_Blowfish.git",
+                    "reference": "e477e6c60220e968997ad8239545a36ba339b59f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Crypt_Blowfish/zipball/e477e6c60220e968997ad8239545a36ba339b59f",
+                    "reference": "e477e6c60220e968997ad8239545a36ba339b59f",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/support": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-mcrypt": "*",
+                    "ext-openssl": "*",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Crypt_Blowfish": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Crypt\\Blowfish\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Blowfish encryption library",
+                "homepage": "https://www.horde.org/libraries/Horde_Crypt_Blowfish"
             }
         ]
     }

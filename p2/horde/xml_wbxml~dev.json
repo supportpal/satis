@@ -102,6 +102,54 @@
             },
             {
                 "name": "horde/xml_wbxml",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Xml_Wbxml.git",
+                    "reference": "ff52f6da0afc2e9b2b94f74a3a7f0e92fe501708"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Xml_Wbxml/zipball/ff52f6da0afc2e9b2b94f74a3a7f0e92fe501708",
+                    "reference": "ff52f6da0afc2e9b2b94f74a3a7f0e92fe501708",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Xml_Wbxml": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "WBXML library",
+                "homepage": "https://www.horde.org/libraries/Horde_Xml_Wbxml"
+            },
+            {
+                "name": "horde/xml_wbxml",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

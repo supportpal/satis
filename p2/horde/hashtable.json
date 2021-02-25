@@ -357,6 +357,101 @@
                 ],
                 "description": "Horde Hash Table Interface",
                 "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/hashtable",
+                "version": "2.0.0alpha1",
+                "version_normalized": "2.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/HashTable.git",
+                    "reference": "9b4cc58eebeef5bb6b366f4b8412f27fb2fa35ce"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/HashTable/zipball/9b4cc58eebeef5bb6b366f4b8412f27fb2fa35ce",
+                    "reference": "9b4cc58eebeef5bb6b366f4b8412f27fb2fa35ce",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/log": "^3",
+                    "horde/memcache": "^3",
+                    "horde/vfs": "^3",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_HashTable": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\HashTable\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Hash table client library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/hashtable",
+                "version": "2.0.0alpha2",
+                "version_normalized": "2.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/HashTable.git",
+                    "reference": "fc1bee1490f2cf4006650e8b26d45c2d5455a07d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/HashTable/zipball/fc1bee1490f2cf4006650e8b26d45c2d5455a07d",
+                    "reference": "fc1bee1490f2cf4006650e8b26d45c2d5455a07d",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/log": "^3",
+                    "horde/memcache": "^3",
+                    "horde/vfs": "^3",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_HashTable": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Hash table client library",
+                "homepage": "https://www.horde.org"
             }
         ]
     }

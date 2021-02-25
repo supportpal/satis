@@ -141,6 +141,115 @@
                 ],
                 "description": "Horde Exception Handler",
                 "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/exception",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Exception.git",
+                    "reference": "3ffddfd65a819c79582d3b441b013f918fb66d66"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Exception/zipball/3ffddfd65a819c79582d3b441b013f918fb66d66",
+                    "reference": "3ffddfd65a819c79582d3b441b013f918fb66d66",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "*",
+                    "horde/translation": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Exception": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Exception\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Exception handler library",
+                "homepage": "https://www.horde.org/libraries/Horde_Exception"
+            },
+            {
+                "name": "horde/exception",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Exception.git",
+                    "reference": "654aaa358e491e186b448ae1a5446b2f19a235aa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Exception/zipball/654aaa358e491e186b448ae1a5446b2f19a235aa",
+                    "reference": "654aaa358e491e186b448ae1a5446b2f19a235aa",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "*",
+                    "horde/translation": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Exception": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Exception handler library",
+                "homepage": "https://www.horde.org/libraries/Horde_Exception"
             }
         ]
     }

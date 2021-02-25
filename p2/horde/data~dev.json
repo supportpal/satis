@@ -114,6 +114,60 @@
             },
             {
                 "name": "horde/data",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Data.git",
+                    "reference": "dfd4d2c0fe147cf1853e7dc48f4b7e126403a2e3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Data/zipball/dfd4d2c0fe147cf1853e7dc48f4b7e126403a2e3",
+                    "reference": "dfd4d2c0fe147cf1853e7dc48f4b7e126403a2e3",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/browser": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/icalendar": "^3",
+                    "horde/mail": "^3",
+                    "horde/mime": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Data": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Data import and export library",
+                "homepage": "https://www.horde.org/libraries/Horde_Data"
+            },
+            {
+                "name": "horde/data",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

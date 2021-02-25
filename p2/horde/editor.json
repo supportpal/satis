@@ -91,6 +91,103 @@
                 ],
                 "description": "Horde Editor API",
                 "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/editor",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Editor.git",
+                    "reference": "db8ab20df7b41015394b90b1cb7bef85b94b36d4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Editor/zipball/db8ab20df7b41015394b90b1cb7bef85b94b36d4",
+                    "reference": "db8ab20df7b41015394b90b1cb7bef85b94b36d4",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/browser": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/serialize": "^3",
+                    "php": "^7"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Editor": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Editor\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "WYSIWYG editor library",
+                "homepage": "https://www.horde.org/libraries/Horde_Editor"
+            },
+            {
+                "name": "horde/editor",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Editor.git",
+                    "reference": "c36391527889fd673c6dee524dd33bb56bac424d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Editor/zipball/c36391527889fd673c6dee524dd33bb56bac424d",
+                    "reference": "c36391527889fd673c6dee524dd33bb56bac424d",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/browser": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/serialize": "^3",
+                    "php": "^7"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Editor": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "WYSIWYG editor library",
+                "homepage": "https://www.horde.org/libraries/Horde_Editor"
             }
         ]
     }

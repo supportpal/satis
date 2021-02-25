@@ -96,6 +96,51 @@
             },
             {
                 "name": "horde/xml_element",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Xml_Element.git",
+                    "reference": "3aaad2f2361433cbea5f5b26e35181caeb3d8c2f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Xml_Element/zipball/3aaad2f2361433cbea5f5b26e35181caeb3d8c2f",
+                    "reference": "3aaad2f2361433cbea5f5b26e35181caeb3d8c2f",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Xml_Element": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "XML element library",
+                "homepage": "https://www.horde.org/libraries/Horde_Xml_Element"
+            },
+            {
+                "name": "horde/xml_element",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

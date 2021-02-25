@@ -58,6 +58,119 @@
                 ],
                 "description": "Horde Tree API",
                 "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/tree",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Tree.git",
+                    "reference": "5520d82bb45cf13cb236f760ca5c3dba515bee96"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Tree/zipball/5520d82bb45cf13cb236f760ca5c3dba515bee96",
+                    "reference": "5520d82bb45cf13cb236f760ca5c3dba515bee96",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/url": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-gettext": "*"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Tree": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Tree\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Tree rendering library",
+                "homepage": "https://www.horde.org/libraries/Horde_Tree"
+            },
+            {
+                "name": "horde/tree",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Tree.git",
+                    "reference": "18634a414eb06f4df44359ff1624c3bdcec7aea4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Tree/zipball/18634a414eb06f4df44359ff1624c3bdcec7aea4",
+                    "reference": "18634a414eb06f4df44359ff1624c3bdcec7aea4",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/url": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-gettext": "*"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Tree": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Tree rendering library",
+                "homepage": "https://www.horde.org/libraries/Horde_Tree"
             }
         ]
     }

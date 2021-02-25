@@ -176,6 +176,109 @@
                 ],
                 "description": "Horde_SyncMl provides an API for processing SyncML requests",
                 "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/syncml",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/SyncMl.git",
+                    "reference": "e11d3b0678c82ef057e9bd702c478825da39c22f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/SyncMl/zipball/e11d3b0678c82ef057e9bd702c478825da39c22f",
+                    "reference": "e11d3b0678c82ef057e9bd702c478825da39c22f",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/date": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/icalendar": "^3",
+                    "horde/log": "^3",
+                    "horde/support": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "horde/xml_wbxml": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/auth": "^3",
+                    "horde/core": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_SyncMl": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\SyncMl\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "SyncML server library",
+                "homepage": "https://www.horde.org/libraries/Horde_SyncMl"
+            },
+            {
+                "name": "horde/syncml",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/SyncMl.git",
+                    "reference": "2f34d28cc62e3f3a2213c2b371585309b5511e89"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/SyncMl/zipball/2f34d28cc62e3f3a2213c2b371585309b5511e89",
+                    "reference": "2f34d28cc62e3f3a2213c2b371585309b5511e89",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/date": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/icalendar": "^3",
+                    "horde/log": "^3",
+                    "horde/support": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "horde/xml_wbxml": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/auth": "^3",
+                    "horde/core": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_SyncMl": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "SyncML server library",
+                "homepage": "https://www.horde.org/libraries/Horde_SyncMl"
             }
         ]
     }

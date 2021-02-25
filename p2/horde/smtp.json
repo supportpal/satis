@@ -741,6 +741,109 @@
                 ],
                 "description": "Horde SMTP Client",
                 "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/smtp",
+                "version": "2.0.0alpha1",
+                "version_normalized": "2.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Smtp.git",
+                    "reference": "2ef87696e03af4160374a1e92bd2775212926037"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Smtp/zipball/2ef87696e03af4160374a1e92bd2775212926037",
+                    "reference": "2ef87696e03af4160374a1e92bd2775212926037",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/mail": "^3",
+                    "horde/socket_client": "^3",
+                    "horde/support": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/imap_client": "^3",
+                    "horde/secret": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Smtp": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Smtp\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "SMTP client library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/smtp",
+                "version": "2.0.0alpha2",
+                "version_normalized": "2.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Smtp.git",
+                    "reference": "20eee1ca76d82c306b7cce9049a9de5f9b0ee954"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Smtp/zipball/20eee1ca76d82c306b7cce9049a9de5f9b0ee954",
+                    "reference": "20eee1ca76d82c306b7cce9049a9de5f9b0ee954",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/mail": "^3",
+                    "horde/socket_client": "^3",
+                    "horde/support": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/imap_client": "^3",
+                    "horde/secret": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Smtp": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "SMTP client library",
+                "homepage": "https://www.horde.org"
             }
         ]
     }

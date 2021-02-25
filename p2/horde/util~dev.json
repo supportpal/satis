@@ -128,6 +128,67 @@
             },
             {
                 "name": "horde/util",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Util.git",
+                    "reference": "2b989dae1046d9c2e2b4a520f15153a7763a139e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Util/zipball/2b989dae1046d9c2e2b4a520f15153a7763a139e",
+                    "reference": "2b989dae1046d9c2e2b4a520f15153a7763a139e",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-ctype": "*",
+                    "ext-filter": "*",
+                    "ext-iconv": "*",
+                    "ext-intl": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "ext-xml": "*",
+                    "horde/imap_client": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "classmap": [
+                        "lib/"
+                    ]
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Utility library",
+                "homepage": "https://www.horde.org/libraries/Horde_Util"
+            },
+            {
+                "name": "horde/util",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

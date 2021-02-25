@@ -92,6 +92,49 @@
             },
             {
                 "name": "horde/translation",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Translation.git",
+                    "reference": "996da443ddde0b0b9673d8a0670c1e8b08ac85f3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Translation/zipball/996da443ddde0b0b9673d8a0670c1e8b08ac85f3",
+                    "reference": "996da443ddde0b0b9673d8a0670c1e8b08ac85f3",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-gettext": "*",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Translation": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Translation library",
+                "homepage": "https://www.horde.org/libraries/Horde_Translation"
+            },
+            {
+                "name": "horde/translation",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

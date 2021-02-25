@@ -98,6 +98,52 @@
             },
             {
                 "name": "horde/hashtable",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/HashTable.git",
+                    "reference": "63a3ae9c632f935e39b5bd803e14b521e9e9ed3a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/HashTable/zipball/63a3ae9c632f935e39b5bd803e14b521e9e9ed3a",
+                    "reference": "63a3ae9c632f935e39b5bd803e14b521e9e9ed3a",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/log": "^3",
+                    "horde/memcache": "^3",
+                    "horde/vfs": "^3",
+                    "predis/predis": "^1.1"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_HashTable": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Hash table client library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/hashtable",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

@@ -315,6 +315,111 @@
                 ],
                 "description": "Horde HTTP libraries",
                 "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/http",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Http.git",
+                    "reference": "82511561775fd7ab828ad4e7c6f359b8b65c1f46"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Http/zipball/82511561775fd7ab828ad4e7c6f359b8b65c1f46",
+                    "reference": "82511561775fd7ab828ad4e7c6f359b8b65c1f46",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/support": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-curl": "*",
+                    "ext-http": "*",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Http": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Http\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "HTTP client library",
+                "homepage": "https://www.horde.org/libraries/Horde_Http"
+            },
+            {
+                "name": "horde/http",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Http.git",
+                    "reference": "f2498e3e519d7864d3c735971a6e7395941d1007"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Http/zipball/f2498e3e519d7864d3c735971a6e7395941d1007",
+                    "reference": "f2498e3e519d7864d3c735971a6e7395941d1007",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/support": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-curl": "*",
+                    "ext-http": "*",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Http": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "HTTP client library",
+                "homepage": "https://www.horde.org/libraries/Horde_Http"
             }
         ]
     }

@@ -100,6 +100,53 @@
             },
             {
                 "name": "horde/service_weather",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Service_Weather.git",
+                    "reference": "dd7ba28683323012ef711cd59746ca63b1b83e8f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Service_Weather/zipball/dd7ba28683323012ef711cd59746ca63b1b83e8f",
+                    "reference": "dd7ba28683323012ef711cd59746ca63b1b83e8f",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/date": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/http": "^3",
+                    "horde/translation": "^3",
+                    "horde/url": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Service_Weather": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Weather service library",
+                "homepage": "https://www.horde.org/libraries/Horde_Service_Weather"
+            },
+            {
+                "name": "horde/service_weather",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

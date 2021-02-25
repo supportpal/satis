@@ -224,6 +224,111 @@
                 ],
                 "description": "iTip invitation response handling",
                 "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/itip",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Itip.git",
+                    "reference": "57e7ce848ea05149e762d2a534efb076daf3af5a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Itip/zipball/57e7ce848ea05149e762d2a534efb076daf3af5a",
+                    "reference": "57e7ce848ea05149e762d2a534efb076daf3af5a",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "*",
+                    "horde/icalendar": "^3",
+                    "horde/mime": "^3",
+                    "horde/translation": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/prefs": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Itip": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Itip\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "iTip invitation response library",
+                "homepage": "https://www.horde.org/libraries/Horde_Itip"
+            },
+            {
+                "name": "horde/itip",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Itip.git",
+                    "reference": "fb1485be40fed361fd1bd2fbf4168ec5ce62e68a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Itip/zipball/fb1485be40fed361fd1bd2fbf4168ec5ce62e68a",
+                    "reference": "fb1485be40fed361fd1bd2fbf4168ec5ce62e68a",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "*",
+                    "horde/icalendar": "^3",
+                    "horde/mime": "^3",
+                    "horde/translation": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/prefs": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Itip": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "iTip invitation response library",
+                "homepage": "https://www.horde.org/libraries/Horde_Itip"
             }
         ]
     }

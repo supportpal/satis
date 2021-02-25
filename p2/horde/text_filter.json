@@ -274,6 +274,68 @@
                 ],
                 "description": "Text filtering and conversion library",
                 "homepage": "https://www.horde.org/libraries/Horde_Text_Filter"
+            },
+            {
+                "name": "horde/text_filter",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Filter.git",
+                    "reference": "db74527db1eaae05f7682f55e6ff2e96fae99a74"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/db74527db1eaae05f7682f55e6ff2e96fae99a74",
+                    "reference": "db74527db1eaae05f7682f55e6ff2e96fae99a74",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/idna": "^2",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-tidy": "*",
+                    "horde/test": "^3",
+                    "horde/text_filter_jsmin": "^2",
+                    "horde/text_flowed": "^3",
+                    "horde/translation": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Text_Filter": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Text\\Filter\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Text filtering and conversion library",
+                "homepage": "https://www.horde.org/libraries/Horde_Text_Filter"
             }
         ]
     }

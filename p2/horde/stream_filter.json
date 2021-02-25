@@ -82,6 +82,103 @@
                 ],
                 "description": "Horde Stream filters",
                 "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/stream_filter",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Stream_Filter.git",
+                    "reference": "3408a235ff0b5ec831fdf6bf7d2af39581ebc8d0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream_Filter/zipball/3408a235ff0b5ec831fdf6bf7d2af39581ebc8d0",
+                    "reference": "3408a235ff0b5ec831fdf6bf7d2af39581ebc8d0",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Stream_Filter": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Stream\\Filter\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "PHP stream filters library",
+                "homepage": "https://www.horde.org/libraries/Horde_Stream_Filter"
+            },
+            {
+                "name": "horde/stream_filter",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Stream_Filter.git",
+                    "reference": "bb09d20f3dd6c88bab3ebb6f289324f6b769c2f5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream_Filter/zipball/bb09d20f3dd6c88bab3ebb6f289324f6b769c2f5",
+                    "reference": "bb09d20f3dd6c88bab3ebb6f289324f6b769c2f5",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Stream_Filter": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "PHP stream filters library",
+                "homepage": "https://www.horde.org/libraries/Horde_Stream_Filter"
             }
         ]
     }

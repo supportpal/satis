@@ -7,7 +7,7 @@
                 "version_normalized": "2.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Cli_Modular.git",
+                    "url": "git@github.com:maintaina-com/Cli_Modular.git",
                     "reference": "b2e7a87fe4d5abd13a6ed019f21775c910375783"
                 },
                 "dist": {
@@ -36,10 +36,7 @@
                     }
                 ],
                 "description": "A toolset for CLI interfaces that are modular.",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Cli_Modular/tree/v2.0.3"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/cli_modular",
@@ -47,7 +44,7 @@
                 "version_normalized": "2.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Cli_Modular.git",
+                    "url": "git@github.com:maintaina-com/Cli_Modular.git",
                     "reference": "e05f699053c78b7548cbcd4ae0ef489ad0ddc8b6"
                 },
                 "dist": {
@@ -76,10 +73,7 @@
                     }
                 ],
                 "description": "A toolset for CLI interfaces that are modular.",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Cli_Modular/tree/v2.0.4"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/cli_modular",
@@ -87,7 +81,7 @@
                 "version_normalized": "2.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Cli_Modular.git",
+                    "url": "git@github.com:maintaina-com/Cli_Modular.git",
                     "reference": "aa174895878ba643ea3e00109b052ca82e440a40"
                 },
                 "dist": {
@@ -130,10 +124,106 @@
                     }
                 ],
                 "description": "A toolset for CLI interfaces that are modular.",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Cli_Modular/tree/v2.1.0"
-                }
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/cli_modular",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Cli_Modular.git",
+                    "reference": "6554f383fc2ad35ee66f348dbfd7aaea31fb20cb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Cli_Modular/zipball/6554f383fc2ad35ee66f348dbfd7aaea31fb20cb",
+                    "reference": "6554f383fc2ad35ee66f348dbfd7aaea31fb20cb",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/argv": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Cli_Modular": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Cli\\Modular\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Modular command line interface library",
+                "homepage": "https://www.horde.org/libraries/Horde_Cli_Modular"
+            },
+            {
+                "name": "horde/cli_modular",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Cli_Modular.git",
+                    "reference": "cfdcb42008e5b98d7e4b15d2536162acec51782d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Cli_Modular/zipball/cfdcb42008e5b98d7e4b15d2536162acec51782d",
+                    "reference": "cfdcb42008e5b98d7e4b15d2536162acec51782d",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/argv": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Cli_Modular": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Modular command line interface library",
+                "homepage": "https://www.horde.org/libraries/Horde_Cli_Modular"
             }
         ]
     }

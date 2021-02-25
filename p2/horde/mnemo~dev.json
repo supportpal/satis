@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "cde2e8c9859bb974c63010354e46da46f8b640a3"
                 },
                 "dist": {
@@ -76,10 +76,7 @@
                     }
                 ],
                 "description": "Notes application",
-                "homepage": "https://www.horde.org/apps/mnemo",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/master"
-                }
+                "homepage": "https://www.horde.org/apps/mnemo"
             },
             {
                 "name": "horde/mnemo",
@@ -87,7 +84,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "e62bd5dd3d78b415c487ac94d5d17616fda89a56"
                 },
                 "dist": {
@@ -142,10 +139,7 @@
                     }
                 ],
                 "description": "A web based notes manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/FRAMEWORK_5_1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/mnemo",
@@ -153,7 +147,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "1e70278a7bff58d07556dc7fb861ba3c7664e006"
                 },
                 "dist": {
@@ -218,10 +212,84 @@
                     }
                 ],
                 "description": "Notes application",
-                "homepage": "https://www.horde.org/apps/mnemo",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/FRAMEWORK_5_2"
-                }
+                "homepage": "https://www.horde.org/apps/mnemo"
+            },
+            {
+                "name": "horde/mnemo",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
+                    "reference": "fb7672f5b568c96110d086ebb9afbdcf590e174e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/mnemo/zipball/fb7672f5b568c96110d086ebb9afbdcf590e174e",
+                    "reference": "fb7672f5b568c96110d086ebb9afbdcf590e174e",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "horde/auth": "^3",
+                    "horde/content": "^3",
+                    "horde/core": "^3",
+                    "horde/data": "^3",
+                    "horde/exception": "^3",
+                    "horde/form": "^3",
+                    "horde/group": "^3",
+                    "horde/history": "^3",
+                    "horde/horde": "^6",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/icalendar": "^3",
+                    "horde/injector": "^3",
+                    "horde/perms": "^3",
+                    "horde/prefs": "^3",
+                    "horde/share": "^3",
+                    "horde/support": "^3",
+                    "horde/text_filter": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/activesync": "^3",
+                    "horde/backup": "^2",
+                    "horde/cli": "^3",
+                    "horde/crypt": "^3",
+                    "horde/db": "^3",
+                    "horde/pdf": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "bin": [
+                    "bin/mnemo-convert-datatree-shares-to-sql",
+                    "bin/mnemo-convert-sql-shares-to-sqlng",
+                    "bin/mnemo-convert-to-utf8",
+                    "bin/mnemo-import-text-note"
+                ],
+                "type": "horde-application",
+                "autoload": {
+                    "psr-0": {
+                        "Mnemo": "lib/"
+                    }
+                },
+                "license": [
+                    "ASL"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Notes application",
+                "homepage": "https://www.horde.org/apps/mnemo"
             },
             {
                 "name": "horde/mnemo",
@@ -229,7 +297,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "2489d4f434f3ecd8cef7078f98fd2ba6f72c22bd"
                 },
                 "dist": {
@@ -295,10 +363,7 @@
                     }
                 ],
                 "description": "Notes application",
-                "homepage": "https://www.horde.org/apps/mnemo",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org/apps/mnemo"
             },
             {
                 "name": "horde/mnemo",
@@ -306,7 +371,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "2489d4f434f3ecd8cef7078f98fd2ba6f72c22bd"
                 },
                 "dist": {
@@ -372,10 +437,7 @@
                     }
                 ],
                 "description": "Notes application",
-                "homepage": "https://www.horde.org/apps/mnemo",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org/apps/mnemo"
             },
             {
                 "name": "horde/mnemo",
@@ -383,7 +445,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "898557b1a4bf7d326ab1a675799261a41ad0b68b"
                 },
                 "dist": {
@@ -452,10 +514,7 @@
                     }
                 ],
                 "description": "Notes application",
-                "homepage": "https://www.horde.org/apps/mnemo",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/maintaina-composerfixed"
-                }
+                "homepage": "https://www.horde.org/apps/mnemo"
             }
         ]
     }

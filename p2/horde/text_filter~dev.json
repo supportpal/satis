@@ -124,6 +124,68 @@
             },
             {
                 "name": "horde/text_filter",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Filter.git",
+                    "reference": "5c2d24f71cc34b42f2241968d3899043959c520d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/5c2d24f71cc34b42f2241968d3899043959c520d",
+                    "reference": "5c2d24f71cc34b42f2241968d3899043959c520d",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/idna": "^2",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-tidy": "*",
+                    "horde/test": "^3",
+                    "horde/text_filter_jsmin": "^2",
+                    "horde/text_flowed": "^3",
+                    "horde/translation": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Text_Filter": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Text\\Filter\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Text filtering and conversion library",
+                "homepage": "https://www.horde.org/libraries/Horde_Text_Filter"
+            },
+            {
+                "name": "horde/text_filter",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

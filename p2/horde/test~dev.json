@@ -110,6 +110,58 @@
             },
             {
                 "name": "horde/test",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Test.git",
+                    "reference": "73d552652f9ee7a0e5f780958cf3cb3f6e115888"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/73d552652f9ee7a0e5f780958cf3cb3f6e115888",
+                    "reference": "73d552652f9ee7a0e5f780958cf3cb3f6e115888",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "*",
+                    "horde/support": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "horde/cli": "^3",
+                    "horde/log": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Test": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Unit testing library",
+                "homepage": "https://www.horde.org/libraries/Horde_Test"
+            },
+            {
+                "name": "horde/test",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

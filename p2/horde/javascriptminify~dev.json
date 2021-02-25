@@ -90,6 +90,48 @@
             },
             {
                 "name": "horde/javascriptminify",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/JavascriptMinify.git",
+                    "reference": "bac7eba32f7f25ee27786b106ba6bc00e17d2722"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/JavascriptMinify/zipball/bac7eba32f7f25ee27786b106ba6bc00e17d2722",
+                    "reference": "bac7eba32f7f25ee27786b106ba6bc00e17d2722",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/log": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_JavascriptMinify": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "JavaScript minification library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/javascriptminify",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

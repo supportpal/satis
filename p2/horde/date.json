@@ -616,6 +616,113 @@
                 ],
                 "description": "Horde Date package",
                 "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/date",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Date.git",
+                    "reference": "694fb03ad5358e5b15ef1321f6b8e3f853865f18"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Date/zipball/694fb03ad5358e5b15ef1321f6b8e3f853865f18",
+                    "reference": "694fb03ad5358e5b15ef1321f6b8e3f853865f18",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/nls": "^3",
+                    "horde/translation": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-calendar": "*",
+                    "horde/icalendar": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Date": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Date\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Date library",
+                "homepage": "https://www.horde.org/libraries/Horde_Date"
+            },
+            {
+                "name": "horde/date",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Date.git",
+                    "reference": "87af349ad37e79526c8c04734cebc9ba42c0fa1d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Date/zipball/87af349ad37e79526c8c04734cebc9ba42c0fa1d",
+                    "reference": "87af349ad37e79526c8c04734cebc9ba42c0fa1d",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/nls": "^3",
+                    "horde/translation": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-calendar": "*",
+                    "horde/icalendar": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Date": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Date library",
+                "homepage": "https://www.horde.org/libraries/Horde_Date"
             }
         ]
     }

@@ -231,6 +231,111 @@
                 ],
                 "description": "Text diff generation and rendering library",
                 "homepage": "https://www.horde.org/libraries/Horde_Text_Diff"
+            },
+            {
+                "name": "horde/text_diff",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Diff.git",
+                    "reference": "7ce41a6a55df17b231fc1a0d0364c86a538b0188"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Diff/zipball/7ce41a6a55df17b231fc1a0d0364c86a538b0188",
+                    "reference": "7ce41a6a55df17b231fc1a0d0364c86a538b0188",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-xdiff": "*",
+                    "horde/cli": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Text_Diff": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Text\\Diff\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Text diff generation and rendering library",
+                "homepage": "https://www.horde.org/libraries/Horde_Text_Diff"
+            },
+            {
+                "name": "horde/text_diff",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Text_Diff.git",
+                    "reference": "ebdb28e8538d2a16e524a186e2bca8ac3b717c9b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Diff/zipball/ebdb28e8538d2a16e524a186e2bca8ac3b717c9b",
+                    "reference": "ebdb28e8538d2a16e524a186e2bca8ac3b717c9b",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-xdiff": "*",
+                    "horde/cli": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Text_Diff": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Text diff generation and rendering library",
+                "homepage": "https://www.horde.org/libraries/Horde_Text_Diff"
             }
         ]
     }

@@ -98,6 +98,52 @@
             },
             {
                 "name": "horde/history",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/History.git",
+                    "reference": "62c7bfee4e3c4e3219376a384391414986c2571f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/History/zipball/62c7bfee4e3c4e3219376a384391414986c2571f",
+                    "reference": "62c7bfee4e3c4e3219376a384391414986c2571f",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/db": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/hashtable": "^2",
+                    "horde/mongo": "^2",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_History": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "History tracking library",
+                "homepage": "https://www.horde.org/libraries/Horde_History"
+            },
+            {
+                "name": "horde/history",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

@@ -114,6 +114,60 @@
             },
             {
                 "name": "horde/form",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Form.git",
+                    "reference": "f8eb5659fb489f07d2822f318025c2443681b591"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Form/zipball/f8eb5659fb489f07d2822f318025c2443681b591",
+                    "reference": "f8eb5659fb489f07d2822f318025c2443681b591",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "horde/core": "^3",
+                    "horde/date": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/mail": "^3",
+                    "horde/mime": "^3",
+                    "horde/nls": "^3",
+                    "horde/token": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "classmap": [
+                        "lib/"
+                    ]
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Form library",
+                "homepage": "https://www.horde.org/libraries/Horde_Form"
+            },
+            {
+                "name": "horde/form",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

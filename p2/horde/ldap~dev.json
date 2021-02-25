@@ -106,6 +106,56 @@
             },
             {
                 "name": "horde/ldap",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Ldap.git",
+                    "reference": "b8217a2593475ff78dbad3144d1956d08790fe5d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Ldap/zipball/b8217a2593475ff78dbad3144d1956d08790fe5d",
+                    "reference": "b8217a2593475ff78dbad3144d1956d08790fe5d",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ldap": "*",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Ldap": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Klang",
+                        "email": "ben@alkaloid.net",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "LDAP client library",
+                "homepage": "https://www.horde.org/libraries/Horde_Ldap"
+            },
+            {
+                "name": "horde/ldap",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

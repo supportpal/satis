@@ -90,6 +90,48 @@
             },
             {
                 "name": "horde/scheduler",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Scheduler.git",
+                    "reference": "5fc98678fad558e2fac463c0c677d1d3feebab9b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Scheduler/zipball/5fc98678fad558e2fac463c0c677d1d3feebab9b",
+                    "reference": "5fc98678fad558e2fac463c0c677d1d3feebab9b",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/core": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "horde/vfs": "^3",
+                    "php": "^7"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Scheduler": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Scheduling library",
+                "homepage": "https://www.horde.org/libraries/Horde_Scheduler"
+            },
+            {
+                "name": "horde/scheduler",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

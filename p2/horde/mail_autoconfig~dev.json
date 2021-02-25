@@ -98,6 +98,52 @@
             },
             {
                 "name": "horde/mail_autoconfig",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mail_Autoconfig.git",
+                    "reference": "c0cb28adb5a3195a1ebc3bd8ddf1ce26775b5619"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail_Autoconfig/zipball/c0cb28adb5a3195a1ebc3bd8ddf1ce26775b5619",
+                    "reference": "c0cb28adb5a3195a1ebc3bd8ddf1ce26775b5619",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-simplexml": "*",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/http": "^3",
+                    "horde/imap_client": "^3",
+                    "horde/mail": "^3",
+                    "horde/smtp": "^2",
+                    "pear/net_dns2": "^1.5",
+                    "php": "^7"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Mail_Autoconfig": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Mail server autoconfiguration library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/mail_autoconfig",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

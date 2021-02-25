@@ -7,7 +7,7 @@
                 "version_normalized": "2.4.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Cache.git",
+                    "url": "git@github.com:maintaina-com/Cache.git",
                     "reference": "7a031999ae6dc230ab259e6b6dbd02beda5402c1"
                 },
                 "dist": {
@@ -50,10 +50,7 @@
                     }
                 ],
                 "description": "Horde Caching API",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Cache/tree/v2.4.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/cache",
@@ -61,7 +58,7 @@
                 "version_normalized": "2.4.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Cache.git",
+                    "url": "git@github.com:maintaina-com/Cache.git",
                     "reference": "9993ead6a64be827e75255b3e55e2454f262da3d"
                 },
                 "dist": {
@@ -104,10 +101,7 @@
                     }
                 ],
                 "description": "Horde Caching API",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Cache/tree/v2.4.1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/cache",
@@ -115,7 +109,7 @@
                 "version_normalized": "2.5.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Cache.git",
+                    "url": "git@github.com:maintaina-com/Cache.git",
                     "reference": "dc55a3735faa6521844cca7b3e39bda97d570e01"
                 },
                 "dist": {
@@ -158,10 +152,7 @@
                     }
                 ],
                 "description": "Horde Caching API",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Cache/tree/v2.5.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/cache",
@@ -169,7 +160,7 @@
                 "version_normalized": "2.5.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Cache.git",
+                    "url": "git@github.com:maintaina-com/Cache.git",
                     "reference": "42b1ed24ac0b9e5001230f6f1a5b011a2db5080b"
                 },
                 "dist": {
@@ -212,10 +203,7 @@
                     }
                 ],
                 "description": "Horde Caching API",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Cache/tree/v2.5.1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/cache",
@@ -223,7 +211,7 @@
                 "version_normalized": "2.5.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Cache.git",
+                    "url": "git@github.com:maintaina-com/Cache.git",
                     "reference": "2be7aaf14fc5d91b2ee7f31be70492d97647c843"
                 },
                 "dist": {
@@ -267,10 +255,7 @@
                     }
                 ],
                 "description": "Horde Caching API",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Cache/tree/v2.5.2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/cache",
@@ -278,7 +263,7 @@
                 "version_normalized": "2.5.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Cache.git",
+                    "url": "git@github.com:maintaina-com/Cache.git",
                     "reference": "bdaeec6e889feeeb25580ef50e2dc259edf0279a"
                 },
                 "dist": {
@@ -322,10 +307,7 @@
                     }
                 ],
                 "description": "Horde Caching API",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Cache/tree/v2.5.3"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/cache",
@@ -333,7 +315,7 @@
                 "version_normalized": "2.5.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Cache.git",
+                    "url": "git@github.com:maintaina-com/Cache.git",
                     "reference": "db928e4302a0f8fab2e182dfcabd6659595af903"
                 },
                 "dist": {
@@ -377,10 +359,7 @@
                     }
                 ],
                 "description": "Horde Caching API",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Cache/tree/v2.5.4"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/cache",
@@ -388,7 +367,7 @@
                 "version_normalized": "2.5.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Cache.git",
+                    "url": "git@github.com:maintaina-com/Cache.git",
                     "reference": "3f923e882a3b8ecb47fd52935698095f7e7a4e4b"
                 },
                 "dist": {
@@ -432,10 +411,126 @@
                     }
                 ],
                 "description": "Horde Caching API",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Cache/tree/v2.5.5"
-                }
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/cache",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Cache.git",
+                    "reference": "ec426bbc473677d15dd3e68295f1b4267bf446f0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Cache/zipball/ec426bbc473677d15dd3e68295f1b4267bf446f0",
+                    "reference": "ec426bbc473677d15dd3e68295f1b4267bf446f0",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "horde/compress_fast": "^2",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-apc": "*",
+                    "ext-eaccelerator": "0.9.5",
+                    "ext-xcache": "*",
+                    "horde/,emcache": "^3",
+                    "horde/db": "^3",
+                    "horde/hashtable": "^2",
+                    "horde/log": "^3",
+                    "horde/mongo": "^2"
+                },
+                "time": "2021-02-23T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Cache": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Cache\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Caching library",
+                "homepage": "https://www.horde.org/libraries/Horde_Cache"
+            },
+            {
+                "name": "horde/cache",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Cache.git",
+                    "reference": "a790752e3851c4411bc08f0bcada3829e411a6e2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Cache/zipball/a790752e3851c4411bc08f0bcada3829e411a6e2",
+                    "reference": "a790752e3851c4411bc08f0bcada3829e411a6e2",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "horde/compress_fast": "^2",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-apc": "*",
+                    "ext-eaccelerator": "0.9.5",
+                    "ext-xcache": "*",
+                    "horde/,emcache": "^3",
+                    "horde/db": "^3",
+                    "horde/hashtable": "^2",
+                    "horde/log": "^3",
+                    "horde/mongo": "^2"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Cache": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Caching library",
+                "homepage": "https://www.horde.org/libraries/Horde_Cache"
             }
         ]
     }

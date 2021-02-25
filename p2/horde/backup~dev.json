@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Backup.git",
+                    "url": "git@github.com:maintaina-com/Backup.git",
                     "reference": "428fbbf8f60eee4bffc3c8c70d83804f37d3f19e"
                 },
                 "dist": {
@@ -45,10 +45,7 @@
                     }
                 ],
                 "description": "Backup and restore library",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Backup/tree/master"
-                }
+                "homepage": "https://www.horde.org"
             },
             {
                 "name": "horde/backup",
@@ -56,7 +53,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Backup.git",
+                    "url": "git@github.com:maintaina-com/Backup.git",
                     "reference": "914b5bb7daa201f79b312973f5115327f9c04cfc"
                 },
                 "dist": {
@@ -97,10 +94,53 @@
                     }
                 ],
                 "description": "Backup and restore library",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Backup/tree/FRAMEWORK_5_2"
-                }
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/backup",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Backup.git",
+                    "reference": "39fa3112679143553146f822efbde9ab440996a6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Backup/zipball/39fa3112679143553146f822efbde9ab440996a6",
+                    "reference": "39fa3112679143553146f822efbde9ab440996a6",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/compress": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/pack": "^2",
+                    "horde/translation": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Backup": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Backup and restore library",
+                "homepage": "https://www.horde.org"
             },
             {
                 "name": "horde/backup",
@@ -108,7 +148,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Backup.git",
+                    "url": "git@github.com:maintaina-com/Backup.git",
                     "reference": "3d74cd0a0f3246c7485f0b361f6c1c182efbac62"
                 },
                 "dist": {
@@ -149,10 +189,7 @@
                     }
                 ],
                 "description": "Backup and restore library",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Backup/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org"
             },
             {
                 "name": "horde/backup",
@@ -160,7 +197,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Backup.git",
+                    "url": "git@github.com:maintaina-com/Backup.git",
                     "reference": "3d74cd0a0f3246c7485f0b361f6c1c182efbac62"
                 },
                 "dist": {
@@ -201,10 +238,7 @@
                     }
                 ],
                 "description": "Backup and restore library",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Backup/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org"
             },
             {
                 "name": "horde/backup",
@@ -212,7 +246,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Backup.git",
+                    "url": "git@github.com:maintaina-com/Backup.git",
                     "reference": "58babe7982105103a63ec6502b9f3b9616f645de"
                 },
                 "dist": {
@@ -250,10 +284,7 @@
                     }
                 ],
                 "description": "Backup and restore library",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Backup/tree/maintaina-composerfixed"
-                }
+                "homepage": "https://www.horde.org"
             }
         ]
     }

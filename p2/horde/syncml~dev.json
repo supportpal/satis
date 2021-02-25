@@ -106,6 +106,56 @@
             },
             {
                 "name": "horde/syncml",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/SyncMl.git",
+                    "reference": "85d3bccb3626de4629dd8869cdcd38c763e287f0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/SyncMl/zipball/85d3bccb3626de4629dd8869cdcd38c763e287f0",
+                    "reference": "85d3bccb3626de4629dd8869cdcd38c763e287f0",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/date": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/icalendar": "^3",
+                    "horde/log": "^3",
+                    "horde/support": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "horde/xml_wbxml": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/auth": "^3",
+                    "horde/core": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_SyncMl": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "SyncML server library",
+                "homepage": "https://www.horde.org/libraries/Horde_SyncMl"
+            },
+            {
+                "name": "horde/syncml",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

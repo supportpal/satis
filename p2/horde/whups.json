@@ -7,7 +7,7 @@
                 "version_normalized": "3.0.0.0-RC3",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/whups.git",
+                    "url": "git@github.com:maintaina-com/whups.git",
                     "reference": "8603ef916d17e7c69732e9e8a37ed74c9bf5cc2f"
                 },
                 "dist": {
@@ -62,10 +62,7 @@
                     }
                 ],
                 "description": "Ticket-tracking application",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.0rc3"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/whups",
@@ -73,7 +70,7 @@
                 "version_normalized": "3.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/whups.git",
+                    "url": "git@github.com:maintaina-com/whups.git",
                     "reference": "b5a359d31db9906f52cb7282d84be64fcf677d97"
                 },
                 "dist": {
@@ -128,10 +125,7 @@
                     }
                 ],
                 "description": "Ticket-tracking application",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/whups",
@@ -139,7 +133,7 @@
                 "version_normalized": "3.0.10.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/whups.git",
+                    "url": "git@github.com:maintaina-com/whups.git",
                     "reference": "c36f9af5956d51f3a885ad3ab08627f9b9a94be0"
                 },
                 "dist": {
@@ -203,10 +197,7 @@
                     }
                 ],
                 "description": "Ticket-tracking application",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.10"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/whups",
@@ -214,7 +205,7 @@
                 "version_normalized": "3.0.11.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/whups.git",
+                    "url": "git@github.com:maintaina-com/whups.git",
                     "reference": "eb50126d3f031cb72a85da9eb6df21c737adb3c3"
                 },
                 "dist": {
@@ -278,10 +269,7 @@
                     }
                 ],
                 "description": "Ticket-tracking application",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.11"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/whups",
@@ -289,7 +277,7 @@
                 "version_normalized": "3.0.12.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/whups.git",
+                    "url": "git@github.com:maintaina-com/whups.git",
                     "reference": "5a84bf32243c3676a1be72347ca0800758cd3882"
                 },
                 "dist": {
@@ -353,10 +341,7 @@
                     }
                 ],
                 "description": "Ticket-tracking application",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.12"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/whups",
@@ -364,7 +349,7 @@
                 "version_normalized": "3.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/whups.git",
+                    "url": "git@github.com:maintaina-com/whups.git",
                     "reference": "beb68fe721ca4502fc4e73b9510977e178f8e9e5"
                 },
                 "dist": {
@@ -419,10 +404,7 @@
                     }
                 ],
                 "description": "Ticket-tracking application",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/whups",
@@ -430,7 +412,7 @@
                 "version_normalized": "3.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/whups.git",
+                    "url": "git@github.com:maintaina-com/whups.git",
                     "reference": "810a79db9ea8360163b26ef8868976afae443760"
                 },
                 "dist": {
@@ -485,10 +467,7 @@
                     }
                 ],
                 "description": "Ticket-tracking application",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.3"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/whups",
@@ -496,7 +475,7 @@
                 "version_normalized": "3.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/whups.git",
+                    "url": "git@github.com:maintaina-com/whups.git",
                     "reference": "0f39fae97030ad73ea735f4349aa116f8ab84b62"
                 },
                 "dist": {
@@ -551,10 +530,7 @@
                     }
                 ],
                 "description": "Ticket-tracking application",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.4"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/whups",
@@ -562,7 +538,7 @@
                 "version_normalized": "3.0.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/whups.git",
+                    "url": "git@github.com:maintaina-com/whups.git",
                     "reference": "8cf63fef8d869d026b549eeea67764c8c2e1ff93"
                 },
                 "dist": {
@@ -617,10 +593,7 @@
                     }
                 ],
                 "description": "Ticket-tracking application",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.5"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/whups",
@@ -628,7 +601,7 @@
                 "version_normalized": "3.0.6.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/whups.git",
+                    "url": "git@github.com:maintaina-com/whups.git",
                     "reference": "fbfe3adc7c3aa9da241260a108c838f09169858a"
                 },
                 "dist": {
@@ -683,10 +656,7 @@
                     }
                 ],
                 "description": "Ticket-tracking application",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.6"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/whups",
@@ -694,7 +664,7 @@
                 "version_normalized": "3.0.7.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/whups.git",
+                    "url": "git@github.com:maintaina-com/whups.git",
                     "reference": "f85092429b2ebcf7047b07a0f63f29ce3ec28a59"
                 },
                 "dist": {
@@ -749,10 +719,7 @@
                     }
                 ],
                 "description": "Ticket-tracking application",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.7"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/whups",
@@ -760,7 +727,7 @@
                 "version_normalized": "3.0.8.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/whups.git",
+                    "url": "git@github.com:maintaina-com/whups.git",
                     "reference": "8d875bcb0ac23263eca4f5f6dc427d476028e529"
                 },
                 "dist": {
@@ -815,10 +782,7 @@
                     }
                 ],
                 "description": "Ticket-tracking application",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.8"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/whups",
@@ -826,7 +790,7 @@
                 "version_normalized": "3.0.9.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/whups.git",
+                    "url": "git@github.com:maintaina-com/whups.git",
                     "reference": "5b44bcff8acb61b1f449db1e106c1bf06f3fa88e"
                 },
                 "dist": {
@@ -881,10 +845,170 @@
                     }
                 ],
                 "description": "Ticket-tracking application",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/whups/tree/v3.0.9"
-                }
+                "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/whups",
+                "version": "4.0.0alpha1",
+                "version_normalized": "4.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/whups.git",
+                    "reference": "1a1052bc38b1cb55a712699d026294f25d2f8898"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/whups/zipball/1a1052bc38b1cb55a712699d026294f25d2f8898",
+                    "reference": "1a1052bc38b1cb55a712699d026294f25d2f8898",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "horde/auth": "^3",
+                    "horde/autoloader": "^3",
+                    "horde/compress": "^3",
+                    "horde/core": "^3",
+                    "horde/date": "^3",
+                    "horde/db": "^3",
+                    "horde/exception": "^3",
+                    "horde/form": "^3",
+                    "horde/group": "^3",
+                    "horde/horde": "^6",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/mail": "^3",
+                    "horde/mime": "^3",
+                    "horde/mime_viewer": "^3",
+                    "horde/notification": "^3",
+                    "horde/perms": "^3",
+                    "horde/prefs": "^3",
+                    "horde/scheduler": "^3",
+                    "horde/share": "^3",
+                    "horde/support": "^3",
+                    "horde/text_filter": "^3",
+                    "horde/util": "^3",
+                    "horde/vfs": "^3",
+                    "horde/view": "^3",
+                    "php": "^7"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "bin": [
+                    "bin/whups-bugzilla-import",
+                    "bin/whups-convert-datatree-shares-to-sql",
+                    "bin/whups-convert-sql-shares-to-sqlng",
+                    "bin/whups-convert-to-utf8",
+                    "bin/whups-git-hook",
+                    "bin/whups-mail-filter",
+                    "bin/whups-obliterate",
+                    "bin/whups-reminders",
+                    "bin/whups-svn-hook"
+                ],
+                "type": "horde-application",
+                "autoload": {
+                    "psr-0": {
+                        "Whups": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Whups\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Ticket-tracking application",
+                "homepage": "https://www.horde.org/apps/whups"
+            },
+            {
+                "name": "horde/whups",
+                "version": "4.0.0alpha2",
+                "version_normalized": "4.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/whups.git",
+                    "reference": "9f8fcdd5b911560b5457dd89ed7c8719beb5383a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/whups/zipball/9f8fcdd5b911560b5457dd89ed7c8719beb5383a",
+                    "reference": "9f8fcdd5b911560b5457dd89ed7c8719beb5383a",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "horde/auth": "^3",
+                    "horde/autoloader": "^3",
+                    "horde/compress": "^3",
+                    "horde/core": "^3",
+                    "horde/date": "^3",
+                    "horde/db": "^3",
+                    "horde/exception": "^3",
+                    "horde/form": "^3",
+                    "horde/group": "^3",
+                    "horde/horde": "^6",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/mail": "^3",
+                    "horde/mime": "^3",
+                    "horde/mime_viewer": "^3",
+                    "horde/notification": "^3",
+                    "horde/perms": "^3",
+                    "horde/prefs": "^3",
+                    "horde/scheduler": "^3",
+                    "horde/share": "^3",
+                    "horde/support": "^3",
+                    "horde/text_filter": "^3",
+                    "horde/util": "^3",
+                    "horde/vfs": "^3",
+                    "horde/view": "^3",
+                    "php": "^7"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "bin": [
+                    "bin/whups-bugzilla-import",
+                    "bin/whups-convert-datatree-shares-to-sql",
+                    "bin/whups-convert-sql-shares-to-sqlng",
+                    "bin/whups-convert-to-utf8",
+                    "bin/whups-git-hook",
+                    "bin/whups-mail-filter",
+                    "bin/whups-obliterate",
+                    "bin/whups-reminders",
+                    "bin/whups-svn-hook"
+                ],
+                "type": "horde-application",
+                "autoload": {
+                    "psr-0": {
+                        "Whups": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Ticket-tracking application",
+                "homepage": "https://www.horde.org/apps/whups"
             }
         ]
     }

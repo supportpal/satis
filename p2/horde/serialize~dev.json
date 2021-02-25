@@ -128,6 +128,67 @@
             },
             {
                 "name": "horde/serialize",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Serialize.git",
+                    "reference": "32b81b976870dd7a201ead8c6a330844267a0bd7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Serialize/zipball/32b81b976870dd7a201ead8c6a330844267a0bd7",
+                    "reference": "32b81b976870dd7a201ead8c6a330844267a0bd7",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-bz2": "*",
+                    "ext-json": "*",
+                    "ext-lzf": "*",
+                    "ext-wddx": "*",
+                    "ext-zlib": "*",
+                    "horde/imap_client": "^3",
+                    "horde/mime": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Serialize": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Data serialization library",
+                "homepage": "https://www.horde.org/libraries/Horde_Serialize"
+            },
+            {
+                "name": "horde/serialize",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

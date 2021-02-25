@@ -119,6 +119,62 @@
             },
             {
                 "name": "horde/dav",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Dav.git",
+                    "reference": "1ce65684bd96c42c2d97b9221369c4e1507d2942"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Dav/zipball/1ce65684bd96c42c2d97b9221369c4e1507d2942",
+                    "reference": "1ce65684bd96c42c2d97b9221369c4e1507d2942",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-date": "*",
+                    "ext-dom": "*",
+                    "ext-iconv": "*",
+                    "ext-libxml": "*",
+                    "ext-mbstring": "*",
+                    "ext-pcre": "*",
+                    "ext-simplexml": "*",
+                    "ext-spl": "*",
+                    "horde/auth": "^3",
+                    "horde/core": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/http": "^3",
+                    "horde/stream": "^2",
+                    "horde/translation": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-curl": "*"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Dav": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "WebDAV, CalDAV, and CardDAV library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/dav",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

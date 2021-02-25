@@ -96,6 +96,117 @@
                 ],
                 "description": "Horde Data API",
                 "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/data",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Data.git",
+                    "reference": "8f6df2cdc2786972bb679a23ea4766318510868e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Data/zipball/8f6df2cdc2786972bb679a23ea4766318510868e",
+                    "reference": "8f6df2cdc2786972bb679a23ea4766318510868e",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/browser": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/icalendar": "^3",
+                    "horde/mail": "^3",
+                    "horde/mime": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Data": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Data\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Data import and export library",
+                "homepage": "https://www.horde.org/libraries/Horde_Data"
+            },
+            {
+                "name": "horde/data",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Data.git",
+                    "reference": "ba4a558704a3fc4f102792883a599f58c33befe0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Data/zipball/ba4a558704a3fc4f102792883a599f58c33befe0",
+                    "reference": "ba4a558704a3fc4f102792883a599f58c33befe0",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/browser": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/icalendar": "^3",
+                    "horde/mail": "^3",
+                    "horde/mime": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Data": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Data import and export library",
+                "homepage": "https://www.horde.org/libraries/Horde_Data"
             }
         ]
     }

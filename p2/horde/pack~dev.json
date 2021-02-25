@@ -100,6 +100,53 @@
             },
             {
                 "name": "horde/pack",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Pack.git",
+                    "reference": "955396802ce4d9d1260ec3d093875851d0f9f82c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Pack/zipball/955396802ce4d9d1260ec3d093875851d0f9f82c",
+                    "reference": "955396802ce4d9d1260ec3d093875851d0f9f82c",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/compress_fast": "^2",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-igbinary": "^1.2",
+                    "ext-json": "*",
+                    "ext-msgpack": "*",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Pack": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Data packing library",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/pack",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

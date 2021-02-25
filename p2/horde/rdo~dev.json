@@ -96,6 +96,54 @@
             },
             {
                 "name": "horde/rdo",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Rdo.git",
+                    "reference": "8c189262b6f8554024aab28f432419ad1244163a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Rdo/zipball/8c189262b6f8554024aab28f432419ad1244163a",
+                    "reference": "8c189262b6f8554024aab28f432419ad1244163a",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/db": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Rdo": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Rdo\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "ORM (object relational-mapping) library",
+                "homepage": "https://www.horde.org/libraries/Horde_Rdo"
+            },
+            {
+                "name": "horde/rdo",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

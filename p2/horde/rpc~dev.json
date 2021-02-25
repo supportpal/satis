@@ -138,6 +138,72 @@
             },
             {
                 "name": "horde/rpc",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Rpc.git",
+                    "reference": "a6579570a6b90e23faaf4106ea9518af15dbfa0f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Rpc/zipball/a6579570a6b90e23faaf4106ea9518af15dbfa0f",
+                    "reference": "a6579570a6b90e23faaf4106ea9518af15dbfa0f",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/core": "^3",
+                    "horde/dav": "^2",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/perms": "^3",
+                    "horde/serialize": "^3",
+                    "horde/support": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "horde/xml_element": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-soap": "*",
+                    "ext-xmlrpc": "*",
+                    "horde/activesync": "^3",
+                    "horde/http": "^3",
+                    "horde/lock": "^3",
+                    "horde/syncml": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Rpc": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "RPC library",
+                "homepage": "https://www.horde.org/libraries/Horde_Rpc"
+            },
+            {
+                "name": "horde/rpc",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

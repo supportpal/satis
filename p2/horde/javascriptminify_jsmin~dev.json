@@ -86,6 +86,46 @@
             },
             {
                 "name": "horde/javascriptminify_jsmin",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/JavascriptMinify_Jsmin.git",
+                    "reference": "92b77df3c23283f30d8a35d8212d0c0079276be1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/JavascriptMinify_Jsmin/zipball/92b77df3c23283f30d8a35d8212d0c0079276be1",
+                    "reference": "92b77df3c23283f30d8a35d8212d0c0079276be1",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "*",
+                    "horde/javascriptminify": "^2",
+                    "php": "^7"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_JavascriptMinify_Jsmin": "lib/"
+                    }
+                },
+                "license": [
+                    "JSMin"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "JavaScript minification library - JSMin driver",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/javascriptminify_jsmin",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

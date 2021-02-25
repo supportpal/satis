@@ -175,6 +175,109 @@
                 ],
                 "description": "Horde Date Parser",
                 "homepage": "https://pear.horde.org"
+            },
+            {
+                "name": "horde/date_parser",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Date_Parser.git",
+                    "reference": "ac79132df337ada2a0328b73dbc9990bbe2a5dc1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Date_Parser/zipball/ac79132df337ada2a0328b73dbc9990bbe2a5dc1",
+                    "reference": "ac79132df337ada2a0328b73dbc9990bbe2a5dc1",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/date": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/support": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Date_Parser": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Date\\Parser\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Date parser library",
+                "homepage": "https://www.horde.org/libraries/Horde_Date_Parser"
+            },
+            {
+                "name": "horde/date_parser",
+                "version": "3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Date_Parser.git",
+                    "reference": "ee8d3e53f3554fbac728cc266d08b85e00ab6b92"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Date_Parser/zipball/ee8d3e53f3554fbac728cc266d08b85e00ab6b92",
+                    "reference": "ee8d3e53f3554fbac728cc266d08b85e00ab6b92",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/date": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/support": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Date_Parser": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Date parser library",
+                "homepage": "https://www.horde.org/libraries/Horde_Date_Parser"
             }
         ]
     }
