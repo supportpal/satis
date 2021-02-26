@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/hordectl.git",
+                    "url": "https://github.com/maintaina-com/hordectl.git",
                     "reference": "75ca531347a8d1e78eb9713182db58c10bb66362"
                 },
                 "dist": {
@@ -48,7 +48,11 @@
                     }
                 ],
                 "description": "Scenario Deployment utility",
-                "homepage": "https://www.horde.org/"
+                "homepage": "https://www.horde.org/",
+                "support": {
+                    "source": "https://github.com/maintaina-com/hordectl/tree/master",
+                    "issues": "https://github.com/maintaina-com/hordectl/issues"
+                }
             },
             {
                 "name": "horde/hordectl",
@@ -56,7 +60,7 @@
                 "version_normalized": "dev-FRAMEWORK_6_0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/hordectl.git",
+                    "url": "https://github.com/maintaina-com/hordectl.git",
                     "reference": "e3975ddf2fedd7f5a04ce0e8134fd0607dcda4dc"
                 },
                 "dist": {
@@ -98,7 +102,11 @@
                     }
                 ],
                 "description": "Scenario deployer library",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/hordectl/tree/FRAMEWORK_6_0",
+                    "issues": "https://github.com/maintaina-com/hordectl/issues"
+                }
             }
         ]
     }

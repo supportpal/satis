@@ -7,7 +7,7 @@
                 "version_normalized": "2.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Constraint.git",
+                    "url": "https://github.com/maintaina-com/Constraint.git",
                     "reference": "97130ea054b820b58d0201858db28c630e1fab65"
                 },
                 "dist": {
@@ -35,7 +35,10 @@
                     }
                 ],
                 "description": "Horde Constraint library",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Constraint/tree/v2.0.2"
+                }
             },
             {
                 "name": "horde/constraint",
@@ -43,7 +46,7 @@
                 "version_normalized": "2.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Constraint.git",
+                    "url": "https://github.com/maintaina-com/Constraint.git",
                     "reference": "e0948fb365dc217b824bcf7f28c9cc630af0efa4"
                 },
                 "dist": {
@@ -71,7 +74,10 @@
                     }
                 ],
                 "description": "Horde Constraint library",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Constraint/tree/v2.0.3"
+                }
             },
             {
                 "name": "horde/constraint",
@@ -79,7 +85,7 @@
                 "version_normalized": "3.0.0.0-alpha1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Constraint.git",
+                    "url": "https://github.com/maintaina-com/Constraint.git",
                     "reference": "e287add491c824540f6357e791334f5950048042"
                 },
                 "dist": {
@@ -116,7 +122,10 @@
                     }
                 ],
                 "description": "Constraint library",
-                "homepage": "https://www.horde.org/libraries/Horde_Constraint"
+                "homepage": "https://www.horde.org/libraries/Horde_Constraint",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Constraint/tree/v3.0.0alpha1"
+                }
             },
             {
                 "name": "horde/constraint",
@@ -124,7 +133,7 @@
                 "version_normalized": "3.0.0.0-alpha2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Constraint.git",
+                    "url": "https://github.com/maintaina-com/Constraint.git",
                     "reference": "2169717427ff92a1e52b7b5785be45d5848ae5f5"
                 },
                 "dist": {
@@ -158,7 +167,10 @@
                     }
                 ],
                 "description": "Constraint library",
-                "homepage": "https://www.horde.org/libraries/Horde_Constraint"
+                "homepage": "https://www.horde.org/libraries/Horde_Constraint",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Constraint/tree/v3.0.0alpha2"
+                }
             }
         ]
     }

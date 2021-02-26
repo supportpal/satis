@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Controller.git",
+                    "url": "https://github.com/maintaina-com/Controller.git",
                     "reference": "a8fed42d0e6b8466bc328f0b037364b0bac4234f"
                 },
                 "dist": {
@@ -53,7 +53,10 @@
                     }
                 ],
                 "description": "Controller library",
-                "homepage": "https://www.horde.org/libraries/Horde_Controller"
+                "homepage": "https://www.horde.org/libraries/Horde_Controller",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Controller/tree/maintaina-composerfixed"
+                }
             },
             {
                 "name": "horde/controller",
@@ -61,7 +64,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Controller.git",
+                    "url": "https://github.com/maintaina-com/Controller.git",
                     "reference": "4a68b90495e507074540eed458227dd2218aa882"
                 },
                 "dist": {
@@ -110,7 +113,10 @@
                     }
                 ],
                 "description": "Controller library",
-                "homepage": "https://www.horde.org/libraries/Horde_Controller"
+                "homepage": "https://www.horde.org/libraries/Horde_Controller",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Controller/tree/FRAMEWORK_5_2"
+                }
             },
             {
                 "name": "horde/controller",
@@ -118,7 +124,7 @@
                 "version_normalized": "dev-FRAMEWORK_6_0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Controller.git",
+                    "url": "https://github.com/maintaina-com/Controller.git",
                     "reference": "3fd7f6e0d3ff1f3b9c0bd56aae719fb14d67a559"
                 },
                 "dist": {
@@ -164,7 +170,10 @@
                     }
                 ],
                 "description": "Controller library",
-                "homepage": "https://www.horde.org/libraries/Horde_Controller"
+                "homepage": "https://www.horde.org/libraries/Horde_Controller",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Controller/tree/FRAMEWORK_6_0"
+                }
             },
             {
                 "name": "horde/controller",
@@ -172,7 +181,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Controller.git",
+                    "url": "https://github.com/maintaina-com/Controller.git",
                     "reference": "45782f9b70b000b04199801de45e5cb66174994b"
                 },
                 "dist": {
@@ -221,7 +230,10 @@
                     }
                 ],
                 "description": "Controller library",
-                "homepage": "https://www.horde.org/libraries/Horde_Controller"
+                "homepage": "https://www.horde.org/libraries/Horde_Controller",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Controller/tree/horde-upstream"
+                }
             },
             {
                 "name": "horde/controller",
@@ -229,7 +241,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Controller.git",
+                    "url": "https://github.com/maintaina-com/Controller.git",
                     "reference": "69db91d5da8a9a9af502a312381576e7a21e3513"
                 },
                 "dist": {
@@ -278,7 +290,10 @@
                     }
                 ],
                 "description": "Controller library",
-                "homepage": "https://www.horde.org/libraries/Horde_Controller"
+                "homepage": "https://www.horde.org/libraries/Horde_Controller",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Controller/tree/maintaina-bare"
+                }
             },
             {
                 "name": "horde/controller",
@@ -286,7 +301,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Controller.git",
+                    "url": "https://github.com/maintaina-com/Controller.git",
                     "reference": "a8fed42d0e6b8466bc328f0b037364b0bac4234f"
                 },
                 "dist": {
@@ -332,7 +347,10 @@
                     }
                 ],
                 "description": "Controller library",
-                "homepage": "https://www.horde.org/libraries/Horde_Controller"
+                "homepage": "https://www.horde.org/libraries/Horde_Controller",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Controller/tree/maintaina-composerfixed"
+                }
             }
         ]
     }

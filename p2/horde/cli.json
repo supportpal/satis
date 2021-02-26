@@ -7,7 +7,7 @@
                 "version_normalized": "2.0.5.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Cli.git",
+                    "url": "https://github.com/maintaina-com/Cli.git",
                     "reference": "8495ce9f5b07c3ed7529c894f1cac7d0680541d8"
                 },
                 "dist": {
@@ -39,7 +39,10 @@
                     }
                 ],
                 "description": "Horde Command Line Interface API",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cli/tree/v2.0.5"
+                }
             },
             {
                 "name": "horde/cli",
@@ -47,7 +50,7 @@
                 "version_normalized": "2.0.6.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Cli.git",
+                    "url": "https://github.com/maintaina-com/Cli.git",
                     "reference": "bc80a78ecdfa934577c68b75b27017e07618d6fd"
                 },
                 "dist": {
@@ -79,7 +82,10 @@
                     }
                 ],
                 "description": "Horde Command Line Interface API",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cli/tree/v2.0.6"
+                }
             },
             {
                 "name": "horde/cli",
@@ -87,7 +93,7 @@
                 "version_normalized": "2.0.7.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Cli.git",
+                    "url": "https://github.com/maintaina-com/Cli.git",
                     "reference": "bb78233a39b3bf5d774c0bb287bb69c2a9c27855"
                 },
                 "dist": {
@@ -119,7 +125,10 @@
                     }
                 ],
                 "description": "Horde Command Line Interface API",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cli/tree/v2.0.7"
+                }
             },
             {
                 "name": "horde/cli",
@@ -127,7 +136,7 @@
                 "version_normalized": "2.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Cli.git",
+                    "url": "https://github.com/maintaina-com/Cli.git",
                     "reference": "a5cf7223a777e0c5cfbc4ab3ca57f75f2afa65e4"
                 },
                 "dist": {
@@ -159,7 +168,10 @@
                     }
                 ],
                 "description": "Horde Command Line Interface API",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cli/tree/v2.1.0"
+                }
             },
             {
                 "name": "horde/cli",
@@ -167,7 +179,7 @@
                 "version_normalized": "2.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Cli.git",
+                    "url": "https://github.com/maintaina-com/Cli.git",
                     "reference": "7c6fafa40d0e45a147c2a79330b38ab2ddad056a"
                 },
                 "dist": {
@@ -208,7 +220,10 @@
                     }
                 ],
                 "description": "Horde Command Line Interface API",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cli/tree/v2.2.0"
+                }
             },
             {
                 "name": "horde/cli",
@@ -216,7 +231,7 @@
                 "version_normalized": "2.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Cli.git",
+                    "url": "https://github.com/maintaina-com/Cli.git",
                     "reference": "2e62e0b4ac0aa3b9a5a1a688c975448d43362142"
                 },
                 "dist": {
@@ -257,7 +272,10 @@
                     }
                 ],
                 "description": "Horde Command Line Interface API",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cli/tree/v2.2.1"
+                }
             },
             {
                 "name": "horde/cli",
@@ -265,7 +283,7 @@
                 "version_normalized": "2.2.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Cli.git",
+                    "url": "https://github.com/maintaina-com/Cli.git",
                     "reference": "c2c013a439afc3e0569d43de7ed9e8e0e352656d"
                 },
                 "dist": {
@@ -306,7 +324,10 @@
                     }
                 ],
                 "description": "Horde Command Line Interface API",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cli/tree/v2.2.2"
+                }
             },
             {
                 "name": "horde/cli",
@@ -314,7 +335,7 @@
                 "version_normalized": "2.2.3.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Cli.git",
+                    "url": "https://github.com/maintaina-com/Cli.git",
                     "reference": "1d5fe6e2567a7a7c902abc57e8e391cf5afa7df8"
                 },
                 "dist": {
@@ -355,7 +376,10 @@
                     }
                 ],
                 "description": "Horde Command Line Interface API",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cli/tree/v2.2.3"
+                }
             },
             {
                 "name": "horde/cli",
@@ -363,7 +387,7 @@
                 "version_normalized": "2.2.4.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Cli.git",
+                    "url": "https://github.com/maintaina-com/Cli.git",
                     "reference": "69e4f9412fd246204b5eb52b52be4b4e12ad414e"
                 },
                 "dist": {
@@ -404,7 +428,10 @@
                     }
                 ],
                 "description": "Horde Command Line Interface API",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cli/tree/v2.2.4"
+                }
             },
             {
                 "name": "horde/cli",
@@ -412,7 +439,7 @@
                 "version_normalized": "2.3.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Cli.git",
+                    "url": "https://github.com/maintaina-com/Cli.git",
                     "reference": "f9cd9774954f746cc063a9c716de694c4a464574"
                 },
                 "dist": {
@@ -453,7 +480,10 @@
                     }
                 ],
                 "description": "Command line interface library",
-                "homepage": "https://www.horde.org/libraries/Horde_Cli"
+                "homepage": "https://www.horde.org/libraries/Horde_Cli",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cli/tree/v2.3.0"
+                }
             },
             {
                 "name": "horde/cli",
@@ -461,7 +491,7 @@
                 "version_normalized": "3.0.0.0-alpha1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Cli.git",
+                    "url": "https://github.com/maintaina-com/Cli.git",
                     "reference": "828125bc81155647435d517c9588ad120e244e1c"
                 },
                 "dist": {
@@ -502,7 +532,10 @@
                     }
                 ],
                 "description": "Command line interface library",
-                "homepage": "https://www.horde.org/libraries/Horde_Cli"
+                "homepage": "https://www.horde.org/libraries/Horde_Cli",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cli/tree/v3.0.0alpha1"
+                }
             },
             {
                 "name": "horde/cli",
@@ -510,7 +543,7 @@
                 "version_normalized": "3.0.0.0-alpha2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Cli.git",
+                    "url": "https://github.com/maintaina-com/Cli.git",
                     "reference": "c60008cb156d4680aad0b6ae300b6bd68bb92b86"
                 },
                 "dist": {
@@ -548,7 +581,10 @@
                     }
                 ],
                 "description": "Command line interface library",
-                "homepage": "https://www.horde.org/libraries/Horde_Cli"
+                "homepage": "https://www.horde.org/libraries/Horde_Cli",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cli/tree/v3.0.0alpha2"
+                }
             }
         ]
     }

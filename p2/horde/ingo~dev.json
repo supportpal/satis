@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/ingo.git",
+                    "url": "https://github.com/maintaina-com/ingo.git",
                     "reference": "b0dc2e9c94bb9a3ca64a10d450ecaed918046aee"
                 },
                 "dist": {
@@ -74,7 +74,10 @@
                     }
                 ],
                 "description": "Email filter rules manager application",
-                "homepage": "https://www.horde.org/apps/ingo"
+                "homepage": "https://www.horde.org/apps/ingo",
+                "support": {
+                    "source": "https://github.com/maintaina-com/ingo/tree/master"
+                }
             },
             {
                 "name": "horde/ingo",
@@ -82,7 +85,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/ingo.git",
+                    "url": "https://github.com/maintaina-com/ingo.git",
                     "reference": "cfaa8764d7a49fb233b92579461f5234bd5a466f"
                 },
                 "dist": {
@@ -136,7 +139,10 @@
                     }
                 ],
                 "description": "An email filter rules manager",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/ingo/tree/FRAMEWORK_5_1"
+                }
             },
             {
                 "name": "horde/ingo",
@@ -144,7 +150,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/ingo.git",
+                    "url": "https://github.com/maintaina-com/ingo.git",
                     "reference": "33973c881734b8650d5ba195a30128595206beab"
                 },
                 "dist": {
@@ -207,7 +213,10 @@
                     }
                 ],
                 "description": "Email filter rules manager application",
-                "homepage": "https://www.horde.org/apps/ingo"
+                "homepage": "https://www.horde.org/apps/ingo",
+                "support": {
+                    "source": "https://github.com/maintaina-com/ingo/tree/FRAMEWORK_5_2"
+                }
             },
             {
                 "name": "horde/ingo",
@@ -215,7 +224,7 @@
                 "version_normalized": "dev-FRAMEWORK_6_0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/ingo.git",
+                    "url": "https://github.com/maintaina-com/ingo.git",
                     "reference": "fbc6627c0364d6f7854cb0591903993ac3ea05c7"
                 },
                 "dist": {
@@ -282,7 +291,10 @@
                     }
                 ],
                 "description": "Email filter rules manager application",
-                "homepage": "https://www.horde.org/apps/ingo"
+                "homepage": "https://www.horde.org/apps/ingo",
+                "support": {
+                    "source": "https://github.com/maintaina-com/ingo/tree/FRAMEWORK_6_0"
+                }
             },
             {
                 "name": "horde/ingo",
@@ -290,7 +302,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/ingo.git",
+                    "url": "https://github.com/maintaina-com/ingo.git",
                     "reference": "2919686635294e9efac2e5ceb3e00e39940644e4"
                 },
                 "dist": {
@@ -354,7 +366,10 @@
                     }
                 ],
                 "description": "Email filter rules manager application",
-                "homepage": "https://www.horde.org/apps/ingo"
+                "homepage": "https://www.horde.org/apps/ingo",
+                "support": {
+                    "source": "https://github.com/maintaina-com/ingo/tree/horde-upstream"
+                }
             },
             {
                 "name": "horde/ingo",
@@ -362,7 +377,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/ingo.git",
+                    "url": "https://github.com/maintaina-com/ingo.git",
                     "reference": "2919686635294e9efac2e5ceb3e00e39940644e4"
                 },
                 "dist": {
@@ -426,7 +441,10 @@
                     }
                 ],
                 "description": "Email filter rules manager application",
-                "homepage": "https://www.horde.org/apps/ingo"
+                "homepage": "https://www.horde.org/apps/ingo",
+                "support": {
+                    "source": "https://github.com/maintaina-com/ingo/tree/horde-upstream"
+                }
             },
             {
                 "name": "horde/ingo",
@@ -434,7 +452,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/ingo.git",
+                    "url": "https://github.com/maintaina-com/ingo.git",
                     "reference": "dfa0daff4b97031959ea6d80a42f990ef9908a6a"
                 },
                 "dist": {
@@ -501,7 +519,10 @@
                     }
                 ],
                 "description": "Email filter rules manager application",
-                "homepage": "https://www.horde.org/apps/ingo"
+                "homepage": "https://www.horde.org/apps/ingo",
+                "support": {
+                    "source": "https://github.com/maintaina-com/ingo/tree/maintaina-composerfixed"
+                }
             }
         ]
     }

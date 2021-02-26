@@ -7,7 +7,7 @@
                 "version_normalized": "1.0.0.0-alpha1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/hordectl.git",
+                    "url": "https://github.com/maintaina-com/hordectl.git",
                     "reference": "d94e12a8d97913595b310bef525552dd24430770"
                 },
                 "dist": {
@@ -49,7 +49,11 @@
                     }
                 ],
                 "description": "Scenario deployer library",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/hordectl/tree/v1.0.0alpha1",
+                    "issues": "https://github.com/maintaina-com/hordectl/issues"
+                }
             }
         ]
     }

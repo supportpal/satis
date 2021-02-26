@@ -7,7 +7,7 @@
                 "version_normalized": "4.1.3.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "9e7a2b32e5ebe443c994af3da88ea977d0f7438d"
                 },
                 "dist": {
@@ -71,7 +71,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.1.3"
+                }
             },
             {
                 "name": "horde/nag",
@@ -79,7 +82,7 @@
                 "version_normalized": "4.1.5.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "715c94a77f2449a5bc3eb04c4799365c60e72f7e"
                 },
                 "dist": {
@@ -144,7 +147,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.1.5"
+                }
             },
             {
                 "name": "horde/nag",
@@ -152,7 +158,7 @@
                 "version_normalized": "4.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "10290547747e8a6ac455b8da010cd5bccb747c48"
                 },
                 "dist": {
@@ -218,7 +224,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.0"
+                }
             },
             {
                 "name": "horde/nag",
@@ -226,7 +235,7 @@
                 "version_normalized": "4.2.0.0-RC1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "9b3ed69013cb18be30485068a396f7e6392a86e0"
                 },
                 "dist": {
@@ -292,7 +301,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.0rc1"
+                }
             },
             {
                 "name": "horde/nag",
@@ -300,7 +312,7 @@
                 "version_normalized": "4.2.0.0-alpha1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "e12a739227adec57b31a841aceb255365d10b89e"
                 },
                 "dist": {
@@ -366,7 +378,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.0alpha1"
+                }
             },
             {
                 "name": "horde/nag",
@@ -374,7 +389,7 @@
                 "version_normalized": "4.2.0.0-beta1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "926c937281e2e39acb03c70ef6b22853cf76d0c0"
                 },
                 "dist": {
@@ -440,7 +455,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.0beta1"
+                }
             },
             {
                 "name": "horde/nag",
@@ -448,7 +466,7 @@
                 "version_normalized": "4.2.0.0-beta2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "03e7bd49bce43bfd72d089898a6cb792434086b9"
                 },
                 "dist": {
@@ -514,7 +532,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.0beta2"
+                }
             },
             {
                 "name": "horde/nag",
@@ -522,7 +543,7 @@
                 "version_normalized": "4.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "20dd5047aff4570f70d4bbe42584ffdfe5f258cc"
                 },
                 "dist": {
@@ -588,7 +609,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.1"
+                }
             },
             {
                 "name": "horde/nag",
@@ -596,7 +620,7 @@
                 "version_normalized": "4.2.10.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "a41b5391098ce037ae19fa14b9bb0692eb590f2c"
                 },
                 "dist": {
@@ -662,7 +686,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.10"
+                }
             },
             {
                 "name": "horde/nag",
@@ -670,7 +697,7 @@
                 "version_normalized": "4.2.11.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "88a788f9294c083af593892083e3f902285e5249"
                 },
                 "dist": {
@@ -736,7 +763,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.11"
+                }
             },
             {
                 "name": "horde/nag",
@@ -744,7 +774,7 @@
                 "version_normalized": "4.2.12.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "17f3765e15839eed91f8c1dfa1b3a6e07f579745"
                 },
                 "dist": {
@@ -810,7 +840,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.12"
+                }
             },
             {
                 "name": "horde/nag",
@@ -818,7 +851,7 @@
                 "version_normalized": "4.2.13.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "7874d14f4478005c0ef38553dd81eff409bc2306"
                 },
                 "dist": {
@@ -884,7 +917,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.13"
+                }
             },
             {
                 "name": "horde/nag",
@@ -892,7 +928,7 @@
                 "version_normalized": "4.2.14.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "d7a1d9fea4e19c01b7b6417d3bfbb9137d44d2c8"
                 },
                 "dist": {
@@ -958,7 +994,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.14"
+                }
             },
             {
                 "name": "horde/nag",
@@ -966,7 +1005,7 @@
                 "version_normalized": "4.2.15.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "2caa714b690110e6db6028a13af130d78ffa5079"
                 },
                 "dist": {
@@ -1042,7 +1081,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.15"
+                }
             },
             {
                 "name": "horde/nag",
@@ -1050,7 +1092,7 @@
                 "version_normalized": "4.2.16.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "31c5ca030d79222f3320c676d1b9c846668b581b"
                 },
                 "dist": {
@@ -1126,7 +1168,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.16"
+                }
             },
             {
                 "name": "horde/nag",
@@ -1134,7 +1179,7 @@
                 "version_normalized": "4.2.17.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "723f400c5f9be0b0730fd2127b91d2448c5f5227"
                 },
                 "dist": {
@@ -1210,7 +1255,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.17"
+                }
             },
             {
                 "name": "horde/nag",
@@ -1218,7 +1266,7 @@
                 "version_normalized": "4.2.18.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "d60b9ec0d141197f03b58c391cc9aface9469cf0"
                 },
                 "dist": {
@@ -1294,7 +1342,10 @@
                     }
                 ],
                 "description": "Task list application",
-                "homepage": "https://www.horde.org/apps/nag"
+                "homepage": "https://www.horde.org/apps/nag",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.18"
+                }
             },
             {
                 "name": "horde/nag",
@@ -1302,7 +1353,7 @@
                 "version_normalized": "4.2.19.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "39ccaa9c6f29796740ed06fb871d7aab2f08b06c"
                 },
                 "dist": {
@@ -1378,7 +1429,10 @@
                     }
                 ],
                 "description": "Task list application",
-                "homepage": "https://www.horde.org/apps/nag"
+                "homepage": "https://www.horde.org/apps/nag",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.19"
+                }
             },
             {
                 "name": "horde/nag",
@@ -1386,7 +1440,7 @@
                 "version_normalized": "4.2.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "f78188a4e777a4e5e495551830745f12deab6a56"
                 },
                 "dist": {
@@ -1452,7 +1506,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.2"
+                }
             },
             {
                 "name": "horde/nag",
@@ -1460,7 +1517,7 @@
                 "version_normalized": "4.2.3.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "16efa97ed85e19f9f336976b67c4b63b4a311800"
                 },
                 "dist": {
@@ -1526,7 +1583,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.3"
+                }
             },
             {
                 "name": "horde/nag",
@@ -1534,7 +1594,7 @@
                 "version_normalized": "4.2.4.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "ecb2be3ada6d7828635e48596db56955456a929d"
                 },
                 "dist": {
@@ -1600,7 +1660,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.4"
+                }
             },
             {
                 "name": "horde/nag",
@@ -1608,7 +1671,7 @@
                 "version_normalized": "4.2.5.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "d946421a9fab8282a44a3bda79c8552cfc6c841a"
                 },
                 "dist": {
@@ -1674,7 +1737,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.5"
+                }
             },
             {
                 "name": "horde/nag",
@@ -1682,7 +1748,7 @@
                 "version_normalized": "4.2.6.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "1f592b8357f858eca11358b42b61b069fd312de4"
                 },
                 "dist": {
@@ -1748,7 +1814,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.6"
+                }
             },
             {
                 "name": "horde/nag",
@@ -1756,7 +1825,7 @@
                 "version_normalized": "4.2.7.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "23a89eeaf929670ea47b194e5acc6e9eee826bb2"
                 },
                 "dist": {
@@ -1822,7 +1891,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.7"
+                }
             },
             {
                 "name": "horde/nag",
@@ -1830,7 +1902,7 @@
                 "version_normalized": "4.2.8.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "42bd79c97a7be96c509813387c616bc3968a4986"
                 },
                 "dist": {
@@ -1896,7 +1968,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.8"
+                }
             },
             {
                 "name": "horde/nag",
@@ -1904,7 +1979,7 @@
                 "version_normalized": "4.2.9.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "618794a1610782e306f9eac894e60f277ab24b4d"
                 },
                 "dist": {
@@ -1970,7 +2045,10 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v4.2.9"
+                }
             },
             {
                 "name": "horde/nag",
@@ -1978,7 +2056,7 @@
                 "version_normalized": "5.0.0.0-alpha1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "450301faed10d76deb53127ce4d7590ed7179ee1"
                 },
                 "dist": {
@@ -2062,7 +2140,10 @@
                     }
                 ],
                 "description": "Task list application",
-                "homepage": "https://www.horde.org/apps/nag"
+                "homepage": "https://www.horde.org/apps/nag",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v5.0.0alpha1"
+                }
             },
             {
                 "name": "horde/nag",
@@ -2070,7 +2151,7 @@
                 "version_normalized": "5.0.0.0-alpha2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/nag.git",
+                    "url": "https://github.com/maintaina-com/nag.git",
                     "reference": "15e8705a0d3f61fa3aa4eb28d3202d75e3b702a6"
                 },
                 "dist": {
@@ -2151,7 +2232,10 @@
                     }
                 ],
                 "description": "Task list application",
-                "homepage": "https://www.horde.org/apps/nag"
+                "homepage": "https://www.horde.org/apps/nag",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v5.0.0alpha2"
+                }
             }
         ]
     }

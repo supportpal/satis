@@ -7,7 +7,7 @@
                 "version_normalized": "1.0.0.0-alpha1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/components.git",
+                    "url": "https://github.com/maintaina-com/components.git",
                     "reference": "b36727ea94c30e35c20cbc5101b4e219fc67899c"
                 },
                 "dist": {
@@ -76,7 +76,10 @@
                     }
                 ],
                 "description": "Developer tool for managing Horde components",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/components/tree/v1.0.0alpha1"
+                }
             }
         ]
     }

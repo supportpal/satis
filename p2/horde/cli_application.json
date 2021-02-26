@@ -7,7 +7,7 @@
                 "version_normalized": "1.0.0.0-RC1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Cli_Application.git",
+                    "url": "https://github.com/maintaina-com/Cli_Application.git",
                     "reference": "8ed67833e2ca778cf442300b277777c18d9c64bc"
                 },
                 "dist": {
@@ -48,7 +48,10 @@
                     }
                 ],
                 "description": "Library for creating command line applications",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cli_Application/tree/v1.0.0rc1"
+                }
             },
             {
                 "name": "horde/cli_application",
@@ -56,7 +59,7 @@
                 "version_normalized": "2.0.0.0-alpha1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Cli_Application.git",
+                    "url": "https://github.com/maintaina-com/Cli_Application.git",
                     "reference": "4773b3f785560cb7dc1759e4a52bc51dce03874e"
                 },
                 "dist": {
@@ -94,7 +97,10 @@
                     }
                 ],
                 "description": "Library for creating command line applications",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cli_Application/tree/v2.0.0alpha1"
+                }
             },
             {
                 "name": "horde/cli_application",
@@ -102,7 +108,7 @@
                 "version_normalized": "2.0.0.0-alpha2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Cli_Application.git",
+                    "url": "https://github.com/maintaina-com/Cli_Application.git",
                     "reference": "8b562a5189e9dd5cdafb4dbf3a9d2885c1c37540"
                 },
                 "dist": {
@@ -140,7 +146,10 @@
                     }
                 ],
                 "description": "Library for creating command line applications",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cli_Application/tree/v2.0.0alpha2"
+                }
             }
         ]
     }

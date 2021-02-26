@@ -7,7 +7,7 @@
                 "version_normalized": "2.20.6.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "af321d9cdddede03ea401c7b4daf4955d099856a"
                 },
                 "dist": {
@@ -125,7 +125,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.20.6"
+                }
             },
             {
                 "name": "horde/core",
@@ -133,7 +136,7 @@
                 "version_normalized": "2.20.7.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "c22b1bfbb43836b2edaa344a6b4c4901b55900a9"
                 },
                 "dist": {
@@ -251,7 +254,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.20.7"
+                }
             },
             {
                 "name": "horde/core",
@@ -259,7 +265,7 @@
                 "version_normalized": "2.20.8.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "f55f953796f8be13ba14a304c4e0ea36053ab913"
                 },
                 "dist": {
@@ -377,7 +383,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.20.8"
+                }
             },
             {
                 "name": "horde/core",
@@ -385,7 +394,7 @@
                 "version_normalized": "2.20.9.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "076bf515786efb25599a5eaa09412194e42541c2"
                 },
                 "dist": {
@@ -503,7 +512,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.20.9"
+                }
             },
             {
                 "name": "horde/core",
@@ -511,7 +523,7 @@
                 "version_normalized": "2.21.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "05f477cad9d7c079b55ed8d57718eb7803ac1a5b"
                 },
                 "dist": {
@@ -629,7 +641,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.21.0"
+                }
             },
             {
                 "name": "horde/core",
@@ -637,7 +652,7 @@
                 "version_normalized": "2.22.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "190505b12a100061bda207bfc6c2f84a0d09b2a1"
                 },
                 "dist": {
@@ -755,7 +770,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.22.0"
+                }
             },
             {
                 "name": "horde/core",
@@ -763,7 +781,7 @@
                 "version_normalized": "2.22.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "c48f817b2bf2e3b701df7a94f0d8c7a7b06264cb"
                 },
                 "dist": {
@@ -881,7 +899,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.22.1"
+                }
             },
             {
                 "name": "horde/core",
@@ -889,7 +910,7 @@
                 "version_normalized": "2.22.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "572cf7ba2f0737105152c19c50a4212dd4ae9fec"
                 },
                 "dist": {
@@ -1007,7 +1028,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.22.2"
+                }
             },
             {
                 "name": "horde/core",
@@ -1015,7 +1039,7 @@
                 "version_normalized": "2.22.3.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "e84aaec63d7f4bb3e2a8f0cd26d8bda8b14a87ac"
                 },
                 "dist": {
@@ -1133,7 +1157,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.22.3"
+                }
             },
             {
                 "name": "horde/core",
@@ -1141,7 +1168,7 @@
                 "version_normalized": "2.22.4.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "cdc7dccc823b9967fe5aa122f036cd20f6ad3edd"
                 },
                 "dist": {
@@ -1259,7 +1286,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.22.4"
+                }
             },
             {
                 "name": "horde/core",
@@ -1267,7 +1297,7 @@
                 "version_normalized": "2.22.5.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "e1e19b27b39c367c557ef9cccd12336e568b153d"
                 },
                 "dist": {
@@ -1385,7 +1415,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.22.5"
+                }
             },
             {
                 "name": "horde/core",
@@ -1393,7 +1426,7 @@
                 "version_normalized": "2.22.6.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "7862268a791959b9efb82a10642fc5141083e0f8"
                 },
                 "dist": {
@@ -1511,7 +1544,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.22.6"
+                }
             },
             {
                 "name": "horde/core",
@@ -1519,7 +1555,7 @@
                 "version_normalized": "2.22.7.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "f2117dce73e20cab88d5b8806cbbb0f7e9c0cf69"
                 },
                 "dist": {
@@ -1637,7 +1673,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.22.7"
+                }
             },
             {
                 "name": "horde/core",
@@ -1645,7 +1684,7 @@
                 "version_normalized": "2.23.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "426f9f3c5c8dfd1f0cfb04bd1222093623a5a29e"
                 },
                 "dist": {
@@ -1763,7 +1802,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.23.0"
+                }
             },
             {
                 "name": "horde/core",
@@ -1771,7 +1813,7 @@
                 "version_normalized": "2.24.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "2f202f5f7ca0c06e9d2020dfbdceccc076228434"
                 },
                 "dist": {
@@ -1889,7 +1931,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.24.0"
+                }
             },
             {
                 "name": "horde/core",
@@ -1897,7 +1942,7 @@
                 "version_normalized": "2.25.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "1b049d920a5022d95f6ff74fe8ed9aff4476f4a8"
                 },
                 "dist": {
@@ -2015,7 +2060,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.25.0"
+                }
             },
             {
                 "name": "horde/core",
@@ -2023,7 +2071,7 @@
                 "version_normalized": "2.26.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "a0786d6d8772568ef54de4ed2a8485733e673edc"
                 },
                 "dist": {
@@ -2141,7 +2189,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.26.0"
+                }
             },
             {
                 "name": "horde/core",
@@ -2149,7 +2200,7 @@
                 "version_normalized": "2.26.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "1ed50b18db9ce34e97a41b54e6f35a8d7e942c33"
                 },
                 "dist": {
@@ -2267,7 +2318,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.26.1"
+                }
             },
             {
                 "name": "horde/core",
@@ -2275,7 +2329,7 @@
                 "version_normalized": "2.27.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "0b1caee7232dcacab17a91793f59a67f51ceebbd"
                 },
                 "dist": {
@@ -2393,7 +2447,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.27.0"
+                }
             },
             {
                 "name": "horde/core",
@@ -2401,7 +2458,7 @@
                 "version_normalized": "2.27.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "bdec118e50720c9acb0f6c8142ab45730a61cb5c"
                 },
                 "dist": {
@@ -2519,7 +2576,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.27.1"
+                }
             },
             {
                 "name": "horde/core",
@@ -2527,7 +2587,7 @@
                 "version_normalized": "2.27.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "3f92de1a9109f5e3f56d847412c907eaf729e426"
                 },
                 "dist": {
@@ -2645,7 +2705,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.27.2"
+                }
             },
             {
                 "name": "horde/core",
@@ -2653,7 +2716,7 @@
                 "version_normalized": "2.27.3.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "ed80906ba074fc964d386e7eb0a8a1415e24439a"
                 },
                 "dist": {
@@ -2771,7 +2834,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.27.3"
+                }
             },
             {
                 "name": "horde/core",
@@ -2779,7 +2845,7 @@
                 "version_normalized": "2.27.4.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "5f6422351420ec67596771a6d2961d48b33d8a60"
                 },
                 "dist": {
@@ -2897,7 +2963,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.27.4"
+                }
             },
             {
                 "name": "horde/core",
@@ -2905,7 +2974,7 @@
                 "version_normalized": "2.27.5.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "596150d5016ed6407c00bcb3ca9531c01cd5b0df"
                 },
                 "dist": {
@@ -3023,7 +3092,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.27.5"
+                }
             },
             {
                 "name": "horde/core",
@@ -3031,7 +3103,7 @@
                 "version_normalized": "2.27.6.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "1c9927791735f7da3d7102f165bcec373fcaf6b8"
                 },
                 "dist": {
@@ -3149,7 +3221,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.27.6"
+                }
             },
             {
                 "name": "horde/core",
@@ -3157,7 +3232,7 @@
                 "version_normalized": "2.27.7.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "8e6aa4fdede198bfc6a81d72e2025d3222a2f548"
                 },
                 "dist": {
@@ -3275,7 +3350,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.27.7"
+                }
             },
             {
                 "name": "horde/core",
@@ -3283,7 +3361,7 @@
                 "version_normalized": "2.27.8.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "46fe01c68158c139a3b33fd28032810190350b6b"
                 },
                 "dist": {
@@ -3401,7 +3479,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.27.8"
+                }
             },
             {
                 "name": "horde/core",
@@ -3409,7 +3490,7 @@
                 "version_normalized": "2.28.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "0c247504def21cb07c34c41233cf779f5f745d04"
                 },
                 "dist": {
@@ -3527,7 +3608,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.28.0"
+                }
             },
             {
                 "name": "horde/core",
@@ -3535,7 +3619,7 @@
                 "version_normalized": "2.28.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "f422eb6ec24816bb13b0a77a9fcacefbe4766ed9"
                 },
                 "dist": {
@@ -3653,7 +3737,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.28.1"
+                }
             },
             {
                 "name": "horde/core",
@@ -3661,7 +3748,7 @@
                 "version_normalized": "2.28.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "ecc63d52972b52e317c6b96ac3e00988a9dab1da"
                 },
                 "dist": {
@@ -3779,7 +3866,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.28.2"
+                }
             },
             {
                 "name": "horde/core",
@@ -3787,7 +3877,7 @@
                 "version_normalized": "2.28.3.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "d04b777cad0e4d07041d6cc57b1674941f73d0a0"
                 },
                 "dist": {
@@ -3905,7 +3995,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.28.3"
+                }
             },
             {
                 "name": "horde/core",
@@ -3913,7 +4006,7 @@
                 "version_normalized": "2.29.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "63aa6bb2abbd409aed921b1cb519b5dbe9875235"
                 },
                 "dist": {
@@ -4041,7 +4134,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.29.0"
+                }
             },
             {
                 "name": "horde/core",
@@ -4049,7 +4145,7 @@
                 "version_normalized": "2.29.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "8e3ae24d59b6432569bb2bc1d148bea7ffe002ac"
                 },
                 "dist": {
@@ -4177,7 +4273,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.29.1"
+                }
             },
             {
                 "name": "horde/core",
@@ -4185,7 +4284,7 @@
                 "version_normalized": "2.30.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "c932a9682b867c087646104d44a95a6da911451e"
                 },
                 "dist": {
@@ -4313,7 +4412,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.30.0"
+                }
             },
             {
                 "name": "horde/core",
@@ -4321,7 +4423,7 @@
                 "version_normalized": "2.30.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "a8043ef9399fc5fe3d56a2e45773b70db262a213"
                 },
                 "dist": {
@@ -4449,7 +4551,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.30.1"
+                }
             },
             {
                 "name": "horde/core",
@@ -4457,7 +4562,7 @@
                 "version_normalized": "2.30.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "e798863e6506aced5d880e316bfc423352666667"
                 },
                 "dist": {
@@ -4585,7 +4690,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.30.2"
+                }
             },
             {
                 "name": "horde/core",
@@ -4593,7 +4701,7 @@
                 "version_normalized": "2.31.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "cc02cea1167c3af41ed33af27c89d51f12e19896"
                 },
                 "dist": {
@@ -4721,7 +4829,10 @@
                     }
                 ],
                 "description": "Horde Core Framework libraries",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.31.0"
+                }
             },
             {
                 "name": "horde/core",
@@ -4729,7 +4840,7 @@
                 "version_normalized": "2.31.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "7a60cb33ae3d5c9df9bba8c372fc2d24db0d7c62"
                 },
                 "dist": {
@@ -4857,7 +4968,10 @@
                     }
                 ],
                 "description": "Core Horde Framework library",
-                "homepage": "https://www.horde.org/libraries/Horde_Core"
+                "homepage": "https://www.horde.org/libraries/Horde_Core",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.31.1"
+                }
             },
             {
                 "name": "horde/core",
@@ -4865,7 +4979,7 @@
                 "version_normalized": "2.31.10.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "b9397ef8e5bf1a03bd9baab46cb550aae9632e16"
                 },
                 "dist": {
@@ -4993,7 +5107,10 @@
                     }
                 ],
                 "description": "Core Horde Framework library",
-                "homepage": "https://www.horde.org/libraries/Horde_Core"
+                "homepage": "https://www.horde.org/libraries/Horde_Core",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.31.10"
+                }
             },
             {
                 "name": "horde/core",
@@ -5001,7 +5118,7 @@
                 "version_normalized": "2.31.11.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "fe0ed589d19dc2f7375c8909c2b80724bdb9c0b8"
                 },
                 "dist": {
@@ -5129,7 +5246,10 @@
                     }
                 ],
                 "description": "Core Horde Framework library",
-                "homepage": "https://www.horde.org/libraries/Horde_Core"
+                "homepage": "https://www.horde.org/libraries/Horde_Core",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.31.11"
+                }
             },
             {
                 "name": "horde/core",
@@ -5137,7 +5257,7 @@
                 "version_normalized": "2.31.12.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "690c7def0f30344128c39227fd5c40810207d43d"
                 },
                 "dist": {
@@ -5265,7 +5385,10 @@
                     }
                 ],
                 "description": "Core Horde Framework library",
-                "homepage": "https://www.horde.org/libraries/Horde_Core"
+                "homepage": "https://www.horde.org/libraries/Horde_Core",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.31.12"
+                }
             },
             {
                 "name": "horde/core",
@@ -5273,7 +5396,7 @@
                 "version_normalized": "2.31.14.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "063195972057d7ef02ddf4d522d52f43a4e76d04"
                 },
                 "dist": {
@@ -5401,7 +5524,10 @@
                     }
                 ],
                 "description": "Core Horde Framework library",
-                "homepage": "https://www.horde.org/libraries/Horde_Core"
+                "homepage": "https://www.horde.org/libraries/Horde_Core",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.31.14"
+                }
             },
             {
                 "name": "horde/core",
@@ -5409,7 +5535,7 @@
                 "version_normalized": "2.31.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "aafbb22143ffdb6e356f06beef0f153125ac115a"
                 },
                 "dist": {
@@ -5537,7 +5663,10 @@
                     }
                 ],
                 "description": "Core Horde Framework library",
-                "homepage": "https://www.horde.org/libraries/Horde_Core"
+                "homepage": "https://www.horde.org/libraries/Horde_Core",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.31.2"
+                }
             },
             {
                 "name": "horde/core",
@@ -5545,7 +5674,7 @@
                 "version_normalized": "2.31.3.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "be536689567463129d52295a30f4b362447a3d5c"
                 },
                 "dist": {
@@ -5673,7 +5802,10 @@
                     }
                 ],
                 "description": "Core Horde Framework library",
-                "homepage": "https://www.horde.org/libraries/Horde_Core"
+                "homepage": "https://www.horde.org/libraries/Horde_Core",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.31.3"
+                }
             },
             {
                 "name": "horde/core",
@@ -5681,7 +5813,7 @@
                 "version_normalized": "2.31.4.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "50a31a5350c2567756010d41c9d220b4f0332c40"
                 },
                 "dist": {
@@ -5809,7 +5941,10 @@
                     }
                 ],
                 "description": "Core Horde Framework library",
-                "homepage": "https://www.horde.org/libraries/Horde_Core"
+                "homepage": "https://www.horde.org/libraries/Horde_Core",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.31.4"
+                }
             },
             {
                 "name": "horde/core",
@@ -5817,7 +5952,7 @@
                 "version_normalized": "2.31.5.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "d7e03d9c1344528593bbc88f79d70a4d918d7b95"
                 },
                 "dist": {
@@ -5945,7 +6080,10 @@
                     }
                 ],
                 "description": "Core Horde Framework library",
-                "homepage": "https://www.horde.org/libraries/Horde_Core"
+                "homepage": "https://www.horde.org/libraries/Horde_Core",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.31.5"
+                }
             },
             {
                 "name": "horde/core",
@@ -5953,7 +6091,7 @@
                 "version_normalized": "2.31.6.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "b72f0f422e871420c5895ce232a520209889351c"
                 },
                 "dist": {
@@ -6081,7 +6219,10 @@
                     }
                 ],
                 "description": "Core Horde Framework library",
-                "homepage": "https://www.horde.org/libraries/Horde_Core"
+                "homepage": "https://www.horde.org/libraries/Horde_Core",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.31.6"
+                }
             },
             {
                 "name": "horde/core",
@@ -6089,7 +6230,7 @@
                 "version_normalized": "2.31.7.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "41e95413d6137d2560d028495affd0cc4077b2e6"
                 },
                 "dist": {
@@ -6217,7 +6358,10 @@
                     }
                 ],
                 "description": "Core Horde Framework library",
-                "homepage": "https://www.horde.org/libraries/Horde_Core"
+                "homepage": "https://www.horde.org/libraries/Horde_Core",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.31.7"
+                }
             },
             {
                 "name": "horde/core",
@@ -6225,7 +6369,7 @@
                 "version_normalized": "2.31.8.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "ddda2461a487543c5e3d389434a6ec6285b30195"
                 },
                 "dist": {
@@ -6353,7 +6497,10 @@
                     }
                 ],
                 "description": "Core Horde Framework library",
-                "homepage": "https://www.horde.org/libraries/Horde_Core"
+                "homepage": "https://www.horde.org/libraries/Horde_Core",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.31.8"
+                }
             },
             {
                 "name": "horde/core",
@@ -6361,7 +6508,7 @@
                 "version_normalized": "2.31.9.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "b3b9abcc02bd1637067eef4f55a99e36fcf4ab25"
                 },
                 "dist": {
@@ -6489,7 +6636,10 @@
                     }
                 ],
                 "description": "Core Horde Framework library",
-                "homepage": "https://www.horde.org/libraries/Horde_Core"
+                "homepage": "https://www.horde.org/libraries/Horde_Core",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v2.31.9"
+                }
             },
             {
                 "name": "horde/core",
@@ -6497,7 +6647,7 @@
                 "version_normalized": "3.0.0.0-alpha1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "93344791bd476955dab55bdbac56ffddd83f35d1"
                 },
                 "dist": {
@@ -6593,7 +6743,10 @@
                     }
                 ],
                 "description": "Core Horde Framework library",
-                "homepage": "https://www.horde.org/libraries/Horde_Core"
+                "homepage": "https://www.horde.org/libraries/Horde_Core",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v3.0.0alpha1"
+                }
             },
             {
                 "name": "horde/core",
@@ -6601,7 +6754,7 @@
                 "version_normalized": "3.0.0.0-alpha2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "a562b2d92dea360ffcae080d7f418709133723e8"
                 },
                 "dist": {
@@ -6697,7 +6850,10 @@
                     }
                 ],
                 "description": "Core Horde Framework library",
-                "homepage": "https://www.horde.org/libraries/Horde_Core"
+                "homepage": "https://www.horde.org/libraries/Horde_Core",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v3.0.0alpha2"
+                }
             },
             {
                 "name": "horde/core",
@@ -6705,7 +6861,7 @@
                 "version_normalized": "3.0.0.0-alpha3",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Core.git",
+                    "url": "https://github.com/maintaina-com/Core.git",
                     "reference": "aad0dea9fba3a8d0f0c8ffd567387dd3c0700ae3"
                 },
                 "dist": {
@@ -6800,7 +6956,10 @@
                     }
                 ],
                 "description": "Core Horde Framework library",
-                "homepage": "https://www.horde.org/libraries/Horde_Core"
+                "homepage": "https://www.horde.org/libraries/Horde_Core",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/v3.0.0alpha3"
+                }
             }
         ]
     }

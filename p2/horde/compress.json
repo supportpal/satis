@@ -7,7 +7,7 @@
                 "version_normalized": "2.0.5.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Compress.git",
+                    "url": "https://github.com/maintaina-com/Compress.git",
                     "reference": "5fca157085742aa4f786cfa1fa0b67b2cb961142"
                 },
                 "dist": {
@@ -50,7 +50,10 @@
                     }
                 ],
                 "description": "Horde Compression API",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Compress/tree/v2.0.5"
+                }
             },
             {
                 "name": "horde/compress",
@@ -58,7 +61,7 @@
                 "version_normalized": "2.1.3.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Compress.git",
+                    "url": "https://github.com/maintaina-com/Compress.git",
                     "reference": "34b9c1d4dc62b99949b8fcf2fd50da1a2479dee6"
                 },
                 "dist": {
@@ -110,7 +113,10 @@
                     }
                 ],
                 "description": "Horde Compression API",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Compress/tree/v2.1.3"
+                }
             },
             {
                 "name": "horde/compress",
@@ -118,7 +124,7 @@
                 "version_normalized": "2.1.4.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Compress.git",
+                    "url": "https://github.com/maintaina-com/Compress.git",
                     "reference": "7912cd13b786fb84cc1630108902b8fba9da6745"
                 },
                 "dist": {
@@ -170,7 +176,10 @@
                     }
                 ],
                 "description": "Horde Compression API",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Compress/tree/v2.1.4"
+                }
             },
             {
                 "name": "horde/compress",
@@ -178,7 +187,7 @@
                 "version_normalized": "2.1.5.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Compress.git",
+                    "url": "https://github.com/maintaina-com/Compress.git",
                     "reference": "a23bee3edd52d34876b8b44e92c7fee1da8f6baf"
                 },
                 "dist": {
@@ -230,7 +239,10 @@
                     }
                 ],
                 "description": "Horde Compression API",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Compress/tree/v2.1.5"
+                }
             },
             {
                 "name": "horde/compress",
@@ -238,7 +250,7 @@
                 "version_normalized": "2.1.6.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Compress.git",
+                    "url": "https://github.com/maintaina-com/Compress.git",
                     "reference": "b6d5f0ddddd766793f431063e20c5a397bccffc6"
                 },
                 "dist": {
@@ -290,7 +302,10 @@
                     }
                 ],
                 "description": "Horde Compression API",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Compress/tree/v2.1.6"
+                }
             },
             {
                 "name": "horde/compress",
@@ -298,7 +313,7 @@
                 "version_normalized": "2.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Compress.git",
+                    "url": "https://github.com/maintaina-com/Compress.git",
                     "reference": "244c983542cde9cbb41759eb4901c2592e62dcc7"
                 },
                 "dist": {
@@ -359,7 +374,10 @@
                     }
                 ],
                 "description": "Horde Compression API",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Compress/tree/v2.2.0"
+                }
             },
             {
                 "name": "horde/compress",
@@ -367,7 +385,7 @@
                 "version_normalized": "2.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Compress.git",
+                    "url": "https://github.com/maintaina-com/Compress.git",
                     "reference": "fa2cc7b518fd835d695efce8e75c77e6e437e429"
                 },
                 "dist": {
@@ -428,7 +446,10 @@
                     }
                 ],
                 "description": "Horde Compression API",
-                "homepage": "https://pear.horde.org"
+                "homepage": "https://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Compress/tree/v2.2.1"
+                }
             },
             {
                 "name": "horde/compress",
@@ -436,7 +457,7 @@
                 "version_normalized": "2.2.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Compress.git",
+                    "url": "https://github.com/maintaina-com/Compress.git",
                     "reference": "208074d18bac1ff023ebbf776d104c26a840e5dc"
                 },
                 "dist": {
@@ -497,7 +518,10 @@
                     }
                 ],
                 "description": "Compression library",
-                "homepage": "https://www.horde.org/libraries/Horde_Compress"
+                "homepage": "https://www.horde.org/libraries/Horde_Compress",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Compress/tree/v2.2.2"
+                }
             },
             {
                 "name": "horde/compress",
@@ -505,7 +529,7 @@
                 "version_normalized": "3.0.0.0-alpha1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Compress.git",
+                    "url": "https://github.com/maintaina-com/Compress.git",
                     "reference": "fca52c1644bb77453db5d0852f62010161d8f31c"
                 },
                 "dist": {
@@ -566,7 +590,10 @@
                     }
                 ],
                 "description": "Compression library",
-                "homepage": "https://www.horde.org/libraries/Horde_Compress"
+                "homepage": "https://www.horde.org/libraries/Horde_Compress",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Compress/tree/v3.0.0alpha1"
+                }
             },
             {
                 "name": "horde/compress",
@@ -574,7 +601,7 @@
                 "version_normalized": "3.0.0.0-alpha2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Compress.git",
+                    "url": "https://github.com/maintaina-com/Compress.git",
                     "reference": "7925b4506846be8759ab691caea2e566d0710b54"
                 },
                 "dist": {
@@ -632,7 +659,10 @@
                     }
                 ],
                 "description": "Compression library",
-                "homepage": "https://www.horde.org/libraries/Horde_Compress"
+                "homepage": "https://www.horde.org/libraries/Horde_Compress",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Compress/tree/v3.0.0alpha2"
+                }
             }
         ]
     }

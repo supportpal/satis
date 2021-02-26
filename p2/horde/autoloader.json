@@ -7,7 +7,7 @@
                 "version_normalized": "2.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Autoloader.git",
+                    "url": "https://github.com/maintaina-com/Autoloader.git",
                     "reference": "a90af7c503cc53b17889acef6fb03b706743481d"
                 },
                 "dist": {
@@ -40,7 +40,10 @@
                     }
                 ],
                 "description": "Horde Autoloader",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Autoloader/tree/v2.1.1"
+                }
             },
             {
                 "name": "horde/autoloader",
@@ -48,7 +51,7 @@
                 "version_normalized": "2.1.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Autoloader.git",
+                    "url": "https://github.com/maintaina-com/Autoloader.git",
                     "reference": "5366e270eed21a2ece130a1c9ada780acf7d6bc7"
                 },
                 "dist": {
@@ -81,7 +84,10 @@
                     }
                 ],
                 "description": "Horde Autoloader",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Autoloader/tree/v2.1.2"
+                }
             },
             {
                 "name": "horde/autoloader",
@@ -89,7 +95,7 @@
                 "version_normalized": "3.0.0.0-alpha1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Autoloader.git",
+                    "url": "https://github.com/maintaina-com/Autoloader.git",
                     "reference": "a9a12185909c4c9b938df1e6966256364e5170f3"
                 },
                 "dist": {
@@ -131,7 +137,10 @@
                     }
                 ],
                 "description": "Autoloader library",
-                "homepage": "https://www.horde.org/libraries/Horde_Autoloader"
+                "homepage": "https://www.horde.org/libraries/Horde_Autoloader",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Autoloader/tree/v3.0.0alpha1"
+                }
             },
             {
                 "name": "horde/autoloader",
@@ -139,7 +148,7 @@
                 "version_normalized": "3.0.0.0-alpha2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Autoloader.git",
+                    "url": "https://github.com/maintaina-com/Autoloader.git",
                     "reference": "e244cf805a173308188076e4a1f6a153b6a4d7d8"
                 },
                 "dist": {
@@ -178,7 +187,10 @@
                     }
                 ],
                 "description": "Autoloader library",
-                "homepage": "https://www.horde.org/libraries/Horde_Autoloader"
+                "homepage": "https://www.horde.org/libraries/Horde_Autoloader",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Autoloader/tree/v3.0.0alpha2"
+                }
             }
         ]
     }
