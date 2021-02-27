@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/kpx-writer-php": [
+            {
+                "name": "phpclasses/kpx-writer-php",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/kpx-writer-php.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "include/KeePassWriter.inc.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

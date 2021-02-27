@@ -11,7 +11,7 @@
                 },
                 "require": {
                     "phpclasses/dba": "1.0",
-                    "phpclasses/formsgeneration": "1.0.33"
+                    "phpclasses/formsgeneration": "1.0.34"
                 },
                 "type": "library",
                 "autoload": {
