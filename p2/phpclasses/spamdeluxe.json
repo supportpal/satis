@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "phpclasses/spamdeluxe": [
+            {
+                "name": "phpclasses/spamdeluxe",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/spamdeluxe.zip"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.ezSpamBotTrap.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

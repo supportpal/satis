@@ -12,6 +12,7 @@
                 "type": "library",
                 "autoload": {
                     "classmap": [
+                        "OTicore.php",
                         "OnTime.php",
                         "OnTimeContent.php",
                         "OnTimeCoreA.php",
