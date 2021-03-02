@@ -263,12 +263,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/nag.git",
-                    "reference": "80abbba647204624d3fc2465a0db9a38cfc615ec"
+                    "reference": "af7dde127dce19bc8a16f6ab0ad1cf2e4cb77166"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/nag/zipball/80abbba647204624d3fc2465a0db9a38cfc615ec",
-                    "reference": "80abbba647204624d3fc2465a0db9a38cfc615ec",
+                    "url": "https://api.github.com/repos/maintaina-com/nag/zipball/af7dde127dce19bc8a16f6ab0ad1cf2e4cb77166",
+                    "reference": "af7dde127dce19bc8a16f6ab0ad1cf2e4cb77166",
                     "shasum": ""
                 },
                 "require": {
