@@ -142,6 +142,112 @@
             },
             {
                 "name": "horde/core",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Core.git",
+                    "reference": "e8b96edfd13c2aafd17190e80c1ca8e64cbe94ea"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Core/zipball/e8b96edfd13c2aafd17190e80c1ca8e64cbe94ea",
+                    "reference": "e8b96edfd13c2aafd17190e80c1ca8e64cbe94ea",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-session": "*",
+                    "horde/alarm": "^3",
+                    "horde/auth": "^3",
+                    "horde/autoloader": "^3",
+                    "horde/browser": "^3",
+                    "horde/cache": "^3",
+                    "horde/cli": "^3",
+                    "horde/compress": "^3",
+                    "horde/compress_fast": "^2",
+                    "horde/controller": "^3",
+                    "horde/cssminify": "^2",
+                    "horde/data": "^3",
+                    "horde/date": "^3",
+                    "horde/exception": "^3",
+                    "horde/group": "^3",
+                    "horde/hashtable": "^2",
+                    "horde/history": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/injector": "^3",
+                    "horde/javascriptminify": "^2",
+                    "horde/lock": "^3",
+                    "horde/log": "^3",
+                    "horde/logintasks": "^3",
+                    "horde/mime": "^3",
+                    "horde/mime_viewer": "^3",
+                    "horde/notification": "^3",
+                    "horde/pack": "^2",
+                    "horde/perms": "^3",
+                    "horde/prefs": "^3",
+                    "horde/secret": "^3",
+                    "horde/serialize": "^3",
+                    "horde/sessionhandler": "^3",
+                    "horde/share": "^3",
+                    "horde/support": "^3",
+                    "horde/template": "^3",
+                    "horde/text_filter": "^3",
+                    "horde/token": "^3",
+                    "horde/translation": "^3",
+                    "horde/url": "^3",
+                    "horde/util": "^3",
+                    "horde/view": "^3",
+                    "pear/pear": "*",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-SimpleXML": "*",
+                    "ext-dom": "*",
+                    "ext-hash": "*",
+                    "ext-sockets": "*",
+                    "pear.php.net/Text_CAPTCHA": "*",
+                    "pear.php.net/Text_Figlet": "*"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "classmap": [
+                        "lib/"
+                    ]
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Core Horde Framework library",
+                "homepage": "https://www.horde.org/libraries/Horde_Core",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/FRAMEWORK_6_0"
+                }
+            },
+            {
+                "name": "horde/core",
                 "version": "dev-cherrypick-core-controller",
                 "version_normalized": "dev-cherrypick-core-controller",
                 "source": {

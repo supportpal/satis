@@ -1,0 +1,35 @@
+{
+    "packages": {
+        "phpclasses/ontimews": [
+            {
+                "name": "phpclasses/ontimews",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/ontimews.zip"
+                },
+                "require": {
+                    "phpclasses/ontimecore": "3.51"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "NuSoap/class.nusoap_base.php",
+                        "NuSoap/class.soap_fault.php",
+                        "NuSoap/class.soap_parser.php",
+                        "NuSoap/class.soap_server.php",
+                        "NuSoap/class.soap_transport_http.php",
+                        "NuSoap/class.soap_val.php",
+                        "NuSoap/class.soapclient.php",
+                        "NuSoap/class.wsdl.php",
+                        "NuSoap/class.wsdlcache.php",
+                        "NuSoap/class.xmlschema.php",
+                        "NuSoap/nusoap.php",
+                        "NuSoap/nusoapmime.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

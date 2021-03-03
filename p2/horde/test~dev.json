@@ -115,19 +115,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Test.git",
-                    "reference": "73d552652f9ee7a0e5f780958cf3cb3f6e115888"
+                    "reference": "c99c648002233d95d8005f9a3d6794f080a9ce7b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/73d552652f9ee7a0e5f780958cf3cb3f6e115888",
-                    "reference": "73d552652f9ee7a0e5f780958cf3cb3f6e115888",
+                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/c99c648002233d95d8005f9a3d6794f080a9ce7b",
+                    "reference": "c99c648002233d95d8005f9a3d6794f080a9ce7b",
                     "shasum": ""
                 },
                 "require": {
                     "horde/horde-installer-plugin": "*",
                     "horde/support": "^3",
                     "horde/util": "^3",
-                    "php": "^7"
+                    "php": "^7",
+                    "phpunit/phpunit": "^9"
                 },
                 "suggest": {
                     "ext-dom": "*",

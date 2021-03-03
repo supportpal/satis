@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/php-darknet": [
+            {
+                "name": "phpclasses/php-darknet",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/php-darknet.zip"
+                },
+                "require": {
+                    "cboden/ratchet": "^0.4.3",
+                    "ext-ffi": "*",
+                    "php": ">=7.4.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "darknet\\": "src/"
+                    }
+                }
+            }
+        ]
+    }
+}

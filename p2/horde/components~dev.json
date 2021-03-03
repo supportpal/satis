@@ -210,19 +210,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/components.git",
-                    "reference": "c15f5306b1d892218083457ed6f85c0141ccb548"
+                    "reference": "d85103b6aed0ab98957df07b7be73b54eebd06ac"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/components/zipball/c15f5306b1d892218083457ed6f85c0141ccb548",
-                    "reference": "c15f5306b1d892218083457ed6f85c0141ccb548",
+                    "url": "https://api.github.com/repos/maintaina-com/components/zipball/d85103b6aed0ab98957df07b7be73b54eebd06ac",
+                    "reference": "d85103b6aed0ab98957df07b7be73b54eebd06ac",
                     "shasum": ""
                 },
                 "require": {
                     "horde/argv": "*",
                     "horde/autoloader": "*",
-                    "horde/cli": "^2.3",
-                    "horde/cli_modular": "^2.1",
+                    "horde/cli": "^3",
+                    "horde/cli_modular": "^3",
                     "horde/horde-installer-plugin": "*",
                     "horde/http": "*",
                     "horde/injector": "*",
