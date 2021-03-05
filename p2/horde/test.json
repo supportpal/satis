@@ -809,19 +809,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Test.git",
-                    "reference": "d765574d378b53c9abb47a6df0df7757d061372f"
+                    "reference": "9d2119af97dd8acbc1e6533e540ab93fa9f966f2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/d765574d378b53c9abb47a6df0df7757d061372f",
-                    "reference": "d765574d378b53c9abb47a6df0df7757d061372f",
+                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/9d2119af97dd8acbc1e6533e540ab93fa9f966f2",
+                    "reference": "9d2119af97dd8acbc1e6533e540ab93fa9f966f2",
                     "shasum": ""
                 },
                 "require": {
                     "horde/horde-installer-plugin": "*",
                     "horde/support": "^3",
                     "horde/util": "^3",
-                    "php": "^7"
+                    "php": "^7",
+                    "phpunit/phpunit": "^9"
                 },
                 "suggest": {
                     "ext-dom": "*",

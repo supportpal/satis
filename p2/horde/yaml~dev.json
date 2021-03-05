@@ -116,12 +116,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Yaml.git",
-                    "reference": "2a36c1caea515a0412a3e3125a6bdcc23675492d"
+                    "reference": "3889fc5a25d3d907124f7ff3b96114b9b4738a06"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Yaml/zipball/2a36c1caea515a0412a3e3125a6bdcc23675492d",
-                    "reference": "2a36c1caea515a0412a3e3125a6bdcc23675492d",
+                    "url": "https://api.github.com/repos/maintaina-com/Yaml/zipball/3889fc5a25d3d907124f7ff3b96114b9b4738a06",
+                    "reference": "3889fc5a25d3d907124f7ff3b96114b9b4738a06",
                     "shasum": ""
                 },
                 "require": {

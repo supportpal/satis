@@ -61,24 +61,25 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/hordectl.git",
-                    "reference": "e3975ddf2fedd7f5a04ce0e8134fd0607dcda4dc"
+                    "reference": "567422737744fbee0a86770ec0da10c4aa59aaea"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/hordectl/zipball/e3975ddf2fedd7f5a04ce0e8134fd0607dcda4dc",
-                    "reference": "e3975ddf2fedd7f5a04ce0e8134fd0607dcda4dc",
+                    "url": "https://api.github.com/repos/maintaina-com/hordectl/zipball/567422737744fbee0a86770ec0da10c4aa59aaea",
+                    "reference": "567422737744fbee0a86770ec0da10c4aa59aaea",
                     "shasum": ""
                 },
                 "require": {
                     "horde/argv": "^3",
                     "horde/cli": "^3",
                     "horde/cli_modular": "^3",
-                    "horde/horde-installer-plugin": "*",
+                    "horde/horde-installer-plugin": "^1",
                     "horde/injector": "^3",
                     "horde/util": "^3",
+                    "horde/yaml": "^3",
                     "php": "^7"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
+                "time": "2021-03-03T00:00:00+00:00",
                 "bin": [
                     "bin/hordectl"
                 ],
