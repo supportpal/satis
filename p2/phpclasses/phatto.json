@@ -12,7 +12,7 @@
                 "type": "project",
                 "autoload": {
                     "psr-4": {
-                        "_empty_": ".php",
+                        "": ".php",
                         "Config\\": ".php/Config"
                     }
                 }

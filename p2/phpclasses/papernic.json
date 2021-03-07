@@ -36,7 +36,7 @@
                 },
                 "autoload": {
                     "psr-4": {
-                        "_empty_": "src/"
+                        "": "src/"
                     },
                     "classmap": [
                         "app/AppKernel.php",

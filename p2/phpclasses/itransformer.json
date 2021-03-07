@@ -42,7 +42,7 @@
                 },
                 "autoload": {
                     "psr-0": {
-                        "_empty_": "src/"
+                        "": "src/"
                     }
                 }
             }

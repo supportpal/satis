@@ -12,7 +12,7 @@
                 "type": "library",
                 "autoload": {
                     "psr-0": {
-                        "_empty_": "classes/"
+                        "": "classes/"
                     }
                 }
             }

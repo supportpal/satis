@@ -23,7 +23,7 @@
                 "type": "library",
                 "autoload": {
                     "psr-4": {
-                        "_empty_": [
+                        "": [
                             "src/",
                             "app/controllers/",
                             "app/models/",

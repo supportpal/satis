@@ -20,7 +20,7 @@
                 "type": "project",
                 "autoload": {
                     "psr-4": {
-                        "_empty_": [
+                        "": [
                             "system/core/",
                             "app/models/",
                             "app/helpers/",
