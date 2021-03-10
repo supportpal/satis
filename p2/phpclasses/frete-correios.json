@@ -3,11 +3,16 @@
         "phpclasses/frete-correios": [
             {
                 "name": "phpclasses/frete-correios",
-                "version": "1.0.1",
-                "version_normalized": "1.0.1.0",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/frete-correios.zip"
+                },
+                "require": {
+                    "phpclasses/filecache": "1.0.1",
+                    "phpclasses/httpclient": "1.0.7",
+                    "phpclasses/xmlparser": "1.0.2"
                 },
                 "type": "library",
                 "autoload": {
