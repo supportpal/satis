@@ -127,12 +127,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Icalendar.git",
-                    "reference": "f8ca537e98ffd494e811146a1abb65c6f18cef7c"
+                    "reference": "c8c113da41e2102a545a5403a11610cbe8c6e0d4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Icalendar/zipball/f8ca537e98ffd494e811146a1abb65c6f18cef7c",
-                    "reference": "f8ca537e98ffd494e811146a1abb65c6f18cef7c",
+                    "url": "https://api.github.com/repos/maintaina-com/Icalendar/zipball/c8c113da41e2102a545a5403a11610cbe8c6e0d4",
+                    "reference": "c8c113da41e2102a545a5403a11610cbe8c6e0d4",
                     "shasum": ""
                 },
                 "require": {
@@ -141,6 +141,65 @@
                     "horde/horde-installer-plugin": "*",
                     "horde/mail": "^3",
                     "horde/support": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Icalendar": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "iCalendar and vCard library",
+                "homepage": "https://www.horde.org/libraries/Horde_Icalendar"
+            },
+            {
+                "name": "horde/icalendar",
+                "version": "dev-FRAMEWORK_6_0-feature-vcard4",
+                "version_normalized": "dev-FRAMEWORK_6_0-feature-vcard4",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Icalendar.git",
+                    "reference": "88a137d67769ce2334b8e59bf84bee8ba2503888"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Icalendar/zipball/88a137d67769ce2334b8e59bf84bee8ba2503888",
+                    "reference": "88a137d67769ce2334b8e59bf84bee8ba2503888",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/date": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/mail": "^3",
+                    "horde/support": "^3",
+                    "horde/test": "dev-FRAMEWORK_6_0",
                     "horde/translation": "^3",
                     "horde/util": "^3",
                     "php": "^7"

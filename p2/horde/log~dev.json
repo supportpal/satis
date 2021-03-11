@@ -165,6 +165,60 @@
             },
             {
                 "name": "horde/log",
+                "version": "dev-FRAMEWORK_6_0-feature-sql",
+                "version_normalized": "dev-FRAMEWORK_6_0-feature-sql",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Log.git",
+                    "reference": "2c09239434d94d6233fa7cb4e165799a2139f747"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Log/zipball/2c09239434d94d6233fa7cb4e165799a2139f747",
+                    "reference": "2c09239434d94d6233fa7cb4e165799a2139f747",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/cli": "dev-FRAMEWORK_6_0",
+                    "horde/constraint": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "horde/cli": "^3",
+                    "horde/scribe": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Log": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Naberezny",
+                        "email": "mike@maintainable.com",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Logging library",
+                "homepage": "https://www.horde.org/libraries/Horde_Log"
+            },
+            {
+                "name": "horde/log",
                 "version": "dev-horde-upstream",
                 "version_normalized": "dev-horde-upstream",
                 "source": {

@@ -702,12 +702,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/kronolith.git",
-                    "reference": "9484e1d11d062bed711ff68ab3c9a9e3dd195321"
+                    "reference": "1704da0ef4ce0d5757075e40fa4de7f938519f6e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/kronolith/zipball/9484e1d11d062bed711ff68ab3c9a9e3dd195321",
-                    "reference": "9484e1d11d062bed711ff68ab3c9a9e3dd195321",
+                    "url": "https://api.github.com/repos/maintaina-com/kronolith/zipball/1704da0ef4ce0d5757075e40fa4de7f938519f6e",
+                    "reference": "1704da0ef4ce0d5757075e40fa4de7f938519f6e",
                     "shasum": ""
                 },
                 "require": {
@@ -730,6 +730,7 @@
                     "pear-pear.horde.org/horde_http": "^2",
                     "pear-pear.horde.org/horde_icalendar": "^2",
                     "pear-pear.horde.org/horde_image": "^2",
+                    "pear-pear.horde.org/horde_itip": "^2",
                     "pear-pear.horde.org/horde_lock": "^2",
                     "pear-pear.horde.org/horde_logintasks": "^2",
                     "pear-pear.horde.org/horde_mail": "^2",
@@ -792,7 +793,7 @@
                 "description": "Calendar and scheduling application",
                 "homepage": "https://www.horde.org/apps/kronolith",
                 "support": {
-                    "source": "https://github.com/maintaina-com/kronolith/tree/horde-upstream"
+                    "source": "https://github.com/maintaina-com/kronolith/tree/maintaina-bare"
                 }
             },
             {

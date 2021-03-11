@@ -749,6 +749,61 @@
             },
             {
                 "name": "horde/test",
+                "version": "2.6.4",
+                "version_normalized": "2.6.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Test.git",
+                    "reference": "f7c139882f742fb54050d1f231229cc2a0d1a667"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/f7c139882f742fb54050d1f231229cc2a0d1a667",
+                    "reference": "f7c139882f742fb54050d1f231229cc2a0d1a667",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_test": "2.*",
+                    "pear-pear.horde.org/horde_test": "2.*"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_cli": "^2",
+                    "pear-pear.horde.org/horde_log": "^2"
+                },
+                "time": "2020-03-15T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Test": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Unit testing library",
+                "homepage": "https://www.horde.org/libraries/Horde_Test"
+            },
+            {
+                "name": "horde/test",
                 "version": "3.0.0alpha1",
                 "version_normalized": "3.0.0.0-alpha1",
                 "source": {
