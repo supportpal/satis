@@ -209,12 +209,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/turba.git",
-                    "reference": "02f47aba40c9597c28df6ed5592e9619283638fb"
+                    "reference": "19300e09640a193bb63c1b9d9c8bd7a88c74f963"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/02f47aba40c9597c28df6ed5592e9619283638fb",
-                    "reference": "02f47aba40c9597c28df6ed5592e9619283638fb",
+                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/19300e09640a193bb63c1b9d9c8bd7a88c74f963",
+                    "reference": "19300e09640a193bb63c1b9d9c8bd7a88c74f963",
                     "shasum": ""
                 },
                 "require": {
@@ -410,12 +410,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/turba.git",
-                    "reference": "b457857fc2cd3cea605f4bbbe91b56c044551002"
+                    "reference": "ab9cb5243961853b2c72d27cc560836a80f30dc0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/b457857fc2cd3cea605f4bbbe91b56c044551002",
-                    "reference": "b457857fc2cd3cea605f4bbbe91b56c044551002",
+                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/ab9cb5243961853b2c72d27cc560836a80f30dc0",
+                    "reference": "ab9cb5243961853b2c72d27cc560836a80f30dc0",
                     "shasum": ""
                 },
                 "require": {
@@ -699,6 +699,103 @@
                 "homepage": "https://www.horde.org/apps/turba",
                 "support": {
                     "source": "https://github.com/maintaina-com/turba/tree/maintaina-composerfixed"
+                }
+            },
+            {
+                "name": "horde/turba",
+                "version": "dev-pr-nls-load-issue",
+                "version_normalized": "dev-pr-nls-load-issue",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/turba.git",
+                    "reference": "2f204c25c8af28d6879ac56a3ec47bbe95aa1cf9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/turba/zipball/2f204c25c8af28d6879ac56a3ec47bbe95aa1cf9",
+                    "reference": "2f204c25c8af28d6879ac56a3ec47bbe95aa1cf9",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/content": "^2.0.5",
+                    "pear-pear.horde.org/horde": "^5",
+                    "pear-pear.horde.org/horde_auth": "^2",
+                    "pear-pear.horde.org/horde_core": "^2.31",
+                    "pear-pear.horde.org/horde_data": "^2",
+                    "pear-pear.horde.org/horde_date": "^2",
+                    "pear-pear.horde.org/horde_dav": "^1",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_form": "^2",
+                    "pear-pear.horde.org/horde_group": "^2",
+                    "pear-pear.horde.org/horde_history": "^2.1",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_mail": "^2",
+                    "pear-pear.horde.org/horde_mime": "^2",
+                    "pear-pear.horde.org/horde_nls": "^2",
+                    "pear-pear.horde.org/horde_perms": "^2",
+                    "pear-pear.horde.org/horde_prefs": "^2",
+                    "pear-pear.horde.org/horde_serialize": "^2",
+                    "pear-pear.horde.org/horde_share": "^2",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_url": "^2",
+                    "pear-pear.horde.org/horde_util": "^2.5",
+                    "pear-pear.horde.org/horde_vfs": "^2.1.3",
+                    "pear-pear.horde.org/horde_view": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/turba": "5.*",
+                    "pear-pear.horde.org/turba": "5.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_activesync": "^2.4",
+                    "pear-pear.horde.org/horde_backup": "^1",
+                    "pear-pear.horde.org/horde_db": "^2.0.3",
+                    "pear-pear.horde.org/horde_imsp": "^2",
+                    "pear-pear.horde.org/horde_kolab_format": "^2.0.5",
+                    "pear-pear.horde.org/horde_kolab_storage": "^2.1",
+                    "pear-pear.horde.org/horde_ldap": "^2.1",
+                    "pear-pear.horde.org/horde_openxchange": "^1"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-0": {
+                        "Turba": "lib/"
+                    }
+                },
+                "license": [
+                    "ASL"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Address book application",
+                "homepage": "https://www.horde.org/apps/turba",
+                "support": {
+                    "source": "https://github.com/maintaina-com/turba/tree/pr-nls-load-issue"
                 }
             }
         ]

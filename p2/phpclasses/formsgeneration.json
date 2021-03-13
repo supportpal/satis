@@ -10,7 +10,7 @@
                     "url": "https://www.phpclasses.org/install/package/formsgeneration.zip"
                 },
                 "require": {
-                    "phpclasses/metabase": "1.0.8"
+                    "phpclasses/metabase": "1.0.9"
                 },
                 "type": "library",
                 "autoload": {

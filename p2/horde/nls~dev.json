@@ -111,12 +111,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Nls.git",
-                    "reference": "e04975a7be142bb0143ab53f8325d98770dd2211"
+                    "reference": "c9b4addc7d0ae9b8eeeb600661d84e528bd2373e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Nls/zipball/e04975a7be142bb0143ab53f8325d98770dd2211",
-                    "reference": "e04975a7be142bb0143ab53f8325d98770dd2211",
+                    "url": "https://api.github.com/repos/maintaina-com/Nls/zipball/c9b4addc7d0ae9b8eeeb600661d84e528bd2373e",
+                    "reference": "c9b4addc7d0ae9b8eeeb600661d84e528bd2373e",
                     "shasum": ""
                 },
                 "require": {
@@ -304,6 +304,59 @@
                     {
                         "name": "Chuck Hagenbuch",
                         "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Native language support library",
+                "homepage": "https://www.horde.org/libraries/Horde_Nls"
+            },
+            {
+                "name": "horde/nls",
+                "version": "dev-pr-autoload-issue",
+                "version_normalized": "dev-pr-autoload-issue",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Nls.git",
+                    "reference": "c6b75f3fb91b729184a904131caf29a85c410228"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Nls/zipball/c6b75f3fb91b729184a904131caf29a85c410228",
+                    "reference": "c6b75f3fb91b729184a904131caf29a85c410228",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_nls": "2.*",
+                    "pear-pear.horde.org/horde_nls": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pecl.php.net/geoip": "*"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Nls": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
                         "role": "lead"
                     }
                 ],
