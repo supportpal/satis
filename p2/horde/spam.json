@@ -97,6 +97,52 @@
                 ],
                 "description": "Spam reporting library",
                 "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/spam",
+                "version": "v1.0.0alpha3",
+                "version_normalized": "1.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Spam.git",
+                    "reference": "3062231be8591cf11b36d188a1269045987b5b7c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Spam/zipball/3062231be8591cf11b36d188a1269045987b5b7c",
+                    "reference": "3062231be8591cf11b36d188a1269045987b5b7c",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/support": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/log": "^3",
+                    "horde/mail": "^3",
+                    "horde/mime": "^3",
+                    "horde/translation": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Spam": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Spam reporting library",
+                "homepage": "https://www.horde.org"
             }
         ]
     }

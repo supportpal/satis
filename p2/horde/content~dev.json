@@ -189,33 +189,33 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/content.git",
-                    "reference": "2c62a51fd7318431015d023fc0a6f044e0f33578"
+                    "reference": "50c16e4cb0d6441224aca69650114f14dad4a946"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/content/zipball/2c62a51fd7318431015d023fc0a6f044e0f33578",
-                    "reference": "2c62a51fd7318431015d023fc0a6f044e0f33578",
+                    "url": "https://api.github.com/repos/maintaina-com/content/zipball/50c16e4cb0d6441224aca69650114f14dad4a946",
+                    "reference": "50c16e4cb0d6441224aca69650114f14dad4a946",
                     "shasum": ""
                 },
                 "require": {
                     "ext-gettext": "*",
                     "ext-json": "*",
-                    "horde/core": "^3",
-                    "horde/date": "^3",
-                    "horde/db": "^3",
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/injector": "^3",
-                    "horde/rdo": "^3",
-                    "horde/util": "^3",
+                    "horde/core": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/date": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/db": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/horde-installer-plugin": "dev-FRAMEWORK_6_0",
+                    "horde/injector": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/rdo": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/argv": "^3",
-                    "horde/controller": "^3",
-                    "horde/elasticsearch": "^2"
+                    "horde/argv": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/controller": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/elasticsearch": "^2 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
+                "time": "2021-03-13T00:00:00+00:00",
                 "bin": [
                     "bin/content-object-add",
                     "bin/content-object-delete",

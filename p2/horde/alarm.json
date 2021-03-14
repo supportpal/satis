@@ -670,6 +670,60 @@
                 "support": {
                     "source": "https://github.com/maintaina-com/Alarm/tree/v3.0.0alpha2"
                 }
+            },
+            {
+                "name": "horde/alarm",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Alarm.git",
+                    "reference": "6d73069ffb1ff2f36e872267de2a6032456cb0ff"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Alarm/zipball/6d73069ffb1ff2f36e872267de2a6032456cb0ff",
+                    "reference": "6d73069ffb1ff2f36e872267de2a6032456cb0ff",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/date": "^3",
+                    "horde/exception": "^3",
+                    "horde/translation": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/db": "^3",
+                    "horde/log": "^3",
+                    "horde/mail": "^3",
+                    "horde/mime": "^3",
+                    "horde/notification": "^3",
+                    "horde/perms": "^3",
+                    "horde/prefs": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Alarm": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Alarm library",
+                "homepage": "https://www.horde.org/libraries/Horde_Alarm",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Alarm/tree/v3.0.0alpha3"
+                }
             }
         ]
     }

@@ -191,6 +191,55 @@
                 "support": {
                     "source": "https://github.com/maintaina-com/Autoloader/tree/v3.0.0alpha2"
                 }
+            },
+            {
+                "name": "horde/autoloader",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Autoloader.git",
+                    "reference": "c1ff99f8fa556c6fda284a77e4ef49c2374a35bc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Autoloader/zipball/c1ff99f8fa556c6fda284a77e4ef49c2374a35bc",
+                    "reference": "c1ff99f8fa556c6fda284a77e4ef49c2374a35bc",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Autoloader": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Autoloader library",
+                "homepage": "https://www.horde.org/libraries/Horde_Autoloader",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Autoloader/tree/v3.0.0alpha3"
+                }
             }
         ]
     }

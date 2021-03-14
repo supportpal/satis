@@ -91,21 +91,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/JavascriptMinify_Jsmin.git",
-                    "reference": "92b77df3c23283f30d8a35d8212d0c0079276be1"
+                    "reference": "4f641736d004beb0e6930999e85ae7b0747f77de"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/JavascriptMinify_Jsmin/zipball/92b77df3c23283f30d8a35d8212d0c0079276be1",
-                    "reference": "92b77df3c23283f30d8a35d8212d0c0079276be1",
+                    "url": "https://api.github.com/repos/maintaina-com/JavascriptMinify_Jsmin/zipball/4f641736d004beb0e6930999e85ae7b0747f77de",
+                    "reference": "4f641736d004beb0e6930999e85ae7b0747f77de",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/horde-installer-plugin": "*",
-                    "horde/javascriptminify": "^2",
+                    "horde/javascriptminify": "^2 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_JavascriptMinify_Jsmin": "lib/"

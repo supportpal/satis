@@ -109,27 +109,26 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Compress_Fast.git",
-                    "reference": "9a192f221b0f0f3097af71f1c53f770e9b2e9230"
+                    "reference": "0b6fdea835deec67e2ca49d086a0cf677b3e61c0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Compress_Fast/zipball/9a192f221b0f0f3097af71f1c53f770e9b2e9230",
-                    "reference": "9a192f221b0f0f3097af71f1c53f770e9b2e9230",
+                    "url": "https://api.github.com/repos/maintaina-com/Compress_Fast/zipball/0b6fdea835deec67e2ca49d086a0cf677b3e61c0",
+                    "reference": "0b6fdea835deec67e2ca49d086a0cf677b3e61c0",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
                     "ext-horde_lz4": "*",
                     "ext-lzf": "*",
                     "ext-zlib": "*",
-                    "horde/test": "^3"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Compress_Fast": "lib/"

@@ -119,30 +119,29 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Form.git",
-                    "reference": "f8eb5659fb489f07d2822f318025c2443681b591"
+                    "reference": "509122b6caf662e575aee1e9eb82c5fb7ac9ec1b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Form/zipball/f8eb5659fb489f07d2822f318025c2443681b591",
-                    "reference": "f8eb5659fb489f07d2822f318025c2443681b591",
+                    "url": "https://api.github.com/repos/maintaina-com/Form/zipball/509122b6caf662e575aee1e9eb82c5fb7ac9ec1b",
+                    "reference": "509122b6caf662e575aee1e9eb82c5fb7ac9ec1b",
                     "shasum": ""
                 },
                 "require": {
                     "ext-json": "*",
-                    "horde/core": "^3",
-                    "horde/date": "^3",
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/mail": "^3",
-                    "horde/mime": "^3",
-                    "horde/nls": "^3",
-                    "horde/token": "^3",
-                    "horde/translation": "^3",
-                    "horde/util": "^3",
+                    "horde/core": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/date": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mail": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mime": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/nls": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/token": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "classmap": [
                         "lib/"

@@ -125,33 +125,32 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Crypt.git",
-                    "reference": "b6d0f5cb05db1b32a681e266e943ca9537d48e86"
+                    "reference": "c3bbeaaac48d28ea513498fa14eb5d14a40b4fd1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Crypt/zipball/b6d0f5cb05db1b32a681e266e943ca9537d48e86",
-                    "reference": "b6d0f5cb05db1b32a681e266e943ca9537d48e86",
+                    "url": "https://api.github.com/repos/maintaina-com/Crypt/zipball/c3bbeaaac48d28ea513498fa14eb5d14a40b4fd1",
+                    "reference": "c3bbeaaac48d28ea513498fa14eb5d14a40b4fd1",
                     "shasum": ""
                 },
                 "require": {
                     "ext-hash": "*",
                     "ext-openssl": "*",
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/http": "^3",
-                    "horde/mime": "^3",
-                    "horde/stream": "^2",
-                    "horde/stream_filter": "^3",
-                    "horde/translation": "^3",
-                    "horde/url": "^3",
-                    "horde/util": "^3",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/http": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mime": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/stream": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/stream_filter": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/url": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/test": "^3"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Crypt": "lib/"

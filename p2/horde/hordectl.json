@@ -55,6 +55,57 @@
                     "source": "https://github.com/maintaina-com/hordectl/tree/v1.0.0alpha2",
                     "issues": "https://github.com/maintaina-com/hordectl/issues"
                 }
+            },
+            {
+                "name": "horde/hordectl",
+                "version": "v1.0.0alpha3",
+                "version_normalized": "1.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/hordectl.git",
+                    "reference": "1645e0d7da0d2cc2d7ba6f08014b107445a2fcc6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/hordectl/zipball/1645e0d7da0d2cc2d7ba6f08014b107445a2fcc6",
+                    "reference": "1645e0d7da0d2cc2d7ba6f08014b107445a2fcc6",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/argv": "^3",
+                    "horde/cli": "^3",
+                    "horde/cli_modular": "^3",
+                    "horde/injector": "^3",
+                    "horde/util": "^3",
+                    "horde/yaml": "^3",
+                    "php": "^7"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "bin": [
+                    "bin/hordectl"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Horde\\Hordectl\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Ralf Lang",
+                        "email": "lang@b1-systems.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Scenario deployer library",
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/hordectl/tree/v1.0.0alpha3",
+                    "issues": "https://github.com/maintaina-com/hordectl/issues"
+                }
             }
         ]
     }

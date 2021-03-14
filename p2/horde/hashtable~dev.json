@@ -103,27 +103,26 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/HashTable.git",
-                    "reference": "63a3ae9c632f935e39b5bd803e14b521e9e9ed3a"
+                    "reference": "57fc4160ffa4e95b23208d0f581ebc0fe0543fa0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/HashTable/zipball/63a3ae9c632f935e39b5bd803e14b521e9e9ed3a",
-                    "reference": "63a3ae9c632f935e39b5bd803e14b521e9e9ed3a",
+                    "url": "https://api.github.com/repos/maintaina-com/HashTable/zipball/57fc4160ffa4e95b23208d0f581ebc0fe0543fa0",
+                    "reference": "57fc4160ffa4e95b23208d0f581ebc0fe0543fa0",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/log": "^3",
-                    "horde/memcache": "^3",
-                    "horde/vfs": "^3",
+                    "horde/log": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/memcache": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/vfs": "^3 || dev-FRAMEWORK_6_0",
                     "predis/predis": "^1.1"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_HashTable": "lib/"

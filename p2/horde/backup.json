@@ -153,6 +153,54 @@
                 "support": {
                     "source": "https://github.com/maintaina-com/Backup/tree/v2.0.0alpha2"
                 }
+            },
+            {
+                "name": "horde/backup",
+                "version": "v2.0.0alpha3",
+                "version_normalized": "2.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Backup.git",
+                    "reference": "7b3d00fc82156ea4eb1b42edcab799baa6a10cb8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Backup/zipball/7b3d00fc82156ea4eb1b42edcab799baa6a10cb8",
+                    "reference": "7b3d00fc82156ea4eb1b42edcab799baa6a10cb8",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/compress": "^3",
+                    "horde/exception": "^3",
+                    "horde/pack": "^2",
+                    "horde/translation": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Backup": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Backup and restore library",
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Backup/tree/v2.0.0alpha3"
+                }
             }
         ]
     }

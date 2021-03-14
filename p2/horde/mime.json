@@ -1881,6 +1881,66 @@
                 ],
                 "description": "MIME library",
                 "homepage": "https://www.horde.org/libraries/Horde_Mime"
+            },
+            {
+                "name": "horde/mime",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime.git",
+                    "reference": "5104d9396613bb31fe60aa1636fa973c276d2530"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/5104d9396613bb31fe60aa1636fa973c276d2530",
+                    "reference": "5104d9396613bb31fe60aa1636fa973c276d2530",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/listheaders": "^2",
+                    "horde/mail": "^3",
+                    "horde/stream": "^2",
+                    "horde/stream_filter": "^3",
+                    "horde/support": "^3",
+                    "horde/text_flowed": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-idn": "*",
+                    "ext-intl": "*",
+                    "horde/nls": "^3",
+                    "horde/test": "^3",
+                    "horde/text_filter": "^3",
+                    "pear/net_dns2": "*"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Mime": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "MIME library",
+                "homepage": "https://www.horde.org/libraries/Horde_Mime"
             }
         ]
     }

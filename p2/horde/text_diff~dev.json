@@ -113,27 +113,26 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Text_Diff.git",
-                    "reference": "916907aa099900c0cb1d9d0f8fc1bc4c88a29958"
+                    "reference": "8955a3504ad3f9bdd14d4848b4a5ab9a31936f90"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Text_Diff/zipball/916907aa099900c0cb1d9d0f8fc1bc4c88a29958",
-                    "reference": "916907aa099900c0cb1d9d0f8fc1bc4c88a29958",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Diff/zipball/8955a3504ad3f9bdd14d4848b4a5ab9a31936f90",
+                    "reference": "8955a3504ad3f9bdd14d4848b4a5ab9a31936f90",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/util": "^3",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
                     "ext-xdiff": "*",
-                    "horde/cli": "^3",
-                    "horde/test": "^3"
+                    "horde/cli": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Text_Diff": "lib/"

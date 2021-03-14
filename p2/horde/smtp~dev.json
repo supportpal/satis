@@ -161,12 +161,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Smtp.git",
-                    "reference": "32a32f9ffdde731cf93231597673ad0038e6f341"
+                    "reference": "afb72a5eef8ce317233d323df0a364a9b43f31bf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Smtp/zipball/32a32f9ffdde731cf93231597673ad0038e6f341",
-                    "reference": "32a32f9ffdde731cf93231597673ad0038e6f341",
+                    "url": "https://api.github.com/repos/maintaina-com/Smtp/zipball/afb72a5eef8ce317233d323df0a364a9b43f31bf",
+                    "reference": "afb72a5eef8ce317233d323df0a364a9b43f31bf",
                     "shasum": ""
                 },
                 "require": {
@@ -187,7 +187,7 @@
                     "pear-pear.horde.org/horde_secret": "^2",
                     "pear-pear.horde.org/horde_test": "^2.1"
                 },
-                "time": "2017-11-11T00:00:00+00:00",
+                "time": "2020-11-19T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -214,12 +214,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Smtp.git",
-                    "reference": "32a32f9ffdde731cf93231597673ad0038e6f341"
+                    "reference": "afb72a5eef8ce317233d323df0a364a9b43f31bf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Smtp/zipball/32a32f9ffdde731cf93231597673ad0038e6f341",
-                    "reference": "32a32f9ffdde731cf93231597673ad0038e6f341",
+                    "url": "https://api.github.com/repos/maintaina-com/Smtp/zipball/afb72a5eef8ce317233d323df0a364a9b43f31bf",
+                    "reference": "afb72a5eef8ce317233d323df0a364a9b43f31bf",
                     "shasum": ""
                 },
                 "require": {
@@ -240,7 +240,7 @@
                     "pear-pear.horde.org/horde_secret": "^2",
                     "pear-pear.horde.org/horde_test": "^2.1"
                 },
-                "time": "2017-11-11T00:00:00+00:00",
+                "time": "2020-11-19T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {

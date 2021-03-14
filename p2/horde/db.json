@@ -915,6 +915,72 @@
             },
             {
                 "name": "horde/db",
+                "version": "2.4.1",
+                "version_normalized": "2.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Db.git",
+                    "reference": "8ed3e776559b4b36f87019b91e9f30cd4c8dd1e4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Db/zipball/8ed3e776559b4b36f87019b91e9f30cd4c8dd1e4",
+                    "reference": "8ed3e776559b4b36f87019b91e9f30cd4c8dd1e4",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_date": "^2",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_db": "2.*",
+                    "pear-pear.horde.org/horde_db": "2.*"
+                },
+                "suggest": {
+                    "ext-PDO": "*",
+                    "ext-mysql": "*",
+                    "ext-mysqli": "*",
+                    "ext-oci8": "*",
+                    "pear-pear.horde.org/horde_autoloader": "^2",
+                    "pear-pear.horde.org/horde_cache": "^2",
+                    "pear-pear.horde.org/horde_log": "^2",
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2021-02-17T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Db": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Mike Naberezny",
+                        "email": "mike@naberezny.com",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Database abstraction library",
+                "homepage": "https://www.horde.org/libraries/Horde_Db"
+            },
+            {
+                "name": "horde/db",
                 "version": "3.0.0alpha1",
                 "version_normalized": "3.0.0.0-alpha1",
                 "source": {
@@ -1020,6 +1086,71 @@
                     "bin/horde-db-migrate-component"
                 ],
                 "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Db": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Mike Naberezny",
+                        "email": "mike@naberezny.com",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Database abstraction library",
+                "homepage": "https://www.horde.org/libraries/Horde_Db"
+            },
+            {
+                "name": "horde/db",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Db.git",
+                    "reference": "5e1c2fb6ab2a35c436a452e49becc144b6b2e7c6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Db/zipball/5e1c2fb6ab2a35c436a452e49becc144b6b2e7c6",
+                    "reference": "5e1c2fb6ab2a35c436a452e49becc144b6b2e7c6",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/date": "^3",
+                    "horde/exception": "^3",
+                    "horde/support": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-PDO": "*",
+                    "ext-mysql": "*",
+                    "ext-mysqli": "*",
+                    "ext-oci8": "*",
+                    "horde/autoloader": "^3",
+                    "horde/cache": "^3",
+                    "horde/log": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "bin": [
+                    "bin/horde-db-migrate-component"
+                ],
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Db": "lib/"

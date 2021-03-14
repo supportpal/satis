@@ -296,6 +296,52 @@
                 ],
                 "description": "PHP stream wrappers library",
                 "homepage": "https://www.horde.org/libraries/Horde_Stream_Wrapper"
+            },
+            {
+                "name": "horde/stream_wrapper",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Stream_Wrapper.git",
+                    "reference": "024b006bef37bffab9ae6a5334bf32e7d5dc83ef"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream_Wrapper/zipball/024b006bef37bffab9ae6a5334bf32e7d5dc83ef",
+                    "reference": "024b006bef37bffab9ae6a5334bf32e7d5dc83ef",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Stream_Wrapper": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "PHP stream wrappers library",
+                "homepage": "https://www.horde.org/libraries/Horde_Stream_Wrapper"
             }
         ]
     }

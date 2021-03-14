@@ -87,6 +87,57 @@
             },
             {
                 "name": "horde/xml_wbxml",
+                "version": "2.0.4",
+                "version_normalized": "2.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Xml_Wbxml.git",
+                    "reference": "89b81f766e826321fee624c926f15686ff2894e0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Xml_Wbxml/zipball/89b81f766e826321fee624c926f15686ff2894e0",
+                    "reference": "89b81f766e826321fee624c926f15686ff2894e0",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_xml_wbxml": "2.*",
+                    "pear-pear.horde.org/horde_xml_wbxml": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2019-11-16T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Xml_Wbxml": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "WBXML library",
+                "homepage": "https://www.horde.org/libraries/Horde_Xml_Wbxml"
+            },
+            {
+                "name": "horde/xml_wbxml",
                 "version": "3.0.0alpha1",
                 "version_normalized": "3.0.0.0-alpha1",
                 "source": {
@@ -161,6 +212,53 @@
                 },
                 "time": "2021-02-24T00:00:00+00:00",
                 "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Xml_Wbxml": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "WBXML library",
+                "homepage": "https://www.horde.org/libraries/Horde_Xml_Wbxml"
+            },
+            {
+                "name": "horde/xml_wbxml",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Xml_Wbxml.git",
+                    "reference": "61ce9cd5e8e2a4e658776f68ce9e300d01cfca66"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Xml_Wbxml/zipball/61ce9cd5e8e2a4e658776f68ce9e300d01cfca66",
+                    "reference": "61ce9cd5e8e2a4e658776f68ce9e300d01cfca66",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Xml_Wbxml": "lib/"

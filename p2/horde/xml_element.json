@@ -209,6 +209,50 @@
                 ],
                 "description": "XML element library",
                 "homepage": "https://www.horde.org/libraries/Horde_Xml_Element"
+            },
+            {
+                "name": "horde/xml_element",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Xml_Element.git",
+                    "reference": "b0cd29a5d960df0a7560ad7ff88e07e6b929e7ab"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Xml_Element/zipball/b0cd29a5d960df0a7560ad7ff88e07e6b929e7ab",
+                    "reference": "b0cd29a5d960df0a7560ad7ff88e07e6b929e7ab",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "horde/exception": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Xml_Element": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "XML element library",
+                "homepage": "https://www.horde.org/libraries/Horde_Xml_Element"
             }
         ]
     }

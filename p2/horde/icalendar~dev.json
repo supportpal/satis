@@ -305,12 +305,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Icalendar.git",
-                    "reference": "9311091ea2fc4cce45afa99ed4b81164f70ea40a"
+                    "reference": "f5e2cf496c6bf6a70d1ba0af50142689d1e1e1b8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Icalendar/zipball/9311091ea2fc4cce45afa99ed4b81164f70ea40a",
-                    "reference": "9311091ea2fc4cce45afa99ed4b81164f70ea40a",
+                    "url": "https://api.github.com/repos/maintaina-com/Icalendar/zipball/f5e2cf496c6bf6a70d1ba0af50142689d1e1e1b8",
+                    "reference": "f5e2cf496c6bf6a70d1ba0af50142689d1e1e1b8",
                     "shasum": ""
                 },
                 "require": {

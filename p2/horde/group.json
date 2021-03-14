@@ -338,6 +338,58 @@
                 ],
                 "description": "User groups library",
                 "homepage": "https://www.horde.org/libraries/Horde_Group"
+            },
+            {
+                "name": "horde/group",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Group.git",
+                    "reference": "b4f3188e5a20df62eb20c74b0f3440c5e47cf4e2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Group/zipball/b4f3188e5a20df62eb20c74b0f3440c5e47cf4e2",
+                    "reference": "b4f3188e5a20df62eb20c74b0f3440c5e47cf4e2",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/support": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/cache": "^3",
+                    "horde/db": "^3",
+                    "horde/ldap": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Group": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "User groups library",
+                "homepage": "https://www.horde.org/libraries/Horde_Group"
             }
         ]
     }

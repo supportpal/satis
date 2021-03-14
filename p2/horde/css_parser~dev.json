@@ -95,23 +95,22 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Css_Parser.git",
-                    "reference": "32363d763c5346e754c07cf690a2b9deb1cdb7d6"
+                    "reference": "e12c2e7175b49cd2336f39990070d66e98e082bc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Css_Parser/zipball/32363d763c5346e754c07cf690a2b9deb1cdb7d6",
-                    "reference": "32363d763c5346e754c07cf690a2b9deb1cdb7d6",
+                    "url": "https://api.github.com/repos/maintaina-com/Css_Parser/zipball/e12c2e7175b49cd2336f39990070d66e98e082bc",
+                    "reference": "e12c2e7175b49cd2336f39990070d66e98e082bc",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/horde-installer-plugin": "*",
                     "php": "^7"
                 },
                 "suggest": {
                     "ext-mbstring": "*"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Css_Parser": "lib/"

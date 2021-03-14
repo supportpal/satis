@@ -133,34 +133,33 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Cache.git",
-                    "reference": "f0cfa526953eed35a09555bbb536d4ba5eab3573"
+                    "reference": "672670cb03b0f7bd903c49f5c20e115bd2211720"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Cache/zipball/f0cfa526953eed35a09555bbb536d4ba5eab3573",
-                    "reference": "f0cfa526953eed35a09555bbb536d4ba5eab3573",
+                    "url": "https://api.github.com/repos/maintaina-com/Cache/zipball/672670cb03b0f7bd903c49f5c20e115bd2211720",
+                    "reference": "672670cb03b0f7bd903c49f5c20e115bd2211720",
                     "shasum": ""
                 },
                 "require": {
                     "ext-hash": "*",
-                    "horde/compress_fast": "^2",
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/util": "^3",
+                    "horde/compress_fast": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
                     "ext-apc": "*",
                     "ext-eaccelerator": "0.9.5",
                     "ext-xcache": "*",
-                    "horde/,emcache": "^3",
-                    "horde/db": "^3",
-                    "horde/hashtable": "^2",
-                    "horde/log": "^3",
-                    "horde/mongo": "^2"
+                    "horde/,emcache": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/db": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/hashtable": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/log": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mongo": "^2 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Cache": "lib/"

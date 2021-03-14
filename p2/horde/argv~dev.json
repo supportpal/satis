@@ -129,27 +129,26 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Argv.git",
-                    "reference": "9486cedfededfcad269bee768b669020a9fdf864"
+                    "reference": "3451c47c0112d9c970b9a9c02d85d3b3e88f2291"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Argv/zipball/9486cedfededfcad269bee768b669020a9fdf864",
-                    "reference": "9486cedfededfcad269bee768b669020a9fdf864",
+                    "url": "https://api.github.com/repos/maintaina-com/Argv/zipball/3451c47c0112d9c970b9a9c02d85d3b3e88f2291",
+                    "reference": "3451c47c0112d9c970b9a9c02d85d3b3e88f2291",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/cli": "^3",
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/translation": "^3",
-                    "horde/util": "^3",
+                    "horde/cli": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/test": "^3"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Argv": "lib/"

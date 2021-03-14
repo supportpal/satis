@@ -168,6 +168,47 @@
                 ],
                 "description": "Scheduling library",
                 "homepage": "https://www.horde.org/libraries/Horde_Scheduler"
+            },
+            {
+                "name": "horde/scheduler",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Scheduler.git",
+                    "reference": "232b92f55ac5bdd81ff2e28ef83c66754fb1ff16"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Scheduler/zipball/232b92f55ac5bdd81ff2e28ef83c66754fb1ff16",
+                    "reference": "232b92f55ac5bdd81ff2e28ef83c66754fb1ff16",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/core": "^3",
+                    "horde/util": "^3",
+                    "horde/vfs": "^3",
+                    "php": "^7"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Scheduler": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Scheduling library",
+                "homepage": "https://www.horde.org/libraries/Horde_Scheduler"
             }
         ]
     }

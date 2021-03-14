@@ -684,6 +684,66 @@
                 ],
                 "description": "Resource sharing library",
                 "homepage": "https://www.horde.org/libraries/Horde_Share"
+            },
+            {
+                "name": "horde/share",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Share.git",
+                    "reference": "0975178e1acd42d03a522ae5058e3e60e4779f73"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Share/zipball/0975178e1acd42d03a522ae5058e3e60e4779f73",
+                    "reference": "0975178e1acd42d03a522ae5058e3e60e4779f73",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/db": "^3",
+                    "horde/exception": "^3",
+                    "horde/group": "^3",
+                    "horde/perms": "^3",
+                    "horde/support": "^3",
+                    "horde/translation": "^3",
+                    "horde/url": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/kolab_storage": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Share": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Resource sharing library",
+                "homepage": "https://www.horde.org/libraries/Horde_Share"
             }
         ]
     }

@@ -124,12 +124,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Dav.git",
-                    "reference": "f24eb56d4f799d747d17fe497b02197b2b8e2ae7"
+                    "reference": "a78ec9ee8fcf0a6ee3a5ef8e63045fd6ca5cdf7e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Dav/zipball/f24eb56d4f799d747d17fe497b02197b2b8e2ae7",
-                    "reference": "f24eb56d4f799d747d17fe497b02197b2b8e2ae7",
+                    "url": "https://api.github.com/repos/maintaina-com/Dav/zipball/a78ec9ee8fcf0a6ee3a5ef8e63045fd6ca5cdf7e",
+                    "reference": "a78ec9ee8fcf0a6ee3a5ef8e63045fd6ca5cdf7e",
                     "shasum": ""
                 },
                 "require": {
@@ -142,20 +142,19 @@
                     "ext-pcre": "*",
                     "ext-simplexml": "*",
                     "ext-spl": "*",
-                    "horde/auth": "^3",
-                    "horde/core": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/http": "^3",
-                    "horde/stream": "^2",
-                    "horde/translation": "^3",
+                    "horde/auth": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/core": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/http": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/stream": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7",
                     "sabre/dav": "^4.1"
                 },
                 "suggest": {
                     "ext-curl": "*"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Dav": "lib/"

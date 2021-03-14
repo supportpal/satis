@@ -585,6 +585,54 @@
                 "support": {
                     "source": "https://github.com/maintaina-com/Cli/tree/v3.0.0alpha2"
                 }
+            },
+            {
+                "name": "horde/cli",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Cli.git",
+                    "reference": "70c70ef61ad563881b2c2822eb10ccdecddc0c98"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Cli/zipball/70c70ef61ad563881b2c2822eb10ccdecddc0c98",
+                    "reference": "70c70ef61ad563881b2c2822eb10ccdecddc0c98",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/support": "^3",
+                    "horde/translation": "^3",
+                    "php": "^7"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Cli": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Command line interface library",
+                "homepage": "https://www.horde.org/libraries/Horde_Cli",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cli/tree/v3.0.0alpha3"
+                }
             }
         ]
     }

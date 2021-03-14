@@ -129,35 +129,34 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Vfs.git",
-                    "reference": "0eb4135fc116958eb1814f4500dfc283d7ef44e1"
+                    "reference": "e0edd8a053a51f22298a9c7caf58b8aeea74bea4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Vfs/zipball/0eb4135fc116958eb1814f4500dfc283d7ef44e1",
-                    "reference": "0eb4135fc116958eb1814f4500dfc283d7ef44e1",
+                    "url": "https://api.github.com/repos/maintaina-com/Vfs/zipball/e0edd8a053a51f22298a9c7caf58b8aeea74bea4",
+                    "reference": "e0edd8a053a51f22298a9c7caf58b8aeea74bea4",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/translation": "^3",
-                    "horde/util": "^3",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
                     "ext-ftp": "*",
                     "ext-ssh2": "*",
-                    "horde/auth": "^3",
-                    "horde/core": "^3",
-                    "horde/db": "^3",
-                    "horde/kolab_session": "^3",
-                    "horde/mime": "^3",
-                    "horde/mongo": "^2",
-                    "horde/perms": "^3",
-                    "horde/test": "^3"
+                    "horde/auth": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/core": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/db": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/kolab_session": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mime": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mongo": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/perms": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Vfs": "lib/"
@@ -188,12 +187,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Vfs.git",
-                    "reference": "fa2d6e8079cd9c92c29ad3711865a26ffdca8a0c"
+                    "reference": "6bb14e2229f008c04868f003ca9d2f791843a6a7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Vfs/zipball/fa2d6e8079cd9c92c29ad3711865a26ffdca8a0c",
-                    "reference": "fa2d6e8079cd9c92c29ad3711865a26ffdca8a0c",
+                    "url": "https://api.github.com/repos/maintaina-com/Vfs/zipball/6bb14e2229f008c04868f003ca9d2f791843a6a7",
+                    "reference": "6bb14e2229f008c04868f003ca9d2f791843a6a7",
                     "shasum": ""
                 },
                 "require": {
@@ -250,12 +249,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Vfs.git",
-                    "reference": "fa2d6e8079cd9c92c29ad3711865a26ffdca8a0c"
+                    "reference": "6bb14e2229f008c04868f003ca9d2f791843a6a7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Vfs/zipball/fa2d6e8079cd9c92c29ad3711865a26ffdca8a0c",
-                    "reference": "fa2d6e8079cd9c92c29ad3711865a26ffdca8a0c",
+                    "url": "https://api.github.com/repos/maintaina-com/Vfs/zipball/6bb14e2229f008c04868f003ca9d2f791843a6a7",
+                    "reference": "6bb14e2229f008c04868f003ca9d2f791843a6a7",
                     "shasum": ""
                 },
                 "require": {

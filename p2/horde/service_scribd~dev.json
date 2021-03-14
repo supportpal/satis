@@ -95,23 +95,22 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Service_Scribd.git",
-                    "reference": "ec31697618ea315c336925230382dbb48bdce541"
+                    "reference": "e37d177ce75ad73e165ebe339414dcca19a241c7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Service_Scribd/zipball/ec31697618ea315c336925230382dbb48bdce541",
-                    "reference": "ec31697618ea315c336925230382dbb48bdce541",
+                    "url": "https://api.github.com/repos/maintaina-com/Service_Scribd/zipball/e37d177ce75ad73e165ebe339414dcca19a241c7",
+                    "reference": "e37d177ce75ad73e165ebe339414dcca19a241c7",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/horde-installer-plugin": "*",
-                    "horde/http": "^3",
-                    "horde/translation": "^3",
-                    "horde/xml_element": "^3",
+                    "horde/http": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/xml_element": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Service_Scribd": "lib/"

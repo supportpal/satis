@@ -86,6 +86,44 @@
                 ],
                 "description": "PEAR installer role",
                 "homepage": "https://www.horde.org/libraries/Horde_Role"
+            },
+            {
+                "name": "horde/role",
+                "version": "v2.0.0alpha3",
+                "version_normalized": "2.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Role.git",
+                    "reference": "595ef2a425441bf982bfa440b2cfd809c18b6275"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Role/zipball/595ef2a425441bf982bfa440b2cfd809c18b6275",
+                    "reference": "595ef2a425441bf982bfa440b2cfd809c18b6275",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "PEAR installer role",
+                "homepage": "https://www.horde.org/libraries/Horde_Role"
             }
         ]
     }

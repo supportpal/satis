@@ -252,6 +252,75 @@
             },
             {
                 "name": "horde/rpc",
+                "version": "2.1.9",
+                "version_normalized": "2.1.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Rpc.git",
+                    "reference": "7b5ba3abbb3f39ef42e11695da9834baf1349f62"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Rpc/zipball/7b5ba3abbb3f39ef42e11695da9834baf1349f62",
+                    "reference": "7b5ba3abbb3f39ef42e11695da9834baf1349f62",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_core": "^2.5",
+                    "pear-pear.horde.org/horde_dav": "^1",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_perms": "^2",
+                    "pear-pear.horde.org/horde_serialize": "^2",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "pear-pear.horde.org/horde_xml_element": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_rpc": "2.*",
+                    "pear-pear.horde.org/horde_rpc": "2.*"
+                },
+                "suggest": {
+                    "ext-soap": "*",
+                    "ext-xmlrpc": "*",
+                    "pear-pear.horde.org/horde_activesync": "^2",
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_lock": "^2",
+                    "pear-pear.horde.org/horde_syncml": "^2"
+                },
+                "time": "2019-12-05T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Rpc": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "RPC library",
+                "homepage": "https://www.horde.org/libraries/Horde_Rpc"
+            },
+            {
+                "name": "horde/rpc",
                 "version": "3.0.0alpha1",
                 "version_normalized": "3.0.0.0-alpha1",
                 "source": {
@@ -357,6 +426,71 @@
                 },
                 "time": "2021-02-24T00:00:00+00:00",
                 "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Rpc": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "RPC library",
+                "homepage": "https://www.horde.org/libraries/Horde_Rpc"
+            },
+            {
+                "name": "horde/rpc",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Rpc.git",
+                    "reference": "cb7aedf3bc7177ffb28438b20b48ccc06d8d586d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Rpc/zipball/cb7aedf3bc7177ffb28438b20b48ccc06d8d586d",
+                    "reference": "cb7aedf3bc7177ffb28438b20b48ccc06d8d586d",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/core": "^3",
+                    "horde/dav": "^2",
+                    "horde/exception": "^3",
+                    "horde/perms": "^3",
+                    "horde/serialize": "^3",
+                    "horde/support": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "horde/xml_element": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-soap": "*",
+                    "ext-xmlrpc": "*",
+                    "horde/activesync": "^3",
+                    "horde/http": "^3",
+                    "horde/lock": "^3",
+                    "horde/syncml": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Rpc": "lib/"

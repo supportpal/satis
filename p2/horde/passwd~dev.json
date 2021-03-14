@@ -200,37 +200,37 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/passwd.git",
-                    "reference": "6e15e769796641fa3be6ccc06f38b9273f5c52e7"
+                    "reference": "6ad0c1e04b4aa67c94a879a4f8063cb2ffd4ae03"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/passwd/zipball/6e15e769796641fa3be6ccc06f38b9273f5c52e7",
-                    "reference": "6e15e769796641fa3be6ccc06f38b9273f5c52e7",
+                    "url": "https://api.github.com/repos/maintaina-com/passwd/zipball/6ad0c1e04b4aa67c94a879a4f8063cb2ffd4ae03",
+                    "reference": "6ad0c1e04b4aa67c94a879a4f8063cb2ffd4ae03",
                     "shasum": ""
                 },
                 "require": {
                     "ext-gettext": "*",
-                    "horde/auth": "^3",
-                    "horde/core": "^3",
-                    "horde/exception": "^3",
-                    "horde/horde": "^6",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/injector": "^3",
-                    "horde/util": "^3",
-                    "horde/view": "^3",
+                    "horde/auth": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/core": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/horde": "^6 || dev-FRAMEWORK_6_0",
+                    "horde/horde-installer-plugin": "dev-FRAMEWORK_6_0",
+                    "horde/injector": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/view": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
                     "ext-com": "*",
                     "ext-ldap": "*",
                     "ext-soap": "*",
-                    "horde/db": "^3",
-                    "horde/http": "^3",
-                    "horde/ldap": "^3",
-                    "horde/vfs": "^3",
+                    "horde/db": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/http": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/ldap": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/vfs": "^3 || dev-FRAMEWORK_6_0",
                     "pear-pear.php.net/Crypt_CHAP": "*"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
+                "time": "2021-03-13T00:00:00+00:00",
                 "type": "horde-application",
                 "autoload": {
                     "psr-0": {

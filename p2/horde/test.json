@@ -859,21 +859,20 @@
             },
             {
                 "name": "horde/test",
-                "version": "3.0.0alpha2",
+                "version": "v3.0.0alpha2",
                 "version_normalized": "3.0.0.0-alpha2",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Test.git",
-                    "reference": "9d2119af97dd8acbc1e6533e540ab93fa9f966f2"
+                    "reference": "e9cc15cb482daedf1dfd505712a94b6f45642768"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/9d2119af97dd8acbc1e6533e540ab93fa9f966f2",
-                    "reference": "9d2119af97dd8acbc1e6533e540ab93fa9f966f2",
+                    "url": "https://api.github.com/repos/maintaina-com/Test/zipball/e9cc15cb482daedf1dfd505712a94b6f45642768",
+                    "reference": "e9cc15cb482daedf1dfd505712a94b6f45642768",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/horde-installer-plugin": "*",
                     "horde/support": "^3",
                     "horde/util": "^3",
                     "php": "^7",
@@ -885,8 +884,8 @@
                     "horde/cli": "^3",
                     "horde/log": "^3"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Test": "lib/"

@@ -87,6 +87,47 @@
                 ],
                 "description": "Scribd client library",
                 "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/service_scribd",
+                "version": "v1.0.0alpha3",
+                "version_normalized": "1.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Service_Scribd.git",
+                    "reference": "98bdb6e1c60b514fa3bdc911549de742dfd2132c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Service_Scribd/zipball/98bdb6e1c60b514fa3bdc911549de742dfd2132c",
+                    "reference": "98bdb6e1c60b514fa3bdc911549de742dfd2132c",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/http": "^3",
+                    "horde/translation": "^3",
+                    "horde/xml_element": "^3",
+                    "php": "^7"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Service_Scribd": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Scribd client library",
+                "homepage": "https://www.horde.org"
             }
         ]
     }

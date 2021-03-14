@@ -149,32 +149,31 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Compress.git",
-                    "reference": "25017a8508b04d04664cfbb5aad7ef43e8b3eb3f"
+                    "reference": "41fa7d178f0341167e6a6565cc42d75b86e28f43"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Compress/zipball/25017a8508b04d04664cfbb5aad7ef43e8b3eb3f",
-                    "reference": "25017a8508b04d04664cfbb5aad7ef43e8b3eb3f",
+                    "url": "https://api.github.com/repos/maintaina-com/Compress/zipball/41fa7d178f0341167e6a6565cc42d75b86e28f43",
+                    "reference": "41fa7d178f0341167e6a6565cc42d75b86e28f43",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/mime": "^3",
-                    "horde/translation": "^3",
-                    "horde/util": "^3",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mime": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
                     "ext-zlib": "*",
-                    "horde/icalendar": "^3",
-                    "horde/mail": "^3",
-                    "horde/mapi": "^2",
-                    "horde/stream_filter": "^3",
-                    "horde/test": "^3"
+                    "horde/icalendar": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mail": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mapi": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/stream_filter": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Compress": "lib/"

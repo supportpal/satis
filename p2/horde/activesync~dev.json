@@ -135,40 +135,39 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/ActiveSync.git",
-                    "reference": "7b7c6f4e300cf444c9bc25e1082d56e27d67cdc1"
+                    "reference": "bc9a2fa2956b8d8255b43c973d9007857e52bf02"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/ActiveSync/zipball/7b7c6f4e300cf444c9bc25e1082d56e27d67cdc1",
-                    "reference": "7b7c6f4e300cf444c9bc25e1082d56e27d67cdc1",
+                    "url": "https://api.github.com/repos/maintaina-com/ActiveSync/zipball/bc9a2fa2956b8d8255b43c973d9007857e52bf02",
+                    "reference": "bc9a2fa2956b8d8255b43c973d9007857e52bf02",
                     "shasum": ""
                 },
                 "require": {
                     "ext-ctype": "*",
-                    "horde/compress": "^3",
-                    "horde/date": "^3",
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/icalendar": "^3",
-                    "horde/log": "^3",
-                    "horde/mapi": "^2",
-                    "horde/mime": "^3",
-                    "horde/stream": "^2",
-                    "horde/support": "^3",
-                    "horde/translation": "^3",
-                    "horde/util": "^3",
+                    "horde/compress": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/date": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/icalendar": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/log": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mapi": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/mime": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/stream": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/support": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/db": "^3",
-                    "horde/imap_client": "^3",
-                    "horde/mail": "^3",
-                    "horde/mongo": "^2",
-                    "horde/test": "^3",
-                    "horde/text_filter": "^3"
+                    "horde/db": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/imap_client": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mail": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mongo": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/text_filter": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_ActiveSync": "lib/"
@@ -197,12 +196,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/ActiveSync.git",
-                    "reference": "180ddfd2f095ed19cc2571bc3f53cb4d0055f7d6"
+                    "reference": "29af5e3aab739a8a275832a54d218cb2f2daa147"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/ActiveSync/zipball/180ddfd2f095ed19cc2571bc3f53cb4d0055f7d6",
-                    "reference": "180ddfd2f095ed19cc2571bc3f53cb4d0055f7d6",
+                    "url": "https://api.github.com/repos/maintaina-com/ActiveSync/zipball/29af5e3aab739a8a275832a54d218cb2f2daa147",
+                    "reference": "29af5e3aab739a8a275832a54d218cb2f2daa147",
                     "shasum": ""
                 },
                 "require": {
@@ -262,12 +261,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/ActiveSync.git",
-                    "reference": "180ddfd2f095ed19cc2571bc3f53cb4d0055f7d6"
+                    "reference": "29af5e3aab739a8a275832a54d218cb2f2daa147"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/ActiveSync/zipball/180ddfd2f095ed19cc2571bc3f53cb4d0055f7d6",
-                    "reference": "180ddfd2f095ed19cc2571bc3f53cb4d0055f7d6",
+                    "url": "https://api.github.com/repos/maintaina-com/ActiveSync/zipball/29af5e3aab739a8a275832a54d218cb2f2daa147",
+                    "reference": "29af5e3aab739a8a275832a54d218cb2f2daa147",
                     "shasum": ""
                 },
                 "require": {

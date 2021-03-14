@@ -109,25 +109,24 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Service_Gravatar.git",
-                    "reference": "e3d383aacd92a018a48eee82aee10ef11c8e260c"
+                    "reference": "9a392d55824600e2e1f2158ba01bb57e2492ef07"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Service_Gravatar/zipball/e3d383aacd92a018a48eee82aee10ef11c8e260c",
-                    "reference": "e3d383aacd92a018a48eee82aee10ef11c8e260c",
+                    "url": "https://api.github.com/repos/maintaina-com/Service_Gravatar/zipball/9a392d55824600e2e1f2158ba01bb57e2492ef07",
+                    "reference": "9a392d55824600e2e1f2158ba01bb57e2492ef07",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/horde-installer-plugin": "*",
-                    "horde/http": "^3",
-                    "horde/url": "^3",
+                    "horde/http": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/url": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/test": "^3"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Service_Gravatar": "lib/"

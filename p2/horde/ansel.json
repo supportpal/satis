@@ -84,6 +84,95 @@
             },
             {
                 "name": "horde/ansel",
+                "version": "3.0.10",
+                "version_normalized": "3.0.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/ansel.git",
+                    "reference": "cdb050d4b1b4b188d0021b21110d1654b97889ed"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ansel/zipball/cdb050d4b1b4b188d0021b21110d1654b97889ed",
+                    "reference": "cdb050d4b1b4b188d0021b21110d1654b97889ed",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/content": "^2.0.3",
+                    "pear-pear.horde.org/horde": "^5",
+                    "pear-pear.horde.org/horde_auth": "^2",
+                    "pear-pear.horde.org/horde_autoloader": "^2",
+                    "pear-pear.horde.org/horde_core": "^2.30",
+                    "pear-pear.horde.org/horde_date": "^2",
+                    "pear-pear.horde.org/horde_db": "^2.2",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_form": "^2",
+                    "pear-pear.horde.org/horde_group": "^2",
+                    "pear-pear.horde.org/horde_image": "^2",
+                    "pear-pear.horde.org/horde_mime": "^2",
+                    "pear-pear.horde.org/horde_nls": "^2",
+                    "pear-pear.horde.org/horde_perms": "^2",
+                    "pear-pear.horde.org/horde_prefs": "^2",
+                    "pear-pear.horde.org/horde_serialize": "^2",
+                    "pear-pear.horde.org/horde_share": "^2",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_text_filter": "^2",
+                    "pear-pear.horde.org/horde_url": "^2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "pear-pear.horde.org/horde_vfs": "^2",
+                    "pear-pear.horde.org/horde_view": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/ansel": "3.*",
+                    "pear-pear.horde.org/ansel": "3.*"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-imagick": "*",
+                    "ext-libpuzzle": "*",
+                    "ext-php-facedetect": "*",
+                    "pear-pear.horde.org/horde_service_facebook": "^2",
+                    "pear-pear.horde.org/horde_service_twitter": "^2",
+                    "pear-pear.horde.org/horde_service_urlshortener": "^2"
+                },
+                "time": "2019-05-12T00:00:00+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-0": {
+                        "Ansel": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Photo gallery application",
+                "homepage": "https://www.horde.org/apps/ansel",
+                "support": {
+                    "source": "https://github.com/maintaina-com/ansel/tree/v3.0.10"
+                }
+            },
+            {
+                "name": "horde/ansel",
                 "version": "3.0.2",
                 "version_normalized": "3.0.2.0",
                 "source": {
@@ -932,6 +1021,97 @@
                 "homepage": "https://www.horde.org/apps/ansel",
                 "support": {
                     "source": "https://github.com/maintaina-com/ansel/tree/v4.0.0alpha2"
+                }
+            },
+            {
+                "name": "horde/ansel",
+                "version": "v4.0.0alpha3",
+                "version_normalized": "4.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/ansel.git",
+                    "reference": "ec3a13d3e0951f9635c6f511773877e52e9623e6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ansel/zipball/ec3a13d3e0951f9635c6f511773877e52e9623e6",
+                    "reference": "ec3a13d3e0951f9635c6f511773877e52e9623e6",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "horde/auth": "^3",
+                    "horde/autoloader": "^3",
+                    "horde/content": "^3",
+                    "horde/core": "^3",
+                    "horde/date": "^3",
+                    "horde/db": "^3",
+                    "horde/exception": "^3",
+                    "horde/form": "^3",
+                    "horde/group": "^3",
+                    "horde/horde": "^6",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/image": "^3",
+                    "horde/mime": "^3",
+                    "horde/nls": "^3",
+                    "horde/perms": "^3",
+                    "horde/prefs": "^3",
+                    "horde/serialize": "^3",
+                    "horde/share": "^3",
+                    "horde/support": "^3",
+                    "horde/text_filter": "^3",
+                    "horde/url": "^3",
+                    "horde/util": "^3",
+                    "horde/vfs": "^3",
+                    "horde/view": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-imagick": "*",
+                    "ext-libpuzzle": "*",
+                    "ext-php-facedetect": "*",
+                    "horde/service_facebook": "^3",
+                    "horde/service_twitter": "^3",
+                    "horde/service_urlShortener": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "bin": [
+                    "bin/ansel",
+                    "bin/ansel-convert-sql-shares-to-sqlng",
+                    "bin/ansel-garbage-collection"
+                ],
+                "type": "horde-application",
+                "autoload": {
+                    "psr-0": {
+                        "Ansel": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Photo gallery application",
+                "homepage": "https://www.horde.org/apps/ansel",
+                "support": {
+                    "source": "https://github.com/maintaina-com/ansel/tree/v4.0.0alpha3"
                 }
             }
         ]

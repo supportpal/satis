@@ -1818,6 +1818,84 @@
                 "support": {
                     "source": "https://github.com/maintaina-com/ingo/tree/v4.0.0alpha3"
                 }
+            },
+            {
+                "name": "horde/ingo",
+                "version": "v4.0.0alpha4",
+                "version_normalized": "4.0.0.0-alpha4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/ingo.git",
+                    "reference": "1afbddb116863314f6ba9e690637fa8e8083ae6d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ingo/zipball/1afbddb116863314f6ba9e690637fa8e8083ae6d",
+                    "reference": "1afbddb116863314f6ba9e690637fa8e8083ae6d",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "horde/auth": "^3",
+                    "horde/autoloader": "^3",
+                    "horde/core": "^3",
+                    "horde/exception": "^3",
+                    "horde/form": "^3",
+                    "horde/group": "^3",
+                    "horde/horde": "^6",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/imap_client": "^3",
+                    "horde/mime": "^3",
+                    "horde/perms": "^3",
+                    "horde/share": "^3",
+                    "horde/util": "^3",
+                    "horde/view": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/listheaders": "^2",
+                    "horde/managesieve": "^2",
+                    "horde/mongo": "^2",
+                    "horde/vfs": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "bin": [
+                    "bin/ingo-admin-upgrade",
+                    "bin/ingo-convert-prefs-to-sql",
+                    "bin/ingo-convert-sql-shares-to-sqlng",
+                    "bin/ingo-postfix-policyd"
+                ],
+                "type": "horde-application",
+                "autoload": {
+                    "psr-0": {
+                        "Ingo": "lib/"
+                    }
+                },
+                "license": [
+                    "ASL"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Email filter rules manager application",
+                "homepage": "https://www.horde.org/apps/ingo",
+                "support": {
+                    "source": "https://github.com/maintaina-com/ingo/tree/v4.0.0alpha4"
+                }
             }
         ]
     }

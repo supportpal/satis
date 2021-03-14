@@ -447,6 +447,58 @@
                 ],
                 "description": "Permissions library",
                 "homepage": "https://www.horde.org/libraries/Horde_Perms"
+            },
+            {
+                "name": "horde/perms",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Perms.git",
+                    "reference": "af35b7a703f200798e6acf4131b839ad2a26f35a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Perms/zipball/af35b7a703f200798e6acf4131b839ad2a26f35a",
+                    "reference": "af35b7a703f200798e6acf4131b839ad2a26f35a",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/db": "^3",
+                    "horde/exception": "^3",
+                    "horde/group": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3",
+                    "horde/tree": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Perms": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Permissions library",
+                "homepage": "https://www.horde.org/libraries/Horde_Perms"
             }
         ]
     }

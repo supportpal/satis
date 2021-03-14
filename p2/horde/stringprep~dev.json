@@ -93,22 +93,21 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Stringprep.git",
-                    "reference": "794221e23b433f9e33e49b33e6687bce80b08668"
+                    "reference": "32b3b36b2e7ea9f387413b9f4a7c4349eb4b57a6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Stringprep/zipball/794221e23b433f9e33e49b33e6687bce80b08668",
-                    "reference": "794221e23b433f9e33e49b33e6687bce80b08668",
+                    "url": "https://api.github.com/repos/maintaina-com/Stringprep/zipball/32b3b36b2e7ea9f387413b9f4a7c4349eb4b57a6",
+                    "reference": "32b3b36b2e7ea9f387413b9f4a7c4349eb4b57a6",
                     "shasum": ""
                 },
                 "require": {
                     "ext-iconv": "*",
                     "ext-intl": "*",
-                    "horde/horde-installer-plugin": "*",
                     "php": "^7"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Stringprep": "lib/"

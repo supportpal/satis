@@ -469,6 +469,47 @@
                 ],
                 "description": "MAPI utility library",
                 "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/mapi",
+                "version": "v2.0.0alpha3",
+                "version_normalized": "2.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mapi.git",
+                    "reference": "061f4a18d4a3c0314594f7f6081475412ac8032b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mapi/zipball/061f4a18d4a3c0314594f7f6081475412ac8032b",
+                    "reference": "061f4a18d4a3c0314594f7f6081475412ac8032b",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-bcmath": "*",
+                    "horde/date": "^3",
+                    "horde/exception": "^3",
+                    "php": "^7"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Mapi": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "MAPI utility library",
+                "homepage": "https://www.horde.org"
             }
         ]
     }

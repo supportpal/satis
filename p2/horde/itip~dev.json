@@ -113,27 +113,26 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Itip.git",
-                    "reference": "dd0f5a1aac641055c16e70c83424805e5f3b2817"
+                    "reference": "856bbdb70d2422a20b025e0667a81a064e3ddddb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Itip/zipball/dd0f5a1aac641055c16e70c83424805e5f3b2817",
-                    "reference": "dd0f5a1aac641055c16e70c83424805e5f3b2817",
+                    "url": "https://api.github.com/repos/maintaina-com/Itip/zipball/856bbdb70d2422a20b025e0667a81a064e3ddddb",
+                    "reference": "856bbdb70d2422a20b025e0667a81a064e3ddddb",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/horde-installer-plugin": "*",
-                    "horde/icalendar": "^3",
-                    "horde/mime": "^3",
-                    "horde/translation": "^3",
+                    "horde/icalendar": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mime": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/prefs": "^3",
-                    "horde/test": "^3"
+                    "horde/prefs": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Itip": "lib/"

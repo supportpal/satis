@@ -95,23 +95,22 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Mapi.git",
-                    "reference": "86a52eee03359a2cec6316a2d93e4aa6a0bacd1d"
+                    "reference": "1aa2b48f6f25aa907db624d12472ce221d3ac2e7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Mapi/zipball/86a52eee03359a2cec6316a2d93e4aa6a0bacd1d",
-                    "reference": "86a52eee03359a2cec6316a2d93e4aa6a0bacd1d",
+                    "url": "https://api.github.com/repos/maintaina-com/Mapi/zipball/1aa2b48f6f25aa907db624d12472ce221d3ac2e7",
+                    "reference": "1aa2b48f6f25aa907db624d12472ce221d3ac2e7",
                     "shasum": ""
                 },
                 "require": {
                     "ext-bcmath": "*",
-                    "horde/date": "^3",
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
+                    "horde/date": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Mapi": "lib/"

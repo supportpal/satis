@@ -111,26 +111,25 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Date_Parser.git",
-                    "reference": "370e2b415a0e16561baea856622f63ff9f3301ab"
+                    "reference": "855e09c522983bad95a553936362cb18f378112a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Date_Parser/zipball/370e2b415a0e16561baea856622f63ff9f3301ab",
-                    "reference": "370e2b415a0e16561baea856622f63ff9f3301ab",
+                    "url": "https://api.github.com/repos/maintaina-com/Date_Parser/zipball/855e09c522983bad95a553936362cb18f378112a",
+                    "reference": "855e09c522983bad95a553936362cb18f378112a",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/date": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/support": "^3",
-                    "horde/util": "^3",
+                    "horde/date": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/support": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/test": "^3"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Date_Parser": "lib/"

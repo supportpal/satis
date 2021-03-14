@@ -438,6 +438,55 @@
                 "support": {
                     "source": "https://github.com/maintaina-com/Browser/tree/v3.0.0alpha2"
                 }
+            },
+            {
+                "name": "horde/browser",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Browser.git",
+                    "reference": "f8a5325fd4b89a5e8b99365d18977f7e729d0db3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Browser/zipball/f8a5325fd4b89a5e8b99365d18977f7e729d0db3",
+                    "reference": "f8a5325fd4b89a5e8b99365d18977f7e729d0db3",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Browser": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Browser detection library",
+                "homepage": "https://www.horde.org/libraries/Horde_Browser",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Browser/tree/v3.0.0alpha3"
+                }
             }
         ]
     }

@@ -95,23 +95,22 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Scheduler.git",
-                    "reference": "5fc98678fad558e2fac463c0c677d1d3feebab9b"
+                    "reference": "08b12e17088d0992c4de3ec3c5a104e779ea65d5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Scheduler/zipball/5fc98678fad558e2fac463c0c677d1d3feebab9b",
-                    "reference": "5fc98678fad558e2fac463c0c677d1d3feebab9b",
+                    "url": "https://api.github.com/repos/maintaina-com/Scheduler/zipball/08b12e17088d0992c4de3ec3c5a104e779ea65d5",
+                    "reference": "08b12e17088d0992c4de3ec3c5a104e779ea65d5",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/core": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/util": "^3",
-                    "horde/vfs": "^3",
+                    "horde/core": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/vfs": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Scheduler": "lib/"

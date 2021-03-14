@@ -171,6 +171,60 @@
                 ],
                 "description": "Tree rendering library",
                 "homepage": "https://www.horde.org/libraries/Horde_Tree"
+            },
+            {
+                "name": "horde/tree",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Tree.git",
+                    "reference": "ad967131b3861169c488cf4d50acc61d2c249f2f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Tree/zipball/ad967131b3861169c488cf4d50acc61d2c249f2f",
+                    "reference": "ad967131b3861169c488cf4d50acc61d2c249f2f",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/url": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-gettext": "*"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Tree": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Tree rendering library",
+                "homepage": "https://www.horde.org/libraries/Horde_Tree"
             }
         ]
     }

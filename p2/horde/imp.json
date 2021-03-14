@@ -2285,6 +2285,418 @@
             },
             {
                 "name": "horde/imp",
+                "version": "6.2.24",
+                "version_normalized": "6.2.24.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/imp.git",
+                    "reference": "e6811bb7f2747c848254b2bca791d4cb90593cad"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/imp/zipball/e6811bb7f2747c848254b2bca791d4cb90593cad",
+                    "reference": "e6811bb7f2747c848254b2bca791d4cb90593cad",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde": "^5",
+                    "pear-pear.horde.org/horde_auth": "^2",
+                    "pear-pear.horde.org/horde_browser": "^2",
+                    "pear-pear.horde.org/horde_cache": "^2",
+                    "pear-pear.horde.org/horde_compress": "^2",
+                    "pear-pear.horde.org/horde_core": "^2.17",
+                    "pear-pear.horde.org/horde_crypt": "^2.5",
+                    "pear-pear.horde.org/horde_css_parser": "^1",
+                    "pear-pear.horde.org/horde_date": "^2",
+                    "pear-pear.horde.org/horde_editor": "^2.0.4",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_image": "^2.6",
+                    "pear-pear.horde.org/horde_imap_client": "^2.23",
+                    "pear-pear.horde.org/horde_itip": "^2",
+                    "pear-pear.horde.org/horde_listheaders": "^1.1",
+                    "pear-pear.horde.org/horde_logintasks": "^2",
+                    "pear-pear.horde.org/horde_mail": "^2.2",
+                    "pear-pear.horde.org/horde_mail_autoconfig": "^1",
+                    "pear-pear.horde.org/horde_mime": "^2.3",
+                    "pear-pear.horde.org/horde_mime_viewer": "^2",
+                    "pear-pear.horde.org/horde_nls": "^2",
+                    "pear-pear.horde.org/horde_notification": "^2",
+                    "pear-pear.horde.org/horde_pack": "^1",
+                    "pear-pear.horde.org/horde_perms": "^2",
+                    "pear-pear.horde.org/horde_spellchecker": "^2",
+                    "pear-pear.horde.org/horde_stream": "^1.4",
+                    "pear-pear.horde.org/horde_stream_filter": "^2",
+                    "pear-pear.horde.org/horde_stream_wrapper": "^2.1",
+                    "pear-pear.horde.org/horde_support": "^2.0.5",
+                    "pear-pear.horde.org/horde_text_filter": "^2.1",
+                    "pear-pear.horde.org/horde_text_flowed": "^2",
+                    "pear-pear.horde.org/horde_tree": "^2",
+                    "pear-pear.horde.org/horde_url": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2.4",
+                    "pear-pear.horde.org/horde_vfs": "^2",
+                    "pear-pear.horde.org/horde_view": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/imp": "6.*",
+                    "pear-pear.horde.org/imp": "6.*"
+                },
+                "suggest": {
+                    "ext-openssl": "*",
+                    "pear-pear.horde.org/horde_history": "^2",
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_service_gravatar": "^1",
+                    "pear-phpseclib.sourceforge.net/File_ASN1": "*"
+                },
+                "time": "2019-05-28T00:00:00+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-0": {
+                        "IMP": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Webmail application",
+                "homepage": "https://www.horde.org/apps/imp",
+                "support": {
+                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.24"
+                }
+            },
+            {
+                "name": "horde/imp",
+                "version": "6.2.25",
+                "version_normalized": "6.2.25.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/imp.git",
+                    "reference": "c76a8615b3ed321f971581ab45ae2c938d03f899"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/imp/zipball/c76a8615b3ed321f971581ab45ae2c938d03f899",
+                    "reference": "c76a8615b3ed321f971581ab45ae2c938d03f899",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde": "^5",
+                    "pear-pear.horde.org/horde_auth": "^2",
+                    "pear-pear.horde.org/horde_browser": "^2",
+                    "pear-pear.horde.org/horde_cache": "^2",
+                    "pear-pear.horde.org/horde_compress": "^2",
+                    "pear-pear.horde.org/horde_core": "^2.17",
+                    "pear-pear.horde.org/horde_crypt": "^2.5",
+                    "pear-pear.horde.org/horde_css_parser": "^1",
+                    "pear-pear.horde.org/horde_date": "^2",
+                    "pear-pear.horde.org/horde_editor": "^2.0.4",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_image": "^2.6",
+                    "pear-pear.horde.org/horde_imap_client": "^2.23",
+                    "pear-pear.horde.org/horde_itip": "^2",
+                    "pear-pear.horde.org/horde_listheaders": "^1.1",
+                    "pear-pear.horde.org/horde_logintasks": "^2",
+                    "pear-pear.horde.org/horde_mail": "^2.2",
+                    "pear-pear.horde.org/horde_mail_autoconfig": "^1",
+                    "pear-pear.horde.org/horde_mime": "^2.3",
+                    "pear-pear.horde.org/horde_mime_viewer": "^2",
+                    "pear-pear.horde.org/horde_nls": "^2",
+                    "pear-pear.horde.org/horde_notification": "^2",
+                    "pear-pear.horde.org/horde_pack": "^1",
+                    "pear-pear.horde.org/horde_perms": "^2",
+                    "pear-pear.horde.org/horde_spellchecker": "^2",
+                    "pear-pear.horde.org/horde_stream": "^1.4",
+                    "pear-pear.horde.org/horde_stream_filter": "^2",
+                    "pear-pear.horde.org/horde_stream_wrapper": "^2.1",
+                    "pear-pear.horde.org/horde_support": "^2.0.5",
+                    "pear-pear.horde.org/horde_text_filter": "^2.1",
+                    "pear-pear.horde.org/horde_text_flowed": "^2",
+                    "pear-pear.horde.org/horde_tree": "^2",
+                    "pear-pear.horde.org/horde_url": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2.4",
+                    "pear-pear.horde.org/horde_vfs": "^2",
+                    "pear-pear.horde.org/horde_view": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/imp": "6.*",
+                    "pear-pear.horde.org/imp": "6.*"
+                },
+                "suggest": {
+                    "ext-openssl": "*",
+                    "pear-pear.horde.org/horde_history": "^2",
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_service_gravatar": "^1",
+                    "pear-phpseclib.sourceforge.net/File_ASN1": "*"
+                },
+                "time": "2020-06-28T00:00:00+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-0": {
+                        "IMP": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Webmail application",
+                "homepage": "https://www.horde.org/apps/imp",
+                "support": {
+                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.25"
+                }
+            },
+            {
+                "name": "horde/imp",
+                "version": "6.2.26",
+                "version_normalized": "6.2.26.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/imp.git",
+                    "reference": "636dfd5c39e393f0ff9ef8f2720bf656203fc36b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/imp/zipball/636dfd5c39e393f0ff9ef8f2720bf656203fc36b",
+                    "reference": "636dfd5c39e393f0ff9ef8f2720bf656203fc36b",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde": "^5",
+                    "pear-pear.horde.org/horde_auth": "^2",
+                    "pear-pear.horde.org/horde_browser": "^2",
+                    "pear-pear.horde.org/horde_cache": "^2",
+                    "pear-pear.horde.org/horde_compress": "^2",
+                    "pear-pear.horde.org/horde_core": "^2.17",
+                    "pear-pear.horde.org/horde_crypt": "^2.5",
+                    "pear-pear.horde.org/horde_css_parser": "^1",
+                    "pear-pear.horde.org/horde_date": "^2",
+                    "pear-pear.horde.org/horde_editor": "^2.0.4",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_image": "^2.6",
+                    "pear-pear.horde.org/horde_imap_client": "^2.23",
+                    "pear-pear.horde.org/horde_itip": "^2",
+                    "pear-pear.horde.org/horde_listheaders": "^1.1",
+                    "pear-pear.horde.org/horde_logintasks": "^2",
+                    "pear-pear.horde.org/horde_mail": "^2.2",
+                    "pear-pear.horde.org/horde_mail_autoconfig": "^1",
+                    "pear-pear.horde.org/horde_mime": "^2.3",
+                    "pear-pear.horde.org/horde_mime_viewer": "^2",
+                    "pear-pear.horde.org/horde_nls": "^2",
+                    "pear-pear.horde.org/horde_notification": "^2",
+                    "pear-pear.horde.org/horde_pack": "^1",
+                    "pear-pear.horde.org/horde_perms": "^2",
+                    "pear-pear.horde.org/horde_spellchecker": "^2",
+                    "pear-pear.horde.org/horde_stream": "^1.4",
+                    "pear-pear.horde.org/horde_stream_filter": "^2",
+                    "pear-pear.horde.org/horde_stream_wrapper": "^2.1",
+                    "pear-pear.horde.org/horde_support": "^2.0.5",
+                    "pear-pear.horde.org/horde_text_filter": "^2.1",
+                    "pear-pear.horde.org/horde_text_flowed": "^2",
+                    "pear-pear.horde.org/horde_tree": "^2",
+                    "pear-pear.horde.org/horde_url": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2.4",
+                    "pear-pear.horde.org/horde_vfs": "^2",
+                    "pear-pear.horde.org/horde_view": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/imp": "6.*",
+                    "pear-pear.horde.org/imp": "6.*"
+                },
+                "suggest": {
+                    "ext-openssl": "*",
+                    "pear-pear.horde.org/horde_history": "^2",
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_service_gravatar": "^1",
+                    "pear-phpseclib.sourceforge.net/File_ASN1": "*"
+                },
+                "time": "2020-06-28T00:00:00+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-0": {
+                        "IMP": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Webmail application",
+                "homepage": "https://www.horde.org/apps/imp",
+                "support": {
+                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.26"
+                }
+            },
+            {
+                "name": "horde/imp",
+                "version": "6.2.27",
+                "version_normalized": "6.2.27.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/imp.git",
+                    "reference": "d8415bd1e8c0d07302e974294522c28af280ba2a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/imp/zipball/d8415bd1e8c0d07302e974294522c28af280ba2a",
+                    "reference": "d8415bd1e8c0d07302e974294522c28af280ba2a",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde": "^5",
+                    "pear-pear.horde.org/horde_auth": "^2",
+                    "pear-pear.horde.org/horde_browser": "^2",
+                    "pear-pear.horde.org/horde_cache": "^2",
+                    "pear-pear.horde.org/horde_compress": "^2",
+                    "pear-pear.horde.org/horde_core": "^2.17",
+                    "pear-pear.horde.org/horde_crypt": "^2.5",
+                    "pear-pear.horde.org/horde_css_parser": "^1",
+                    "pear-pear.horde.org/horde_date": "^2",
+                    "pear-pear.horde.org/horde_editor": "^2.0.4",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_image": "^2.6",
+                    "pear-pear.horde.org/horde_imap_client": "^2.23",
+                    "pear-pear.horde.org/horde_itip": "^2",
+                    "pear-pear.horde.org/horde_listheaders": "^1.1",
+                    "pear-pear.horde.org/horde_logintasks": "^2",
+                    "pear-pear.horde.org/horde_mail": "^2.2",
+                    "pear-pear.horde.org/horde_mail_autoconfig": "^1",
+                    "pear-pear.horde.org/horde_mime": "^2.3",
+                    "pear-pear.horde.org/horde_mime_viewer": "^2",
+                    "pear-pear.horde.org/horde_nls": "^2",
+                    "pear-pear.horde.org/horde_notification": "^2",
+                    "pear-pear.horde.org/horde_pack": "^1",
+                    "pear-pear.horde.org/horde_perms": "^2",
+                    "pear-pear.horde.org/horde_spellchecker": "^2",
+                    "pear-pear.horde.org/horde_stream": "^1.4",
+                    "pear-pear.horde.org/horde_stream_filter": "^2",
+                    "pear-pear.horde.org/horde_stream_wrapper": "^2.1",
+                    "pear-pear.horde.org/horde_support": "^2.0.5",
+                    "pear-pear.horde.org/horde_text_filter": "^2.1",
+                    "pear-pear.horde.org/horde_text_flowed": "^2",
+                    "pear-pear.horde.org/horde_tree": "^2",
+                    "pear-pear.horde.org/horde_url": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2.4",
+                    "pear-pear.horde.org/horde_vfs": "^2",
+                    "pear-pear.horde.org/horde_view": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/imp": "6.*",
+                    "pear-pear.horde.org/imp": "6.*"
+                },
+                "suggest": {
+                    "ext-openssl": "*",
+                    "pear-pear.horde.org/horde_history": "^2",
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_service_gravatar": "^1",
+                    "pear-phpseclib.sourceforge.net/File_ASN1": "*"
+                },
+                "time": "2020-08-27T00:00:00+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-0": {
+                        "IMP": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Webmail application",
+                "homepage": "https://www.horde.org/apps/imp",
+                "support": {
+                    "source": "https://github.com/maintaina-com/imp/tree/v6.2.27"
+                }
+            },
+            {
+                "name": "horde/imp",
                 "version": "6.2.3",
                 "version_normalized": "6.2.3.0",
                 "source": {
@@ -3156,6 +3568,114 @@
                 "homepage": "https://www.horde.org/apps/imp",
                 "support": {
                     "source": "https://github.com/maintaina-com/imp/tree/v7.0.0alpha2"
+                }
+            },
+            {
+                "name": "horde/imp",
+                "version": "v7.0.0alpha3",
+                "version_normalized": "7.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/imp.git",
+                    "reference": "39a3856fe8732016e3130ffb585cdf0bc6ddd47b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/imp/zipball/39a3856fe8732016e3130ffb585cdf0bc6ddd47b",
+                    "reference": "39a3856fe8732016e3130ffb585cdf0bc6ddd47b",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "horde/auth": "^3",
+                    "horde/browser": "^3",
+                    "horde/cache": "^3",
+                    "horde/compress": "^3",
+                    "horde/core": "^3",
+                    "horde/crypt": "^3",
+                    "horde/crypt_blowfish": "^2",
+                    "horde/css_parser": "^2",
+                    "horde/date": "^3",
+                    "horde/editor": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde": "^6",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/icalendar": "^3",
+                    "horde/image": "^3",
+                    "horde/imap_client": "^3",
+                    "horde/itip": "^3",
+                    "horde/listheaders": "^2",
+                    "horde/logintasks": "^3",
+                    "horde/mail": "^3",
+                    "horde/mail_autoconfig": "^2",
+                    "horde/mime": "^3",
+                    "horde/mime_viewer": "^3",
+                    "horde/nls": "^3",
+                    "horde/notification": "^3",
+                    "horde/pack": "^2",
+                    "horde/perms": "^3",
+                    "horde/spellchecker": "^3",
+                    "horde/stream": "^2",
+                    "horde/stream_filter": "^3",
+                    "horde/stream_wrapper": "^3",
+                    "horde/support": "^3",
+                    "horde/text_filter": "^3",
+                    "horde/text_flowed": "^3",
+                    "horde/tree": "^3",
+                    "horde/url": "^3",
+                    "horde/util": "^3",
+                    "horde/vfs": "^3",
+                    "horde/view": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-openssl": "*",
+                    "horde/history": "^3",
+                    "horde/http": "^3",
+                    "horde/mongo": "^2",
+                    "horde/service_gravatar": "^2",
+                    "pear-phpseclib.sourceforge.net/File_ASN1": "*"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "bin": [
+                    "bin/imp-admin-upgrade",
+                    "bin/imp-bounce-spam",
+                    "bin/imp-mailbox-decode",
+                    "bin/imp-query-imap-cache"
+                ],
+                "type": "horde-application",
+                "autoload": {
+                    "psr-0": {
+                        "IMP": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Webmail application",
+                "homepage": "https://www.horde.org/apps/imp",
+                "support": {
+                    "source": "https://github.com/maintaina-com/imp/tree/v7.0.0alpha3"
                 }
             }
         ]

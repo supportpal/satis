@@ -103,27 +103,26 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Lock.git",
-                    "reference": "386e884fe29122d585c8dc3316c2e17e401dcd7d"
+                    "reference": "bdea5b09df909a98f356d098f80131d1ccc6e08a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Lock/zipball/386e884fe29122d585c8dc3316c2e17e401dcd7d",
-                    "reference": "386e884fe29122d585c8dc3316c2e17e401dcd7d",
+                    "url": "https://api.github.com/repos/maintaina-com/Lock/zipball/bdea5b09df909a98f356d098f80131d1ccc6e08a",
+                    "reference": "bdea5b09df909a98f356d098f80131d1ccc6e08a",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/support": "^3",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/support": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/db": "^3",
-                    "horde/log": "^3",
-                    "horde/mongo": "^2"
+                    "horde/db": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/log": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mongo": "^2 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Lock": "lib/"

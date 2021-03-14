@@ -239,6 +239,56 @@
                 "support": {
                     "source": "https://github.com/maintaina-com/Cli_Modular/tree/v3.0.0alpha2"
                 }
+            },
+            {
+                "name": "horde/cli_modular",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Cli_Modular.git",
+                    "reference": "8b9cebb4ea7a04943b0330ee497aa3c3675e0293"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Cli_Modular/zipball/8b9cebb4ea7a04943b0330ee497aa3c3675e0293",
+                    "reference": "8b9cebb4ea7a04943b0330ee497aa3c3675e0293",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/argv": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Cli_Modular": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Modular command line interface library",
+                "homepage": "https://www.horde.org/libraries/Horde_Cli_Modular",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Cli_Modular/tree/v3.0.0alpha3"
+                }
             }
         ]
     }

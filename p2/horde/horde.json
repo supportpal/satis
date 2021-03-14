@@ -2286,6 +2286,116 @@
             },
             {
                 "name": "horde/horde",
+                "version": "5.2.23",
+                "version_normalized": "5.2.23.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/base.git",
+                    "reference": "ca32251e62b2ed91594da81ca2e5d34b85a03d03"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/base/zipball/ca32251e62b2ed91594da81ca2e5d34b85a03d03",
+                    "reference": "ca32251e62b2ed91594da81ca2e5d34b85a03d03",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-filter": "*",
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "pear-pear.horde.org/horde_alarm": "^2.1",
+                    "pear-pear.horde.org/horde_argv": "^2",
+                    "pear-pear.horde.org/horde_auth": "^2",
+                    "pear-pear.horde.org/horde_autoloader": "^2.1",
+                    "pear-pear.horde.org/horde_browser": "^2",
+                    "pear-pear.horde.org/horde_core": "^2.30",
+                    "pear-pear.horde.org/horde_date": "^2",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_form": "^2.0.16",
+                    "pear-pear.horde.org/horde_group": "^2",
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_image": "^2",
+                    "pear-pear.horde.org/horde_logintasks": "^2",
+                    "pear-pear.horde.org/horde_mail": "^2",
+                    "pear-pear.horde.org/horde_mime": "^2",
+                    "pear-pear.horde.org/horde_nls": "^2",
+                    "pear-pear.horde.org/horde_perms": "^2.1.5",
+                    "pear-pear.horde.org/horde_prefs": "^2",
+                    "pear-pear.horde.org/horde_rpc": "^2",
+                    "pear-pear.horde.org/horde_serialize": "^2",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_text_diff": "^2",
+                    "pear-pear.horde.org/horde_text_filter": "^2",
+                    "pear-pear.horde.org/horde_token": "^2",
+                    "pear-pear.horde.org/horde_tree": "^2",
+                    "pear-pear.horde.org/horde_url": "^2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "pear-pear.horde.org/horde_vfs": "^2",
+                    "pear-pear.horde.org/horde_view": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde": "5.*",
+                    "pear-pear.horde.org/horde": "5.*"
+                },
+                "suggest": {
+                    "ext-iconv": "*",
+                    "pear-pear.horde.org/horde_activesync": "^2.16",
+                    "pear-pear.horde.org/horde_db": "^2",
+                    "pear-pear.horde.org/horde_feed": "^2",
+                    "pear-pear.horde.org/horde_oauth": "^2",
+                    "pear-pear.horde.org/horde_openxchange": "^1",
+                    "pear-pear.horde.org/horde_service_facebook": "^2",
+                    "pear-pear.horde.org/horde_service_twitter": "^2.1",
+                    "pear-pear.horde.org/horde_service_weather": "^2.2",
+                    "pear-pear.horde.org/horde_syncml": "^2",
+                    "pear-pear.php.net/Console_Getopt": "*",
+                    "pear-pear.php.net/Console_Table": "*",
+                    "pear-pear.php.net/File_Find": "*",
+                    "pear-pear.php.net/File_Fstab": "*",
+                    "pear-pear.php.net/Net_DNS2": "*",
+                    "pear-pear.php.net/Services_Weather": "*"
+                },
+                "time": "2020-06-14T00:00:00+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-0": {
+                        "Horde": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde base application",
+                "homepage": "https://www.horde.org/apps/horde",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v5.2.23"
+                }
+            },
+            {
+                "name": "horde/horde",
                 "version": "5.2.3",
                 "version_normalized": "5.2.3.0",
                 "source": {
@@ -3118,6 +3228,135 @@
                 "homepage": "https://www.horde.org/apps/horde",
                 "support": {
                     "source": "https://github.com/maintaina-com/base/tree/v6.0.0alpha1"
+                }
+            },
+            {
+                "name": "horde/horde",
+                "version": "v6.0.0alpha2",
+                "version_normalized": "6.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/base.git",
+                    "reference": "996b33b0ec21e54044ea173afd2f04282b3af592"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/base/zipball/996b33b0ec21e54044ea173afd2f04282b3af592",
+                    "reference": "996b33b0ec21e54044ea173afd2f04282b3af592",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-filter": "*",
+                    "ext-gettext": "*",
+                    "ext-hash": "*",
+                    "horde/alarm": "^3",
+                    "horde/argv": "^3",
+                    "horde/auth": "^3",
+                    "horde/autoloader": "^3",
+                    "horde/browser": "^3",
+                    "horde/core": "^3",
+                    "horde/date": "^3",
+                    "horde/exception": "^3",
+                    "horde/form": "^3",
+                    "horde/group": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/http": "^3",
+                    "horde/image": "^3",
+                    "horde/logintasks": "^3",
+                    "horde/mail": "^3",
+                    "horde/mime": "^3",
+                    "horde/nls": "^3",
+                    "horde/perms": "^3",
+                    "horde/prefs": "^3",
+                    "horde/rpc": "^3",
+                    "horde/serialize": "^3",
+                    "horde/support": "^3",
+                    "horde/text_diff": "^3",
+                    "horde/text_filter": "^3",
+                    "horde/token": "^3",
+                    "horde/tree": "^3",
+                    "horde/url": "^3",
+                    "horde/util": "^3",
+                    "horde/vfs": "^3",
+                    "horde/view": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-iconv": "*",
+                    "horde/activeSync": "^3",
+                    "horde/backup": "^2",
+                    "horde/cli_application": "^2",
+                    "horde/db": "^3",
+                    "horde/feed": "^3",
+                    "horde/oauth": "^3",
+                    "horde/openxchange": "^2",
+                    "horde/service_facebook": "^3",
+                    "horde/service_twitter": "^3",
+                    "horde/service_weather": "^3",
+                    "horde/syncml": "^3",
+                    "pear-pear.php.net/File_Fstab": "*",
+                    "pear/console_color2": "^0.1.2",
+                    "pear/console_getopt": "^1.4",
+                    "pear/console_table": "^1.3",
+                    "pear/net_dns2": "*"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "bin": [
+                    "bin/horde-active-sessions",
+                    "bin/horde-alarms",
+                    "bin/horde-backup",
+                    "bin/horde-check-logger",
+                    "bin/horde-clear-cache",
+                    "bin/horde-crond",
+                    "bin/horde-db-migrate",
+                    "bin/horde-import-openxchange-prefs",
+                    "bin/horde-import-squirrelmail-prefs",
+                    "bin/horde-memcache-stats",
+                    "bin/horde-pref-remove",
+                    "bin/horde-queue-run-tasks",
+                    "bin/horde-remove-user-data",
+                    "bin/horde-run-task",
+                    "bin/horde-sessions-gc",
+                    "bin/horde-set-perms",
+                    "bin/horde-sql-shell",
+                    "bin/horde-themes",
+                    "bin/horde-translation"
+                ],
+                "type": "horde-application",
+                "autoload": {
+                    "classmap": [
+                        "lib/"
+                    ]
+                },
+                "license": [
+                    "LGPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Horde base application",
+                "homepage": "https://www.horde.org/apps/horde",
+                "support": {
+                    "source": "https://github.com/maintaina-com/base/tree/v6.0.0alpha2"
                 }
             }
         ]

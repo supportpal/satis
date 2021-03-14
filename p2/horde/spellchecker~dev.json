@@ -103,22 +103,21 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/SpellChecker.git",
-                    "reference": "89183be50418fc5c24ebe0915d961e423a234978"
+                    "reference": "6c9fd40bc6f609871af2918e6c228e6ae12b54e5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/SpellChecker/zipball/89183be50418fc5c24ebe0915d961e423a234978",
-                    "reference": "89183be50418fc5c24ebe0915d961e423a234978",
+                    "url": "https://api.github.com/repos/maintaina-com/SpellChecker/zipball/6c9fd40bc6f609871af2918e6c228e6ae12b54e5",
+                    "reference": "6c9fd40bc6f609871af2918e6c228e6ae12b54e5",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/util": "^3",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_SpellChecker": "lib/"

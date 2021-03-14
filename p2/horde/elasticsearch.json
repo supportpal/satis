@@ -184,6 +184,51 @@
                 ],
                 "description": "ElasticSearch client library",
                 "homepage": "https://www.horde.org/libraries/Horde_ElasticSearch"
+            },
+            {
+                "name": "horde/elasticsearch",
+                "version": "v2.0.0alpha3",
+                "version_normalized": "2.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/elasticsearch.git",
+                    "reference": "5fc9af46a9aff9b0c86efd396b186ad4a0072d36"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/elasticsearch/zipball/5fc9af46a9aff9b0c86efd396b186ad4a0072d36",
+                    "reference": "5fc9af46a9aff9b0c86efd396b186ad4a0072d36",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/http": "^3",
+                    "php": "^7"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_ElasticSearch": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "ElasticSearch client library",
+                "homepage": "https://www.horde.org/libraries/Horde_ElasticSearch"
             }
         ]
     }

@@ -200,6 +200,48 @@
                 ],
                 "description": "Dependency injection container library",
                 "homepage": "https://www.horde.org/libraries/Horde_Injector"
+            },
+            {
+                "name": "horde/injector",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Injector.git",
+                    "reference": "5a94a5ff7e5801a64d595452a4c5a7004ecd8d6a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Injector/zipball/5a94a5ff7e5801a64d595452a4c5a7004ecd8d6a",
+                    "reference": "5a94a5ff7e5801a64d595452a4c5a7004ecd8d6a",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Injector": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Dependency injection container library",
+                "homepage": "https://www.horde.org/libraries/Horde_Injector"
             }
         ]
     }

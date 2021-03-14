@@ -125,21 +125,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Image.git",
-                    "reference": "9c84dc3b90577fa9d1eb0fcf9413338c84dc86ca"
+                    "reference": "bb1293c9b93954102ce61d28cabb481d1047a4b0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/9c84dc3b90577fa9d1eb0fcf9413338c84dc86ca",
-                    "reference": "9c84dc3b90577fa9d1eb0fcf9413338c84dc86ca",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/bb1293c9b93954102ce61d28cabb481d1047a4b0",
+                    "reference": "bb1293c9b93954102ce61d28cabb481d1047a4b0",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/stream": "^2",
-                    "horde/support": "^3",
-                    "horde/translation": "^3",
-                    "horde/util": "^3",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/stream": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/support": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
@@ -147,11 +146,11 @@
                     "ext-imagick": "*",
                     "ext-json": "*",
                     "ext-zlib": "*",
-                    "horde/test": "^3",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0",
                     "pear-pear.php.net/XML_SVG": "*"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Image": "lib/"

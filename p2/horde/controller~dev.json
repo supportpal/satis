@@ -125,30 +125,29 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Controller.git",
-                    "reference": "3fd7f6e0d3ff1f3b9c0bd56aae719fb14d67a559"
+                    "reference": "a01e9bc05cd57986706b3917363411abad7ab209"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Controller/zipball/3fd7f6e0d3ff1f3b9c0bd56aae719fb14d67a559",
-                    "reference": "3fd7f6e0d3ff1f3b9c0bd56aae719fb14d67a559",
+                    "url": "https://api.github.com/repos/maintaina-com/Controller/zipball/a01e9bc05cd57986706b3917363411abad7ab209",
+                    "reference": "a01e9bc05cd57986706b3917363411abad7ab209",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/injector": "^3",
-                    "horde/log": "^3",
-                    "horde/support": "^3",
-                    "horde/util": "^3",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/injector": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/log": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/support": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
                     "ext-mbstring": "*",
                     "ext-zlib": "*",
-                    "horde/test": "^3"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Controller": "lib/"

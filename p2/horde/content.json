@@ -315,6 +315,75 @@
                 "support": {
                     "source": "https://github.com/maintaina-com/content/tree/v3.0.0alpha2"
                 }
+            },
+            {
+                "name": "horde/content",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/content.git",
+                    "reference": "d5f673d79944c1a212cc08fbf6a164e6a3423579"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/content/zipball/d5f673d79944c1a212cc08fbf6a164e6a3423579",
+                    "reference": "d5f673d79944c1a212cc08fbf6a164e6a3423579",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "horde/core": "^3",
+                    "horde/date": "^3",
+                    "horde/db": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/injector": "^3",
+                    "horde/rdo": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/argv": "^3",
+                    "horde/controller": "^3",
+                    "horde/elasticsearch": "^2"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "bin": [
+                    "bin/content-object-add",
+                    "bin/content-object-delete",
+                    "bin/content-tag",
+                    "bin/content-tag-add",
+                    "bin/content-tag-delete",
+                    "bin/content-untag"
+                ],
+                "type": "horde-application",
+                "autoload": {
+                    "psr-0": {
+                        "Content": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Tagging application",
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/content/tree/v3.0.0alpha3"
+                }
             }
         ]
     }

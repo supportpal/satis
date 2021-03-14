@@ -56,26 +56,25 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/ManageSieve.git",
-                    "reference": "4c937df28ad68380c8c2dc226054534c251e49dc"
+                    "reference": "e895f83400d4228f1f1acb40dbf7c59892e71835"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/ManageSieve/zipball/4c937df28ad68380c8c2dc226054534c251e49dc",
-                    "reference": "4c937df28ad68380c8c2dc226054534c251e49dc",
+                    "url": "https://api.github.com/repos/maintaina-com/ManageSieve/zipball/e895f83400d4228f1f1acb40dbf7c59892e71835",
+                    "reference": "e895f83400d4228f1f1acb40dbf7c59892e71835",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/socket_client": "^3",
-                    "horde/util": "^3",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/socket_client": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
                     "pear/auth_sasl": "^1.1"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_ManageSieve": "lib/"

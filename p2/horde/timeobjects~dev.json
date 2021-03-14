@@ -176,29 +176,29 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/timeobjects.git",
-                    "reference": "81e652ea092bfc4b197cb339740d7769bca0f965"
+                    "reference": "752b89da254718bea417723c62bd1e5f7b415e67"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/timeobjects/zipball/81e652ea092bfc4b197cb339740d7769bca0f965",
-                    "reference": "81e652ea092bfc4b197cb339740d7769bca0f965",
+                    "url": "https://api.github.com/repos/maintaina-com/timeobjects/zipball/752b89da254718bea417723c62bd1e5f7b415e67",
+                    "reference": "752b89da254718bea417723c62bd1e5f7b415e67",
                     "shasum": ""
                 },
                 "require": {
                     "ext-gettext": "*",
-                    "horde/core": "^3",
-                    "horde/date": "^3",
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/url": "^3",
-                    "horde/util": "^3",
+                    "horde/core": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/date": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/horde-installer-plugin": "dev-FRAMEWORK_6_0",
+                    "horde/url": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/service_facebook": "^3",
-                    "horde/service_weather": "^3"
+                    "horde/service_facebook": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/service_weather": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
+                "time": "2021-03-13T00:00:00+00:00",
                 "type": "horde-application",
                 "autoload": {
                     "psr-0": {

@@ -146,40 +146,39 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Prefs.git",
-                    "reference": "75149a6c2f6af6d67977b11bff8fb6d27e69cbd3"
+                    "reference": "34a948039e4e3cfc921f7471b1b16518cf6d7113"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Prefs/zipball/75149a6c2f6af6d67977b11bff8fb6d27e69cbd3",
-                    "reference": "75149a6c2f6af6d67977b11bff8fb6d27e69cbd3",
+                    "url": "https://api.github.com/repos/maintaina-com/Prefs/zipball/34a948039e4e3cfc921f7471b1b16518cf6d7113",
+                    "reference": "34a948039e4e3cfc921f7471b1b16518cf6d7113",
                     "shasum": ""
                 },
                 "require": {
                     "ext-json": "*",
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/mail": "^3",
-                    "horde/mime": "^3",
-                    "horde/translation": "^3",
-                    "horde/util": "^3",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mail": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mime": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/autoloader": "^3",
-                    "horde/cache": "^3",
-                    "horde/db": "^3",
-                    "horde/image": "^3",
-                    "horde/imsp": "^3",
-                    "horde/kolab_storage": "^3",
-                    "horde/ldap": "^3",
-                    "horde/mongo": "^2",
-                    "horde/test": "^3"
+                    "horde/autoloader": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/cache": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/db": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/image": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/imsp": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/kolab_storage": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/ldap": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mongo": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
+                "time": "2021-03-13T00:00:00+00:00",
                 "bin": [
                     "bin/horde-prefs"
                 ],
-                "type": "horde-library",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Prefs": "lib/"

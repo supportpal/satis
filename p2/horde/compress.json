@@ -663,6 +663,74 @@
                 "support": {
                     "source": "https://github.com/maintaina-com/Compress/tree/v3.0.0alpha2"
                 }
+            },
+            {
+                "name": "horde/compress",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Compress.git",
+                    "reference": "5855ef0a6bd2115234179dd09b5e72f81fd67e73"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Compress/zipball/5855ef0a6bd2115234179dd09b5e72f81fd67e73",
+                    "reference": "5855ef0a6bd2115234179dd09b5e72f81fd67e73",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/mime": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-zlib": "*",
+                    "horde/icalendar": "^3",
+                    "horde/mail": "^3",
+                    "horde/mapi": "^2",
+                    "horde/stream_filter": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Compress": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Compression library",
+                "homepage": "https://www.horde.org/libraries/Horde_Compress",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Compress/tree/v3.0.0alpha3"
+                }
             }
         ]
     }

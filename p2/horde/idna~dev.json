@@ -99,25 +99,24 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Idna.git",
-                    "reference": "4e5af9500c89cd45c42b4998a5147bde70cd6230"
+                    "reference": "79543b2af3e5b17cf52bbe25abe7564f5c36ebfe"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Idna/zipball/4e5af9500c89cd45c42b4998a5147bde70cd6230",
-                    "reference": "4e5af9500c89cd45c42b4998a5147bde70cd6230",
+                    "url": "https://api.github.com/repos/maintaina-com/Idna/zipball/79543b2af3e5b17cf52bbe25abe7564f5c36ebfe",
+                    "reference": "79543b2af3e5b17cf52bbe25abe7564f5c36ebfe",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/util": "^3",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
                     "ext-intl": "*"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Idna": "lib/"

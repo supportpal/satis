@@ -117,29 +117,28 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Group.git",
-                    "reference": "a9bc48e4b87932f9d1b2f639efa11c282f9f27b1"
+                    "reference": "e8377529053252865b5f6dc017d796413493c4c3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Group/zipball/a9bc48e4b87932f9d1b2f639efa11c282f9f27b1",
-                    "reference": "a9bc48e4b87932f9d1b2f639efa11c282f9f27b1",
+                    "url": "https://api.github.com/repos/maintaina-com/Group/zipball/e8377529053252865b5f6dc017d796413493c4c3",
+                    "reference": "e8377529053252865b5f6dc017d796413493c4c3",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/support": "^3",
-                    "horde/util": "^3",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/support": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/cache": "^3",
-                    "horde/db": "^3",
-                    "horde/ldap": "^3",
-                    "horde/test": "^3"
+                    "horde/cache": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/db": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/ldap": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Group": "lib/"

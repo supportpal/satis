@@ -1132,6 +1132,66 @@
             },
             {
                 "name": "horde/image",
+                "version": "2.6.1",
+                "version_normalized": "2.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "789cc43bcdb99f157bd987072cff390bec351856"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/789cc43bcdb99f157bd987072cff390bec351856",
+                    "reference": "789cc43bcdb99f157bd987072cff390bec351856",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_stream": "^1.6.2",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_image": "2.*",
+                    "pear-pear.horde.org/horde_image": "2.*"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "pear-pear.horde.org/horde_test": "^2.1",
+                    "pear-pear.php.net/XML_SVG": "*",
+                    "pear-pecl.php.net/imagick": "^2 || ^3"
+                },
+                "time": "2020-03-12T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Image": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Image library",
+                "homepage": "https://www.horde.org/libraries/Horde_Image"
+            },
+            {
+                "name": "horde/image",
                 "version": "3.0.0alpha1",
                 "version_normalized": "3.0.0.0-alpha1",
                 "source": {
@@ -1224,6 +1284,62 @@
                 },
                 "time": "2021-02-24T00:00:00+00:00",
                 "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Image": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Image library",
+                "homepage": "https://www.horde.org/libraries/Horde_Image"
+            },
+            {
+                "name": "horde/image",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "12ae172e74a0cf0f975e8ffee4292dae00062647"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/12ae172e74a0cf0f975e8ffee4292dae00062647",
+                    "reference": "12ae172e74a0cf0f975e8ffee4292dae00062647",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/stream": "^2",
+                    "horde/support": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-imagick": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "horde/test": "^3",
+                    "pear-pear.php.net/XML_SVG": "*"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Image": "lib/"

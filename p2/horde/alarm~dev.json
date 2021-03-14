@@ -121,33 +121,32 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Alarm.git",
-                    "reference": "0faa43d6a77cef984964b37f247ec5e5d434cf64"
+                    "reference": "0ad3002accdd4fdc32468bdd6321ba25f24040c7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Alarm/zipball/0faa43d6a77cef984964b37f247ec5e5d434cf64",
-                    "reference": "0faa43d6a77cef984964b37f247ec5e5d434cf64",
+                    "url": "https://api.github.com/repos/maintaina-com/Alarm/zipball/0ad3002accdd4fdc32468bdd6321ba25f24040c7",
+                    "reference": "0ad3002accdd4fdc32468bdd6321ba25f24040c7",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/date": "^3",
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/translation": "^3",
+                    "horde/date": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/db": "^3",
-                    "horde/log": "^3",
-                    "horde/mail": "^3",
-                    "horde/mime": "^3",
-                    "horde/notification": "^3",
-                    "horde/perms": "^3",
-                    "horde/prefs": "^3",
-                    "horde/test": "^3"
+                    "horde/db": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/log": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mail": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mime": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/notification": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/perms": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/prefs": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Alarm": "lib/"

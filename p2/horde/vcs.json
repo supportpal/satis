@@ -113,6 +113,60 @@
                 ],
                 "description": "Version control client library",
                 "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/vcs",
+                "version": "v1.0.0alpha3",
+                "version_normalized": "1.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Vcs.git",
+                    "reference": "11c2a6e08ac211371e6a935e23b0109e5aefa8b1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Vcs/zipball/11c2a6e08ac211371e6a935e23b0109e5aefa8b1",
+                    "reference": "11c2a6e08ac211371e6a935e23b0109e5aefa8b1",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-pcre": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/cache": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Vcs": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Version control client library",
+                "homepage": "https://www.horde.org"
             }
         ]
     }

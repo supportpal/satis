@@ -103,27 +103,26 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/ListHeaders.git",
-                    "reference": "ba1e7ccb8562c481fae88cb6a8509c95f5ee1390"
+                    "reference": "ce4dc32054717bf5f3c103d8e38b9b0187287837"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/ListHeaders/zipball/ba1e7ccb8562c481fae88cb6a8509c95f5ee1390",
-                    "reference": "ba1e7ccb8562c481fae88cb6a8509c95f5ee1390",
+                    "url": "https://api.github.com/repos/maintaina-com/ListHeaders/zipball/ce4dc32054717bf5f3c103d8e38b9b0187287837",
+                    "reference": "ce4dc32054717bf5f3c103d8e38b9b0187287837",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/horde-installer-plugin": "*",
-                    "horde/mail": "^3",
-                    "horde/translation": "^3",
-                    "horde/util": "^3",
+                    "horde/mail": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/mime": "^3",
-                    "horde/test": "^3"
+                    "horde/mime": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_ListHeaders": "lib/"

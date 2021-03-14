@@ -175,6 +175,51 @@
                 ],
                 "description": "Spellchecking library",
                 "homepage": "https://www.horde.org/libraries/Horde_SpellChecker"
+            },
+            {
+                "name": "horde/spellchecker",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/SpellChecker.git",
+                    "reference": "1e9c43d1d84fa736586392be3abc13bc7f35de40"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/SpellChecker/zipball/1e9c43d1d84fa736586392be3abc13bc7f35de40",
+                    "reference": "1e9c43d1d84fa736586392be3abc13bc7f35de40",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_SpellChecker": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Spellchecking library",
+                "homepage": "https://www.horde.org/libraries/Horde_SpellChecker"
             }
         ]
     }

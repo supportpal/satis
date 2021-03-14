@@ -859,6 +859,74 @@
                 ],
                 "description": "User preferences library",
                 "homepage": "https://www.horde.org/libraries/Horde_Prefs"
+            },
+            {
+                "name": "horde/prefs",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Prefs.git",
+                    "reference": "85a263568e3d22c34de4a7b00fc1fa6eccc78138"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Prefs/zipball/85a263568e3d22c34de4a7b00fc1fa6eccc78138",
+                    "reference": "85a263568e3d22c34de4a7b00fc1fa6eccc78138",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "horde/exception": "^3",
+                    "horde/mail": "^3",
+                    "horde/mime": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/autoloader": "^3",
+                    "horde/cache": "^3",
+                    "horde/db": "^3",
+                    "horde/image": "^3",
+                    "horde/imsp": "^3",
+                    "horde/kolab_storage": "^3",
+                    "horde/ldap": "^3",
+                    "horde/mongo": "^2",
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "bin": [
+                    "bin/horde-prefs"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Prefs": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "User preferences library",
+                "homepage": "https://www.horde.org/libraries/Horde_Prefs"
             }
         ]
     }

@@ -237,6 +237,48 @@
                 ],
                 "description": "Translation library",
                 "homepage": "https://www.horde.org/libraries/Horde_Translation"
+            },
+            {
+                "name": "horde/translation",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Translation.git",
+                    "reference": "17ba9fc94f45498a0902e9f5031e0f0c870b51a0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Translation/zipball/17ba9fc94f45498a0902e9f5031e0f0c870b51a0",
+                    "reference": "17ba9fc94f45498a0902e9f5031e0f0c870b51a0",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-gettext": "*",
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Translation": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Translation library",
+                "homepage": "https://www.horde.org/libraries/Horde_Translation"
             }
         ]
     }

@@ -1054,6 +1054,89 @@
                 "support": {
                     "source": "https://github.com/maintaina-com/whups/tree/v4.0.0alpha2"
                 }
+            },
+            {
+                "name": "horde/whups",
+                "version": "v4.0.0alpha3",
+                "version_normalized": "4.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/whups.git",
+                    "reference": "1c7ed343d8c2d9f1d5ff709e5a83b4b64c9c6169"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/whups/zipball/1c7ed343d8c2d9f1d5ff709e5a83b4b64c9c6169",
+                    "reference": "1c7ed343d8c2d9f1d5ff709e5a83b4b64c9c6169",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "ext-json": "*",
+                    "horde/auth": "^3",
+                    "horde/autoloader": "^3",
+                    "horde/compress": "^3",
+                    "horde/core": "^3",
+                    "horde/date": "^3",
+                    "horde/db": "^3",
+                    "horde/exception": "^3",
+                    "horde/form": "^3",
+                    "horde/group": "^3",
+                    "horde/horde": "^6",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/mail": "^3",
+                    "horde/mime": "^3",
+                    "horde/mime_viewer": "^3",
+                    "horde/notification": "^3",
+                    "horde/perms": "^3",
+                    "horde/prefs": "^3",
+                    "horde/scheduler": "^3",
+                    "horde/share": "^3",
+                    "horde/support": "^3",
+                    "horde/text_filter": "^3",
+                    "horde/util": "^3",
+                    "horde/vfs": "^3",
+                    "horde/view": "^3",
+                    "php": "^7"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "bin": [
+                    "bin/whups-bugzilla-import",
+                    "bin/whups-convert-datatree-shares-to-sql",
+                    "bin/whups-convert-sql-shares-to-sqlng",
+                    "bin/whups-convert-to-utf8",
+                    "bin/whups-git-hook",
+                    "bin/whups-mail-filter",
+                    "bin/whups-obliterate",
+                    "bin/whups-reminders",
+                    "bin/whups-svn-hook"
+                ],
+                "type": "horde-application",
+                "autoload": {
+                    "psr-0": {
+                        "Whups": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Ticket-tracking application",
+                "homepage": "https://www.horde.org/apps/whups",
+                "support": {
+                    "source": "https://github.com/maintaina-com/whups/tree/v4.0.0alpha3"
+                }
             }
         ]
     }

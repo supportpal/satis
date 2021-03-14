@@ -103,33 +103,29 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Crypt_Blowfish.git",
-                    "reference": "c6b42261923cb613f825820aba5dfec20c4836cc"
+                    "reference": "802f441b657b40bd138d827f947e66503cfc8f35"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Crypt_Blowfish/zipball/c6b42261923cb613f825820aba5dfec20c4836cc",
-                    "reference": "c6b42261923cb613f825820aba5dfec20c4836cc",
+                    "url": "https://api.github.com/repos/maintaina-com/Crypt_Blowfish/zipball/802f441b657b40bd138d827f947e66503cfc8f35",
+                    "reference": "802f441b657b40bd138d827f947e66503cfc8f35",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/support": "^3",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/support": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
                     "ext-mcrypt": "*",
                     "ext-openssl": "*",
-                    "horde/test": "^3"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Crypt_Blowfish": "lib/"
-                    },
-                    "psr-4": {
-                        "Horde\\Crypt\\Blowfish\\": "src/"
                     }
                 },
                 "license": [

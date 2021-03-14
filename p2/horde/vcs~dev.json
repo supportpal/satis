@@ -121,26 +121,25 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Vcs.git",
-                    "reference": "07fcfd70a293893bd7b4f7b8ffdfcf7c355a2e87"
+                    "reference": "58c447d4265bee6e44c3bad305b0cfdfd93c987d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Vcs/zipball/07fcfd70a293893bd7b4f7b8ffdfcf7c355a2e87",
-                    "reference": "07fcfd70a293893bd7b4f7b8ffdfcf7c355a2e87",
+                    "url": "https://api.github.com/repos/maintaina-com/Vcs/zipball/58c447d4265bee6e44c3bad305b0cfdfd93c987d",
+                    "reference": "58c447d4265bee6e44c3bad305b0cfdfd93c987d",
                     "shasum": ""
                 },
                 "require": {
                     "ext-pcre": "*",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/util": "^3",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/cache": "^3",
-                    "horde/test": "^3"
+                    "horde/cache": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Vcs": "lib/"

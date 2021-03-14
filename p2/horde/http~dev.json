@@ -113,27 +113,26 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Http.git",
-                    "reference": "604785840d321e0ff45bdaf50989321be1f7238b"
+                    "reference": "f95018d096a09cfb40db63d7cd67705ecf509cc2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Http/zipball/604785840d321e0ff45bdaf50989321be1f7238b",
-                    "reference": "604785840d321e0ff45bdaf50989321be1f7238b",
+                    "url": "https://api.github.com/repos/maintaina-com/Http/zipball/f95018d096a09cfb40db63d7cd67705ecf509cc2",
+                    "reference": "f95018d096a09cfb40db63d7cd67705ecf509cc2",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/support": "^3",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/support": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
                     "ext-curl": "*",
                     "ext-http": "*",
-                    "horde/test": "^3"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Http": "lib/"

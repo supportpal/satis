@@ -113,31 +113,31 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Mime_Viewer.git",
-                    "reference": "33e4d8162e8853a6dabfba337ba7ed3f14359d3a"
+                    "reference": "7bc061589cd1a2ab345e9eca3fa5eec3bc967d75"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Mime_Viewer/zipball/33e4d8162e8853a6dabfba337ba7ed3f14359d3a",
-                    "reference": "33e4d8162e8853a6dabfba337ba7ed3f14359d3a",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime_Viewer/zipball/7bc061589cd1a2ab345e9eca3fa5eec3bc967d75",
+                    "reference": "7bc061589cd1a2ab345e9eca3fa5eec3bc967d75",
                     "shasum": ""
                 },
                 "require": {
                     "ext-xml": "*",
-                    "horde/browser": "^3",
-                    "horde/compress": "^3",
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/mime": "^3",
-                    "horde/text_filter": "^3",
-                    "horde/text_flowed": "^3",
-                    "horde/translation": "^3",
-                    "horde/util": "^3",
+                    "horde/browser": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/compress": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/horde-installer-plugin": "dev-FRAMEWORK_6_0",
+                    "horde/mime": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/text_filter": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/text_flowed": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
                     "pear/net_dns2": "*"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
+                "time": "2021-03-13T00:00:00+00:00",
                 "type": "horde-library",
                 "autoload": {
                     "psr-0": {

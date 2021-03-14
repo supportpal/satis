@@ -153,20 +153,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Auth.git",
-                    "reference": "e1de88d3c4bbadcab5c5d0ca8ff6838f2b25cb99"
+                    "reference": "178cc2dcd818c1836e698b671f2fe700784d53c2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Auth/zipball/e1de88d3c4bbadcab5c5d0ca8ff6838f2b25cb99",
-                    "reference": "e1de88d3c4bbadcab5c5d0ca8ff6838f2b25cb99",
+                    "url": "https://api.github.com/repos/maintaina-com/Auth/zipball/178cc2dcd818c1836e698b671f2fe700784d53c2",
+                    "reference": "178cc2dcd818c1836e698b671f2fe700784d53c2",
                     "shasum": ""
                 },
                 "require": {
                     "ext-hash": "*",
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/translation": "^3",
-                    "horde/util": "^3",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
@@ -174,18 +173,18 @@
                     "ext-ftp": "*",
                     "ext-pam": "*",
                     "ext-sasl": "*",
-                    "horde/db": "^3",
-                    "horde/history": "^3",
-                    "horde/http": "^3",
-                    "horde/imap_client": "^3",
-                    "horde/imsp": "^3",
-                    "horde/kolab_session": "^3",
-                    "horde/ldap": "^3",
-                    "horde/lock": "^3",
-                    "horde/test": "^3"
+                    "horde/db": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/history": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/http": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/imap_client": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/imsp": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/kolab_session": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/ldap": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/lock": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Auth": "lib/"

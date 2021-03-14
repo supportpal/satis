@@ -107,24 +107,23 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Xml_Wbxml.git",
-                    "reference": "ff52f6da0afc2e9b2b94f74a3a7f0e92fe501708"
+                    "reference": "9a315cd3b2d38ab3c455674c3ff2bef77c6df4c5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Xml_Wbxml/zipball/ff52f6da0afc2e9b2b94f74a3a7f0e92fe501708",
-                    "reference": "ff52f6da0afc2e9b2b94f74a3a7f0e92fe501708",
+                    "url": "https://api.github.com/repos/maintaina-com/Xml_Wbxml/zipball/9a315cd3b2d38ab3c455674c3ff2bef77c6df4c5",
+                    "reference": "9a315cd3b2d38ab3c455674c3ff2bef77c6df4c5",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/horde-installer-plugin": "*",
-                    "horde/util": "^3",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/test": "^3"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Xml_Wbxml": "lib/"

@@ -89,20 +89,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Queue.git",
-                    "reference": "18656dca1ae6fc7a503b9daeb124e064cc034245"
+                    "reference": "347c1386610cbbaef2dcce52bd1833f424c51eec"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Queue/zipball/18656dca1ae6fc7a503b9daeb124e064cc034245",
-                    "reference": "18656dca1ae6fc7a503b9daeb124e064cc034245",
+                    "url": "https://api.github.com/repos/maintaina-com/Queue/zipball/347c1386610cbbaef2dcce52bd1833f424c51eec",
+                    "reference": "347c1386610cbbaef2dcce52bd1833f424c51eec",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/horde-installer-plugin": "*",
                     "php": "^7"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Queue": "lib/"

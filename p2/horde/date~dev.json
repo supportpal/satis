@@ -115,28 +115,27 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Date.git",
-                    "reference": "4b92c33aa5ab2e3b6caa68157eaf1578cf7f3050"
+                    "reference": "834d031dd4102abb5d4f4e2de2be3d1e805be2c9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Date/zipball/4b92c33aa5ab2e3b6caa68157eaf1578cf7f3050",
-                    "reference": "4b92c33aa5ab2e3b6caa68157eaf1578cf7f3050",
+                    "url": "https://api.github.com/repos/maintaina-com/Date/zipball/834d031dd4102abb5d4f4e2de2be3d1e805be2c9",
+                    "reference": "834d031dd4102abb5d4f4e2de2be3d1e805be2c9",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/nls": "^3",
-                    "horde/translation": "^3",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/nls": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
                     "ext-calendar": "*",
-                    "horde/icalendar": "^3",
-                    "horde/test": "^3"
+                    "horde/icalendar": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Date": "lib/"

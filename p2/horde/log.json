@@ -343,6 +343,58 @@
                 ],
                 "description": "Logging library",
                 "homepage": "https://www.horde.org/libraries/Horde_Log"
+            },
+            {
+                "name": "horde/log",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Log.git",
+                    "reference": "0492037000b173d3fa2c723bad7fb425b58d8788"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Log/zipball/0492037000b173d3fa2c723bad7fb425b58d8788",
+                    "reference": "0492037000b173d3fa2c723bad7fb425b58d8788",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/constraint": "^3",
+                    "horde/exception": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "horde/cli": "^3",
+                    "horde/scribe": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Log": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Naberezny",
+                        "email": "mike@maintainable.com",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Logging library",
+                "homepage": "https://www.horde.org/libraries/Horde_Log"
             }
         ]
     }

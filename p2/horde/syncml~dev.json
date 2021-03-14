@@ -111,31 +111,30 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/SyncMl.git",
-                    "reference": "85d3bccb3626de4629dd8869cdcd38c763e287f0"
+                    "reference": "4a7d14a0fe0b75858d84cdba227ca44fea031e64"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/SyncMl/zipball/85d3bccb3626de4629dd8869cdcd38c763e287f0",
-                    "reference": "85d3bccb3626de4629dd8869cdcd38c763e287f0",
+                    "url": "https://api.github.com/repos/maintaina-com/SyncMl/zipball/4a7d14a0fe0b75858d84cdba227ca44fea031e64",
+                    "reference": "4a7d14a0fe0b75858d84cdba227ca44fea031e64",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/date": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/icalendar": "^3",
-                    "horde/log": "^3",
-                    "horde/support": "^3",
-                    "horde/translation": "^3",
-                    "horde/util": "^3",
-                    "horde/xml_wbxml": "^3",
+                    "horde/date": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/icalendar": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/log": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/support": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/xml_wbxml": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/auth": "^3",
-                    "horde/core": "^3"
+                    "horde/auth": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/core": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_SyncMl": "lib/"

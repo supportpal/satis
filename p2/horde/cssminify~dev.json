@@ -97,24 +97,23 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/CssMinify.git",
-                    "reference": "f6fdaec5a360fef6bdc16ad323cf925b1d17f930"
+                    "reference": "2f16ddeb63adda90db4d5e0dd9e20e5bd72ba089"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/CssMinify/zipball/f6fdaec5a360fef6bdc16ad323cf925b1d17f930",
-                    "reference": "f6fdaec5a360fef6bdc16ad323cf925b1d17f930",
+                    "url": "https://api.github.com/repos/maintaina-com/CssMinify/zipball/2f16ddeb63adda90db4d5e0dd9e20e5bd72ba089",
+                    "reference": "2f16ddeb63adda90db4d5e0dd9e20e5bd72ba089",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/css_parser": "^2",
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/log": "^3",
-                    "horde/url": "^3",
+                    "horde/css_parser": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/log": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/url": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_CssMinify": "lib/"

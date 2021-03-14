@@ -111,26 +111,25 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Nls.git",
-                    "reference": "c9b4addc7d0ae9b8eeeb600661d84e528bd2373e"
+                    "reference": "72035fbccba85905e8ba96dfc54395c983e4b713"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Nls/zipball/c9b4addc7d0ae9b8eeeb600661d84e528bd2373e",
-                    "reference": "c9b4addc7d0ae9b8eeeb600661d84e528bd2373e",
+                    "url": "https://api.github.com/repos/maintaina-com/Nls/zipball/72035fbccba85905e8ba96dfc54395c983e4b713",
+                    "reference": "72035fbccba85905e8ba96dfc54395c983e4b713",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/horde-installer-plugin": "*",
-                    "horde/translation": "^3",
-                    "horde/util": "^3",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
                     "ext-geoip": "*",
                     "pear/net_dns2": "*"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Nls": "lib/"

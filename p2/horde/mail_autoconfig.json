@@ -335,6 +335,51 @@
                 ],
                 "description": "Mail server autoconfiguration library",
                 "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/mail_autoconfig",
+                "version": "v2.0.0alpha3",
+                "version_normalized": "2.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mail_Autoconfig.git",
+                    "reference": "5c64f29c77a540e4c226b75f7dbb9bd31abdf8c5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail_Autoconfig/zipball/5c64f29c77a540e4c226b75f7dbb9bd31abdf8c5",
+                    "reference": "5c64f29c77a540e4c226b75f7dbb9bd31abdf8c5",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-simplexml": "*",
+                    "horde/exception": "^3",
+                    "horde/http": "^3",
+                    "horde/imap_client": "^3",
+                    "horde/mail": "^3",
+                    "horde/smtp": "^2",
+                    "pear/net_dns2": "^1.5",
+                    "php": "^7"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Mail_Autoconfig": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Mail server autoconfiguration library",
+                "homepage": "https://www.horde.org"
             }
         ]
     }

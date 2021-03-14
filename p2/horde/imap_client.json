@@ -2772,6 +2772,140 @@
             },
             {
                 "name": "horde/imap_client",
+                "version": "2.29.17",
+                "version_normalized": "2.29.17.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Imap_Client.git",
+                    "reference": "00ba0bc58ff4987e2b5e00f1ed7e5bc31c515ec4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Imap_Client/zipball/00ba0bc58ff4987e2b5e00f1ed7e5bc31c515ec4",
+                    "reference": "00ba0bc58ff4987e2b5e00f1ed7e5bc31c515ec4",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_mail": "^2",
+                    "pear-pear.horde.org/horde_mime": "^2.5.2",
+                    "pear-pear.horde.org/horde_secret": "^2",
+                    "pear-pear.horde.org/horde_socket_client": "^2",
+                    "pear-pear.horde.org/horde_stream": "^1.4",
+                    "pear-pear.horde.org/horde_stream_filter": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_imap_client": "2.*",
+                    "pear-pear.horde.org/horde_imap_client": "2.*"
+                },
+                "suggest": {
+                    "ext-intl": "*",
+                    "ext-mbstring": "*",
+                    "pear-pear.horde.org/horde_cache": "^2",
+                    "pear-pear.horde.org/horde_compress_fast": "^1",
+                    "pear-pear.horde.org/horde_crypt_blowfish": "^1.1",
+                    "pear-pear.horde.org/horde_db": "^2.2",
+                    "pear-pear.horde.org/horde_hashtable": "^1",
+                    "pear-pear.horde.org/horde_mongo": "^1",
+                    "pear-pear.horde.org/horde_pack": "^1",
+                    "pear-pear.horde.org/horde_stringprep": "^1",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_test": "^2.2.7"
+                },
+                "time": "2019-03-02T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Imap_Client": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "IMAP client library",
+                "homepage": "https://www.horde.org/libraries/Horde_Imap_Client"
+            },
+            {
+                "name": "horde/imap_client",
+                "version": "2.29.18",
+                "version_normalized": "2.29.18.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Imap_Client.git",
+                    "reference": "ec0eed0784d95d2a72a0752aaba8d672fbcf3698"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Imap_Client/zipball/ec0eed0784d95d2a72a0752aaba8d672fbcf3698",
+                    "reference": "ec0eed0784d95d2a72a0752aaba8d672fbcf3698",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_mail": "^2",
+                    "pear-pear.horde.org/horde_mime": "^2.5.2",
+                    "pear-pear.horde.org/horde_secret": "^2",
+                    "pear-pear.horde.org/horde_socket_client": "^2",
+                    "pear-pear.horde.org/horde_stream": "^1.4",
+                    "pear-pear.horde.org/horde_stream_filter": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_imap_client": "2.*",
+                    "pear-pear.horde.org/horde_imap_client": "2.*"
+                },
+                "suggest": {
+                    "ext-intl": "*",
+                    "ext-mbstring": "*",
+                    "pear-pear.horde.org/horde_cache": "^2",
+                    "pear-pear.horde.org/horde_compress_fast": "^1",
+                    "pear-pear.horde.org/horde_crypt_blowfish": "^1.1",
+                    "pear-pear.horde.org/horde_db": "^2.2",
+                    "pear-pear.horde.org/horde_hashtable": "^1",
+                    "pear-pear.horde.org/horde_mongo": "^1",
+                    "pear-pear.horde.org/horde_pack": "^1",
+                    "pear-pear.horde.org/horde_stringprep": "^1",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_test": "^2.2.7"
+                },
+                "time": "2019-09-14T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Imap_Client": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "IMAP client library",
+                "homepage": "https://www.horde.org/libraries/Horde_Imap_Client"
+            },
+            {
+                "name": "horde/imap_client",
                 "version": "2.29.2",
                 "version_normalized": "2.29.2.0",
                 "source": {
@@ -3236,6 +3370,140 @@
             },
             {
                 "name": "horde/imap_client",
+                "version": "2.30.0",
+                "version_normalized": "2.30.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Imap_Client.git",
+                    "reference": "ddb08d76df20893d2fe2ce6facfac5beb260b665"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Imap_Client/zipball/ddb08d76df20893d2fe2ce6facfac5beb260b665",
+                    "reference": "ddb08d76df20893d2fe2ce6facfac5beb260b665",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_mail": "^2",
+                    "pear-pear.horde.org/horde_mime": "^2.5.2",
+                    "pear-pear.horde.org/horde_secret": "^2",
+                    "pear-pear.horde.org/horde_socket_client": "^2",
+                    "pear-pear.horde.org/horde_stream": "^1.4",
+                    "pear-pear.horde.org/horde_stream_filter": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_imap_client": "2.*",
+                    "pear-pear.horde.org/horde_imap_client": "2.*"
+                },
+                "suggest": {
+                    "ext-intl": "*",
+                    "ext-mbstring": "*",
+                    "pear-pear.horde.org/horde_cache": "^2",
+                    "pear-pear.horde.org/horde_compress_fast": "^1",
+                    "pear-pear.horde.org/horde_crypt_blowfish": "^1.1",
+                    "pear-pear.horde.org/horde_db": "^2.2",
+                    "pear-pear.horde.org/horde_hashtable": "^1",
+                    "pear-pear.horde.org/horde_mongo": "^1",
+                    "pear-pear.horde.org/horde_pack": "^1",
+                    "pear-pear.horde.org/horde_stringprep": "^1",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_test": "^2.2.7"
+                },
+                "time": "2019-09-29T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Imap_Client": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "IMAP client library",
+                "homepage": "https://www.horde.org/libraries/Horde_Imap_Client"
+            },
+            {
+                "name": "horde/imap_client",
+                "version": "2.30.1",
+                "version_normalized": "2.30.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Imap_Client.git",
+                    "reference": "7aa0268572bbea525b09f992658766b9f8b0a704"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Imap_Client/zipball/7aa0268572bbea525b09f992658766b9f8b0a704",
+                    "reference": "7aa0268572bbea525b09f992658766b9f8b0a704",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_mail": "^2",
+                    "pear-pear.horde.org/horde_mime": "^2.5.2",
+                    "pear-pear.horde.org/horde_secret": "^2",
+                    "pear-pear.horde.org/horde_socket_client": "^2",
+                    "pear-pear.horde.org/horde_stream": "^1.4",
+                    "pear-pear.horde.org/horde_stream_filter": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_imap_client": "2.*",
+                    "pear-pear.horde.org/horde_imap_client": "2.*"
+                },
+                "suggest": {
+                    "ext-intl": "*",
+                    "ext-mbstring": "*",
+                    "pear-pear.horde.org/horde_cache": "^2",
+                    "pear-pear.horde.org/horde_compress_fast": "^1",
+                    "pear-pear.horde.org/horde_crypt_blowfish": "^1.1",
+                    "pear-pear.horde.org/horde_db": "^2.2",
+                    "pear-pear.horde.org/horde_hashtable": "^1",
+                    "pear-pear.horde.org/horde_mongo": "^1",
+                    "pear-pear.horde.org/horde_pack": "^1",
+                    "pear-pear.horde.org/horde_stringprep": "^1",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_test": "^2.2.7"
+                },
+                "time": "2019-11-03T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Imap_Client": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "IMAP client library",
+                "homepage": "https://www.horde.org/libraries/Horde_Imap_Client"
+            },
+            {
+                "name": "horde/imap_client",
                 "version": "3.0.0alpha1",
                 "version_normalized": "3.0.0.0-alpha1",
                 "source": {
@@ -3347,6 +3615,69 @@
                 },
                 "time": "2021-02-24T00:00:00+00:00",
                 "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Imap_Client": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "IMAP client library",
+                "homepage": "https://www.horde.org/libraries/Horde_Imap_Client"
+            },
+            {
+                "name": "horde/imap_client",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Imap_Client.git",
+                    "reference": "b8a8a9bc5aba9d52173fddc2b03cdf3323d28b77"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Imap_Client/zipball/b8a8a9bc5aba9d52173fddc2b03cdf3323d28b77",
+                    "reference": "b8a8a9bc5aba9d52173fddc2b03cdf3323d28b77",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "ext-json": "*",
+                    "horde/exception": "^3",
+                    "horde/mail": "^3",
+                    "horde/mime": "^3",
+                    "horde/secret": "^3",
+                    "horde/socket_client": "^3",
+                    "horde/stream": "^2",
+                    "horde/stream_filter": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-intl": "*",
+                    "ext-mbstring": "*",
+                    "horde/cache": "^3",
+                    "horde/compress_fast": "^2",
+                    "horde/crypt_blowfish": "^2",
+                    "horde/db": "^3",
+                    "horde/hashtable": "^2",
+                    "horde/mongo": "^2",
+                    "horde/pack": "^2",
+                    "horde/stringprep": "^2",
+                    "horde/support": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Imap_Client": "lib/"

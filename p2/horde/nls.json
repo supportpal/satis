@@ -367,6 +367,55 @@
                 ],
                 "description": "Native language support library",
                 "homepage": "https://www.horde.org/libraries/Horde_Nls"
+            },
+            {
+                "name": "horde/nls",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Nls.git",
+                    "reference": "f1c05e62ca1f5576b63416a6e83c203f89717cd8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Nls/zipball/f1c05e62ca1f5576b63416a6e83c203f89717cd8",
+                    "reference": "f1c05e62ca1f5576b63416a6e83c203f89717cd8",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-geoip": "*",
+                    "pear/net_dns2": "*"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Nls": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Native language support library",
+                "homepage": "https://www.horde.org/libraries/Horde_Nls"
             }
         ]
     }

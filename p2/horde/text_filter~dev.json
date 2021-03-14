@@ -191,17 +191,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Text_Filter.git",
-                    "reference": "9cf0f6621d200f8baeaae328bb4b22a19210100f"
+                    "reference": "0182edd3f762909146196a43dc8da2c872ab8964"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/9cf0f6621d200f8baeaae328bb4b22a19210100f",
-                    "reference": "9cf0f6621d200f8baeaae328bb4b22a19210100f",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/0182edd3f762909146196a43dc8da2c872ab8964",
+                    "reference": "0182edd3f762909146196a43dc8da2c872ab8964",
                     "shasum": ""
                 },
                 "require": {
                     "pear-pear.horde.org/horde_exception": "^2",
                     "pear-pear.horde.org/horde_idna": "^1",
+                    "pear-pear.horde.org/horde_secret": "^2",
                     "pear-pear.horde.org/horde_util": "^2",
                     "php": "^5.3 || ^7"
                 },
@@ -216,7 +217,7 @@
                     "pear-pear.horde.org/horde_text_flowed": "^2",
                     "pear-pear.horde.org/horde_translation": "^2.2"
                 },
-                "time": "2017-11-11T00:00:00+00:00",
+                "time": "2021-02-17T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -228,13 +229,13 @@
                 ],
                 "authors": [
                     {
-                        "name": "Chuck Hagenbuch",
-                        "email": "chuck@horde.org",
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
                         "role": "lead"
                     },
                     {
-                        "name": "Jan Schneider",
-                        "email": "jan@horde.org",
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
                         "role": "lead"
                     },
                     {
@@ -253,17 +254,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Text_Filter.git",
-                    "reference": "9cf0f6621d200f8baeaae328bb4b22a19210100f"
+                    "reference": "0182edd3f762909146196a43dc8da2c872ab8964"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/9cf0f6621d200f8baeaae328bb4b22a19210100f",
-                    "reference": "9cf0f6621d200f8baeaae328bb4b22a19210100f",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/0182edd3f762909146196a43dc8da2c872ab8964",
+                    "reference": "0182edd3f762909146196a43dc8da2c872ab8964",
                     "shasum": ""
                 },
                 "require": {
                     "pear-pear.horde.org/horde_exception": "^2",
                     "pear-pear.horde.org/horde_idna": "^1",
+                    "pear-pear.horde.org/horde_secret": "^2",
                     "pear-pear.horde.org/horde_util": "^2",
                     "php": "^5.3 || ^7"
                 },
@@ -278,7 +280,7 @@
                     "pear-pear.horde.org/horde_text_flowed": "^2",
                     "pear-pear.horde.org/horde_translation": "^2.2"
                 },
-                "time": "2017-11-11T00:00:00+00:00",
+                "time": "2021-02-17T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -290,13 +292,13 @@
                 ],
                 "authors": [
                     {
-                        "name": "Chuck Hagenbuch",
-                        "email": "chuck@horde.org",
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
                         "role": "lead"
                     },
                     {
-                        "name": "Jan Schneider",
-                        "email": "jan@horde.org",
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
                         "role": "lead"
                     },
                     {

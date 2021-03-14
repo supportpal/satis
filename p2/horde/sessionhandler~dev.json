@@ -185,12 +185,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/SessionHandler.git",
-                    "reference": "4d923997068036cde3c0fb9ec02edaae807ce73c"
+                    "reference": "e92bb174cffafd387a514380b41827742b7e314c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/SessionHandler/zipball/4d923997068036cde3c0fb9ec02edaae807ce73c",
-                    "reference": "4d923997068036cde3c0fb9ec02edaae807ce73c",
+                    "url": "https://api.github.com/repos/maintaina-com/SessionHandler/zipball/e92bb174cffafd387a514380b41827742b7e314c",
+                    "reference": "e92bb174cffafd387a514380b41827742b7e314c",
                     "shasum": ""
                 },
                 "require": {
@@ -209,7 +209,7 @@
                     "pear-pear.horde.org/horde_mongo": "^1",
                     "pear-pear.horde.org/horde_test": "^2.1"
                 },
-                "time": "2018-07-19T00:00:00+00:00",
+                "time": "2021-02-17T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -246,12 +246,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/SessionHandler.git",
-                    "reference": "4d923997068036cde3c0fb9ec02edaae807ce73c"
+                    "reference": "e92bb174cffafd387a514380b41827742b7e314c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/SessionHandler/zipball/4d923997068036cde3c0fb9ec02edaae807ce73c",
-                    "reference": "4d923997068036cde3c0fb9ec02edaae807ce73c",
+                    "url": "https://api.github.com/repos/maintaina-com/SessionHandler/zipball/e92bb174cffafd387a514380b41827742b7e314c",
+                    "reference": "e92bb174cffafd387a514380b41827742b7e314c",
                     "shasum": ""
                 },
                 "require": {
@@ -270,7 +270,7 @@
                     "pear-pear.horde.org/horde_mongo": "^1",
                     "pear-pear.horde.org/horde_test": "^2.1"
                 },
-                "time": "2018-07-19T00:00:00+00:00",
+                "time": "2021-02-17T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {

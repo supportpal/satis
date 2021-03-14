@@ -2236,6 +2236,98 @@
                 "support": {
                     "source": "https://github.com/maintaina-com/nag/tree/v5.0.0alpha2"
                 }
+            },
+            {
+                "name": "horde/nag",
+                "version": "v5.0.0alpha3",
+                "version_normalized": "5.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/nag.git",
+                    "reference": "f1972c454a494554ddbb982f944c32d8c8c8115e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/nag/zipball/f1972c454a494554ddbb982f944c32d8c8c8115e",
+                    "reference": "f1972c454a494554ddbb982f944c32d8c8c8115e",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "horde/auth": "^3",
+                    "horde/content": "^3",
+                    "horde/controller": "^3",
+                    "horde/core": "^3",
+                    "horde/data": "^3",
+                    "horde/date": "^3",
+                    "horde/date_parser": "^3",
+                    "horde/dav": "^2",
+                    "horde/exception": "^3",
+                    "horde/form": "^3",
+                    "horde/group": "^3",
+                    "horde/history": "^3",
+                    "horde/horde": "^6",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/icalendar": "^3",
+                    "horde/mail": "^3",
+                    "horde/mime": "^3",
+                    "horde/perms": "^3",
+                    "horde/prefs": "^3",
+                    "horde/routes": "^3",
+                    "horde/share": "^3",
+                    "horde/support": "^3",
+                    "horde/text_filter": "^3",
+                    "horde/url": "^3",
+                    "horde/util": "^3",
+                    "horde/view": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/activesync": "^3",
+                    "horde/backup": "^2",
+                    "horde/db": "^3",
+                    "horde/openxchange": "^2",
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "bin": [
+                    "bin/nag-convert-datatree-shares-to-sql",
+                    "bin/nag-convert-sql-shares-to-sqlng",
+                    "bin/nag-create-missing-add-histories-sql",
+                    "bin/nag-import-openxchange",
+                    "bin/nag-import-vtodos"
+                ],
+                "type": "horde-application",
+                "autoload": {
+                    "psr-0": {
+                        "Nag": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Task list application",
+                "homepage": "https://www.horde.org/apps/nag",
+                "support": {
+                    "source": "https://github.com/maintaina-com/nag/tree/v5.0.0alpha3"
+                }
             }
         ]
     }

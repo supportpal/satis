@@ -220,6 +220,52 @@
                 ],
                 "description": "Notification library implementing subject-observer pattern",
                 "homepage": "https://www.horde.org/libraries/Horde_Notification"
+            },
+            {
+                "name": "horde/notification",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Notification.git",
+                    "reference": "6dbd3eb4683e4d03f91e3f3e620427db8e6e4ed7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Notification/zipball/6dbd3eb4683e4d03f91e3f3e620427db8e6e4ed7",
+                    "reference": "6dbd3eb4683e4d03f91e3f3e620427db8e6e4ed7",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-gettext": "*",
+                    "horde/exception": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/alarm": "^3",
+                    "horde/nls": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Notification": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Notification library implementing subject-observer pattern",
+                "homepage": "https://www.horde.org/libraries/Horde_Notification"
             }
         ]
     }

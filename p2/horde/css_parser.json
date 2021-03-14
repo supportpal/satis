@@ -411,6 +411,47 @@
                 ],
                 "description": "CSS parser library",
                 "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/css_parser",
+                "version": "v2.0.0alpha3",
+                "version_normalized": "2.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Css_Parser.git",
+                    "reference": "221edcf5ddf74a0d6788fc9a8a21f64edb6fb634"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Css_Parser/zipball/221edcf5ddf74a0d6788fc9a8a21f64edb6fb634",
+                    "reference": "221edcf5ddf74a0d6788fc9a8a21f64edb6fb634",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-mbstring": "*"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Css_Parser": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "CSS parser library",
+                "homepage": "https://www.horde.org"
             }
         ]
     }

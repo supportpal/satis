@@ -111,23 +111,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Autoloader.git",
-                    "reference": "759475734d589394d79809b210ab11affe05b0a1"
+                    "reference": "600ca1c6839ea322d63368dea3cffa9ac05b0582"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Autoloader/zipball/759475734d589394d79809b210ab11affe05b0a1",
-                    "reference": "759475734d589394d79809b210ab11affe05b0a1",
+                    "url": "https://api.github.com/repos/maintaina-com/Autoloader/zipball/600ca1c6839ea322d63368dea3cffa9ac05b0582",
+                    "reference": "600ca1c6839ea322d63368dea3cffa9ac05b0582",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/horde-installer-plugin": "*",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/test": "^3"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Autoloader": "lib/"

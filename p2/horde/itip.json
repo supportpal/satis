@@ -329,6 +329,56 @@
                 ],
                 "description": "iTip invitation response library",
                 "homepage": "https://www.horde.org/libraries/Horde_Itip"
+            },
+            {
+                "name": "horde/itip",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Itip.git",
+                    "reference": "c690088d7b1961fc1ed3e2a29ff0ce6e1511d135"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Itip/zipball/c690088d7b1961fc1ed3e2a29ff0ce6e1511d135",
+                    "reference": "c690088d7b1961fc1ed3e2a29ff0ce6e1511d135",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/icalendar": "^3",
+                    "horde/mime": "^3",
+                    "horde/translation": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/prefs": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Itip": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Gunnar Wrobel",
+                        "email": "p@rdus.de",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "iTip invitation response library",
+                "homepage": "https://www.horde.org/libraries/Horde_Itip"
             }
         ]
     }

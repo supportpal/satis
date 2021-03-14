@@ -555,6 +555,57 @@
                 ],
                 "description": "MIME viewer library",
                 "homepage": "https://www.horde.org/libraries/Horde_Mime_Viewer"
+            },
+            {
+                "name": "horde/mime_viewer",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Mime_Viewer.git",
+                    "reference": "9299c5e77aed087a5c50f4bc18c3ffc0e456b89d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime_Viewer/zipball/9299c5e77aed087a5c50f4bc18c3ffc0e456b89d",
+                    "reference": "9299c5e77aed087a5c50f4bc18c3ffc0e456b89d",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-xml": "*",
+                    "horde/browser": "^3",
+                    "horde/compress": "^3",
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/mime": "^3",
+                    "horde/text_filter": "^3",
+                    "horde/text_flowed": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "pear/net_dns2": "*"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Mime_Viewer": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "MIME viewer library",
+                "homepage": "https://www.horde.org/libraries/Horde_Mime_Viewer"
             }
         ]
     }

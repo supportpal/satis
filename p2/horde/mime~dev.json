@@ -133,37 +133,36 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Mime.git",
-                    "reference": "028e9f2361061f2d54f668467ce27a8dd495c4cf"
+                    "reference": "8b7be45a5c0e05127704b30df25aff63b22025ec"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/028e9f2361061f2d54f668467ce27a8dd495c4cf",
-                    "reference": "028e9f2361061f2d54f668467ce27a8dd495c4cf",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/8b7be45a5c0e05127704b30df25aff63b22025ec",
+                    "reference": "8b7be45a5c0e05127704b30df25aff63b22025ec",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/listheaders": "^2",
-                    "horde/mail": "^3",
-                    "horde/stream": "^2",
-                    "horde/stream_filter": "^3",
-                    "horde/support": "^3",
-                    "horde/text_flowed": "^3",
-                    "horde/translation": "^3",
-                    "horde/util": "^3",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/listheaders": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/mail": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/stream": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/stream_filter": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/support": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/text_flowed": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
                     "ext-idn": "*",
                     "ext-intl": "*",
-                    "horde/nls": "^3",
-                    "horde/test": "^3",
-                    "horde/text_filter": "^3",
+                    "horde/nls": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/text_filter": "^3 || dev-FRAMEWORK_6_0",
                     "pear/net_dns2": "*"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Mime": "lib/"

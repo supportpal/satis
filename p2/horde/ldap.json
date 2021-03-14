@@ -452,6 +452,59 @@
             },
             {
                 "name": "horde/ldap",
+                "version": "2.4.2",
+                "version_normalized": "2.4.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Ldap.git",
+                    "reference": "5b8a727eb7a00aa355951b19e65b022c6e580b65"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Ldap/zipball/5b8a727eb7a00aa355951b19e65b022c6e580b65",
+                    "reference": "5b8a727eb7a00aa355951b19e65b022c6e580b65",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ldap": "*",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_ldap": "2.*",
+                    "pear-pear.horde.org/horde_ldap": "2.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2019-11-03T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Ldap": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Klang",
+                        "email": "ben@alkaloid.net",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "LDAP client library",
+                "homepage": "https://www.horde.org/libraries/Horde_Ldap"
+            },
+            {
+                "name": "horde/ldap",
                 "version": "3.0.0alpha1",
                 "version_normalized": "3.0.0.0-alpha1",
                 "source": {
@@ -530,6 +583,55 @@
                 },
                 "time": "2021-02-24T00:00:00+00:00",
                 "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Ldap": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Klang",
+                        "email": "ben@alkaloid.net",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "LDAP client library",
+                "homepage": "https://www.horde.org/libraries/Horde_Ldap"
+            },
+            {
+                "name": "horde/ldap",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Ldap.git",
+                    "reference": "d3eb0e5b6bbca37349d859ecf0ba0a854ba908fb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Ldap/zipball/d3eb0e5b6bbca37349d859ecf0ba0a854ba908fb",
+                    "reference": "d3eb0e5b6bbca37349d859ecf0ba0a854ba908fb",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ldap": "*",
+                    "horde/exception": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Ldap": "lib/"

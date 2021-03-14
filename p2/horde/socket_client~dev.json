@@ -97,24 +97,23 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Socket_Client.git",
-                    "reference": "f9edaa5a9b96b1ba0cd13c71c703393eab947235"
+                    "reference": "f97a31280bf2f32dbf6a1ab7bd9903a4f44e1992"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Socket_Client/zipball/f9edaa5a9b96b1ba0cd13c71c703393eab947235",
-                    "reference": "f9edaa5a9b96b1ba0cd13c71c703393eab947235",
+                    "url": "https://api.github.com/repos/maintaina-com/Socket_Client/zipball/f97a31280bf2f32dbf6a1ab7bd9903a4f44e1992",
+                    "reference": "f97a31280bf2f32dbf6a1ab7bd9903a4f44e1992",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
                     "ext-openssl": "*"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "classmap": [
                         "lib/"

@@ -152,12 +152,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Service_Weather.git",
-                    "reference": "fc1d21cef0d486f86f5ddd151a2acb360bd1a8c3"
+                    "reference": "ae9379fb76ba283c38f900978ecbe31cdff3cded"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Service_Weather/zipball/fc1d21cef0d486f86f5ddd151a2acb360bd1a8c3",
-                    "reference": "fc1d21cef0d486f86f5ddd151a2acb360bd1a8c3",
+                    "url": "https://api.github.com/repos/maintaina-com/Service_Weather/zipball/ae9379fb76ba283c38f900978ecbe31cdff3cded",
+                    "reference": "ae9379fb76ba283c38f900978ecbe31cdff3cded",
                     "shasum": ""
                 },
                 "require": {
@@ -175,7 +175,7 @@
                 "suggest": {
                     "pear-pear.horde.org/horde_test": "^2.1"
                 },
-                "time": "2020-02-24T00:00:00+00:00",
+                "time": "2020-12-01T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -202,12 +202,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Service_Weather.git",
-                    "reference": "fc1d21cef0d486f86f5ddd151a2acb360bd1a8c3"
+                    "reference": "ae9379fb76ba283c38f900978ecbe31cdff3cded"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Service_Weather/zipball/fc1d21cef0d486f86f5ddd151a2acb360bd1a8c3",
-                    "reference": "fc1d21cef0d486f86f5ddd151a2acb360bd1a8c3",
+                    "url": "https://api.github.com/repos/maintaina-com/Service_Weather/zipball/ae9379fb76ba283c38f900978ecbe31cdff3cded",
+                    "reference": "ae9379fb76ba283c38f900978ecbe31cdff3cded",
                     "shasum": ""
                 },
                 "require": {
@@ -225,7 +225,7 @@
                 "suggest": {
                     "pear-pear.horde.org/horde_test": "^2.1"
                 },
-                "time": "2020-02-24T00:00:00+00:00",
+                "time": "2020-12-01T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {

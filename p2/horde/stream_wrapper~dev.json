@@ -99,23 +99,22 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Stream_Wrapper.git",
-                    "reference": "21b1c90b05aa54891b0024b52e513ec074c4e7c3"
+                    "reference": "b4a5ea643725085439ab3f84e72e4296dcc96a8d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Stream_Wrapper/zipball/21b1c90b05aa54891b0024b52e513ec074c4e7c3",
-                    "reference": "21b1c90b05aa54891b0024b52e513ec074c4e7c3",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream_Wrapper/zipball/b4a5ea643725085439ab3f84e72e4296dcc96a8d",
+                    "reference": "b4a5ea643725085439ab3f84e72e4296dcc96a8d",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/horde-installer-plugin": "*",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/test": "^3"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Stream_Wrapper": "lib/"

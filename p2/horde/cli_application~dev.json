@@ -109,22 +109,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Cli_Application.git",
-                    "reference": "638a7434b90393e25df332a2e6284a7342794ca6"
+                    "reference": "377030fa4c732d603c7acf78881da84c30d73808"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Cli_Application/zipball/638a7434b90393e25df332a2e6284a7342794ca6",
-                    "reference": "638a7434b90393e25df332a2e6284a7342794ca6",
+                    "url": "https://api.github.com/repos/maintaina-com/Cli_Application/zipball/377030fa4c732d603c7acf78881da84c30d73808",
+                    "reference": "377030fa4c732d603c7acf78881da84c30d73808",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/argv": "^3",
-                    "horde/cli": "^3",
-                    "horde/horde-installer-plugin": "*",
+                    "horde/argv": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/cli": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "classmap": [
                         "lib/"

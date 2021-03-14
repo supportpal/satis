@@ -723,6 +723,57 @@
                 ],
                 "description": "Date library",
                 "homepage": "https://www.horde.org/libraries/Horde_Date"
+            },
+            {
+                "name": "horde/date",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Date.git",
+                    "reference": "2873fa3af839cd8b1729141eba1fb701def559dc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Date/zipball/2873fa3af839cd8b1729141eba1fb701def559dc",
+                    "reference": "2873fa3af839cd8b1729141eba1fb701def559dc",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/nls": "^3",
+                    "horde/translation": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-calendar": "*",
+                    "horde/icalendar": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Date": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Date library",
+                "homepage": "https://www.horde.org/libraries/Horde_Date"
             }
         ]
     }

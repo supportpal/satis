@@ -225,39 +225,39 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/ingo.git",
-                    "reference": "fbc6627c0364d6f7854cb0591903993ac3ea05c7"
+                    "reference": "a8141988f63656e35293760bf72e5cc74dbfc026"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/ingo/zipball/fbc6627c0364d6f7854cb0591903993ac3ea05c7",
-                    "reference": "fbc6627c0364d6f7854cb0591903993ac3ea05c7",
+                    "url": "https://api.github.com/repos/maintaina-com/ingo/zipball/a8141988f63656e35293760bf72e5cc74dbfc026",
+                    "reference": "a8141988f63656e35293760bf72e5cc74dbfc026",
                     "shasum": ""
                 },
                 "require": {
                     "ext-gettext": "*",
-                    "horde/auth": "^3",
-                    "horde/autoloader": "^3",
-                    "horde/core": "^3",
-                    "horde/exception": "^3",
-                    "horde/form": "^3",
-                    "horde/group": "^3",
-                    "horde/horde": "^6",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/imap_client": "^3",
-                    "horde/mime": "^3",
-                    "horde/perms": "^3",
-                    "horde/share": "^3",
-                    "horde/util": "^3",
-                    "horde/view": "^3",
+                    "horde/auth": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/autoloader": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/core": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/form": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/group": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/horde": "^6 || dev-FRAMEWORK_6_0",
+                    "horde/horde-installer-plugin": "dev-FRAMEWORK_6_0",
+                    "horde/imap_client": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mime": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/perms": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/share": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/view": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/listheaders": "^2",
-                    "horde/managesieve": "^2",
-                    "horde/mongo": "^2",
-                    "horde/vfs": "^3"
+                    "horde/listheaders": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/managesieve": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/mongo": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/vfs": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
+                "time": "2021-03-13T00:00:00+00:00",
                 "bin": [
                     "bin/ingo-admin-upgrade",
                     "bin/ingo-convert-prefs-to-sql",

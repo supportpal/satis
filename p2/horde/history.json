@@ -335,6 +335,51 @@
                 ],
                 "description": "History tracking library",
                 "homepage": "https://www.horde.org/libraries/Horde_History"
+            },
+            {
+                "name": "horde/history",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/History.git",
+                    "reference": "5c7ff1216cf50176814e9c5f149333136850e3c1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/History/zipball/5c7ff1216cf50176814e9c5f149333136850e3c1",
+                    "reference": "5c7ff1216cf50176814e9c5f149333136850e3c1",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/db": "^3",
+                    "horde/exception": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/hashtable": "^2",
+                    "horde/mongo": "^2",
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_History": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "History tracking library",
+                "homepage": "https://www.horde.org/libraries/Horde_History"
             }
         ]
     }

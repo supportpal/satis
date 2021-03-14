@@ -91,21 +91,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Text_Filter_Jsmin.git",
-                    "reference": "4ef659774697ba2d0717996732faba8ad47a2f41"
+                    "reference": "d77fd0cc2ae8718a01e307c2098b78535606978b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter_Jsmin/zipball/4ef659774697ba2d0717996732faba8ad47a2f41",
-                    "reference": "4ef659774697ba2d0717996732faba8ad47a2f41",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter_Jsmin/zipball/d77fd0cc2ae8718a01e307c2098b78535606978b",
+                    "reference": "d77fd0cc2ae8718a01e307c2098b78535606978b",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/horde-installer-plugin": "*",
-                    "horde/text_filter": "^3",
+                    "horde/text_filter": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Text_Filter_Jsmin": "lib/"

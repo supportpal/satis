@@ -872,6 +872,52 @@
                 ],
                 "description": "Weather service library",
                 "homepage": "https://www.horde.org/libraries/Horde_Service_Weather"
+            },
+            {
+                "name": "horde/service_weather",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Service_Weather.git",
+                    "reference": "a74aa2a66f1fc2fd663098f44f946f543088070c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Service_Weather/zipball/a74aa2a66f1fc2fd663098f44f946f543088070c",
+                    "reference": "a74aa2a66f1fc2fd663098f44f946f543088070c",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/date": "^3",
+                    "horde/exception": "^3",
+                    "horde/http": "^3",
+                    "horde/translation": "^3",
+                    "horde/url": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Service_Weather": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Weather service library",
+                "homepage": "https://www.horde.org/libraries/Horde_Service_Weather"
             }
         ]
     }

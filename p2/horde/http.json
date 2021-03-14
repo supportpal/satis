@@ -420,6 +420,56 @@
                 ],
                 "description": "HTTP client library",
                 "homepage": "https://www.horde.org/libraries/Horde_Http"
+            },
+            {
+                "name": "horde/http",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Http.git",
+                    "reference": "648761cc4c5527cc4470afacf132a81b1dd59fe7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Http/zipball/648761cc4c5527cc4470afacf132a81b1dd59fe7",
+                    "reference": "648761cc4c5527cc4470afacf132a81b1dd59fe7",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/support": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-curl": "*",
+                    "ext-http": "*",
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Http": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "HTTP client library",
+                "homepage": "https://www.horde.org/libraries/Horde_Http"
             }
         ]
     }

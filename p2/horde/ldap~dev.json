@@ -111,26 +111,25 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Ldap.git",
-                    "reference": "b8217a2593475ff78dbad3144d1956d08790fe5d"
+                    "reference": "7e8fbacb6cc4ed982acd3eae3007a8abc5ee10c9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Ldap/zipball/b8217a2593475ff78dbad3144d1956d08790fe5d",
-                    "reference": "b8217a2593475ff78dbad3144d1956d08790fe5d",
+                    "url": "https://api.github.com/repos/maintaina-com/Ldap/zipball/7e8fbacb6cc4ed982acd3eae3007a8abc5ee10c9",
+                    "reference": "7e8fbacb6cc4ed982acd3eae3007a8abc5ee10c9",
                     "shasum": ""
                 },
                 "require": {
                     "ext-ldap": "*",
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/util": "^3",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/test": "^3"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Ldap": "lib/"

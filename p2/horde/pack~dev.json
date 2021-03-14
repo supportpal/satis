@@ -105,28 +105,27 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Pack.git",
-                    "reference": "955396802ce4d9d1260ec3d093875851d0f9f82c"
+                    "reference": "941171ead1fb172c13bf6ace61de3f2d0a41c02c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Pack/zipball/955396802ce4d9d1260ec3d093875851d0f9f82c",
-                    "reference": "955396802ce4d9d1260ec3d093875851d0f9f82c",
+                    "url": "https://api.github.com/repos/maintaina-com/Pack/zipball/941171ead1fb172c13bf6ace61de3f2d0a41c02c",
+                    "reference": "941171ead1fb172c13bf6ace61de3f2d0a41c02c",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/compress_fast": "^2",
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
+                    "horde/compress_fast": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
                     "ext-igbinary": "^1.2",
                     "ext-json": "*",
                     "ext-msgpack": "*",
-                    "horde/test": "^3"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Pack": "lib/"

@@ -175,6 +175,58 @@
             },
             {
                 "name": "horde/release",
+                "version": "3.0.3",
+                "version_normalized": "3.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Release.git",
+                    "reference": "f2e0be10bf39afaf706d02196e7ea18802a444e6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Release/zipball/f2e0be10bf39afaf706d02196e7ea18802a444e6",
+                    "reference": "f2e0be10bf39afaf706d02196e7ea18802a444e6",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_mail": "^2",
+                    "pear-pear.horde.org/horde_mime": "^2",
+                    "pear-pear.horde.org/horde_rpc": "^2",
+                    "pear-pear.horde.org/horde_serialize": "^2",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_release": "3.*",
+                    "pear-pear.horde.org/horde_release": "3.*"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/horde_test": "^2.1"
+                },
+                "time": "2020-03-12T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Release": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Component release library",
+                "homepage": "https://www.horde.org/libraries/Horde_Release"
+            },
+            {
+                "name": "horde/release",
                 "version": "4.0.0alpha1",
                 "version_normalized": "4.0.0.0-alpha1",
                 "source": {
@@ -256,6 +308,54 @@
                 },
                 "time": "2021-02-24T00:00:00+00:00",
                 "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Release": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Component release library",
+                "homepage": "https://www.horde.org/libraries/Horde_Release"
+            },
+            {
+                "name": "horde/release",
+                "version": "v4.0.0alpha3",
+                "version_normalized": "4.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Release.git",
+                    "reference": "928bddab224dff8e5d9a0e395ac0d0af64e4e5e2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Release/zipball/928bddab224dff8e5d9a0e395ac0d0af64e4e5e2",
+                    "reference": "928bddab224dff8e5d9a0e395ac0d0af64e4e5e2",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/http": "^3",
+                    "horde/mail": "^3",
+                    "horde/mime": "^3",
+                    "horde/rpc": "^3",
+                    "horde/serialize": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Release": "lib/"

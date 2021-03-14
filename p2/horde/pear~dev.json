@@ -105,28 +105,27 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Pear.git",
-                    "reference": "8d0c8eaba9554ef6ca88a7c9f668c4787129010c"
+                    "reference": "0eef2cbe8379b3e02f09c13b44b3b1a17a50727e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Pear/zipball/8d0c8eaba9554ef6ca88a7c9f668c4787129010c",
-                    "reference": "8d0c8eaba9554ef6ca88a7c9f668c4787129010c",
+                    "url": "https://api.github.com/repos/maintaina-com/Pear/zipball/0eef2cbe8379b3e02f09c13b44b3b1a17a50727e",
+                    "reference": "0eef2cbe8379b3e02f09c13b44b3b1a17a50727e",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/util": "^3",
-                    "horde/xml_element": "^3",
-                    "horde/yaml": "^3",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/xml_element": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/yaml": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/http": "^3",
-                    "horde/test": "^3"
+                    "horde/http": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Pear": "lib/"
@@ -152,12 +151,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Pear.git",
-                    "reference": "a183bdf9831d656e8af1a0f774477e844d8c8363"
+                    "reference": "f20f32d431ee1aace2c6dca5796d127b18dc8d13"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Pear/zipball/a183bdf9831d656e8af1a0f774477e844d8c8363",
-                    "reference": "a183bdf9831d656e8af1a0f774477e844d8c8363",
+                    "url": "https://api.github.com/repos/maintaina-com/Pear/zipball/f20f32d431ee1aace2c6dca5796d127b18dc8d13",
+                    "reference": "f20f32d431ee1aace2c6dca5796d127b18dc8d13",
                     "shasum": ""
                 },
                 "require": {
@@ -202,12 +201,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Pear.git",
-                    "reference": "a183bdf9831d656e8af1a0f774477e844d8c8363"
+                    "reference": "f20f32d431ee1aace2c6dca5796d127b18dc8d13"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Pear/zipball/a183bdf9831d656e8af1a0f774477e844d8c8363",
-                    "reference": "a183bdf9831d656e8af1a0f774477e844d8c8363",
+                    "url": "https://api.github.com/repos/maintaina-com/Pear/zipball/f20f32d431ee1aace2c6dca5796d127b18dc8d13",
+                    "reference": "f20f32d431ee1aace2c6dca5796d127b18dc8d13",
                     "shasum": ""
                 },
                 "require": {

@@ -105,28 +105,27 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Spam.git",
-                    "reference": "564bc3e9af73576563342c51ca8a6a85921b66e9"
+                    "reference": "7f884cdbd67b13585dfa30bdbb99ed5f4fdfdacb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Spam/zipball/564bc3e9af73576563342c51ca8a6a85921b66e9",
-                    "reference": "564bc3e9af73576563342c51ca8a6a85921b66e9",
+                    "url": "https://api.github.com/repos/maintaina-com/Spam/zipball/7f884cdbd67b13585dfa30bdbb99ed5f4fdfdacb",
+                    "reference": "7f884cdbd67b13585dfa30bdbb99ed5f4fdfdacb",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/support": "^3",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/support": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/log": "^3",
-                    "horde/mail": "^3",
-                    "horde/mime": "^3",
-                    "horde/translation": "^3"
+                    "horde/log": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mail": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mime": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Spam": "lib/"

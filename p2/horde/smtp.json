@@ -844,6 +844,55 @@
                 ],
                 "description": "SMTP client library",
                 "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/smtp",
+                "version": "v2.0.0alpha3",
+                "version_normalized": "2.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Smtp.git",
+                    "reference": "cedaf67b69f52150d3209ea37231616c794c364f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Smtp/zipball/cedaf67b69f52150d3209ea37231616c794c364f",
+                    "reference": "cedaf67b69f52150d3209ea37231616c794c364f",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/mail": "^3",
+                    "horde/socket_client": "^3",
+                    "horde/support": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/imap_client": "^3",
+                    "horde/secret": "^3",
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Smtp": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "SMTP client library",
+                "homepage": "https://www.horde.org"
             }
         ]
     }
