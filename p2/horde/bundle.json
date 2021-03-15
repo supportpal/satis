@@ -7,7 +7,7 @@
                 "version_normalized": "6.0.0.0-alpha1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/horde-deployment.git",
+                    "url": "git@github.com:maintaina-com/horde-deployment.git",
                     "reference": "e1a6b3e68abce3fb974b6a124ca9119e95465b09"
                 },
                 "dist": {
@@ -46,10 +46,7 @@
                         "email": "lang@b1-systems.de"
                     }
                 ],
-                "description": "A bundle of horde",
-                "support": {
-                    "source": "https://github.com/maintaina-com/horde-deployment/tree/v6.0.0alpha1"
-                }
+                "description": "A bundle of horde"
             }
         ]
     }

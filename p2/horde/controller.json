@@ -7,7 +7,7 @@
                 "version_normalized": "2.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Controller.git",
+                    "url": "git@github.com:maintaina-com/Controller.git",
                     "reference": "205bf2475c1250ec4f3505f19bad5378492741d4"
                 },
                 "dist": {
@@ -47,10 +47,7 @@
                     }
                 ],
                 "description": "Horde Controller libraries",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Controller/tree/v2.0.2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/controller",
@@ -58,7 +55,7 @@
                 "version_normalized": "2.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Controller.git",
+                    "url": "git@github.com:maintaina-com/Controller.git",
                     "reference": "203a75cc62cdd33ef7ba033d82ce3ab07353c7a9"
                 },
                 "dist": {
@@ -98,10 +95,7 @@
                     }
                 ],
                 "description": "Horde Controller libraries",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Controller/tree/v2.0.3"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/controller",
@@ -109,7 +103,7 @@
                 "version_normalized": "2.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Controller.git",
+                    "url": "git@github.com:maintaina-com/Controller.git",
                     "reference": "050fcd14da1b77d8ed1bc2b101c667ca4ffb2f95"
                 },
                 "dist": {
@@ -149,10 +143,7 @@
                     }
                 ],
                 "description": "Horde Controller libraries",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Controller/tree/v2.0.4"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/controller",
@@ -160,7 +151,7 @@
                 "version_normalized": "2.0.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Controller.git",
+                    "url": "git@github.com:maintaina-com/Controller.git",
                     "reference": "d346514458b6b6a6b2961a569014e580bdee081e"
                 },
                 "dist": {
@@ -209,10 +200,7 @@
                     }
                 ],
                 "description": "Controller library",
-                "homepage": "https://www.horde.org/libraries/Horde_Controller",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Controller/tree/v2.0.5"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Controller"
             },
             {
                 "name": "horde/controller",
@@ -220,7 +208,7 @@
                 "version_normalized": "3.0.0.0-alpha1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Controller.git",
+                    "url": "git@github.com:maintaina-com/Controller.git",
                     "reference": "18223f96f2f76bca33f4972b58a7c64a9e1e2606"
                 },
                 "dist": {
@@ -269,10 +257,7 @@
                     }
                 ],
                 "description": "Controller library",
-                "homepage": "https://www.horde.org/libraries/Horde_Controller",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Controller/tree/v3.0.0alpha1"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Controller"
             },
             {
                 "name": "horde/controller",
@@ -280,7 +265,7 @@
                 "version_normalized": "3.0.0.0-alpha2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Controller.git",
+                    "url": "git@github.com:maintaina-com/Controller.git",
                     "reference": "4552f4c813c1a8afbdd3ebec565b22d30eee94b5"
                 },
                 "dist": {
@@ -326,10 +311,7 @@
                     }
                 ],
                 "description": "Controller library",
-                "homepage": "https://www.horde.org/libraries/Horde_Controller",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Controller/tree/v3.0.0alpha2"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Controller"
             },
             {
                 "name": "horde/controller",
@@ -337,7 +319,7 @@
                 "version_normalized": "3.0.0.0-alpha3",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Controller.git",
+                    "url": "git@github.com:maintaina-com/Controller.git",
                     "reference": "9bd392ee85df94547ed74427cbab26777be6b75e"
                 },
                 "dist": {
@@ -382,10 +364,7 @@
                     }
                 ],
                 "description": "Controller library",
-                "homepage": "https://www.horde.org/libraries/Horde_Controller",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Controller/tree/v3.0.0alpha3"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Controller"
             }
         ]
     }

@@ -7,7 +7,7 @@
                 "version_normalized": "4.1.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "955f95a49885999e382c586de4412e4e09a3226d"
                 },
                 "dist": {
@@ -62,10 +62,7 @@
                     }
                 ],
                 "description": "A web based notes manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/v4.1.2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/mnemo",
@@ -73,7 +70,7 @@
                 "version_normalized": "4.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "8c6ff0193ea6ce186596e08df7eb763584f8076c"
                 },
                 "dist": {
@@ -129,10 +126,7 @@
                     }
                 ],
                 "description": "A web based notes manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/v4.2.0"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/mnemo",
@@ -140,7 +134,7 @@
                 "version_normalized": "4.2.0.0-RC1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "5985390d6b06c693ac488708fb9d4dd6a97e6b13"
                 },
                 "dist": {
@@ -196,10 +190,7 @@
                     }
                 ],
                 "description": "A web based notes manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/v4.2.0rc1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/mnemo",
@@ -207,7 +198,7 @@
                 "version_normalized": "4.2.0.0-RC2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "4753cf9a97b87c1d42a9501f42dcd0b04f6dc9b6"
                 },
                 "dist": {
@@ -263,10 +254,7 @@
                     }
                 ],
                 "description": "A web based notes manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/v4.2.0rc2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/mnemo",
@@ -274,7 +262,7 @@
                 "version_normalized": "4.2.0.0-alpha1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "e34087cc86884fb134abbb02fdba31b70290385f"
                 },
                 "dist": {
@@ -330,10 +318,7 @@
                     }
                 ],
                 "description": "A web based notes manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/v4.2.0alpha1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/mnemo",
@@ -341,7 +326,7 @@
                 "version_normalized": "4.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "5a8187c628d32c43e6544fce659903c9acb86c1a"
                 },
                 "dist": {
@@ -397,10 +382,7 @@
                     }
                 ],
                 "description": "A web based notes manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/v4.2.1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/mnemo",
@@ -408,7 +390,7 @@
                 "version_normalized": "4.2.10.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "08d883005a3f1dec08c4e18dae388f2c7aadbbff"
                 },
                 "dist": {
@@ -464,10 +446,7 @@
                     }
                 ],
                 "description": "A web based notes manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/v4.2.10"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/mnemo",
@@ -475,7 +454,7 @@
                 "version_normalized": "4.2.11.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "cd2b29dbcc3b02650076adae826cb30078a90cbd"
                 },
                 "dist": {
@@ -531,10 +510,7 @@
                     }
                 ],
                 "description": "A web based notes manager",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/v4.2.11"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/mnemo",
@@ -542,7 +518,7 @@
                 "version_normalized": "4.2.12.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "f95c91e79fbe44eaf6873eaaf4d2b8aa20a28781"
                 },
                 "dist": {
@@ -598,10 +574,7 @@
                     }
                 ],
                 "description": "A web based notes manager",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/v4.2.12"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/mnemo",
@@ -609,7 +582,7 @@
                 "version_normalized": "4.2.13.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "2e679be0bf0c5f4ef0d0906d15d97c30dd559b70"
                 },
                 "dist": {
@@ -665,10 +638,7 @@
                     }
                 ],
                 "description": "A web based notes manager",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/v4.2.13"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/mnemo",
@@ -676,7 +646,7 @@
                 "version_normalized": "4.2.14.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "4a614d2f0f68849740fc956346a9d33f0f2deecc"
                 },
                 "dist": {
@@ -741,10 +711,7 @@
                     }
                 ],
                 "description": "A web based notes manager",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/v4.2.14"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/mnemo",
@@ -752,7 +719,7 @@
                 "version_normalized": "4.2.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "ec5df58077f1731a886ced8f06a68b488ff1839e"
                 },
                 "dist": {
@@ -808,10 +775,7 @@
                     }
                 ],
                 "description": "A web based notes manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/v4.2.2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/mnemo",
@@ -819,7 +783,7 @@
                 "version_normalized": "4.2.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "e8fa8fb47fcaab4f77c140935498bc840571f9a3"
                 },
                 "dist": {
@@ -875,10 +839,7 @@
                     }
                 ],
                 "description": "A web based notes manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/v4.2.3"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/mnemo",
@@ -886,7 +847,7 @@
                 "version_normalized": "4.2.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "226b1244c3131f141d382201f952c634b04add37"
                 },
                 "dist": {
@@ -942,10 +903,7 @@
                     }
                 ],
                 "description": "A web based notes manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/v4.2.4"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/mnemo",
@@ -953,7 +911,7 @@
                 "version_normalized": "4.2.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "8081c28787d347f50d6d1c4a314a00f072042bbe"
                 },
                 "dist": {
@@ -1009,10 +967,7 @@
                     }
                 ],
                 "description": "A web based notes manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/v4.2.5"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/mnemo",
@@ -1020,7 +975,7 @@
                 "version_normalized": "4.2.6.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "2a3afba76c57b95578441910edac076b1342914f"
                 },
                 "dist": {
@@ -1076,10 +1031,7 @@
                     }
                 ],
                 "description": "A web based notes manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/v4.2.6"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/mnemo",
@@ -1087,7 +1039,7 @@
                 "version_normalized": "4.2.7.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "2b2726952d363c0bae84772cdca0ad8039387052"
                 },
                 "dist": {
@@ -1143,10 +1095,7 @@
                     }
                 ],
                 "description": "A web based notes manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/v4.2.7"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/mnemo",
@@ -1154,7 +1103,7 @@
                 "version_normalized": "4.2.8.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "009d522cc0d5ac449bdd5dd52715159e5f428da6"
                 },
                 "dist": {
@@ -1210,10 +1159,7 @@
                     }
                 ],
                 "description": "A web based notes manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/v4.2.8"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/mnemo",
@@ -1221,7 +1167,7 @@
                 "version_normalized": "4.2.9.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "07d8f0fed7cf364889128887b6424b3aee27d26b"
                 },
                 "dist": {
@@ -1277,10 +1223,7 @@
                     }
                 ],
                 "description": "A web based notes manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/v4.2.9"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/mnemo",
@@ -1288,7 +1231,7 @@
                 "version_normalized": "5.0.0.0-alpha1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "e4f76a45c7f7b949d764df88c308d41c4ff39b1b"
                 },
                 "dist": {
@@ -1360,10 +1303,7 @@
                     }
                 ],
                 "description": "Notes application",
-                "homepage": "https://www.horde.org/apps/mnemo",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/v5.0.0alpha1"
-                }
+                "homepage": "https://www.horde.org/apps/mnemo"
             },
             {
                 "name": "horde/mnemo",
@@ -1371,7 +1311,7 @@
                 "version_normalized": "5.0.0.0-alpha2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "99d201d61b27f4f54726b14d464c96cbd503f072"
                 },
                 "dist": {
@@ -1440,10 +1380,7 @@
                     }
                 ],
                 "description": "Notes application",
-                "homepage": "https://www.horde.org/apps/mnemo",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/v5.0.0alpha2"
-                }
+                "homepage": "https://www.horde.org/apps/mnemo"
             },
             {
                 "name": "horde/mnemo",
@@ -1451,7 +1388,7 @@
                 "version_normalized": "5.0.0.0-alpha3",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/mnemo.git",
+                    "url": "git@github.com:maintaina-com/mnemo.git",
                     "reference": "22c6e0ec558f16eb2985cca62a07632b917a31f9"
                 },
                 "dist": {
@@ -1520,10 +1457,7 @@
                     }
                 ],
                 "description": "Notes application",
-                "homepage": "https://www.horde.org/apps/mnemo",
-                "support": {
-                    "source": "https://github.com/maintaina-com/mnemo/tree/v5.0.0alpha3"
-                }
+                "homepage": "https://www.horde.org/apps/mnemo"
             }
         ]
     }

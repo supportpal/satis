@@ -1362,6 +1362,62 @@
                 ],
                 "description": "Image library",
                 "homepage": "https://www.horde.org/libraries/Horde_Image"
+            },
+            {
+                "name": "horde/image",
+                "version": "v3.0.0alpha4",
+                "version_normalized": "3.0.0.0-alpha4",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/Image.git",
+                    "reference": "c06931b92169cc5b43bf7c93123da95bfdceda5b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/c06931b92169cc5b43bf7c93123da95bfdceda5b",
+                    "reference": "c06931b92169cc5b43bf7c93123da95bfdceda5b",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/stream": "^2",
+                    "horde/support": "^3",
+                    "horde/translation": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-gd": "*",
+                    "ext-imagick": "*",
+                    "ext-json": "*",
+                    "ext-zlib": "*",
+                    "horde/test": "^3",
+                    "pear/xml_svg": "*"
+                },
+                "time": "2021-03-15T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Image": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Image library",
+                "homepage": "https://www.horde.org/libraries/Horde_Image"
             }
         ]
     }

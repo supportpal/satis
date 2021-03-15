@@ -1,0 +1,52 @@
+{
+    "packages": {
+        "horde/vilma": [
+            {
+                "name": "horde/vilma",
+                "version": "v1.0.0alpha1",
+                "version_normalized": "1.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/vilma.git",
+                    "reference": "af34dd3e654e3006e73073dac27766a814075365"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/vilma/zipball/af34dd3e654e3006e73073dac27766a814075365",
+                    "reference": "af34dd3e654e3006e73073dac27766a814075365",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde": "^6",
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3"
+                },
+                "time": "2021-03-15T00:00:00+00:00",
+                "bin": [
+                    "bin/vilma-create-mailboxes"
+                ],
+                "type": "horde-application",
+                "autoload": {
+                    "psr-0": {
+                        "Vilma": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Domain and user administration application",
+                "homepage": "https://www.horde.org"
+            }
+        ]
+    }
+}

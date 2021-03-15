@@ -1,0 +1,165 @@
+{
+    "packages": {
+        "pear/text_captcha": [
+            {
+                "name": "pear/text_captcha",
+                "version": "dev-trunk",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ralflang/text_captcha.git",
+                    "reference": "9c69c9666e0a2526bc3e9afb020547488362e231"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ralflang/text_captcha/zipball/9c69c9666e0a2526bc3e9afb020547488362e231",
+                    "reference": "9c69c9666e0a2526bc3e9afb020547488362e231",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear/pear": ">= 1.4.6",
+                    "pear/text_password": "*"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2021-03-15T19:06:15+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Text": "src/"
+                    }
+                },
+                "license": [
+                    "New BSD"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Cramer",
+                        "role": "Lead"
+                    }
+                ],
+                "description": "More info available on: http://pear.php.net/package/Text_CAPTCHA",
+                "support": {
+                    "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Text_CAPTCHA",
+                    "source": "https://github.com/pear/Text_Captcha"
+                }
+            },
+            {
+                "name": "pear/text_captcha",
+                "version": "dev-composer",
+                "version_normalized": "dev-composer",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ralflang/text_captcha.git",
+                    "reference": "dd7bba06be1fa90247c70febc54157cff43baeff"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ralflang/text_captcha/zipball/dd7bba06be1fa90247c70febc54157cff43baeff",
+                    "reference": "dd7bba06be1fa90247c70febc54157cff43baeff",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear/pear_exception": "*",
+                    "pear/text_password": "1.2.*",
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "bigmichi1/phing-pearpackagev2": "0.x",
+                    "mayflower/php-codebrowser": "1.*",
+                    "pdepend/pdepend": "2.x",
+                    "pear/image_text": "@dev",
+                    "pear/numbers_words": "0.x",
+                    "pear/pear_packagefilemanager": "@dev",
+                    "pear/text_figlet": "@dev",
+                    "phing/phing": "2.*",
+                    "phpdocumentor/phpdocumentor": "2.*",
+                    "phploc/phploc": "2.x",
+                    "phpmd/phpmd": "2.*",
+                    "phpunit/php-code-coverage": "2.*",
+                    "phpunit/phpunit": ">=3.7",
+                    "sebastian/phpcpd": "2.x",
+                    "squizlabs/php_codesniffer": "2.x"
+                },
+                "suggest": {
+                    "ext-gd": "Install optionally via package management system",
+                    "pear/image_text": "Install optionally via your project's composer.json",
+                    "pear/numbers_words": "Install optionally via your project's composer.json",
+                    "pear/text_figlet": "Install optionally via your project's composer.json"
+                },
+                "time": "2016-02-19T10:30:16+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Text": "./src/"
+                    }
+                },
+                "include-path": [
+                    "./src/"
+                ],
+                "scripts": {
+                    "pkg_test": [
+                        "bin/phing test"
+                    ],
+                    "pkg_verify": [
+                        "bin/phing verify"
+                    ],
+                    "pkg_docs": [
+                        "bin/phing docs"
+                    ],
+                    "pkg_package": [
+                        "bin/phing package"
+                    ]
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Cramer",
+                        "email": "michael@bigmichi1.de",
+                        "homepage": "http://www.bigmichi1.de",
+                        "role": "Lead"
+                    },
+                    {
+                        "name": "Christian Wenz",
+                        "email": "wenz@php.net",
+                        "role": "Lead"
+                    },
+                    {
+                        "name": "Christian Weiske",
+                        "email": "cweiske@php.net",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Aaron Wormus",
+                        "email": "wormus@php.net",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "David Coallier",
+                        "email": "davidc@agoraproduction.com",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Tobias Schlitt",
+                        "email": "schlitt@php.net",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Implementation of CAPTCHAs (completely automated public Turing test to tell computers and humans apart)",
+                "keywords": [
+                    "Captcha",
+                    "Extensions",
+                    "Pear",
+                    "Text"
+                ],
+                "support": {
+                    "issues": "https://pear.php.net/bugs/report.php?package=Text_CAPTCHA",
+                    "source": "https://github.com/pear/Text_CAPTCHA"
+                }
+            }
+        ]
+    }
+}

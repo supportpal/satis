@@ -125,12 +125,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Image.git",
-                    "reference": "bb1293c9b93954102ce61d28cabb481d1047a4b0"
+                    "reference": "3e00834da8c8c3c946f55f939d4cbabd6f12d2d5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/bb1293c9b93954102ce61d28cabb481d1047a4b0",
-                    "reference": "bb1293c9b93954102ce61d28cabb481d1047a4b0",
+                    "url": "https://api.github.com/repos/maintaina-com/Image/zipball/3e00834da8c8c3c946f55f939d4cbabd6f12d2d5",
+                    "reference": "3e00834da8c8c3c946f55f939d4cbabd6f12d2d5",
                     "shasum": ""
                 },
                 "require": {
@@ -147,9 +147,9 @@
                     "ext-json": "*",
                     "ext-zlib": "*",
                     "horde/test": "^3 || dev-FRAMEWORK_6_0",
-                    "pear-pear.php.net/XML_SVG": "*"
+                    "pear/xml_svg": "*"
                 },
-                "time": "2021-03-13T00:00:00+00:00",
+                "time": "2021-03-15T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {

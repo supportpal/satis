@@ -1,0 +1,50 @@
+{
+    "packages": {
+        "pear/crypt_chap": [
+            {
+                "name": "pear/crypt_chap",
+                "version": "v2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:ralflang/Crypt_CHAP.git",
+                    "reference": "5a2549c42f065a91f8d33ffbfb39d53329c73141"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ralflang/Crypt_CHAP/zipball/5a2549c42f065a91f8d33ffbfb39d53329c73141",
+                    "reference": "5a2549c42f065a91f8d33ffbfb39d53329c73141",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-hash": "*",
+                    "pear/pear": ">= 1.4.0b1",
+                    "php": "^7 || ^8",
+                    "phpseclib/mcrypt_compat": "*"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Crypt": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Bretterklieber",
+                        "email": "michael@bretterklieber.com",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Library for generating CHAP packets",
+                "homepage": "https://pear.php.net/package/Crypt_CHAP"
+            }
+        ]
+    }
+}

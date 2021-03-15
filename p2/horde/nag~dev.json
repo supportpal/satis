@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/nag.git",
+                    "url": "git@github.com:maintaina-com/nag.git",
                     "reference": "b3cb2215964cb09e7762c509f1ea187d7b393372"
                 },
                 "dist": {
@@ -88,10 +88,7 @@
                     }
                 ],
                 "description": "Task list application",
-                "homepage": "https://www.horde.org/apps/nag",
-                "support": {
-                    "source": "https://github.com/maintaina-com/nag/tree/master"
-                }
+                "homepage": "https://www.horde.org/apps/nag"
             },
             {
                 "name": "horde/nag",
@@ -99,7 +96,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/nag.git",
+                    "url": "git@github.com:maintaina-com/nag.git",
                     "reference": "08dcd6bf0834db41c9632563e640b33206a5e344"
                 },
                 "dist": {
@@ -164,10 +161,7 @@
                     }
                 ],
                 "description": "A web based task list manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/nag/tree/FRAMEWORK_5_1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/nag",
@@ -175,7 +169,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/nag.git",
+                    "url": "git@github.com:maintaina-com/nag.git",
                     "reference": "aae42e40e664f77043767e846122933ef382fe42"
                 },
                 "dist": {
@@ -251,10 +245,7 @@
                     }
                 ],
                 "description": "Task list application",
-                "homepage": "https://www.horde.org/apps/nag",
-                "support": {
-                    "source": "https://github.com/maintaina-com/nag/tree/FRAMEWORK_5_2"
-                }
+                "homepage": "https://www.horde.org/apps/nag"
             },
             {
                 "name": "horde/nag",
@@ -262,7 +253,7 @@
                 "version_normalized": "dev-FRAMEWORK_6_0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/nag.git",
+                    "url": "git@github.com:maintaina-com/nag.git",
                     "reference": "56f8e75cb112c91a0fd211fbed53910b6ac855e9"
                 },
                 "dist": {
@@ -343,10 +334,7 @@
                     }
                 ],
                 "description": "Task list application",
-                "homepage": "https://www.horde.org/apps/nag",
-                "support": {
-                    "source": "https://github.com/maintaina-com/nag/tree/FRAMEWORK_6_0"
-                }
+                "homepage": "https://www.horde.org/apps/nag"
             },
             {
                 "name": "horde/nag",
@@ -354,7 +342,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/nag.git",
+                    "url": "git@github.com:maintaina-com/nag.git",
                     "reference": "870a992fc788bdec9c388ecd293a3d89c0737246"
                 },
                 "dist": {
@@ -431,10 +419,7 @@
                     }
                 ],
                 "description": "Task list application",
-                "homepage": "https://www.horde.org/apps/nag",
-                "support": {
-                    "source": "https://github.com/maintaina-com/nag/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org/apps/nag"
             },
             {
                 "name": "horde/nag",
@@ -442,7 +427,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/nag.git",
+                    "url": "git@github.com:maintaina-com/nag.git",
                     "reference": "870a992fc788bdec9c388ecd293a3d89c0737246"
                 },
                 "dist": {
@@ -519,10 +504,7 @@
                     }
                 ],
                 "description": "Task list application",
-                "homepage": "https://www.horde.org/apps/nag",
-                "support": {
-                    "source": "https://github.com/maintaina-com/nag/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org/apps/nag"
             },
             {
                 "name": "horde/nag",
@@ -530,7 +512,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/nag.git",
+                    "url": "git@github.com:maintaina-com/nag.git",
                     "reference": "21264bc1c275a0f6aa633e060cd461465e353b26"
                 },
                 "dist": {
@@ -611,10 +593,7 @@
                     }
                 ],
                 "description": "Task list application",
-                "homepage": "https://www.horde.org/apps/nag",
-                "support": {
-                    "source": "https://github.com/maintaina-com/nag/tree/maintaina-composerfixed"
-                }
+                "homepage": "https://www.horde.org/apps/nag"
             }
         ]
     }
