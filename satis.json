@@ -38,7 +38,7 @@
       "url": "https://github.com/bytestream/laravel-js-localization.git"
     },
     {
-      "type:" "vcs",
+      "type": "vcs",
       "url": "https://github.com/bytestream/laravel-ide-helper.git"
     }
   ],
