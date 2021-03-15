@@ -27,7 +27,9 @@ jobs:
           tools: composer:v2
 
       - name: Install dependencies
-        run: composer install --prefer-dist --no-interaction --no-progress
+        run: |
+          composer config github-oauth.github.com ${{ secrets.GITHUB_TOKEN }}
+          composer install --prefer-dist --no-interaction --no-progress
 
       - name: Build satis
         run: |
