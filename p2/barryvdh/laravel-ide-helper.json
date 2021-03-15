@@ -3,6 +3,827 @@
         "barryvdh/laravel-ide-helper": [
             {
                 "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "83ab04be40c2c3d33256745b5f7fdc9d20967b8f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/83ab04be40c2c3d33256745b5f7fdc9d20967b8f",
+                    "reference": "83ab04be40c2c3d33256745b5f7fdc9d20967b8f",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.0.x",
+                    "illuminate/filesystem": "4.0.x",
+                    "illuminate/support": "4.0.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "dev-master#6d705c1a0f9e2a6d73d2e9ec0e538b9dfaf4315f",
+                    "symfony/class-loader": "2.3.*"
+                },
+                "time": "2013-05-28T15:00:09+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.0.0"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.0.0-beta1",
+                "version_normalized": "1.0.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "427295f9932659d06062902a1fb52fe56e5d4b0d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/427295f9932659d06062902a1fb52fe56e5d4b0d",
+                    "reference": "427295f9932659d06062902a1fb52fe56e5d4b0d",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.0.x",
+                    "illuminate/filesystem": "4.0.x",
+                    "illuminate/support": "4.0.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "2.0.*",
+                    "symfony/class-loader": "2.3.*"
+                },
+                "time": "2013-05-23T19:49:37+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.0.0-beta1"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.0.0-beta2",
+                "version_normalized": "1.0.0.0-beta2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "8e0eace59100c35afa7368e9143e8d2bf752e69b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/8e0eace59100c35afa7368e9143e8d2bf752e69b",
+                    "reference": "8e0eace59100c35afa7368e9143e8d2bf752e69b",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.0.x",
+                    "illuminate/filesystem": "4.0.x",
+                    "illuminate/support": "4.0.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "dev-master#6d705c1a0f9e2a6d73d2e9ec0e538b9dfaf4315f",
+                    "symfony/class-loader": "2.3.*"
+                },
+                "time": "2013-05-27T20:22:23+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.0.0-beta2"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "16b3b872a34040a029bfd2adc170f657e15cc852"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/16b3b872a34040a029bfd2adc170f657e15cc852",
+                    "reference": "16b3b872a34040a029bfd2adc170f657e15cc852",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.0.x",
+                    "illuminate/filesystem": "4.0.x",
+                    "illuminate/support": "4.0.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "dev-master#6d705c1a0f9e2a6d73d2e9ec0e538b9dfaf4315f",
+                    "symfony/class-loader": "2.3.*"
+                },
+                "time": "2013-05-29T08:24:30+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.0.1"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "dab594804b5151fb0720dd061694d24cfd4c4edc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/dab594804b5151fb0720dd061694d24cfd4c4edc",
+                    "reference": "dab594804b5151fb0720dd061694d24cfd4c4edc",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.0.x",
+                    "illuminate/filesystem": "4.0.x",
+                    "illuminate/support": "4.0.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "dev-master#6d705c1a0f9e2a6d73d2e9ec0e538b9dfaf4315f",
+                    "symfony/class-loader": "2.3.*"
+                },
+                "time": "2013-05-30T08:15:56+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.0.2"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.0.3",
+                "version_normalized": "1.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "b0b324b8cc95630f251f31edda65e2b85bd1ca5e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/b0b324b8cc95630f251f31edda65e2b85bd1ca5e",
+                    "reference": "b0b324b8cc95630f251f31edda65e2b85bd1ca5e",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.0.x",
+                    "illuminate/filesystem": "4.0.x",
+                    "illuminate/support": "4.0.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "dev-master#6d705c1a0f9e2a6d73d2e9ec0e538b9dfaf4315f",
+                    "symfony/class-loader": "2.3.*"
+                },
+                "time": "2013-05-30T09:54:45+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.0.3"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.0.4",
+                "version_normalized": "1.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "a4ab0a5969386c0a7e1d08401e865175773abc58"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/a4ab0a5969386c0a7e1d08401e865175773abc58",
+                    "reference": "a4ab0a5969386c0a7e1d08401e865175773abc58",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.0.x",
+                    "illuminate/filesystem": "4.0.x",
+                    "illuminate/support": "4.0.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "dev-master#6d705c1a0f9e2a6d73d2e9ec0e538b9dfaf4315f",
+                    "symfony/class-loader": "2.3.*"
+                },
+                "time": "2013-05-30T10:45:26+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.1.0"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "a4ab0a5969386c0a7e1d08401e865175773abc58"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/a4ab0a5969386c0a7e1d08401e865175773abc58",
+                    "reference": "a4ab0a5969386c0a7e1d08401e865175773abc58",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.0.x",
+                    "illuminate/filesystem": "4.0.x",
+                    "illuminate/support": "4.0.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "dev-master#6d705c1a0f9e2a6d73d2e9ec0e538b9dfaf4315f",
+                    "symfony/class-loader": "2.3.*"
+                },
+                "time": "2013-05-30T10:45:26+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.1.0"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "3ac68d5446b7acf457afbe325ad97e289066e68e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/3ac68d5446b7acf457afbe325ad97e289066e68e",
+                    "reference": "3ac68d5446b7acf457afbe325ad97e289066e68e",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.0.x",
+                    "illuminate/filesystem": "4.0.x",
+                    "illuminate/support": "4.0.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "dev-master#6d705c1a0f9e2a6d73d2e9ec0e538b9dfaf4315f",
+                    "symfony/class-loader": "2.3.*"
+                },
+                "time": "2013-05-30T18:40:02+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.1.1"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "3afc4a3ade7d87e56ac941bbf9012bf6dfb391ec"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/3afc4a3ade7d87e56ac941bbf9012bf6dfb391ec",
+                    "reference": "3afc4a3ade7d87e56ac941bbf9012bf6dfb391ec",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.0.x",
+                    "illuminate/filesystem": "4.0.x",
+                    "illuminate/support": "4.0.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "dev-master#6d705c1a0f9e2a6d73d2e9ec0e538b9dfaf4315f",
+                    "symfony/class-loader": "2.3.*"
+                },
+                "time": "2013-05-30T19:22:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.1.2"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.1.3",
+                "version_normalized": "1.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "77c8bfa05ae71d7aad792eefb5fef0023b7041ea"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/77c8bfa05ae71d7aad792eefb5fef0023b7041ea",
+                    "reference": "77c8bfa05ae71d7aad792eefb5fef0023b7041ea",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.0.x",
+                    "illuminate/filesystem": "4.0.x",
+                    "illuminate/support": "4.0.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "dev-master#6d705c1a0f9e2a6d73d2e9ec0e538b9dfaf4315f",
+                    "symfony/class-loader": "2.3.*"
+                },
+                "time": "2013-06-04T12:46:18+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.1.3"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.10.0",
+                "version_normalized": "1.10.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "a9dae91e4d82a4f7312f6b732baf8a5aa82fc73e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/a9dae91e4d82a4f7312f6b732baf8a5aa82fc73e",
+                    "reference": "a9dae91e4d82a4f7312f6b732baf8a5aa82fc73e",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.x",
+                    "illuminate/filesystem": "4.x",
+                    "illuminate/support": "4.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "2.0.x",
+                    "symfony/class-loader": "~2.3"
+                },
+                "require-dev": {
+                    "doctrine/dbal": "~2.3"
+                },
+                "suggest": {
+                    "doctrine/dbal": "Load information from the database about models for phpdocs (~2.3)"
+                },
+                "time": "2014-06-29T14:07:17+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.10.0"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.11.0",
+                "version_normalized": "1.11.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "b80db2cebf97c9fd8232c504e505c3ccaf65a95f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/b80db2cebf97c9fd8232c504e505c3ccaf65a95f",
+                    "reference": "b80db2cebf97c9fd8232c504e505c3ccaf65a95f",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.x",
+                    "illuminate/filesystem": "4.x",
+                    "illuminate/support": "4.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "2.0.x",
+                    "symfony/class-loader": "~2.3"
+                },
+                "require-dev": {
+                    "doctrine/dbal": "~2.3"
+                },
+                "suggest": {
+                    "doctrine/dbal": "Load information from the database about models for phpdocs (~2.3)"
+                },
+                "time": "2014-08-09T21:03:31+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.11-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Barryvdh\\LaravelIdeHelper\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "helper",
+                    "ide",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.11.0"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.11.1",
+                "version_normalized": "1.11.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "1b608fc44697e79e20ef060bc679ec5b519362cb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/1b608fc44697e79e20ef060bc679ec5b519362cb",
+                    "reference": "1b608fc44697e79e20ef060bc679ec5b519362cb",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.x",
+                    "illuminate/filesystem": "4.x",
+                    "illuminate/support": "4.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "2.0.x",
+                    "symfony/class-loader": "~2.3"
+                },
+                "require-dev": {
+                    "doctrine/dbal": "~2.3"
+                },
+                "suggest": {
+                    "doctrine/dbal": "Load information from the database about models for phpdocs (~2.3)"
+                },
+                "time": "2014-08-11T11:26:11+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.11-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Barryvdh\\LaravelIdeHelper\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "helper",
+                    "ide",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.11.1"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.11.2",
+                "version_normalized": "1.11.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "19aa77ac49ab4ea859196c692618c56de3bb7e01"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/19aa77ac49ab4ea859196c692618c56de3bb7e01",
+                    "reference": "19aa77ac49ab4ea859196c692618c56de3bb7e01",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.x",
+                    "illuminate/filesystem": "4.x",
+                    "illuminate/support": "4.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "2.0.x",
+                    "symfony/class-loader": "~2.3"
+                },
+                "require-dev": {
+                    "doctrine/dbal": "~2.3"
+                },
+                "suggest": {
+                    "doctrine/dbal": "Load information from the database about models for phpdocs (~2.3)"
+                },
+                "time": "2014-08-12T12:34:30+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.11-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Barryvdh\\LaravelIdeHelper\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "helper",
+                    "ide",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.11.2"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
                 "version": "v1.11.3",
                 "version_normalized": "1.11.3.0",
                 "source": {
@@ -263,6 +1084,1018 @@
                 ],
                 "support": {
                     "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.11.6"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "ce4e9804efacd1dd2f65e60d75693fb956e1aa38"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/ce4e9804efacd1dd2f65e60d75693fb956e1aa38",
+                    "reference": "ce4e9804efacd1dd2f65e60d75693fb956e1aa38",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.0.x",
+                    "illuminate/filesystem": "4.0.x",
+                    "illuminate/support": "4.0.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "dev-master#6d705c1a0f9e2a6d73d2e9ec0e538b9dfaf4315f",
+                    "symfony/class-loader": "2.3.*"
+                },
+                "time": "2013-06-06T11:48:53+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.2.0"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.2.1",
+                "version_normalized": "1.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "1d01f5b2783330daae95e327ddd166f648e06fa9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/1d01f5b2783330daae95e327ddd166f648e06fa9",
+                    "reference": "1d01f5b2783330daae95e327ddd166f648e06fa9",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.0.x",
+                    "illuminate/filesystem": "4.0.x",
+                    "illuminate/support": "4.0.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "dev-master#6d705c1a0f9e2a6d73d2e9ec0e538b9dfaf4315f",
+                    "symfony/class-loader": "2.3.*"
+                },
+                "time": "2013-06-07T10:26:54+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.2.1"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.3.0",
+                "version_normalized": "1.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "8db444387945af9003d2bf5eb17f0ebb5853caf0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/8db444387945af9003d2bf5eb17f0ebb5853caf0",
+                    "reference": "8db444387945af9003d2bf5eb17f0ebb5853caf0",
+                    "shasum": ""
+                },
+                "require": {
+                    "barryvdh/reflection-docblock": "2.*",
+                    "illuminate/console": "4.0.x",
+                    "illuminate/filesystem": "4.0.x",
+                    "illuminate/support": "4.0.x",
+                    "php": ">=5.3.0",
+                    "symfony/class-loader": "2.3.*"
+                },
+                "time": "2013-06-08T11:02:28+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.3.0"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.3.1",
+                "version_normalized": "1.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "6f03c4c5ffa2f7967d2aab921a1c7189910021a4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/6f03c4c5ffa2f7967d2aab921a1c7189910021a4",
+                    "reference": "6f03c4c5ffa2f7967d2aab921a1c7189910021a4",
+                    "shasum": ""
+                },
+                "require": {
+                    "barryvdh/reflection-docblock": ">=2.0.1",
+                    "illuminate/console": "4.0.x",
+                    "illuminate/filesystem": "4.0.x",
+                    "illuminate/support": "4.0.x",
+                    "php": ">=5.3.0",
+                    "symfony/class-loader": "2.3.*"
+                },
+                "time": "2013-06-09T12:17:24+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.3.1"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.3.2",
+                "version_normalized": "1.3.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "c4de6e80c97fd5f6c047869c907f84af78dd1a2d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/c4de6e80c97fd5f6c047869c907f84af78dd1a2d",
+                    "reference": "c4de6e80c97fd5f6c047869c907f84af78dd1a2d",
+                    "shasum": ""
+                },
+                "require": {
+                    "barryvdh/reflection-docblock": ">=2.0.1",
+                    "illuminate/console": "4.0.x",
+                    "illuminate/filesystem": "4.0.x",
+                    "illuminate/support": "4.0.x",
+                    "php": ">=5.3.0",
+                    "symfony/class-loader": "2.3.*"
+                },
+                "time": "2013-06-18T13:45:10+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.3.2"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.4.0",
+                "version_normalized": "1.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "4790413752a58fb6a0338d87ed23a317c04f5029"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/4790413752a58fb6a0338d87ed23a317c04f5029",
+                    "reference": "4790413752a58fb6a0338d87ed23a317c04f5029",
+                    "shasum": ""
+                },
+                "require": {
+                    "barryvdh/reflection-docblock": ">=2.0.1",
+                    "illuminate/console": "4.0.x",
+                    "illuminate/filesystem": "4.0.x",
+                    "illuminate/support": "4.0.x",
+                    "php": ">=5.3.0",
+                    "symfony/class-loader": "2.3.*"
+                },
+                "time": "2013-06-23T12:11:13+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.4.0"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.5.0",
+                "version_normalized": "1.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "aedd2ee127efd9940d4a74cd014b8ec7cdc552bd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/aedd2ee127efd9940d4a74cd014b8ec7cdc552bd",
+                    "reference": "aedd2ee127efd9940d4a74cd014b8ec7cdc552bd",
+                    "shasum": ""
+                },
+                "require": {
+                    "barryvdh/reflection-docblock": ">=2.0.1",
+                    "illuminate/console": "4.0.x",
+                    "illuminate/filesystem": "4.0.x",
+                    "illuminate/support": "4.0.x",
+                    "php": ">=5.3.0",
+                    "symfony/class-loader": "2.3.*"
+                },
+                "time": "2013-07-02T20:13:47+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.5.0"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.5.1",
+                "version_normalized": "1.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "e9cbd7e732622946d856a93c88c34f583850d37b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/e9cbd7e732622946d856a93c88c34f583850d37b",
+                    "reference": "e9cbd7e732622946d856a93c88c34f583850d37b",
+                    "shasum": ""
+                },
+                "require": {
+                    "barryvdh/reflection-docblock": ">=2.0.1",
+                    "illuminate/console": "4.x",
+                    "illuminate/filesystem": "4.x",
+                    "illuminate/support": "4.x",
+                    "php": ">=5.3.0",
+                    "symfony/class-loader": "~2.3"
+                },
+                "time": "2013-07-04T12:30:33+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.5.1"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.5.2",
+                "version_normalized": "1.5.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "eda37f3442c7e3d0c32a73cd49b2ef065e6cbe6e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/eda37f3442c7e3d0c32a73cd49b2ef065e6cbe6e",
+                    "reference": "eda37f3442c7e3d0c32a73cd49b2ef065e6cbe6e",
+                    "shasum": ""
+                },
+                "require": {
+                    "barryvdh/reflection-docblock": ">=2.0.1",
+                    "illuminate/console": "4.x",
+                    "illuminate/filesystem": "4.x",
+                    "illuminate/support": "4.x",
+                    "php": ">=5.3.0",
+                    "symfony/class-loader": "~2.3"
+                },
+                "time": "2013-07-12T12:39:12+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.5.2"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.6.0",
+                "version_normalized": "1.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "d9516325f05a17ac22c7e39b2ad64e7b2c32be70"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/d9516325f05a17ac22c7e39b2ad64e7b2c32be70",
+                    "reference": "d9516325f05a17ac22c7e39b2ad64e7b2c32be70",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.x",
+                    "illuminate/filesystem": "4.x",
+                    "illuminate/support": "4.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "2.0.0",
+                    "symfony/class-loader": "~2.3"
+                },
+                "time": "2013-08-08T16:20:43+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.6.0"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.6.1",
+                "version_normalized": "1.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "28ce1492adfa118215dc8afd30a57c902e1b129b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/28ce1492adfa118215dc8afd30a57c902e1b129b",
+                    "reference": "28ce1492adfa118215dc8afd30a57c902e1b129b",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.x",
+                    "illuminate/filesystem": "4.x",
+                    "illuminate/support": "4.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "2.0.0",
+                    "symfony/class-loader": "~2.3"
+                },
+                "time": "2013-08-08T17:09:24+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.7.2"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.7.0",
+                "version_normalized": "1.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "5e5cfce28cb83414429df700ac920d4093e51f10"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/5e5cfce28cb83414429df700ac920d4093e51f10",
+                    "reference": "5e5cfce28cb83414429df700ac920d4093e51f10",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.x",
+                    "illuminate/filesystem": "4.x",
+                    "illuminate/support": "4.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "2.0.0",
+                    "symfony/class-loader": "~2.3"
+                },
+                "time": "2013-08-25T15:56:29+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.7.0"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.7.1",
+                "version_normalized": "1.7.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "3ebfcd1c6c6f3a0ab6de8f879c1e8c22f601e088"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/3ebfcd1c6c6f3a0ab6de8f879c1e8c22f601e088",
+                    "reference": "3ebfcd1c6c6f3a0ab6de8f879c1e8c22f601e088",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.x",
+                    "illuminate/filesystem": "4.x",
+                    "illuminate/support": "4.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "2.0.0",
+                    "symfony/class-loader": "~2.3"
+                },
+                "time": "2013-10-18T08:17:11+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.7.1"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.7.2",
+                "version_normalized": "1.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "28ce1492adfa118215dc8afd30a57c902e1b129b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/28ce1492adfa118215dc8afd30a57c902e1b129b",
+                    "reference": "28ce1492adfa118215dc8afd30a57c902e1b129b",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.x",
+                    "illuminate/filesystem": "4.x",
+                    "illuminate/support": "4.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "2.0.0",
+                    "symfony/class-loader": "~2.3"
+                },
+                "time": "2013-08-08T17:09:24+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.7.2"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.8.0",
+                "version_normalized": "1.8.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "facba3a5e633dfd9579f4831aa6608a888a407a6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/facba3a5e633dfd9579f4831aa6608a888a407a6",
+                    "reference": "facba3a5e633dfd9579f4831aa6608a888a407a6",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/dbal": "~2.3",
+                    "illuminate/console": "4.x",
+                    "illuminate/filesystem": "4.x",
+                    "illuminate/support": "4.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "2.0.0",
+                    "symfony/class-loader": "~2.3"
+                },
+                "time": "2013-12-06T16:51:01+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.8.0"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.8.1",
+                "version_normalized": "1.8.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "874cd4c1a2544e93c96f73c8ce9b63dd9c4ddaea"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/874cd4c1a2544e93c96f73c8ce9b63dd9c4ddaea",
+                    "reference": "874cd4c1a2544e93c96f73c8ce9b63dd9c4ddaea",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/dbal": "~2.3",
+                    "illuminate/console": "4.x",
+                    "illuminate/filesystem": "4.x",
+                    "illuminate/support": "4.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "2.0.0",
+                    "symfony/class-loader": "~2.3"
+                },
+                "time": "2014-01-29T15:24:09+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.8.1"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.9.0",
+                "version_normalized": "1.9.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "df8852e8dd6719ff1356c034226a96a28be5fdb6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/df8852e8dd6719ff1356c034226a96a28be5fdb6",
+                    "reference": "df8852e8dd6719ff1356c034226a96a28be5fdb6",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/dbal": "~2.3",
+                    "illuminate/console": "4.x",
+                    "illuminate/filesystem": "4.x",
+                    "illuminate/support": "4.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "2.0.0",
+                    "symfony/class-loader": "~2.3"
+                },
+                "time": "2014-03-18T13:22:52+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.9.0"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.9.1",
+                "version_normalized": "1.9.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "16f77638f159c75a93da97dd48904707618483a3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/16f77638f159c75a93da97dd48904707618483a3",
+                    "reference": "16f77638f159c75a93da97dd48904707618483a3",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/dbal": "~2.3",
+                    "illuminate/console": "4.x",
+                    "illuminate/filesystem": "4.x",
+                    "illuminate/support": "4.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "2.0.0",
+                    "symfony/class-loader": "~2.3"
+                },
+                "time": "2014-03-20T15:20:31+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.9.1"
+                }
+            },
+            {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.9.2",
+                "version_normalized": "1.9.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "f77f5ae7700936751d39268ec92fbe0a0050981b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/f77f5ae7700936751d39268ec92fbe0a0050981b",
+                    "reference": "f77f5ae7700936751d39268ec92fbe0a0050981b",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/dbal": "~2.3",
+                    "illuminate/console": "4.x",
+                    "illuminate/filesystem": "4.x",
+                    "illuminate/support": "4.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "2.0.0",
+                    "symfony/class-loader": "~2.3"
+                },
+                "time": "2014-04-25T11:47:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.9.2"
                 }
             },
             {
