@@ -28,7 +28,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          composer config github-oauth.github.com ${{ secrets.GITHUB_TOKEN }}
+          composer -g config github-oauth.github.com ${{ secrets.GITHUB_TOKEN }}
           composer install --prefer-dist --no-interaction --no-progress
 
       - name: Build satis
