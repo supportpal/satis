@@ -173,7 +173,7 @@
                     "sublime"
                 ],
                 "support": {
-                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v2.8.2-fork.1"
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/2.8"
                 }
             },
             {
