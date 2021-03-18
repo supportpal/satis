@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Controller.git",
-                    "reference": "a8fed42d0e6b8466bc328f0b037364b0bac4234f"
+                    "reference": "f13c2fe0f69af3908b35e22cbb85706313117ec1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Controller/zipball/a8fed42d0e6b8466bc328f0b037364b0bac4234f",
-                    "reference": "a8fed42d0e6b8466bc328f0b037364b0bac4234f",
+                    "url": "https://api.github.com/repos/maintaina-com/Controller/zipball/f13c2fe0f69af3908b35e22cbb85706313117ec1",
+                    "reference": "f13c2fe0f69af3908b35e22cbb85706313117ec1",
                     "shasum": ""
                 },
                 "require": {
@@ -55,7 +55,7 @@
                 "description": "Controller library",
                 "homepage": "https://www.horde.org/libraries/Horde_Controller",
                 "support": {
-                    "source": "https://github.com/maintaina-com/Controller/tree/maintaina-composerfixed"
+                    "source": "https://github.com/maintaina-com/Controller/tree/master"
                 }
             },
             {
