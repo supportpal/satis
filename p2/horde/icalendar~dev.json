@@ -127,29 +127,28 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Icalendar.git",
-                    "reference": "c8c113da41e2102a545a5403a11610cbe8c6e0d4"
+                    "reference": "c0dda9b69dac1eaf0cf49e063f3462d995824d22"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Icalendar/zipball/c8c113da41e2102a545a5403a11610cbe8c6e0d4",
-                    "reference": "c8c113da41e2102a545a5403a11610cbe8c6e0d4",
+                    "url": "https://api.github.com/repos/maintaina-com/Icalendar/zipball/c0dda9b69dac1eaf0cf49e063f3462d995824d22",
+                    "reference": "c0dda9b69dac1eaf0cf49e063f3462d995824d22",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/date": "^3",
-                    "horde/exception": "^3",
-                    "horde/horde-installer-plugin": "*",
-                    "horde/mail": "^3",
-                    "horde/support": "^3",
-                    "horde/translation": "^3",
-                    "horde/util": "^3",
+                    "horde/date": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mail": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/support": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7"
                 },
                 "suggest": {
-                    "horde/test": "^3"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Icalendar": "lib/"

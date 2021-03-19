@@ -278,6 +278,423 @@
                 "support": {
                     "source": "https://github.com/maintaina-com/Core/tree/cherrypick-core-controller"
                 }
+            },
+            {
+                "name": "horde/core",
+                "version": "dev-feature-composer",
+                "version_normalized": "dev-feature-composer",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Core.git",
+                    "reference": "1623510fd8c48e1f8e1231a1153c924c31a2dc7e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Core/zipball/1623510fd8c48e1f8e1231a1153c924c31a2dc7e",
+                    "reference": "1623510fd8c48e1f8e1231a1153c924c31a2dc7e",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-session": "*",
+                    "pear-pear.horde.org/horde_alarm": "^2.2",
+                    "pear-pear.horde.org/horde_auth": "^2.2",
+                    "pear-pear.horde.org/horde_autoloader": "^2.1",
+                    "pear-pear.horde.org/horde_browser": "^2",
+                    "pear-pear.horde.org/horde_cache": "^2.5",
+                    "pear-pear.horde.org/horde_cli": "^2",
+                    "pear-pear.horde.org/horde_compress": "^2",
+                    "pear-pear.horde.org/horde_compress_fast": "^1",
+                    "pear-pear.horde.org/horde_controller": "^2",
+                    "pear-pear.horde.org/horde_cssminify": "^1",
+                    "pear-pear.horde.org/horde_data": "^2",
+                    "pear-pear.horde.org/horde_date": "^2",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_group": "^2.1",
+                    "pear-pear.horde.org/horde_hashtable": "^1.2",
+                    "pear-pear.horde.org/horde_history": "^2",
+                    "pear-pear.horde.org/horde_injector": "^2",
+                    "pear-pear.horde.org/horde_javascriptminify": "^1",
+                    "pear-pear.horde.org/horde_lock": "^2",
+                    "pear-pear.horde.org/horde_log": "^2",
+                    "pear-pear.horde.org/horde_logintasks": "^2",
+                    "pear-pear.horde.org/horde_mime": "^2.5",
+                    "pear-pear.horde.org/horde_mime_viewer": "^2.2",
+                    "pear-pear.horde.org/horde_notification": "^2",
+                    "pear-pear.horde.org/horde_pack": "^1",
+                    "pear-pear.horde.org/horde_perms": "^2",
+                    "pear-pear.horde.org/horde_prefs": "^2.9",
+                    "pear-pear.horde.org/horde_secret": "^2",
+                    "pear-pear.horde.org/horde_serialize": "^2",
+                    "pear-pear.horde.org/horde_sessionhandler": "^2",
+                    "pear-pear.horde.org/horde_share": "^2",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_template": "^2",
+                    "pear-pear.horde.org/horde_text_filter": "^2",
+                    "pear-pear.horde.org/horde_token": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_url": "^2.1",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "pear-pear.horde.org/horde_view": "^2",
+                    "pear-pear.php.net/pear": "*",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_core": "2.*",
+                    "pear-pear.horde.org/horde_core": "2.*"
+                },
+                "suggest": {
+                    "ext-SimpleXML": "*",
+                    "ext-dom": "*",
+                    "ext-hash": "*",
+                    "ext-sockets": "*",
+                    "pear-pear.horde.org/horde_activesync": "^2.40",
+                    "pear-pear.horde.org/horde_backup": "^1",
+                    "pear-pear.horde.org/horde_crypt": "^2",
+                    "pear-pear.horde.org/horde_dav": "^1",
+                    "pear-pear.horde.org/horde_db": "^2",
+                    "pear-pear.horde.org/horde_editor": "^2",
+                    "pear-pear.horde.org/horde_elasticsearch": "^1",
+                    "pear-pear.horde.org/horde_form": "^2.0.15",
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_image": "^2.3",
+                    "pear-pear.horde.org/horde_imap_client": "^2",
+                    "pear-pear.horde.org/horde_javascriptminify_jsmin": "^1",
+                    "pear-pear.horde.org/horde_kolab_server": "^2",
+                    "pear-pear.horde.org/horde_kolab_session": "^2",
+                    "pear-pear.horde.org/horde_kolab_storage": "^2",
+                    "pear-pear.horde.org/horde_ldap": "^2",
+                    "pear-pear.horde.org/horde_mail": "^2.3",
+                    "pear-pear.horde.org/horde_mongo": "^1",
+                    "pear-pear.horde.org/horde_nls": "^2",
+                    "pear-pear.horde.org/horde_oauth": "^2",
+                    "pear-pear.horde.org/horde_queue": "^1",
+                    "pear-pear.horde.org/horde_routes": "^2",
+                    "pear-pear.horde.org/horde_service_twitter": "^2",
+                    "pear-pear.horde.org/horde_spellchecker": "^2",
+                    "pear-pear.horde.org/horde_test": "^2.6",
+                    "pear-pear.horde.org/horde_tree": "^2",
+                    "pear-pear.horde.org/horde_vfs": "^2.2",
+                    "pear-pear.php.net/Net_DNS2": "^1.3",
+                    "pear-pear.php.net/Text_CAPTCHA": "*",
+                    "pear-pear.php.net/Text_Figlet": "*",
+                    "pear-pear.php.net/Text_LanguageDetect": "*"
+                },
+                "time": "2020-09-06T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Core Horde Framework library",
+                "homepage": "https://www.horde.org/libraries/Horde_Core",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/feature-composer"
+                }
+            },
+            {
+                "name": "horde/core",
+                "version": "dev-feature-sabredav4",
+                "version_normalized": "dev-feature-sabredav4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Core.git",
+                    "reference": "638ffa2f18983ec93071f4aa191bbdce5881d511"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Core/zipball/638ffa2f18983ec93071f4aa191bbdce5881d511",
+                    "reference": "638ffa2f18983ec93071f4aa191bbdce5881d511",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-session": "*",
+                    "pear-pear.horde.org/horde_alarm": "^2.2",
+                    "pear-pear.horde.org/horde_auth": "^2.2",
+                    "pear-pear.horde.org/horde_autoloader": "^2.1",
+                    "pear-pear.horde.org/horde_browser": "^2",
+                    "pear-pear.horde.org/horde_cache": "^2.5",
+                    "pear-pear.horde.org/horde_cli": "^2",
+                    "pear-pear.horde.org/horde_compress": "^2",
+                    "pear-pear.horde.org/horde_compress_fast": "^1",
+                    "pear-pear.horde.org/horde_controller": "^2",
+                    "pear-pear.horde.org/horde_cssminify": "^1",
+                    "pear-pear.horde.org/horde_data": "^2",
+                    "pear-pear.horde.org/horde_date": "^2",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_group": "^2.1",
+                    "pear-pear.horde.org/horde_hashtable": "^1.2",
+                    "pear-pear.horde.org/horde_history": "^2",
+                    "pear-pear.horde.org/horde_injector": "^2",
+                    "pear-pear.horde.org/horde_javascriptminify": "^1",
+                    "pear-pear.horde.org/horde_lock": "^2",
+                    "pear-pear.horde.org/horde_log": "^2",
+                    "pear-pear.horde.org/horde_logintasks": "^2",
+                    "pear-pear.horde.org/horde_mime": "^2.5",
+                    "pear-pear.horde.org/horde_mime_viewer": "^2.2",
+                    "pear-pear.horde.org/horde_notification": "^2",
+                    "pear-pear.horde.org/horde_pack": "^1",
+                    "pear-pear.horde.org/horde_perms": "^2",
+                    "pear-pear.horde.org/horde_prefs": "^2.9",
+                    "pear-pear.horde.org/horde_secret": "^2",
+                    "pear-pear.horde.org/horde_serialize": "^2",
+                    "pear-pear.horde.org/horde_sessionhandler": "^2",
+                    "pear-pear.horde.org/horde_share": "^2",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_template": "^2",
+                    "pear-pear.horde.org/horde_text_filter": "^2",
+                    "pear-pear.horde.org/horde_token": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_url": "^2.1",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "pear-pear.horde.org/horde_view": "^2",
+                    "pear-pear.php.net/pear": "*",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_core": "2.*",
+                    "pear-pear.horde.org/horde_core": "2.*"
+                },
+                "suggest": {
+                    "ext-SimpleXML": "*",
+                    "ext-dom": "*",
+                    "ext-hash": "*",
+                    "ext-sockets": "*",
+                    "pear-pear.horde.org/horde_activesync": "^2.40",
+                    "pear-pear.horde.org/horde_backup": "^1",
+                    "pear-pear.horde.org/horde_crypt": "^2",
+                    "pear-pear.horde.org/horde_dav": "^1",
+                    "pear-pear.horde.org/horde_db": "^2",
+                    "pear-pear.horde.org/horde_editor": "^2",
+                    "pear-pear.horde.org/horde_elasticsearch": "^1",
+                    "pear-pear.horde.org/horde_form": "^2.0.15",
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_image": "^2.3",
+                    "pear-pear.horde.org/horde_imap_client": "^2",
+                    "pear-pear.horde.org/horde_javascriptminify_jsmin": "^1",
+                    "pear-pear.horde.org/horde_kolab_server": "^2",
+                    "pear-pear.horde.org/horde_kolab_session": "^2",
+                    "pear-pear.horde.org/horde_kolab_storage": "^2",
+                    "pear-pear.horde.org/horde_ldap": "^2",
+                    "pear-pear.horde.org/horde_mail": "^2.3",
+                    "pear-pear.horde.org/horde_mongo": "^1",
+                    "pear-pear.horde.org/horde_nls": "^2",
+                    "pear-pear.horde.org/horde_oauth": "^2",
+                    "pear-pear.horde.org/horde_queue": "^1",
+                    "pear-pear.horde.org/horde_routes": "^2",
+                    "pear-pear.horde.org/horde_service_twitter": "^2",
+                    "pear-pear.horde.org/horde_spellchecker": "^2",
+                    "pear-pear.horde.org/horde_test": "^2.6",
+                    "pear-pear.horde.org/horde_tree": "^2",
+                    "pear-pear.horde.org/horde_vfs": "^2.2",
+                    "pear-pear.php.net/Net_DNS2": "^1.3",
+                    "pear-pear.php.net/Text_CAPTCHA": "*",
+                    "pear-pear.php.net/Text_Figlet": "*",
+                    "pear-pear.php.net/Text_LanguageDetect": "*"
+                },
+                "time": "2020-09-06T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Core Horde Framework library",
+                "homepage": "https://www.horde.org/libraries/Horde_Core",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/feature-sabredav4"
+                }
+            },
+            {
+                "name": "horde/core",
+                "version": "dev-horde-upstream",
+                "version_normalized": "dev-horde-upstream",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Core.git",
+                    "reference": "7b6c589481e93ec6186fc30b2c4cece0eb3eaf12"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Core/zipball/7b6c589481e93ec6186fc30b2c4cece0eb3eaf12",
+                    "reference": "7b6c589481e93ec6186fc30b2c4cece0eb3eaf12",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-session": "*",
+                    "pear-pear.horde.org/horde_alarm": "^2.2",
+                    "pear-pear.horde.org/horde_auth": "^2.2",
+                    "pear-pear.horde.org/horde_autoloader": "^2.1",
+                    "pear-pear.horde.org/horde_browser": "^2",
+                    "pear-pear.horde.org/horde_cache": "^2.5",
+                    "pear-pear.horde.org/horde_cli": "^2",
+                    "pear-pear.horde.org/horde_compress": "^2",
+                    "pear-pear.horde.org/horde_compress_fast": "^1",
+                    "pear-pear.horde.org/horde_controller": "^2",
+                    "pear-pear.horde.org/horde_cssminify": "^1",
+                    "pear-pear.horde.org/horde_data": "^2",
+                    "pear-pear.horde.org/horde_date": "^2",
+                    "pear-pear.horde.org/horde_exception": "^2",
+                    "pear-pear.horde.org/horde_group": "^2.1",
+                    "pear-pear.horde.org/horde_hashtable": "^1.2",
+                    "pear-pear.horde.org/horde_history": "^2",
+                    "pear-pear.horde.org/horde_injector": "^2",
+                    "pear-pear.horde.org/horde_javascriptminify": "^1",
+                    "pear-pear.horde.org/horde_lock": "^2",
+                    "pear-pear.horde.org/horde_log": "^2",
+                    "pear-pear.horde.org/horde_logintasks": "^2",
+                    "pear-pear.horde.org/horde_mime": "^2.5",
+                    "pear-pear.horde.org/horde_mime_viewer": "^2.2",
+                    "pear-pear.horde.org/horde_notification": "^2",
+                    "pear-pear.horde.org/horde_pack": "^1",
+                    "pear-pear.horde.org/horde_perms": "^2",
+                    "pear-pear.horde.org/horde_prefs": "^2.9",
+                    "pear-pear.horde.org/horde_secret": "^2",
+                    "pear-pear.horde.org/horde_serialize": "^2",
+                    "pear-pear.horde.org/horde_sessionhandler": "^2",
+                    "pear-pear.horde.org/horde_share": "^2",
+                    "pear-pear.horde.org/horde_support": "^2",
+                    "pear-pear.horde.org/horde_template": "^2",
+                    "pear-pear.horde.org/horde_text_filter": "^2",
+                    "pear-pear.horde.org/horde_token": "^2",
+                    "pear-pear.horde.org/horde_translation": "^2.2",
+                    "pear-pear.horde.org/horde_url": "^2.1",
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "pear-pear.horde.org/horde_view": "^2",
+                    "pear-pear.php.net/pear": "*",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_core": "2.*",
+                    "pear-pear.horde.org/horde_core": "2.*"
+                },
+                "suggest": {
+                    "ext-SimpleXML": "*",
+                    "ext-dom": "*",
+                    "ext-hash": "*",
+                    "ext-sockets": "*",
+                    "pear-pear.horde.org/horde_activesync": "^2.40",
+                    "pear-pear.horde.org/horde_backup": "^1",
+                    "pear-pear.horde.org/horde_crypt": "^2",
+                    "pear-pear.horde.org/horde_dav": "^1",
+                    "pear-pear.horde.org/horde_db": "^2",
+                    "pear-pear.horde.org/horde_editor": "^2",
+                    "pear-pear.horde.org/horde_elasticsearch": "^1",
+                    "pear-pear.horde.org/horde_form": "^2.0.15",
+                    "pear-pear.horde.org/horde_http": "^2",
+                    "pear-pear.horde.org/horde_icalendar": "^2",
+                    "pear-pear.horde.org/horde_image": "^2.3",
+                    "pear-pear.horde.org/horde_imap_client": "^2",
+                    "pear-pear.horde.org/horde_javascriptminify_jsmin": "^1",
+                    "pear-pear.horde.org/horde_kolab_server": "^2",
+                    "pear-pear.horde.org/horde_kolab_session": "^2",
+                    "pear-pear.horde.org/horde_kolab_storage": "^2",
+                    "pear-pear.horde.org/horde_ldap": "^2",
+                    "pear-pear.horde.org/horde_mail": "^2.3",
+                    "pear-pear.horde.org/horde_mongo": "^1",
+                    "pear-pear.horde.org/horde_nls": "^2",
+                    "pear-pear.horde.org/horde_oauth": "^2",
+                    "pear-pear.horde.org/horde_queue": "^1",
+                    "pear-pear.horde.org/horde_routes": "^2",
+                    "pear-pear.horde.org/horde_service_twitter": "^2",
+                    "pear-pear.horde.org/horde_spellchecker": "^2",
+                    "pear-pear.horde.org/horde_test": "^2.6",
+                    "pear-pear.horde.org/horde_tree": "^2",
+                    "pear-pear.horde.org/horde_vfs": "^2.2",
+                    "pear-pear.php.net/Net_DNS2": "^1.3",
+                    "pear-pear.php.net/Text_CAPTCHA": "*",
+                    "pear-pear.php.net/Text_Figlet": "*",
+                    "pear-pear.php.net/Text_LanguageDetect": "*"
+                },
+                "time": "2020-09-06T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael J Rubinsky",
+                        "email": "mrubinsk@horde.org",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Core Horde Framework library",
+                "homepage": "https://www.horde.org/libraries/Horde_Core",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Core/tree/horde-upstream"
+                }
             }
         ]
     }
