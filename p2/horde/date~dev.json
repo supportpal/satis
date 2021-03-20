@@ -8,28 +8,27 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Date.git",
-                    "reference": "f67100fb94f60b74e39984fd68efaab770e0d02f"
+                    "reference": "d769fd825b32cda61c81857f82b498f61f0ae965"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Date/zipball/f67100fb94f60b74e39984fd68efaab770e0d02f",
-                    "reference": "f67100fb94f60b74e39984fd68efaab770e0d02f",
+                    "url": "https://api.github.com/repos/maintaina-com/Date/zipball/d769fd825b32cda61c81857f82b498f61f0ae965",
+                    "reference": "d769fd825b32cda61c81857f82b498f61f0ae965",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "dev-master",
-                    "horde/horde-installer-plugin": "dev-master",
-                    "horde/nls": "dev-master",
-                    "horde/translation": "dev-master",
-                    "php": "^5.3 || ^7"
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/nls": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "php": "^7"
                 },
                 "suggest": {
                     "ext-calendar": "*",
-                    "horde/icalendar": "^2",
-                    "horde/test": "^2.1"
+                    "horde/icalendar": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2020-10-27T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Date": "lib/"
@@ -115,12 +114,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Date.git",
-                    "reference": "9f4c303717613356a58b380618be2f36ddb0afe3"
+                    "reference": "119f68986eba450cfcc7f2e1c66323eb42114908"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Date/zipball/9f4c303717613356a58b380618be2f36ddb0afe3",
-                    "reference": "9f4c303717613356a58b380618be2f36ddb0afe3",
+                    "url": "https://api.github.com/repos/maintaina-com/Date/zipball/119f68986eba450cfcc7f2e1c66323eb42114908",
+                    "reference": "119f68986eba450cfcc7f2e1c66323eb42114908",
                     "shasum": ""
                 },
                 "require": {
@@ -221,12 +220,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Date.git",
-                    "reference": "caebcfbc5ce06783def2928f1e37eb7856e037c8"
+                    "reference": "0eccb25a2bdce26610456bf7e1ef59a573c79bc5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Date/zipball/caebcfbc5ce06783def2928f1e37eb7856e037c8",
-                    "reference": "caebcfbc5ce06783def2928f1e37eb7856e037c8",
+                    "url": "https://api.github.com/repos/maintaina-com/Date/zipball/0eccb25a2bdce26610456bf7e1ef59a573c79bc5",
+                    "reference": "0eccb25a2bdce26610456bf7e1ef59a573c79bc5",
                     "shasum": ""
                 },
                 "require": {
