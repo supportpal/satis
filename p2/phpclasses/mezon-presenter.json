@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "phpclasses/mezon-presenter": [
+            {
+                "name": "phpclasses/mezon-presenter",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/mezon-presenter.zip"
+                },
+                "require": {
+                    "mezon/http-request-params": "1.0.*",
+                    "mezon/view": "1.0.*",
+                    "php": ">=7.2.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^8.5"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Mezon\\": "./Mezon/"
+                    }
+                }
+            }
+        ]
+    }
+}

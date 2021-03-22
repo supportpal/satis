@@ -1,0 +1,213 @@
+{
+    "packages": {
+        "horde/agora": [
+            {
+                "name": "horde/agora",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/agora.git",
+                    "reference": "6757aa933848b40cb52da6db73a9f5214aa69a95"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/agora/zipball/6757aa933848b40cb52da6db73a9f5214aa69a95",
+                    "reference": "6757aa933848b40cb52da6db73a9f5214aa69a95",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/core": "^3",
+                    "horde/db": "^3",
+                    "horde/horde": "^6",
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "time": "2021-03-21T00:00:00+00:00",
+                "type": "horde-application",
+                "autoload": {
+                    "psr-0": {
+                        "Agora": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Forum application",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/agora",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/agora.git",
+                    "reference": "6757aa933848b40cb52da6db73a9f5214aa69a95"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/agora/zipball/6757aa933848b40cb52da6db73a9f5214aa69a95",
+                    "reference": "6757aa933848b40cb52da6db73a9f5214aa69a95",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/core": "^3",
+                    "horde/db": "^3",
+                    "horde/horde": "^6",
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "time": "2021-03-21T00:00:00+00:00",
+                "type": "horde-application",
+                "autoload": {
+                    "psr-0": {
+                        "Agora": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Forum application",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/agora",
+                "version": "dev-horde-upstream",
+                "version_normalized": "dev-horde-upstream",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/agora.git",
+                    "reference": "51b01c0e841cad2e5294e3fc0855b3af2d307d68"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/agora/zipball/51b01c0e841cad2e5294e3fc0855b3af2d307d68",
+                    "reference": "51b01c0e841cad2e5294e3fc0855b3af2d307d68",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.3"
+                },
+                "replace": {
+                    "pear-horde/agora": "1.*",
+                    "pear-pear.horde.org/agora": "1.*"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-0": {
+                        "Agora": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Forum application",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/agora",
+                "version": "dev-maintaina-bare",
+                "version_normalized": "dev-maintaina-bare",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/agora.git",
+                    "reference": "51b01c0e841cad2e5294e3fc0855b3af2d307d68"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/agora/zipball/51b01c0e841cad2e5294e3fc0855b3af2d307d68",
+                    "reference": "51b01c0e841cad2e5294e3fc0855b3af2d307d68",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.3"
+                },
+                "replace": {
+                    "pear-horde/agora": "1.*",
+                    "pear-pear.horde.org/agora": "1.*"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-0": {
+                        "Agora": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Forum application",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/agora",
+                "version": "dev-maintaina-composerfixed",
+                "version_normalized": "dev-maintaina-composerfixed",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/agora.git",
+                    "reference": "92a5f3472f28c87bab00ab73911a6db79f42a9e4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/agora/zipball/92a5f3472f28c87bab00ab73911a6db79f42a9e4",
+                    "reference": "92a5f3472f28c87bab00ab73911a6db79f42a9e4",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "dev-master",
+                    "php": "^5.3"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-application",
+                "autoload": {
+                    "psr-0": {
+                        "Agora": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Forum application",
+                "homepage": "https://www.horde.org"
+            }
+        ]
+    }
+}

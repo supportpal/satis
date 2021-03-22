@@ -8,26 +8,25 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Support.git",
-                    "reference": "a9a61eed938efbb9f472780e4a6d1ce82440edb6"
+                    "reference": "9c15e0dc946ca4044bdc7159beb6f26dfa76ccbb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Support/zipball/a9a61eed938efbb9f472780e4a6d1ce82440edb6",
-                    "reference": "a9a61eed938efbb9f472780e4a6d1ce82440edb6",
+                    "url": "https://api.github.com/repos/maintaina-com/Support/zipball/9c15e0dc946ca4044bdc7159beb6f26dfa76ccbb",
+                    "reference": "9c15e0dc946ca4044bdc7159beb6f26dfa76ccbb",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "dev-master",
-                    "horde/horde-installer-plugin": "dev-master",
-                    "horde/stream_wrapper": "dev-master",
-                    "horde/util": "dev-master",
-                    "php": "^5.3 || ^7"
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/stream_wrapper": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
+                    "php": "^7"
                 },
                 "suggest": {
-                    "horde/test": "^2.1"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2020-10-27T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Support": "lib/"
@@ -121,12 +120,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Support.git",
-                    "reference": "b71158f7ad99912be445623796b21d8c2fe3ff49"
+                    "reference": "879bb9f1a93831dcf4eb276e20e1e1f9540b62f9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Support/zipball/b71158f7ad99912be445623796b21d8c2fe3ff49",
-                    "reference": "b71158f7ad99912be445623796b21d8c2fe3ff49",
+                    "url": "https://api.github.com/repos/maintaina-com/Support/zipball/879bb9f1a93831dcf4eb276e20e1e1f9540b62f9",
+                    "reference": "879bb9f1a93831dcf4eb276e20e1e1f9540b62f9",
                     "shasum": ""
                 },
                 "require": {

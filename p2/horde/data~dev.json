@@ -8,30 +8,29 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Data.git",
-                    "reference": "ff5f51e2946d0c805b467ec250a7297f93ba6898"
+                    "reference": "713b0f79ced2fbe04278b265bb8302882570c51d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Data/zipball/ff5f51e2946d0c805b467ec250a7297f93ba6898",
-                    "reference": "ff5f51e2946d0c805b467ec250a7297f93ba6898",
+                    "url": "https://api.github.com/repos/maintaina-com/Data/zipball/713b0f79ced2fbe04278b265bb8302882570c51d",
+                    "reference": "713b0f79ced2fbe04278b265bb8302882570c51d",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/browser": "dev-master",
-                    "horde/exception": "dev-master",
-                    "horde/horde-installer-plugin": "dev-master",
-                    "horde/icalendar": "dev-master",
-                    "horde/mail": "dev-master",
-                    "horde/mime": "dev-master",
-                    "horde/translation": "dev-master",
-                    "horde/util": "dev-master",
-                    "php": "^5.3 || ^7"
+                    "horde/browser": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/icalendar": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mail": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/mime": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
+                    "php": "^7"
                 },
                 "suggest": {
-                    "horde/test": "^2.1"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2020-10-27T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Data": "lib/"
@@ -119,12 +118,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Data.git",
-                    "reference": "89820b9c57287f819ad31e2e68fa6d7fd4a8c69e"
+                    "reference": "3cb72b1a9885f575e4603656807b7c64647d38bd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Data/zipball/89820b9c57287f819ad31e2e68fa6d7fd4a8c69e",
-                    "reference": "89820b9c57287f819ad31e2e68fa6d7fd4a8c69e",
+                    "url": "https://api.github.com/repos/maintaina-com/Data/zipball/3cb72b1a9885f575e4603656807b7c64647d38bd",
+                    "reference": "3cb72b1a9885f575e4603656807b7c64647d38bd",
                     "shasum": ""
                 },
                 "require": {

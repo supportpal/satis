@@ -7,7 +7,7 @@
                 "version_normalized": "2.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/wicked.git",
+                    "url": "git@github.com:maintaina-com/wicked.git",
                     "reference": "7dd4382a13a3366b7af3e10d1a35dda6210b36df"
                 },
                 "dist": {
@@ -65,10 +65,7 @@
                     }
                 ],
                 "description": "Wiki application",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/wicked/tree/v2.0.1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/wicked",
@@ -76,7 +73,7 @@
                 "version_normalized": "2.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/wicked.git",
+                    "url": "git@github.com:maintaina-com/wicked.git",
                     "reference": "710127c23ec240e6897bb49676c9ff082cc5ac72"
                 },
                 "dist": {
@@ -134,10 +131,7 @@
                     }
                 ],
                 "description": "Wiki application",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/wicked/tree/v2.0.2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/wicked",
@@ -145,7 +139,7 @@
                 "version_normalized": "2.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/wicked.git",
+                    "url": "git@github.com:maintaina-com/wicked.git",
                     "reference": "e36af62fc990fb13a59cb1e6386a07243f3c1478"
                 },
                 "dist": {
@@ -203,10 +197,7 @@
                     }
                 ],
                 "description": "Wiki application",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/wicked/tree/v2.0.3"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/wicked",
@@ -214,7 +205,7 @@
                 "version_normalized": "2.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/wicked.git",
+                    "url": "git@github.com:maintaina-com/wicked.git",
                     "reference": "aea1cdc572b44e6389bff5d5829c1b9bba40550d"
                 },
                 "dist": {
@@ -272,10 +263,7 @@
                     }
                 ],
                 "description": "Wiki application",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/wicked/tree/v2.0.4"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/wicked",
@@ -283,7 +271,7 @@
                 "version_normalized": "2.0.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/wicked.git",
+                    "url": "git@github.com:maintaina-com/wicked.git",
                     "reference": "173519a70c6d5bce5156a230006bb49f6fcb0757"
                 },
                 "dist": {
@@ -341,10 +329,7 @@
                     }
                 ],
                 "description": "Wiki application",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/wicked/tree/v2.0.5"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/wicked",
@@ -352,7 +337,7 @@
                 "version_normalized": "2.0.6.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/wicked.git",
+                    "url": "git@github.com:maintaina-com/wicked.git",
                     "reference": "99b1056fea57b83e9ecf534d9faab200c13cdf97"
                 },
                 "dist": {
@@ -410,10 +395,7 @@
                     }
                 ],
                 "description": "Wiki application",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/wicked/tree/v2.0.6"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/wicked",
@@ -421,7 +403,7 @@
                 "version_normalized": "2.0.7.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/wicked.git",
+                    "url": "git@github.com:maintaina-com/wicked.git",
                     "reference": "73c4d38addd829c86d047dd2e4ac9337b6b81de6"
                 },
                 "dist": {
@@ -479,10 +461,7 @@
                     }
                 ],
                 "description": "Wiki application",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/wicked/tree/v2.0.7"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/wicked",
@@ -490,7 +469,7 @@
                 "version_normalized": "2.0.8.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/wicked.git",
+                    "url": "git@github.com:maintaina-com/wicked.git",
                     "reference": "743ea9416716e40b1dcb7c722d0eb2306f7eccfe"
                 },
                 "dist": {
@@ -553,10 +532,7 @@
                     }
                 ],
                 "description": "Wiki application",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/wicked/tree/v2.0.8"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/wicked",
@@ -564,7 +540,7 @@
                 "version_normalized": "2.0.8.0-RC1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/wicked.git",
+                    "url": "git@github.com:maintaina-com/wicked.git",
                     "reference": "4c7cb017e136ca0b5bbb3f5bd17aa7066338960a"
                 },
                 "dist": {
@@ -627,10 +603,7 @@
                     }
                 ],
                 "description": "Wiki application",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/wicked/tree/v2.0.8rc1"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/wicked",
@@ -638,7 +611,7 @@
                 "version_normalized": "3.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/wicked.git",
+                    "url": "git@github.com:maintaina-com/wicked.git",
                     "reference": "00d837251cedf95ec5c287dd10926ce58dd52559"
                 },
                 "dist": {
@@ -704,10 +677,7 @@
                     }
                 ],
                 "description": "Wiki application",
-                "homepage": "https://www.horde.org/apps/wicked",
-                "support": {
-                    "source": "https://github.com/maintaina-com/wicked/tree/v3.0.0"
-                }
+                "homepage": "https://www.horde.org/apps/wicked"
             }
         ]
     }

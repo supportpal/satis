@@ -7,7 +7,7 @@
                 "version_normalized": "1.0.0.0-alpha1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/vilma.git",
+                    "url": "git@github.com:maintaina-com/vilma.git",
                     "reference": "af34dd3e654e3006e73073dac27766a814075365"
                 },
                 "dist": {
@@ -45,10 +45,7 @@
                     }
                 ],
                 "description": "Domain and user administration application",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/vilma/tree/v1.0.0alpha1"
-                }
+                "homepage": "https://www.horde.org"
             }
         ]
     }

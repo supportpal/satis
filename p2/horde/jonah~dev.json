@@ -1,0 +1,328 @@
+{
+    "packages": {
+        "horde/jonah": [
+            {
+                "name": "horde/jonah",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/jonah.git",
+                    "reference": "f9fa3dfdfed74b2f8d898954bd8d0710ec6aea9c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/jonah/zipball/f9fa3dfdfed74b2f8d898954bd8d0710ec6aea9c",
+                    "reference": "f9fa3dfdfed74b2f8d898954bd8d0710ec6aea9c",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/core": "^3",
+                    "horde/db": "^3",
+                    "horde/horde": "^6",
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "time": "2021-03-21T00:00:00+00:00",
+                "type": "horde-application",
+                "autoload": {
+                    "psr-0": {
+                        "Jonah": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Newsfeed application",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/jonah",
+                "version": "dev-FRAMEWORK_5_1",
+                "version_normalized": "dev-FRAMEWORK_5_1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/jonah.git",
+                    "reference": "da12bb6fb84551beb24dcd02911ee390e2bb6c81"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/jonah/zipball/da12bb6fb84551beb24dcd02911ee390e2bb6c81",
+                    "reference": "da12bb6fb84551beb24dcd02911ee390e2bb6c81",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.php.net/db": "*",
+                    "php": ">=5.3.0"
+                },
+                "time": "2012-07-19T00:00:00+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Jonah is an application for handling news.",
+                "homepage": "http://pear.horde.org"
+            },
+            {
+                "name": "horde/jonah",
+                "version": "dev-FRAMEWORK_5_2",
+                "version_normalized": "dev-FRAMEWORK_5_2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/jonah.git",
+                    "reference": "6879c4cd921f9e813c6834a5c523e2600ef1c9af"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/jonah/zipball/6879c4cd921f9e813c6834a5c523e2600ef1c9af",
+                    "reference": "6879c4cd921f9e813c6834a5c523e2600ef1c9af",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.php.net/db": "*",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/jonah": "1.*",
+                    "pear-pear.horde.org/jonah": "1.*"
+                },
+                "time": "2017-11-14T00:00:00+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-0": {
+                        "Jonah": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Newsfeed application",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/jonah",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/jonah.git",
+                    "reference": "f9fa3dfdfed74b2f8d898954bd8d0710ec6aea9c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/jonah/zipball/f9fa3dfdfed74b2f8d898954bd8d0710ec6aea9c",
+                    "reference": "f9fa3dfdfed74b2f8d898954bd8d0710ec6aea9c",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/core": "^3",
+                    "horde/db": "^3",
+                    "horde/horde": "^6",
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "time": "2021-03-21T00:00:00+00:00",
+                "type": "horde-application",
+                "autoload": {
+                    "psr-0": {
+                        "Jonah": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Newsfeed application",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/jonah",
+                "version": "dev-horde-upstream",
+                "version_normalized": "dev-horde-upstream",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/jonah.git",
+                    "reference": "740bfd8d81ec2f0798c5b81d10b2c76d382545bb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/jonah/zipball/740bfd8d81ec2f0798c5b81d10b2c76d382545bb",
+                    "reference": "740bfd8d81ec2f0798c5b81d10b2c76d382545bb",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.php.net/db": "*",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/jonah": "1.*",
+                    "pear-pear.horde.org/jonah": "1.*"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-0": {
+                        "Jonah": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Newsfeed application",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/jonah",
+                "version": "dev-maintaina-bare",
+                "version_normalized": "dev-maintaina-bare",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/jonah.git",
+                    "reference": "740bfd8d81ec2f0798c5b81d10b2c76d382545bb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/jonah/zipball/740bfd8d81ec2f0798c5b81d10b2c76d382545bb",
+                    "reference": "740bfd8d81ec2f0798c5b81d10b2c76d382545bb",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.php.net/db": "*",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/jonah": "1.*",
+                    "pear-pear.horde.org/jonah": "1.*"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "project",
+                "autoload": {
+                    "psr-0": {
+                        "Jonah": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Newsfeed application",
+                "homepage": "https://www.horde.org"
+            },
+            {
+                "name": "horde/jonah",
+                "version": "dev-maintaina-composerfixed",
+                "version_normalized": "dev-maintaina-composerfixed",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:maintaina-com/jonah.git",
+                    "reference": "7192ec29570648c2493d101a0f51c8efbc4e0a4b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/jonah/zipball/7192ec29570648c2493d101a0f51c8efbc4e0a4b",
+                    "reference": "7192ec29570648c2493d101a0f51c8efbc4e0a4b",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/horde-installer-plugin": "dev-master",
+                    "pear-pear.php.net/db": "*",
+                    "php": "^5.3 || ^7"
+                },
+                "time": "2020-10-27T00:00:00+00:00",
+                "type": "horde-application",
+                "autoload": {
+                    "psr-0": {
+                        "Jonah": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Newsfeed application",
+                "homepage": "https://www.horde.org"
+            }
+        ]
+    }
+}

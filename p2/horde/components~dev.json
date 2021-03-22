@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/components.git",
+                    "url": "git@github.com:maintaina-com/components.git",
                     "reference": "2879e7cab93b922f166bb9b52664b53b3d6342e6"
                 },
                 "dist": {
@@ -77,10 +77,7 @@
                     }
                 ],
                 "description": "Developer tool for managing Horde components",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/components/tree/master"
-                }
+                "homepage": "https://www.horde.org"
             },
             {
                 "name": "horde/components",
@@ -88,7 +85,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/components.git",
+                    "url": "git@github.com:maintaina-com/components.git",
                     "reference": "fa16c79b4276f7d882357876ff1281fe824f89cf"
                 },
                 "dist": {
@@ -133,10 +130,7 @@
                     }
                 ],
                 "description": "A package for dealing with Horde components",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/components/tree/FRAMEWORK_5_1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/components",
@@ -144,7 +138,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/components.git",
+                    "url": "git@github.com:maintaina-com/components.git",
                     "reference": "34345e48147f7961730e3efee62aa7993751ebf4"
                 },
                 "dist": {
@@ -198,10 +192,7 @@
                     }
                 ],
                 "description": "Developer tool for managing Horde components",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/components/tree/FRAMEWORK_5_2"
-                }
+                "homepage": "https://www.horde.org"
             },
             {
                 "name": "horde/components",
@@ -209,7 +200,7 @@
                 "version_normalized": "dev-FRAMEWORK_6_0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/components.git",
+                    "url": "git@github.com:maintaina-com/components.git",
                     "reference": "8cff23e10ccc86b40a1d0a9424ef52dce7677633"
                 },
                 "dist": {
@@ -278,10 +269,7 @@
                     }
                 ],
                 "description": "Developer tool for managing Horde components",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/components/tree/FRAMEWORK_6_0"
-                }
+                "homepage": "https://www.horde.org"
             },
             {
                 "name": "horde/components",
@@ -289,7 +277,7 @@
                 "version_normalized": "dev-downstream",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/components.git",
+                    "url": "git@github.com:maintaina-com/components.git",
                     "reference": "aaf93a6f95b507490e90c3d882e933f355be2812"
                 },
                 "dist": {
@@ -350,10 +338,7 @@
                     }
                 ],
                 "description": "Developer tool for managing Horde components",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/components/tree/downstream"
-                }
+                "homepage": "https://www.horde.org"
             },
             {
                 "name": "horde/components",
@@ -361,7 +346,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/components.git",
+                    "url": "git@github.com:maintaina-com/components.git",
                     "reference": "cc4c9160cfcdfe664039ca20c9e9ac60dea338b9"
                 },
                 "dist": {
@@ -422,10 +407,7 @@
                     }
                 ],
                 "description": "Developer tool for managing Horde components",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/components/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org"
             },
             {
                 "name": "horde/components",
@@ -433,7 +415,7 @@
                 "version_normalized": "dev-maintaina-2021-02-bck",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/components.git",
+                    "url": "git@github.com:maintaina-com/components.git",
                     "reference": "298e87d8431cec5502c7f0285b8fe03ef39c785e"
                 },
                 "dist": {
@@ -494,10 +476,7 @@
                     }
                 ],
                 "description": "Developer tool for managing Horde components",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/components/tree/maintaina-2021-02-bck"
-                }
+                "homepage": "https://www.horde.org"
             },
             {
                 "name": "horde/components",
@@ -505,7 +484,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/components.git",
+                    "url": "git@github.com:maintaina-com/components.git",
                     "reference": "8023567e0d918dbeb793c129ab21f0748a913f28"
                 },
                 "dist": {
@@ -566,10 +545,7 @@
                     }
                 ],
                 "description": "Developer tool for managing Horde components",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/components/tree/maintaina-bare"
-                }
+                "homepage": "https://www.horde.org"
             },
             {
                 "name": "horde/components",
@@ -577,7 +553,7 @@
                 "version_normalized": "dev-maintaina-bare-psr4",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/components.git",
+                    "url": "git@github.com:maintaina-com/components.git",
                     "reference": "e3e4f01365cd3afacc96aec3d1d624ec5750f01b"
                 },
                 "dist": {
@@ -638,10 +614,7 @@
                     }
                 ],
                 "description": "Developer tool for managing Horde components",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/components/tree/maintaina-bare-psr4"
-                }
+                "homepage": "https://www.horde.org"
             },
             {
                 "name": "horde/components",
@@ -649,7 +622,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/components.git",
+                    "url": "git@github.com:maintaina-com/components.git",
                     "reference": "2aeb92d208a799c31a71c29a7553a71efa67f78c"
                 },
                 "dist": {
@@ -719,10 +692,7 @@
                     }
                 ],
                 "description": "Developer tool for managing Horde components",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/components/tree/maintaina-composerfixed"
-                }
+                "homepage": "https://www.horde.org"
             },
             {
                 "name": "horde/components",
@@ -730,7 +700,7 @@
                 "version_normalized": "dev-psr4-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/components.git",
+                    "url": "git@github.com:maintaina-com/components.git",
                     "reference": "674fd7415553b57fdd39ead18cfbdadb72f7a79a"
                 },
                 "dist": {
@@ -794,10 +764,7 @@
                     }
                 ],
                 "description": "Developer tool for managing Horde components",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/components/tree/psr4-composerfixed"
-                }
+                "homepage": "https://www.horde.org"
             }
         ]
     }
