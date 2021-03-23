@@ -11,7 +11,7 @@
                 },
                 "require": {
                     "phpclasses/httpclient": "1.0.7",
-                    "phpclasses/oauth-api": "1.0.110",
+                    "phpclasses/oauth-api": "1.0.111",
                     "phpclasses/rsswriter": "1.0.0"
                 },
                 "type": "library",

@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/wicked.git",
+                    "url": "https://github.com/maintaina-com/wicked.git",
                     "reference": "211419d73daa3e7089d6003cb46d35e2000a00c5"
                 },
                 "dist": {
@@ -72,7 +72,10 @@
                     }
                 ],
                 "description": "Wiki application",
-                "homepage": "https://www.horde.org/apps/wicked"
+                "homepage": "https://www.horde.org/apps/wicked",
+                "support": {
+                    "source": "https://github.com/maintaina-com/wicked/tree/master"
+                }
             },
             {
                 "name": "horde/wicked",
@@ -80,7 +83,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/wicked.git",
+                    "url": "https://github.com/maintaina-com/wicked.git",
                     "reference": "0319d29a9963ae20c9a06bdff9e682af70a0163d"
                 },
                 "dist": {
@@ -138,7 +141,10 @@
                     }
                 ],
                 "description": "Wiki application",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/wicked/tree/FRAMEWORK_5_1"
+                }
             },
             {
                 "name": "horde/wicked",
@@ -146,7 +152,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/wicked.git",
+                    "url": "https://github.com/maintaina-com/wicked.git",
                     "reference": "c685258a157f13f725fc52813f54751e4d42328c"
                 },
                 "dist": {
@@ -209,7 +215,10 @@
                     }
                 ],
                 "description": "Wiki application",
-                "homepage": "https://www.horde.org/apps/wicked"
+                "homepage": "https://www.horde.org/apps/wicked",
+                "support": {
+                    "source": "https://github.com/maintaina-com/wicked/tree/FRAMEWORK_5_2"
+                }
             },
             {
                 "name": "horde/wicked",
@@ -217,7 +226,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/wicked.git",
+                    "url": "https://github.com/maintaina-com/wicked.git",
                     "reference": "b5f2941743bf9f6d59c66241ed99e2f647ebea90"
                 },
                 "dist": {
@@ -280,7 +289,10 @@
                     }
                 ],
                 "description": "Wiki application",
-                "homepage": "https://www.horde.org/apps/wicked"
+                "homepage": "https://www.horde.org/apps/wicked",
+                "support": {
+                    "source": "https://github.com/maintaina-com/wicked/tree/horde-upstream"
+                }
             },
             {
                 "name": "horde/wicked",
@@ -288,7 +300,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/wicked.git",
+                    "url": "https://github.com/maintaina-com/wicked.git",
                     "reference": "b5f2941743bf9f6d59c66241ed99e2f647ebea90"
                 },
                 "dist": {
@@ -351,7 +363,10 @@
                     }
                 ],
                 "description": "Wiki application",
-                "homepage": "https://www.horde.org/apps/wicked"
+                "homepage": "https://www.horde.org/apps/wicked",
+                "support": {
+                    "source": "https://github.com/maintaina-com/wicked/tree/horde-upstream"
+                }
             },
             {
                 "name": "horde/wicked",
@@ -359,7 +374,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/wicked.git",
+                    "url": "https://github.com/maintaina-com/wicked.git",
                     "reference": "a5375612c13b4a4f7a11cebcf97fbd1eb448f187"
                 },
                 "dist": {
@@ -424,7 +439,10 @@
                     }
                 ],
                 "description": "Wiki application",
-                "homepage": "https://www.horde.org/apps/wicked"
+                "homepage": "https://www.horde.org/apps/wicked",
+                "support": {
+                    "source": "https://github.com/maintaina-com/wicked/tree/maintaina-composerfixed"
+                }
             }
         ]
     }

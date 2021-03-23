@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Compress_Fast.git",
+                    "url": "https://github.com/maintaina-com/Compress_Fast.git",
                     "reference": "5cb48e457c828166917f0516d5f7d00db161a1b4"
                 },
                 "dist": {
@@ -45,7 +45,10 @@
                     }
                 ],
                 "description": "Fast compression library",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Compress_Fast/tree/master"
+                }
             },
             {
                 "name": "horde/compress_fast",
@@ -53,7 +56,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Compress_Fast.git",
+                    "url": "https://github.com/maintaina-com/Compress_Fast.git",
                     "reference": "63a3e08d0c0fc53b187c71720e1984c49ea1d4f0"
                 },
                 "dist": {
@@ -94,7 +97,10 @@
                     }
                 ],
                 "description": "Fast compression library",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Compress_Fast/tree/FRAMEWORK_5_2"
+                }
             },
             {
                 "name": "horde/compress_fast",
@@ -102,7 +108,7 @@
                 "version_normalized": "dev-FRAMEWORK_6_0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Compress_Fast.git",
+                    "url": "https://github.com/maintaina-com/Compress_Fast.git",
                     "reference": "0b6fdea835deec67e2ca49d086a0cf677b3e61c0"
                 },
                 "dist": {
@@ -139,7 +145,10 @@
                     }
                 ],
                 "description": "Fast compression library",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Compress_Fast/tree/FRAMEWORK_6_0"
+                }
             },
             {
                 "name": "horde/compress_fast",
@@ -147,7 +156,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Compress_Fast.git",
+                    "url": "https://github.com/maintaina-com/Compress_Fast.git",
                     "reference": "51c193752ab0e2d883e0a1cf35b574bcc641d0b6"
                 },
                 "dist": {
@@ -188,7 +197,10 @@
                     }
                 ],
                 "description": "Fast compression library",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Compress_Fast/tree/horde-upstream"
+                }
             },
             {
                 "name": "horde/compress_fast",
@@ -196,7 +208,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Compress_Fast.git",
+                    "url": "https://github.com/maintaina-com/Compress_Fast.git",
                     "reference": "51c193752ab0e2d883e0a1cf35b574bcc641d0b6"
                 },
                 "dist": {
@@ -237,7 +249,10 @@
                     }
                 ],
                 "description": "Fast compression library",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Compress_Fast/tree/horde-upstream"
+                }
             },
             {
                 "name": "horde/compress_fast",
@@ -245,7 +260,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Compress_Fast.git",
+                    "url": "https://github.com/maintaina-com/Compress_Fast.git",
                     "reference": "b5830711df9d51c9fec88b1e2967bace1a0abae9"
                 },
                 "dist": {
@@ -283,7 +298,10 @@
                     }
                 ],
                 "description": "Fast compression library",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Compress_Fast/tree/maintaina-composerfixed"
+                }
             }
         ]
     }

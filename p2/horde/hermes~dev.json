@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/hermes.git",
+                    "url": "https://github.com/maintaina-com/hermes.git",
                     "reference": "4a41e7e3ab1a1faacf8c744eaaaa035adef89013"
                 },
                 "dist": {
@@ -72,7 +72,10 @@
                     }
                 ],
                 "description": "Time tracking application",
-                "homepage": "https://www.horde.org/apps/hermes"
+                "homepage": "https://www.horde.org/apps/hermes",
+                "support": {
+                    "source": "https://github.com/maintaina-com/hermes/tree/FRAMEWORK_6_0"
+                }
             },
             {
                 "name": "horde/hermes",
@@ -80,7 +83,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/hermes.git",
+                    "url": "https://github.com/maintaina-com/hermes.git",
                     "reference": "853c7ed5c367a24d6bed241fa44bedbd2cd0adef"
                 },
                 "dist": {
@@ -136,7 +139,10 @@
                     }
                 ],
                 "description": "A web based time tracker",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/hermes/tree/FRAMEWORK_5_1"
+                }
             },
             {
                 "name": "horde/hermes",
@@ -144,7 +150,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/hermes.git",
+                    "url": "https://github.com/maintaina-com/hermes.git",
                     "reference": "a03a6836b2c4fa40157c770483b358e5089f4e1a"
                 },
                 "dist": {
@@ -209,7 +215,10 @@
                     }
                 ],
                 "description": "Time tracking application",
-                "homepage": "https://www.horde.org/apps/hermes"
+                "homepage": "https://www.horde.org/apps/hermes",
+                "support": {
+                    "source": "https://github.com/maintaina-com/hermes/tree/FRAMEWORK_5_2"
+                }
             },
             {
                 "name": "horde/hermes",
@@ -217,7 +226,7 @@
                 "version_normalized": "dev-FRAMEWORK_6_0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/hermes.git",
+                    "url": "https://github.com/maintaina-com/hermes.git",
                     "reference": "4a41e7e3ab1a1faacf8c744eaaaa035adef89013"
                 },
                 "dist": {
@@ -282,7 +291,10 @@
                     }
                 ],
                 "description": "Time tracking application",
-                "homepage": "https://www.horde.org/apps/hermes"
+                "homepage": "https://www.horde.org/apps/hermes",
+                "support": {
+                    "source": "https://github.com/maintaina-com/hermes/tree/FRAMEWORK_6_0"
+                }
             },
             {
                 "name": "horde/hermes",
@@ -290,7 +302,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/hermes.git",
+                    "url": "https://github.com/maintaina-com/hermes.git",
                     "reference": "b49c5025cb3ca70ffa02c179125f9fb71cb6779b"
                 },
                 "dist": {
@@ -355,7 +367,10 @@
                     }
                 ],
                 "description": "Time tracking application",
-                "homepage": "https://www.horde.org/apps/hermes"
+                "homepage": "https://www.horde.org/apps/hermes",
+                "support": {
+                    "source": "https://github.com/maintaina-com/hermes/tree/horde-upstream"
+                }
             },
             {
                 "name": "horde/hermes",
@@ -363,7 +378,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/hermes.git",
+                    "url": "https://github.com/maintaina-com/hermes.git",
                     "reference": "b49c5025cb3ca70ffa02c179125f9fb71cb6779b"
                 },
                 "dist": {
@@ -428,7 +443,10 @@
                     }
                 ],
                 "description": "Time tracking application",
-                "homepage": "https://www.horde.org/apps/hermes"
+                "homepage": "https://www.horde.org/apps/hermes",
+                "support": {
+                    "source": "https://github.com/maintaina-com/hermes/tree/horde-upstream"
+                }
             },
             {
                 "name": "horde/hermes",
@@ -436,7 +454,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/hermes.git",
+                    "url": "https://github.com/maintaina-com/hermes.git",
                     "reference": "3546c8936cc34b44ecfe88dd49b45e41630f1769"
                 },
                 "dist": {
@@ -501,7 +519,10 @@
                     }
                 ],
                 "description": "Time tracking application",
-                "homepage": "https://www.horde.org/apps/hermes"
+                "homepage": "https://www.horde.org/apps/hermes",
+                "support": {
+                    "source": "https://github.com/maintaina-com/hermes/tree/maintaina-composerfixed"
+                }
             }
         ]
     }

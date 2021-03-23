@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/beatnik.git",
+                    "url": "https://github.com/maintaina-com/beatnik.git",
                     "reference": "b1a86ff3a336508083f264e2283bfa93fecd038a"
                 },
                 "dist": {
@@ -39,7 +39,10 @@
                     }
                 ],
                 "description": "DNS record management application",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/beatnik/tree/FRAMEWORK_6_0"
+                }
             },
             {
                 "name": "horde/beatnik",
@@ -47,7 +50,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/beatnik.git",
+                    "url": "https://github.com/maintaina-com/beatnik.git",
                     "reference": "763f0e37c1adce88515e958ba8081714d60df8a9"
                 },
                 "dist": {
@@ -73,7 +76,10 @@
                     }
                 ],
                 "description": "DNS record management for Horde",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/beatnik/tree/FRAMEWORK_5_1"
+                }
             },
             {
                 "name": "horde/beatnik",
@@ -81,7 +87,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/beatnik.git",
+                    "url": "https://github.com/maintaina-com/beatnik.git",
                     "reference": "9fed9d4d50367f400d28495c806b2d9eb5b28dc8"
                 },
                 "dist": {
@@ -116,7 +122,10 @@
                     }
                 ],
                 "description": "DNS record management application",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/beatnik/tree/FRAMEWORK_5_2"
+                }
             },
             {
                 "name": "horde/beatnik",
@@ -124,7 +133,7 @@
                 "version_normalized": "dev-FRAMEWORK_6_0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/beatnik.git",
+                    "url": "https://github.com/maintaina-com/beatnik.git",
                     "reference": "b1a86ff3a336508083f264e2283bfa93fecd038a"
                 },
                 "dist": {
@@ -156,7 +165,10 @@
                     }
                 ],
                 "description": "DNS record management application",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/beatnik/tree/FRAMEWORK_6_0"
+                }
             },
             {
                 "name": "horde/beatnik",
@@ -164,7 +176,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/beatnik.git",
+                    "url": "https://github.com/maintaina-com/beatnik.git",
                     "reference": "91553c081c1a709d968779d0b40e82cf93aecd0b"
                 },
                 "dist": {
@@ -199,7 +211,10 @@
                     }
                 ],
                 "description": "DNS record management application",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/beatnik/tree/horde-upstream"
+                }
             },
             {
                 "name": "horde/beatnik",
@@ -207,7 +222,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/beatnik.git",
+                    "url": "https://github.com/maintaina-com/beatnik.git",
                     "reference": "91553c081c1a709d968779d0b40e82cf93aecd0b"
                 },
                 "dist": {
@@ -242,7 +257,10 @@
                     }
                 ],
                 "description": "DNS record management application",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/beatnik/tree/horde-upstream"
+                }
             },
             {
                 "name": "horde/beatnik",
@@ -250,7 +268,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/beatnik.git",
+                    "url": "https://github.com/maintaina-com/beatnik.git",
                     "reference": "15714f49789a287ae60ace9543cd8e86abdc41aa"
                 },
                 "dist": {
@@ -282,7 +300,10 @@
                     }
                 ],
                 "description": "DNS record management application",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/beatnik/tree/maintaina-composerfixed"
+                }
             }
         ]
     }
