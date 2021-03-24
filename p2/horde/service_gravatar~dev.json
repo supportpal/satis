@@ -109,12 +109,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Service_Gravatar.git",
-                    "reference": "9a392d55824600e2e1f2158ba01bb57e2492ef07"
+                    "reference": "0d69ec6379219980cb23b8796465eca0775c72cc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Service_Gravatar/zipball/9a392d55824600e2e1f2158ba01bb57e2492ef07",
-                    "reference": "9a392d55824600e2e1f2158ba01bb57e2492ef07",
+                    "url": "https://api.github.com/repos/maintaina-com/Service_Gravatar/zipball/0d69ec6379219980cb23b8796465eca0775c72cc",
+                    "reference": "0d69ec6379219980cb23b8796465eca0775c72cc",
                     "shasum": ""
                 },
                 "require": {
