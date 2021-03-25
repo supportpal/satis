@@ -8,24 +8,23 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Translation.git",
-                    "reference": "d25b57b8530ab1d2729c0e0311bff8f98f82db6c"
+                    "reference": "6e95510ae7f7273f7a61a0361d43c3f360ea3768"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Translation/zipball/d25b57b8530ab1d2729c0e0311bff8f98f82db6c",
-                    "reference": "d25b57b8530ab1d2729c0e0311bff8f98f82db6c",
+                    "url": "https://api.github.com/repos/maintaina-com/Translation/zipball/6e95510ae7f7273f7a61a0361d43c3f360ea3768",
+                    "reference": "6e95510ae7f7273f7a61a0361d43c3f360ea3768",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/horde-installer-plugin": "dev-master",
-                    "php": "^5.3 || ^7"
+                    "php": "^7"
                 },
                 "suggest": {
                     "ext-gettext": "*",
-                    "horde/test": "^2.1"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2020-10-27T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Translation": "lib/"
@@ -97,12 +96,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Translation.git",
-                    "reference": "23eacec8a8451dcaba1feb217bd433bb3fe2d435"
+                    "reference": "6acf42ad1bc556fedb57b49408cbbceacd19d71a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Translation/zipball/23eacec8a8451dcaba1feb217bd433bb3fe2d435",
-                    "reference": "23eacec8a8451dcaba1feb217bd433bb3fe2d435",
+                    "url": "https://api.github.com/repos/maintaina-com/Translation/zipball/6acf42ad1bc556fedb57b49408cbbceacd19d71a",
+                    "reference": "6acf42ad1bc556fedb57b49408cbbceacd19d71a",
                     "shasum": ""
                 },
                 "require": {
