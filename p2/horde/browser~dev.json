@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Browser.git",
+                    "url": "git@github.com:maintaina-com/Browser.git",
                     "reference": "6242c70d63da8a80d0b7d276ac1dd61929899b84"
                 },
                 "dist": {
@@ -46,10 +46,7 @@
                     }
                 ],
                 "description": "Browser detection library",
-                "homepage": "https://www.horde.org/libraries/Horde_Browser",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Browser/tree/master"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Browser"
             },
             {
                 "name": "horde/browser",
@@ -57,7 +54,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Browser.git",
+                    "url": "git@github.com:maintaina-com/Browser.git",
                     "reference": "fb4f167327e936555062cd46ce749e5eb3dc85ff"
                 },
                 "dist": {
@@ -99,10 +96,7 @@
                     }
                 ],
                 "description": "Browser detection library",
-                "homepage": "https://www.horde.org/libraries/Horde_Browser",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Browser/tree/FRAMEWORK_5_2"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Browser"
             },
             {
                 "name": "horde/browser",
@@ -110,7 +104,7 @@
                 "version_normalized": "dev-FRAMEWORK_6_0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Browser.git",
+                    "url": "git@github.com:maintaina-com/Browser.git",
                     "reference": "62717f3559d0f3b2c5974950b92b56f03a40be16"
                 },
                 "dist": {
@@ -148,10 +142,7 @@
                     }
                 ],
                 "description": "Browser detection library",
-                "homepage": "https://www.horde.org/libraries/Horde_Browser",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Browser/tree/FRAMEWORK_6_0"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Browser"
             },
             {
                 "name": "horde/browser",
@@ -159,7 +150,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Browser.git",
+                    "url": "git@github.com:maintaina-com/Browser.git",
                     "reference": "06320b687632509166929e27469457370dedb3c6"
                 },
                 "dist": {
@@ -201,10 +192,7 @@
                     }
                 ],
                 "description": "Browser detection library",
-                "homepage": "https://www.horde.org/libraries/Horde_Browser",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Browser/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Browser"
             },
             {
                 "name": "horde/browser",
@@ -212,7 +200,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Browser.git",
+                    "url": "git@github.com:maintaina-com/Browser.git",
                     "reference": "06320b687632509166929e27469457370dedb3c6"
                 },
                 "dist": {
@@ -254,10 +242,7 @@
                     }
                 ],
                 "description": "Browser detection library",
-                "homepage": "https://www.horde.org/libraries/Horde_Browser",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Browser/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Browser"
             },
             {
                 "name": "horde/browser",
@@ -265,7 +250,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Browser.git",
+                    "url": "git@github.com:maintaina-com/Browser.git",
                     "reference": "d351db691f573f6abad770fdd3940633bde9609a"
                 },
                 "dist": {
@@ -304,10 +289,7 @@
                     }
                 ],
                 "description": "Browser detection library",
-                "homepage": "https://www.horde.org/libraries/Horde_Browser",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Browser/tree/maintaina-composerfixed"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Browser"
             }
         ]
     }

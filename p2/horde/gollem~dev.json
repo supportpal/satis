@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/gollem.git",
+                    "url": "git@github.com:maintaina-com/gollem.git",
                     "reference": "d10742deb649aadc9ea13781a9b6d1feaae1322a"
                 },
                 "dist": {
@@ -69,10 +69,7 @@
                     }
                 ],
                 "description": "File manager application",
-                "homepage": "https://www.horde.org/apps/gollem",
-                "support": {
-                    "source": "https://github.com/maintaina-com/gollem/tree/FRAMEWORK_6_0"
-                }
+                "homepage": "https://www.horde.org/apps/gollem"
             },
             {
                 "name": "horde/gollem",
@@ -80,7 +77,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/gollem.git",
+                    "url": "git@github.com:maintaina-com/gollem.git",
                     "reference": "d073f32a1ec77e301f0d6b882a836e2e5f138504"
                 },
                 "dist": {
@@ -136,10 +133,7 @@
                     }
                 ],
                 "description": "Web-based file manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/gollem/tree/FRAMEWORK_5_1"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/gollem",
@@ -147,7 +141,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/gollem.git",
+                    "url": "git@github.com:maintaina-com/gollem.git",
                     "reference": "2ffcb2527ee475920a374a7f945e5fee07d69a69"
                 },
                 "dist": {
@@ -212,10 +206,7 @@
                     }
                 ],
                 "description": "File manager application",
-                "homepage": "https://www.horde.org/apps/gollem",
-                "support": {
-                    "source": "https://github.com/maintaina-com/gollem/tree/FRAMEWORK_5_2"
-                }
+                "homepage": "https://www.horde.org/apps/gollem"
             },
             {
                 "name": "horde/gollem",
@@ -223,7 +214,7 @@
                 "version_normalized": "dev-FRAMEWORK_6_0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/gollem.git",
+                    "url": "git@github.com:maintaina-com/gollem.git",
                     "reference": "d10742deb649aadc9ea13781a9b6d1feaae1322a"
                 },
                 "dist": {
@@ -285,10 +276,7 @@
                     }
                 ],
                 "description": "File manager application",
-                "homepage": "https://www.horde.org/apps/gollem",
-                "support": {
-                    "source": "https://github.com/maintaina-com/gollem/tree/FRAMEWORK_6_0"
-                }
+                "homepage": "https://www.horde.org/apps/gollem"
             },
             {
                 "name": "horde/gollem",
@@ -296,7 +284,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/gollem.git",
+                    "url": "git@github.com:maintaina-com/gollem.git",
                     "reference": "1865d7ebc985d0051db7e8b17a981534652499ad"
                 },
                 "dist": {
@@ -361,10 +349,7 @@
                     }
                 ],
                 "description": "File manager application",
-                "homepage": "https://www.horde.org/apps/gollem",
-                "support": {
-                    "source": "https://github.com/maintaina-com/gollem/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org/apps/gollem"
             },
             {
                 "name": "horde/gollem",
@@ -372,7 +357,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/gollem.git",
+                    "url": "git@github.com:maintaina-com/gollem.git",
                     "reference": "1865d7ebc985d0051db7e8b17a981534652499ad"
                 },
                 "dist": {
@@ -437,10 +422,7 @@
                     }
                 ],
                 "description": "File manager application",
-                "homepage": "https://www.horde.org/apps/gollem",
-                "support": {
-                    "source": "https://github.com/maintaina-com/gollem/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org/apps/gollem"
             },
             {
                 "name": "horde/gollem",
@@ -448,7 +430,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/gollem.git",
+                    "url": "git@github.com:maintaina-com/gollem.git",
                     "reference": "515cec96e5752f1aa3e4c106058920afe26674a5"
                 },
                 "dist": {
@@ -510,10 +492,7 @@
                     }
                 ],
                 "description": "File manager application",
-                "homepage": "https://www.horde.org/apps/gollem",
-                "support": {
-                    "source": "https://github.com/maintaina-com/gollem/tree/maintaina-composerfixed"
-                }
+                "homepage": "https://www.horde.org/apps/gollem"
             }
         ]
     }

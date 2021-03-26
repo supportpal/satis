@@ -7,7 +7,7 @@
                 "version_normalized": "3.0.10.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/gollem.git",
+                    "url": "git@github.com:maintaina-com/gollem.git",
                     "reference": "ad5907f2dee98fad39a9a7a67c9dd10a9b098f82"
                 },
                 "dist": {
@@ -63,10 +63,7 @@
                     }
                 ],
                 "description": "Web-based file manager",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/gollem/tree/v3.0.10"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/gollem",
@@ -74,7 +71,7 @@
                 "version_normalized": "3.0.11.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/gollem.git",
+                    "url": "git@github.com:maintaina-com/gollem.git",
                     "reference": "1c867bdbab607f86bdc2788e902b43180d29538a"
                 },
                 "dist": {
@@ -139,10 +136,7 @@
                     }
                 ],
                 "description": "Web-based file manager",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/gollem/tree/v3.0.11"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/gollem",
@@ -150,7 +144,7 @@
                 "version_normalized": "3.0.12.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/gollem.git",
+                    "url": "git@github.com:maintaina-com/gollem.git",
                     "reference": "0ce9a7c213d46c1243129c0cf77737dad47115fa"
                 },
                 "dist": {
@@ -215,10 +209,7 @@
                     }
                 ],
                 "description": "Web-based file manager",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/gollem/tree/v3.0.12"
-                }
+                "homepage": "https://pear.horde.org"
             },
             {
                 "name": "horde/gollem",
@@ -226,7 +217,7 @@
                 "version_normalized": "3.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/gollem.git",
+                    "url": "git@github.com:maintaina-com/gollem.git",
                     "reference": "4da09ab3d1673b172bb462946d9472431d8942e8"
                 },
                 "dist": {
@@ -282,10 +273,7 @@
                     }
                 ],
                 "description": "Web-based file manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/gollem/tree/v3.0.2"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/gollem",
@@ -293,7 +281,7 @@
                 "version_normalized": "3.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/gollem.git",
+                    "url": "git@github.com:maintaina-com/gollem.git",
                     "reference": "5eebb9bf37ed4e9f7cd6cb9d4af687f3e5884a3b"
                 },
                 "dist": {
@@ -349,10 +337,7 @@
                     }
                 ],
                 "description": "Web-based file manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/gollem/tree/v3.0.3"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/gollem",
@@ -360,7 +345,7 @@
                 "version_normalized": "3.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/gollem.git",
+                    "url": "git@github.com:maintaina-com/gollem.git",
                     "reference": "64e87b61c9c112c4f97914b383f0fcc00a7daa2a"
                 },
                 "dist": {
@@ -416,10 +401,7 @@
                     }
                 ],
                 "description": "Web-based file manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/gollem/tree/v3.0.4"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/gollem",
@@ -427,7 +409,7 @@
                 "version_normalized": "3.0.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/gollem.git",
+                    "url": "git@github.com:maintaina-com/gollem.git",
                     "reference": "9f237859e6affb73e4ba7c37b20390b0a3f592cd"
                 },
                 "dist": {
@@ -483,10 +465,7 @@
                     }
                 ],
                 "description": "Web-based file manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/gollem/tree/v3.0.5"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/gollem",
@@ -494,7 +473,7 @@
                 "version_normalized": "3.0.6.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/gollem.git",
+                    "url": "git@github.com:maintaina-com/gollem.git",
                     "reference": "3e0592ad089e80788d9256b89e01b37f15ad93df"
                 },
                 "dist": {
@@ -550,10 +529,7 @@
                     }
                 ],
                 "description": "Web-based file manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/gollem/tree/v3.0.6"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/gollem",
@@ -561,7 +537,7 @@
                 "version_normalized": "3.0.7.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/gollem.git",
+                    "url": "git@github.com:maintaina-com/gollem.git",
                     "reference": "0518a6601d2c0e345104b85a525a78746222bfa3"
                 },
                 "dist": {
@@ -617,10 +593,7 @@
                     }
                 ],
                 "description": "Web-based file manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/gollem/tree/v3.0.7"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/gollem",
@@ -628,7 +601,7 @@
                 "version_normalized": "3.0.8.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/gollem.git",
+                    "url": "git@github.com:maintaina-com/gollem.git",
                     "reference": "2e18b13d280068314dad0d89ccb53bf9f9668d70"
                 },
                 "dist": {
@@ -684,10 +657,7 @@
                     }
                 ],
                 "description": "Web-based file manager",
-                "homepage": "http://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/gollem/tree/v3.0.8"
-                }
+                "homepage": "http://pear.horde.org"
             },
             {
                 "name": "horde/gollem",
@@ -695,7 +665,7 @@
                 "version_normalized": "3.0.9.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/gollem.git",
+                    "url": "git@github.com:maintaina-com/gollem.git",
                     "reference": "eb2ffe73d3363b87e9f4d3a1fec2055c52794e15"
                 },
                 "dist": {
@@ -751,10 +721,7 @@
                     }
                 ],
                 "description": "Web-based file manager",
-                "homepage": "https://pear.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/gollem/tree/v3.0.9"
-                }
+                "homepage": "https://pear.horde.org"
             }
         ]
     }

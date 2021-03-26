@@ -7,7 +7,7 @@
                 "version_normalized": "1.0.0.0-alpha2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/hordectl.git",
+                    "url": "git@github.com:maintaina-com/hordectl.git",
                     "reference": "15255c6ce8812fe73c86747cdb568fc61d97daef"
                 },
                 "dist": {
@@ -50,11 +50,7 @@
                     }
                 ],
                 "description": "Scenario deployer library",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/hordectl/tree/v1.0.0alpha2",
-                    "issues": "https://github.com/maintaina-com/hordectl/issues"
-                }
+                "homepage": "https://www.horde.org"
             },
             {
                 "name": "horde/hordectl",
@@ -62,7 +58,7 @@
                 "version_normalized": "1.0.0.0-alpha3",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/hordectl.git",
+                    "url": "git@github.com:maintaina-com/hordectl.git",
                     "reference": "1645e0d7da0d2cc2d7ba6f08014b107445a2fcc6"
                 },
                 "dist": {
@@ -101,11 +97,7 @@
                     }
                 ],
                 "description": "Scenario deployer library",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/hordectl/tree/v1.0.0alpha3",
-                    "issues": "https://github.com/maintaina-com/hordectl/issues"
-                }
+                "homepage": "https://www.horde.org"
             }
         ]
     }

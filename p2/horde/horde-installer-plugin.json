@@ -7,7 +7,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/horde-installer-plugin.git",
+                    "url": "git@github.com:maintaina-com/horde-installer-plugin.git",
                     "reference": "517a12b1160d1aa926a6596ccc2cc30122ce8051"
                 },
                 "dist": {
@@ -34,10 +34,7 @@
                 },
                 "license": [
                     "MIT"
-                ],
-                "support": {
-                    "source": "https://github.com/maintaina-com/horde-installer-plugin/tree/v1.0.0"
-                }
+                ]
             },
             {
                 "name": "horde/horde-installer-plugin",
@@ -45,22 +42,22 @@
                 "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/horde-installer-plugin.git",
-                    "reference": "c8bd0c2f98da3ab7b19823d16aef6ea25b504efe"
+                    "url": "git@github.com:maintaina-com/horde-installer-plugin.git",
+                    "reference": "517a12b1160d1aa926a6596ccc2cc30122ce8051"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/horde-installer-plugin/zipball/c8bd0c2f98da3ab7b19823d16aef6ea25b504efe",
-                    "reference": "c8bd0c2f98da3ab7b19823d16aef6ea25b504efe",
+                    "url": "https://api.github.com/repos/maintaina-com/horde-installer-plugin/zipball/517a12b1160d1aa926a6596ccc2cc30122ce8051",
+                    "reference": "517a12b1160d1aa926a6596ccc2cc30122ce8051",
                     "shasum": ""
                 },
                 "require": {
-                    "composer-plugin-api": "^1.0|~2.0"
+                    "composer-plugin-api": "^1.0"
                 },
                 "require-dev": {
-                    "composer/composer": "^1.3|~2.0"
+                    "composer/composer": "^1.3"
                 },
-                "time": "2020-10-29T07:38:18+00:00",
+                "time": "2020-07-08T05:20:33+00:00",
                 "type": "composer-plugin",
                 "extra": {
                     "class": "Horde\\Composer\\HordeInstallerPlugin"
@@ -72,10 +69,7 @@
                 },
                 "license": [
                     "MIT"
-                ],
-                "support": {
-                    "source": "https://github.com/maintaina-com/horde-installer-plugin/tree/v1.1.0"
-                }
+                ]
             },
             {
                 "name": "horde/horde-installer-plugin",
@@ -83,22 +77,22 @@
                 "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/horde-installer-plugin.git",
-                    "reference": "5e2cd14db411635d7e3e9613953a58f178eac44e"
+                    "url": "git@github.com:maintaina-com/horde-installer-plugin.git",
+                    "reference": "517a12b1160d1aa926a6596ccc2cc30122ce8051"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/horde-installer-plugin/zipball/5e2cd14db411635d7e3e9613953a58f178eac44e",
-                    "reference": "5e2cd14db411635d7e3e9613953a58f178eac44e",
+                    "url": "https://api.github.com/repos/maintaina-com/horde-installer-plugin/zipball/517a12b1160d1aa926a6596ccc2cc30122ce8051",
+                    "reference": "517a12b1160d1aa926a6596ccc2cc30122ce8051",
                     "shasum": ""
                 },
                 "require": {
-                    "composer-plugin-api": "^1.0|~2.0"
+                    "composer-plugin-api": "^1.0"
                 },
                 "require-dev": {
-                    "composer/composer": "^1.3|~2.0"
+                    "composer/composer": "^1.3"
                 },
-                "time": "2021-03-15T21:05:45+00:00",
+                "time": "2020-07-08T05:20:33+00:00",
                 "type": "composer-plugin",
                 "extra": {
                     "class": "Horde\\Composer\\HordeInstallerPlugin"
@@ -110,10 +104,7 @@
                 },
                 "license": [
                     "MIT"
-                ],
-                "support": {
-                    "source": "https://github.com/maintaina-com/horde-installer-plugin/tree/v1.1.1"
-                }
+                ]
             }
         ]
     }

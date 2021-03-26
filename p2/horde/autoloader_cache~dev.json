@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Autoloader_Cache.git",
+                    "url": "git@github.com:maintaina-com/Autoloader_Cache.git",
                     "reference": "6b63a4a3f55cf66bf08a272ee4ea3412700532fa"
                 },
                 "dist": {
@@ -55,10 +55,7 @@
                     }
                 ],
                 "description": "Caching library for Horde_Autoloader",
-                "homepage": "https://www.horde.org/libraries/Horde_Autoloader_Cache",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Autoloader_Cache/tree/FRAMEWORK_6_0"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Autoloader_Cache"
             },
             {
                 "name": "horde/autoloader_cache",
@@ -66,7 +63,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Autoloader_Cache.git",
+                    "url": "git@github.com:maintaina-com/Autoloader_Cache.git",
                     "reference": "44bc64c83cb89cc5c36221761fc861580662136b"
                 },
                 "dist": {
@@ -115,10 +112,7 @@
                     }
                 ],
                 "description": "Caching library for Horde_Autoloader",
-                "homepage": "https://www.horde.org/libraries/Horde_Autoloader_Cache",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Autoloader_Cache/tree/FRAMEWORK_5_2"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Autoloader_Cache"
             },
             {
                 "name": "horde/autoloader_cache",
@@ -126,7 +120,7 @@
                 "version_normalized": "dev-FRAMEWORK_6_0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Autoloader_Cache.git",
+                    "url": "git@github.com:maintaina-com/Autoloader_Cache.git",
                     "reference": "6b63a4a3f55cf66bf08a272ee4ea3412700532fa"
                 },
                 "dist": {
@@ -174,10 +168,7 @@
                     }
                 ],
                 "description": "Caching library for Horde_Autoloader",
-                "homepage": "https://www.horde.org/libraries/Horde_Autoloader_Cache",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Autoloader_Cache/tree/FRAMEWORK_6_0"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Autoloader_Cache"
             },
             {
                 "name": "horde/autoloader_cache",
@@ -185,7 +176,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Autoloader_Cache.git",
+                    "url": "git@github.com:maintaina-com/Autoloader_Cache.git",
                     "reference": "a90beaa3c5b2f16fc32341eff023eb5235a0692f"
                 },
                 "dist": {
@@ -234,10 +225,7 @@
                     }
                 ],
                 "description": "Caching library for Horde_Autoloader",
-                "homepage": "https://www.horde.org/libraries/Horde_Autoloader_Cache",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Autoloader_Cache/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Autoloader_Cache"
             },
             {
                 "name": "horde/autoloader_cache",
@@ -245,7 +233,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Autoloader_Cache.git",
+                    "url": "git@github.com:maintaina-com/Autoloader_Cache.git",
                     "reference": "a90beaa3c5b2f16fc32341eff023eb5235a0692f"
                 },
                 "dist": {
@@ -294,10 +282,7 @@
                     }
                 ],
                 "description": "Caching library for Horde_Autoloader",
-                "homepage": "https://www.horde.org/libraries/Horde_Autoloader_Cache",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Autoloader_Cache/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Autoloader_Cache"
             },
             {
                 "name": "horde/autoloader_cache",
@@ -305,7 +290,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/Autoloader_Cache.git",
+                    "url": "git@github.com:maintaina-com/Autoloader_Cache.git",
                     "reference": "fad5cb7714774978254d5d98ea2a366c3740cc78"
                 },
                 "dist": {
@@ -354,10 +339,7 @@
                     }
                 ],
                 "description": "Caching library for Horde_Autoloader",
-                "homepage": "https://www.horde.org/libraries/Horde_Autoloader_Cache",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Autoloader_Cache/tree/maintaina-composerfixed"
-                }
+                "homepage": "https://www.horde.org/libraries/Horde_Autoloader_Cache"
             }
         ]
     }

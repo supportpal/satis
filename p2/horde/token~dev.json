@@ -119,12 +119,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Token.git",
-                    "reference": "dac1da542c998f1d7e61f52c5a5c41da4f2325ba"
+                    "reference": "7f3102a9b86c3b81a33b97ae33e5da48a8bfdb25"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Token/zipball/dac1da542c998f1d7e61f52c5a5c41da4f2325ba",
-                    "reference": "dac1da542c998f1d7e61f52c5a5c41da4f2325ba",
+                    "url": "https://api.github.com/repos/maintaina-com/Token/zipball/7f3102a9b86c3b81a33b97ae33e5da48a8bfdb25",
+                    "reference": "7f3102a9b86c3b81a33b97ae33e5da48a8bfdb25",
                     "shasum": ""
                 },
                 "require": {

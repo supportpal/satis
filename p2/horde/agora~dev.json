@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/agora.git",
+                    "url": "git@github.com:maintaina-com/agora.git",
                     "reference": "6757aa933848b40cb52da6db73a9f5214aa69a95"
                 },
                 "dist": {
@@ -41,10 +41,7 @@
                     }
                 ],
                 "description": "Forum application",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/agora/tree/FRAMEWORK_6_0"
-                }
+                "homepage": "https://www.horde.org"
             },
             {
                 "name": "horde/agora",
@@ -52,7 +49,7 @@
                 "version_normalized": "dev-FRAMEWORK_6_0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/agora.git",
+                    "url": "git@github.com:maintaina-com/agora.git",
                     "reference": "6757aa933848b40cb52da6db73a9f5214aa69a95"
                 },
                 "dist": {
@@ -86,10 +83,7 @@
                     }
                 ],
                 "description": "Forum application",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/agora/tree/FRAMEWORK_6_0"
-                }
+                "homepage": "https://www.horde.org"
             },
             {
                 "name": "horde/agora",
@@ -97,7 +91,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/agora.git",
+                    "url": "git@github.com:maintaina-com/agora.git",
                     "reference": "51b01c0e841cad2e5294e3fc0855b3af2d307d68"
                 },
                 "dist": {
@@ -131,10 +125,7 @@
                     }
                 ],
                 "description": "Forum application",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/agora/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org"
             },
             {
                 "name": "horde/agora",
@@ -142,7 +133,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/agora.git",
+                    "url": "git@github.com:maintaina-com/agora.git",
                     "reference": "51b01c0e841cad2e5294e3fc0855b3af2d307d68"
                 },
                 "dist": {
@@ -176,10 +167,7 @@
                     }
                 ],
                 "description": "Forum application",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/agora/tree/horde-upstream"
-                }
+                "homepage": "https://www.horde.org"
             },
             {
                 "name": "horde/agora",
@@ -187,7 +175,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/maintaina-com/agora.git",
+                    "url": "git@github.com:maintaina-com/agora.git",
                     "reference": "92a5f3472f28c87bab00ab73911a6db79f42a9e4"
                 },
                 "dist": {
@@ -218,10 +206,7 @@
                     }
                 ],
                 "description": "Forum application",
-                "homepage": "https://www.horde.org",
-                "support": {
-                    "source": "https://github.com/maintaina-com/agora/tree/maintaina-composerfixed"
-                }
+                "homepage": "https://www.horde.org"
             }
         ]
     }
