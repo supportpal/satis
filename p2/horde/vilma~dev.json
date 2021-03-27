@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/vilma.git",
+                    "url": "https://github.com/maintaina-com/vilma.git",
                     "reference": "20633077ed98078994f95f22a773fdd4e0d55af3"
                 },
                 "dist": {
@@ -44,7 +44,10 @@
                     }
                 ],
                 "description": "Domain and user administration application",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/vilma/tree/master"
+                }
             },
             {
                 "name": "horde/vilma",
@@ -52,7 +55,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/vilma.git",
+                    "url": "https://github.com/maintaina-com/vilma.git",
                     "reference": "63e51fc1dd01f22c95ca0f1a6183dfb380988b73"
                 },
                 "dist": {
@@ -86,7 +89,10 @@
                     }
                 ],
                 "description": "Domain and user administration application",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/vilma/tree/horde-upstream"
+                }
             },
             {
                 "name": "horde/vilma",
@@ -94,7 +100,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/vilma.git",
+                    "url": "https://github.com/maintaina-com/vilma.git",
                     "reference": "63e51fc1dd01f22c95ca0f1a6183dfb380988b73"
                 },
                 "dist": {
@@ -128,7 +134,10 @@
                     }
                 ],
                 "description": "Domain and user administration application",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/vilma/tree/horde-upstream"
+                }
             },
             {
                 "name": "horde/vilma",
@@ -136,7 +145,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/vilma.git",
+                    "url": "https://github.com/maintaina-com/vilma.git",
                     "reference": "4dfa2d7d1f0043a8e1de8fba8fbd0c0216abf72b"
                 },
                 "dist": {
@@ -170,7 +179,10 @@
                     }
                 ],
                 "description": "Domain and user administration application",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/vilma/tree/maintaina-composerfixed"
+                }
             }
         ]
     }

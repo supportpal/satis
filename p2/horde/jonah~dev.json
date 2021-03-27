@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/jonah.git",
+                    "url": "https://github.com/maintaina-com/jonah.git",
                     "reference": "f9fa3dfdfed74b2f8d898954bd8d0710ec6aea9c"
                 },
                 "dist": {
@@ -46,7 +46,10 @@
                     }
                 ],
                 "description": "Newsfeed application",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/jonah/tree/FRAMEWORK_6_0"
+                }
             },
             {
                 "name": "horde/jonah",
@@ -54,7 +57,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/jonah.git",
+                    "url": "https://github.com/maintaina-com/jonah.git",
                     "reference": "da12bb6fb84551beb24dcd02911ee390e2bb6c81"
                 },
                 "dist": {
@@ -85,7 +88,10 @@
                     }
                 ],
                 "description": "Jonah is an application for handling news.",
-                "homepage": "http://pear.horde.org"
+                "homepage": "http://pear.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/jonah/tree/FRAMEWORK_5_1"
+                }
             },
             {
                 "name": "horde/jonah",
@@ -93,7 +99,7 @@
                 "version_normalized": "dev-FRAMEWORK_5_2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/jonah.git",
+                    "url": "https://github.com/maintaina-com/jonah.git",
                     "reference": "6879c4cd921f9e813c6834a5c523e2600ef1c9af"
                 },
                 "dist": {
@@ -133,7 +139,10 @@
                     }
                 ],
                 "description": "Newsfeed application",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/jonah/tree/FRAMEWORK_5_2"
+                }
             },
             {
                 "name": "horde/jonah",
@@ -141,7 +150,7 @@
                 "version_normalized": "dev-FRAMEWORK_6_0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/jonah.git",
+                    "url": "https://github.com/maintaina-com/jonah.git",
                     "reference": "f9fa3dfdfed74b2f8d898954bd8d0710ec6aea9c"
                 },
                 "dist": {
@@ -180,7 +189,10 @@
                     }
                 ],
                 "description": "Newsfeed application",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/jonah/tree/FRAMEWORK_6_0"
+                }
             },
             {
                 "name": "horde/jonah",
@@ -188,7 +200,7 @@
                 "version_normalized": "dev-horde-upstream",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/jonah.git",
+                    "url": "https://github.com/maintaina-com/jonah.git",
                     "reference": "740bfd8d81ec2f0798c5b81d10b2c76d382545bb"
                 },
                 "dist": {
@@ -228,7 +240,10 @@
                     }
                 ],
                 "description": "Newsfeed application",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/jonah/tree/horde-upstream"
+                }
             },
             {
                 "name": "horde/jonah",
@@ -236,7 +251,7 @@
                 "version_normalized": "dev-maintaina-bare",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/jonah.git",
+                    "url": "https://github.com/maintaina-com/jonah.git",
                     "reference": "740bfd8d81ec2f0798c5b81d10b2c76d382545bb"
                 },
                 "dist": {
@@ -276,7 +291,10 @@
                     }
                 ],
                 "description": "Newsfeed application",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/jonah/tree/horde-upstream"
+                }
             },
             {
                 "name": "horde/jonah",
@@ -284,7 +302,7 @@
                 "version_normalized": "dev-maintaina-composerfixed",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/jonah.git",
+                    "url": "https://github.com/maintaina-com/jonah.git",
                     "reference": "7192ec29570648c2493d101a0f51c8efbc4e0a4b"
                 },
                 "dist": {
@@ -321,7 +339,10 @@
                     }
                 ],
                 "description": "Newsfeed application",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/jonah/tree/maintaina-composerfixed"
+                }
             }
         ]
     }

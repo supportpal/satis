@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/horde-deployment.git",
+                    "url": "https://github.com/maintaina-com/horde-deployment.git",
                     "reference": "ae8c8f4c7baf83a109efc70fd7c9862970e4432b"
                 },
                 "dist": {
@@ -45,7 +45,10 @@
                         "email": "lang@b1-systems.de"
                     }
                 ],
-                "description": "A base project for a horde installation"
+                "description": "A base project for a horde installation",
+                "support": {
+                    "source": "https://github.com/maintaina-com/horde-deployment/tree/master"
+                }
             },
             {
                 "name": "horde/bundle",
@@ -53,7 +56,7 @@
                 "version_normalized": "dev-FRAMEWORK_6_0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/horde-deployment.git",
+                    "url": "https://github.com/maintaina-com/horde-deployment.git",
                     "reference": "d5300867b6df048ded8ffdffe109a5284eaae0d2"
                 },
                 "dist": {
@@ -91,7 +94,10 @@
                         "email": "lang@b1-systems.de"
                     }
                 ],
-                "description": "A base project for a horde installation"
+                "description": "A base project for a horde installation",
+                "support": {
+                    "source": "https://github.com/maintaina-com/horde-deployment/tree/FRAMEWORK_6_0"
+                }
             },
             {
                 "name": "horde/bundle",
@@ -99,7 +105,7 @@
                 "version_normalized": "dev-FRAMEWORK_6_0_GROUPWARE",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/horde-deployment.git",
+                    "url": "https://github.com/maintaina-com/horde-deployment.git",
                     "reference": "35792d735943a2ef9c18d5071a832e8d4162fc94"
                 },
                 "dist": {
@@ -144,7 +150,10 @@
                         "email": "lang@b1-systems.de"
                     }
                 ],
-                "description": "A base project for a horde installation"
+                "description": "A base project for a horde installation",
+                "support": {
+                    "source": "https://github.com/maintaina-com/horde-deployment/tree/FRAMEWORK_6_0_GROUPWARE"
+                }
             },
             {
                 "name": "horde/bundle",
@@ -152,7 +161,7 @@
                 "version_normalized": "dev-developer-downstream",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/horde-deployment.git",
+                    "url": "https://github.com/maintaina-com/horde-deployment.git",
                     "reference": "9b3ad2a5a814f7e5db03e25982bcd75972757b92"
                 },
                 "dist": {
@@ -178,7 +187,7 @@
                 "require-dev": {
                     "squizlabs/php_codesniffer": "^3.4"
                 },
-                "time": "2019-11-24T11:16:52+00:00",
+                "time": "2019-11-24T11:18:17+00:00",
                 "type": "project",
                 "extra": {
                     "installer-types": [
@@ -195,7 +204,10 @@
                         "email": "lang@b1-systems.de"
                     }
                 ],
-                "description": "A bundle of horde"
+                "description": "A bundle of horde",
+                "support": {
+                    "source": "https://github.com/maintaina-com/horde-deployment/tree/developer-downstream"
+                }
             }
         ]
     }
