@@ -51,11 +51,5 @@
   },
   "require-all": false,
   "require-dependencies": true,
-  "require-dev-dependencies": true,
-  "archive": {
-    "directory": "dist",
-    "format": "tar",
-    "prefix-url": "https://supportpal.github.io/satis/",
-    "skip-dev": true
-  }
+  "require-dev-dependencies": true
 }
