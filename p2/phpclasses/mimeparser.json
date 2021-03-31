@@ -7,7 +7,8 @@
                 "version_normalized": "1.85.0.0",
                 "dist": {
                     "type": "zip",
-                    "url": "https://www.phpclasses.org/install/package/mimeparser.zip"
+                    "url": "https://raw.githubusercontent.com/supportpal/satis/main/packages/phpclasses/mimeparser/mimeparser-1.85.0.zip",
+                    "shasum": "9ad6ada0ac29e783f6e7a4bcb47b00dd912b6a33"
                 },
                 "type": "library",
                 "autoload": {
