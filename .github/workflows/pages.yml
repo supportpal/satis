@@ -29,7 +29,6 @@ jobs:
       - name: Install dependencies
         run: |
           composer -g config github-oauth.github.com ${{ secrets.GITHUB_TOKEN }}
-          composer -g config http-basic.www.phpclasses.org ${{ secrets.PHPCLASSES_USER }} ${{ secrets.PHPCLASSES_PASS }}
           composer install --prefer-dist --no-interaction --no-progress
 
       - name: Build satis
