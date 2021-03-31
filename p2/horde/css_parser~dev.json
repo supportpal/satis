@@ -95,12 +95,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Css_Parser.git",
-                    "reference": "e12c2e7175b49cd2336f39990070d66e98e082bc"
+                    "reference": "7654c18e73a0dbd20ec973e71034536aec103292"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Css_Parser/zipball/e12c2e7175b49cd2336f39990070d66e98e082bc",
-                    "reference": "e12c2e7175b49cd2336f39990070d66e98e082bc",
+                    "url": "https://api.github.com/repos/maintaina-com/Css_Parser/zipball/7654c18e73a0dbd20ec973e71034536aec103292",
+                    "reference": "7654c18e73a0dbd20ec973e71034536aec103292",
                     "shasum": ""
                 },
                 "require": {

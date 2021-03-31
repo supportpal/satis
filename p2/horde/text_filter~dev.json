@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Text_Filter.git",
-                    "reference": "7def265b49edd7270d4f8efc037cb5bb8b09e555"
+                    "reference": "57bbfcbe2183407a47c52e40adc714641fc80277"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/7def265b49edd7270d4f8efc037cb5bb8b09e555",
-                    "reference": "7def265b49edd7270d4f8efc037cb5bb8b09e555",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/57bbfcbe2183407a47c52e40adc714641fc80277",
+                    "reference": "57bbfcbe2183407a47c52e40adc714641fc80277",
                     "shasum": ""
                 },
                 "require": {
@@ -129,12 +129,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:maintaina-com/Text_Filter.git",
-                    "reference": "5c2d24f71cc34b42f2241968d3899043959c520d"
+                    "reference": "e8a3d4147c1c824e5ad148218e7663fa72d42bc2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/5c2d24f71cc34b42f2241968d3899043959c520d",
-                    "reference": "5c2d24f71cc34b42f2241968d3899043959c520d",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/e8a3d4147c1c824e5ad148218e7663fa72d42bc2",
+                    "reference": "e8a3d4147c1c824e5ad148218e7663fa72d42bc2",
                     "shasum": ""
                 },
                 "require": {

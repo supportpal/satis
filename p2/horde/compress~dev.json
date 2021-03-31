@@ -149,12 +149,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Compress.git",
-                    "reference": "41fa7d178f0341167e6a6565cc42d75b86e28f43"
+                    "reference": "753518c11c03e475aecc630f13b9381795351517"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Compress/zipball/41fa7d178f0341167e6a6565cc42d75b86e28f43",
-                    "reference": "41fa7d178f0341167e6a6565cc42d75b86e28f43",
+                    "url": "https://api.github.com/repos/maintaina-com/Compress/zipball/753518c11c03e475aecc630f13b9381795351517",
+                    "reference": "753518c11c03e475aecc630f13b9381795351517",
                     "shasum": ""
                 },
                 "require": {

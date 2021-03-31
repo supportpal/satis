@@ -3,8 +3,8 @@
         "phpclasses/crud-tools": [
             {
                 "name": "phpclasses/crud-tools",
-                "version": "0.0.17",
-                "version_normalized": "0.0.17.0",
+                "version": "0.0.18",
+                "version_normalized": "0.0.18.0",
                 "dist": {
                     "type": "zip",
                     "url": "https://www.phpclasses.org/install/package/crud-tools.zip"
@@ -14,6 +14,13 @@
                     "spatie/laravel-activitylog": "^3.1"
                 },
                 "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Thiagoprz\\CrudTools\\CrudToolsServiceProvider"
+                        ]
+                    }
+                },
                 "autoload": {
                     "classmap": [
                         "src/"

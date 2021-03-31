@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "phpclasses/osmroute": [
+            {
+                "name": "phpclasses/osmroute",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.phpclasses.org/install/package/osmroute.zip"
+                },
+                "require": {
+                    "phpclasses/osmsearch": "1.0.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "lib/OSMap/OSMapOpenRoute.php",
+                        "lib/OSMap/OSMapOpenRouteStep.php",
+                        "lib/OSMap/OSMapPoint.php"
+                    ]
+                }
+            }
+        ]
+    }
+}
