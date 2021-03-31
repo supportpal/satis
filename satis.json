@@ -4,6 +4,9 @@
   "include-filename": "all.json",
   "repositories": [
     {
+      "packagist.org": false
+    },
+    {
       "type": "package",
       "package": {
         "name": "horde/horde-installer-plugin",
