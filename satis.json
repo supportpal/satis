@@ -42,5 +42,14 @@
       "url": "https://github.com/bytestream/laravel-ide-helper.git"
     }
   ],
-  "require-all": true
+  "require": {
+    "andywer/js-localization": "*",
+    "barryvdh/laravel-ide-helper": "*",
+    "horde/horde-installer-plugin": "dev-master",
+    "horde/imap_client": "dev-master",
+    "phpclasses/mimeparser": "*"
+  },
+  "require-all": false,
+  "require-dependencies": true,
+  "require-dev-dependencies": true
 }
