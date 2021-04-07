@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Exception.git",
+                    "url": "https://github.com/maintaina-com/Exception.git",
                     "reference": "454c247ac3efe6da777bbf8175b4fa50688155ed"
                 },
                 "dist": {
@@ -52,7 +52,10 @@
                     }
                 ],
                 "description": "Exception handler library",
-                "homepage": "https://www.horde.org/libraries/Horde_Exception"
+                "homepage": "https://www.horde.org/libraries/Horde_Exception",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Exception/tree/master"
+                }
             },
             {
                 "name": "horde/exception",
@@ -60,7 +63,7 @@
                 "version_normalized": "dev-FRAMEWORK_6_0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Exception.git",
+                    "url": "https://github.com/maintaina-com/Exception.git",
                     "reference": "09a4c2d438848ba27a2e5af9a722953b4a9bccaf"
                 },
                 "dist": {
@@ -104,7 +107,10 @@
                     }
                 ],
                 "description": "Exception handler library",
-                "homepage": "https://www.horde.org/libraries/Horde_Exception"
+                "homepage": "https://www.horde.org/libraries/Horde_Exception",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Exception/tree/FRAMEWORK_6_0"
+                }
             }
         ]
     }

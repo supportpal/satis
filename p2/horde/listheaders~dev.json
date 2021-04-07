@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/ListHeaders.git",
+                    "url": "https://github.com/maintaina-com/ListHeaders.git",
                     "reference": "037295f76507bec1ccb2c33a1053bd0a8c9dbd43"
                 },
                 "dist": {
@@ -45,7 +45,10 @@
                     }
                 ],
                 "description": "List headers parsing library",
-                "homepage": "https://www.horde.org/libraries/Horde_ListHeaders"
+                "homepage": "https://www.horde.org/libraries/Horde_ListHeaders",
+                "support": {
+                    "source": "https://github.com/maintaina-com/ListHeaders/tree/master"
+                }
             }
         ]
     }

@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Stream_Filter.git",
+                    "url": "https://github.com/maintaina-com/Stream_Filter.git",
                     "reference": "6bc65593d48933218b61604c623e3a1c28a75da3"
                 },
                 "dist": {
@@ -46,7 +46,10 @@
                     }
                 ],
                 "description": "PHP stream filters library",
-                "homepage": "https://www.horde.org/libraries/Horde_Stream_Filter"
+                "homepage": "https://www.horde.org/libraries/Horde_Stream_Filter",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Stream_Filter/tree/master"
+                }
             }
         ]
     }

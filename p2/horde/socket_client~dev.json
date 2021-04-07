@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Socket_Client.git",
+                    "url": "https://github.com/maintaina-com/Socket_Client.git",
                     "reference": "601fbe771f9d08a973a4fe325448dfba9dfa74e8"
                 },
                 "dist": {
@@ -42,7 +42,10 @@
                     }
                 ],
                 "description": "Network socket client library",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Socket_Client/tree/master"
+                }
             }
         ]
     }

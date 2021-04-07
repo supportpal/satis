@@ -7,7 +7,7 @@
                 "version_normalized": "3.0.0.0-alpha1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Util.git",
+                    "url": "https://github.com/maintaina-com/Util.git",
                     "reference": "00e463179e933005fb04007b1613c5ca830d83f3"
                 },
                 "dist": {
@@ -60,7 +60,10 @@
                     }
                 ],
                 "description": "Utility library",
-                "homepage": "https://www.horde.org/libraries/Horde_Util"
+                "homepage": "https://www.horde.org/libraries/Horde_Util",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Util/tree/v3.0.0alpha1"
+                }
             },
             {
                 "name": "horde/util",
@@ -68,7 +71,7 @@
                 "version_normalized": "3.0.0.0-alpha3",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Util.git",
+                    "url": "https://github.com/maintaina-com/Util.git",
                     "reference": "cc48f1bf9718aa25a664dfb5be92aeca8d1b198b"
                 },
                 "dist": {
@@ -120,7 +123,10 @@
                     }
                 ],
                 "description": "Utility library",
-                "homepage": "https://www.horde.org/libraries/Horde_Util"
+                "homepage": "https://www.horde.org/libraries/Horde_Util",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Util/tree/v3.0.0alpha3"
+                }
             }
         ]
     }

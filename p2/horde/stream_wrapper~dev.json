@@ -7,13 +7,13 @@
                 "version_normalized": "dev-FRAMEWORK_6_0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Stream_Wrapper.git",
-                    "reference": "4e5ae68dc64ccf4e07d9a86cc041744f79d9908a"
+                    "url": "https://github.com/maintaina-com/Stream_Wrapper.git",
+                    "reference": "48ff6ce3cec79d22fdf5b0756d0165aaf5176391"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Stream_Wrapper/zipball/4e5ae68dc64ccf4e07d9a86cc041744f79d9908a",
-                    "reference": "4e5ae68dc64ccf4e07d9a86cc041744f79d9908a",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream_Wrapper/zipball/48ff6ce3cec79d22fdf5b0756d0165aaf5176391",
+                    "reference": "48ff6ce3cec79d22fdf5b0756d0165aaf5176391",
                     "shasum": ""
                 },
                 "require": {
@@ -45,7 +45,10 @@
                     }
                 ],
                 "description": "PHP stream wrappers library",
-                "homepage": "https://www.horde.org/libraries/Horde_Stream_Wrapper"
+                "homepage": "https://www.horde.org/libraries/Horde_Stream_Wrapper",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Stream_Wrapper/tree/FRAMEWORK_6_0"
+                }
             }
         ]
     }

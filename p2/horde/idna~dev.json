@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Idna.git",
+                    "url": "https://github.com/maintaina-com/Idna.git",
                     "reference": "9f578fcfb04c12505f54f40c84d989005f497060"
                 },
                 "dist": {
@@ -43,7 +43,10 @@
                     }
                 ],
                 "description": "IDNA normalization library",
-                "homepage": "https://www.horde.org"
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Idna/tree/master"
+                }
             }
         ]
     }

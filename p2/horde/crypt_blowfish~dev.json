@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Crypt_Blowfish.git",
+                    "url": "https://github.com/maintaina-com/Crypt_Blowfish.git",
                     "reference": "8cc466513176d4a8abc0780d24e421b4c4125276"
                 },
                 "dist": {
@@ -45,7 +45,10 @@
                     }
                 ],
                 "description": "Blowfish encryption library",
-                "homepage": "https://www.horde.org/libraries/Horde_Crypt_Blowfish"
+                "homepage": "https://www.horde.org/libraries/Horde_Crypt_Blowfish",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Crypt_Blowfish/tree/master"
+                }
             }
         ]
     }

@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Imap_Client.git",
+                    "url": "https://github.com/maintaina-com/Imap_Client.git",
                     "reference": "4221e945c4f394fd1088d8b9d28b038c7b4c9617"
                 },
                 "dist": {
@@ -63,7 +63,10 @@
                     }
                 ],
                 "description": "IMAP client library",
-                "homepage": "https://www.horde.org/libraries/Horde_Imap_Client"
+                "homepage": "https://www.horde.org/libraries/Horde_Imap_Client",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Imap_Client/tree/master"
+                }
             }
         ]
     }

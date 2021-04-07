@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Stream.git",
+                    "url": "https://github.com/maintaina-com/Stream.git",
                     "reference": "2f4c5ffde3d32938031b1733ea086d1f018bedba"
                 },
                 "dist": {
@@ -44,7 +44,10 @@
                     }
                 ],
                 "description": "PHP streams library",
-                "homepage": "https://www.horde.org/libraries/Horde_Stream"
+                "homepage": "https://www.horde.org/libraries/Horde_Stream",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Stream/tree/master"
+                }
             }
         ]
     }

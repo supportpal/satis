@@ -7,7 +7,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Util.git",
+                    "url": "https://github.com/maintaina-com/Util.git",
                     "reference": "de4291cf56f55f034e3c7ac12e92e5a76dfc5783"
                 },
                 "dist": {
@@ -60,7 +60,10 @@
                     }
                 ],
                 "description": "Utility library",
-                "homepage": "https://www.horde.org/libraries/Horde_Util"
+                "homepage": "https://www.horde.org/libraries/Horde_Util",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Util/tree/master"
+                }
             },
             {
                 "name": "horde/util",
@@ -68,21 +71,21 @@
                 "version_normalized": "dev-FRAMEWORK_6_0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:maintaina-com/Util.git",
-                    "reference": "88d0875429419b784ab6e634cfe9bdd8c98eb64a"
+                    "url": "https://github.com/maintaina-com/Util.git",
+                    "reference": "c65d6f2b020d83e0d577f6774912f06c34540d13"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Util/zipball/88d0875429419b784ab6e634cfe9bdd8c98eb64a",
-                    "reference": "88d0875429419b784ab6e634cfe9bdd8c98eb64a",
+                    "url": "https://api.github.com/repos/maintaina-com/Util/zipball/c65d6f2b020d83e0d577f6774912f06c34540d13",
+                    "reference": "c65d6f2b020d83e0d577f6774912f06c34540d13",
                     "shasum": ""
                 },
                 "require": {
-                    "ext-dom": "*",
                     "php": "^7"
                 },
                 "suggest": {
                     "ext-ctype": "*",
+                    "ext-dom": "*",
                     "ext-filter": "*",
                     "ext-iconv": "*",
                     "ext-intl": "*",
@@ -90,6 +93,7 @@
                     "ext-mbstring": "*",
                     "ext-xml": "*",
                     "horde/imap_client": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/support": "^3 || dev-FRAMEWORK_6_0",
                     "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
                 "time": "2021-03-13T00:00:00+00:00",
@@ -120,7 +124,10 @@
                     }
                 ],
                 "description": "Utility library",
-                "homepage": "https://www.horde.org/libraries/Horde_Util"
+                "homepage": "https://www.horde.org/libraries/Horde_Util",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Util/tree/FRAMEWORK_6_0"
+                }
             }
         ]
     }
