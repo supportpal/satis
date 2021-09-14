@@ -60,6 +60,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/bytestream/CssToInlineStyles.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/bytestream/laravel-websockets.git"
     }
   ],
   "require": {
