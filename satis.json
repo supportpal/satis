@@ -69,6 +69,7 @@
   "require": {
     "andywer/js-localization": "*",
     "barryvdh/laravel-ide-helper": "*",
+    "beyondcode/laravel-websockets": "*",
     "horde/horde-installer-plugin": "dev-master",
     "horde/imap_client": "dev-master",
     "phpclasses/mimeparser": "*",
