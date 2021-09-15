@@ -626,6 +626,141 @@
             }
         },
         "barryvdh/laravel-ide-helper": {
+            "v1.0.0": {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "83ab04be40c2c3d33256745b5f7fdc9d20967b8f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/83ab04be40c2c3d33256745b5f7fdc9d20967b8f",
+                    "reference": "83ab04be40c2c3d33256745b5f7fdc9d20967b8f",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.0.x",
+                    "illuminate/filesystem": "4.0.x",
+                    "illuminate/support": "4.0.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "dev-master#6d705c1a0f9e2a6d73d2e9ec0e538b9dfaf4315f",
+                    "symfony/class-loader": "2.3.*"
+                },
+                "time": "2013-05-28T15:00:09+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.0.0"
+                }
+            },
+            "v1.0.0-beta1": {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.0.0-beta1",
+                "version_normalized": "1.0.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "427295f9932659d06062902a1fb52fe56e5d4b0d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/427295f9932659d06062902a1fb52fe56e5d4b0d",
+                    "reference": "427295f9932659d06062902a1fb52fe56e5d4b0d",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.0.x",
+                    "illuminate/filesystem": "4.0.x",
+                    "illuminate/support": "4.0.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "2.0.*",
+                    "symfony/class-loader": "2.3.*"
+                },
+                "time": "2013-05-23T19:49:37+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.0.0-beta1"
+                }
+            },
+            "v1.0.0-beta2": {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "v1.0.0-beta2",
+                "version_normalized": "1.0.0.0-beta2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "8e0eace59100c35afa7368e9143e8d2bf752e69b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/8e0eace59100c35afa7368e9143e8d2bf752e69b",
+                    "reference": "8e0eace59100c35afa7368e9143e8d2bf752e69b",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.0.x",
+                    "illuminate/filesystem": "4.0.x",
+                    "illuminate/support": "4.0.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "dev-master#6d705c1a0f9e2a6d73d2e9ec0e538b9dfaf4315f",
+                    "symfony/class-loader": "2.3.*"
+                },
+                "time": "2013-05-27T20:22:23+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Barryvdh\\LaravelIdeHelper": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.0.0-beta2"
+                }
+            },
             "v1.0.1": {
                 "name": "barryvdh/laravel-ide-helper",
                 "version": "v1.0.1",
@@ -1574,6 +1709,72 @@
                 ],
                 "support": {
                     "source": "https://github.com/bytestream/laravel-ide-helper/tree/v1.11.6"
+                }
+            },
+            "1.11.x-dev": {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "1.11.x-dev",
+                "version_normalized": "1.11.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "7b263ffbce943ee903510a23dce0e837c7c6960f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/7b263ffbce943ee903510a23dce0e837c7c6960f",
+                    "reference": "7b263ffbce943ee903510a23dce0e837c7c6960f",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "4.x",
+                    "illuminate/filesystem": "4.x",
+                    "illuminate/support": "4.x",
+                    "php": ">=5.3.0",
+                    "phpdocumentor/reflection-docblock": "2.0.4",
+                    "symfony/class-loader": "~2.3"
+                },
+                "require-dev": {
+                    "doctrine/dbal": "~2.3"
+                },
+                "suggest": {
+                    "doctrine/dbal": "Load information from the database about models for phpdocs (~2.3)"
+                },
+                "time": "2015-06-07T13:09:17+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.11-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Barryvdh\\LaravelIdeHelper\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "helper",
+                    "ide",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/1.11"
                 }
             },
             "v1.2.0": {
@@ -5999,6 +6200,333 @@
                     "source": "https://github.com/bytestream/laravel-ide-helper/tree/v2.8.2"
                 }
             },
+            "2.8.3": {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "2.8.3",
+                "version_normalized": "2.8.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "84a86e324f332cae4441257f2bd65d618c6931bd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/84a86e324f332cae4441257f2bd65d618c6931bd",
+                    "reference": "84a86e324f332cae4441257f2bd65d618c6931bd",
+                    "shasum": ""
+                },
+                "require": {
+                    "barryvdh/reflection-docblock": "^2.0.6",
+                    "composer/composer": "^1.6 || ^2",
+                    "doctrine/dbal": "~2.3",
+                    "ext-json": "*",
+                    "illuminate/console": "^6 || ^7 || ^8",
+                    "illuminate/filesystem": "^6 || ^7 || ^8",
+                    "illuminate/support": "^6 || ^7 || ^8",
+                    "php": ">=7.2",
+                    "phpdocumentor/type-resolver": "^1.1.0"
+                },
+                "require-dev": {
+                    "ext-pdo_sqlite": "*",
+                    "friendsofphp/php-cs-fixer": "^2",
+                    "illuminate/config": "^6 || ^7 || ^8",
+                    "illuminate/view": "^6 || ^7 || ^8",
+                    "mockery/mockery": "^1.3.3",
+                    "orchestra/testbench": "^4 || ^5 || ^6",
+                    "phpunit/phpunit": "^8.5 || ^9",
+                    "spatie/phpunit-snapshot-assertions": "^1.4 || ^2.2 || ^3 || ^4",
+                    "vimeo/psalm": "^3.12"
+                },
+                "time": "2021-04-20T13:53:00+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.8-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Barryvdh\\LaravelIdeHelper\\IdeHelperServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Barryvdh\\LaravelIdeHelper\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Barryvdh\\LaravelIdeHelper\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyze": [
+                        "psalm"
+                    ],
+                    "check-style": [
+                        "php-cs-fixer fix --diff --diff-format=udiff --dry-run",
+                        "php-cs-fixer fix --diff --diff-format=udiff --dry-run --config=.php_cs.tests.php"
+                    ],
+                    "fix-style": [
+                        "php-cs-fixer fix",
+                        "php-cs-fixer fix --config=.php_cs.tests.php"
+                    ],
+                    "psalm-set-baseline": [
+                        "psalm --set-baseline=psalm-baseline.xml"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ],
+                    "test-ci": [
+                        "phpunit -d --without-creating-snapshots"
+                    ],
+                    "test-regenerate": [
+                        "phpunit -d --update-snapshots"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "helper",
+                    "ide",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/2.8.3"
+                }
+            },
+            "2.8.3.x-dev": {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "2.8.3.x-dev",
+                "version_normalized": "2.8.3.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "84a86e324f332cae4441257f2bd65d618c6931bd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/84a86e324f332cae4441257f2bd65d618c6931bd",
+                    "reference": "84a86e324f332cae4441257f2bd65d618c6931bd",
+                    "shasum": ""
+                },
+                "require": {
+                    "barryvdh/reflection-docblock": "^2.0.6",
+                    "composer/composer": "^1.6 || ^2",
+                    "doctrine/dbal": "~2.3",
+                    "ext-json": "*",
+                    "illuminate/console": "^6 || ^7 || ^8",
+                    "illuminate/filesystem": "^6 || ^7 || ^8",
+                    "illuminate/support": "^6 || ^7 || ^8",
+                    "php": ">=7.2",
+                    "phpdocumentor/type-resolver": "^1.1.0"
+                },
+                "require-dev": {
+                    "ext-pdo_sqlite": "*",
+                    "friendsofphp/php-cs-fixer": "^2",
+                    "illuminate/config": "^6 || ^7 || ^8",
+                    "illuminate/view": "^6 || ^7 || ^8",
+                    "mockery/mockery": "^1.3.3",
+                    "orchestra/testbench": "^4 || ^5 || ^6",
+                    "phpunit/phpunit": "^8.5 || ^9",
+                    "spatie/phpunit-snapshot-assertions": "^1.4 || ^2.2 || ^3 || ^4",
+                    "vimeo/psalm": "^3.12"
+                },
+                "time": "2021-04-20T13:53:00+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.8-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Barryvdh\\LaravelIdeHelper\\IdeHelperServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Barryvdh\\LaravelIdeHelper\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Barryvdh\\LaravelIdeHelper\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyze": [
+                        "psalm"
+                    ],
+                    "check-style": [
+                        "php-cs-fixer fix --diff --diff-format=udiff --dry-run",
+                        "php-cs-fixer fix --diff --diff-format=udiff --dry-run --config=.php_cs.tests.php"
+                    ],
+                    "fix-style": [
+                        "php-cs-fixer fix",
+                        "php-cs-fixer fix --config=.php_cs.tests.php"
+                    ],
+                    "psalm-set-baseline": [
+                        "psalm --set-baseline=psalm-baseline.xml"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ],
+                    "test-ci": [
+                        "phpunit -d --without-creating-snapshots"
+                    ],
+                    "test-regenerate": [
+                        "phpunit -d --update-snapshots"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "helper",
+                    "ide",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/2.8.3"
+                }
+            },
+            "2.8.x-dev": {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "2.8.x-dev",
+                "version_normalized": "2.8.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "84a86e324f332cae4441257f2bd65d618c6931bd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/84a86e324f332cae4441257f2bd65d618c6931bd",
+                    "reference": "84a86e324f332cae4441257f2bd65d618c6931bd",
+                    "shasum": ""
+                },
+                "require": {
+                    "barryvdh/reflection-docblock": "^2.0.6",
+                    "composer/composer": "^1.6 || ^2",
+                    "doctrine/dbal": "~2.3",
+                    "ext-json": "*",
+                    "illuminate/console": "^6 || ^7 || ^8",
+                    "illuminate/filesystem": "^6 || ^7 || ^8",
+                    "illuminate/support": "^6 || ^7 || ^8",
+                    "php": ">=7.2",
+                    "phpdocumentor/type-resolver": "^1.1.0"
+                },
+                "require-dev": {
+                    "ext-pdo_sqlite": "*",
+                    "friendsofphp/php-cs-fixer": "^2",
+                    "illuminate/config": "^6 || ^7 || ^8",
+                    "illuminate/view": "^6 || ^7 || ^8",
+                    "mockery/mockery": "^1.3.3",
+                    "orchestra/testbench": "^4 || ^5 || ^6",
+                    "phpunit/phpunit": "^8.5 || ^9",
+                    "spatie/phpunit-snapshot-assertions": "^1.4 || ^2.2 || ^3 || ^4",
+                    "vimeo/psalm": "^3.12"
+                },
+                "time": "2021-04-20T13:53:00+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.8-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Barryvdh\\LaravelIdeHelper\\IdeHelperServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Barryvdh\\LaravelIdeHelper\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Barryvdh\\LaravelIdeHelper\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyze": [
+                        "psalm"
+                    ],
+                    "check-style": [
+                        "php-cs-fixer fix --diff --diff-format=udiff --dry-run",
+                        "php-cs-fixer fix --diff --diff-format=udiff --dry-run --config=.php_cs.tests.php"
+                    ],
+                    "fix-style": [
+                        "php-cs-fixer fix",
+                        "php-cs-fixer fix --config=.php_cs.tests.php"
+                    ],
+                    "psalm-set-baseline": [
+                        "psalm --set-baseline=psalm-baseline.xml"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ],
+                    "test-ci": [
+                        "phpunit -d --without-creating-snapshots"
+                    ],
+                    "test-regenerate": [
+                        "phpunit -d --update-snapshots"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "helper",
+                    "ide",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/2.8.3"
+                }
+            },
             "v2.9.0": {
                 "name": "barryvdh/laravel-ide-helper",
                 "version": "v2.9.0",
@@ -6446,6 +6974,72 @@
                 "support": {
                     "source": "https://github.com/bytestream/laravel-ide-helper/tree/v2.9.3"
                 }
+            },
+            "dev-master": {
+                "name": "barryvdh/laravel-ide-helper",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-ide-helper.git",
+                    "reference": "2f83db311f05dae482680dcfe836e9be8cc61c0b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-ide-helper/zipball/2f83db311f05dae482680dcfe836e9be8cc61c0b",
+                    "reference": "2f83db311f05dae482680dcfe836e9be8cc61c0b",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/console": "5.0.x|5.1.x|5.2.x",
+                    "illuminate/filesystem": "5.0.x|5.1.x|5.2.x",
+                    "illuminate/support": "5.0.x|5.1.x|5.2.x",
+                    "php": ">=5.4.0",
+                    "phpdocumentor/reflection-docblock": "2.0.4",
+                    "symfony/class-loader": "~2.3"
+                },
+                "require-dev": {
+                    "doctrine/dbal": "~2.3"
+                },
+                "suggest": {
+                    "doctrine/dbal": "Load information from the database about models for phpdocs (~2.3)"
+                },
+                "time": "2015-12-14T13:29:24+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.1-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Barryvdh\\LaravelIdeHelper\\": "src"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+                "keywords": [
+                    "autocomplete",
+                    "codeintel",
+                    "helper",
+                    "ide",
+                    "laravel",
+                    "netbeans",
+                    "phpdoc",
+                    "phpstorm",
+                    "sublime"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-ide-helper/tree/master"
+                }
             }
         },
         "beyondcode/laravel-websockets": {
@@ -6455,7 +7049,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "9ce2cc3ff7604eea872e1c3a52165d77b9b03a47"
                 },
                 "dist": {
@@ -6535,7 +7129,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.0.0"
+                }
             },
             "1.0.1": {
                 "name": "beyondcode/laravel-websockets",
@@ -6543,7 +7140,7 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "f03acd10a489b1f3ef3d0863c35e43c8c2dd1139"
                 },
                 "dist": {
@@ -6624,7 +7221,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.0.1"
+                }
             },
             "1.0.2": {
                 "name": "beyondcode/laravel-websockets",
@@ -6632,7 +7232,7 @@
                 "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "5e89f3a8e27dceafda9cc26c72af4a8327c56b57"
                 },
                 "dist": {
@@ -6713,7 +7313,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.0.2"
+                }
             },
             "1.0.3": {
                 "name": "beyondcode/laravel-websockets",
@@ -6721,7 +7324,7 @@
                 "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "c1f6ffa51b60a896d44fff490f1f6631b1758c53"
                 },
                 "dist": {
@@ -6802,7 +7405,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.0.3"
+                }
             },
             "1.0.4": {
                 "name": "beyondcode/laravel-websockets",
@@ -6810,7 +7416,7 @@
                 "version_normalized": "1.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "83dec0b5f17019eb9598bec5fecc4b878c0de34a"
                 },
                 "dist": {
@@ -6891,7 +7497,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.0.4"
+                }
             },
             "1.1.0": {
                 "name": "beyondcode/laravel-websockets",
@@ -6899,7 +7508,7 @@
                 "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "f26f89236e206ed5aa3ab23e4aeeb1c83ca48e6d"
                 },
                 "dist": {
@@ -6980,7 +7589,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.1.0"
+                }
             },
             "1.1.1": {
                 "name": "beyondcode/laravel-websockets",
@@ -6988,7 +7600,7 @@
                 "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "1c2b89b54d8d9d1c796b8391e41207da2a2f2423"
                 },
                 "dist": {
@@ -7069,7 +7681,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.1.1"
+                }
             },
             "1.10.0": {
                 "name": "beyondcode/laravel-websockets",
@@ -7077,7 +7692,7 @@
                 "version_normalized": "1.10.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "5cda45357573f3522af46d1052771d4e132eabb3"
                 },
                 "dist": {
@@ -7160,7 +7775,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.10.0"
+                }
             },
             "1.11.0": {
                 "name": "beyondcode/laravel-websockets",
@@ -7168,7 +7786,7 @@
                 "version_normalized": "1.11.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "b793f7b98a42effa390a6eb4e562acd9eedac31c"
                 },
                 "dist": {
@@ -7251,7 +7869,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.11.0"
+                }
             },
             "1.11.1": {
                 "name": "beyondcode/laravel-websockets",
@@ -7259,7 +7880,7 @@
                 "version_normalized": "1.11.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "583022a11d217caf5fbf5b8f1ae8837f473c41f9"
                 },
                 "dist": {
@@ -7342,7 +7963,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.11.1"
+                }
             },
             "1.12.0": {
                 "name": "beyondcode/laravel-websockets",
@@ -7350,7 +7974,7 @@
                 "version_normalized": "1.12.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "0380f5e37310f2c9b93444b67e81d469800b6483"
                 },
                 "dist": {
@@ -7433,7 +8057,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.12.0"
+                }
             },
             "1.13.0": {
                 "name": "beyondcode/laravel-websockets",
@@ -7441,7 +8068,7 @@
                 "version_normalized": "1.13.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "1db273002c518f65ee79d5d0da76041b2fb169d4"
                 },
                 "dist": {
@@ -7524,7 +8151,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.13.0"
+                }
             },
             "1.2.0": {
                 "name": "beyondcode/laravel-websockets",
@@ -7532,7 +8162,7 @@
                 "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "0ffc19a5f55d7db22b7a68ad743da38ae660b5bc"
                 },
                 "dist": {
@@ -7614,7 +8244,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.2.0"
+                }
             },
             "1.3.0": {
                 "name": "beyondcode/laravel-websockets",
@@ -7622,7 +8255,7 @@
                 "version_normalized": "1.3.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "8e422cbc5bf3abe620333812b77183c94f602a0a"
                 },
                 "dist": {
@@ -7705,7 +8338,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.3.0"
+                }
             },
             "1.4.0": {
                 "name": "beyondcode/laravel-websockets",
@@ -7713,7 +8349,7 @@
                 "version_normalized": "1.4.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "744cd6e8dc1ac55b8d9c435a3b65747ceca0aa9f"
                 },
                 "dist": {
@@ -7796,7 +8432,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.4.0"
+                }
             },
             "1.4.1": {
                 "name": "beyondcode/laravel-websockets",
@@ -7804,7 +8443,7 @@
                 "version_normalized": "1.4.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "d7b996381d5c3a223f13b69cf35eb43cc6633fca"
                 },
                 "dist": {
@@ -7887,7 +8526,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.4.1"
+                }
             },
             "1.5.0": {
                 "name": "beyondcode/laravel-websockets",
@@ -7895,7 +8537,7 @@
                 "version_normalized": "1.5.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "79ef0054681dee9caf1e531485299956d48dc237"
                 },
                 "dist": {
@@ -7978,7 +8620,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.5.0"
+                }
             },
             "1.5.1": {
                 "name": "beyondcode/laravel-websockets",
@@ -7986,7 +8631,7 @@
                 "version_normalized": "1.5.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "679a8d097a9062e56456ab1a860bf80b93964d79"
                 },
                 "dist": {
@@ -8069,7 +8714,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.5.1"
+                }
             },
             "1.5.2": {
                 "name": "beyondcode/laravel-websockets",
@@ -8077,7 +8725,7 @@
                 "version_normalized": "1.5.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "83830548fd9950d1066e5c0edd8f5d56ab21aa16"
                 },
                 "dist": {
@@ -8160,7 +8808,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.5.2"
+                }
             },
             "1.6.0": {
                 "name": "beyondcode/laravel-websockets",
@@ -8168,7 +8819,7 @@
                 "version_normalized": "1.6.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "20d45e8201b5d4ce16aceddda4c278ec10c6e169"
                 },
                 "dist": {
@@ -8251,7 +8902,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.6.0"
+                }
             },
             "1.6.1": {
                 "name": "beyondcode/laravel-websockets",
@@ -8259,7 +8913,7 @@
                 "version_normalized": "1.6.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "bbd48d3c728e2e12e4a4fa5c37c33daf81187958"
                 },
                 "dist": {
@@ -8342,7 +8996,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.6.1"
+                }
             },
             "1.7.0": {
                 "name": "beyondcode/laravel-websockets",
@@ -8350,7 +9007,7 @@
                 "version_normalized": "1.7.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "00dd9b0b2521a9aa7cfba30d75b4e38838c80509"
                 },
                 "dist": {
@@ -8433,7 +9090,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.7.0"
+                }
             },
             "1.7.1": {
                 "name": "beyondcode/laravel-websockets",
@@ -8441,7 +9101,7 @@
                 "version_normalized": "1.7.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "331a127486f93905b39f0df7e29296cbada0ffa0"
                 },
                 "dist": {
@@ -8524,7 +9184,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.7.1"
+                }
             },
             "1.8.0": {
                 "name": "beyondcode/laravel-websockets",
@@ -8532,7 +9195,7 @@
                 "version_normalized": "1.8.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "805fd5e02c33db4cce79c8b81dbdbee30adbc467"
                 },
                 "dist": {
@@ -8615,7 +9278,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.22"
+                }
             },
             "1.8.1": {
                 "name": "beyondcode/laravel-websockets",
@@ -8623,7 +9289,7 @@
                 "version_normalized": "1.8.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "c85ec38452f8dfdad4310dc22af19108f89fa9fe"
                 },
                 "dist": {
@@ -8706,7 +9372,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.8.1"
+                }
             },
             "1.9.0": {
                 "name": "beyondcode/laravel-websockets",
@@ -8714,7 +9383,7 @@
                 "version_normalized": "1.9.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "f08e4f287a6f097a83cc78ad764d6084ec625c09"
                 },
                 "dist": {
@@ -8797,7 +9466,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.29"
+                }
             },
             "1.x-dev": {
                 "name": "beyondcode/laravel-websockets",
@@ -8805,7 +9477,7 @@
                 "version_normalized": "1.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "c83137cfd3537467453b1ac9dd3faa3275a99966"
                 },
                 "dist": {
@@ -8888,7 +9560,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.x"
+                }
             },
             "2.0.0-beta.1": {
                 "name": "beyondcode/laravel-websockets",
@@ -8896,7 +9571,7 @@
                 "version_normalized": "2.0.0.0-beta1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "38b2e4d4041a685a30323f637477e255f0ea25af"
                 },
                 "dist": {
@@ -8980,7 +9655,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.1"
+                }
             },
             "2.0.0-beta.10": {
                 "name": "beyondcode/laravel-websockets",
@@ -8988,7 +9666,7 @@
                 "version_normalized": "2.0.0.0-beta10",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "793dc24c24299d07c8d43ce8e497600b8f2ad270"
                 },
                 "dist": {
@@ -9073,7 +9751,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.10"
+                }
             },
             "2.0.0-beta.11": {
                 "name": "beyondcode/laravel-websockets",
@@ -9081,7 +9762,7 @@
                 "version_normalized": "2.0.0.0-beta11",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "c79bac07c4eecfb9390faa1f67f16057b50e85fe"
                 },
                 "dist": {
@@ -9166,7 +9847,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.11"
+                }
             },
             "2.0.0-beta.12": {
                 "name": "beyondcode/laravel-websockets",
@@ -9174,7 +9858,7 @@
                 "version_normalized": "2.0.0.0-beta12",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "b39b33ce4fe61301e09e522da55c1a76d1d6fee8"
                 },
                 "dist": {
@@ -9259,7 +9943,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.12"
+                }
             },
             "2.0.0-beta.13": {
                 "name": "beyondcode/laravel-websockets",
@@ -9267,7 +9954,7 @@
                 "version_normalized": "2.0.0.0-beta13",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "1616321d446beb75f351e34703d87874aa56fe20"
                 },
                 "dist": {
@@ -9352,7 +10039,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.13"
+                }
             },
             "2.0.0-beta.14": {
                 "name": "beyondcode/laravel-websockets",
@@ -9360,7 +10050,7 @@
                 "version_normalized": "2.0.0.0-beta14",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "f3b06085958b942e07c541c73cbfd0148a6014d5"
                 },
                 "dist": {
@@ -9445,7 +10135,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.14"
+                }
             },
             "2.0.0-beta.15": {
                 "name": "beyondcode/laravel-websockets",
@@ -9453,7 +10146,7 @@
                 "version_normalized": "2.0.0.0-beta15",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "08110b652e1a26be8ac6126bd1825c257aa15181"
                 },
                 "dist": {
@@ -9538,7 +10231,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.15"
+                }
             },
             "2.0.0-beta.16": {
                 "name": "beyondcode/laravel-websockets",
@@ -9546,7 +10242,7 @@
                 "version_normalized": "2.0.0.0-beta16",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "3e239a0728bb37f613e5abe7015843cd089669cb"
                 },
                 "dist": {
@@ -9631,7 +10327,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.16"
+                }
             },
             "2.0.0-beta.17": {
                 "name": "beyondcode/laravel-websockets",
@@ -9639,7 +10338,7 @@
                 "version_normalized": "2.0.0.0-beta17",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "c078e5a2b7fe949f9b07bf12e43596ac2c2482b2"
                 },
                 "dist": {
@@ -9725,7 +10424,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.17"
+                }
             },
             "2.0.0-beta.18": {
                 "name": "beyondcode/laravel-websockets",
@@ -9733,7 +10435,7 @@
                 "version_normalized": "2.0.0.0-beta18",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "3ce55575a0240ec79af98ec1d9f600fe69aff4e1"
                 },
                 "dist": {
@@ -9819,7 +10521,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.18"
+                }
             },
             "2.0.0-beta.19": {
                 "name": "beyondcode/laravel-websockets",
@@ -9827,7 +10532,7 @@
                 "version_normalized": "2.0.0.0-beta19",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "c6ab7786d893168d601f32555fbd34fafdfc6a3f"
                 },
                 "dist": {
@@ -9920,7 +10625,10 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.19"
+                }
             },
             "2.0.0-beta.2": {
                 "name": "beyondcode/laravel-websockets",
@@ -9928,7 +10636,7 @@
                 "version_normalized": "2.0.0.0-beta2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "9745ca17ede4bd0a9fbafd520b19e8ac07453003"
                 },
                 "dist": {
@@ -10013,7 +10721,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.2"
+                }
             },
             "2.0.0-beta.20": {
                 "name": "beyondcode/laravel-websockets",
@@ -10021,7 +10732,7 @@
                 "version_normalized": "2.0.0.0-beta20",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "a1d7d974d8c59de24d11d7ef3e53c2b2a0c59c71"
                 },
                 "dist": {
@@ -10117,7 +10828,10 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.20"
+                }
             },
             "2.0.0-beta.21": {
                 "name": "beyondcode/laravel-websockets",
@@ -10125,7 +10839,7 @@
                 "version_normalized": "2.0.0.0-beta21",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "3859002a7887f28a95de01b2bff76ba99ec8dc7a"
                 },
                 "dist": {
@@ -10221,7 +10935,10 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.21"
+                }
             },
             "2.0.0-beta.22": {
                 "name": "beyondcode/laravel-websockets",
@@ -10229,7 +10946,7 @@
                 "version_normalized": "2.0.0.0-beta22",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "805fd5e02c33db4cce79c8b81dbdbee30adbc467"
                 },
                 "dist": {
@@ -10312,7 +11029,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.22"
+                }
             },
             "2.0.0-beta.23": {
                 "name": "beyondcode/laravel-websockets",
@@ -10320,7 +11040,7 @@
                 "version_normalized": "2.0.0.0-beta23",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "265c80d41475b2bc0377bd8b4f32f6be1fb1eb6e"
                 },
                 "dist": {
@@ -10416,7 +11136,10 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.23"
+                }
             },
             "2.0.0-beta.24": {
                 "name": "beyondcode/laravel-websockets",
@@ -10424,7 +11147,7 @@
                 "version_normalized": "2.0.0.0-beta24",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "1f6e7148732f66fd0028c77cd8703578f8bd5e8c"
                 },
                 "dist": {
@@ -10520,7 +11243,10 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.24"
+                }
             },
             "2.0.0-beta.25": {
                 "name": "beyondcode/laravel-websockets",
@@ -10528,7 +11254,7 @@
                 "version_normalized": "2.0.0.0-beta25",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "9cb83dccfd97ab93f76cd98f67b2c60a1a1d9ead"
                 },
                 "dist": {
@@ -10625,7 +11351,10 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.25"
+                }
             },
             "2.0.0-beta.26": {
                 "name": "beyondcode/laravel-websockets",
@@ -10633,7 +11362,7 @@
                 "version_normalized": "2.0.0.0-beta26",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "90f1eb12d731dcf8cedc8f51a046d5fb17a12d21"
                 },
                 "dist": {
@@ -10729,7 +11458,10 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.26"
+                }
             },
             "2.0.0-beta.27": {
                 "name": "beyondcode/laravel-websockets",
@@ -10737,7 +11469,7 @@
                 "version_normalized": "2.0.0.0-beta27",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "b9ec590a4f647e8b6b305ae4bb5ae8db25958b4b"
                 },
                 "dist": {
@@ -10833,7 +11565,10 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.27"
+                }
             },
             "2.0.0-beta.28": {
                 "name": "beyondcode/laravel-websockets",
@@ -10841,7 +11576,7 @@
                 "version_normalized": "2.0.0.0-beta28",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "aa2e9c1cdc1df5ce5e0785dc5f220befe6eb2257"
                 },
                 "dist": {
@@ -10934,7 +11669,10 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.28"
+                }
             },
             "2.0.0-beta.29": {
                 "name": "beyondcode/laravel-websockets",
@@ -10942,7 +11680,7 @@
                 "version_normalized": "2.0.0.0-beta29",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "f08e4f287a6f097a83cc78ad764d6084ec625c09"
                 },
                 "dist": {
@@ -11025,7 +11763,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.29"
+                }
             },
             "2.0.0-beta.3": {
                 "name": "beyondcode/laravel-websockets",
@@ -11033,7 +11774,7 @@
                 "version_normalized": "2.0.0.0-beta3",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "b174ffb6e7ea8d9fc3a85cdd537120e1c673b313"
                 },
                 "dist": {
@@ -11118,7 +11859,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.3"
+                }
             },
             "2.0.0-beta.30": {
                 "name": "beyondcode/laravel-websockets",
@@ -11126,7 +11870,7 @@
                 "version_normalized": "2.0.0.0-beta30",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "b225c5725e550b8992f77e7f61ff83480473762c"
                 },
                 "dist": {
@@ -11219,7 +11963,10 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.30"
+                }
             },
             "2.0.0-beta.31": {
                 "name": "beyondcode/laravel-websockets",
@@ -11227,7 +11974,7 @@
                 "version_normalized": "2.0.0.0-beta31",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "0e48bb49445572d9d9d2d20b1f8560ffbe0a12a6"
                 },
                 "dist": {
@@ -11320,7 +12067,10 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.31"
+                }
             },
             "2.0.0-beta.32": {
                 "name": "beyondcode/laravel-websockets",
@@ -11328,7 +12078,7 @@
                 "version_normalized": "2.0.0.0-beta32",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "6be62b149dfeb45b0a5dac52cf38d02a9b9f23ee"
                 },
                 "dist": {
@@ -11421,7 +12171,10 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.32"
+                }
             },
             "2.0.0-beta.33": {
                 "name": "beyondcode/laravel-websockets",
@@ -11429,7 +12182,7 @@
                 "version_normalized": "2.0.0.0-beta33",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "efb3aa82b9be93fcdabc1c7e089ab6d2d0aa63d5"
                 },
                 "dist": {
@@ -11522,7 +12275,10 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.33"
+                }
             },
             "2.0.0-beta.34": {
                 "name": "beyondcode/laravel-websockets",
@@ -11530,7 +12286,7 @@
                 "version_normalized": "2.0.0.0-beta34",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "1bb727f322cac0241b6a405ebc8024416fd5c9a9"
                 },
                 "dist": {
@@ -11623,7 +12379,10 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.34"
+                }
             },
             "2.0.0-beta.35": {
                 "name": "beyondcode/laravel-websockets",
@@ -11631,7 +12390,7 @@
                 "version_normalized": "2.0.0.0-beta35",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "ba3a2ad164f9461df1f3fdad3a47cb0e40890ff9"
                 },
                 "dist": {
@@ -11724,7 +12483,10 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.35"
+                }
             },
             "2.0.0-beta.36": {
                 "name": "beyondcode/laravel-websockets",
@@ -11732,7 +12494,7 @@
                 "version_normalized": "2.0.0.0-beta36",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "9dbc38aff9d01fdf5de21cfb941dd684d7548a21"
                 },
                 "dist": {
@@ -11825,7 +12587,10 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.36"
+                }
             },
             "2.0.0-beta.4": {
                 "name": "beyondcode/laravel-websockets",
@@ -11833,7 +12598,7 @@
                 "version_normalized": "2.0.0.0-beta4",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "3b49bcd5cb4facbc6da2609432e8f5fc134297d2"
                 },
                 "dist": {
@@ -11918,7 +12683,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.4"
+                }
             },
             "2.0.0-beta.5": {
                 "name": "beyondcode/laravel-websockets",
@@ -11926,7 +12694,7 @@
                 "version_normalized": "2.0.0.0-beta5",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "a2fc559e0bd12e2080523f1443d7a86ec8c47cbc"
                 },
                 "dist": {
@@ -12011,7 +12779,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.5"
+                }
             },
             "2.0.0-beta.6": {
                 "name": "beyondcode/laravel-websockets",
@@ -12019,7 +12790,7 @@
                 "version_normalized": "2.0.0.0-beta6",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "3123f25cbc4c03126e3b71add3e642740ea1c883"
                 },
                 "dist": {
@@ -12104,7 +12875,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.6"
+                }
             },
             "2.0.0-beta.7": {
                 "name": "beyondcode/laravel-websockets",
@@ -12112,7 +12886,7 @@
                 "version_normalized": "2.0.0.0-beta7",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "ca8fb5355b246b1ac305ef8dea1c82cf6f8abb14"
                 },
                 "dist": {
@@ -12197,7 +12971,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.7"
+                }
             },
             "2.0.0-beta.8": {
                 "name": "beyondcode/laravel-websockets",
@@ -12205,7 +12982,7 @@
                 "version_normalized": "2.0.0.0-beta8",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "a08eee60e1b0b9f37ca1a38494b6bb5a54a9da2f"
                 },
                 "dist": {
@@ -12290,7 +13067,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.8"
+                }
             },
             "2.0.0-beta.9": {
                 "name": "beyondcode/laravel-websockets",
@@ -12298,7 +13078,7 @@
                 "version_normalized": "2.0.0.0-beta9",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "b5f081c537ae5bb06a597ebfad824f8d992573ed"
                 },
                 "dist": {
@@ -12383,7 +13163,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.0.0-beta.9"
+                }
             },
             "2.x-dev": {
                 "name": "beyondcode/laravel-websockets",
@@ -12391,7 +13174,7 @@
                 "version_normalized": "2.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "11630783282eb0a189ea4ff902574b3d195f2ac9"
                 },
                 "dist": {
@@ -12484,7 +13267,10 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.x"
+                }
             },
             "dev-master": {
                 "name": "beyondcode/laravel-websockets",
@@ -12492,7 +13278,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "ea8e5ad820385f85434db48f6c4b76f3d448d791"
                 },
                 "dist": {
@@ -12584,7 +13370,10 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/master"
+                }
             },
             "dev-2.x-memory-leak": {
                 "name": "beyondcode/laravel-websockets",
@@ -12592,7 +13381,7 @@
                 "version_normalized": "dev-2.x-memory-leak",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "2d90daa0603c1a1ec9f7478b804b09863b361448"
                 },
                 "dist": {
@@ -12677,7 +13466,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.x-memory-leak"
+                }
             },
             "dev-async-app-managers": {
                 "name": "beyondcode/laravel-websockets",
@@ -12685,7 +13477,7 @@
                 "version_normalized": "dev-async-app-managers",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "fcb3a537c62ae4ec65b2ed6ffa04b31b2a4c5ad7"
                 },
                 "dist": {
@@ -12781,7 +13573,10 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/async-app-managers"
+                }
             },
             "dev-console": {
                 "name": "beyondcode/laravel-websockets",
@@ -12789,7 +13584,7 @@
                 "version_normalized": "dev-console",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "b4141c81db893cf2c55144d21a5055f794533bc2"
                 },
                 "dist": {
@@ -12866,7 +13661,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/console"
+                }
             },
             "dev-error-logging": {
                 "name": "beyondcode/laravel-websockets",
@@ -12874,7 +13672,7 @@
                 "version_normalized": "dev-error-logging",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "1db273002c518f65ee79d5d0da76041b2fb169d4"
                 },
                 "dist": {
@@ -12957,7 +13755,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.13.0"
+                }
             },
             "dev-upgrade/laravel-8": {
                 "name": "beyondcode/laravel-websockets",
@@ -12965,7 +13766,7 @@
                 "version_normalized": "dev-upgrade/laravel-8",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/laravel-websockets.git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
                     "reference": "bd361d760cdb832ee1991f290cdbbfb7baeeaf01"
                 },
                 "dist": {
@@ -13051,7 +13852,10 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/upgrade/laravel-8"
+                }
             }
         },
         "horde/horde-installer-plugin": {
@@ -13104,7 +13908,7 @@
                 "version_normalized": "1.0.6.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "d66f0b3cfb63e6ca39e95c3a3586bd38197e5ebf"
                 },
                 "dist": {
@@ -13135,7 +13939,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/1.0.6"
+                }
             },
             "1.1.0": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -13143,7 +13950,7 @@
                 "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "5590a4e1d7ff3acd85465372de8be906d711c5d5"
                 },
                 "dist": {
@@ -13156,7 +13963,7 @@
                     "ext-curl": "*",
                     "php": ">=5.2.0"
                 },
-                "time": "2012-10-13T18:39:00+00:00",
+                "time": "2012-10-13T18:39:35+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [
@@ -13174,7 +13981,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/1.1.0"
+                }
             },
             "1.2.0": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -13183,7 +13993,7 @@
                 "target-dir": "TijsVerkoyen/CssToInlineStyles",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "70ee412434dd6de4ab3ae06d024c2a9117911b89"
                 },
                 "dist": {
@@ -13213,7 +14023,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/1.2.0"
+                }
             },
             "1.2.1": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -13222,7 +14035,7 @@
                 "target-dir": "TijsVerkoyen/CssToInlineStyles",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "e53f25f6685d167f80b9d51b91b09aa70ea6c1c9"
                 },
                 "dist": {
@@ -13234,7 +14047,7 @@
                 "require": {
                     "php": ">=5.3.0"
                 },
-                "time": "2013-02-09T17:48:25+00:00",
+                "time": "2013-02-09T17:48:44+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -13252,7 +14065,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/1.2.1"
+                }
             },
             "1.3.0": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -13261,7 +14077,7 @@
                 "target-dir": "TijsVerkoyen/CssToInlineStyles",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "3848e86d51b79d484fa60ebb64602967ca0a7a3f"
                 },
                 "dist": {
@@ -13296,7 +14112,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/1.3.0"
+                }
             },
             "1.4.0": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -13305,7 +14124,7 @@
                 "target-dir": "TijsVerkoyen/CssToInlineStyles",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "c462ea1bde83c9f49c94787ba492858de9bb239d"
                 },
                 "dist": {
@@ -13341,7 +14160,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/1.4.0"
+                }
             },
             "1.4.1": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -13350,7 +14172,7 @@
                 "target-dir": "TijsVerkoyen/CssToInlineStyles",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "de55df9b915a1cc8b76e11ae9bd1e61cbc95e62b"
                 },
                 "dist": {
@@ -13386,7 +14208,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/1.4.1"
+                }
             },
             "1.4.2": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -13395,7 +14220,7 @@
                 "target-dir": "TijsVerkoyen/CssToInlineStyles",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "8800cfd4af69819db32c0aa9edaf76ad8e5001c3"
                 },
                 "dist": {
@@ -13431,7 +14256,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/1.4.2"
+                }
             },
             "1.4.3": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -13440,7 +14268,7 @@
                 "target-dir": "TijsVerkoyen/CssToInlineStyles",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "f11ff46929264a8177d58ebc73342f1818660c68"
                 },
                 "dist": {
@@ -13476,7 +14304,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/1.4.3"
+                }
             },
             "1.4.4": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -13485,7 +14316,7 @@
                 "target-dir": "TijsVerkoyen/CssToInlineStyles",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "8f3197f893c998490fd7304e6c071f19aa650052"
                 },
                 "dist": {
@@ -13521,7 +14352,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/1.4.4"
+                }
             },
             "1.5.0": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -13529,7 +14363,7 @@
                 "version_normalized": "1.5.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "1af6513d9136fdfbc09b7e693aac688ef6f9101c"
                 },
                 "dist": {
@@ -13565,7 +14399,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/1.5.0"
+                }
             },
             "1.5.1": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -13573,7 +14410,7 @@
                 "version_normalized": "1.5.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "3dcfeae27c26a03b5ab467f70c0de94efa89e8e5"
                 },
                 "dist": {
@@ -13609,7 +14446,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/1.5.1"
+                }
             },
             "1.5.2": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -13617,7 +14457,7 @@
                 "version_normalized": "1.5.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "c50e8cd86acb0e528855c59653006e96d094a5b1"
                 },
                 "dist": {
@@ -13656,7 +14496,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/1.5.2"
+                }
             },
             "1.5.3": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -13664,7 +14507,7 @@
                 "version_normalized": "1.5.3.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "12effc9bdedc933eef0d4d3baff2899c2ad43e5c"
                 },
                 "dist": {
@@ -13703,7 +14546,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/1.5.3"
+                }
             },
             "1.5.4": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -13711,7 +14557,7 @@
                 "version_normalized": "1.5.4.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "3065b197f54c83392a4e0ba355678a5080dd9ee2"
                 },
                 "dist": {
@@ -13750,7 +14596,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/1.5.4"
+                }
             },
             "1.5.5": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -13758,7 +14607,7 @@
                 "version_normalized": "1.5.5.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "9753fc340726e327e4d48b7c0604f85475ae0bc3"
                 },
                 "dist": {
@@ -13797,7 +14646,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/1.5.5"
+                }
             },
             "2.0.0": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -13805,7 +14657,7 @@
                 "version_normalized": "2.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "bb535b05ba1e23a0400ecc73adaa00d37289baf1"
                 },
                 "dist": {
@@ -13843,7 +14695,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/2.0.0"
+                }
             },
             "2.1.0": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -13851,7 +14706,7 @@
                 "version_normalized": "2.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "0febd154de815eb5e000eaddb6372454ab4a4736"
                 },
                 "dist": {
@@ -13889,7 +14744,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/2.1.0"
+                }
             },
             "2.2.0": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -13897,7 +14755,7 @@
                 "version_normalized": "2.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "ab03919dfd85a74ae0372f8baf9f3c7d5c03b04b"
                 },
                 "dist": {
@@ -13936,7 +14794,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/2.2.0"
+                }
             },
             "2.2.1": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -13944,7 +14805,7 @@
                 "version_normalized": "2.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "0ed4a2ea4e0902dac0489e6436ebcd5bbcae9757"
                 },
                 "dist": {
@@ -13983,7 +14844,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/2.2.1"
+                }
             },
             "2.2.2": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -13991,7 +14855,7 @@
                 "version_normalized": "2.2.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "dda2ee426acd6d801d5b7fd1001cde9b5f790e15"
                 },
                 "dist": {
@@ -14032,7 +14896,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/2.2.2"
+                }
             },
             "2.2.3": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -14040,7 +14907,7 @@
                 "version_normalized": "2.2.3.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "b43b05cf43c1b6d849478965062b6ef73e223bb5"
                 },
                 "dist": {
@@ -14081,7 +14948,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/2.2.3"
+                }
             },
             "2.2.4": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -14089,7 +14959,7 @@
                 "version_normalized": "2.2.4.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "3386bb6bedf33095d5bb59cd8b1433b6dec5f29b"
                 },
                 "dist": {
@@ -14111,7 +14981,7 @@
                 "suggest": {
                     "masterminds/html5": "To use a HTML5 parser instead of native DOM parser."
                 },
-                "time": "2021-05-21T11:30:18+00:00",
+                "time": "2021-05-21T11:42:24+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -14134,7 +15004,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/2.2.4"
+                }
             },
             "dev-master": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -14142,7 +15015,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "b43b05cf43c1b6d849478965062b6ef73e223bb5"
                 },
                 "dist": {
@@ -14183,7 +15056,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/2.2.3"
+                }
             },
             "dev-fork": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -14191,7 +15067,7 @@
                 "version_normalized": "dev-fork",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "3386bb6bedf33095d5bb59cd8b1433b6dec5f29b"
                 },
                 "dist": {
@@ -14213,7 +15089,7 @@
                 "suggest": {
                     "masterminds/html5": "To use a HTML5 parser instead of native DOM parser."
                 },
-                "time": "2021-05-21T11:30:18+00:00",
+                "time": "2021-05-21T11:42:24+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -14236,7 +15112,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/2.2.4"
+                }
             },
             "dev-html-comments": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -14244,7 +15123,7 @@
                 "version_normalized": "dev-html-comments",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "26245ffdbcf3fe3b032fe8af39155f589e852bc7"
                 },
                 "dist": {
@@ -14285,7 +15164,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/html-comments"
+                }
             },
             "dev-load-html-opts": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -14293,7 +15175,7 @@
                 "version_normalized": "dev-load-html-opts",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "0c0289d5bce973d7fd3f53252f239312cb57a1e8"
                 },
                 "dist": {
@@ -14311,7 +15193,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0 || ^7.5"
                 },
-                "time": "2021-05-21T11:30:18+00:00",
+                "time": "2021-05-21T11:30:59+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -14334,7 +15216,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/load-html-opts"
+                }
             },
             "dev-masterminds-html5": {
                 "name": "tijsverkoyen/css-to-inline-styles",
@@ -14342,7 +15227,7 @@
                 "version_normalized": "dev-masterminds-html5",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:bytestream/CssToInlineStyles.git",
+                    "url": "https://github.com/bytestream/CssToInlineStyles.git",
                     "reference": "4ec80c24486861f962fe43c7959af1af43eb666b"
                 },
                 "dist": {
@@ -14387,7 +15272,10 @@
                     }
                 ],
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
-                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+                "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+                "support": {
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/masterminds-html5"
+                }
             }
         }
     }
