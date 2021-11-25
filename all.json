@@ -64,6 +64,69 @@
                     "source": "https://github.com/bytestream/laravel-js-localization/tree/1.0.0"
                 }
             },
+            "1.1.0": {
+                "name": "andywer/js-localization",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-js-localization.git",
+                    "reference": "865a5a4272541286b3d2ddc2b39a409c11934dc3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-js-localization/zipball/865a5a4272541286b3d2ddc2b39a409c11934dc3",
+                    "reference": "865a5a4272541286b3d2ddc2b39a409c11934dc3",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "6.*|7.*",
+                    "php": ">=7.2.5"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/testbench": "4.*",
+                    "phpunit/phpunit": "^8.0"
+                },
+                "time": "2020-09-25T15:19:50+00:00",
+                "type": "library",
+                "extra": {
+                    "component": "package",
+                    "frameworks": [
+                        "Laravel 7"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JsLocalization\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/TestCase.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Andy Wermke",
+                        "email": "andy@dev.next-step-software.com"
+                    }
+                ],
+                "description": "Laravel package to provide localizations to the Javascript code.",
+                "keywords": [
+                    "javascript",
+                    "laravel",
+                    "localization",
+                    "messages",
+                    "translation"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-js-localization/tree/1.1.0"
+                }
+            },
             "dev-develop": {
                 "name": "andywer/js-localization",
                 "version": "dev-develop",
@@ -558,7 +621,7 @@
                     "translation"
                 ],
                 "support": {
-                    "source": "https://github.com/bytestream/laravel-js-localization/tree/laravel-6"
+                    "source": "https://github.com/bytestream/laravel-js-localization/tree/1.1.0"
                 }
             },
             "dev-supportpal-fork": {
