@@ -13792,6 +13792,109 @@
                     "source": "https://github.com/bytestream/laravel-websockets/tree/console"
                 }
             },
+            "dev-doctrine/dbal": {
+                "name": "beyondcode/laravel-websockets",
+                "version": "dev-doctrine/dbal",
+                "version_normalized": "dev-doctrine/dbal",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-websockets.git",
+                    "reference": "82cdceea967b853c81b2ddc821fed1b267f79783"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-websockets/zipball/82cdceea967b853c81b2ddc821fed1b267f79783",
+                    "reference": "82cdceea967b853c81b2ddc821fed1b267f79783",
+                    "shasum": ""
+                },
+                "require": {
+                    "cboden/ratchet": "^0.4.1",
+                    "clue/redis-react": "^2.3",
+                    "evenement/evenement": "^2.0|^3.0",
+                    "facade/ignition-contracts": "^1.0",
+                    "guzzlehttp/psr7": "^1.5|^2.0",
+                    "illuminate/broadcasting": "^6.3|^7.0|^8.0",
+                    "illuminate/console": "^6.3|^7.0|^8.0",
+                    "illuminate/http": "^6.3|^7.0|^8.0",
+                    "illuminate/queue": "^6.3|^7.0|^8.0",
+                    "illuminate/routing": "^6.3|^7.0|^8.0",
+                    "illuminate/support": "^6.3|^7.0|^8.0",
+                    "pusher/pusher-php-server": "^3.0|^4.0|^5.0|^6.0|^7.0",
+                    "react/promise": "^2.0",
+                    "symfony/http-kernel": "^4.0|^5.0",
+                    "symfony/psr-http-message-bridge": "^1.1|^2.0"
+                },
+                "require-dev": {
+                    "clue/block-react": "^1.4",
+                    "laravel/legacy-factories": "^1.1",
+                    "orchestra/testbench-browser-kit": "^4.0|^5.0|^6.0",
+                    "phpunit/phpunit": "^8.0|^9.0"
+                },
+                "suggest": {
+                    "doctrine/dbal": "Required to run database migrations (^2.9|^3.0).",
+                    "ext-pcntl": "Running the server needs pcntl to listen to command signals and soft-shutdown."
+                },
+                "time": "2021-12-08T13:51:40+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "BeyondCode\\LaravelWebSockets\\WebSocketsServiceProvider"
+                        ],
+                        "aliases": {
+                            "WebSocketRouter": "BeyondCode\\LaravelWebSockets\\Facades\\WebSocketRouter"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "BeyondCode\\LaravelWebSockets\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "BeyondCode\\LaravelWebSockets\\Test\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Marcel Pociot",
+                        "email": "marcel@beyondco.de",
+                        "homepage": "https://beyondcode.de",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Freek Van der Herten",
+                        "email": "freek@spatie.be",
+                        "homepage": "https://spatie.be",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Alex Renoki",
+                        "homepage": "https://github.com/rennokki",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "An easy to launch a Pusher-compatible WebSockets server for Laravel.",
+                "homepage": "https://github.com/beyondcode/laravel-websockets",
+                "keywords": [
+                    "beyondcode",
+                    "laravel",
+                    "laravel-websockets",
+                    "php"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/doctrine/dbal"
+                }
+            },
             "dev-error-logging": {
                 "name": "beyondcode/laravel-websockets",
                 "version": "dev-error-logging",
