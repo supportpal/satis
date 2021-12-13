@@ -76,7 +76,7 @@
     "beyondcode/laravel-websockets": "*",
     "facebook/graph-sdk": "*",
     "horde/horde-installer-plugin": "dev-master",
-    "horde/imap_client": "dev-master",
+    "horde/imap_client": "*"
     "phpclasses/mimeparser": "*",
     "tijsverkoyen/css-to-inline-styles": "*"
   },
