@@ -64,12 +64,17 @@
     {
       "type": "vcs",
       "url": "https://github.com/bytestream/laravel-websockets.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/bytestream/php-graph-sdk.git",
     }
   ],
   "require": {
     "andywer/js-localization": "*",
     "barryvdh/laravel-ide-helper": "*",
     "beyondcode/laravel-websockets": "*",
+    "facebook/graph-sdk": "*",
     "horde/horde-installer-plugin": "dev-master",
     "horde/imap_client": "dev-master",
     "phpclasses/mimeparser": "*",
