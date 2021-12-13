@@ -67,7 +67,7 @@
     },
     {
       "type": "vcs",
-      "url": "https://github.com/bytestream/php-graph-sdk.git",
+      "url": "https://github.com/bytestream/php-graph-sdk.git"
     }
   ],
   "require": {
