@@ -1,0 +1,54 @@
+{
+    "packages": {
+        "horde/listheaders": [
+            {
+                "name": "horde/listheaders",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/ListHeaders.git",
+                    "reference": "a8c96b40ea1b3955704e18a544899c497712ce72"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/ListHeaders/zipball/a8c96b40ea1b3955704e18a544899c497712ce72",
+                    "reference": "a8c96b40ea1b3955704e18a544899c497712ce72",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/mail": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/mime": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_ListHeaders": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "List headers parsing library",
+                "homepage": "https://www.horde.org/libraries/Horde_ListHeaders",
+                "support": {
+                    "source": "https://github.com/maintaina-com/ListHeaders/tree/FRAMEWORK_6_0"
+                }
+            }
+        ]
+    }
+}

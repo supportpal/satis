@@ -1,0 +1,51 @@
+{
+    "packages": {
+        "horde/text_flowed": [
+            {
+                "name": "horde/text_flowed",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Text_Flowed.git",
+                    "reference": "470aebb1f9c38ae9c3ccda6e8ace0b963d98a966"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Flowed/zipball/470aebb1f9c38ae9c3ccda6e8ace0b963d98a966",
+                    "reference": "470aebb1f9c38ae9c3ccda6e8ace0b963d98a966",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Text_Flowed": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Flowed text library",
+                "homepage": "https://www.horde.org/libraries/Horde_Text_Flowed",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Text_Flowed/tree/FRAMEWORK_6_0"
+                }
+            }
+        ]
+    }
+}

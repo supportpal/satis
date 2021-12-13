@@ -1,0 +1,97 @@
+{
+    "packages": {
+        "horde/socket_client": [
+            {
+                "name": "horde/socket_client",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Socket_Client.git",
+                    "reference": "4403e81becc023df804b2bd585134539915b164a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Socket_Client/zipball/4403e81becc023df804b2bd585134539915b164a",
+                    "reference": "4403e81becc023df804b2bd585134539915b164a",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-openssl": "*"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "classmap": [
+                        "lib/"
+                    ]
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Network socket client library",
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Socket_Client/tree/v3.0.0alpha1"
+                }
+            },
+            {
+                "name": "horde/socket_client",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Socket_Client.git",
+                    "reference": "26eb544bf55a50e980bc7d22c11d839f07af7402"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Socket_Client/zipball/26eb544bf55a50e980bc7d22c11d839f07af7402",
+                    "reference": "26eb544bf55a50e980bc7d22c11d839f07af7402",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-openssl": "*"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "lib/"
+                    ]
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Network socket client library",
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Socket_Client/tree/v3.0.0alpha3"
+                }
+            }
+        ]
+    }
+}

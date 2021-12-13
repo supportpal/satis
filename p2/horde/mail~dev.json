@@ -1,0 +1,60 @@
+{
+    "packages": {
+        "horde/mail": [
+            {
+                "name": "horde/mail",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Mail.git",
+                    "reference": "f47dbfde252f0fce3ac99d161306061ceb531f0d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/f47dbfde252f0fce3ac99d161306061ceb531f0d",
+                    "reference": "f47dbfde252f0fce3ac99d161306061ceb531f0d",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/idna": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/mime": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/stream_filter": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/smtp": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/stream_wrapper": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0",
+                    "pear/net_dns2": "^1.5",
+                    "pear/net_smtp": "^1.9"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Mail": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Mail library",
+                "homepage": "https://www.horde.org/libraries/Horde_Mail",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Mail/tree/FRAMEWORK_6_0"
+                }
+            }
+        ]
+    }
+}

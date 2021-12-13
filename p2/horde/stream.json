@@ -1,0 +1,104 @@
+{
+    "packages": {
+        "horde/stream": [
+            {
+                "name": "horde/stream",
+                "version": "2.0.0alpha1",
+                "version_normalized": "2.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Stream.git",
+                    "reference": "be7b0b53914d1dfbe4ef80b0516e0c0b6374b5de"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream/zipball/be7b0b53914d1dfbe4ef80b0516e0c0b6374b5de",
+                    "reference": "be7b0b53914d1dfbe4ef80b0516e0c0b6374b5de",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/stream_wrapper": "^3",
+                    "horde/test": "^3",
+                    "horde/util": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Stream": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Stream\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "PHP streams library",
+                "homepage": "https://www.horde.org/libraries/Horde_Stream",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Stream/tree/v2.0.0alpha1"
+                }
+            },
+            {
+                "name": "horde/stream",
+                "version": "v2.0.0alpha3",
+                "version_normalized": "2.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Stream.git",
+                    "reference": "bbb0679816fa323a8b0b1e256113d551c32fd749"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream/zipball/bbb0679816fa323a8b0b1e256113d551c32fd749",
+                    "reference": "bbb0679816fa323a8b0b1e256113d551c32fd749",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/stream_wrapper": "^3",
+                    "horde/test": "^3",
+                    "horde/util": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Stream": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "PHP streams library",
+                "homepage": "https://www.horde.org/libraries/Horde_Stream",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Stream/tree/v2.0.0alpha3"
+                }
+            }
+        ]
+    }
+}

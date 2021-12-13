@@ -1,0 +1,102 @@
+{
+    "packages": {
+        "horde/idna": [
+            {
+                "name": "horde/idna",
+                "version": "2.0.0alpha1",
+                "version_normalized": "2.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Idna.git",
+                    "reference": "c2363b953c2ed1e1b5a3c195fd9f87634415b25d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Idna/zipball/c2363b953c2ed1e1b5a3c195fd9f87634415b25d",
+                    "reference": "c2363b953c2ed1e1b5a3c195fd9f87634415b25d",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-intl": "*"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Idna": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Idna\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "IDNA normalization library",
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Idna/tree/v2.0.0alpha1"
+                }
+            },
+            {
+                "name": "horde/idna",
+                "version": "v2.0.0alpha3",
+                "version_normalized": "2.0.0.0-alpha3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Idna.git",
+                    "reference": "10842cc8e8b80af35eb8eef3cfbdacc2a9ab22f2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Idna/zipball/10842cc8e8b80af35eb8eef3cfbdacc2a9ab22f2",
+                    "reference": "10842cc8e8b80af35eb8eef3cfbdacc2a9ab22f2",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-intl": "*"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Idna": "lib/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "IDNA normalization library",
+                "homepage": "https://www.horde.org",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Idna/tree/v2.0.0alpha3"
+                }
+            }
+        ]
+    }
+}

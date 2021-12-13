@@ -1,0 +1,69 @@
+{
+    "packages": {
+        "horde/mime": [
+            {
+                "name": "horde/mime",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Mime.git",
+                    "reference": "dbf4999f2d5d8a8ad40cdc8032bb1afb2a036c97"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/dbf4999f2d5d8a8ad40cdc8032bb1afb2a036c97",
+                    "reference": "dbf4999f2d5d8a8ad40cdc8032bb1afb2a036c97",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/listheaders": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/mail": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/stream": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/stream_filter": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/support": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/text_flowed": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-idn": "*",
+                    "ext-intl": "*",
+                    "horde/nls": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/text_filter": "^3 || dev-FRAMEWORK_6_0",
+                    "pear/net_dns2": "*"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Mime": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "MIME library",
+                "homepage": "https://www.horde.org/libraries/Horde_Mime",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Mime/tree/FRAMEWORK_6_0"
+                }
+            }
+        ]
+    }
+}

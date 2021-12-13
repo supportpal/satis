@@ -1,0 +1,55 @@
+{
+    "packages": {
+        "horde/stream_filter": [
+            {
+                "name": "horde/stream_filter",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Stream_Filter.git",
+                    "reference": "7f60e53f1a996edeb93ac891c599333afcb13f55"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream_Filter/zipball/7f60e53f1a996edeb93ac891c599333afcb13f55",
+                    "reference": "7f60e53f1a996edeb93ac891c599333afcb13f55",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7"
+                },
+                "suggest": {
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Stream_Filter": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "PHP stream filters library",
+                "homepage": "https://www.horde.org/libraries/Horde_Stream_Filter",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Stream_Filter/tree/FRAMEWORK_6_0"
+                }
+            }
+        ]
+    }
+}

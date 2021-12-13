@@ -1,0 +1,61 @@
+{
+    "packages": {
+        "horde/translation": [
+            {
+                "name": "horde/translation",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Translation.git",
+                    "reference": "d8687c729cf5c2339128046de1b69e9a16ad79c0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Translation/zipball/d8687c729cf5c2339128046de1b69e9a16ad79c0",
+                    "reference": "d8687c729cf5c2339128046de1b69e9a16ad79c0",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7.4 || ^8"
+                },
+                "require-dev": {
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
+                },
+                "suggest": {
+                    "ext-gettext": "*"
+                },
+                "time": "2021-11-24T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Translation": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Translation\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Horde\\Translation\\Test\\": "test/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Translation library",
+                "homepage": "https://www.horde.org/libraries/Horde_Translation",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Translation/tree/FRAMEWORK_6_0"
+                }
+            }
+        ]
+    }
+}

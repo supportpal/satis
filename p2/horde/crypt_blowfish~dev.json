@@ -1,0 +1,54 @@
+{
+    "packages": {
+        "horde/crypt_blowfish": [
+            {
+                "name": "horde/crypt_blowfish",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Crypt_Blowfish.git",
+                    "reference": "efee3e6bf2b426bbc8de6de1497be50ab83ab92c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Crypt_Blowfish/zipball/efee3e6bf2b426bbc8de6de1497be50ab83ab92c",
+                    "reference": "efee3e6bf2b426bbc8de6de1497be50ab83ab92c",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/support": "^3 || dev-FRAMEWORK_6_0",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-mcrypt": "*",
+                    "ext-openssl": "*",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Crypt_Blowfish": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Blowfish encryption library",
+                "homepage": "https://www.horde.org/libraries/Horde_Crypt_Blowfish",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Crypt_Blowfish/tree/FRAMEWORK_6_0"
+                }
+            }
+        ]
+    }
+}
