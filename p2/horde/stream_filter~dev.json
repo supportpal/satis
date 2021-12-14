@@ -8,16 +8,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Stream_Filter.git",
-                    "reference": "7f60e53f1a996edeb93ac891c599333afcb13f55"
+                    "reference": "9bc02107a277122e9ebdeaf501f85c6538a0d7f5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Stream_Filter/zipball/7f60e53f1a996edeb93ac891c599333afcb13f55",
-                    "reference": "7f60e53f1a996edeb93ac891c599333afcb13f55",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream_Filter/zipball/9bc02107a277122e9ebdeaf501f85c6538a0d7f5",
+                    "reference": "9bc02107a277122e9ebdeaf501f85c6538a0d7f5",
                     "shasum": ""
                 },
                 "require": {
-                    "php": "^7"
+                    "php": "^7.0 || ^8.0"
                 },
                 "suggest": {
                     "horde/test": "^3 || dev-FRAMEWORK_6_0"
