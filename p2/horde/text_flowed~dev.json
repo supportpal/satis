@@ -8,17 +8,17 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Text_Flowed.git",
-                    "reference": "470aebb1f9c38ae9c3ccda6e8ace0b963d98a966"
+                    "reference": "658aef62d9e2efcc80f8e3956dae36ae4944d8d8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Text_Flowed/zipball/470aebb1f9c38ae9c3ccda6e8ace0b963d98a966",
-                    "reference": "470aebb1f9c38ae9c3ccda6e8ace0b963d98a966",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Flowed/zipball/658aef62d9e2efcc80f8e3956dae36ae4944d8d8",
+                    "reference": "658aef62d9e2efcc80f8e3956dae36ae4944d8d8",
                     "shasum": ""
                 },
                 "require": {
                     "horde/util": "^3 || dev-FRAMEWORK_6_0",
-                    "php": "^7"
+                    "php": "^7.4 || ^8"
                 },
                 "suggest": {
                     "horde/test": "^3 || dev-FRAMEWORK_6_0"
@@ -31,7 +31,7 @@
                     }
                 },
                 "license": [
-                    "LGPL-2.1"
+                    "LGPL-2.1-only"
                 ],
                 "authors": [
                     {

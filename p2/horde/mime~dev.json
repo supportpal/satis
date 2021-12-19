@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Mime.git",
-                    "reference": "dbf4999f2d5d8a8ad40cdc8032bb1afb2a036c97"
+                    "reference": "319053f31b9508ab0e1cce346f29d273f740c8c5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/dbf4999f2d5d8a8ad40cdc8032bb1afb2a036c97",
-                    "reference": "dbf4999f2d5d8a8ad40cdc8032bb1afb2a036c97",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/319053f31b9508ab0e1cce346f29d273f740c8c5",
+                    "reference": "319053f31b9508ab0e1cce346f29d273f740c8c5",
                     "shasum": ""
                 },
                 "require": {
@@ -26,7 +26,7 @@
                     "horde/text_flowed": "^3 || dev-FRAMEWORK_6_0",
                     "horde/translation": "^3 || dev-FRAMEWORK_6_0",
                     "horde/util": "^3 || dev-FRAMEWORK_6_0",
-                    "php": "^7"
+                    "php": "^7.4 || ^8"
                 },
                 "suggest": {
                     "ext-idn": "*",
@@ -44,7 +44,7 @@
                     }
                 },
                 "license": [
-                    "LGPL-2.1"
+                    "LGPL-2.1-only"
                 ],
                 "authors": [
                     {

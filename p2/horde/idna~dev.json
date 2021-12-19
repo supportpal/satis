@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Idna.git",
-                    "reference": "9386fd36e12701c1fb7675a745bf441e716ad6e5"
+                    "reference": "91add294c5fcff5494a2a070623ad729caf07e0e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Idna/zipball/9386fd36e12701c1fb7675a745bf441e716ad6e5",
-                    "reference": "9386fd36e12701c1fb7675a745bf441e716ad6e5",
+                    "url": "https://api.github.com/repos/maintaina-com/Idna/zipball/91add294c5fcff5494a2a070623ad729caf07e0e",
+                    "reference": "91add294c5fcff5494a2a070623ad729caf07e0e",
                     "shasum": ""
                 },
                 "require": {
                     "horde/exception": "^3 || dev-FRAMEWORK_6_0",
                     "horde/util": "^3 || dev-FRAMEWORK_6_0",
-                    "php": "^7"
+                    "php": "^7.4 || ^8"
                 },
                 "suggest": {
                     "ext-intl": "*"

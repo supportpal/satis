@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Mail.git",
-                    "reference": "f47dbfde252f0fce3ac99d161306061ceb531f0d"
+                    "reference": "549bde310d6edfec235a83f423a25bf7013c2ca6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/f47dbfde252f0fce3ac99d161306061ceb531f0d",
-                    "reference": "f47dbfde252f0fce3ac99d161306061ceb531f0d",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/549bde310d6edfec235a83f423a25bf7013c2ca6",
+                    "reference": "549bde310d6edfec235a83f423a25bf7013c2ca6",
                     "shasum": ""
                 },
                 "require": {
@@ -23,7 +23,7 @@
                     "horde/stream_filter": "^3 || dev-FRAMEWORK_6_0",
                     "horde/translation": "^3 || dev-FRAMEWORK_6_0",
                     "horde/util": "^3 || dev-FRAMEWORK_6_0",
-                    "php": "^7"
+                    "php": "^7.4 || ^8"
                 },
                 "suggest": {
                     "horde/smtp": "^2 || dev-FRAMEWORK_6_0",
