@@ -3,16 +3,27 @@
         "horde/horde-installer-plugin": [
             {
                 "name": "horde/horde-installer-plugin",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/horde-installer-plugin.git",
+                    "reference": "0585cadada3707fea8e92cc8fa622c24613f8702"
+                },
                 "dist": {
                     "type": "zip",
-                    "url": "https://codeload.github.com/bytestream/horde-installer-plugin/zip/dd4aecda37630ee99233f5d906787a3253c4ace1",
-                    "shasum": "d7c31173c1ca4043a3d35fdb9b3b5f14fd76b59a"
+                    "url": "https://api.github.com/repos/maintaina-com/horde-installer-plugin/zipball/0585cadada3707fea8e92cc8fa622c24613f8702",
+                    "reference": "0585cadada3707fea8e92cc8fa622c24613f8702",
+                    "shasum": ""
                 },
                 "require": {
-                    "composer-plugin-api": "^1.0|^2.0"
+                    "composer-plugin-api": "~2.0"
                 },
+                "require-dev": {
+                    "composer/composer": "~2.0",
+                    "horde/test": "^3"
+                },
+                "time": "2021-12-18T20:54:33+00:00",
                 "type": "composer-plugin",
                 "extra": {
                     "class": "Horde\\Composer\\HordeInstallerPlugin"
@@ -21,6 +32,12 @@
                     "psr-4": {
                         "Horde\\Composer\\": "src/"
                     }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/maintaina-com/horde-installer-plugin/tree/FRAMEWORK_6_0"
                 }
             }
         ]
