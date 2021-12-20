@@ -53,8 +53,7 @@
     "barryvdh/laravel-ide-helper": "*",
     "beyondcode/laravel-websockets": "*",
     "facebook/graph-sdk": "*",
-    "horde/horde-installer-plugin": "dev-master",
-    "horde/imap_client": "*",
+    "horde/imap_client": "dev-FRAMEWORK_6_0",
     "phpclasses/mimeparser": "*",
     "tijsverkoyen/css-to-inline-styles": "*"
   },
