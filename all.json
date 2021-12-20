@@ -17271,18 +17271,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Crypt_Blowfish.git",
-                    "reference": "efee3e6bf2b426bbc8de6de1497be50ab83ab92c"
+                    "reference": "7282488e88739870af2ff939946d58cdfe3e79fb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Crypt_Blowfish/zipball/efee3e6bf2b426bbc8de6de1497be50ab83ab92c",
-                    "reference": "efee3e6bf2b426bbc8de6de1497be50ab83ab92c",
+                    "url": "https://api.github.com/repos/maintaina-com/Crypt_Blowfish/zipball/7282488e88739870af2ff939946d58cdfe3e79fb",
+                    "reference": "7282488e88739870af2ff939946d58cdfe3e79fb",
                     "shasum": ""
                 },
                 "require": {
                     "horde/exception": "^3 || dev-FRAMEWORK_6_0",
                     "horde/support": "^3 || dev-FRAMEWORK_6_0",
-                    "php": "^7"
+                    "php": "^7.4 || ^8"
                 },
                 "suggest": {
                     "ext-mcrypt": "*",
@@ -17297,7 +17297,7 @@
                     }
                 },
                 "license": [
-                    "LGPL-2.1"
+                    "LGPL-2.1-only"
                 ],
                 "authors": [
                     {
@@ -22462,12 +22462,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Secret.git",
-                    "reference": "221853a0af94d83c0c5fd789c4e35bc42269cfa0"
+                    "reference": "682fee1f417d057a86e1390f923d5f71fad771e2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Secret/zipball/221853a0af94d83c0c5fd789c4e35bc42269cfa0",
-                    "reference": "221853a0af94d83c0c5fd789c4e35bc42269cfa0",
+                    "url": "https://api.github.com/repos/maintaina-com/Secret/zipball/682fee1f417d057a86e1390f923d5f71fad771e2",
+                    "reference": "682fee1f417d057a86e1390f923d5f71fad771e2",
                     "shasum": ""
                 },
                 "require": {
@@ -22475,7 +22475,7 @@
                     "horde/crypt_blowfish": "^2 || dev-FRAMEWORK_6_0",
                     "horde/exception": "^3 || dev-FRAMEWORK_6_0",
                     "horde/support": "^3 || dev-FRAMEWORK_6_0",
-                    "php": "^7"
+                    "php": "^7.4 || ^8"
                 },
                 "suggest": {
                     "horde/test": "^3 || dev-FRAMEWORK_6_0"
@@ -22488,7 +22488,7 @@
                     }
                 },
                 "license": [
-                    "LGPL-2.1"
+                    "LGPL-2.1-only"
                 ],
                 "authors": [
                     {
@@ -22608,17 +22608,17 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Socket_Client.git",
-                    "reference": "7d2e5136a8c35ca36aa1d14df2f9e3080360444a"
+                    "reference": "70ea88be9aecabf7adce80ecede808a94c7ab599"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Socket_Client/zipball/7d2e5136a8c35ca36aa1d14df2f9e3080360444a",
-                    "reference": "7d2e5136a8c35ca36aa1d14df2f9e3080360444a",
+                    "url": "https://api.github.com/repos/maintaina-com/Socket_Client/zipball/70ea88be9aecabf7adce80ecede808a94c7ab599",
+                    "reference": "70ea88be9aecabf7adce80ecede808a94c7ab599",
                     "shasum": ""
                 },
                 "require": {
                     "horde/exception": "^3 || dev-FRAMEWORK_6_0",
-                    "php": "^7"
+                    "php": "^7.4 || ^8"
                 },
                 "suggest": {
                     "ext-openssl": "*"
@@ -22631,7 +22631,7 @@
                     ]
                 },
                 "license": [
-                    "LGPL-2.1"
+                    "LGPL-2.1-only"
                 ],
                 "authors": [
                     {

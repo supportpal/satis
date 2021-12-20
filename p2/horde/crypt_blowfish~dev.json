@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Crypt_Blowfish.git",
-                    "reference": "efee3e6bf2b426bbc8de6de1497be50ab83ab92c"
+                    "reference": "7282488e88739870af2ff939946d58cdfe3e79fb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Crypt_Blowfish/zipball/efee3e6bf2b426bbc8de6de1497be50ab83ab92c",
-                    "reference": "efee3e6bf2b426bbc8de6de1497be50ab83ab92c",
+                    "url": "https://api.github.com/repos/maintaina-com/Crypt_Blowfish/zipball/7282488e88739870af2ff939946d58cdfe3e79fb",
+                    "reference": "7282488e88739870af2ff939946d58cdfe3e79fb",
                     "shasum": ""
                 },
                 "require": {
                     "horde/exception": "^3 || dev-FRAMEWORK_6_0",
                     "horde/support": "^3 || dev-FRAMEWORK_6_0",
-                    "php": "^7"
+                    "php": "^7.4 || ^8"
                 },
                 "suggest": {
                     "ext-mcrypt": "*",
@@ -34,7 +34,7 @@
                     }
                 },
                 "license": [
-                    "LGPL-2.1"
+                    "LGPL-2.1-only"
                 ],
                 "authors": [
                     {
