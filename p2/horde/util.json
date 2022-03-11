@@ -67,17 +67,17 @@
             },
             {
                 "name": "horde/util",
-                "version": "v3.0.0alpha4",
-                "version_normalized": "3.0.0.0-alpha4",
+                "version": "v3.0.0alpha5",
+                "version_normalized": "3.0.0.0-alpha5",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Util.git",
-                    "reference": "c73ebab9cee56aedc2ebb3f7f4aa21e3f0ee7b6d"
+                    "reference": "7c53f3cea9679dc0f72db8bcfa7318123163403c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Util/zipball/c73ebab9cee56aedc2ebb3f7f4aa21e3f0ee7b6d",
-                    "reference": "c73ebab9cee56aedc2ebb3f7f4aa21e3f0ee7b6d",
+                    "url": "https://api.github.com/repos/maintaina-com/Util/zipball/7c53f3cea9679dc0f72db8bcfa7318123163403c",
+                    "reference": "7c53f3cea9679dc0f72db8bcfa7318123163403c",
                     "shasum": ""
                 },
                 "require": {
@@ -85,8 +85,8 @@
                     "php": "^7.4 || ^8"
                 },
                 "require-dev": {
-                    "horde/imap_client": "^3",
-                    "horde/test": "^3"
+                    "horde/imap_client": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
                 "suggest": {
                     "ext-ctype": "*",
@@ -96,10 +96,10 @@
                     "ext-json": "*",
                     "ext-mbstring": "*",
                     "ext-xml": "*",
-                    "horde/imap_client": "^3",
-                    "horde/test": "^3"
+                    "horde/imap_client": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-11-06T00:00:00+00:00",
+                "time": "2022-03-10T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [
@@ -115,7 +115,7 @@
                     }
                 },
                 "license": [
-                    "LGPL-2.1"
+                    "LGPL-2.1-only"
                 ],
                 "authors": [
                     {
@@ -137,7 +137,7 @@
                 "description": "Utility library",
                 "homepage": "https://www.horde.org/libraries/Horde_Util",
                 "support": {
-                    "source": "https://github.com/maintaina-com/Util/tree/v3.0.0alpha4"
+                    "source": "https://github.com/maintaina-com/Util/tree/v3.0.0alpha5"
                 }
             }
         ]
