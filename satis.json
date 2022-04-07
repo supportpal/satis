@@ -33,10 +33,6 @@
     },
     {
       "type": "vcs",
-      "url": "https://github.com/bytestream/laravel-ide-helper.git"
-    },
-    {
-      "type": "vcs",
       "url": "https://github.com/bytestream/CssToInlineStyles.git"
     },
     {
@@ -50,7 +46,6 @@
   ],
   "require": {
     "andywer/js-localization": "*",
-    "barryvdh/laravel-ide-helper": "*",
     "beyondcode/laravel-websockets": "*",
     "facebook/graph-sdk": "*",
     "horde/imap_client": "dev-FRAMEWORK_6_0",
