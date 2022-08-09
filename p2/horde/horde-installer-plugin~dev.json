@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/horde-installer-plugin.git",
-                    "reference": "6cdc8ceae6ac566ded8299100413ef2773ebaade"
+                    "reference": "b307e6ef5ba776ce89c89d7ecd3707638b463f29"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/horde-installer-plugin/zipball/6cdc8ceae6ac566ded8299100413ef2773ebaade",
-                    "reference": "6cdc8ceae6ac566ded8299100413ef2773ebaade",
+                    "url": "https://api.github.com/repos/maintaina-com/horde-installer-plugin/zipball/b307e6ef5ba776ce89c89d7ecd3707638b463f29",
+                    "reference": "b307e6ef5ba776ce89c89d7ecd3707638b463f29",
                     "shasum": ""
                 },
                 "require": {
@@ -23,7 +23,7 @@
                     "composer/composer": "~2.0",
                     "horde/test": "^3"
                 },
-                "time": "2022-08-07T17:38:49+00:00",
+                "time": "2022-08-08T08:46:37+00:00",
                 "type": "composer-plugin",
                 "extra": {
                     "class": "Horde\\Composer\\HordeInstallerPlugin"
