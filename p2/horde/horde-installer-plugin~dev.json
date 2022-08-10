@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/horde-installer-plugin.git",
-                    "reference": "b307e6ef5ba776ce89c89d7ecd3707638b463f29"
+                    "reference": "ae189fbf78094304ca75daa2a87bb26cfe67e4bd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/horde-installer-plugin/zipball/b307e6ef5ba776ce89c89d7ecd3707638b463f29",
-                    "reference": "b307e6ef5ba776ce89c89d7ecd3707638b463f29",
+                    "url": "https://api.github.com/repos/maintaina-com/horde-installer-plugin/zipball/ae189fbf78094304ca75daa2a87bb26cfe67e4bd",
+                    "reference": "ae189fbf78094304ca75daa2a87bb26cfe67e4bd",
                     "shasum": ""
                 },
                 "require": {
@@ -23,7 +23,7 @@
                     "composer/composer": "~2.0",
                     "horde/test": "^3"
                 },
-                "time": "2022-08-08T08:46:37+00:00",
+                "time": "2022-08-09T17:03:30+00:00",
                 "type": "composer-plugin",
                 "extra": {
                     "class": "Horde\\Composer\\HordeInstallerPlugin"
@@ -37,7 +37,7 @@
                     "MIT"
                 ],
                 "support": {
-                    "source": "https://github.com/maintaina-com/horde-installer-plugin/tree/FRAMEWORK_6_0",
+                    "source": "https://github.com/maintaina-com/horde-installer-plugin/tree/v2.4.4",
                     "issues": "https://github.com/maintaina-com/horde-installer-plugin/issues"
                 }
             }
