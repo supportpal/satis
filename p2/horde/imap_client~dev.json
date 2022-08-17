@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Imap_Client.git",
-                    "reference": "dd5ab98d4f4d16ff3d8cd7fbed5d0044458db876"
+                    "reference": "8c96a9b06879aee2ed6e088d515ad301ffaedbec"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Imap_Client/zipball/dd5ab98d4f4d16ff3d8cd7fbed5d0044458db876",
-                    "reference": "dd5ab98d4f4d16ff3d8cd7fbed5d0044458db876",
+                    "url": "https://api.github.com/repos/maintaina-com/Imap_Client/zipball/8c96a9b06879aee2ed6e088d515ad301ffaedbec",
+                    "reference": "8c96a9b06879aee2ed6e088d515ad301ffaedbec",
                     "shasum": ""
                 },
                 "require": {
@@ -28,7 +28,7 @@
                     "horde/stream_filter": "^3 || dev-FRAMEWORK_6_0",
                     "horde/translation": "^3 || dev-FRAMEWORK_6_0",
                     "horde/util": "^3 || dev-FRAMEWORK_6_0",
-                    "php": "^7 || ^8"
+                    "php": "^7.4 || ^8"
                 },
                 "suggest": {
                     "ext-intl": "*",
@@ -52,7 +52,7 @@
                     }
                 },
                 "license": [
-                    "LGPL-2.1"
+                    "LGPL-2.1-only"
                 ],
                 "authors": [
                     {

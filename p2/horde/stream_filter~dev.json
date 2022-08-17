@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Stream_Filter.git",
-                    "reference": "96757440900d2485c10fabc090def0aa6a83d6b1"
+                    "reference": "a525d74e3e098866458b6d2b5f535b581edefc87"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Stream_Filter/zipball/96757440900d2485c10fabc090def0aa6a83d6b1",
-                    "reference": "96757440900d2485c10fabc090def0aa6a83d6b1",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream_Filter/zipball/a525d74e3e098866458b6d2b5f535b581edefc87",
+                    "reference": "a525d74e3e098866458b6d2b5f535b581edefc87",
                     "shasum": ""
                 },
                 "require": {

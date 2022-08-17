@@ -11125,6 +11125,45 @@
                     "issues": "https://github.com/maintaina-com/horde-installer-plugin/issues"
                 }
             },
+            "v2.1.0": {
+                "name": "horde/horde-installer-plugin",
+                "version": "v2.1.0",
+                "version_normalized": "2.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/horde-installer-plugin.git",
+                    "reference": "d25ffeccdb531528c43fbf76b75e2e1aed2535e4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/horde-installer-plugin/zipball/d25ffeccdb531528c43fbf76b75e2e1aed2535e4",
+                    "reference": "d25ffeccdb531528c43fbf76b75e2e1aed2535e4",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0|~2.0"
+                },
+                "require-dev": {
+                    "composer/composer": "^1.3|~2.0"
+                },
+                "time": "2021-07-04T12:57:47+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Horde\\Composer\\HordeInstallerPlugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Horde\\Composer\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/maintaina-com/horde-installer-plugin/tree/v2.1.0",
+                    "issues": "https://github.com/maintaina-com/horde-installer-plugin/issues"
+                }
+            },
             "v2.4.6": {
                 "name": "horde/horde-installer-plugin",
                 "version": "v2.4.6",
@@ -11310,12 +11349,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Idna.git",
-                    "reference": "91add294c5fcff5494a2a070623ad729caf07e0e"
+                    "reference": "ab42a1bcc5b74ff2874e1fe3c73bb71cfa8d5f7b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Idna/zipball/91add294c5fcff5494a2a070623ad729caf07e0e",
-                    "reference": "91add294c5fcff5494a2a070623ad729caf07e0e",
+                    "url": "https://api.github.com/repos/maintaina-com/Idna/zipball/ab42a1bcc5b74ff2874e1fe3c73bb71cfa8d5f7b",
+                    "reference": "ab42a1bcc5b74ff2874e1fe3c73bb71cfa8d5f7b",
                     "shasum": ""
                 },
                 "require": {
@@ -11358,12 +11397,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Imap_Client.git",
-                    "reference": "dd5ab98d4f4d16ff3d8cd7fbed5d0044458db876"
+                    "reference": "8c96a9b06879aee2ed6e088d515ad301ffaedbec"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Imap_Client/zipball/dd5ab98d4f4d16ff3d8cd7fbed5d0044458db876",
-                    "reference": "dd5ab98d4f4d16ff3d8cd7fbed5d0044458db876",
+                    "url": "https://api.github.com/repos/maintaina-com/Imap_Client/zipball/8c96a9b06879aee2ed6e088d515ad301ffaedbec",
+                    "reference": "8c96a9b06879aee2ed6e088d515ad301ffaedbec",
                     "shasum": ""
                 },
                 "require": {
@@ -11378,7 +11417,7 @@
                     "horde/stream_filter": "^3 || dev-FRAMEWORK_6_0",
                     "horde/translation": "^3 || dev-FRAMEWORK_6_0",
                     "horde/util": "^3 || dev-FRAMEWORK_6_0",
-                    "php": "^7 || ^8"
+                    "php": "^7.4 || ^8"
                 },
                 "suggest": {
                     "ext-intl": "*",
@@ -11402,7 +11441,7 @@
                     }
                 },
                 "license": [
-                    "LGPL-2.1"
+                    "LGPL-2.1-only"
                 ],
                 "authors": [
                     {
@@ -11688,12 +11727,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Mail.git",
-                    "reference": "549bde310d6edfec235a83f423a25bf7013c2ca6"
+                    "reference": "c90e968b4584e955a5e8d0b1627a4f10f559010e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/549bde310d6edfec235a83f423a25bf7013c2ca6",
-                    "reference": "549bde310d6edfec235a83f423a25bf7013c2ca6",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/c90e968b4584e955a5e8d0b1627a4f10f559010e",
+                    "reference": "c90e968b4584e955a5e8d0b1627a4f10f559010e",
                     "shasum": ""
                 },
                 "require": {
@@ -11804,50 +11843,56 @@
                     "source": "https://github.com/maintaina-com/Mime/tree/v3.0.0alpha1"
                 }
             },
-            "v3.0.0alpha3": {
+            "v3.0.0alpha4": {
                 "name": "horde/mime",
-                "version": "v3.0.0alpha3",
-                "version_normalized": "3.0.0.0-alpha3",
+                "version": "v3.0.0alpha4",
+                "version_normalized": "3.0.0.0-alpha4",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Mime.git",
-                    "reference": "5104d9396613bb31fe60aa1636fa973c276d2530"
+                    "reference": "98248b24d1fda6ff9d643551c68182bbc565b6bd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/5104d9396613bb31fe60aa1636fa973c276d2530",
-                    "reference": "5104d9396613bb31fe60aa1636fa973c276d2530",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/98248b24d1fda6ff9d643551c68182bbc565b6bd",
+                    "reference": "98248b24d1fda6ff9d643551c68182bbc565b6bd",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/listheaders": "^2",
-                    "horde/mail": "^3",
-                    "horde/stream": "^2",
-                    "horde/stream_filter": "^3",
-                    "horde/support": "^3",
-                    "horde/text_flowed": "^3",
-                    "horde/translation": "^3",
-                    "horde/util": "^3",
-                    "php": "^7"
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/listheaders": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/mail": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/stream": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/stream_filter": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/support": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/text_filter": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/text_flowed": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
+                    "php": "^7.4 || ^8"
                 },
                 "suggest": {
                     "ext-idn": "*",
                     "ext-intl": "*",
-                    "horde/nls": "^3",
-                    "horde/test": "^3",
-                    "horde/text_filter": "^3",
+                    "horde/nls": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/text_filter": "^3 || dev-FRAMEWORK_6_0",
                     "pear/net_dns2": "*"
                 },
-                "time": "2021-03-13T00:00:00+00:00",
+                "time": "2022-08-16T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Mime": "lib/"
                     }
                 },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Horde\\Mime\\Test\\": "test/"
+                    }
+                },
                 "license": [
-                    "LGPL-2.1"
+                    "LGPL-2.1-only"
                 ],
                 "authors": [
                     {
@@ -11864,7 +11909,7 @@
                 "description": "MIME library",
                 "homepage": "https://www.horde.org/libraries/Horde_Mime",
                 "support": {
-                    "source": "https://github.com/maintaina-com/Mime/tree/v3.0.0alpha3"
+                    "source": "https://github.com/maintaina-com/Mime/tree/v3.0.0alpha4"
                 }
             },
             "dev-FRAMEWORK_6_0": {
@@ -11874,12 +11919,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Mime.git",
-                    "reference": "319053f31b9508ab0e1cce346f29d273f740c8c5"
+                    "reference": "69fb4c76070f2302c3719ac60ac0df12e0d8e882"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/319053f31b9508ab0e1cce346f29d273f740c8c5",
-                    "reference": "319053f31b9508ab0e1cce346f29d273f740c8c5",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/69fb4c76070f2302c3719ac60ac0df12e0d8e882",
+                    "reference": "69fb4c76070f2302c3719ac60ac0df12e0d8e882",
                     "shasum": ""
                 },
                 "require": {
@@ -11889,6 +11934,7 @@
                     "horde/stream": "^2 || dev-FRAMEWORK_6_0",
                     "horde/stream_filter": "^3 || dev-FRAMEWORK_6_0",
                     "horde/support": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/text_filter": "^3 || dev-FRAMEWORK_6_0",
                     "horde/text_flowed": "^3 || dev-FRAMEWORK_6_0",
                     "horde/translation": "^3 || dev-FRAMEWORK_6_0",
                     "horde/util": "^3 || dev-FRAMEWORK_6_0",
@@ -11902,11 +11948,16 @@
                     "horde/text_filter": "^3 || dev-FRAMEWORK_6_0",
                     "pear/net_dns2": "*"
                 },
-                "time": "2021-03-13T00:00:00+00:00",
+                "time": "2022-08-16T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Mime": "lib/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Horde\\Mime\\Test\\": "test/"
                     }
                 },
                 "license": [
@@ -12340,12 +12391,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Stream.git",
-                    "reference": "02f4000827a49b8980a87f6ae39a99321274e584"
+                    "reference": "d2e0ddcdc9d26f59984f3be1ec06f9950fbb2263"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Stream/zipball/02f4000827a49b8980a87f6ae39a99321274e584",
-                    "reference": "02f4000827a49b8980a87f6ae39a99321274e584",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream/zipball/d2e0ddcdc9d26f59984f3be1ec06f9950fbb2263",
+                    "reference": "d2e0ddcdc9d26f59984f3be1ec06f9950fbb2263",
                     "shasum": ""
                 },
                 "require": {
@@ -12491,12 +12542,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Stream_Filter.git",
-                    "reference": "96757440900d2485c10fabc090def0aa6a83d6b1"
+                    "reference": "a525d74e3e098866458b6d2b5f535b581edefc87"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Stream_Filter/zipball/96757440900d2485c10fabc090def0aa6a83d6b1",
-                    "reference": "96757440900d2485c10fabc090def0aa6a83d6b1",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream_Filter/zipball/a525d74e3e098866458b6d2b5f535b581edefc87",
+                    "reference": "a525d74e3e098866458b6d2b5f535b581edefc87",
                     "shasum": ""
                 },
                 "require": {
@@ -12848,12 +12899,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Support.git",
-                    "reference": "20fd91e59ece7a5b268278d0d5eea1606155390e"
+                    "reference": "d62f21f184776dbd9b422d5f9cf95d2652f6f53f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Support/zipball/20fd91e59ece7a5b268278d0d5eea1606155390e",
-                    "reference": "20fd91e59ece7a5b268278d0d5eea1606155390e",
+                    "url": "https://api.github.com/repos/maintaina-com/Support/zipball/d62f21f184776dbd9b422d5f9cf95d2652f6f53f",
+                    "reference": "d62f21f184776dbd9b422d5f9cf95d2652f6f53f",
                     "shasum": ""
                 },
                 "require": {
@@ -12907,6 +12958,200 @@
                 "homepage": "https://www.horde.org/libraries/Horde_Support",
                 "support": {
                     "source": "https://github.com/maintaina-com/Support/tree/FRAMEWORK_6_0"
+                }
+            }
+        },
+        "horde/text_filter": {
+            "3.0.0alpha1": {
+                "name": "horde/text_filter",
+                "version": "3.0.0alpha1",
+                "version_normalized": "3.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Text_Filter.git",
+                    "reference": "db74527db1eaae05f7682f55e6ff2e96fae99a74"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/db74527db1eaae05f7682f55e6ff2e96fae99a74",
+                    "reference": "db74527db1eaae05f7682f55e6ff2e96fae99a74",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/horde-installer-plugin": "*",
+                    "horde/idna": "^2",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-tidy": "*",
+                    "horde/test": "^3",
+                    "horde/text_filter_jsmin": "^2",
+                    "horde/text_flowed": "^3",
+                    "horde/translation": "^3"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Text_Filter": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Text\\Filter\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Text filtering and conversion library",
+                "homepage": "https://www.horde.org/libraries/Horde_Text_Filter",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Text_Filter/tree/v3.0.0alpha1"
+                }
+            },
+            "v3.0.0alpha2": {
+                "name": "horde/text_filter",
+                "version": "v3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Text_Filter.git",
+                    "reference": "c56def8f2d4e7af81782d34f661952613e5a7abe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/c56def8f2d4e7af81782d34f661952613e5a7abe",
+                    "reference": "c56def8f2d4e7af81782d34f661952613e5a7abe",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3",
+                    "horde/idna": "^2",
+                    "horde/secret": "^3",
+                    "horde/util": "^3",
+                    "php": "^7"
+                },
+                "suggest": {
+                    "ext-tidy": "*",
+                    "horde/test": "^3",
+                    "horde/text_filter_jsmin": "^2",
+                    "horde/text_flowed": "^3",
+                    "horde/translation": "^3"
+                },
+                "time": "2021-03-13T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Text_Filter": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Text filtering and conversion library",
+                "homepage": "https://www.horde.org/libraries/Horde_Text_Filter",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Text_Filter/tree/v3.0.0alpha2"
+                }
+            },
+            "dev-FRAMEWORK_6_0": {
+                "name": "horde/text_filter",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Text_Filter.git",
+                    "reference": "b8a155e48df658469064070f5b0454871cddf98f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/b8a155e48df658469064070f5b0454871cddf98f",
+                    "reference": "b8a155e48df658469064070f5b0454871cddf98f",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/horde-installer-plugin": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/idna": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
+                    "php": "^7.4 || ^8"
+                },
+                "suggest": {
+                    "ext-tidy": "*",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/text_filter_jsmin": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/text_flowed": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0"
+                },
+                "time": "2021-02-24T00:00:00+00:00",
+                "type": "horde-library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Text_Filter": "lib/"
+                    },
+                    "psr-4": {
+                        "Horde\\Text\\Filter\\": "src/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1-only"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Text filtering and conversion library",
+                "homepage": "https://www.horde.org/libraries/Horde_Text_Filter",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Text_Filter/tree/FRAMEWORK_6_0"
                 }
             }
         },

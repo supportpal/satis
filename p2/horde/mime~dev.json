@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Mime.git",
-                    "reference": "319053f31b9508ab0e1cce346f29d273f740c8c5"
+                    "reference": "69fb4c76070f2302c3719ac60ac0df12e0d8e882"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/319053f31b9508ab0e1cce346f29d273f740c8c5",
-                    "reference": "319053f31b9508ab0e1cce346f29d273f740c8c5",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/69fb4c76070f2302c3719ac60ac0df12e0d8e882",
+                    "reference": "69fb4c76070f2302c3719ac60ac0df12e0d8e882",
                     "shasum": ""
                 },
                 "require": {
@@ -23,6 +23,7 @@
                     "horde/stream": "^2 || dev-FRAMEWORK_6_0",
                     "horde/stream_filter": "^3 || dev-FRAMEWORK_6_0",
                     "horde/support": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/text_filter": "^3 || dev-FRAMEWORK_6_0",
                     "horde/text_flowed": "^3 || dev-FRAMEWORK_6_0",
                     "horde/translation": "^3 || dev-FRAMEWORK_6_0",
                     "horde/util": "^3 || dev-FRAMEWORK_6_0",
@@ -36,11 +37,16 @@
                     "horde/text_filter": "^3 || dev-FRAMEWORK_6_0",
                     "pear/net_dns2": "*"
                 },
-                "time": "2021-03-13T00:00:00+00:00",
+                "time": "2022-08-16T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Mime": "lib/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Horde\\Mime\\Test\\": "test/"
                     }
                 },
                 "license": [

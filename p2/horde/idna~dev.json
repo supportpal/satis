@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Idna.git",
-                    "reference": "91add294c5fcff5494a2a070623ad729caf07e0e"
+                    "reference": "ab42a1bcc5b74ff2874e1fe3c73bb71cfa8d5f7b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Idna/zipball/91add294c5fcff5494a2a070623ad729caf07e0e",
-                    "reference": "91add294c5fcff5494a2a070623ad729caf07e0e",
+                    "url": "https://api.github.com/repos/maintaina-com/Idna/zipball/ab42a1bcc5b74ff2874e1fe3c73bb71cfa8d5f7b",
+                    "reference": "ab42a1bcc5b74ff2874e1fe3c73bb71cfa8d5f7b",
                     "shasum": ""
                 },
                 "require": {
