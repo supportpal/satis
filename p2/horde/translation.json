@@ -52,29 +52,29 @@
             },
             {
                 "name": "horde/translation",
-                "version": "v3.0.0alpha5",
-                "version_normalized": "3.0.0.0-alpha5",
+                "version": "v3.0.0alpha2",
+                "version_normalized": "3.0.0.0-alpha2",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Translation.git",
-                    "reference": "5b6c8915fe7de4a7e8989c23379efb17cda00df8"
+                    "reference": "062ea8a31cc21c2509f40954858c0c5d22e1eb49"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Translation/zipball/5b6c8915fe7de4a7e8989c23379efb17cda00df8",
-                    "reference": "5b6c8915fe7de4a7e8989c23379efb17cda00df8",
+                    "url": "https://api.github.com/repos/maintaina-com/Translation/zipball/062ea8a31cc21c2509f40954858c0c5d22e1eb49",
+                    "reference": "062ea8a31cc21c2509f40954858c0c5d22e1eb49",
                     "shasum": ""
                 },
                 "require": {
                     "php": "^7.4 || ^8"
                 },
                 "require-dev": {
-                    "horde/test": "^3"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
                 "suggest": {
                     "ext-gettext": "*"
                 },
-                "time": "2021-11-24T00:00:00+00:00",
+                "time": "2022-08-19T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -90,7 +90,7 @@
                     }
                 },
                 "license": [
-                    "LGPL-2.1"
+                    "LGPL-2.1-only"
                 ],
                 "authors": [
                     {
@@ -102,7 +102,7 @@
                 "description": "Translation library",
                 "homepage": "https://www.horde.org/libraries/Horde_Translation",
                 "support": {
-                    "source": "https://github.com/maintaina-com/Translation/tree/v3.0.0alpha5"
+                    "source": "https://github.com/maintaina-com/Translation/tree/v3.0.0alpha2"
                 }
             }
         ]

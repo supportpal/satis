@@ -8,17 +8,17 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Exception.git",
-                    "reference": "e93742f41f03dbb39dd9ec21ff98a8f41db74908"
+                    "reference": "63c71f5bdecf810ffcb5a76a6714c87e86242f32"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Exception/zipball/e93742f41f03dbb39dd9ec21ff98a8f41db74908",
-                    "reference": "e93742f41f03dbb39dd9ec21ff98a8f41db74908",
+                    "url": "https://api.github.com/repos/maintaina-com/Exception/zipball/63c71f5bdecf810ffcb5a76a6714c87e86242f32",
+                    "reference": "63c71f5bdecf810ffcb5a76a6714c87e86242f32",
                     "shasum": ""
                 },
                 "require": {
                     "horde/translation": "^3 || dev-FRAMEWORK_6_0",
-                    "php": "^7 || ^8"
+                    "php": "^7.4 || ^8"
                 },
                 "require-dev": {
                     "horde/test": "^3 || dev-FRAMEWORK_6_0",
@@ -41,7 +41,7 @@
                     }
                 },
                 "license": [
-                    "LGPL-2.1"
+                    "LGPL-2.1-only"
                 ],
                 "authors": [
                     {
