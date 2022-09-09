@@ -12899,12 +12899,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Support.git",
-                    "reference": "d62f21f184776dbd9b422d5f9cf95d2652f6f53f"
+                    "reference": "5c314076103ae102039f53dd8cd6fd6bc2e07d78"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Support/zipball/d62f21f184776dbd9b422d5f9cf95d2652f6f53f",
-                    "reference": "d62f21f184776dbd9b422d5f9cf95d2652f6f53f",
+                    "url": "https://api.github.com/repos/maintaina-com/Support/zipball/5c314076103ae102039f53dd8cd6fd6bc2e07d78",
+                    "reference": "5c314076103ae102039f53dd8cd6fd6bc2e07d78",
                     "shasum": ""
                 },
                 "require": {
