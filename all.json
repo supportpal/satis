@@ -11164,50 +11164,10 @@
                     "issues": "https://github.com/maintaina-com/horde-installer-plugin/issues"
                 }
             },
-            "v2.5.0": {
+            "v2.5.1": {
                 "name": "horde/horde-installer-plugin",
-                "version": "v2.5.0",
-                "version_normalized": "2.5.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/maintaina-com/horde-installer-plugin.git",
-                    "reference": "77db790be1e2d35e5077aa6aa4bd8665d146183a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/horde-installer-plugin/zipball/77db790be1e2d35e5077aa6aa4bd8665d146183a",
-                    "reference": "77db790be1e2d35e5077aa6aa4bd8665d146183a",
-                    "shasum": ""
-                },
-                "require": {
-                    "composer-plugin-api": "~2.0"
-                },
-                "require-dev": {
-                    "composer/composer": "~2.0",
-                    "horde/test": "^3"
-                },
-                "time": "2022-09-10T12:32:14+00:00",
-                "type": "composer-plugin",
-                "extra": {
-                    "class": "Horde\\Composer\\HordeInstallerPlugin"
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Horde\\Composer\\": "src/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "support": {
-                    "source": "https://github.com/maintaina-com/horde-installer-plugin/tree/v2.5.0",
-                    "issues": "https://github.com/maintaina-com/horde-installer-plugin/issues"
-                }
-            },
-            "dev-FRAMEWORK_6_0": {
-                "name": "horde/horde-installer-plugin",
-                "version": "dev-FRAMEWORK_6_0",
-                "version_normalized": "dev-FRAMEWORK_6_0",
+                "version": "v2.5.1",
+                "version_normalized": "2.5.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/horde-installer-plugin.git",
@@ -11227,6 +11187,46 @@
                     "horde/test": "^3"
                 },
                 "time": "2022-09-21T14:58:59+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Horde\\Composer\\HordeInstallerPlugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Horde\\Composer\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/maintaina-com/horde-installer-plugin/tree/v2.5.1",
+                    "issues": "https://github.com/maintaina-com/horde-installer-plugin/issues"
+                }
+            },
+            "dev-FRAMEWORK_6_0": {
+                "name": "horde/horde-installer-plugin",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/horde-installer-plugin.git",
+                    "reference": "22e6973a66cc53faaa398cb645437478f29ab56c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/horde-installer-plugin/zipball/22e6973a66cc53faaa398cb645437478f29ab56c",
+                    "reference": "22e6973a66cc53faaa398cb645437478f29ab56c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "~2.0"
+                },
+                "require-dev": {
+                    "composer/composer": "~2.0",
+                    "horde/test": "^3"
+                },
+                "time": "2022-09-28T18:43:48+00:00",
                 "type": "composer-plugin",
                 "extra": {
                     "class": "Horde\\Composer\\HordeInstallerPlugin"

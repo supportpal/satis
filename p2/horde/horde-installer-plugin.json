@@ -81,17 +81,17 @@
             },
             {
                 "name": "horde/horde-installer-plugin",
-                "version": "v2.5.0",
-                "version_normalized": "2.5.0.0",
+                "version": "v2.5.1",
+                "version_normalized": "2.5.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/horde-installer-plugin.git",
-                    "reference": "77db790be1e2d35e5077aa6aa4bd8665d146183a"
+                    "reference": "4d984942b9f7b1ea6d5c6e42773a19c85a53025b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/horde-installer-plugin/zipball/77db790be1e2d35e5077aa6aa4bd8665d146183a",
-                    "reference": "77db790be1e2d35e5077aa6aa4bd8665d146183a",
+                    "url": "https://api.github.com/repos/maintaina-com/horde-installer-plugin/zipball/4d984942b9f7b1ea6d5c6e42773a19c85a53025b",
+                    "reference": "4d984942b9f7b1ea6d5c6e42773a19c85a53025b",
                     "shasum": ""
                 },
                 "require": {
@@ -101,7 +101,7 @@
                     "composer/composer": "~2.0",
                     "horde/test": "^3"
                 },
-                "time": "2022-09-10T12:32:14+00:00",
+                "time": "2022-09-21T14:58:59+00:00",
                 "type": "composer-plugin",
                 "extra": {
                     "class": "Horde\\Composer\\HordeInstallerPlugin"
@@ -115,7 +115,7 @@
                     "MIT"
                 ],
                 "support": {
-                    "source": "https://github.com/maintaina-com/horde-installer-plugin/tree/v2.5.0",
+                    "source": "https://github.com/maintaina-com/horde-installer-plugin/tree/v2.5.1",
                     "issues": "https://github.com/maintaina-com/horde-installer-plugin/issues"
                 }
             }
