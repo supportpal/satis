@@ -67,17 +67,17 @@
             },
             {
                 "name": "horde/util",
-                "version": "v3.0.0alpha5",
-                "version_normalized": "3.0.0.0-alpha5",
+                "version": "v3.0.0alpha6",
+                "version_normalized": "3.0.0.0-alpha6",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Util.git",
-                    "reference": "7c53f3cea9679dc0f72db8bcfa7318123163403c"
+                    "reference": "4cde51bd7b8ce1c4cec7b7c351837f1a1c261556"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Util/zipball/7c53f3cea9679dc0f72db8bcfa7318123163403c",
-                    "reference": "7c53f3cea9679dc0f72db8bcfa7318123163403c",
+                    "url": "https://api.github.com/repos/maintaina-com/Util/zipball/4cde51bd7b8ce1c4cec7b7c351837f1a1c261556",
+                    "reference": "4cde51bd7b8ce1c4cec7b7c351837f1a1c261556",
                     "shasum": ""
                 },
                 "require": {
@@ -99,7 +99,7 @@
                     "horde/imap_client": "^3 || dev-FRAMEWORK_6_0",
                     "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2022-03-10T00:00:00+00:00",
+                "time": "2022-10-05T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [
@@ -137,7 +137,7 @@
                 "description": "Utility library",
                 "homepage": "https://www.horde.org/libraries/Horde_Util",
                 "support": {
-                    "source": "https://github.com/maintaina-com/Util/tree/v3.0.0alpha5"
+                    "source": "https://github.com/maintaina-com/Util/tree/v3.0.0alpha6"
                 }
             }
         ]
