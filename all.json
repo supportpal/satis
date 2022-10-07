@@ -10799,40 +10799,47 @@
                     "source": "https://github.com/maintaina-com/Crypt_Blowfish/tree/v2.0.0alpha1"
                 }
             },
-            "v2.0.0alpha2": {
+            "v2.0.0alpha3": {
                 "name": "horde/crypt_blowfish",
-                "version": "v2.0.0alpha2",
-                "version_normalized": "2.0.0.0-alpha2",
+                "version": "v2.0.0alpha3",
+                "version_normalized": "2.0.0.0-alpha3",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Crypt_Blowfish.git",
-                    "reference": "501a2af5520e4aa64dc7b4a1563aa5193a3c33df"
+                    "reference": "d66b76fe87936d1d203ccd11319ed4da20952d9e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Crypt_Blowfish/zipball/501a2af5520e4aa64dc7b4a1563aa5193a3c33df",
-                    "reference": "501a2af5520e4aa64dc7b4a1563aa5193a3c33df",
+                    "url": "https://api.github.com/repos/maintaina-com/Crypt_Blowfish/zipball/d66b76fe87936d1d203ccd11319ed4da20952d9e",
+                    "reference": "d66b76fe87936d1d203ccd11319ed4da20952d9e",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/support": "^3",
-                    "php": "^7"
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/support": "^3 || dev-FRAMEWORK_6_0",
+                    "php": "^7.4 || ^8"
+                },
+                "require-dev": {
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
                 "suggest": {
                     "ext-mcrypt": "*",
-                    "ext-openssl": "*",
-                    "horde/test": "^3"
+                    "ext-openssl": "*"
                 },
-                "time": "2021-03-13T00:00:00+00:00",
+                "time": "2022-10-06T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Crypt_Blowfish": "lib/"
                     }
                 },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Horde\\Crypt\\Blowfish\\Test\\": "test/"
+                    }
+                },
                 "license": [
-                    "LGPL-2.1"
+                    "LGPL-2.1-only"
                 ],
                 "authors": [
                     {
@@ -10844,7 +10851,7 @@
                 "description": "Blowfish encryption library",
                 "homepage": "https://www.horde.org/libraries/Horde_Crypt_Blowfish",
                 "support": {
-                    "source": "https://github.com/maintaina-com/Crypt_Blowfish/tree/v2.0.0alpha2"
+                    "source": "https://github.com/maintaina-com/Crypt_Blowfish/tree/v2.0.0alpha3"
                 }
             },
             "dev-FRAMEWORK_6_0": {
@@ -10854,12 +10861,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Crypt_Blowfish.git",
-                    "reference": "7282488e88739870af2ff939946d58cdfe3e79fb"
+                    "reference": "c88c1b7dc2507a97d6294aeae8bd3798c66e089e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Crypt_Blowfish/zipball/7282488e88739870af2ff939946d58cdfe3e79fb",
-                    "reference": "7282488e88739870af2ff939946d58cdfe3e79fb",
+                    "url": "https://api.github.com/repos/maintaina-com/Crypt_Blowfish/zipball/c88c1b7dc2507a97d6294aeae8bd3798c66e089e",
+                    "reference": "c88c1b7dc2507a97d6294aeae8bd3798c66e089e",
                     "shasum": ""
                 },
                 "require": {
@@ -10867,16 +10874,23 @@
                     "horde/support": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7.4 || ^8"
                 },
-                "suggest": {
-                    "ext-mcrypt": "*",
-                    "ext-openssl": "*",
+                "require-dev": {
                     "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-03-13T00:00:00+00:00",
+                "suggest": {
+                    "ext-mcrypt": "*",
+                    "ext-openssl": "*"
+                },
+                "time": "2022-10-06T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Crypt_Blowfish": "lib/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Horde\\Crypt\\Blowfish\\Test\\": "test/"
                     }
                 },
                 "license": [
@@ -11397,12 +11411,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Imap_Client.git",
-                    "reference": "8c96a9b06879aee2ed6e088d515ad301ffaedbec"
+                    "reference": "f7fb9c8d90c62857c099556ea69f7bb11b2c3f90"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Imap_Client/zipball/8c96a9b06879aee2ed6e088d515ad301ffaedbec",
-                    "reference": "8c96a9b06879aee2ed6e088d515ad301ffaedbec",
+                    "url": "https://api.github.com/repos/maintaina-com/Imap_Client/zipball/f7fb9c8d90c62857c099556ea69f7bb11b2c3f90",
+                    "reference": "f7fb9c8d90c62857c099556ea69f7bb11b2c3f90",
                     "shasum": ""
                 },
                 "require": {
