@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Imap_Client.git",
-                    "reference": "f7fb9c8d90c62857c099556ea69f7bb11b2c3f90"
+                    "reference": "2441a9e2b7c959bd67f8ed0cb91aba57febf3da2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Imap_Client/zipball/f7fb9c8d90c62857c099556ea69f7bb11b2c3f90",
-                    "reference": "f7fb9c8d90c62857c099556ea69f7bb11b2c3f90",
+                    "url": "https://api.github.com/repos/maintaina-com/Imap_Client/zipball/2441a9e2b7c959bd67f8ed0cb91aba57febf3da2",
+                    "reference": "2441a9e2b7c959bd67f8ed0cb91aba57febf3da2",
                     "shasum": ""
                 },
                 "require": {
@@ -44,11 +44,16 @@
                     "horde/support": "^3 || dev-FRAMEWORK_6_0",
                     "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-07-22T00:00:00+00:00",
+                "time": "2022-10-08T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Imap_Client": "lib/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Horde\\Imap\\Client\\Test\\": "test/"
                     }
                 },
                 "license": [

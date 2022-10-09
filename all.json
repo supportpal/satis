@@ -11411,12 +11411,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Imap_Client.git",
-                    "reference": "f7fb9c8d90c62857c099556ea69f7bb11b2c3f90"
+                    "reference": "2441a9e2b7c959bd67f8ed0cb91aba57febf3da2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Imap_Client/zipball/f7fb9c8d90c62857c099556ea69f7bb11b2c3f90",
-                    "reference": "f7fb9c8d90c62857c099556ea69f7bb11b2c3f90",
+                    "url": "https://api.github.com/repos/maintaina-com/Imap_Client/zipball/2441a9e2b7c959bd67f8ed0cb91aba57febf3da2",
+                    "reference": "2441a9e2b7c959bd67f8ed0cb91aba57febf3da2",
                     "shasum": ""
                 },
                 "require": {
@@ -11447,11 +11447,16 @@
                     "horde/support": "^3 || dev-FRAMEWORK_6_0",
                     "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-07-22T00:00:00+00:00",
+                "time": "2022-10-08T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Imap_Client": "lib/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Horde\\Imap\\Client\\Test\\": "test/"
                     }
                 },
                 "license": [
@@ -11680,73 +11685,19 @@
                     "source": "https://github.com/maintaina-com/Mail/tree/v3.0.0alpha1"
                 }
             },
-            "v3.0.0alpha3": {
+            "v3.0.0alpha4": {
                 "name": "horde/mail",
-                "version": "v3.0.0alpha3",
-                "version_normalized": "3.0.0.0-alpha3",
+                "version": "v3.0.0alpha4",
+                "version_normalized": "3.0.0.0-alpha4",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Mail.git",
-                    "reference": "5ab9b140a75c3f479b35459f3c8052d778f80e73"
+                    "reference": "fa899590e28aee51c46ba4061972de308eaaa527"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/5ab9b140a75c3f479b35459f3c8052d778f80e73",
-                    "reference": "5ab9b140a75c3f479b35459f3c8052d778f80e73",
-                    "shasum": ""
-                },
-                "require": {
-                    "horde/exception": "^3",
-                    "horde/idna": "^2",
-                    "horde/mime": "^3",
-                    "horde/stream_filter": "^3",
-                    "horde/translation": "^3",
-                    "horde/util": "^3",
-                    "php": "^7"
-                },
-                "suggest": {
-                    "horde/smtp": "^2",
-                    "horde/stream_wrapper": "^3",
-                    "horde/test": "^3",
-                    "pear/net_dns2": "^1.5",
-                    "pear/net_smtp": "^1.9"
-                },
-                "time": "2021-03-13T00:00:00+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-0": {
-                        "Horde_Mail": "lib/"
-                    }
-                },
-                "license": [
-                    "BSD-2-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Michael Slusarz",
-                        "email": "slusarz@horde.org",
-                        "role": "lead"
-                    }
-                ],
-                "description": "Mail library",
-                "homepage": "https://www.horde.org/libraries/Horde_Mail",
-                "support": {
-                    "source": "https://github.com/maintaina-com/Mail/tree/v3.0.0alpha3"
-                }
-            },
-            "dev-FRAMEWORK_6_0": {
-                "name": "horde/mail",
-                "version": "dev-FRAMEWORK_6_0",
-                "version_normalized": "dev-FRAMEWORK_6_0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/maintaina-com/Mail.git",
-                    "reference": "e8f52a8b0b27debba1969b637ec3ef188795ce57"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/e8f52a8b0b27debba1969b637ec3ef188795ce57",
-                    "reference": "e8f52a8b0b27debba1969b637ec3ef188795ce57",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/fa899590e28aee51c46ba4061972de308eaaa527",
+                    "reference": "fa899590e28aee51c46ba4061972de308eaaa527",
                     "shasum": ""
                 },
                 "require": {
@@ -11765,11 +11716,75 @@
                     "pear/net_dns2": "^1.5",
                     "pear/net_smtp": "^1.9"
                 },
-                "time": "2021-03-13T00:00:00+00:00",
+                "time": "2022-10-08T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Mail": "lib/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Horde\\Mail\\Test\\": "test/"
+                    }
+                },
+                "license": [
+                    "BSD-2-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Mail library",
+                "homepage": "https://www.horde.org/libraries/Horde_Mail",
+                "support": {
+                    "source": "https://github.com/maintaina-com/Mail/tree/v3.0.0alpha4"
+                }
+            },
+            "dev-FRAMEWORK_6_0": {
+                "name": "horde/mail",
+                "version": "dev-FRAMEWORK_6_0",
+                "version_normalized": "dev-FRAMEWORK_6_0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maintaina-com/Mail.git",
+                    "reference": "369206f7cba34df81b6b8d0ea824c62544e15722"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/369206f7cba34df81b6b8d0ea824c62544e15722",
+                    "reference": "369206f7cba34df81b6b8d0ea824c62544e15722",
+                    "shasum": ""
+                },
+                "require": {
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/idna": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/mime": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/stream_filter": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
+                    "php": "^7.4 || ^8"
+                },
+                "suggest": {
+                    "horde/smtp": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/stream_wrapper": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0",
+                    "pear/net_dns2": "^1.5",
+                    "pear/net_smtp": "^1.9"
+                },
+                "time": "2022-10-08T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Mail": "lib/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Horde\\Mail\\Test\\": "test/"
                     }
                 },
                 "license": [
@@ -13536,19 +13551,19 @@
                     "source": "https://github.com/maintaina-com/Util/tree/v3.0.0alpha1"
                 }
             },
-            "v3.0.0alpha6": {
+            "v3.0.0alpha7": {
                 "name": "horde/util",
-                "version": "v3.0.0alpha6",
-                "version_normalized": "3.0.0.0-alpha6",
+                "version": "v3.0.0alpha7",
+                "version_normalized": "3.0.0.0-alpha7",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Util.git",
-                    "reference": "4cde51bd7b8ce1c4cec7b7c351837f1a1c261556"
+                    "reference": "7db8e9d436b1755295479891f2c05a4bb97beeea"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Util/zipball/4cde51bd7b8ce1c4cec7b7c351837f1a1c261556",
-                    "reference": "4cde51bd7b8ce1c4cec7b7c351837f1a1c261556",
+                    "url": "https://api.github.com/repos/maintaina-com/Util/zipball/7db8e9d436b1755295479891f2c05a4bb97beeea",
+                    "reference": "7db8e9d436b1755295479891f2c05a4bb97beeea",
                     "shasum": ""
                 },
                 "require": {
@@ -13557,7 +13572,8 @@
                 },
                 "require-dev": {
                     "horde/imap_client": "^3 || dev-FRAMEWORK_6_0",
-                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0",
+                    "pear/pear": "*"
                 },
                 "suggest": {
                     "ext-ctype": "*",
@@ -13570,7 +13586,7 @@
                     "horde/imap_client": "^3 || dev-FRAMEWORK_6_0",
                     "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2022-10-05T00:00:00+00:00",
+                "time": "2022-10-08T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [
@@ -13608,7 +13624,7 @@
                 "description": "Utility library",
                 "homepage": "https://www.horde.org/libraries/Horde_Util",
                 "support": {
-                    "source": "https://github.com/maintaina-com/Util/tree/v3.0.0alpha6"
+                    "source": "https://github.com/maintaina-com/Util/tree/v3.0.0alpha7"
                 }
             },
             "dev-FRAMEWORK_6_0": {
@@ -13618,12 +13634,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Util.git",
-                    "reference": "3e077bdd0c9558d95e55fa7074407cc357f2725f"
+                    "reference": "75181eb2d0dbf8015a41091c9238fdbccd1b9474"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Util/zipball/3e077bdd0c9558d95e55fa7074407cc357f2725f",
-                    "reference": "3e077bdd0c9558d95e55fa7074407cc357f2725f",
+                    "url": "https://api.github.com/repos/maintaina-com/Util/zipball/75181eb2d0dbf8015a41091c9238fdbccd1b9474",
+                    "reference": "75181eb2d0dbf8015a41091c9238fdbccd1b9474",
                     "shasum": ""
                 },
                 "require": {
@@ -13632,7 +13648,8 @@
                 },
                 "require-dev": {
                     "horde/imap_client": "^3 || dev-FRAMEWORK_6_0",
-                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0",
+                    "pear/pear": "*"
                 },
                 "suggest": {
                     "ext-ctype": "*",
@@ -13645,7 +13662,7 @@
                     "horde/imap_client": "^3 || dev-FRAMEWORK_6_0",
                     "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2022-10-05T00:00:00+00:00",
+                "time": "2022-10-08T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [

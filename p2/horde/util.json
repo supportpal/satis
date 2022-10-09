@@ -67,17 +67,17 @@
             },
             {
                 "name": "horde/util",
-                "version": "v3.0.0alpha6",
-                "version_normalized": "3.0.0.0-alpha6",
+                "version": "v3.0.0alpha7",
+                "version_normalized": "3.0.0.0-alpha7",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Util.git",
-                    "reference": "4cde51bd7b8ce1c4cec7b7c351837f1a1c261556"
+                    "reference": "7db8e9d436b1755295479891f2c05a4bb97beeea"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Util/zipball/4cde51bd7b8ce1c4cec7b7c351837f1a1c261556",
-                    "reference": "4cde51bd7b8ce1c4cec7b7c351837f1a1c261556",
+                    "url": "https://api.github.com/repos/maintaina-com/Util/zipball/7db8e9d436b1755295479891f2c05a4bb97beeea",
+                    "reference": "7db8e9d436b1755295479891f2c05a4bb97beeea",
                     "shasum": ""
                 },
                 "require": {
@@ -86,7 +86,8 @@
                 },
                 "require-dev": {
                     "horde/imap_client": "^3 || dev-FRAMEWORK_6_0",
-                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0",
+                    "pear/pear": "*"
                 },
                 "suggest": {
                     "ext-ctype": "*",
@@ -99,7 +100,7 @@
                     "horde/imap_client": "^3 || dev-FRAMEWORK_6_0",
                     "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2022-10-05T00:00:00+00:00",
+                "time": "2022-10-08T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [
@@ -137,7 +138,7 @@
                 "description": "Utility library",
                 "homepage": "https://www.horde.org/libraries/Horde_Util",
                 "support": {
-                    "source": "https://github.com/maintaina-com/Util/tree/v3.0.0alpha6"
+                    "source": "https://github.com/maintaina-com/Util/tree/v3.0.0alpha7"
                 }
             }
         ]
