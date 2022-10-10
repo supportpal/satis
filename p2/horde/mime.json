@@ -70,17 +70,17 @@
             },
             {
                 "name": "horde/mime",
-                "version": "v3.0.0alpha4",
-                "version_normalized": "3.0.0.0-alpha4",
+                "version": "v3.0.0alpha5",
+                "version_normalized": "3.0.0.0-alpha5",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Mime.git",
-                    "reference": "98248b24d1fda6ff9d643551c68182bbc565b6bd"
+                    "reference": "149617ac4f195927ad73b1665fa546c8f3e36b82"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/98248b24d1fda6ff9d643551c68182bbc565b6bd",
-                    "reference": "98248b24d1fda6ff9d643551c68182bbc565b6bd",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/149617ac4f195927ad73b1665fa546c8f3e36b82",
+                    "reference": "149617ac4f195927ad73b1665fa546c8f3e36b82",
                     "shasum": ""
                 },
                 "require": {
@@ -96,15 +96,19 @@
                     "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7.4 || ^8"
                 },
-                "suggest": {
-                    "ext-idn": "*",
+                "require-dev": {
                     "ext-intl": "*",
                     "horde/nls": "^3 || dev-FRAMEWORK_6_0",
                     "horde/test": "^3 || dev-FRAMEWORK_6_0",
                     "horde/text_filter": "^3 || dev-FRAMEWORK_6_0",
-                    "pear/net_dns2": "*"
+                    "pear/net_dns2": "^1.5.3"
                 },
-                "time": "2022-08-16T00:00:00+00:00",
+                "suggest": {
+                    "horde/nls": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/text_filter": "^3 || dev-FRAMEWORK_6_0",
+                    "pear/net_dns2": "^1.5.3"
+                },
+                "time": "2022-10-09T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -134,7 +138,7 @@
                 "description": "MIME library",
                 "homepage": "https://www.horde.org/libraries/Horde_Mime",
                 "support": {
-                    "source": "https://github.com/maintaina-com/Mime/tree/v3.0.0alpha4"
+                    "source": "https://github.com/maintaina-com/Mime/tree/v3.0.0alpha5"
                 }
             }
         ]

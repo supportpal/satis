@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Mime.git",
-                    "reference": "69fb4c76070f2302c3719ac60ac0df12e0d8e882"
+                    "reference": "44417e9f9518f3b6f39f6f43f2f590cf9d922843"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/69fb4c76070f2302c3719ac60ac0df12e0d8e882",
-                    "reference": "69fb4c76070f2302c3719ac60ac0df12e0d8e882",
+                    "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/44417e9f9518f3b6f39f6f43f2f590cf9d922843",
+                    "reference": "44417e9f9518f3b6f39f6f43f2f590cf9d922843",
                     "shasum": ""
                 },
                 "require": {
@@ -29,15 +29,19 @@
                     "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7.4 || ^8"
                 },
-                "suggest": {
-                    "ext-idn": "*",
+                "require-dev": {
                     "ext-intl": "*",
                     "horde/nls": "^3 || dev-FRAMEWORK_6_0",
                     "horde/test": "^3 || dev-FRAMEWORK_6_0",
                     "horde/text_filter": "^3 || dev-FRAMEWORK_6_0",
-                    "pear/net_dns2": "*"
+                    "pear/net_dns2": "^1.5.3"
                 },
-                "time": "2022-08-16T00:00:00+00:00",
+                "suggest": {
+                    "horde/nls": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/text_filter": "^3 || dev-FRAMEWORK_6_0",
+                    "pear/net_dns2": "^1.5.3"
+                },
+                "time": "2022-10-09T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {

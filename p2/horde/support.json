@@ -64,30 +64,30 @@
             },
             {
                 "name": "horde/support",
-                "version": "v3.0.0alpha4",
-                "version_normalized": "3.0.0.0-alpha4",
+                "version": "v3.0.0.1alpha4",
+                "version_normalized": "3.0.0.1-alpha4",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Support.git",
-                    "reference": "05aa946535a1e23d2245f6ac31dc67c3854c4054"
+                    "reference": "5c314076103ae102039f53dd8cd6fd6bc2e07d78"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Support/zipball/05aa946535a1e23d2245f6ac31dc67c3854c4054",
-                    "reference": "05aa946535a1e23d2245f6ac31dc67c3854c4054",
+                    "url": "https://api.github.com/repos/maintaina-com/Support/zipball/5c314076103ae102039f53dd8cd6fd6bc2e07d78",
+                    "reference": "5c314076103ae102039f53dd8cd6fd6bc2e07d78",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/stream_wrapper": "^3",
-                    "horde/util": "^3",
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/stream_wrapper": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7.4 || ^8"
                 },
                 "require-dev": {
-                    "horde/test": "^3"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
                 "suggest": {
-                    "horde/test": "^3"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
                 "time": "2021-11-05T00:00:00+00:00",
                 "type": "library",
@@ -127,7 +127,7 @@
                 "description": "Supporting library",
                 "homepage": "https://www.horde.org/libraries/Horde_Support",
                 "support": {
-                    "source": "https://github.com/maintaina-com/Support/tree/v3.0.0alpha4"
+                    "source": "https://github.com/maintaina-com/Support/tree/v3.0.0.1alpha4"
                 }
             }
         ]
