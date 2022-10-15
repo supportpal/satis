@@ -11178,19 +11178,19 @@
                     "issues": "https://github.com/maintaina-com/horde-installer-plugin/issues"
                 }
             },
-            "v2.5.3": {
+            "2.5.5": {
                 "name": "horde/horde-installer-plugin",
-                "version": "v2.5.3",
-                "version_normalized": "2.5.3.0",
+                "version": "2.5.5",
+                "version_normalized": "2.5.5.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/horde-installer-plugin.git",
-                    "reference": "fc13a46b39432d0f4a6c1f52a8ac44132feb5ecb"
+                    "reference": "153ec64d16bc5d9a6063155e4583db3049adadad"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/horde-installer-plugin/zipball/fc13a46b39432d0f4a6c1f52a8ac44132feb5ecb",
-                    "reference": "fc13a46b39432d0f4a6c1f52a8ac44132feb5ecb",
+                    "url": "https://api.github.com/repos/maintaina-com/horde-installer-plugin/zipball/153ec64d16bc5d9a6063155e4583db3049adadad",
+                    "reference": "153ec64d16bc5d9a6063155e4583db3049adadad",
                     "shasum": ""
                 },
                 "require": {
@@ -11200,7 +11200,7 @@
                     "composer/composer": "~2.0",
                     "horde/test": "^3"
                 },
-                "time": "2022-09-29T11:42:40+00:00",
+                "time": "2022-10-13T06:31:32+00:00",
                 "type": "composer-plugin",
                 "extra": {
                     "class": "Horde\\Composer\\HordeInstallerPlugin"
@@ -11214,7 +11214,7 @@
                     "MIT"
                 ],
                 "support": {
-                    "source": "https://github.com/maintaina-com/horde-installer-plugin/tree/v2.5.3",
+                    "source": "https://github.com/maintaina-com/horde-installer-plugin/tree/2.5.5",
                     "issues": "https://github.com/maintaina-com/horde-installer-plugin/issues"
                 }
             },
@@ -11225,12 +11225,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/horde-installer-plugin.git",
-                    "reference": "316ec7296853b90530ffaf7d0867c2545a5b50b7"
+                    "reference": "153ec64d16bc5d9a6063155e4583db3049adadad"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/horde-installer-plugin/zipball/316ec7296853b90530ffaf7d0867c2545a5b50b7",
-                    "reference": "316ec7296853b90530ffaf7d0867c2545a5b50b7",
+                    "url": "https://api.github.com/repos/maintaina-com/horde-installer-plugin/zipball/153ec64d16bc5d9a6063155e4583db3049adadad",
+                    "reference": "153ec64d16bc5d9a6063155e4583db3049adadad",
                     "shasum": ""
                 },
                 "require": {
@@ -11240,7 +11240,7 @@
                     "composer/composer": "~2.0",
                     "horde/test": "^3"
                 },
-                "time": "2022-09-29T12:03:22+00:00",
+                "time": "2022-10-13T06:31:32+00:00",
                 "type": "composer-plugin",
                 "extra": {
                     "class": "Horde\\Composer\\HordeInstallerPlugin"
@@ -11254,7 +11254,7 @@
                     "MIT"
                 ],
                 "support": {
-                    "source": "https://github.com/maintaina-com/horde-installer-plugin/tree/FRAMEWORK_6_0",
+                    "source": "https://github.com/maintaina-com/horde-installer-plugin/tree/2.5.5",
                     "issues": "https://github.com/maintaina-com/horde-installer-plugin/issues"
                 }
             }
@@ -13380,7 +13380,8 @@
                 "description": "Translation library",
                 "homepage": "https://www.horde.org/libraries/Horde_Translation",
                 "support": {
-                    "source": "https://github.com/maintaina-com/Translation/tree/v3.0.0alpha1"
+                    "source": "https://github.com/maintaina-com/Translation/tree/v3.0.0alpha1",
+                    "issues": "https://github.com/maintaina-com/Translation/issues"
                 }
             },
             "v3.0.0alpha2": {
@@ -13435,7 +13436,8 @@
                 "description": "Translation library",
                 "homepage": "https://www.horde.org/libraries/Horde_Translation",
                 "support": {
-                    "source": "https://github.com/maintaina-com/Translation/tree/v3.0.0alpha2"
+                    "source": "https://github.com/maintaina-com/Translation/tree/v3.0.0alpha2",
+                    "issues": "https://github.com/maintaina-com/Translation/issues"
                 }
             },
             "dev-FRAMEWORK_6_0": {
@@ -13490,7 +13492,8 @@
                 "description": "Translation library",
                 "homepage": "https://www.horde.org/libraries/Horde_Translation",
                 "support": {
-                    "source": "https://github.com/maintaina-com/Translation/tree/FRAMEWORK_6_0"
+                    "source": "https://github.com/maintaina-com/Translation/tree/FRAMEWORK_6_0",
+                    "issues": "https://github.com/maintaina-com/Translation/issues"
                 }
             }
         },

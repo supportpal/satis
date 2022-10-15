@@ -53,7 +53,8 @@
                 "description": "Translation library",
                 "homepage": "https://www.horde.org/libraries/Horde_Translation",
                 "support": {
-                    "source": "https://github.com/maintaina-com/Translation/tree/FRAMEWORK_6_0"
+                    "source": "https://github.com/maintaina-com/Translation/tree/FRAMEWORK_6_0",
+                    "issues": "https://github.com/maintaina-com/Translation/issues"
                 }
             }
         ]

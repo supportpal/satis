@@ -47,7 +47,8 @@
                 "description": "Translation library",
                 "homepage": "https://www.horde.org/libraries/Horde_Translation",
                 "support": {
-                    "source": "https://github.com/maintaina-com/Translation/tree/v3.0.0alpha1"
+                    "source": "https://github.com/maintaina-com/Translation/tree/v3.0.0alpha1",
+                    "issues": "https://github.com/maintaina-com/Translation/issues"
                 }
             },
             {
@@ -102,7 +103,8 @@
                 "description": "Translation library",
                 "homepage": "https://www.horde.org/libraries/Horde_Translation",
                 "support": {
-                    "source": "https://github.com/maintaina-com/Translation/tree/v3.0.0alpha2"
+                    "source": "https://github.com/maintaina-com/Translation/tree/v3.0.0alpha2",
+                    "issues": "https://github.com/maintaina-com/Translation/issues"
                 }
             }
         ]
