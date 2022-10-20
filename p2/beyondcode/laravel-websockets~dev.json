@@ -8,29 +8,29 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bytestream/laravel-websockets.git",
-                    "reference": "c83137cfd3537467453b1ac9dd3faa3275a99966"
+                    "reference": "8611afff29768e38074cadf1cc877f68abb1c544"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bytestream/laravel-websockets/zipball/c83137cfd3537467453b1ac9dd3faa3275a99966",
-                    "reference": "c83137cfd3537467453b1ac9dd3faa3275a99966",
+                    "url": "https://api.github.com/repos/bytestream/laravel-websockets/zipball/8611afff29768e38074cadf1cc877f68abb1c544",
+                    "reference": "8611afff29768e38074cadf1cc877f68abb1c544",
                     "shasum": ""
                 },
                 "require": {
                     "cboden/ratchet": "^0.4.1",
                     "ext-json": "*",
                     "facade/ignition-contracts": "^1.0",
-                    "guzzlehttp/psr7": "^1.5",
-                    "illuminate/broadcasting": "^6.0|^7.0|^8.0",
-                    "illuminate/console": "^6.0|^7.0|^8.0",
-                    "illuminate/http": "^6.0|^7.0|^8.0",
-                    "illuminate/routing": "^6.0|^7.0|^8.0",
-                    "illuminate/support": "^6.0|^7.0|^8.0",
+                    "guzzlehttp/psr7": "^1.7|^2.0",
+                    "illuminate/broadcasting": "^6.0|^7.0|^8.0|^9.0",
+                    "illuminate/console": "^6.0|^7.0|^8.0|^9.0",
+                    "illuminate/http": "^6.0|^7.0|^8.0|^9.0",
+                    "illuminate/routing": "^6.0|^7.0|^8.0|^9.0",
+                    "illuminate/support": "^6.0|^7.0|^8.0|^9.0",
                     "php": "^7.2|^8.0",
-                    "pusher/pusher-php-server": "^3.0|^4.0|^5.0",
+                    "pusher/pusher-php-server": "^3.0|^4.0|^5.0|^6.0|^7.0",
                     "react/dns": "^1.1",
                     "react/http": "^1.1",
-                    "symfony/http-kernel": "^4.0|^5.0",
+                    "symfony/http-kernel": "^4.0|^5.0|^6.0",
                     "symfony/psr-http-message-bridge": "^1.1|^2.0"
                 },
                 "require-dev": {
@@ -38,7 +38,7 @@
                     "orchestra/testbench": "^4.0|^5.0|^6.0",
                     "phpunit/phpunit": "^8.0|^9.0"
                 },
-                "time": "2021-07-19T09:57:08+00:00",
+                "time": "2022-10-20T17:29:17+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -92,7 +92,7 @@
                     "laravel-websockets"
                 ],
                 "support": {
-                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.x"
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.14.0"
                 }
             },
             {
