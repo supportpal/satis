@@ -7,7 +7,7 @@
                 "version_normalized": "1.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/laravel-websockets.git",
+                    "url": "git@github.com:bytestream/laravel-websockets.git",
                     "reference": "8611afff29768e38074cadf1cc877f68abb1c544"
                 },
                 "dist": {
@@ -38,7 +38,7 @@
                     "orchestra/testbench": "^4.0|^5.0|^6.0",
                     "phpunit/phpunit": "^8.0|^9.0"
                 },
-                "time": "2022-10-20T17:29:17+00:00",
+                "time": "2021-09-02T15:56:46+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -90,10 +90,7 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.14.0"
-                }
+                ]
             },
             {
                 "name": "beyondcode/laravel-websockets",
@@ -101,7 +98,7 @@
                 "version_normalized": "2.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/laravel-websockets.git",
+                    "url": "git@github.com:bytestream/laravel-websockets.git",
                     "reference": "11630783282eb0a189ea4ff902574b3d195f2ac9"
                 },
                 "dist": {
@@ -194,10 +191,7 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.x"
-                }
+                ]
             },
             {
                 "name": "beyondcode/laravel-websockets",
@@ -205,7 +199,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/laravel-websockets.git",
+                    "url": "git@github.com:bytestream/laravel-websockets.git",
                     "reference": "ea8e5ad820385f85434db48f6c4b76f3d448d791"
                 },
                 "dist": {
@@ -297,10 +291,7 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/laravel-websockets/tree/master"
-                }
+                ]
             },
             {
                 "name": "beyondcode/laravel-websockets",
@@ -308,7 +299,7 @@
                 "version_normalized": "dev-2.x-memory-leak",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/laravel-websockets.git",
+                    "url": "git@github.com:bytestream/laravel-websockets.git",
                     "reference": "2d90daa0603c1a1ec9f7478b804b09863b361448"
                 },
                 "dist": {
@@ -393,10 +384,7 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/laravel-websockets/tree/2.x-memory-leak"
-                }
+                ]
             },
             {
                 "name": "beyondcode/laravel-websockets",
@@ -404,7 +392,7 @@
                 "version_normalized": "dev-async-app-managers",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/laravel-websockets.git",
+                    "url": "git@github.com:bytestream/laravel-websockets.git",
                     "reference": "fcb3a537c62ae4ec65b2ed6ffa04b31b2a4c5ad7"
                 },
                 "dist": {
@@ -500,10 +488,7 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/laravel-websockets/tree/async-app-managers"
-                }
+                ]
             },
             {
                 "name": "beyondcode/laravel-websockets",
@@ -511,7 +496,7 @@
                 "version_normalized": "dev-console",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/laravel-websockets.git",
+                    "url": "git@github.com:bytestream/laravel-websockets.git",
                     "reference": "b4141c81db893cf2c55144d21a5055f794533bc2"
                 },
                 "dist": {
@@ -588,10 +573,7 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/laravel-websockets/tree/console"
-                }
+                ]
             },
             {
                 "name": "beyondcode/laravel-websockets",
@@ -599,7 +581,7 @@
                 "version_normalized": "dev-doctrine/dbal",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/laravel-websockets.git",
+                    "url": "git@github.com:bytestream/laravel-websockets.git",
                     "reference": "82cdceea967b853c81b2ddc821fed1b267f79783"
                 },
                 "dist": {
@@ -691,10 +673,7 @@
                     "laravel",
                     "laravel-websockets",
                     "php"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/laravel-websockets/tree/doctrine/dbal"
-                }
+                ]
             },
             {
                 "name": "beyondcode/laravel-websockets",
@@ -702,7 +681,7 @@
                 "version_normalized": "dev-error-logging",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/laravel-websockets.git",
+                    "url": "git@github.com:bytestream/laravel-websockets.git",
                     "reference": "1db273002c518f65ee79d5d0da76041b2fb169d4"
                 },
                 "dist": {
@@ -785,10 +764,7 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.13.0"
-                }
+                ]
             },
             {
                 "name": "beyondcode/laravel-websockets",
@@ -796,7 +772,7 @@
                 "version_normalized": "dev-upgrade/laravel-8",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/laravel-websockets.git",
+                    "url": "git@github.com:bytestream/laravel-websockets.git",
                     "reference": "bd361d760cdb832ee1991f290cdbbfb7baeeaf01"
                 },
                 "dist": {
@@ -882,10 +858,7 @@
                 "keywords": [
                     "beyondcode",
                     "laravel-websockets"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/laravel-websockets/tree/upgrade/laravel-8"
-                }
+                ]
             }
         ]
     }

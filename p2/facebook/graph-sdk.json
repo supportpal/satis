@@ -3,11 +3,11 @@
         "facebook/graph-sdk": [
             {
                 "name": "facebook/graph-sdk",
-                "version": "v4.0.0",
+                "version": "4.0.0",
                 "version_normalized": "4.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "7b33ad861c4f625e9acca4b7cb556b7a15df3f1d"
                 },
                 "dist": {
@@ -43,10 +43,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/v4.0.0"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -54,7 +51,7 @@
                 "version_normalized": "4.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "fc24820d5bee475aea0b3936ebd4c4e7f109209a"
                 },
                 "dist": {
@@ -90,10 +87,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.1"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -101,7 +95,7 @@
                 "version_normalized": "4.0.10.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "ea577e1c3e5e4be894cddcadc09e5645c9e40f1a"
                 },
                 "dist": {
@@ -142,10 +136,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.10"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -153,7 +144,7 @@
                 "version_normalized": "4.0.11.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "e2dc662c4ab4da680434b6b777d56461a9bd2563"
                 },
                 "dist": {
@@ -194,10 +185,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.11"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -205,7 +193,7 @@
                 "version_normalized": "4.0.12.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "0683838b6966446b2cbef841f01f1d447ae7a5f9"
                 },
                 "dist": {
@@ -246,10 +234,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.12"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -257,7 +242,7 @@
                 "version_normalized": "4.0.13.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "ba732909485ae25484584a11202927ef2c70acd3"
                 },
                 "dist": {
@@ -298,10 +283,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.13"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -309,7 +291,7 @@
                 "version_normalized": "4.0.14.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "566c4ea8df82ba8bdd18abf5c0b66c23fe79b3e9"
                 },
                 "dist": {
@@ -350,10 +332,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.14"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -361,7 +340,7 @@
                 "version_normalized": "4.0.15.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "ebc82667ef953b98e2eca5dfb6784d6466a185cd"
                 },
                 "dist": {
@@ -402,10 +381,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.15"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -413,7 +389,7 @@
                 "version_normalized": "4.0.16.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "66da9e0e123b6440974bfe22210a8a053e9b5599"
                 },
                 "dist": {
@@ -454,10 +430,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.16"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -465,7 +438,7 @@
                 "version_normalized": "4.0.17.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "93ea67bf68439e17433537c0e9f308fa0d2ce42c"
                 },
                 "dist": {
@@ -506,10 +479,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.17"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -517,7 +487,7 @@
                 "version_normalized": "4.0.18.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "e3f5645354f516331dc2c9c3f16428ec5a27bb21"
                 },
                 "dist": {
@@ -558,10 +528,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.18"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -569,7 +536,7 @@
                 "version_normalized": "4.0.19.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "20e17fe022659f64d347c724f2a25a1e5caa32fa"
                 },
                 "dist": {
@@ -610,10 +577,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.19"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -621,7 +585,7 @@
                 "version_normalized": "4.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "6ef64ad8116f33a750ab29cb89c6ab235d91dcfc"
                 },
                 "dist": {
@@ -657,10 +621,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.2"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -668,7 +629,7 @@
                 "version_normalized": "4.0.20.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "0c8ea23d81e09cc7e2c38b1d7f663fd5006dce84"
                 },
                 "dist": {
@@ -709,10 +670,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.20"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -720,7 +678,7 @@
                 "version_normalized": "4.0.21.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "b583b4a756e477df1d0941caccea27b5d7532f18"
                 },
                 "dist": {
@@ -761,10 +719,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.21"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -772,7 +727,7 @@
                 "version_normalized": "4.0.22.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "0017521ab1fc7843a207bea51a4bce6c966a39ff"
                 },
                 "dist": {
@@ -813,10 +768,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.22"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -824,7 +776,7 @@
                 "version_normalized": "4.0.23.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "c82611e05596622c9bd7abfa1cea1512d885c95e"
                 },
                 "dist": {
@@ -865,10 +817,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.23"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -876,7 +825,7 @@
                 "version_normalized": "4.0.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "e57eed1d3a7fcf07f58b7cb847577f465e1db0df"
                 },
                 "dist": {
@@ -912,10 +861,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.3"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -923,7 +869,7 @@
                 "version_normalized": "4.0.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "5754d4c740af29d269030a739b06e5834ff30c2f"
                 },
                 "dist": {
@@ -959,10 +905,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.4"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -970,7 +913,7 @@
                 "version_normalized": "4.0.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "6d05b49de685f824ab14af711f7ed94f39958176"
                 },
                 "dist": {
@@ -1006,10 +949,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.5"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -1017,7 +957,7 @@
                 "version_normalized": "4.0.6.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "14bdf335530345faff1d6a796189dc902a54b162"
                 },
                 "dist": {
@@ -1054,10 +994,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.6"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -1065,7 +1002,7 @@
                 "version_normalized": "4.0.7.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "b576c1e1e7df81b03480b73402176ef64973584d"
                 },
                 "dist": {
@@ -1102,10 +1039,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.7"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -1113,7 +1047,7 @@
                 "version_normalized": "4.0.8.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "4d77aa2fe57a3777040d6a60aa31fbe7465cb4ca"
                 },
                 "dist": {
@@ -1154,10 +1088,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.8"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -1165,7 +1096,7 @@
                 "version_normalized": "4.0.9.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "a20dc24e0536ba7332f79b74c5a4deb45fa998f8"
                 },
                 "dist": {
@@ -1206,10 +1137,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/4.0.9"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -1217,7 +1145,7 @@
                 "version_normalized": "5.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "b5d7e5c8b85419f9031b08a161e9030dca35f5a1"
                 },
                 "dist": {
@@ -1269,10 +1197,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.0.0"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -1280,7 +1205,7 @@
                 "version_normalized": "5.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "cc551f793492fa92ca107d596a6f1e3a62fb894c"
                 },
                 "dist": {
@@ -1332,10 +1257,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.1.0"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -1343,7 +1265,7 @@
                 "version_normalized": "5.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "8d74588f2f88980c3504333111523ca231796a72"
                 },
                 "dist": {
@@ -1395,10 +1317,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.1.1"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -1406,7 +1325,7 @@
                 "version_normalized": "5.1.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "2c42fb3002953355f12d3c6e8003a9fd5af563d9"
                 },
                 "dist": {
@@ -1458,10 +1377,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.1.2"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -1469,7 +1385,7 @@
                 "version_normalized": "5.1.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "c51f90d1c119b82c6eb952c073a1f12fd76b528b"
                 },
                 "dist": {
@@ -1521,10 +1437,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.1.3"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -1532,7 +1445,7 @@
                 "version_normalized": "5.1.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "38fd7187a6704d3ab14ded2f3a534ac4ee6f3481"
                 },
                 "dist": {
@@ -1584,10 +1497,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.1.4"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -1595,7 +1505,7 @@
                 "version_normalized": "5.1.5.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "69b363dc6a834f725590a6f8a988cec06ad3cd32"
                 },
                 "dist": {
@@ -1649,10 +1559,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.1.5"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -1660,7 +1567,7 @@
                 "version_normalized": "5.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "c60fba1fe1de62db1e0776d32fc2fb778189459c"
                 },
                 "dist": {
@@ -1714,10 +1621,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.2.0"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -1725,7 +1629,7 @@
                 "version_normalized": "5.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "830aca16655873ca39db82ea2e114ad19b2efcfd"
                 },
                 "dist": {
@@ -1779,10 +1683,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.2.1"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -1790,7 +1691,7 @@
                 "version_normalized": "5.3.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "d1bbd31e606a40d07f9f68ab424bdbe7a6d7e002"
                 },
                 "dist": {
@@ -1844,10 +1745,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.3.0"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -1855,7 +1753,7 @@
                 "version_normalized": "5.3.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "7ed1ecdae6a5b2f8b8f60e132d06594b39b16fb1"
                 },
                 "dist": {
@@ -1909,10 +1807,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.3.1"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -1920,7 +1815,7 @@
                 "version_normalized": "5.4.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "c69c3c0bb304ec1fe9400b4bc47ab641c9002eee"
                 },
                 "dist": {
@@ -1974,10 +1869,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.4.0"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -1985,7 +1877,7 @@
                 "version_normalized": "5.4.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "a5a6b6cc493d8dc417f588c7c0bdfc6396198350"
                 },
                 "dist": {
@@ -2039,10 +1931,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.4.1"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -2050,7 +1939,7 @@
                 "version_normalized": "5.4.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "2839246e971aef150650196acbb46d47e5207370"
                 },
                 "dist": {
@@ -2105,10 +1994,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.4.2"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -2116,7 +2002,7 @@
                 "version_normalized": "5.4.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "3e0f78787556375bb6ed52beaabfedbc16b5a4e8"
                 },
                 "dist": {
@@ -2171,10 +2057,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.4.3"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -2182,7 +2065,7 @@
                 "version_normalized": "5.4.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "5d0c4865e80e231d48a4571841bd018828fe58e1"
                 },
                 "dist": {
@@ -2237,10 +2120,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.4.4"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -2248,7 +2128,7 @@
                 "version_normalized": "5.5.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "93d7dc87e55a541d2e27d38f3aed40abbffdf6e1"
                 },
                 "dist": {
@@ -2303,10 +2183,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.5.0"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -2314,7 +2191,7 @@
                 "version_normalized": "5.6.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "34f5e5993c67acd264017373f23848961585dcac"
                 },
                 "dist": {
@@ -2369,10 +2246,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.6.0"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -2380,7 +2254,7 @@
                 "version_normalized": "5.6.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "2f9639c15ae043911f40ffe44080b32bac2c5280"
                 },
                 "dist": {
@@ -2435,10 +2309,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.6.1"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -2446,7 +2317,7 @@
                 "version_normalized": "5.6.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "030f8c5b9b1a6c09e71719fd638b66ea4daa2f10"
                 },
                 "dist": {
@@ -2501,10 +2372,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.6.2"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -2512,7 +2380,7 @@
                 "version_normalized": "5.6.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "90e92bd1816fe718e55184ab85910dfcf488432c"
                 },
                 "dist": {
@@ -2567,10 +2435,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.6.3"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -2578,7 +2443,7 @@
                 "version_normalized": "5.6.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "045f61d301a319575f5d982456e5d5ccb877c555"
                 },
                 "dist": {
@@ -2633,10 +2498,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.6.4"
-                }
+                ]
             },
             {
                 "name": "facebook/graph-sdk",
@@ -2644,7 +2506,7 @@
                 "version_normalized": "5.8.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
+                    "url": "git@github.com:bytestream/php-graph-sdk.git",
                     "reference": "d3b05bb4768206030218a2a98ac56cd1a56daa28"
                 },
                 "dist": {
@@ -2699,10 +2561,7 @@
                 "keywords": [
                     "facebook",
                     "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.8.0"
-                }
+                ]
             }
         ]
     }

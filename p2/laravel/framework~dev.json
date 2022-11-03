@@ -7,7 +7,7 @@
                 "version_normalized": "4.0.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/framework.git",
+                    "url": "git@github.com:bytestream/framework.git",
                     "reference": "7be5f82453edb3db13c8b85d1769481200123f1e"
                 },
                 "dist": {
@@ -110,10 +110,7 @@
                 "keywords": [
                     "framework",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/framework/tree/v4.0.11"
-                }
+                ]
             },
             {
                 "name": "laravel/framework",
@@ -121,7 +118,7 @@
                 "version_normalized": "4.1.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/framework.git",
+                    "url": "git@github.com:bytestream/framework.git",
                     "reference": "2b092f8d12eb26929687c3ecfb13b626fba6fe6d"
                 },
                 "dist": {
@@ -228,10 +225,7 @@
                 "keywords": [
                     "framework",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/framework/tree/v4.1.31"
-                }
+                ]
             },
             {
                 "name": "laravel/framework",
@@ -239,7 +233,7 @@
                 "version_normalized": "4.2.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/framework.git",
+                    "url": "git@github.com:bytestream/framework.git",
                     "reference": "7bfe4a10387d726569856bb4ceaec576e60ae7bb"
                 },
                 "dist": {
@@ -346,10 +340,7 @@
                 "keywords": [
                     "framework",
                     "laravel"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/framework/tree/v4.2.22"
-                }
+                ]
             },
             {
                 "name": "laravel/framework",
@@ -357,7 +348,7 @@
                 "version_normalized": "5.0.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/framework.git",
+                    "url": "git@github.com:bytestream/framework.git",
                     "reference": "262b813fc88810071f8282722a89eb5199cb398a"
                 },
                 "dist": {
@@ -487,7 +478,7 @@
                 "version_normalized": "5.1.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/framework.git",
+                    "url": "git@github.com:bytestream/framework.git",
                     "reference": "4501e86cdfe056b2cadd8fc502fbb9d5babb5084"
                 },
                 "dist": {
@@ -620,7 +611,7 @@
                 "version_normalized": "5.2.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/framework.git",
+                    "url": "git@github.com:bytestream/framework.git",
                     "reference": "b037252f52b3d5df3de6f01d188477bc628da606"
                 },
                 "dist": {
@@ -754,7 +745,7 @@
                 "version_normalized": "5.3.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/framework.git",
+                    "url": "git@github.com:bytestream/framework.git",
                     "reference": "5e1e5fe1492f17a248fe1c9936bcc4445795adb4"
                 },
                 "dist": {
@@ -886,7 +877,7 @@
                 "version_normalized": "8.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/framework.git",
+                    "url": "git@github.com:bytestream/framework.git",
                     "reference": "bc10631949b2dee93e71b23823ea59bfda05a09a"
                 },
                 "dist": {
@@ -1011,7 +1002,7 @@
                     "symfony/psr-http-message-bridge": "Required to use PSR-7 bridging features (^2.0).",
                     "wildbit/swiftmailer-postmark": "Required to use Postmark mail driver (^3.0)."
                 },
-                "time": "2022-11-03T13:00:26+00:00",
+                "time": "2022-11-03T12:09:11+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -1067,7 +1058,7 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/framework.git",
+                    "url": "git@github.com:bytestream/framework.git",
                     "reference": "51c813c51ce38a010e4751e408a24c82432e973e"
                 },
                 "dist": {
@@ -1204,7 +1195,7 @@
                 "version_normalized": "dev-deps",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/framework.git",
+                    "url": "git@github.com:bytestream/framework.git",
                     "reference": "8e977e9e75e2edf9df1fa06426e4d0c73d4aa421"
                 },
                 "dist": {
@@ -1293,7 +1284,7 @@
                     "symfony/dom-crawler": "Required to use most of the crawler integration testing tools (2.8.*|3.0.*).",
                     "symfony/psr-http-message-bridge": "Required to use psr7 bridging features (0.2.*)."
                 },
-                "time": "2017-06-16T20:59:54+00:00",
+                "time": "2017-06-16T20:59:07+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -1338,7 +1329,7 @@
                 "version_normalized": "dev-patch-1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/framework.git",
+                    "url": "git@github.com:bytestream/framework.git",
                     "reference": "2f24660a81c2b9eb9f203d631426029e5bb5d571"
                 },
                 "dist": {
@@ -1514,7 +1505,7 @@
                 "version_normalized": "dev-patch-2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/framework.git",
+                    "url": "git@github.com:bytestream/framework.git",
                     "reference": "379ad6b8cd600bd7282a5f623417a6971fe32c4a"
                 },
                 "dist": {
@@ -1695,7 +1686,7 @@
                 "version_normalized": "dev-php7.2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/framework.git",
+                    "url": "git@github.com:bytestream/framework.git",
                     "reference": "b1dc5bc50e0384011d562fa5dbe02616179ab4f9"
                 },
                 "dist": {
@@ -1829,7 +1820,7 @@
                 "version_normalized": "dev-test",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/framework.git",
+                    "url": "git@github.com:bytestream/framework.git",
                     "reference": "af64674f390f8fd27a9c5ea2be5dcf3eef1aa7cc"
                 },
                 "dist": {
@@ -2010,7 +2001,7 @@
                 "version_normalized": "dev-tinker",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/framework.git",
+                    "url": "git@github.com:bytestream/framework.git",
                     "reference": "25bea3743a8318de45f3ff6db309093cb8164c72"
                 },
                 "dist": {
@@ -2147,7 +2138,7 @@
                 "version_normalized": "dev-transaction-reconnect-if-lost-connection",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/bytestream/framework.git",
+                    "url": "git@github.com:bytestream/framework.git",
                     "reference": "0772f3bf9f7c3a409fb32605a94410628e71077d"
                 },
                 "dist": {
