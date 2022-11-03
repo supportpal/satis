@@ -42,6 +42,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/bytestream/php-graph-sdk.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/bytestream/framework.git"
     }
   ],
   "require": {
@@ -49,6 +53,7 @@
     "beyondcode/laravel-websockets": "*",
     "facebook/graph-sdk": "*",
     "horde/imap_client": "dev-FRAMEWORK_6_0",
+    "laravel/framework": "*",
     "phpclasses/mimeparser": "*",
     "tijsverkoyen/css-to-inline-styles": "*"
   },
