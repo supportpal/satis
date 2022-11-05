@@ -54,37 +54,42 @@
             },
             {
                 "name": "horde/stream",
-                "version": "v2.0.0alpha3",
-                "version_normalized": "2.0.0.0-alpha3",
+                "version": "v2.0.0alpha4",
+                "version_normalized": "2.0.0.0-alpha4",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Stream.git",
-                    "reference": "bbb0679816fa323a8b0b1e256113d551c32fd749"
+                    "reference": "53d9bbeb946d924efc351ddeacd876d8e86b65f7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Stream/zipball/bbb0679816fa323a8b0b1e256113d551c32fd749",
-                    "reference": "bbb0679816fa323a8b0b1e256113d551c32fd749",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream/zipball/53d9bbeb946d924efc351ddeacd876d8e86b65f7",
+                    "reference": "53d9bbeb946d924efc351ddeacd876d8e86b65f7",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "php": "^7"
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "php": "^7.4 || ^8"
                 },
                 "suggest": {
-                    "horde/stream_wrapper": "^3",
-                    "horde/test": "^3",
-                    "horde/util": "^3"
+                    "horde/stream_wrapper": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-03-13T00:00:00+00:00",
+                "time": "2022-11-04T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Stream": "lib/"
                     }
                 },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Horde\\Stream\\Test\\": "test/"
+                    }
+                },
                 "license": [
-                    "LGPL-2.1"
+                    "LGPL-2.1-only"
                 ],
                 "authors": [
                     {
@@ -96,7 +101,7 @@
                 "description": "PHP streams library",
                 "homepage": "https://www.horde.org/libraries/Horde_Stream",
                 "support": {
-                    "source": "https://github.com/maintaina-com/Stream/tree/v2.0.0alpha3"
+                    "source": "https://github.com/maintaina-com/Stream/tree/v2.0.0alpha4"
                 }
             }
         ]

@@ -8,36 +8,44 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Text_Filter.git",
-                    "reference": "b8a155e48df658469064070f5b0454871cddf98f"
+                    "reference": "04526b2ab5b79504ba4ff7ad882c5021d011707f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/b8a155e48df658469064070f5b0454871cddf98f",
-                    "reference": "b8a155e48df658469064070f5b0454871cddf98f",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/04526b2ab5b79504ba4ff7ad882c5021d011707f",
+                    "reference": "04526b2ab5b79504ba4ff7ad882c5021d011707f",
                     "shasum": ""
                 },
                 "require": {
                     "horde/exception": "^3 || dev-FRAMEWORK_6_0",
-                    "horde/horde-installer-plugin": "^2 || dev-FRAMEWORK_6_0",
                     "horde/idna": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/secret": "^3 || dev-FRAMEWORK_6_0",
                     "horde/util": "^3 || dev-FRAMEWORK_6_0",
                     "php": "^7.4 || ^8"
                 },
+                "require-dev": {
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/text_filter_jsmin": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/text_flowed": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0"
+                },
                 "suggest": {
                     "ext-tidy": "*",
-                    "horde/test": "^3 || dev-FRAMEWORK_6_0",
                     "horde/text_filter_jsmin": "^2 || dev-FRAMEWORK_6_0",
                     "horde/text_flowed": "^3 || dev-FRAMEWORK_6_0",
                     "horde/translation": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-02-24T00:00:00+00:00",
-                "type": "horde-library",
+                "time": "2022-11-04T00:00:00+00:00",
+                "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Text_Filter": "lib/"
-                    },
+                    }
+                },
+                "autoload-dev": {
                     "psr-4": {
-                        "Horde\\Text\\Filter\\": "src/"
+                        "Horde\\Text\\Filter\\Test\\": "test/"
                     }
                 },
                 "license": [

@@ -68,42 +68,53 @@
             },
             {
                 "name": "horde/text_filter",
-                "version": "v3.0.0alpha2",
-                "version_normalized": "3.0.0.0-alpha2",
+                "version": "v3.0.0alpha3",
+                "version_normalized": "3.0.0.0-alpha3",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Text_Filter.git",
-                    "reference": "c56def8f2d4e7af81782d34f661952613e5a7abe"
+                    "reference": "e3510bfa81f108ad386124f542ac89ea673d1bb2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/c56def8f2d4e7af81782d34f661952613e5a7abe",
-                    "reference": "c56def8f2d4e7af81782d34f661952613e5a7abe",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/e3510bfa81f108ad386124f542ac89ea673d1bb2",
+                    "reference": "e3510bfa81f108ad386124f542ac89ea673d1bb2",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "horde/idna": "^2",
-                    "horde/secret": "^3",
-                    "horde/util": "^3",
-                    "php": "^7"
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/idna": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/secret": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
+                    "php": "^7.4 || ^8"
+                },
+                "require-dev": {
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/text_filter_jsmin": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/text_flowed": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0"
                 },
                 "suggest": {
                     "ext-tidy": "*",
-                    "horde/test": "^3",
-                    "horde/text_filter_jsmin": "^2",
-                    "horde/text_flowed": "^3",
-                    "horde/translation": "^3"
+                    "horde/text_filter_jsmin": "^2 || dev-FRAMEWORK_6_0",
+                    "horde/text_flowed": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-03-13T00:00:00+00:00",
+                "time": "2022-11-04T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Text_Filter": "lib/"
                     }
                 },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Horde\\Text\\Filter\\Test\\": "test/"
+                    }
+                },
                 "license": [
-                    "LGPL-2.1"
+                    "LGPL-2.1-only"
                 ],
                 "authors": [
                     {
@@ -125,7 +136,7 @@
                 "description": "Text filtering and conversion library",
                 "homepage": "https://www.horde.org/libraries/Horde_Text_Filter",
                 "support": {
-                    "source": "https://github.com/maintaina-com/Text_Filter/tree/v3.0.0alpha2"
+                    "source": "https://github.com/maintaina-com/Text_Filter/tree/v3.0.0alpha3"
                 }
             }
         ]

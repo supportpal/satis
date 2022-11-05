@@ -52,35 +52,40 @@
             },
             {
                 "name": "horde/text_flowed",
-                "version": "v3.0.0alpha3",
-                "version_normalized": "3.0.0.0-alpha3",
+                "version": "v3.0.0alpha4",
+                "version_normalized": "3.0.0.0-alpha4",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Text_Flowed.git",
-                    "reference": "704d6ed2134e4536d9fe7a1e490dd368636e4c3a"
+                    "reference": "3cd69c8e8d92f7b087994da96ee6a784e51cdb53"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Text_Flowed/zipball/704d6ed2134e4536d9fe7a1e490dd368636e4c3a",
-                    "reference": "704d6ed2134e4536d9fe7a1e490dd368636e4c3a",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Flowed/zipball/3cd69c8e8d92f7b087994da96ee6a784e51cdb53",
+                    "reference": "3cd69c8e8d92f7b087994da96ee6a784e51cdb53",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/util": "^3",
-                    "php": "^7"
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
+                    "php": "^7.4 || ^8"
                 },
                 "suggest": {
-                    "horde/test": "^3"
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-03-13T00:00:00+00:00",
+                "time": "2022-11-04T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Text_Flowed": "lib/"
                     }
                 },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Horde\\Text\\Flowed\\Test\\": "test/"
+                    }
+                },
                 "license": [
-                    "LGPL-2.1"
+                    "LGPL-2.1-only"
                 ],
                 "authors": [
                     {
@@ -92,7 +97,7 @@
                 "description": "Flowed text library",
                 "homepage": "https://www.horde.org/libraries/Horde_Text_Flowed",
                 "support": {
-                    "source": "https://github.com/maintaina-com/Text_Flowed/tree/v3.0.0alpha3"
+                    "source": "https://github.com/maintaina-com/Text_Flowed/tree/v3.0.0alpha4"
                 }
             }
         ]

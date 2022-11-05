@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/ListHeaders.git",
-                    "reference": "ec99c7484533e89bd77f3d7a395dc5f8c35b0eb1"
+                    "reference": "bfdd04c7982c5f0f0f2ab307156320d0bff6c4e5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/ListHeaders/zipball/ec99c7484533e89bd77f3d7a395dc5f8c35b0eb1",
-                    "reference": "ec99c7484533e89bd77f3d7a395dc5f8c35b0eb1",
+                    "url": "https://api.github.com/repos/maintaina-com/ListHeaders/zipball/bfdd04c7982c5f0f0f2ab307156320d0bff6c4e5",
+                    "reference": "bfdd04c7982c5f0f0f2ab307156320d0bff6c4e5",
                     "shasum": ""
                 },
                 "require": {
@@ -26,11 +26,16 @@
                     "horde/mime": "^3 || dev-FRAMEWORK_6_0",
                     "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-03-13T00:00:00+00:00",
+                "time": "2022-11-04T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_ListHeaders": "lib/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Horde\\ListHeaders\\Test\\": "test/"
                     }
                 },
                 "license": [

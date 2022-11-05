@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Stream_Filter.git",
-                    "reference": "a525d74e3e098866458b6d2b5f535b581edefc87"
+                    "reference": "81045906180fcc92278ef7706295af40547b5b5f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Stream_Filter/zipball/a525d74e3e098866458b6d2b5f535b581edefc87",
-                    "reference": "a525d74e3e098866458b6d2b5f535b581edefc87",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream_Filter/zipball/81045906180fcc92278ef7706295af40547b5b5f",
+                    "reference": "81045906180fcc92278ef7706295af40547b5b5f",
                     "shasum": ""
                 },
                 "require": {
@@ -22,11 +22,16 @@
                 "suggest": {
                     "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-03-13T00:00:00+00:00",
+                "time": "2022-11-04T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Stream_Filter": "lib/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Horde\\Stream\\Filter\\Test\\": "test/"
                     }
                 },
                 "license": [

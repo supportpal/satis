@@ -55,38 +55,43 @@
             },
             {
                 "name": "horde/listheaders",
-                "version": "v2.0.0alpha3",
-                "version_normalized": "2.0.0.0-alpha3",
+                "version": "v2.0.0alpha4",
+                "version_normalized": "2.0.0.0-alpha4",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/ListHeaders.git",
-                    "reference": "0c40aada632f2f774ad4fac925b65e5c1113c4e8"
+                    "reference": "45eb5251fb4d6b0937790d74387d3a96b1afeb48"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/ListHeaders/zipball/0c40aada632f2f774ad4fac925b65e5c1113c4e8",
-                    "reference": "0c40aada632f2f774ad4fac925b65e5c1113c4e8",
+                    "url": "https://api.github.com/repos/maintaina-com/ListHeaders/zipball/45eb5251fb4d6b0937790d74387d3a96b1afeb48",
+                    "reference": "45eb5251fb4d6b0937790d74387d3a96b1afeb48",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/mail": "^3",
-                    "horde/translation": "^3",
-                    "horde/util": "^3",
-                    "php": "^7"
+                    "horde/mail": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/util": "^3 || dev-FRAMEWORK_6_0",
+                    "php": "^7.4 || ^8"
                 },
                 "suggest": {
-                    "horde/mime": "^3",
-                    "horde/test": "^3"
+                    "horde/mime": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-03-13T00:00:00+00:00",
+                "time": "2022-11-04T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_ListHeaders": "lib/"
                     }
                 },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Horde\\ListHeaders\\Test\\": "test/"
+                    }
+                },
                 "license": [
-                    "LGPL-2.1"
+                    "LGPL-2.1-only"
                 ],
                 "authors": [
                     {
@@ -98,7 +103,7 @@
                 "description": "List headers parsing library",
                 "homepage": "https://www.horde.org/libraries/Horde_ListHeaders",
                 "support": {
-                    "source": "https://github.com/maintaina-com/ListHeaders/tree/v2.0.0alpha3"
+                    "source": "https://github.com/maintaina-com/ListHeaders/tree/v2.0.0alpha4"
                 }
             }
         ]

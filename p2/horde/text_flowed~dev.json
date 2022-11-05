@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Text_Flowed.git",
-                    "reference": "658aef62d9e2efcc80f8e3956dae36ae4944d8d8"
+                    "reference": "a0286f89eb108b963de70fbe201e577af70cb7ed"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Text_Flowed/zipball/658aef62d9e2efcc80f8e3956dae36ae4944d8d8",
-                    "reference": "658aef62d9e2efcc80f8e3956dae36ae4944d8d8",
+                    "url": "https://api.github.com/repos/maintaina-com/Text_Flowed/zipball/a0286f89eb108b963de70fbe201e577af70cb7ed",
+                    "reference": "a0286f89eb108b963de70fbe201e577af70cb7ed",
                     "shasum": ""
                 },
                 "require": {
@@ -23,11 +23,16 @@
                 "suggest": {
                     "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-03-13T00:00:00+00:00",
+                "time": "2022-11-04T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
                         "Horde_Text_Flowed": "lib/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Horde\\Text\\Flowed\\Test\\": "test/"
                     }
                 },
                 "license": [
