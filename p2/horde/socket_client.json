@@ -49,27 +49,27 @@
             },
             {
                 "name": "horde/socket_client",
-                "version": "v3.0.0alpha3",
-                "version_normalized": "3.0.0.0-alpha3",
+                "version": "v3.0.0alpha4",
+                "version_normalized": "3.0.0.0-alpha4",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Socket_Client.git",
-                    "reference": "26eb544bf55a50e980bc7d22c11d839f07af7402"
+                    "reference": "dd0f81f13680118e396312a65463dd707e0045d6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Socket_Client/zipball/26eb544bf55a50e980bc7d22c11d839f07af7402",
-                    "reference": "26eb544bf55a50e980bc7d22c11d839f07af7402",
+                    "url": "https://api.github.com/repos/maintaina-com/Socket_Client/zipball/dd0f81f13680118e396312a65463dd707e0045d6",
+                    "reference": "dd0f81f13680118e396312a65463dd707e0045d6",
                     "shasum": ""
                 },
                 "require": {
-                    "horde/exception": "^3",
-                    "php": "^7"
+                    "horde/exception": "^3 || dev-FRAMEWORK_6_0",
+                    "php": "^7.4 || ^8"
                 },
                 "suggest": {
                     "ext-openssl": "*"
                 },
-                "time": "2021-03-13T00:00:00+00:00",
+                "time": "2022-11-05T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [
@@ -77,7 +77,7 @@
                     ]
                 },
                 "license": [
-                    "LGPL-2.1"
+                    "LGPL-2.1-only"
                 ],
                 "authors": [
                     {
@@ -89,7 +89,7 @@
                 "description": "Network socket client library",
                 "homepage": "https://www.horde.org",
                 "support": {
-                    "source": "https://github.com/maintaina-com/Socket_Client/tree/v3.0.0alpha3"
+                    "source": "https://github.com/maintaina-com/Socket_Client/tree/v3.0.0alpha4"
                 }
             }
         ]
