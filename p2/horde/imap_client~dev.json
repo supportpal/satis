@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Imap_Client.git",
-                    "reference": "2d6df1fc8f0a9c9a6b3e95708778f31ba17ead2d"
+                    "reference": "b5611f957284e41a38a82e8119e285467b7951d2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Imap_Client/zipball/2d6df1fc8f0a9c9a6b3e95708778f31ba17ead2d",
-                    "reference": "2d6df1fc8f0a9c9a6b3e95708778f31ba17ead2d",
+                    "url": "https://api.github.com/repos/maintaina-com/Imap_Client/zipball/b5611f957284e41a38a82e8119e285467b7951d2",
+                    "reference": "b5611f957284e41a38a82e8119e285467b7951d2",
                     "shasum": ""
                 },
                 "require": {
@@ -44,7 +44,7 @@
                     "horde/support": "^3 || dev-FRAMEWORK_6_0",
                     "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2022-10-08T00:00:00+00:00",
+                "time": "2022-12-05T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
