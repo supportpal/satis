@@ -12314,12 +12314,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Mail.git",
-                    "reference": "369206f7cba34df81b6b8d0ea824c62544e15722"
+                    "reference": "572b1b419b27c222daca8d0731de6cc1a9a64d53"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/369206f7cba34df81b6b8d0ea824c62544e15722",
-                    "reference": "369206f7cba34df81b6b8d0ea824c62544e15722",
+                    "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/572b1b419b27c222daca8d0731de6cc1a9a64d53",
+                    "reference": "572b1b419b27c222daca8d0731de6cc1a9a64d53",
                     "shasum": ""
                 },
                 "require": {
