@@ -1339,69 +1339,6 @@
             },
             {
                 "name": "facebook/graph-sdk",
-                "version": "5.1.1",
-                "version_normalized": "5.1.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
-                    "reference": "8d74588f2f88980c3504333111523ca231796a72"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/bytestream/php-graph-sdk/zipball/8d74588f2f88980c3504333111523ca231796a72",
-                    "reference": "8d74588f2f88980c3504333111523ca231796a72",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-mbstring": "*",
-                    "php": ">=5.4.0"
-                },
-                "require-dev": {
-                    "guzzlehttp/guzzle": "~5.0",
-                    "mockery/mockery": "~0.8",
-                    "phpunit/phpunit": "~4.0"
-                },
-                "suggest": {
-                    "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client"
-                },
-                "time": "2015-11-12T19:21:46+00:00",
-                "type": "library",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "5.x-dev"
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Facebook\\": "src/Facebook/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Facebook\\Tests\\": "tests/"
-                    }
-                },
-                "license": [
-                    "Facebook Platform"
-                ],
-                "authors": [
-                    {
-                        "name": "Facebook",
-                        "homepage": "https://github.com/facebook/facebook-php-sdk-v4/contributors"
-                    }
-                ],
-                "description": "Facebook SDK for PHP",
-                "homepage": "https://github.com/facebook/facebook-php-sdk-v4",
-                "keywords": [
-                    "facebook",
-                    "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.1.1"
-                }
-            },
-            {
-                "name": "facebook/graph-sdk",
                 "version": "5.1.2",
                 "version_normalized": "5.1.2.0",
                 "source": {
