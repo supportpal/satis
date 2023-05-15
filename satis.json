@@ -28,6 +28,23 @@
       ]
     },
     {
+      "type": "package",
+      "package": [
+        {
+          "name": "phpclasses/mimeparser",
+          "version": "1.88",
+          "autoload": {
+            "classmap": ["mime_parser.php", "rfc822_addresses.php"]
+          },
+          "dist": {
+            "url": "https://raw.githubusercontent.com/supportpal/satis/main/packages/phpclasses/mimeparser/mimeparser-1.88.0.zip",
+            "shasum": "ade16b932767b62b27395176753bfb78c4f235e6",
+            "type": "zip"
+          }
+        }
+      ]
+    },
+    {
       "type": "vcs",
       "url": "https://github.com/bytestream/laravel-js-localization.git"
     },
