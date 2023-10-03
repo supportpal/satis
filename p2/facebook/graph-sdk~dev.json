@@ -140,27 +140,27 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bytestream/php-graph-sdk.git",
-                    "reference": "c804d9e45074c7d471e274a43a8de30e16a33732"
+                    "reference": "c7fdc7478d0c8b85511d46cbe9e663c436dc9266"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bytestream/php-graph-sdk/zipball/c804d9e45074c7d471e274a43a8de30e16a33732",
-                    "reference": "c804d9e45074c7d471e274a43a8de30e16a33732",
+                    "url": "https://api.github.com/repos/bytestream/php-graph-sdk/zipball/c7fdc7478d0c8b85511d46cbe9e663c436dc9266",
+                    "reference": "c7fdc7478d0c8b85511d46cbe9e663c436dc9266",
                     "shasum": ""
                 },
                 "require": {
-                    "php": "^7.4 || ^8.0"
+                    "php": "^8.1"
                 },
                 "require-dev": {
                     "guzzlehttp/guzzle": "^7.0",
                     "mockery/mockery": "^1.3",
-                    "phpunit/phpunit": "^9.5"
+                    "phpunit/phpunit": "^10.0"
                 },
                 "suggest": {
                     "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client (^7.0).",
                     "paragonie/random_compat": "Provides a better CSPRNG option in PHP 5"
                 },
-                "time": "2023-03-03T17:25:16+00:00",
+                "time": "2023-10-03T14:21:03+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -196,7 +196,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.x"
+                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.9.0"
                 }
             },
             {
@@ -370,72 +370,6 @@
                 ],
                 "support": {
                     "source": "https://github.com/bytestream/php-graph-sdk/tree/4.1-dev"
-                }
-            },
-            {
-                "name": "facebook/graph-sdk",
-                "version": "dev-bytestream-patch-1",
-                "version_normalized": "dev-bytestream-patch-1",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/bytestream/php-graph-sdk.git",
-                    "reference": "76007c70fb00592342b1336991cad799c0ed595c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/bytestream/php-graph-sdk/zipball/76007c70fb00592342b1336991cad799c0ed595c",
-                    "reference": "76007c70fb00592342b1336991cad799c0ed595c",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "^8.1"
-                },
-                "require-dev": {
-                    "guzzlehttp/guzzle": "^7.0",
-                    "mockery/mockery": "^1.3",
-                    "phpunit/phpunit": "^10.0"
-                },
-                "suggest": {
-                    "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client (^7.0).",
-                    "paragonie/random_compat": "Provides a better CSPRNG option in PHP 5"
-                },
-                "time": "2023-03-03T17:26:09+00:00",
-                "type": "library",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "5.x-dev"
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Facebook\\": "src/Facebook/"
-                    },
-                    "files": [
-                        "src/Facebook/polyfills.php"
-                    ]
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Facebook\\Tests\\": "tests/"
-                    }
-                },
-                "license": [
-                    "Facebook Platform"
-                ],
-                "authors": [
-                    {
-                        "name": "Facebook",
-                        "homepage": "https://github.com/facebook/php-graph-sdk/contributors"
-                    }
-                ],
-                "description": "Facebook SDK for PHP",
-                "homepage": "https://github.com/facebook/php-graph-sdk",
-                "keywords": [
-                    "facebook",
-                    "sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/bytestream-patch-1"
                 }
             }
         ]
