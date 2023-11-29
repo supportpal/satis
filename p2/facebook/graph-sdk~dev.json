@@ -140,12 +140,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bytestream/php-graph-sdk.git",
-                    "reference": "c7fdc7478d0c8b85511d46cbe9e663c436dc9266"
+                    "reference": "27697e04aa7ee246f8363e8fc2b682cc11a777da"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bytestream/php-graph-sdk/zipball/c7fdc7478d0c8b85511d46cbe9e663c436dc9266",
-                    "reference": "c7fdc7478d0c8b85511d46cbe9e663c436dc9266",
+                    "url": "https://api.github.com/repos/bytestream/php-graph-sdk/zipball/27697e04aa7ee246f8363e8fc2b682cc11a777da",
+                    "reference": "27697e04aa7ee246f8363e8fc2b682cc11a777da",
                     "shasum": ""
                 },
                 "require": {
@@ -160,7 +160,7 @@
                     "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client (^7.0).",
                     "paragonie/random_compat": "Provides a better CSPRNG option in PHP 5"
                 },
-                "time": "2023-10-03T14:21:03+00:00",
+                "time": "2023-11-28T17:05:23+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -196,7 +196,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.9.0"
+                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.x"
                 }
             },
             {

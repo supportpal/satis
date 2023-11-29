@@ -442,30 +442,28 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bytestream/laravel-js-localization.git",
-                    "reference": "81db27c67b0e29bebf57d4aa9ec21a900c2afbe3"
+                    "reference": "21f5592ab66a1096d07b2ad77c91fd86317ee015"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bytestream/laravel-js-localization/zipball/81db27c67b0e29bebf57d4aa9ec21a900c2afbe3",
-                    "reference": "81db27c67b0e29bebf57d4aa9ec21a900c2afbe3",
+                    "url": "https://api.github.com/repos/bytestream/laravel-js-localization/zipball/21f5592ab66a1096d07b2ad77c91fd86317ee015",
+                    "reference": "21f5592ab66a1096d07b2ad77c91fd86317ee015",
                     "shasum": ""
                 },
                 "require": {
-                    "illuminate/support": "^9.0|^10.0",
-                    "php": "^8.0"
+                    "illuminate/support": "^10.0",
+                    "php": "^8.1"
                 },
                 "require-dev": {
                     "mockery/mockery": "~1.0",
-                    "orchestra/testbench": "^7.0|^8.0",
-                    "phpunit/phpunit": "^9.0|^10.0"
+                    "orchestra/testbench": "^8.0",
+                    "phpunit/phpunit": "^10.0"
                 },
-                "time": "2023-03-03T17:17:24+00:00",
+                "time": "2023-11-28T16:35:08+00:00",
                 "type": "library",
                 "extra": {
                     "component": "package",
                     "frameworks": [
-                        "Laravel 8",
-                        "Laravel 9",
                         "Laravel 10"
                     ]
                 },
@@ -497,7 +495,7 @@
                     "translation"
                 ],
                 "support": {
-                    "source": "https://github.com/bytestream/laravel-js-localization/tree/1.4.0"
+                    "source": "https://github.com/bytestream/laravel-js-localization/tree/laravel-6"
                 }
             },
             {

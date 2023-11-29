@@ -760,30 +760,28 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bytestream/laravel-js-localization.git",
-                    "reference": "81db27c67b0e29bebf57d4aa9ec21a900c2afbe3"
+                    "reference": "21f5592ab66a1096d07b2ad77c91fd86317ee015"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bytestream/laravel-js-localization/zipball/81db27c67b0e29bebf57d4aa9ec21a900c2afbe3",
-                    "reference": "81db27c67b0e29bebf57d4aa9ec21a900c2afbe3",
+                    "url": "https://api.github.com/repos/bytestream/laravel-js-localization/zipball/21f5592ab66a1096d07b2ad77c91fd86317ee015",
+                    "reference": "21f5592ab66a1096d07b2ad77c91fd86317ee015",
                     "shasum": ""
                 },
                 "require": {
-                    "illuminate/support": "^9.0|^10.0",
-                    "php": "^8.0"
+                    "illuminate/support": "^10.0",
+                    "php": "^8.1"
                 },
                 "require-dev": {
                     "mockery/mockery": "~1.0",
-                    "orchestra/testbench": "^7.0|^8.0",
-                    "phpunit/phpunit": "^9.0|^10.0"
+                    "orchestra/testbench": "^8.0",
+                    "phpunit/phpunit": "^10.0"
                 },
-                "time": "2023-03-03T17:17:24+00:00",
+                "time": "2023-11-28T16:35:08+00:00",
                 "type": "library",
                 "extra": {
                     "component": "package",
                     "frameworks": [
-                        "Laravel 8",
-                        "Laravel 9",
                         "Laravel 10"
                     ]
                 },
@@ -815,7 +813,7 @@
                     "translation"
                 ],
                 "support": {
-                    "source": "https://github.com/bytestream/laravel-js-localization/tree/1.4.0"
+                    "source": "https://github.com/bytestream/laravel-js-localization/tree/laravel-6"
                 }
             },
             "dev-supportpal-fork": {
@@ -3882,12 +3880,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bytestream/laravel-websockets.git",
-                    "reference": "607fc17a9688051b0de8293c8c1a2030e7c26189"
+                    "reference": "96bf85c328372eeb961ec946bdb483d78d3e5a0c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bytestream/laravel-websockets/zipball/607fc17a9688051b0de8293c8c1a2030e7c26189",
-                    "reference": "607fc17a9688051b0de8293c8c1a2030e7c26189",
+                    "url": "https://api.github.com/repos/bytestream/laravel-websockets/zipball/96bf85c328372eeb961ec946bdb483d78d3e5a0c",
+                    "reference": "96bf85c328372eeb961ec946bdb483d78d3e5a0c",
                     "shasum": ""
                 },
                 "require": {
@@ -3912,7 +3910,7 @@
                     "orchestra/testbench": "^4.0|^5.0|^6.0|^7.0|^8.0",
                     "phpunit/phpunit": "^8.0|^9.0|^10.0"
                 },
-                "time": "2023-09-13T09:28:05+00:00",
+                "time": "2023-11-28T16:48:21+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -3966,7 +3964,7 @@
                     "laravel-websockets"
                 ],
                 "support": {
-                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.15.1"
+                    "source": "https://github.com/bytestream/laravel-websockets/tree/1.x"
                 }
             },
             "2.0.0-beta.1": {
@@ -11377,12 +11375,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bytestream/php-graph-sdk.git",
-                    "reference": "c7fdc7478d0c8b85511d46cbe9e663c436dc9266"
+                    "reference": "27697e04aa7ee246f8363e8fc2b682cc11a777da"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bytestream/php-graph-sdk/zipball/c7fdc7478d0c8b85511d46cbe9e663c436dc9266",
-                    "reference": "c7fdc7478d0c8b85511d46cbe9e663c436dc9266",
+                    "url": "https://api.github.com/repos/bytestream/php-graph-sdk/zipball/27697e04aa7ee246f8363e8fc2b682cc11a777da",
+                    "reference": "27697e04aa7ee246f8363e8fc2b682cc11a777da",
                     "shasum": ""
                 },
                 "require": {
@@ -11397,7 +11395,7 @@
                     "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client (^7.0).",
                     "paragonie/random_compat": "Provides a better CSPRNG option in PHP 5"
                 },
-                "time": "2023-10-03T14:21:03+00:00",
+                "time": "2023-11-28T17:05:23+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -11433,7 +11431,7 @@
                     "sdk"
                 ],
                 "support": {
-                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.9.0"
+                    "source": "https://github.com/bytestream/php-graph-sdk/tree/5.x"
                 }
             },
             "dev-master": {
@@ -16108,12 +16106,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bytestream/CssToInlineStyles.git",
-                    "reference": "a20c25faa45a3d6bd23f6b11e3b53e949f55a013"
+                    "reference": "a6eb8096787a2d81e9d5a6dc3519144833806783"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bytestream/CssToInlineStyles/zipball/a20c25faa45a3d6bd23f6b11e3b53e949f55a013",
-                    "reference": "a20c25faa45a3d6bd23f6b11e3b53e949f55a013",
+                    "url": "https://api.github.com/repos/bytestream/CssToInlineStyles/zipball/a6eb8096787a2d81e9d5a6dc3519144833806783",
+                    "reference": "a6eb8096787a2d81e9d5a6dc3519144833806783",
                     "shasum": ""
                 },
                 "require": {
@@ -16129,7 +16127,7 @@
                 "suggest": {
                     "masterminds/html5": "To use a HTML5 parser instead of native DOM parser."
                 },
-                "time": "2023-10-03T15:15:41+00:00",
+                "time": "2023-11-28T17:12:57+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -16159,7 +16157,7 @@
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
                 "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
                 "support": {
-                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/2.2.9"
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/fork"
                 }
             },
             "dev-html-comments": {

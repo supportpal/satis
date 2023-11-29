@@ -60,12 +60,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bytestream/CssToInlineStyles.git",
-                    "reference": "a20c25faa45a3d6bd23f6b11e3b53e949f55a013"
+                    "reference": "a6eb8096787a2d81e9d5a6dc3519144833806783"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bytestream/CssToInlineStyles/zipball/a20c25faa45a3d6bd23f6b11e3b53e949f55a013",
-                    "reference": "a20c25faa45a3d6bd23f6b11e3b53e949f55a013",
+                    "url": "https://api.github.com/repos/bytestream/CssToInlineStyles/zipball/a6eb8096787a2d81e9d5a6dc3519144833806783",
+                    "reference": "a6eb8096787a2d81e9d5a6dc3519144833806783",
                     "shasum": ""
                 },
                 "require": {
@@ -81,7 +81,7 @@
                 "suggest": {
                     "masterminds/html5": "To use a HTML5 parser instead of native DOM parser."
                 },
-                "time": "2023-10-03T15:15:41+00:00",
+                "time": "2023-11-28T17:12:57+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -111,7 +111,7 @@
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
                 "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
                 "support": {
-                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/2.2.9"
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/fork"
                 }
             },
             {
