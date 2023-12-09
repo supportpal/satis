@@ -60,12 +60,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bytestream/CssToInlineStyles.git",
-                    "reference": "a6eb8096787a2d81e9d5a6dc3519144833806783"
+                    "reference": "c5e4ba3ca3fee19dbdbf5fb8adb3aa17ec1d9a1b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bytestream/CssToInlineStyles/zipball/a6eb8096787a2d81e9d5a6dc3519144833806783",
-                    "reference": "a6eb8096787a2d81e9d5a6dc3519144833806783",
+                    "url": "https://api.github.com/repos/bytestream/CssToInlineStyles/zipball/c5e4ba3ca3fee19dbdbf5fb8adb3aa17ec1d9a1b",
+                    "reference": "c5e4ba3ca3fee19dbdbf5fb8adb3aa17ec1d9a1b",
                     "shasum": ""
                 },
                 "require": {
@@ -81,7 +81,7 @@
                 "suggest": {
                     "masterminds/html5": "To use a HTML5 parser instead of native DOM parser."
                 },
-                "time": "2023-11-28T17:12:57+00:00",
+                "time": "2023-12-08T13:46:52+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
