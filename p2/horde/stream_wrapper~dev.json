@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Stream_Wrapper.git",
-                    "reference": "c595cef0d787d2a41196941b87bc83a7dc4d1740"
+                    "reference": "178d318d33c73a46b765603717572685faab3cc2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Stream_Wrapper/zipball/c595cef0d787d2a41196941b87bc83a7dc4d1740",
-                    "reference": "c595cef0d787d2a41196941b87bc83a7dc4d1740",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream_Wrapper/zipball/178d318d33c73a46b765603717572685faab3cc2",
+                    "reference": "178d318d33c73a46b765603717572685faab3cc2",
                     "shasum": ""
                 },
                 "require": {
@@ -26,7 +26,7 @@
                 "suggest": {
                     "horde/log": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-11-19T00:00:00+00:00",
+                "time": "2024-11-07T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {

@@ -56,30 +56,30 @@
             },
             {
                 "name": "horde/stream_wrapper",
-                "version": "v3.0.0alpha4",
-                "version_normalized": "3.0.0.0-alpha4",
+                "version": "v3.0.0alpha5",
+                "version_normalized": "3.0.0.0-alpha5",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/maintaina-com/Stream_Wrapper.git",
-                    "reference": "330384cc85b120e0ee7238ed1f1c5f59d90b0b58"
+                    "reference": "d3f97be1f394a7fa8c2f17ed7fd7076765c83121"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/maintaina-com/Stream_Wrapper/zipball/330384cc85b120e0ee7238ed1f1c5f59d90b0b58",
-                    "reference": "330384cc85b120e0ee7238ed1f1c5f59d90b0b58",
+                    "url": "https://api.github.com/repos/maintaina-com/Stream_Wrapper/zipball/d3f97be1f394a7fa8c2f17ed7fd7076765c83121",
+                    "reference": "d3f97be1f394a7fa8c2f17ed7fd7076765c83121",
                     "shasum": ""
                 },
                 "require": {
                     "php": "^7.4 || ^8"
                 },
                 "require-dev": {
-                    "horde/log": "^3",
-                    "horde/test": "^3"
+                    "horde/log": "^3 || dev-FRAMEWORK_6_0",
+                    "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
                 "suggest": {
-                    "horde/log": "^3"
+                    "horde/log": "^3 || dev-FRAMEWORK_6_0"
                 },
-                "time": "2021-11-19T00:00:00+00:00",
+                "time": "2024-11-07T00:00:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -112,7 +112,7 @@
                 "description": "PHP stream wrappers library",
                 "homepage": "https://www.horde.org/libraries/Horde_Stream_Wrapper",
                 "support": {
-                    "source": "https://github.com/maintaina-com/Stream_Wrapper/tree/v3.0.0alpha4"
+                    "source": "https://github.com/maintaina-com/Stream_Wrapper/tree/v3.0.0alpha5"
                 }
             }
         ]
