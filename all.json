@@ -16973,6 +16973,221 @@
                     "source": "https://github.com/bytestream/CssToInlineStyles/tree/phpstan"
                 }
             }
+        },
+        "violet/streaming-json-encoder": {
+            "v1.1.6": {
+                "name": "violet/streaming-json-encoder",
+                "version": "v1.1.6",
+                "version_normalized": "1.1.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/streaming-json-encoder.git",
+                    "reference": "54b95f9a9fe02a1340dda5e8cd2326df7d36488e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/streaming-json-encoder/zipball/54b95f9a9fe02a1340dda5e8cd2326df7d36488e",
+                    "reference": "54b95f9a9fe02a1340dda5e8cd2326df7d36488e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.3.0",
+                    "psr/http-message": "^2.0"
+                },
+                "time": "2025-06-20T14:59:16+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Violet\\StreamingJsonEncoder\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Violet\\StreamingJsonEncoder\\": "tests/tests/",
+                        "Violet\\StreamingJsonEncoder\\Test\\": "tests/classes/"
+                    }
+                },
+                "scripts": {
+                    "ci-all": [
+                        "composer test -- --do-not-cache-result",
+                        "composer phpcs -- --no-cache",
+                        "composer php-cs-fixer -- --dry-run --diff --using-cache=no",
+                        "composer normalize --dry-run"
+                    ],
+                    "php-cs-fixer": [
+                        "php-cs-fixer fix -v"
+                    ],
+                    "phpcs": [
+                        "phpcs -p"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Riikka Kalliomäki",
+                        "email": "riikka.kalliomaki@gmail.com",
+                        "homepage": "http://riimu.net"
+                    }
+                ],
+                "description": "Library for iteratively encoding large JSON documents piece by piece",
+                "homepage": "http://violet.riimu.net",
+                "keywords": [
+                    "encoder",
+                    "json",
+                    "psr-7",
+                    "streaming"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/streaming-json-encoder/tree/v1.1.6"
+                }
+            },
+            "dev-main": {
+                "name": "violet/streaming-json-encoder",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/streaming-json-encoder.git",
+                    "reference": "54b95f9a9fe02a1340dda5e8cd2326df7d36488e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/streaming-json-encoder/zipball/54b95f9a9fe02a1340dda5e8cd2326df7d36488e",
+                    "reference": "54b95f9a9fe02a1340dda5e8cd2326df7d36488e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.3.0",
+                    "psr/http-message": "^2.0"
+                },
+                "time": "2025-06-20T14:59:16+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Violet\\StreamingJsonEncoder\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Violet\\StreamingJsonEncoder\\": "tests/tests/",
+                        "Violet\\StreamingJsonEncoder\\Test\\": "tests/classes/"
+                    }
+                },
+                "scripts": {
+                    "ci-all": [
+                        "composer test -- --do-not-cache-result",
+                        "composer phpcs -- --no-cache",
+                        "composer php-cs-fixer -- --dry-run --diff --using-cache=no",
+                        "composer normalize --dry-run"
+                    ],
+                    "php-cs-fixer": [
+                        "php-cs-fixer fix -v"
+                    ],
+                    "phpcs": [
+                        "phpcs -p"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Riikka Kalliomäki",
+                        "email": "riikka.kalliomaki@gmail.com",
+                        "homepage": "http://riimu.net"
+                    }
+                ],
+                "description": "Library for iteratively encoding large JSON documents piece by piece",
+                "homepage": "http://violet.riimu.net",
+                "keywords": [
+                    "encoder",
+                    "json",
+                    "psr-7",
+                    "streaming"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/streaming-json-encoder/tree/v1.1.6"
+                }
+            },
+            "dev-php84": {
+                "name": "violet/streaming-json-encoder",
+                "version": "dev-php84",
+                "version_normalized": "dev-php84",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/streaming-json-encoder.git",
+                    "reference": "cdc0e014884481bfcaf888d89e5077d6a2281d83"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/streaming-json-encoder/zipball/cdc0e014884481bfcaf888d89e5077d6a2281d83",
+                    "reference": "cdc0e014884481bfcaf888d89e5077d6a2281d83",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.3.0",
+                    "psr/http-message": "^2.0"
+                },
+                "time": "2025-06-20T14:44:35+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Violet\\StreamingJsonEncoder\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Violet\\StreamingJsonEncoder\\": "tests/tests/",
+                        "Violet\\StreamingJsonEncoder\\Test\\": "tests/classes/"
+                    }
+                },
+                "scripts": {
+                    "ci-all": [
+                        "composer test -- --do-not-cache-result",
+                        "composer phpcs -- --no-cache",
+                        "composer php-cs-fixer -- --dry-run --diff --using-cache=no",
+                        "composer normalize --dry-run"
+                    ],
+                    "php-cs-fixer": [
+                        "php-cs-fixer fix -v"
+                    ],
+                    "phpcs": [
+                        "phpcs -p"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Riikka Kalliomäki",
+                        "email": "riikka.kalliomaki@gmail.com",
+                        "homepage": "http://riimu.net"
+                    }
+                ],
+                "description": "Library for iteratively encoding large JSON documents piece by piece",
+                "homepage": "http://violet.riimu.net",
+                "keywords": [
+                    "encoder",
+                    "json",
+                    "psr-7",
+                    "streaming"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/streaming-json-encoder/tree/php84"
+                }
+            }
         }
     }
 }
