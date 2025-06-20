@@ -59,7 +59,11 @@
     {
       "type": "vcs",
       "url": "https://github.com/bytestream/php-graph-sdk.git"
-    }
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/bytestream/streaming-json-encoder"
+    },
   ],
   "require": {
     "andywer/js-localization": "*",
@@ -67,7 +71,8 @@
     "facebook/graph-sdk": "*",
     "horde/imap_client": "dev-FRAMEWORK_6_0",
     "phpclasses/mimeparser": "*",
-    "tijsverkoyen/css-to-inline-styles": "*"
+    "tijsverkoyen/css-to-inline-styles": "*",
+    "violet/streaming-json-encoder": "*"
   },
   "require-all": false,
   "require-dependencies": true,
