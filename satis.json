@@ -63,7 +63,7 @@
     {
       "type": "vcs",
       "url": "https://github.com/bytestream/streaming-json-encoder"
-    },
+    }
   ],
   "require": {
     "andywer/js-localization": "*",
