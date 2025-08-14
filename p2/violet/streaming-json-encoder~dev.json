@@ -8,19 +8,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bytestream/streaming-json-encoder.git",
-                    "reference": "54b95f9a9fe02a1340dda5e8cd2326df7d36488e"
+                    "reference": "25e78bb9380eb3585c2c44937a8406a2426c173b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bytestream/streaming-json-encoder/zipball/54b95f9a9fe02a1340dda5e8cd2326df7d36488e",
-                    "reference": "54b95f9a9fe02a1340dda5e8cd2326df7d36488e",
+                    "url": "https://api.github.com/repos/bytestream/streaming-json-encoder/zipball/25e78bb9380eb3585c2c44937a8406a2426c173b",
+                    "reference": "25e78bb9380eb3585c2c44937a8406a2426c173b",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=8.3.0",
-                    "psr/http-message": "^2.0"
+                    "psr/http-message": "^1.0 || ^2.0"
                 },
-                "time": "2025-06-20T14:59:16+00:00",
+                "time": "2025-08-14T13:51:55+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -69,7 +69,7 @@
                     "streaming"
                 ],
                 "support": {
-                    "source": "https://github.com/bytestream/streaming-json-encoder/tree/v1.1.6"
+                    "source": "https://github.com/bytestream/streaming-json-encoder/tree/v1.1.7"
                 }
             },
             {
@@ -141,6 +141,77 @@
                 ],
                 "support": {
                     "source": "https://github.com/bytestream/streaming-json-encoder/tree/php84"
+                }
+            },
+            {
+                "name": "violet/streaming-json-encoder",
+                "version": "dev-psr-http-message",
+                "version_normalized": "dev-psr-http-message",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/streaming-json-encoder.git",
+                    "reference": "24099862e3de04d5b5e41a9c7b96ccd551e96f9f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/streaming-json-encoder/zipball/24099862e3de04d5b5e41a9c7b96ccd551e96f9f",
+                    "reference": "24099862e3de04d5b5e41a9c7b96ccd551e96f9f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.3.0",
+                    "psr/http-message": "^1.0 || ^2.0"
+                },
+                "time": "2025-08-14T13:50:06+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Violet\\StreamingJsonEncoder\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Violet\\StreamingJsonEncoder\\": "tests/tests/",
+                        "Violet\\StreamingJsonEncoder\\Test\\": "tests/classes/"
+                    }
+                },
+                "scripts": {
+                    "ci-all": [
+                        "composer test -- --do-not-cache-result",
+                        "composer phpcs -- --no-cache",
+                        "composer php-cs-fixer -- --dry-run --diff --using-cache=no",
+                        "composer normalize --dry-run"
+                    ],
+                    "php-cs-fixer": [
+                        "php-cs-fixer fix -v"
+                    ],
+                    "phpcs": [
+                        "phpcs -p"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Riikka Kalliomäki",
+                        "email": "riikka.kalliomaki@gmail.com",
+                        "homepage": "http://riimu.net"
+                    }
+                ],
+                "description": "Library for iteratively encoding large JSON documents piece by piece",
+                "homepage": "http://violet.riimu.net",
+                "keywords": [
+                    "encoder",
+                    "json",
+                    "psr-7",
+                    "streaming"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/streaming-json-encoder/tree/psr-http-message"
                 }
             }
         ]
