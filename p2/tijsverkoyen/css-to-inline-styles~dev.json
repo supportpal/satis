@@ -60,19 +60,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bytestream/CssToInlineStyles.git",
-                    "reference": "b5a05327787c1350d8dc54ee507623974f925b16"
+                    "reference": "1e352c62ea536b08e0b2e6c55a00902f456966bc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bytestream/CssToInlineStyles/zipball/b5a05327787c1350d8dc54ee507623974f925b16",
-                    "reference": "b5a05327787c1350d8dc54ee507623974f925b16",
+                    "url": "https://api.github.com/repos/bytestream/CssToInlineStyles/zipball/1e352c62ea536b08e0b2e6c55a00902f456966bc",
+                    "reference": "1e352c62ea536b08e0b2e6c55a00902f456966bc",
                     "shasum": ""
                 },
                 "require": {
                     "ext-dom": "*",
                     "ext-libxml": "*",
                     "php": "^7.4 || ^8.0",
-                    "symfony/css-selector": "^5.4 || ^6.0 || ^7.0"
+                    "symfony/css-selector": "^5.4 || ^6.0 || ^7.0 || ^8.0"
                 },
                 "require-dev": {
                     "masterminds/html5": "^2.7",
@@ -83,7 +83,7 @@
                 "suggest": {
                     "masterminds/html5": "To use a HTML5 parser instead of native DOM parser."
                 },
-                "time": "2025-06-03T15:51:10+00:00",
+                "time": "2026-02-05T11:15:05+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -113,7 +113,7 @@
                 "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
                 "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
                 "support": {
-                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/2.2.11"
+                    "source": "https://github.com/bytestream/CssToInlineStyles/tree/2.3.0"
                 }
             },
             {
