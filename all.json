@@ -447,6 +447,71 @@
                     "source": "https://github.com/bytestream/laravel-js-localization/tree/1.6.0"
                 }
             },
+            "1.7.0": {
+                "name": "andywer/js-localization",
+                "version": "1.7.0",
+                "version_normalized": "1.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bytestream/laravel-js-localization.git",
+                    "reference": "122c12d001ea29befec2f9a39b22fcf848417f93"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bytestream/laravel-js-localization/zipball/122c12d001ea29befec2f9a39b22fcf848417f93",
+                    "reference": "122c12d001ea29befec2f9a39b22fcf848417f93",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/support": "^11.0|^12.0|^13.0",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "mockery/mockery": "~1.0",
+                    "orchestra/testbench": "^9.0|^10.0|^11.0",
+                    "phpunit/phpunit": "^12.0"
+                },
+                "time": "2026-03-22T11:47:29+00:00",
+                "type": "library",
+                "extra": {
+                    "component": "package",
+                    "frameworks": [
+                        "Laravel 11",
+                        "Laravel 12",
+                        "Laravel 13"
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JsLocalization\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/TestCase.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Andy Wermke",
+                        "email": "andy@dev.next-step-software.com"
+                    }
+                ],
+                "description": "Laravel package to provide localizations to the Javascript code.",
+                "keywords": [
+                    "javascript",
+                    "laravel",
+                    "localization",
+                    "messages",
+                    "translation"
+                ],
+                "support": {
+                    "source": "https://github.com/bytestream/laravel-js-localization/tree/1.7.0"
+                }
+            },
             "dev-develop": {
                 "name": "andywer/js-localization",
                 "version": "dev-develop",
@@ -952,30 +1017,31 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bytestream/laravel-js-localization.git",
-                    "reference": "89c9e5109c88ad7c96afafef1a835234589c54e8"
+                    "reference": "122c12d001ea29befec2f9a39b22fcf848417f93"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bytestream/laravel-js-localization/zipball/89c9e5109c88ad7c96afafef1a835234589c54e8",
-                    "reference": "89c9e5109c88ad7c96afafef1a835234589c54e8",
+                    "url": "https://api.github.com/repos/bytestream/laravel-js-localization/zipball/122c12d001ea29befec2f9a39b22fcf848417f93",
+                    "reference": "122c12d001ea29befec2f9a39b22fcf848417f93",
                     "shasum": ""
                 },
                 "require": {
-                    "illuminate/support": "^11.0|^12.0",
+                    "illuminate/support": "^11.0|^12.0|^13.0",
                     "php": "^8.2"
                 },
                 "require-dev": {
                     "mockery/mockery": "~1.0",
-                    "orchestra/testbench": "^9.0|^10.0",
+                    "orchestra/testbench": "^9.0|^10.0|^11.0",
                     "phpunit/phpunit": "^12.0"
                 },
-                "time": "2025-06-03T12:51:39+00:00",
+                "time": "2026-03-22T11:47:29+00:00",
                 "type": "library",
                 "extra": {
                     "component": "package",
                     "frameworks": [
                         "Laravel 11",
-                        "Laravel 12"
+                        "Laravel 12",
+                        "Laravel 13"
                     ]
                 },
                 "autoload": {
@@ -1006,7 +1072,7 @@
                     "translation"
                 ],
                 "support": {
-                    "source": "https://github.com/bytestream/laravel-js-localization/tree/1.6.0"
+                    "source": "https://github.com/bytestream/laravel-js-localization/tree/1.7.0"
                 }
             },
             "dev-supportpal-fork": {
