@@ -8,5 +8,10 @@
             "name": "Kieran Brahney",
             "email": "kieran@supportpal.com"
         }
-    ]
+    ],
+    "config": {
+        "allow-plugins": {
+            "composer/satis": true
+        }
+    }
 }
