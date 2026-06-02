@@ -27,6 +27,7 @@
                     "horde/log": "^3 || dev-FRAMEWORK_6_0"
                 },
                 "time": "2024-11-07T00:00:00+00:00",
+                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-0": {

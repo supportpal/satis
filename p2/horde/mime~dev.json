@@ -42,6 +42,7 @@
                     "pear/net_dns2": "^1.5.3"
                 },
                 "time": "2022-10-09T00:00:00+00:00",
+                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-0": {

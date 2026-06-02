@@ -33,6 +33,7 @@
                     "pear/net_smtp": "^1.9"
                 },
                 "time": "2022-10-08T00:00:00+00:00",
+                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-0": {

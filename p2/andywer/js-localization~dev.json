@@ -524,6 +524,7 @@
                     "phpunit/phpunit": "^12.0"
                 },
                 "time": "2026-03-22T11:47:29+00:00",
+                "default-branch": true,
                 "type": "library",
                 "extra": {
                     "component": "package",

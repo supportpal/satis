@@ -2,8 +2,34 @@
     "packages": [],
     "includes": {
         "all.json": {
-            "sha1": "31c5fedc943a6f9c56190439483c6fa9ca10812a"
+            "sha1": "afddbbfa8b28e3e18a0092e316eb9944dc3416c5"
         }
     },
-    "metadata-url": "/satis/p2/%package%.json"
+    "metadata-url": "/satis/p2/%package%.json",
+    "available-packages": [
+        "andywer/js-localization",
+        "beyondcode/laravel-websockets",
+        "facebook/graph-sdk",
+        "horde/crypt_blowfish",
+        "horde/exception",
+        "horde/horde-installer-plugin",
+        "horde/idna",
+        "horde/imap_client",
+        "horde/listheaders",
+        "horde/mail",
+        "horde/mime",
+        "horde/secret",
+        "horde/socket_client",
+        "horde/stream",
+        "horde/stream_filter",
+        "horde/stream_wrapper",
+        "horde/support",
+        "horde/text_filter",
+        "horde/text_flowed",
+        "horde/translation",
+        "horde/util",
+        "phpclasses/mimeparser",
+        "tijsverkoyen/css-to-inline-styles",
+        "violet/streaming-json-encoder"
+    ]
 }

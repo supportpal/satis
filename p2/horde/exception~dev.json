@@ -26,6 +26,7 @@
                     "pear/pear": "*"
                 },
                 "time": "2021-11-24T00:00:00+00:00",
+                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-0": {

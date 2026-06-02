@@ -29,6 +29,7 @@
                     "horde/test": "^3 || dev-FRAMEWORK_6_0"
                 },
                 "time": "2022-10-09T00:00:00+00:00",
+                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-0": {

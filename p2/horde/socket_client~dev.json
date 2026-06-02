@@ -24,6 +24,7 @@
                     "ext-openssl": "*"
                 },
                 "time": "2022-11-05T00:00:00+00:00",
+                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "classmap": [
