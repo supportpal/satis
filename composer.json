@@ -1,12 +1,17 @@
 {
     "name": "supportpal/satis",
     "require": {
-        "composer/satis": "dev-master"
+        "composer/satis": "4.x-dev"
     },
     "authors": [
         {
             "name": "Kieran Brahney",
             "email": "kieran@supportpal.com"
         }
-    ]
+    ],
+    "config": {
+        "allow-plugins": {
+            "composer/satis": true
+        }
+    }
 }
